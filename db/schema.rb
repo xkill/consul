@@ -137,8 +137,10 @@ ActiveRecord::Schema.define(version: 20180924071722) do
   create_table "budget_ballots", force: :cascade do |t|
     t.integer  "user_id"
     t.integer  "budget_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",                     null: false
+    t.datetime "updated_at",                     null: false
+    t.boolean  "physical",       default: false
+    t.integer  "poll_ballot_id"
   end
 
   create_table "budget_groups", force: :cascade do |t|
@@ -825,6 +827,14 @@ ActiveRecord::Schema.define(version: 20180924071722) do
   add_index "poll_answers", ["author_id"], name: "index_poll_answers_on_author_id", using: :btree
   add_index "poll_answers", ["question_id", "answer"], name: "index_poll_answers_on_question_id_and_answer", using: :btree
   add_index "poll_answers", ["question_id"], name: "index_poll_answers_on_question_id", using: :btree
+
+  create_table "poll_ballots", force: :cascade do |t|
+    t.integer  "ballot_sheet_id"
+    t.text     "data"
+    t.integer  "external_id"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
 
   create_table "poll_booth_assignments", force: :cascade do |t|
     t.integer  "booth_id"
