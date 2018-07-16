@@ -71,6 +71,7 @@ de:
         section_footer:
           title: Hilfe zu Gesetzgebungsverfahren
           description: Nehmen Sie an Debatten und Verfahren teil, bevor eine Verordnung oder eine kommunale Handlung genehmigt wird. Ihre Meinung wird vom Stadtrat berücksichtigt.
+          help_text_1: "In Beteiligungsprozessen bietet der Stadtrat den Bürgern die Möglichkeit an der Ausarbeitung und Änderungen von Verordnungen mitzuwirken, die Stadt zu beeinflussen und die Möglichkeit ihre Meinung zu spezifischen, in Planung stehenden, Aktionen zu äußern."
       phase_not_open:
         not_open: Diese Phase ist noch nicht geöffnet
       phase_empty:
