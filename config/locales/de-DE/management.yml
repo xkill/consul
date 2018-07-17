@@ -17,6 +17,7 @@ de:
           reset_email_send: E-Mail korrekt gesendet.
           reseted: Passwort erfolgreich zurückgesetzt
           random: Zufälliges Passwort generieren
+          save: Kennwort speichern
           print: Passwort drucken
           print_help: Sie können das Passwort drucken, wenn es gespeichert ist.
     account_info:
@@ -26,6 +27,7 @@ de:
       email_label: 'E-Mail:'
       identified_label: 'Identifizieren als:'
       username_label: 'Benutzername:'
+    check: Dokument überprüfen
     dashboard:
       index:
         title: Verwaltung
@@ -38,6 +40,7 @@ de:
       link: CONSUL
       in_census_has_following_permissions: 'Der Benutzer kann auf der Seite mit folgenden Rechten partizipieren:'
       not_in_census: Dieses Dokument ist nicht registriert.
+      not_in_census_info: 'Bürger außerhalb der Volkszählung können auf der Webseite mit folgenden Rechten teilnehmen:'
       please_check_account_data: Bitte überprüfen Sie, dass die oben angegebenen Kontodaten korrekt sind.
       title: Benutzerverwaltung
       under_age: "Sie erfüllen nicht das erforderliche Alter, um Ihr Konto verifizieren."
