@@ -29,6 +29,8 @@ nl:
         target_url: Link
         post_started_at: Geplaatst op
         post_ended_at: Gesloten op
+        sections:
+          debates: Discussies
       edit:
         editing: Banner wijzigen
         form:
