@@ -127,6 +127,7 @@ val:
         milestone_status_changed: Estat de la proposta canviat a
         author: Autor
         project_unfeasible_html: 'Esta proposta <strong>ha sigut marcada com inviable</strong> i no passarà a la fase de votació.'
+        project_selected_html: 'Este projecte d''inversió <strong>ha sigut seleccionat</strong> per a la fase de votació.'
         project_winner: 'Proposta d''inversió guanyadora'
         project_not_selected_html: 'Esta proposta <strong>no ha sigut seleccionada</strong> per a la fase de votació.'
       wrong_price_format: Solament pot incloure caràcters numèrics
