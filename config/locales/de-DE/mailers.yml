@@ -64,6 +64,7 @@ de:
       share: "Teilen Sie Ihr Projekt"
     budget_investment_unfeasible:
       hi: "Liebe/r Benutzer/in,"
+      new_html: "Bitte arbeiten Sie, für all diese, eine <strong>neue Investition</strong> aus, die an die Konditionen dieses Prozesses angepasst sind. Sie können dies auf folgendem Link tun: %{url}."
       new_href: "neues Investitionsprojekt"
       sincerely: "Mit freundlichen Grüßen"
       signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
