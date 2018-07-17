@@ -1,0 +1,22 @@
+pl:
+  verification:
+    email:
+      show:
+        flash:
+          success: Jesteś zweryfikowanym użytkownikiem.
+    letter:
+      errors:
+        incorrect_code: Nieprawidłowy kod weryfikacyjny
+      update:
+        flash:
+          success: Prawidłowy kod weryfikacyjny. Twoje konto zostało zweryfikowane.
+    redirect_notices:
+      email_already_sent: Wysłaliśmy już maila z linkiem potwierdzającym. Jeśli nie otrzymałeś wiadomości e-mail, możesz poprosić o jej ponowne przesłanie.
+    residence:
+      new:
+        date_of_birth: Data urodzenia
+        document_number: Numer dokumentu
+        document_type:
+          passport: Paszport
+        document_type_label: Typ dokumentu
+    user_permission_support_proposal: Popieraj propozycje*
