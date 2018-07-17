@@ -22,7 +22,7 @@ de:
       official_position_badge_label: Kennzeichen des Benutzertyps anzeigen
       recommendations: Empfehlungen
       show_debates_recommendations: Debatten-Empfehlungen anzeigen
-      show_proposals_recommendations: Vorschlags-Empfehlungen anzeigen
+      show_proposals_recommendations: Antrags-Empfehlungen anzeigen
       title: Mein Konto
       user_permission_debates: An Diskussion teilnehmen
       user_permission_info: Mit Ihrem Konto können Sie...
@@ -368,9 +368,10 @@ de:
       recommendations:
         without_results: Es gibt keine Vorschläge, die Ihren Interessen entsprechen
         without_interests: Folgen Sie Vorschlägen, sodass wir Ihnen Empfehlungen geben können
-        disable: "Vorschlags-Empfehlungen werden nicht mehr angezeigt, wenn sie diese ablehnen. Sie können auf der 'Mein Benutzerkonto'-Seite wieder aktiviert werden"
+        disable: "Antrags-Empfehlungen werden nicht mehr angezeigt, wenn sie diese ablehnen. Sie können auf der 'Mein Benutzerkonto'-Seite wieder aktiviert werden"
         actions:
-          success: "Vorschlags-Empfehlungen sind jetzt deaktiviert für dieses Benutzerkonto"
+          success: "Antrags-Empfehlungen sind jetzt deaktiviert für dieses Benutzerkonto"
+          error: "Ein Fehler ist aufgetreten. Bitte gehen Sie zur 'Ihr Benutzerkonto'-Seite um Antrags-Empfehlungen manuell abzuschalten"
       retired_proposals: Vorschläge im Ruhezustand
       retired_proposals_link: "Vorschläge vom Autor zurückgezogen"
       retired_links:
@@ -641,6 +642,10 @@ de:
       title: Ansichtsmodus
       cards: Karten
       list: Liste
+    recommended_index:
+      title: Empfehlungen
+      see_more: Weitere Empfehlungen
+      hide: Empfehlungen ausblenden
   social:
     blog: "%{org} Blog"
     facebook: "%{org} Facebook"
