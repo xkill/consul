@@ -71,8 +71,13 @@ de:
       signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
       sorry: "Entschuldigung für die Unannehmlichkeiten und vielen Dank für Ihre wertvolle Beteiligung."
       subject: "Ihr Investitionsprojekt %{code} wurde als undurchführbar markiert"
+      unfeasible_html: "Wir möchten Ihnen, von Stadtrat aus, für Ihre Teilnahme am <strong>Bürgerhaushalt</strong> danken. Wir bereuen Ihnen mitzuteilen, dass Ihre Investition <strong>%{title}</strong> vom kommunalen Prozess, aus folgendem Grund, ausgeschlossen wurde:"
     budget_investment_selected:
+      subject: "Ihr Investitionsprojekt %{code} wurde ausgewählt"
       hi: "Liebe/r Benutzer/in,"
+      selected_html: "Wir möchten Ihnen, von Stadtrat aus, für Ihre Teilnahme am <strong>Bürgerhaushalt</strong> danken. Wiröchten Ihnen hierbei mitteilen, dass Ihr Investitionsprojekt <strong>%{title}</strong> für die engültige Wahlphase, welche vom <strong>15ten Mai bis 30sten Juni</strong> Stattfinden wird, ausgewählt wurde."
+      share: "Fangen Sie an Stimmen zu bekommen, indem sie Ihr Investitionsprojekt auf sozialen Netzwerken teilen. Teilen ist wichtig um es zu verwirklichen."
+      share_button: "Teilen Sie Ihr Investitionsprojekt"
       thanks: "Vielen Dank für Ihre Teilnahme."
       sincerely: "Mit freundlichen Grüßen"
       signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
