@@ -66,9 +66,11 @@ de:
       hi: "Liebe/r Benutzer/in,"
       new_html: "Bitte arbeiten Sie, für all diese, eine <strong>neue Investition</strong> aus, die an die Konditionen dieses Prozesses angepasst sind. Sie können dies auf folgendem Link tun: %{url}."
       new_href: "neues Investitionsprojekt"
+      reconsider_html: "Wenn sie glauben, dass eine abgewiesene Investition die Anforderungen für ein Investitionsprojekt erfüllt, können Sie dieses, innerhalb von 48 Stunden, per E-Mail kommunizieren. Bitte fügen Sie den Code %{code} in die Betreffzeile der E-Mail ein."
       sincerely: "Mit freundlichen Grüßen"
       signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
       sorry: "Entschuldigung für die Unannehmlichkeiten und vielen Dank für Ihre wertvolle Beteiligung."
+      subject: "Ihr Investitionsprojekt %{code} wurde als undurchführbar markiert"
     budget_investment_selected:
       hi: "Liebe/r Benutzer/in,"
       thanks: "Vielen Dank für Ihre Teilnahme."
