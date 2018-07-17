@@ -98,6 +98,8 @@ de:
       question:
         comments:
           zero: Keine Kommentare
+          one: "%{count} Kommentar"
+          other: "%{count} Kommentare"
         debate: Diskussion
       show:
         answer_question: Antwort einreichen
@@ -120,4 +122,5 @@ de:
     proposals:
       form:
         tags_label: "Kategorien"
+      not_verified: "Für Wahlvorschläge %{verify_account}."
       closed: "Dieser Prozess wurde abgeschlossen und kann nicht mehr bewertet werden."
