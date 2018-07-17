@@ -28,6 +28,7 @@ de:
       sincerely: "Mit freundlichen Grüßen"
       signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
       sorry: "Entschuldigung für die Unannehmlichkeiten und vielen Dank für Ihre wertvolle Beteiligung."
+      subject: "Ihr Investitionsprojekt '%{code}' wurde als undurchführbar markiert"
     proposal_notification_digest:
       share: Vorschlag teilen
       comment: Vorschlag kommentieren
