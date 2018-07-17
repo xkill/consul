@@ -35,6 +35,7 @@ de:
       title: "Abtrags-Benachrichtigungen von %{org_name}"
       share: Vorschlag teilen
       comment: Vorschlag kommentieren
+      unsubscribe: "Wenn Sie keine Antrags-Benachrichtigungen erhalten möchten, besuchen Sie %{account} und entfernen Sie den Haken von 'Eine Zusammenfassung für Antrags-Benachrichtigungen erhalten'."
       unsubscribe_account: Mein Benutzerkonto
     direct_message_for_receiver:
       subject: "Sie haben eine neue persönliche Nachricht erhalten"
