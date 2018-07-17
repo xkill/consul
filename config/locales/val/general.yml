@@ -21,6 +21,8 @@ val:
       email_digest_label: Rebre un resum de notificacions sobre propostes
       official_position_badge_label: Mostrar etiqueta de tipus d'usuari
       recommendations: Recomanacions
+      show_debates_recommendations: Mostrar recomanacions de debats
+      show_proposals_recommendations: Mostrar recomanacions de propostes
       title: El meu compte
       user_permission_debates: Participar en debats
       user_permission_info: Amb el teu compte ja pots...
@@ -111,6 +113,8 @@ val:
       recommendations:
         without_results: No existeixen debats relacionats amb els teus interessos
         without_interests: Segueix propostes per a que pugam donarte recomanacions
+        actions:
+          success: "Les recomanacions per a debats estàn desabilitades per a aquest compte"
       search_form:
         button: Cercar
         placeholder: Cercar debats...
@@ -632,6 +636,10 @@ val:
       title: Mode de vista
       cards: Targetes
       list: Lista
+    recommended_index:
+      title: Recomanacions
+      see_more: Veure més recomanacions
+      hide: Ocultar recomanacions
   social:
     blog: "Blog de %{org}"
     facebook: "Facebook de %{org}"
