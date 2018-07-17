@@ -20,6 +20,7 @@ val:
       email_on_direct_message_label: Rebre correus electrònics amb missatges privats
       email_digest_label: Rebre un resum de notificacions sobre propostes
       official_position_badge_label: Mostrar etiqueta de tipus d'usuari
+      recommendations: Recomanacions
       title: El meu compte
       user_permission_debates: Participar en debats
       user_permission_info: Amb el teu compte ja pots...
@@ -845,3 +846,6 @@ val:
   admin/widget:
     header:
       title: Administració
+  annotator:
+    help:
+      text_sign_in: iniciar sessió
