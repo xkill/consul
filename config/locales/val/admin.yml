@@ -31,6 +31,14 @@ val:
         target_url: Enllaç
         post_started_at: Inici de publicació
         post_ended_at: Fi de publicació
+        sections:
+          homepage: Pàgina principal
+          debates: Debats
+          proposals: Propostes
+          budgets: Pressupostos participatius
+          help_page: Pàgina d'ajuda
+        background_color: Color de fons
+        font_color: Color de font
       edit:
         editing: Editar banner
         form:
