@@ -113,8 +113,10 @@ val:
       recommendations:
         without_results: No existeixen debats relacionats amb els teus interessos
         without_interests: Segueix propostes per a que pugam donarte recomanacions
+        disable: "Les recomanacions sobre debats deixaran de mostrar-se si les descartes. Pots tornar-les a activar a la pàgina \"El meu compte\""
         actions:
           success: "Les recomanacions per a debats estàn desabilitades per a aquest compte"
+          error: "S'ha produït un error. Aneu a la pàgina \"El meu compte\" per desactivar manualment les recomanacions per als debats"
       search_form:
         button: Cercar
         placeholder: Cercar debats...
@@ -366,6 +368,10 @@ val:
       recommendations:
         without_results: No existeixen propostes relacionades amb els teus interessos
         without_interests: Segueix propostes per a que pugam donar-te recomanacions
+        disable: "Les recomanacions sobre propostes deixaran de mostrar-se si les descartes. Pots tornar-les a activar a la pàgina \"El meu compte\""
+        actions:
+          success: "Les recomanacions per a propostes estan desabilitades per a aquest compte"
+          error: "S'ha produït un error. Aneu a la pàgina \"El meu compte\" per desactivar manualment les recomanacions per a propostes"
       retired_proposals: Propostes retirades
       retired_proposals_link: "Propostes retirades per els seus autors"
       retired_links:
@@ -856,6 +862,8 @@ val:
       title: Administració
   annotator:
     help:
+      alt: Selecciona el text que vols comentar i polsa el botó amb el llapis.
+      text: Per a comentar este document has de %{sign_in} o %{sign_up}. Després selecciona el texte que vols comentar i polsa el botó amb el llapis.
       text_sign_in: iniciar sessió
       text_sign_up: registrar-te
       title: Com puc comentar aquest document?
