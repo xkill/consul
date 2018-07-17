@@ -58,6 +58,7 @@ val:
         table_poll: Votació
         table_status: Estat de les votacions
         table_actions: Accions
+        not_to_vote: Aquesta persona ha decidit no votar en aquest moment
       show:
         can_vote: Pot votar
         error_already_voted: Ya has participat en esta votació
