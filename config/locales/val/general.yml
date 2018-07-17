@@ -857,3 +857,5 @@ val:
   annotator:
     help:
       text_sign_in: iniciar sessió
+      text_sign_up: registrar-te
+      title: Com puc comentar aquest document?
