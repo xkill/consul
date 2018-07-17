@@ -67,13 +67,20 @@ pl:
         end_date: Data zakończenia
         summary: Podsumowanie
         description: Opis
+        save_changes: Zapisz zmiany
     budget_investments:
       index:
+        sort_by:
+          id: Numer ID
+          title: Tytuł
         buttons:
           search: Szukaj
           filter: Filtr
+        feasibility:
+          unfeasible: "Niemożliwy do realizacji"
         selected: "Wybrany"
         select: "Wybierz"
+        table_id: "Numer ID"
         table_title: "Tytuł"
         table_selection: "Wybrany"
       show:
