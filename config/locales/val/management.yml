@@ -87,6 +87,13 @@ val:
       create_proposal: Crear una proposta
       print:
         print_button: Imprimir
+    budgets:
+      create_new_investment: Crear projecte d'inversió
+      print_investments: Imprimir projectes d'inversió
+      support_investments: Avalar projectes d'inversió
+      table_name: Nom
+      table_phase: Fase
+      table_actions: Accions
     budget_investments:
       alert:
         unverified_user: Usuari no verificat
