@@ -20,6 +20,9 @@ de:
       email_on_direct_message_label: E-Mails über direkte Nachrichten empfangen
       email_digest_label: Benachrichtigungen mit Zusammenfassung über Vorschlag erhalten
       official_position_badge_label: Kennzeichen des Benutzertyps anzeigen
+      recommendations: Empfehlungen
+      show_debates_recommendations: Debatten-Empfehlungen anzeigen
+      show_proposals_recommendations: Vorschlags-Empfehlungen anzeigen
       title: Mein Konto
       user_permission_debates: An Diskussion teilnehmen
       user_permission_info: Mit Ihrem Konto können Sie...
@@ -110,6 +113,10 @@ de:
       recommendations:
         without_results: Es gibt keine Debatten, die Ihren Interessen entsprechen
         without_interests: Vorschläge folgen, sodass wir Ihnen Empfehlungen geben können
+        disable: "Debatten-Empfehlungen werden nicht mehr angezeigt, wenn sie diese ablehnen. Sie können auf der 'Mein Benutzerkonto'-Seite wieder aktiviert werden"
+        actions:
+          success: "Debatten-Empfehlungen sind jetzt deaktiviert für dieses Benutzerkonto"
+          error: "Ein Fehler ist aufgetreten. Bitte gehen Sie zur 'Ihr Benutzerkonto'-Seite um Debatten-Empfehlungen manuell abzuschalten"
       search_form:
         button: Suche
         placeholder: Suche Diskussionen...
