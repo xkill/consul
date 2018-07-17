@@ -111,3 +111,68 @@ pl:
       index:
         delete: Usuń
         edit: Edytuj
+    legislation:
+      draft_versions:
+        index:
+          title: Wersje robocze
+          create: Wróć
+          delete: Usuń
+          preview: Podgląd
+        table:
+          title: Tytuł
+      questions:
+        edit:
+          back: Wróć
+          submit_button: Zapisz zmiany
+        index:
+          delete: Usuń
+        new:
+          back: Wróć
+    menu:
+      users: Użytkownicy
+    administrators:
+      index:
+        title: Administrator
+        email: E-mail
+      administrator:
+        add: Dodaj
+        delete: Usuń
+    newsletters:
+      show:
+        send: Wyślij
+    valuators:
+      index:
+        email: E-mail
+      show:
+        email: "E-mail"
+    valuator_groups:
+      index:
+        members: "Członkowie"
+      form:
+        name: "Nazwa grupy"
+    poll_officers:
+      officer:
+        add: Dodaj
+        email: E-mail
+    poll_officer_assignments:
+      index:
+        table_email: "E-mail"
+      by_officer:
+        date: "Data"
+    poll_shifts:
+      new:
+        date: "Data"
+        task: "Zadanie"
+        table_email: "E-mail"
+    poll_booth_assignments:
+      show:
+        location: "Lokalizacja"
+    polls:
+      index:
+        create: "Utwórz głosowanie"
+        name: "Nazwa"
+        dates: "Daty"
+      new:
+        title: "Nowe głosowanie"
+        show_results: "Pokaż wyniki"
+        show_stats: "Pokaż statystyki"
