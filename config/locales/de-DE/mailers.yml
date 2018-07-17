@@ -82,7 +82,10 @@ de:
       sincerely: "Mit freundlichen Grüßen"
       signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
     budget_investment_unselected:
+      subject: "Ihr Investitionsprojekt %{code} wurde nicht ausgewählt"
       hi: "Liebe/r Benutzer/in,"
+      unselected_html: "Wir möchten Ihnen, von Stadtrat aus, für Ihre Teilnahme am <strong>Bürgerhaushalt</strong> danken. Wir bedauern Ihnen mitzuteilen, dass Ihr Investitionsprojekt <strong>%{title}</strong> nicht für die endgültige Wahlphase ausgewählt wurde."
+      participate_html: "Sie können fortfahren an der endgültigen Wahlphase für Investitionsprojekte vom <strong>15ten Mai bis 30sten Juni</strong> teilzunehmen."
       participate_url: "An finaler Abstimmung teilnehmen"
       thanks: "Vielen Dank für Ihre Teilnahme."
       sincerely: "Mit freundlichen Grüßen"
