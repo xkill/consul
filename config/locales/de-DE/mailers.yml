@@ -29,7 +29,10 @@ de:
       signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
       sorry: "Entschuldigung für die Unannehmlichkeiten und vielen Dank für Ihre wertvolle Beteiligung."
       subject: "Ihr Investitionsprojekt '%{code}' wurde als undurchführbar markiert"
+      unfeasible_html: "Vom Stadtrat möchten wir uns bei Ihnen für die Teilnahme am <strong>Bürgerhaushalt</strong> bedanken. Wir bedauern Ihnen mitzuteilen, dass Ihr Antrag <strong>%{title}</strong> vom parizipativen Prozess aus folgendem Grund ausgeschlossen wurde:"
     proposal_notification_digest:
+      info: "Hier sind die neuen Benachrichtigungen, die von Autoren, für den Antrag den Sie unterstützen von %{org_name}, veröffentlicht wurden."
+      title: "Abtrags-Benachrichtigungen von %{org_name}"
       share: Vorschlag teilen
       comment: Vorschlag kommentieren
       unsubscribe_account: Mein Benutzerkonto
