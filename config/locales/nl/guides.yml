@@ -9,3 +9,5 @@ nl:
       feature_3_html: "Activeer op elk moment, je hebt <strong>een jaar</strong> om steunbetuigingen te verzamelen"
       feature_4_html: "Als het project na stemming wordt goedgekeurd, accepteert de gemeente het voorstel"
       new_button: Ik wil een voorstel indienen
+    proposal:
+      title: "Een inwonersvoorstel"
