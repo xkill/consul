@@ -616,6 +616,8 @@ nl:
       previous_slide: Vorige slide
       next_slide: Volgende Slide
     documentation: Aanvullende documentatie
+    view_mode:
+      cards: Kaarten
   social:
     blog: "%{org} Blog"
     facebook: "%{org} Facebook"
@@ -812,3 +814,6 @@ nl:
       proposal: "Voorstel"
       debate: "Discussie"
       budget_investment: "Begrotingsvoorstel"
+  annotator:
+    help:
+      text_sign_in: inloggen
