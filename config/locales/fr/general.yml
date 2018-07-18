@@ -20,6 +20,9 @@ fr:
       email_on_direct_message_label: Recevoir un e-mail en cas de message personnel
       email_digest_label: Recevoir un résumé des notifications sur les propositions
       official_position_badge_label: Afficher le badge de position officielle
+      recommendations: Recommandations
+      show_debates_recommendations: Voir les recommandations des discussions
+      show_proposals_recommendations: Voir les recommandations de discussions
       title: Mon compte
       user_permission_debates: Participer aux débats
       user_permission_info: Avec votre compte, vous pouvez...
@@ -110,6 +113,10 @@ fr:
       recommendations:
         without_results: Il n’y a pas de débats liés à vos centres d’intérêt
         without_interests: Suivez des propositions afin que nous puissions vous suggérer des recommandations
+        disable: "Les recommandations de discussions cesseront d'apparaître si vous les rejetez. Vous pouvez les réactiver sur la page 'Mon compte'"
+        actions:
+          success: "Les recommandations de discussion sont maintenant désactivées pour ce compte"
+          error: "Une erreur est survenue. Veuillez vous rendre sur la page 'Votre compte' pour désactiver manuellement les recommandations de discussion"
       search_form:
         button: Rechercher
         placeholder: Rechercher des débats...
@@ -244,6 +251,8 @@ fr:
         new_notifications:
           one: Vous avez une nouvelle notification
           other: Vous avez %{count} nouvelles notifications
+        notifications: Notifications
+        no_notifications: "Vous n'avez pas de nouvelles notifications"
     admin:
       watch_form_message: 'Vous avez des modifications non sauvegardées. Êtes-vous sûr(e) de vouloir quitter cette page ?'
   legacy_legislation:
@@ -258,6 +267,7 @@ fr:
     index:
       empty_notifications: Vous n'avez pas de nouvelles notifications
       mark_all_as_read: Marquer comme tout lu
+      read: Lire
       title: Notifications
   map:
     title: "Secteurs"
