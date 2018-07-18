@@ -461,6 +461,7 @@ nl:
             error: Fout
         form:
           add_option: Voeg keuze toe
+          title: Vraag
           title_placeholder: titel
           value_placeholder: antwoord
         index:
@@ -528,6 +529,7 @@ nl:
       title_budgets: Budgetten
       title_polls: Peilingen
       title_profiles: Profielen
+      title_settings: Instellingen
       title_site_customization: Aanpassing Site
       legislation: Collaboratieve regulering
       users: Deelnemers
@@ -933,6 +935,14 @@ nl:
           without_confirmed_hide: In afwachting
         title: Verborgen voorstellen
         no_hidden_proposals: Er zijn geen verborgen voorstellen.
+    proposal_notifications:
+      index:
+        filter: Filter
+        filters:
+          all: Alle
+          with_confirmed_hide: Bevestigd
+          without_confirmed_hide: In afwachting
+        title: Verborgen notificaties
     settings:
       flash:
         updated: Waarde aangepast
@@ -978,6 +988,8 @@ nl:
       actions: Acties
       title: Titel
       description: Beschrijving
+      image: Afbeelding
+      show_image: Toon afbeelding
     spending_proposals:
       index:
         geozone_filter_all: Alle zones
@@ -1227,3 +1239,5 @@ nl:
           status_draft: Concept
           status_published: Gepubliceerd
           locale: Taal
+    homepage:
+      header_title: Koptekst
