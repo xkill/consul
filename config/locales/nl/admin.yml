@@ -39,6 +39,7 @@ nl:
           budgets: Burgerbegroting
           help_page: Help-pagina
         background_color: Achtergrondkleur
+        font_color: Kleur van het lettertype
       edit:
         editing: Bewerk banier
         form:
@@ -130,6 +131,7 @@ nl:
       winners:
         calculate: Bereken gewonnen bestemmingen
         calculated: Bestemmingen worden berekend, kan even duren.
+        recalculate: Herbereken gewonnen investeringen
     budget_phases:
       edit:
         start_date: Startdatum
