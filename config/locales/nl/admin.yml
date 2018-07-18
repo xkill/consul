@@ -1278,3 +1278,15 @@ nl:
         link_url: URL link
       feeds:
         proposals: Voorstellen
+        debates: Discussies
+        processes: Processen
+      new:
+        header_title: Nieuwe header
+        submit_header: Koptekst maken
+        card_title: Nieuwe kaart
+        submit_card: Kaart aanmaken
+      edit:
+        header_title: Header bewerken
+        submit_header: Bewaar koptekst
+        card_title: Kaart bewerken
+        submit_card: Kaart opslaan
