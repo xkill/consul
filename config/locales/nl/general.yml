@@ -791,9 +791,20 @@ nl:
         other: "Je kunt alleen in %{count} regio's investeringsprojecten steunen"
   welcome:
     feed:
+      most_active:
+        debates: "Meest actieve discussies"
+        proposals: "Meest actieve voorstellen"
+        processes: "Open processen"
+      see_all_debates: Zie alle debatten
+      see_all_proposals: Zie alle voorstellen
+      see_all_processes: Zie alle processen
       process_label: Proces
+      see_process: Zie proces
+    cards:
+      title: Uitgelicht
     recommended:
       title: Aanbevelingen die je wellicht interessant vindt
+      help: "Deze aanbevelingen worden gegenereerd door de codes van de debatten en voorstellen die u volgen."
       debates:
         title: Aanbevolen discussies
         btn_text_link: Alle aanbevolen discussies
@@ -838,6 +849,11 @@ nl:
       proposal: "Voorstel"
       debate: "Discussie"
       budget_investment: "Begrotingsvoorstel"
+  admin/widget:
+    header:
+      title: Administration
   annotator:
     help:
       text_sign_in: inloggen
+      text_sign_up: registreren
+      title: Hoe kan ik reageren op dit document?
