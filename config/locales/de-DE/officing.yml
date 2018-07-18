@@ -49,6 +49,7 @@ de:
         document_number: "Dokumentennummer (einschließlich Buchstaben)"
         submit: Dokument bestätigen
         error_verifying_census: "Die Volkszählung kommte dieses Dokument nicht bestätigen."
+        form_errors: verhinderte die Bestätigung dieses Dokumentes
     voters:
       new:
         title: Umfragen
