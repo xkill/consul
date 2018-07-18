@@ -198,6 +198,8 @@ nl:
         table_selection: "Selectie"
         table_evaluation: "Voeg toe aan beoordelaars"
         table_incompatible: "Onverenigbaar"
+        cannot_calculate_winners: Het budget moet in fase blijven "Ballotage projecten", "Rekening houden met stemmingen" of "Voltooide begroting" om winnaarsprojecten te kunnen berekenen
+        see_results: "Toon resultaten"
       show:
         assigned_admin: Toegewezen beheerder
         assigned_valuators: Toegewezen beoordelaars
@@ -256,6 +258,7 @@ nl:
         table_title: "Titel"
         table_description: "Omschrijving"
         table_publication_date: "Publicatiedatum"
+        table_status: Status
         table_actions: "Acties"
         delete: "Verwijder mijlpaal"
         no_milestones: "Geen mijlpalen gedefiniëerd"
@@ -264,9 +267,13 @@ nl:
         documents: "Documenten"
       form:
         add_language: Taal toevoegen
+        remove_language: Verwijder taal
+        admin_statuses: Beheerderstatussen
+        no_statuses_defined: Er zijn nog geen gedefinieerde investeringsstatussen
       new:
         creating: Nieuwe mijlpaal
         date: Datum
+        description: Beschrijving
       edit:
         title: Bewerk mijlpaal
       create:
@@ -275,6 +282,18 @@ nl:
         notice: Mijlpaal opgeslagen
       delete:
         notice: Mijlpaal verwijderd
+    statuses:
+      index:
+        title: Investeringsstatussen
+        empty_statuses: Er zijn nog geen gedefinieerde investeringsstatussen aangemaakt
+        new_status: Maak een nieuwe investeringsstatus aan
+        table_name: Name
+        table_description: Beschrijving
+        table_actions: Acties
+        delete: Verwijder
+        edit: Bewerk
+      edit:
+        title: Bewerk investeringsstatus
     comments:
       index:
         filter: Filter
