@@ -194,6 +194,7 @@ nl:
         table_feasibility: "Haalbaarheid"
         table_valuation_finished: "Beoordeling afgerond"
         table_selection: "Geselecteerd"
+        table_evaluation: "Voeg toe aan beoordelaars"
         table_incompatible: "Onverenigbaar"
       show:
         assigned_admin: Toegewezen beheerder
@@ -259,6 +260,8 @@ nl:
         image: "Afbeelding"
         show_image: "Toon afbeelding"
         documents: "Documenten"
+      form:
+        add_language: Taal toevoegen
       new:
         creating: Nieuwe mijlpaal
         date: Datum
