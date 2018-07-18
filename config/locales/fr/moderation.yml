@@ -47,6 +47,7 @@ fr:
       flagged_comments: Commentaires
       flagged_debates: Débats
       proposals: Propositions
+      proposal_notifications: Notifications des propositions
       users: Bloquer les utilisateurs
     proposals:
       index:
@@ -69,10 +70,23 @@ fr:
         title: Propositions
     proposal_notifications:
       index:
+        block_authors: Bloquer des auteurs
         confirm: Êtes-vous sûr(e) ?
         filter: Filtre
         filters:
           all: Tout
+          pending_review: Examen en attente
+          ignored: Marquer comme vu
+        headers:
+          moderate: Modérer
+          proposal_notification: Notification de proposition
+        hide_proposal_notifications: Masquer les propositions
+        ignore_flags: Marquer comme vu
+        order: Trier par
+        orders:
+          created_at: Plus récent
+          moderated: Modéré
+        title: Notifications de proposition
     users:
       index:
         hidden: Bloqué
