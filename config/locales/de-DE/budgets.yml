@@ -127,6 +127,8 @@ de:
         milestone_status_changed: Investitionsstatus geändert zu
         author: Autor
         project_unfeasible_html: 'Dieses Investitionsprojekt <strong>wurde als nicht durchführbar markiert</strong> und wird nicht in die Abstimmungsphase übergehen.'
+        project_selected_html: 'Dieses Investitionsprojekt wurde für die Abstimmungsphase <strong>ausgewählt</strong>.'
+        project_winner: 'Siegreiches Investitionsprojekt'
         project_not_selected_html: 'Dieses Investitionsprojekt wurde <strong>nicht</strong> für die Abstimmungsphase ausgewählt.'
       wrong_price_format: Nur ganze Zahlen
       investment:
