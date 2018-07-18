@@ -140,7 +140,14 @@ de:
       erased_by_manager: "Vom Manager gelöscht: %{manager}"
       erase_account_link: Gelöschte Benutzer
       erase_account_confirm: Sind Sie sicher, dass Sie ihr Konto löschen möchten? Dies kann nicht rückgängig gemacht werden
+      erase_warning: Diese Handlung kann nicht rückgängig grmacht werden. Bitte vergewissern Sie, dass sie dieses Benutzerkonto löschen möchten.
       erase_submit: Konto löschen
     user_invites:
       new:
         label: E-Mails
+        info: "Geben Sie die E-Mails, durch Kommas (',') getrennt, an"
+        submit: Einladungen senden
+        title: Einladungen senden
+      create:
+        success_html: <strong>%{count} Einladungen</strong> wurden gesendet.
+        title: Einladungen senden
