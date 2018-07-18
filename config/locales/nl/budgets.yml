@@ -58,6 +58,7 @@ nl:
         title: Hulp bij burgerbegrotingen
         description: Met burgerbegrotingen kunnen inwoners meebeslissen welke projecten onderdeel moeten zijn van de gemeentelijke begroting.
         help_text_1: "Begrotingsvoorstellen zijn processen waarbij inwoners direct meebeslissen over waar specifieke bedragen van een gemeentelijke begroting aan kunnen worden besteed. Elke geregistreerde gebruiker van boven de 16 jaar oud kan een voorstel indienen.\nhelp_text_2: \"De voorstellen met de meeste stemmen worden beoordeeld en gaan door naar de eindstemming, waar inwoners bepalen welke acties uitgevoerd zouden moeten worden door de gemeente zodra de begroting van het volgende jaar wordt goedgekeurd."
+        help_text_2: "De projecten met de meeste stemmen worden geëvalueerd en doorgezet naar een laatste stemming waarin ze beslissen welke acties door de gemeenteraad moeten worden uitgevoerd zodra de gemeentelijke begrotingen van het volgende jaar zijn goedgekeurd."
         help_text_3: "De presentatie van begrotingsvoorstellen vindt plaats vanaf januari en voor een periode van anderhalve maand. Om deel te nemen en voorstellen te doen voor de hele gemeente en/of regio, dien je aan te melden op %{org}."
         help_text_4: "Kies een goede en begrijpelijke titel voor jouw project. In de ruimte daaronder kun je aangeven hoe je jouw project zou aanpakken. Geef zoveel mogelijk informatie en upload afbeeldingen en documenten om andere gebruikers te helpen jouw project zo goed mogelijk te begrijpen, om de kans op meer stemmen te vergroten."
     investments:
@@ -70,6 +71,7 @@ nl:
         map_location_instructions: "Beweeg de kaart en wijs de locatie aan."
         map_remove_marker: "Locatie verwijderen"
         location: "Aanvullende informatie over de locatie"
+        map_skip_checkbox: "Deze investering heeft geen concrete locatie of ik ben er niet van op de hoogte."
       index:
         title: Burgerbegroting
         unfeasible: Onhaalbare begrotingsvoorstellen.
