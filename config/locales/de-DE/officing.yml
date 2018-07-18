@@ -40,6 +40,15 @@ de:
         table_whites: "Völlig leere Stimmzettel"
         table_nulls: "Ungültige Stimmzettel"
         table_total: "Gesamtanzahl der Stimmzettel"
+    residence:
+      flash:
+        create: "Dokument mit Volkszählung überprüft"
+        not_allowed: "Sie haben heute keine Amtswechsel"
+      new:
+        title: Dokument bestätigen
+        document_number: "Dokumentennummer (einschließlich Buchstaben)"
+        submit: Dokument bestätigen
+        error_verifying_census: "Die Volkszählung kommte dieses Dokument nicht bestätigen."
     voters:
       new:
         title: Umfragen
