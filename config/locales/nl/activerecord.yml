@@ -126,6 +126,8 @@ nl:
         title: "Titel"
         description: "Omschrijving"
         publication_date: "Publicatiedatum"
+      budget/investment/status:
+        name: "Naam"
       budget/heading:
         name: "Kop"
         price: "Kosten"
