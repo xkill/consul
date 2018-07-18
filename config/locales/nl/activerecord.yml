@@ -123,11 +123,13 @@ nl:
         image: "Afbeelding ter omschrijving van het voorstel"
         image_title: "Naam van de afbeelding"
       budget/investment/milestone:
+        status_id: "Huidige investeringsstatus (optioneel)"
         title: "Titel"
         description: "Omschrijving"
         publication_date: "Publicatiedatum"
       budget/investment/status:
         name: "Naam"
+        description: "Beschrijving (optioneel)"
       budget/heading:
         name: "Kop"
         price: "Kosten"
@@ -203,6 +205,7 @@ nl:
         body: Body
       legislation/process:
         title: Titel van het proces
+        summary: Samenvatting
         description: Omschrijving
         additional_info: Aanvullende informatie
         start_date: Startdatum
@@ -243,6 +246,14 @@ nl:
         subject: Onderwerp
         from: Van
         body: Email inhoud
+      widget/card:
+        label: Label (optioneel)
+        title: Titel
+        description: Beschrijving
+        link_text: Tekst link
+        link_url: URL link
+      widget/feed:
+        limit: Aantal items
     errors:
       models:
         user:
