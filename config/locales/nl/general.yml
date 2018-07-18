@@ -20,6 +20,9 @@ nl:
       email_on_direct_message_label: Stuur me email naar aanleiding van directe berichten
       email_digest_label: Stuur me een samenvatting van meldingen naar aanleiding van voorstellen
       official_position_badge_label: Toon officiele positie badge
+      recommendations: Aanbevelingen
+      show_debates_recommendations: Laat discussie aanbevelingen zien
+      show_proposals_recommendations: Laat aanbevelingen van de voorstellen zien
       title: Mijn account
       user_permission_debates: Neem deel aan discussies
       user_permission_info: Met je account kun je...
