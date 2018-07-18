@@ -2,20 +2,21 @@ nl:
   moderation:
     comments:
       index:
-        block_authors: Blokkeer gebruikers
+        block_authors: Blokkeer auteurs
         confirm: Weet je het zeker?
         filter: Filter
         filters:
-          all: Alle
-          pending_flag_review: In behandeling
-          with_ignored_flag: Gemarkeerd als bekeken
+          all: Allen
+          pending_flag_review: In afwachting
+          with_ignored_flag: Markeer als gelezen
         headers:
           comment: Reactie
-          moderate: Controleren
-        hide_comments: Opmerkingen verbergen
-        ignore_flags: Markeren als bekeken
-        order: Volgorde
+          moderate: Modereer
+        hide_comments: Verberg reacties
+        ignore_flags: Markeer als gelezen
+        order: order
         orders:
+          flags: Meest gemarkeerd
           newest: Nieuwste
         title: Reacties
     dashboard:
@@ -23,38 +24,54 @@ nl:
         title: Moderatie
     debates:
       index:
+        block_authors: Blokkeer auteurs
         confirm: Weet je het zeker?
         filter: Filter
         filters:
-          all: Alle
-          pending_flag_review: In behandeling
-          with_ignored_flag: Gemarkeerd als bekeken
+          all: Allen
+          pending_flag_review: In afwachting
+          with_ignored_flag: Markeer als gelezen
         headers:
-          debate: Discussie
-          moderate: Controleren
-        ignore_flags: Markeren als bekeken
-        order: Volgorde
+          debate: Discussieer
+          moderate: Modereer
+        hide_debates: Verberg discussies
+        ignore_flags: Markeer als gelezen
+        order: Order
         orders:
           created_at: Nieuwste
+          flags: Meest gemarkeerde
         title: Discussies
+    header:
+      title: Moderatie
     menu:
       flagged_comments: Reacties
       flagged_debates: Discussies
       proposals: Voorstellen
+      users: Blokkeer deelnemers
     proposals:
       index:
+        block_authors: Blokkeer auteurs
         confirm: Weet je het zeker?
         filter: Filter
         filters:
-          all: Alle
-          with_ignored_flag: Markeren als bekeken
+          all: Allen
+          pending_flag_review: In afwachting van beoordeling
+          with_ignored_flag: Markeer als gelezen
         headers:
+          moderate: Modereer
           proposal: Voorstel
-        order: Sorteer op
+        hide_proposals: Verberg voorstellen
+        ignore_flags: Markeer als gelezen
+        order: Op volgorde van
+        orders:
+          created_at: Meest recent
+          flags: Meest gemarkeerd
+        title: Voorstellen
     users:
       index:
         hidden: Geblokkeerd
-        hide: Blokkeren
-        search: Zoeken
-        search_placeholder: email of naam van gebruiker
-      notice_hide: De gebruiker is geblokkeerd. Discussies en reacties van deze gebruiker zijn verborgen.
+        hide: Blokkeer
+        search: Zoek
+        search_placeholder: email of gebruikersnaam
+        title: Blokkeer deelnemers
+      notice_hide: Deelnemer geblokkeerd. Alle discussies en reacties van deze deelnemer worden verborgen.
