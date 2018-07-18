@@ -401,6 +401,7 @@ nl:
       section_footer:
         title: Hulp over voorstellen
         description: Een burger doet een voorstel. Als het genoeg stemmen krijgt dan gaat het naar de stemmingsfase toe, zodat vervolgens alle burgers kunnen stemmen hoe zij hun stad willen vormgeven.
+        help_text_1: "De burgervoorstellen zijn een mogelijkheid voor buren en collectieven om rechtstreeks te beslissen hoe zij hun stad willen vormgeven. Iedereen kan een voorstel doen over een onderwerp of bezorgdheid uiten over hun belang, zodat de gemeenteraad hiernaar kan handelen, nadat het voldoende steun heeft gekregen om tot een stem van de burger te worden gebracht."
     new:
       form:
         submit_button: Doe voorstel
@@ -493,6 +494,7 @@ nl:
         description: Registreer je om te kunnen stemmen op voorstellen van mede-gebruikers en om vragen vanuit de gemeente aan haar inwoners te kunnen bekijken. Heb direct invloed op de gemeentelijke besluitvoering.
         help_text_1: "Stemmen vindt plaats als een voorstel steun krijgt van 1% van de census met stemrechten."
         help_text_2: "Om deel te nemen aan de volgende stemronde moet je inloggen op %{org} en je account verifieren. Alle geregistreerde stemgerechtigden ouder dan 16 jaar mogen stemmen. Het resultaat van alle stemmen zijn bindend voor de gemeente."
+      no_polls: "Er zijn geen openstaande stemmingen."
     show:
       already_voted_in_booth: "Je hebt al gestemd in een stemhokje. Je kunt niet meer deelnemen."
       already_voted_in_web: "Je hebt al deelgenomen in deze stemronde. Als je nogmaals stemt, wordt je eerdere stemming overschreven."
@@ -636,6 +638,8 @@ nl:
     documentation: Aanvullende documentatie
     view_mode:
       cards: Kaarten
+    recommended_index:
+      title: Aanbevelingen
   social:
     blog: "%{org} Blog"
     facebook: "%{org} Facebook"
@@ -786,6 +790,8 @@ nl:
         one: "Je kunt alleen in %{count} regio investeringsprojecten steunen"
         other: "Je kunt alleen in %{count} regio's investeringsprojecten steunen"
   welcome:
+    feed:
+      process_label: Proces
     recommended:
       title: Aanbevelingen die je wellicht interessant vindt
       debates:
