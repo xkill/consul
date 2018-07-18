@@ -31,6 +31,15 @@ de:
         target_url: Link
         post_started_at: Eintrag veröffentlicht am
         post_ended_at: Eintrag beendet am
+        sections_label: Abschnitte, in denen es angezeigt wird
+        sections:
+          homepage: Homepage
+          debates: Debatten
+          proposals: Anträge
+          budgets: Bürgerhaushalt
+          help_page: Hilfe-Seite
+        background_color: Hintergrundfarbe
+        font_color: Schriftfarbe
       edit:
         editing: Banner bearbeiten
         form:
