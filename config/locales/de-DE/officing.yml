@@ -6,8 +6,10 @@ de:
       index:
         title: Vorsitzende/r der Abstimmung
         info: Hier können Sie Benutzerdokumente überprüfen und Abstimmungsergebnisse speichern
+        no_shifts: Sie haben heute keinen Amtswechsel.
     menu:
       voters: Dokument überprüfen
+      total_recounts: Komplette Nachzählungen und Ergebnisse
     polls:
       final:
         title: Auflistung über abgeschlossene Abstimmungen
