@@ -298,6 +298,10 @@ fr:
         notice: Le statut d'investissement a été mis à jour avec succès
       new:
         title: Créer un statut d'investissement
+      create:
+        notice: Le statut d'investissement a été créé avec succès
+      delete:
+        notice: Le statut d'investissement a été supprimé avec succès
     comments:
       index:
         filter: Filtrer
@@ -358,6 +362,7 @@ fr:
           enabled: Activé
           process: Processus
           debate_phase: Phase de débat
+          allegations_phase: Phase de brouillon
           proposals_phase: Phase de propositions
           start: Début
           end: Fin
@@ -389,6 +394,7 @@ fr:
           status_planned: Planifié
         subnav:
           info: Information
+          draft_texts: Brouillon
           questions: Débat
           proposals: Propositions
       proposals:
@@ -505,6 +511,7 @@ fr:
       hidden_comments: Commentaires masqués
       hidden_debates: Débats masqués
       hidden_proposals: Propositions masquées
+      hidden_proposal_notifications: Masquer les notifications de propositions
       hidden_users: Utilisateurs masqués
       administrators: Administrateurs
       managers: Responsables
@@ -535,6 +542,7 @@ fr:
       title_profiles: Profils
       title_settings: Paramètres
       title_site_customization: Personnalisation du site
+      title_booths: Salle de vote
       legislation: Processus législatif collaboratif
       users: Utilisateurs
     administrators:
@@ -568,6 +576,7 @@ fr:
       feasible_and_undecided_investment_authors: "Auteurs des propositions d'investissement dans le budget actuel qui ne sont pas concernées par : [évaluation terminée, non viable]"
       selected_investment_authors: Auteurs des propositions investissement sélectionnées dans le budget actuel
       winner_investment_authors: Auteurs des propositions d'investissement gagnantes dans le budget actuel
+      not_supported_on_current_budget: Utilisateurs qui n'ont pas pris en charge les investissements sur le budget actuel
       invalid_recipients_segment: "Le segment des destinataires est invalide"
     newsletters:
       create_success: Bulletin d'information créé avec succès
@@ -939,6 +948,15 @@ fr:
           without_confirmed_hide: En attente
         title: Propositions masquées
         no_hidden_proposals: Il n’y a aucune proposition masquée.
+    proposal_notifications:
+      index:
+        filter: Filtrer
+        filters:
+          all: Tous
+          with_confirmed_hide: Confirmé
+          without_confirmed_hide: En attente
+        title: Notifications masquées
+        no_hidden_proposals: Il n'y a pas de notifications masquées.
     settings:
       flash:
         updated: Valeur mise-à-jour
