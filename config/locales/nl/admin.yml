@@ -294,6 +294,14 @@ nl:
         edit: Bewerk
       edit:
         title: Bewerk investeringsstatus
+      update:
+        notice: Investeringsstatus succesvol bijgewerkt
+      new:
+        title: Bewerk investeringsstatus
+      create:
+        notice: Investeringsstatus succesvol bijgewerkt
+      delete:
+        notice: Investeringsstatus succesvol verwijderd
     comments:
       index:
         filter: Filter
@@ -464,6 +472,7 @@ nl:
           title: Vraag
           title_placeholder: titel
           value_placeholder: antwoord
+          question_options: "Mogelijke antwoorden (optioneel, standaard open antwoorden)"
         index:
           back: Terug
           title: Vragen bij dit proces
@@ -502,6 +511,7 @@ nl:
       hidden_comments: Verborgen commentaar
       hidden_debates: Verborgen debatten
       hidden_proposals: Verborgen voorstellen
+      hidden_proposal_notifications: Verborgen notificaties
       hidden_users: Verborgen gebruikers
       administrators: Beheerders
       managers: Beheerders
@@ -522,6 +532,7 @@ nl:
       stats: Statistieken
       signature_sheets: Handtekening lijsten
       site_customization:
+        homepage: Homepage
         pages: Aangepaste pagina's
         images: Aangepaste beelden
         content_blocks: Aangepaste inhoud
@@ -531,6 +542,7 @@ nl:
       title_profiles: Profielen
       title_settings: Instellingen
       title_site_customization: Aanpassing Site
+      title_booths: Stemhokjes
       legislation: Collaboratieve regulering
       users: Deelnemers
     administrators:
@@ -585,6 +597,7 @@ nl:
         empty_newsletters: Er zijn geen nieuwsbrieven om te tonen
       new:
         title: Nieuwe nieuwsbrief
+        from: E-mailadres dat wordt weergegeven als het verzenden van de nieuwsbrief
       edit:
         title: Bewerk nieuwsbrief
       show:
@@ -943,12 +956,15 @@ nl:
           with_confirmed_hide: Bevestigd
           without_confirmed_hide: In afwachting
         title: Verborgen notificaties
+        no_hidden_proposals: Er is geen verborgen meldingen.
     settings:
       flash:
         updated: Waarde aangepast
       index:
         banners: Banieren
         banner_imgs: Banier beelden
+        no_banners_images: Geen banner afbeeldingen
+        no_banners_styles: Geen banner stijlen
         title: Instellingen
         update_setting: Sla op
         feature_flags: Instellingen
@@ -990,6 +1006,7 @@ nl:
       description: Beschrijving
       image: Afbeelding
       show_image: Toon afbeelding
+      moderated_content: "Controleer de inhoud die door de moderators is aangemaakt en bevestig wanneer dit correct is gedaan."
     spending_proposals:
       index:
         geozone_filter_all: Alle zones
@@ -1152,6 +1169,7 @@ nl:
         add_tag: Voeg nieuw voorstel onderwerp toe
         title: Voorstel Onderwerpen
         topic: Onderwerp
+        help: "Wanneer een gebruiker een voorstel maakt, worden de volgende onderwerpen voorgesteld als standaard tags."
       name:
         placeholder: Type the naam van het onderwerp
     users:
@@ -1174,6 +1192,11 @@ nl:
         title: Onvolledige verificaties
     site_customization:
       content_blocks:
+        information: Informatie over inhoudsblokken
+        about: You can create HTML content blocks to be inserted in the header or the footer of your Consul.
+        top_links_html: "<strong>header blokken (top_links)</strong> zijn blokken van links die deze indeling moeten hebben:"
+        footer_html: "<strong>voettekst blokken</strong> kan elk formaat hebben en kan worden gebruikt voor het invoegen van Javascript, CSS of een aangepaste HTML-code."
+        no_blocks: "Er zijn geen inhoudsblokken."
         create:
           notice: Content paragraaf toegevoegd
           error: Content paragraaf kon niet worden toegevoegd
@@ -1240,4 +1263,18 @@ nl:
           status_published: Gepubliceerd
           locale: Taal
     homepage:
+      title: Homepage
+      description: De actieve modules worden weergegeven op de homepage in dezelfde volgorde als hier.
       header_title: Koptekst
+      no_header: Er is geen header.
+      create_header: Koptekst maken
+      cards_title: Kaarten
+      create_card: Kaart aanmaken
+      no_cards: Er zijn geen kaarten.
+      cards:
+        title: Titel
+        description: Beschrijving
+        link_text: Tekst link
+        link_url: URL link
+      feeds:
+        proposals: Voorstellen
