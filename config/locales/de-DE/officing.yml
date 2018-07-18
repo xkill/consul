@@ -19,8 +19,16 @@ de:
       flash:
         create: "Ergebnisse speichern"
         error_create: "Ergebnisse wurden nicht gespeichert. Fehler."
+        error_wrong_booth: "Falsche Wahlkabine. Ergebnisse wurden NICHT gespeichert."
       new:
+        title: "%{poll} - Ergebnisse hinzufügen"
+        not_allowed: "Sie sind berechtigt, Ergebnisse für diese Umfrage hinzufügen"
+        booth: "Wahlkabine"
         date: "Datum"
+        select_booth: "Wahlkabine auswählen"
+        ballots_white: "Völlig leere Stimmzettel"
+        ballots_null: "Ungültige Stimmzettel"
+        ballots_total: "Gesamtanzahl der Stimmzettel"
         submit: "Speichern"
         results_list: "Ihre Ergebnisse"
         see_results: "Ergebnisse anzeigen"
@@ -29,6 +37,9 @@ de:
         results: Ergebnisse
         table_answer: Antwort
         table_votes: Bewertung
+        table_whites: "Völlig leere Stimmzettel"
+        table_nulls: "Ungültige Stimmzettel"
+        table_total: "Gesamtanzahl der Stimmzettel"
     voters:
       new:
         title: Umfragen
