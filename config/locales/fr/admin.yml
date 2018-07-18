@@ -31,6 +31,15 @@ fr:
         target_url: Lien
         post_started_at: Début de la publication
         post_ended_at: Fin de la publication
+        sections_label: Sections où il figurera
+        sections:
+          homepage: Page d’accueil
+          debates: Discussions
+          proposals: Propositions
+          budgets: Budget participatif
+          help_page: Page d'aide
+        background_color: Couleur de fond
+        font_color: Couleur de la police
       edit:
         editing: Modifier la bannière
         form:
@@ -189,6 +198,7 @@ fr:
         table_selection: "Sélection"
         table_evaluation: "Montrer aux évaluateurs"
         table_incompatible: "Incompatibles"
+        cannot_calculate_winners: Le budget doit rester sur la phase "Vote des projets", "Dépouillage du bulletin de vote" ou "Budget terminé" afin de calculer les projets gagnants
         see_results: "Voir les résultats"
       show:
         assigned_admin: Administrateur assigné
@@ -248,6 +258,7 @@ fr:
         table_title: "Titre"
         table_description: "Description"
         table_publication_date: "Date de publication"
+        table_status: Statut
         table_actions: "Actions"
         delete: "Supprimer le jalon"
         no_milestones: "Aucun jalon défini"
@@ -257,6 +268,8 @@ fr:
       form:
         add_language: Ajouter une langue
         remove_language: Supprimer une langue
+        admin_statuses: Administrer les statuts d'investissement
+        no_statuses_defined: Il n'y a pas encore de statuts d'investissement définis
       new:
         creating: Créer un nouveau jalon
         date: Date
@@ -269,6 +282,22 @@ fr:
         notice: Mise à jour du jalon réussie
       delete:
         notice: Jalon supprimé avec succès
+    statuses:
+      index:
+        title: Statuts d’investissement
+        empty_statuses: Aucun statut d'investissement n'a été créé
+        new_status: Créer un nouveau statut d'investissement
+        table_name: Nom
+        table_description: Description
+        table_actions: Actions
+        delete: Supprimer
+        edit: Modifier
+      edit:
+        title: Modifier le statut d'investissement
+      update:
+        notice: Le statut d'investissement a été mis à jour avec succès
+      new:
+        title: Créer un statut d'investissement
     comments:
       index:
         filter: Filtrer
