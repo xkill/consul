@@ -7,15 +7,21 @@ de:
         filter: Filter
         filters:
           all: Alle
+          pending_flag_review: Ausstehend
           with_ignored_flag: Als gesehen markieren
         headers:
           comment: Kommentar
+          moderate: Moderieren
         hide_comments: Kommentare ausblenden
         ignore_flags: als gesehen markieren
+        order: Bestellung
         orders:
           flags: am meisten markiert
           newest: Neuste
         title: Kommentare
+    dashboard:
+      index:
+        title: Moderation
     debates:
       index:
         block_authors: Autoren blockieren
@@ -23,19 +29,25 @@ de:
         filter: Filter
         filters:
           all: Alle
+          pending_flag_review: Ausstehend
           with_ignored_flag: Als gesehen markieren
         headers:
           debate: Diskussion
+          moderate: Moderieren
         hide_debates: Diskussionen ausblenden
         ignore_flags: Als gesehen markieren
+        order: Bestellung
         orders:
           created_at: Neuste
           flags: Am meisten markiert
         title: Diskussionen
+    header:
+      title: Moderation
     menu:
       flagged_comments: Kommentare
       flagged_debates: Diskussionen
       proposals: Vorschläge
+      proposal_notifications: Antrags-Benachrichtigungen
       users: Benutzer blockieren
     proposals:
       index:
@@ -47,6 +59,7 @@ de:
           pending_flag_review: Ausstehende Bewertung
           with_ignored_flag: Als gesehen markieren
         headers:
+          moderate: Moderieren
           proposal: Vorschlag
         hide_proposals: Vorschläge ausblenden
         ignore_flags: als gesehen markieren
@@ -55,6 +68,17 @@ de:
           created_at: neuestes
           flags: am meisten markiert
         title: Vorschläge
+    proposal_notifications:
+      index:
+        block_authors: Autoren blockieren
+        confirm: Sind Sie sich sicher?
+        filter: Filter
+        filters:
+          all: Alle
+          pending_review: Ausstehende Bewertung
+          ignored: Als gesehen markieren
+        headers:
+          moderate: Moderieren
     users:
       index:
         hidden: Blockiert
