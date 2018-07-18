@@ -113,6 +113,10 @@ nl:
       recommendations:
         without_results: Er zijn geen discussies die aansluiten bij jouw interesses
         without_interests: Volg voorstellen zodat we je aanbevelingen kunnen geven
+        disable: "Aanbevelingen voor discussies worden niet meer weergegeven als u ze negeert. U kunt ze weer inschakelen op de pagina 'Mijn account'"
+        actions:
+          success: "Aanbevelingen voor debatten zijn nu uitgeschakeld voor dit account"
+          error: "Er is een fout opgetreden. Ga naar de pagina 'Uw account' om aanbevelingen voor debatten handmatig uit te schakelen"
       search_form:
         button: Zoek
         placeholder: Zoek in discussies...
@@ -364,6 +368,10 @@ nl:
       recommendations:
         without_results: Er zijn geen voorstellen die aan je interesses voldoen
         without_interests: Volg voorstellen zodat we aanbevelingen kunnen doen
+        disable: "Aanbevelingen van voorstellen worden niet meer weergegeven als u ze negeert. U kunt ze weer inschakelen op de pagina 'Mijn account'"
+        actions:
+          success: "Aanbevelingen voor voorstellen zijn nu uitgeschakeld voor dit account"
+          error: "Er is een fout opgetreden. Ga naar de pagina 'Uw account' om aanbevelingen voor voorstellen handmatig uit te schakelen"
       retired_proposals: Teruggetrokken voorstellen
       retired_proposals_link: "Teruggetrokken voorstellen"
       retired_links:
@@ -386,6 +394,12 @@ nl:
       title: Voorstellen
       top: Wekelijkse top
       top_link_proposals: De meest gesteunde voorstellen per categorie
+      section_header:
+        icon_alt: Voorgestelde pictogrammen
+        title: Voorstellen
+        help: Hulp over voorstellen
+      section_footer:
+        title: Hulp over voorstellen
     new:
       form:
         submit_button: Doe voorstel
