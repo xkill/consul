@@ -637,9 +637,13 @@ nl:
       next_slide: Volgende Slide
     documentation: Aanvullende documentatie
     view_mode:
+      title: Weergavemodus
       cards: Kaarten
+      list: Lijst
     recommended_index:
       title: Aanbevelingen
+      see_more: Meer aanbevelingen bekijken
+      hide: Verborgen aanbevelingen
   social:
     blog: "%{org} Blog"
     facebook: "%{org} Facebook"
@@ -765,6 +769,7 @@ nl:
       see: "Bekijk voorstel"
   votes:
     agree: Eens
+    anonymous: Er zijn al te veel anonieme stemmen; %{verify_account}.
     comment_unauthenticated: Je moet %{signin} of %{signup} om te stemmen.
     disagree: Oneens
     organizations: Organisaties mogen niet stemmen
@@ -813,6 +818,7 @@ nl:
         btn_text_link: Alle aanbevolen voorstellen
       budget_investments:
         title: Aanbevolen investeringsprojecten
+      slide: "Zie %{title}"
     verification:
       i_dont_have_an_account: Ik heb geen account
       i_have_an_account: Ik heb al een account
@@ -854,6 +860,8 @@ nl:
       title: Administration
   annotator:
     help:
+      alt: Selecteer de tekst waarop u wilt reageren en druk op de knop met het potlood.
+      text: Om te reageren moet je %{sign_in} of %{sign_up}. Selecteer daarna de tekst waarop u wilt reageren en druk op de knop met het potlood.
       text_sign_in: inloggen
       text_sign_up: registreren
       title: Hoe kan ik reageren op dit document?
