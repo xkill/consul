@@ -35,6 +35,7 @@ fr:
         table_title: Titre
         table_heading_name: Nom du titre
         table_actions: Statut des votes
+        no_investments: "Il n’y a pas de projet d’investissement."
       show:
         back: Retour
         title: Propositions d'investissement
@@ -74,6 +75,7 @@ fr:
       notice:
         valuate: "Rapport mis-à-jour"
       valuation_comments: Commentaires de l’évaluation
+      not_in_valuating_phase: Les investissements ne peuvent être évalués que lorsque le Budget est en phase de valorisation
     spending_proposals:
       index:
         geozone_filter_all: Tous les districts
