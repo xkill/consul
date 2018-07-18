@@ -802,8 +802,16 @@ fr:
         debates: "Discussions les plus actives"
         proposals: "Propositions les plus actives"
         processes: "Processus ouverts"
+      see_all_debates: Voir toutes les discussions
+      see_all_proposals: Voir toutes les propositions
+      see_all_processes: Voir tous les processus
+      process_label: Processus
+      see_process: Voir processus
+    cards:
+      title: À la une
     recommended:
       title: Recommandations qui peuvent vous intéresser
+      help: "Ces recommandations sont générées avec les tags des discussions et propositions que vous suivez."
       debates:
         title: Débats recommandés
         btn_text_link: Tous les débats recommandés
@@ -812,6 +820,7 @@ fr:
         btn_text_link: Toutes les propositions recommandées
       budget_investments:
         title: Investissements recommandés
+      slide: "Voir %{title}"
     verification:
       i_dont_have_an_account: Je n'ai pas de compte
       i_have_an_account: J'ai déjà un compte
@@ -848,3 +857,13 @@ fr:
       proposal: "Proposition"
       debate: "Débat"
       budget_investment: "Proposition d'investissement"
+  admin/widget:
+    header:
+      title: Administration
+  annotator:
+    help:
+      alt: Sélectionnez le texte que vous souhaitez commenter et appuyez sur le bouton avec le crayon.
+      text: Pour commenter ce document, il est nécessaire de %{sign_in} ou %{sign_up}. Ensuite, sélectionner le texte que vous souhaitez commenter et cliquer sur le bouton avec le crayon.
+      text_sign_in: se connecter
+      text_sign_up: s'inscrire
+      title: Comment puis-je commenter ce document ?
