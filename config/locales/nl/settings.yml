@@ -1,29 +1,59 @@
 nl:
   settings:
-    max_ratio_anon_votes_on_debates: "Maximale verhouding van anonieme stemmen per debat"
-    youtube_handle: "Youtube"
-    telegram_handle: "Telegram"
-    instagram_handle: "Instagram"
-    blog_url: "Blog url"
-    transparency_url: "Transparantie url"
-    opendata_url: "Open data url"
-    url: "url"
+    comments_body_max_length: "Maximale lengte van reacties"
+    official_level_1_name: "Level 1 overheidsambtenaar"
+    official_level_2_name: "Level 2 overheidsambtenaar"
+    official_level_3_name: "Level 3 overheidsambtenaar"
+    official_level_4_name: "Level 4 overheidsambtenaar"
+    official_level_5_name: "Level 5 overheidsambtenaar"
+    max_ratio_anon_votes_on_debates: "Maximum aantal van anonieme stemmen per discussie"
+    max_votes_for_proposal_edit: " Het aantal stemmen waarna een voorstel niet meer aangepast kan worden"
+    max_votes_for_debate_edit: "Het aantal stemmen waarna een discussie niet meer aangepast mag worden"
+    proposal_code_prefix: "Kengetal voor voorstel codes"
+    votes_for_proposal_success: "Het aantal stemmen benodigd voor goedkeuring van het voorstel"
+    months_to_archive_proposals: "Maanden om voorstellen te archiveren"
+    email_domain_for_officials: "Email domein voor overheidsambtenaren"
+    per_page_code_head: "Code die ingevoegd wordt op elke pagina(<head>)"
+    per_page_code_body: "Code die ingevoegd wordt op elke pagina(<body>)"
+    twitter_handle: "Twitter handle"
+    twitter_hashtag: "Twitter hashtag"
+    facebook_handle: "Facebook handle"
+    youtube_handle: "Youtube handle"
+    telegram_handle: "Telegram handle"
+    instagram_handle: "Instagram handle"
+    blog_url: "Blog URL"
+    transparency_url: "Transparantie URL"
+    opendata_url: "Open Data URL"
+    url: "Algemene URL"
     org_name: "Organisatie"
     place_name: "Plaats"
     feature:
-      budgets: Begrotingsvoorstellen
+      budgets: Burgerbegroting
       twitter_login: Twitter login
       facebook_login: Facebook login
       google_login: Google login
-      signature_sheets: Handtekeningenvellen
-      spending_proposals: Projecten
+      proposals: Voorstellen
+      debates: Discussies
+      polls: Peilingen
+      signature_sheets: Handtekeningenlijsten
+      spending_proposals: Inversteringsprojecten
       spending_proposal_features:
-        voting_allowed: Stemmen voor projecten
+        voting_allowed: Stemmen op investeringsprojecten
       legislation: Wetgeving
-    map_latitude: Latitude
-    map_longitude: Longitude
+      user:
+        recommendations: Aanbevelingen
+      community: Community van voorstellen en investeringen
+      map: Voorstellen en inversteringen geolocatie
+      allow_images: Sta uploads en tonen van afbeeldingen toe
+      allow_attached_documents: Sta uploads en tonen van bijgevoegde bestanden toe
+    map_latitude: Breedte
+    map_longitude: Lengte
     map_zoom: Zoom
+    mailer_from_name: Afkomst emailnaam
+    mailer_from_address: Afkomst emailadres
     meta_title: "Site titel (SEO)"
-    meta_description: "Site omschrijving (SEO)"
-    meta_keywords: "Termen (SEO)"
-    min_age_to_participate: Minimum leeftijd voor participatie
+    meta_description: "Site beschrijving (SEO)"
+    meta_keywords: "Trefwoorden (SEO)"
+    verification_offices_url: Verificatie URL
+    min_age_to_participate: Minimale leeftijd om deel te nemen
+    proposal_improvement_path: Interne informatielink voor verbetering van voorstel
