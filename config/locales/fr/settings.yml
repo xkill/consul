@@ -40,6 +40,11 @@ fr:
       spending_proposal_features:
         voting_allowed: Vote sur les propositions d'investissement
       legislation: Législation
+      user:
+        recommendations: Recommandations
+        skip_verification: Passer la vérification de l'utilisateur
+        recommendations_on_debates: Recommandations sur les discussions
+        recommendations_on_proposals: Recommandations sur les propositions
       community: Communauté sur les propositions et les investissements
       map: Localisation des propositions et des projets d'investissement
       allow_images: Permettre d'importer et d'afficher des images
