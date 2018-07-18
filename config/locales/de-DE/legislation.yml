@@ -73,7 +73,7 @@ de:
           description: Nehmen Sie an Debatten und Verfahren teil, bevor eine Verordnung oder eine kommunale Handlung genehmigt wird. Ihre Meinung wird vom Stadtrat berücksichtigt.
           help_text_1: "In Beteiligungsprozessen bietet der Stadtrat den Bürgern die Möglichkeit an der Ausarbeitung und Änderungen von Verordnungen mitzuwirken, die Stadt zu beeinflussen und die Möglichkeit ihre Meinung zu spezifischen, in Planung stehenden, Aktionen zu äußern."
           help_text_2: "Personen, die bei %{org} registriert sind, können sich aktiv mit Beiträgen an, unter anderem, öffentlichen Anhörungen für neue Verordnungen, Regelungen und Richtlinien beteiligen. Die Kommentare werden nach betreffendem Bereich analysiert und für die endgültige Ausarbeitung der Verordnung in Betracht gezogen."
-          help_text_3: "Der Stadtrat öffnet auch Verfahren um Beiträge und Meinungen zu kommunalen Handlungen zu erhalten."
+          help_text_3: "Der Stadtrat öffnet auch Verfahren, um Beiträge und Meinungen zu kommunalen Handlungen zu erhalten."
       phase_not_open:
         not_open: Diese Phase ist noch nicht geöffnet
       phase_empty:
