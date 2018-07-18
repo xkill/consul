@@ -400,6 +400,7 @@ nl:
         help: Hulp over voorstellen
       section_footer:
         title: Hulp over voorstellen
+        description: Een burger doet een voorstel. Als het genoeg stemmen krijgt dan gaat het naar de stemmingsfase toe, zodat vervolgens alle burgers kunnen stemmen hoe zij hun stad willen vormgeven.
     new:
       form:
         submit_button: Doe voorstel
