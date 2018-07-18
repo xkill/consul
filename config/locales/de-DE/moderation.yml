@@ -79,6 +79,14 @@ de:
           ignored: Als gesehen markieren
         headers:
           moderate: Moderieren
+          proposal_notification: Antrags-Benachrichtigung
+        hide_proposal_notifications: Anträge ausblenden
+        ignore_flags: Als gesehen markieren
+        order: Sortieren nach
+        orders:
+          created_at: Neustes
+          moderated: Moderiert
+        title: Antrags-Benachrichtigungen
     users:
       index:
         hidden: Blockiert
