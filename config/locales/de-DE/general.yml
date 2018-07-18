@@ -115,7 +115,7 @@ de:
         without_interests: Vorschläge folgen, sodass wir Ihnen Empfehlungen geben können
         disable: "Debatten-Empfehlungen werden nicht mehr angezeigt, wenn sie diese ablehnen. Sie können auf der 'Mein Benutzerkonto'-Seite wieder aktiviert werden"
         actions:
-          success: "Debatten-Empfehlungen sind jetzt deaktiviert für dieses Benutzerkonto"
+          success: "Debatten-Empfehlungen sind jetzt für dieses Benutzerkonto deaktiviert"
           error: "Ein Fehler ist aufgetreten. Bitte gehen Sie zur 'Ihr Benutzerkonto'-Seite um Debatten-Empfehlungen manuell abzuschalten"
       search_form:
         button: Suche
@@ -370,7 +370,6 @@ de:
         without_interests: Folgen Sie Vorschlägen, sodass wir Ihnen Empfehlungen geben können
         disable: "Antrags-Empfehlungen werden nicht mehr angezeigt, wenn sie diese ablehnen. Sie können auf der 'Mein Benutzerkonto'-Seite wieder aktiviert werden"
         actions:
-          success: "Antrags-Empfehlungen sind jetzt deaktiviert für dieses Benutzerkonto"
           error: "Ein Fehler ist aufgetreten. Bitte gehen Sie zur 'Ihr Benutzerkonto'-Seite um Antrags-Empfehlungen manuell abzuschalten"
       retired_proposals: Vorschläge im Ruhezustand
       retired_proposals_link: "Vorschläge vom Autor zurückgezogen"
