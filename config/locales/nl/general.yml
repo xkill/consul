@@ -402,6 +402,8 @@ nl:
         title: Hulp over voorstellen
         description: Een burger doet een voorstel. Als het genoeg stemmen krijgt dan gaat het naar de stemmingsfase toe, zodat vervolgens alle burgers kunnen stemmen hoe zij hun stad willen vormgeven.
         help_text_1: "De burgervoorstellen zijn een mogelijkheid voor buren en collectieven om rechtstreeks te beslissen hoe zij hun stad willen vormgeven. Iedereen kan een voorstel doen over een onderwerp of bezorgdheid uiten over hun belang, zodat de gemeenteraad hiernaar kan handelen, nadat het voldoende steun heeft gekregen om tot een stem van de burger te worden gebracht."
+        help_text_2: "Als u een voorstel wilt maken, moet u zich aanmelden op %{org}. De voorstellen die de steun van 1% van de gebruikers krijgen, gaan door naar de stemmingsfase. Ter ondersteuning van de voorstellen is het noodzakelijk te beschikken over een geverifieerd account."
+        help_text_3: "De stemming van een burger wordt gevierd als de voorstellen de nodige steun krijgen. Zodra gevierd, dan zijn er meer mensen voor dan tegen, de gemeenteraad voert het voorstel uit."
     new:
       form:
         submit_button: Doe voorstel
