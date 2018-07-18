@@ -1,0 +1,11 @@
+nl:
+  guides:
+    title: "Heb jij een idee voor %{org}?"
+    subtitle: "Kies wat jij wilt creeeren"
+    budget_investment:
+      title: "Een inwonervoorstel"
+      feature_1_html: "Ideeen over alle mogelijke activiteiten voor de gemeente"
+      feature_2_html: "Heeft <strong>%{votes} steunbetuigingen</strong> in %{org} nodig om in stemming te worden gebracht"
+      feature_3_html: "Activeer op elk moment, je hebt <strong>een jaar</strong> om steunbetuigingen te verzamelen"
+      feature_4_html: "Als het project na stemming wordt goedgekeurd, accepteert de gemeente het voorstel"
+      new_button: Ik wil een voorstel indienen
