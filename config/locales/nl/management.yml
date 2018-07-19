@@ -15,40 +15,40 @@ nl:
           password: Wachtwoord
           send_email: Stuur een nieuw wachtwoord per mail
           reset_email_send: E-mail correct verzonden.
-          reseted: Password reseted successfully
-          random: Generate random password
-          save: Save
-          print: Print password
-          print_help: You will be able to print the password when it is saved.
+          reseted: Wachtwoord is succesvol hersteld
+          random: Genereer willekeurig wachtwoord
+          save: Sla wachtwoord op
+          print: Wachtwoord afdrukken
+          print_help: U kunt het wachtwoord afdrukken wanneer het is opgeslagen.
     account_info:
-      change_user: Change user
-      document_number_label: 'Document number:'
-      document_type_label: 'Document type:'
+      change_user: Wijzig gebruiker
+      document_number_label: 'Document nummer:'
+      document_type_label: 'Document soort:'
       email_label: 'Email:'
-      identified_label: 'Identified as:'
-      username_label: 'Username:'
-    check: Check
+      identified_label: 'Geïdentificeerd als:'
+      username_label: 'Gebruikersnaam:'
+    check: Kies bestand
     dashboard:
       index:
-        title: Management
-        info: Here you can manage users through all actions listed in the left menu.
-    document_number: Document number
-    document_type_label: Document type
+        title: Beheer
+        info: Hier kunt u gebruikers beheren via alle acties die in het linkermenu zijn vermeld.
+    document_number: Document nummer
+    document_type_label: Documentsoort
     document_verifications:
-      already_verified: This user account is already verified.
-      has_no_account_html: In order to create an account, go to %{link} and click in <b>'Register'</b> in the upper-left part of the screen.
+      already_verified: Dit gebruikersaccount is al geverifieerd.
+      has_no_account_html: Om een account aan te maken, gaat u naar %{link} en klikt u in <b>'Registreren'</ b> in het linker bovengedeelte van het scherm.
       link: CONSUL
-      in_census_has_following_permissions: 'This user can participate in the website with the following permissions:'
-      not_in_census: This document is not registered.
-      not_in_census_info: 'Citizens not in the Census can participate in the website with the following permissions:'
-      please_check_account_data: Please check that the account data above are correct.
-      title: User management
-      under_age: "You don't have the required age to verify your account."
-      verify: Verify
+      in_census_has_following_permissions: 'Deze gebruiker kan deelnemen aan de website met de volgende permissies:'
+      not_in_census: Dit document is niet geregistreerd.
+      not_in_census_info: 'Burgers niet in de volkstelling kunnen deelnemen aan de website met de volgende permissies:'
+      please_check_account_data: Controleer alstublieft of de bovenstaande accountgegevens correct zijn.
+      title: Gebruikersbeheer
+      under_age: "Je hebt niet de vereiste leeftijd om je account te verifiëren."
+      verify: Verifieer
     email_label: Email
-    date_of_birth: Date of birth
+    date_of_birth: Geboortedatum
     email_verifications:
-      already_verified: This user account is already verified.
+      already_verified: Dit gebruikersaccount is al geverifieerd.
       choose_options: 'Please choose one of the following options:'
       document_found_in_census: This document was found in the census, but it has no user account associated to it.
       document_mismatch: 'This email belongs to a user which already has an associated id: %{document_number}(%{document_type})'
