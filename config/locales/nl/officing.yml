@@ -6,6 +6,7 @@ nl:
       index:
         title: Beheer peilingen
         info: Hier kun je documenten van gebruikers valideren en stemresultaten opslaan
+        no_shifts: Je hebt geen beheerdienst vandaag.
     menu:
       voters: Valideer bestand
       total_recounts: Totaal aantal hertellingen en resultaten
@@ -57,6 +58,7 @@ nl:
         table_poll: Peiling
         table_status: Peilingen status
         table_actions: Acties
+        not_to_vote: De persoon heeft besloten niet te stemmen op dit moment
       show:
         can_vote: Mag stemmen
         error_already_voted: Heeft al deelgenomen aan deze peiling
