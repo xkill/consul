@@ -36,6 +36,16 @@ nl:
       groups:
         all_city: Hele gemeente
         districts: Gebieden
+      valuator_groups:
+        culture_and_sports: Cultuur & sport
+        gender_and_diversity: Geslacht & diversiteitsbeleid
+        urban_development: Duurzame stedelijke ontwikkeling
+        equity_and_employment: Eigen vermogen & Werkgelegenheid
+      statuses:
+        studying_project: Bestuderen van het project
+        bidding: Biedingen
+        executing_project: Het project uitvoeren
+        executed: Uitgevoerd
     polls:
       current_poll: "Huidige peiling"
       current_poll_geozone_restricted: "Huidige peiling is gebiedsgebonden"
