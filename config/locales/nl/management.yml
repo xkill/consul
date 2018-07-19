@@ -60,43 +60,43 @@ nl:
       send_email: Verstuur verificatie-e-mail
     menu:
       create_proposal: Doe voorstel
-      print_proposals: Print proposals
-      support_proposals: Support proposals
-      create_spending_proposal: Create spending proposal
-      print_spending_proposals: Print spending proposals
-      support_spending_proposals: Support spending proposals
-      create_budget_investment: Create budget investment
-      print_budget_investments: Print Budget Investments
-      support_budget_investments: Support Budget Investments
-      users: Users
-      user_invites: User's invites
+      print_proposals: Voorstellen afdrukken
+      support_proposals: Steun voorstellen
+      create_spending_proposal: Maak een begrotingsvoorstel
+      print_spending_proposals: Druk begrotingsvoorstel af
+      support_spending_proposals: Steun begrotingsvoorstel
+      create_budget_investment: Maak budgetinvestering
+      print_budget_investments: Druk begrotinginvestering af
+      support_budget_investments: Steun budgetinvestering
+      users: Gebruikersbeheer
+      user_invites: Verstuur uitnodigingen
       select_user: Selecteer gebruiker
     permissions:
-      create_proposals: Create proposals
-      debates: Engage in debates
-      support_proposals: Support proposals
-      vote_proposals: Vote proposals
+      create_proposals: Maak voorstellen
+      debates: Neem deel aan debatten
+      support_proposals: Steun voorstellen
+      vote_proposals: Stem voorstellen
     print:
-      proposals_info: Create yor proposal on http://url.consul
-      proposals_note: The proposals more supported will be voted. If are accepted by a majority, the city Council shall be carried out.
-      proposals_title: 'Proposals:'
-      spending_proposals_info: Participate at http://url.consul
-      spending_proposals_note: Participatory budget will be assigned to the most voted budget investment.
-      budget_investments_info: Participate at http://url.consul
-      budget_investments_note: Participatory budget will be assigned to the most voted budget investment.
-    print_info: Print this info
+      proposals_info: Maak je eigen voorstel op http://url.consul
+      proposals_note: Over de meer ondersteunde voorstellen zal worden gestemd. Indien aanvaard door een meerderheid, zullen deze door de Gemeenteraad worden uitgevoerd.
+      proposals_title: 'Voorstellen:'
+      spending_proposals_info: Neem deel op http://url.consul
+      spending_proposals_note: Begrotingsvoorstellen zullen worden beoordeeld op basis van het aantal stemmen.
+      budget_investments_info: Neem deel op http://url.consul
+      budget_investments_note: Begrotingsvoorstellen zullen worden beoordeeld op basis van het aantal stemmen.
+    print_info: Print deze informatie
     proposals:
       alert:
-        unverified_user: User is not verified
-      create_proposal: Create proposal
+        unverified_user: Gebruiker is niet geverifieerd
+      create_proposal: Maak voorstel
       print:
-        print_button: Print
+        print_button: Afdrukken
       index:
         title: Steun voorstellen
     budgets:
-      create_new_investment: Create New Investment
-      print_investments: Print Budget Investments
-      support_investments: Support Budget Investments
+      create_new_investment: Nieuw begrotingsvoorstel maken
+      print_investments: Druk begrotinginvestering af
+      support_investments: Steun budgetinvestering
       table_name: Naam
       table_phase: Fase
       table_actions: Acties
