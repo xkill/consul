@@ -28,22 +28,22 @@ nl:
       sincerely: "Oprecht"
       signatory: "Afdeling Burgerparticipatie"
       sorry: "Sorry for the inconvenience and we again thank you for your invaluable participation."
-      subject: "Your investment project '%{code}' has been marked as unfeasible"
-      unfeasible_html: "From the City Council we want to thank you for your participation in the <strong>participatory budgets</strong>. We regret to inform you that your proposal <strong>'%{title}'</strong> will be excluded from this participatory process for the following reason:"
+      subject: "Uw investeringsproject '%{code}' is als onhaalbaar gemarkeerd"
+      unfeasible_html: "Vanuit de Gemeenteraad willen we u bedanken voor uw deelname aan de <strong>participatieve budgetten</ strong>. Tot onze spijt moeten we u meedelen dat uw voorstel <strong>'%{title}'</ strong> om de volgende reden wordt uitgesloten van dit participatieproces:"
     proposal_notification_digest:
-      info: "Here are the new notifications that have been published by authors of the proposals that you have supported in %{org_name}."
-      title: "Proposal notifications in %{org_name}"
-      share: Share proposal
-      comment: Comment proposal
-      unsubscribe: "If you don't want receive proposal's notification, visit %{account} and unckeck 'Receive a summary of proposal notifications'."
-      unsubscribe_account: My account
+      info: "Dit zijn de nieuwe meldingen die zijn gepubliceerd door auteurs van de voorstellen die u hebt ondersteund in %{org_name}."
+      title: "Voorstelmeldingen in %{org_name}"
+      share: Deel voorstellen
+      comment: Reageren op het voorstel
+      unsubscribe: "Als u geen kennisgeving van voorstellen wilt ontvangen, gaat u naar %{account} en verwijdert u het vinkje bij 'Een samenvatting van de kennisgevingsvoorstellen ontvangen'."
+      unsubscribe_account: Mijn account
     direct_message_for_receiver:
-      subject: "You have received a new private message"
-      reply: Reply to %{sender}
-      unsubscribe: "If you don't want receive direct messages, visit %{account} and unckeck 'Receive emails about direct messages'."
-      unsubscribe_account: My account
+      subject: "U hebt een nieuw prive-bericht ontvangen"
+      reply: Antwoord op %{sender}
+      unsubscribe: "Als u geen directe boodschappen wilt ontvangen, kijk dan eens bij %{account} en haal het vinkje weg bij 'ontvangen e-mails over directe berichten'."
+      unsubscribe_account: Mijn account
     direct_message_for_sender:
-      subject: "You have send a new private message"
+      subject: "U heeft een nieuw prive bericht verstuurd"
       title_html: "You have send a new private message to <strong>%{receiver}</strong> with the content:"
     user_invite:
       ignore: "If you have not requested this invitation don't worry, you can ignore this email."
