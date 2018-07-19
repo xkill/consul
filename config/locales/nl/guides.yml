@@ -11,3 +11,8 @@ nl:
       new_button: Ik wil een voorstel indienen
     proposal:
       title: "Een inwonersvoorstel"
+      feature_1_html: "Ideeën over maatregelen die de gemeenteraad kunnen nemen"
+      feature_2_html: "Nodig <strong>%{votes} ondersteunt</strong> in %{org} om te gaan stemmen"
+      feature_3_html: "Activeren op elk gewenst moment, je hebt <strong>een jaar</strong> om de ondersteuning te verkrijgen"
+      feature_4_html: "Als een stemming is goedgekeurd, accepteert de gemeenteraad het voorstel"
+      new_button: Ik wil een voorstel maken
