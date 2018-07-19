@@ -1,12 +1,16 @@
 de:
   pages:
+    census_terms: Um das Benutzerkonto zu bestätigen, müssen Sie mindestens 16 Jahre alt und registriert sein. Des Weiteren müssen Sie die zuvor angeforderten Informationen zur Verfügung gestellt haben. Wenn Sie den Prüfvorgang aktzeptieren, stimmen Sie auktomatisch der Überpfüfung dieser Informationen, sowie den Kontaktmethoden, welche in den besagten Datein dargestellt sind, zu. Die zur Verfügung gestellten Daten werden in einer früher erwähnten Datei, nach den Benutzervoraussetzungen des Portals, erfasst und verarbeitet.
     conditions: Allgemeine Nutzungsbedingungen
     general_terms: Allgemeine Nutzungsbedingungen
     help:
       title: "%{org} ist eine Plattform zur Bürgerbeteiligung"
+      subtitle: "In %{org} können Sie Anträge erstellen, in Bürgerbefragungen abstimmen, Bürgerhaushalts-Projekte vorschlagen, Gemeindeverordnungen beschließen und Debatten öffnen, um Ihre Meinung mit anderen zu teilen."
+      guide: "Diese Anleitung erklärt Ihnen, was jeder einzelne %{org}-Bereich ist und wie dieser funktioniert."
       menu:
         debates: "Diskussionen"
         proposals: "Vorschläge"
+        budgets: "Bürgerhaushalte"
         polls: "Umfragen"
         other: "Weitere interessante Informationen"
         processes: "Prozesse"
