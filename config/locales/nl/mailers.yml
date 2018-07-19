@@ -7,21 +7,21 @@ nl:
       subject: Iemand heeft een reactie achtergelaten op %{commentable}
       title: Nieuwe reactie
     config:
-      manage_email_subscriptions: To stop receiving these emails change your settings in
+      manage_email_subscriptions: Om deze mails niet meer te ontvangen moet u uw instellingen aanpassen
     email_verification:
-      click_here_to_verify: this link
-      instructions_2_html: This email will verify your account with <b>%{document_type} %{document_number}</b>. If these don't belong to you, please don't click on the previous link and ignore this email.
-      instructions_html: To complete the verification of your user account in the Open Government Portal, you must click %{verification_link}.
-      subject: Confirm your email
-      thanks: Thank you very much.
-      title: Confirm your account using the following link
+      click_here_to_verify: Deze link
+      instructions_2_html: Deze e-mail verifieert uw account met <b>%{document_type} %{document_number}</ b>. Als deze niet van u zijn, klik dan niet op de vorige link en negeer deze e-mail.
+      instructions_html: Om de verificatie van uw gebruikersaccount in het Open Overheid Scherm te voltooien, moet u klikken op %{verification_link}.
+      subject: Bevestig uw email
+      thanks: Heel erg bedankt.
+      title: Bevestig uw account door de volgende link te gebruiken
     reply:
-      hi: Hi
-      new_reply_by_html: There is a new response from <b>%{commenter}</b> to your comment on
-      subject: Someone has responded to your comment
-      title: New response to your comment
+      hi: Hoi
+      new_reply_by_html: Er is een reactie van <b>%{commenter}</b> op je reactie op
+      subject: Iemand heeft gereageerd op je reactie
+      title: Nieuwe reactie op je reactie
     unfeasible_spending_proposal:
-      hi: "Dear user,"
+      hi: "Beste deelnemer,"
       new_html: "For all these, we invite you to elaborate a <strong>new proposal</strong> that ajusts to the conditions of this process. You can do it following this link: %{url}."
       new_href: "new investment project"
       reconsider_html: "If you believe that the rejected proposal meets the requirements to be an investment proposal, you can communicate this, within 48 hours, responding to the email address examples@consul.es. Including the code %{code} in the subject of the email."
