@@ -29,10 +29,10 @@ de:
       signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
       sorry: "Entschuldigung für die Unannehmlichkeiten und vielen Dank für Ihre wertvolle Beteiligung."
       subject: "Ihr Investitionsprojekt '%{code}' wurde als undurchführbar markiert"
-      unfeasible_html: "Wir möchten Ihnen, von Stadtrat aus, für Ihre Teilnahme am <strong>Bürgerhaushalt</strong> danken. Wir bedauern Ihnen mitzuteilen, dass Ihre Investition <strong>%{title}</strong> vom kommunalen Prozess, aus folgendem Grund, ausgeschlossen wurde:"
+      unfeasible_html: "Im Namen des Stadtrats möchten wir Ihnen für Ihre Teilnahme am <strong>Bürgerhaushalt</strong> danken. Wir bedauern Ihnen mitzuteilen, dass Ihre Investition <strong>%{title}</strong> vom kommunalen Prozess, aus folgendem Grund, ausgeschlossen wurde:"
     proposal_notification_digest:
       info: "Hier sind die neuen Benachrichtigungen, die von Autoren, für den Antrag von %{org_name}, den Sie unterstützen, veröffentlicht wurden."
-      title: "Abtrags-Benachrichtigungen von %{org_name}"
+      title: "Antrags-Benachrichtigungen von %{org_name}"
       share: Vorschlag teilen
       comment: Vorschlag kommentieren
       unsubscribe: "Wenn Sie keine Antrags-Benachrichtigungen erhalten möchten, besuchen Sie %{account} und entfernen Sie den Haken von 'Eine Zusammenfassung für Antrags-Benachrichtigungen erhalten'."
@@ -64,9 +64,9 @@ de:
       share: "Teilen Sie Ihr Projekt"
     budget_investment_unfeasible:
       hi: "Liebe/r Benutzer/in,"
-      new_html: "Bitte arbeiten Sie, für all diese, eine <strong>neue Investition</strong> aus, die an die Konditionen dieses Prozesses angepasst sind. Sie können dies auf folgendem Link tun: %{url}."
+      new_html: "Hierfür laden wir Sie ein, eine <strong>neue Investition</strong> auszuarbeiten, die an die Konditionen dieses Prozesses angepasst sind. Sie können dies über folgenden Link tun: %{url}."
       new_href: "neues Investitionsprojekt"
-      reconsider_html: "Wenn Sie glauben, dass die abgelehnte Investition die Anforderungen für einen Investitionsprojekt erfüllt, können Sie dieses, innerhalb von 48 Stunden, per E-mail an examples@consul.es mitteilen. Bitte fügen Sie den Code %{code} in die Betreffzeile der E-Mail ein."
+      reconsider_html: "Wenn Sie glauben, dass die abgelehnte Investition die Anforderungen für einen Investitionsprojekt erfüllt, können Sie dies, innerhalb von 48 Stunden, per E-mail an examples@consul.es mitteilen. Bitte fügen Sie den Code %{code} in die Betreffzeile der E-Mail ein."
       sincerely: "Mit freundlichen Grüßen"
       signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
       sorry: "Entschuldigung für die Unannehmlichkeiten und vielen Dank für Ihre wertvolle Beteiligung."
