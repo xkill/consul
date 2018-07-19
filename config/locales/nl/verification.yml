@@ -82,30 +82,30 @@ nl:
         phone: Voer uw mobiele telefoonnummer in om de code te ontvangen
         phone_format_html: "<strong><em>(Voorbeeld: 612345678 or +34612345678)</em></strong>"
         phone_note: We gebruiken uw mobiele telefoonnummer alleen om u een code toe te sturen, nooit om u te contacten.  
-        phone_placeholder: "Example: 612345678 or +34612345678"
-        submit_button: Send
-        title: Send confirmation code
+        phone_placeholder: "Voorbeeld: 612345678 or +34612345678"
+        submit_button: Verzenden
+        title: Bevestigingscode verzenden
       update:
-        error: Incorrect confirmation code
+        error: Onjuiste bevestigingscode
         flash:
           level_three:
-            success: Code correct. Your account is now verified
+            success: Juiste code. Je account is nu geverifieerd
           level_two:
             success: Code correct
-    step_1: Residence
-    step_2: Confirmation code
-    step_3: Final verification
-    user_permission_debates: Participate on debates
-    user_permission_info: Verifing your information you'll be able to...
-    user_permission_proposal: Create new proposals
-    user_permission_support_proposal: Support proposals*
-    user_permission_votes: Participate on final voting*
+    step_1: Woonplaats
+    step_2: Bevestigingscode
+    step_3: Laatste verificatie
+    user_permission_debates: Neem deel aan discussies
+    user_permission_info: Als u uw gegevens verifieert, kunt u...
+    user_permission_proposal: Nieuwe voorstellen maken
+    user_permission_support_proposal: Steun voorstellen*
+    user_permission_votes: Neem deel aan definitieve stemronde
     verified_user:
       form:
-        submit_button: Send code
+        submit_button: Verzend code
       show:
         email_title: Emails
-        explanation: We currently hold the following details on the Register; please select a method for your confirmation code to be sent.
-        phone_title: Phone numbers
-        title: Available information
-        use_another_phone: Use other phone
+        explanation: Wij houden momenteel de volgende gegevens over het register bij; Selecteer een methode voor uw bevestigingscode te ontvangen.
+        phone_title: Telefoonnummers
+        title: Beschikbare informatie
+        use_another_phone: Andere telefoon gebruiken
