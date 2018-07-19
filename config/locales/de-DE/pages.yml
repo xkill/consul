@@ -26,10 +26,14 @@ de:
         title: "Vorschläge"
         description: "Im %{link}-Abschnitt können Sie Anträge an den Stadtrat stellen. Die Anträge brauchen dann Unterstützung. Wenn Ihr Antrag ausreichend Unterstützung bekommt, wird er zur öffentlichen Wahl freigegeben. Anträge, die durch Bürgerstimmen bestätigt wurden, werden vom Stadtrat angenommen und umgesetzt."
         link: "Bürgervorschläge"
-        feature_html: "Um einen Antrag zu erstellen, müssen Sie sich in %{org} registrieren. Die Anträge, die Unterstützung auf der Webseite von 1% wahlberechtigter Personen (%{supports} Unterstützungen von registrierten Personen über dem Alter von 16 Jahren) gehen in die Wahlphase über. Um einen Antrag zu unterstützen, ist es wichtig Ihr Benutzerkonto zu bestätigen."
+        feature_html: "Um einen Antrag zu erstellen, müssen Sie sich in %{org} registrieren. Die Anträge, die Unterstützung auf der Webseite von 1% wahlberechtigter Personen (%{supports} Unterstützungen von registrierten Personen über dem Alter von 16 Jahren) wird er zur Abstimmung freigegeben. Um einen Antrag zu unterstützen, ist es wichtig Ihr Benutzerkonto zu bestätigen."
         image_alt: "Button zur Unterstützung eines Vorschlags"
-        figcaption_html: 'Taste um einen Vorschlag zu "unterstützen".<br>Wenn die Mindestanzahl an Befürworter erreicht wird, wird der Vorschlag zur Abstimmung freigegeben.'
+        figcaption_html: 'Taste um einen Vorschlag zu "unterstützen".<br>Wenn die Mindestanzahl an Unterstützung erreicht, wird der Antrag zur Abstimmung freigegeben.'
       budgets:
+        title: "Partizipative Haushaltsplanung"
+        description: "Der %{link}-Abschnitt hilft Personen eine direkte Entscheidung zu treffen, für was das kommunale Budget ausgegeben werden soll."
+        link: "Bürgerhaushalte"
+        feature: "Durch diesen Prozess errichten, unterstützen und stimmen Menschen jährlich für Projekte ab. Die am meisten gewählten Projekte werden mit dem kommunalen Budget finanziert."
         image_alt: "Verschiedene Phasen eines partizipativen Haushalts"
       polls:
         title: "Umfragen"
