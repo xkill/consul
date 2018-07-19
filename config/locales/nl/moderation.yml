@@ -47,6 +47,7 @@ nl:
       flagged_comments: Reacties
       flagged_debates: Discussies
       proposals: Voorstellen
+      proposal_notifications: Voorgestelde notificaties
       users: Blokkeer deelnemers
     proposals:
       index:
@@ -67,6 +68,21 @@ nl:
           created_at: Meest recent
           flags: Meest gemarkeerd
         title: Voorstellen
+    proposal_notifications:
+      index:
+        block_authors: Blokkeer auteurs
+        confirm: Bent u zeker?
+        filter: Filter
+        filters:
+          all: All
+          pending_review: In afwachting van beoordeling
+          ignored: Markeer als gelezen
+        headers:
+          moderate: Modereer
+          proposal_notification: Voorgestelde notificaties
+        hide_proposal_notifications: Verberg voorstellen
+        ignore_flags: Markeer als gelezen
+        title: Voorgestelde notificaties
     users:
       index:
         hidden: Geblokkeerd
