@@ -24,7 +24,7 @@ de:
       hi: "Liebe/r Benutzer/in"
       new_html: "Deshalb laden wir Sie ein, einen <strong>neuen Vorschlag</strong> zu erstellen, der die Bedingungen für diesen Prozess erfüllt. Sie können dies mithilfe des folgenden Links machen: %{url}."
       new_href: "neuer Investitionsvorschlag"
-      reconsider_html: "Wenn Sie glauben, dass der abgelehnte Antrag die Anforderungen für einen Anlagevorschlag erfüllt, können Sie dieses, innerhalb von 48 Stunden, per E-mail an examples@consul.es mitteilen. Bitte fügen Sie den Code %{code} in die Betreffzeile der E-Mail ein."
+      reconsider_html: "Wenn Sie glauben, dass der abgelehnte Antrag die Anforderungen für einen Anlagevorschlag erfüllt, können Sie das, innerhalb von 48 Stunden, per E-mail an examples@consul.es mitteilen. Bitte fügen Sie den Code %{code} in die Betreffzeile der E-Mail ein."
       sincerely: "Mit freundlichen Grüßen"
       signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
       sorry: "Entschuldigung für die Unannehmlichkeiten und vielen Dank für Ihre wertvolle Beteiligung."
