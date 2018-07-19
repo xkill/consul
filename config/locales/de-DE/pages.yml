@@ -36,6 +36,8 @@ de:
         feature: "Durch diesen Prozess errichten, unterstützen und stimmen Menschen jährlich für Projekte ab. Die am meisten gewählten Projekte werden mit dem kommunalen Budget finanziert."
         phase_1_html: "Zwischen Januar und frühem März, können Personen, die in %{org} registriert sind, <strong>vortragen</strong>."
         phase_2_html: "Im März müssen Antragssteller Unterstützung, in Form einer <strong>Vorauswahl</strong>, sammeln."
+        phase_3_html: "Zwischen April und dem Beginn von Mai, <strong>bewerten</strong> die Experten des Stadtrates Projekte von mehr zu weniger Unterstützt und überprüfen, ob sie durchführbar sind."
+        phase_4_html: "Abschließend, zwischen Mai und Juni, können alle Bürger für Projekte, welche sie am meisten interessieren, <strong>stimmen</strong>."
         image_alt: "Verschiedene Phasen eines partizipativen Haushalts"
       polls:
         title: "Umfragen"
