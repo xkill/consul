@@ -35,6 +35,7 @@ nl:
         table_title: Titel
         table_heading_name: Naam van de rubriek
         table_actions: Acties
+        no_investments: "Er zijn geen investeringsprojecten."
       show:
         back: Terug
         title: Investeringsproject
