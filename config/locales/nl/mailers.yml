@@ -44,26 +44,26 @@ nl:
       unsubscribe_account: Mijn account
     direct_message_for_sender:
       subject: "U heeft een nieuw prive bericht verstuurd"
-      title_html: "You have send a new private message to <strong>%{receiver}</strong> with the content:"
+      title_html: "Je hebt een nieuw privébericht gestuurd naar <strong>%{receiver}</strong> met de inhoud:"
     user_invite:
-      ignore: "If you have not requested this invitation don't worry, you can ignore this email."
-      text: "Thank you for applying to join %{org}! In seconds you can start to decide the city you want, just fill the form below:"
-      thanks: "Thank you very much."
-      title: "Welcome to %{org}"
-      button: Complete registration
-      subject: "Invitation to %{org_name}"
+      ignore: "Als u deze uitnodiging niet hebt geaccepteerd maak je geen zorgen, u kunt deze e-mail dan negeren."
+      text: "Bedankt voor uw aanmelding om lid te worden van %{org}! Binnen enkele seconden kunt u beginnen met het bepalen van de stad, vul het onderstaande formulier in:"
+      thanks: "Heel erg bedankt."
+      title: "Welkom bij %{org}"
+      button: Inschrijving voltooien
+      subject: "Uitnodiging voor %{org_name}"
     budget_investment_created:
-      subject: "Thank you for creating an investment!"
-      title: "Thank you for creating an investment!"
-      intro_html: "Hi <strong>%{author}</strong>,"
-      text_html: "Thank you for creating your investment <strong>%{investment}</strong> for Participatory Budgets <strong>%{budget}</strong>."
-      follow_html: "We will inform you about how the process progresses, which you can also follow on <strong>%{link}</strong>."
-      follow_link: "Participatory Budgets"
-      sincerely: "Sincerely,"
-      signatory: "DEPARTMENT OF PUBLIC PARTICIPATION"
-      share: "Share your project"
+      subject: "Dank u voor het maken van een investering!"
+      title: "Dank u voor het maken van een investering!"
+      intro_html: "Hallo <strong>%{author}</strong>,"
+      text_html: "Dank u voor het maken van uw investering <strong>%{investment}</strong> voor participatieve budgetten <strong>%{budget}</strong>."
+      follow_html: "Wij zullen u informeren over hoe het proces vordert, dit kun je ook volgen op <strong>%{link}<div class=\"notranslate\"> 2 volgen kun</div>."
+      follow_link: "Participatieve budgetten"
+      sincerely: "Oprecht,"
+      signatory: "Afdeling Burgerparticipatie"
+      share: "Deel uw project"
     budget_investment_unfeasible:
-      hi: "Dear user,"
+      hi: "Beste gebruiker,"
       new_html: "For all these, we invite you to elaborate a <strong>new investment</strong> that ajusts to the conditions of this process. You can do it following this link: %{url}."
       new_href: "new investment project"
       reconsider_html: "If you believe that the rejected investment meets the requirements to be an investment project, you can communicate this, within 48 hours, responding to the email address examples@consul.es. Including the code %{code} in the subject of the email."
