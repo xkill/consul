@@ -70,6 +70,7 @@ nl:
       support_budget_investments: Support Budget Investments
       users: Users
       user_invites: User's invites
+      select_user: Selecteer gebruiker
     permissions:
       create_proposals: Create proposals
       debates: Engage in debates
@@ -90,10 +91,16 @@ nl:
       create_proposal: Create proposal
       print:
         print_button: Print
+      index:
+        title: Steun voorstellen
     budgets:
       create_new_investment: Create New Investment
       print_investments: Print Budget Investments
       support_investments: Support Budget Investments
+      table_name: Naam
+      table_phase: Fase
+      table_actions: Acties
+      no_budgets: Er zijn geen actieve participatieve budgetten.
     budget_investments:
       alert:
         unverified_user: User is not verified
