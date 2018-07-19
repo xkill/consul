@@ -16,12 +16,15 @@ de:
         processes: "Prozesse"
       debates:
         title: "Diskussionen"
+        description: "Im %{link}-Abschnitt können Sie Ihre Meinung zu Anliegen in Ihrer Stadt äußern und mit anderen Menschen teilen. Zudem ist es ein Bereich, in dem Ideen generiert werden können, die durch andere Abschnitte der %{org} zu Handlungen des Stadtrates führen."
+        link: "Bürger-Debatten"
         feature_html: "Sie können Diskussionen eröffnen, kommentieren und mit <strong> Ich stimme zu</strong> oder <strong>Ich stimme nicht zu</strong> bewerten. Hierfür müssen Sie %{link}."
         feature_link: "registrieren für %{org}"
         image_alt: "Button, um die Diskussionen zu bewerten"
         figcaption: '"Ich stimme zu" und "Ich stimme nicht zu" Buttons, um die Diskussion zu bewerten.'
       proposals:
         title: "Vorschläge"
+        description: "Im %{link}-Abschnitt können Sie Anträge an den Stadtrat stellen. Die Anträge brauchen dann Unterstützung. Wenn Ihr Antrag ausreichend Unterstützung bekommt, wird er zur öffentlichen Wahl freigegeben. Anträge, die durch Bürgerstimmen bestätigt wurden, werden vom Stadtrat angenommen und umgesetzt."
         link: "Bürgervorschläge"
         image_alt: "Button zur Unterstützung eines Vorschlags"
       budgets:
