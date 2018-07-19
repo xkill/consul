@@ -34,6 +34,8 @@ de:
         description: "Der %{link}-Abschnitt hilft Personen eine direkte Entscheidung zu treffen, für was das kommunale Budget ausgegeben werden soll."
         link: "Bürgerhaushalte"
         feature: "Durch diesen Prozess errichten, unterstützen und stimmen Menschen jährlich für Projekte ab. Die am meisten gewählten Projekte werden mit dem kommunalen Budget finanziert."
+        phase_1_html: "Zwischen Januar und frühem März, können Personen, die in %{org} registriert sind, <strong>vortragen</strong>."
+        phase_2_html: "Im März müssen Antragssteller Unterstützung, in Form einer <strong>Vorauswahl</strong>, sammeln."
         image_alt: "Verschiedene Phasen eines partizipativen Haushalts"
       polls:
         title: "Umfragen"
