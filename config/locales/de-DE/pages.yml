@@ -6,7 +6,7 @@ de:
     help:
       title: "%{org} ist eine Plattform zur Bürgerbeteiligung"
       subtitle: "In %{org} können Sie Anträge erstellen, in Bürgerbefragungen abstimmen, Bürgerhaushalts-Projekte vorschlagen, Gemeindeverordnungen beschließen und Debatten öffnen, um Ihre Meinung mit anderen zu teilen."
-      guide: "Diese Anleitung erklärt Ihnen, was jeder einzelne %{org}-Bereich ist und wie dieser funktioniert."
+      guide: "Diese Anleitung erklärt Ihnen, was jeder einzelne %{org}-Abschnitt ist und wie dieser funktioniert."
       menu:
         debates: "Diskussionen"
         proposals: "Vorschläge"
