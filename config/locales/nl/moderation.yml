@@ -82,6 +82,10 @@ nl:
           proposal_notification: Voorgestelde notificaties
         hide_proposal_notifications: Verberg voorstellen
         ignore_flags: Markeer als gelezen
+        order: Sorteer op
+        orders:
+          created_at: Meest recent
+          moderated: Gemodereerd door
         title: Voorgestelde notificaties
     users:
       index:
