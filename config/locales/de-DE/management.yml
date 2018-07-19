@@ -78,7 +78,7 @@ de:
       vote_proposals: Über Vorschläge abstimmen
     print:
       proposals_info: Erstellen Sie Ihren Antrag auf http://url.consul
-      proposals_note: Die am meisten unterstützten Anträge werden gewählt. Wenn sie von der Mehrheit aktzeptiert werden, wird der Stadtrat sie ausführen.
+      proposals_note: Die am meisten unterstützten Anträge werden gewählt. Wenn sie von der Mehrheit akzeptiert werden, wird der Stadtrat sie umsetzen.
       proposals_title: 'Vorschläge:'
       spending_proposals_info: Auf http://url.consul teilnehmen
       spending_proposals_note: Bürgerhaushalt wird der Budgetinvestition mit den meisten Stimmen zugeteilt.
@@ -106,7 +106,7 @@ de:
         unverified_user: Der Benutzer ist nicht verifiziert
       create: Eine Budgetinvestitionen erstellen
       filters:
-        heading: Concepto
+        heading: Konzept
         unfeasible: Undurchführbare Investition
       print:
         print_button: Drucken
@@ -140,12 +140,12 @@ de:
       erased_by_manager: "Vom Manager gelöscht: %{manager}"
       erase_account_link: Gelöschte Benutzer
       erase_account_confirm: Sind Sie sicher, dass Sie ihr Konto löschen möchten? Dies kann nicht rückgängig gemacht werden
-      erase_warning: Diese Handlung kann nicht rückgängig grmacht werden. Bitte vergewissern Sie, dass sie dieses Benutzerkonto löschen möchten.
+      erase_warning: Diese Handlung kann nicht rückgängig gemacht werden. Bitte vergewissern Sie sich, dass sie dieses Benutzerkonto löschen möchten.
       erase_submit: Konto löschen
     user_invites:
       new:
         label: E-Mails
-        info: "Geben Sie die E-Mails, durch Kommas (',') getrennt, an"
+        info: "Geben Sie die E-Mails durch Kommas (',') getrennt an"
         submit: Einladungen senden
         title: Einladungen senden
       create:
