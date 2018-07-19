@@ -42,10 +42,15 @@ nl:
       legislation: Wetgeving
       user:
         recommendations: Aanbevelingen
+        skip_verification: Sla verificatie van de gebruiker over
+        recommendations_on_debates: Aanbevelingen op debatten
+        recommendations_on_proposals: Aanbevelingen op voorstellen
       community: Community van voorstellen en investeringen
       map: Voorstellen en inversteringen geolocatie
       allow_images: Sta uploads en tonen van afbeeldingen toe
       allow_attached_documents: Sta uploads en tonen van bijgevoegde bestanden toe
+      guides: Gidsen voor het maken van voorstellen of investeringsprojecten
+      public_stats: Openbare statistieken
     map_latitude: Breedte
     map_longitude: Lengte
     map_zoom: Zoom
