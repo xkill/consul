@@ -1,11 +1,11 @@
 nl:
   mailers:
-    no_reply: "This message was sent from an email address that does not accept replies."
+    no_reply: "Dit bericht is verzonden vanaf een e-mailadres dat geen reacties accepteert."
     comment:
-      hi: Hi
-      new_comment_by_html: There is a new comment from <b>%{commenter}</b>
-      subject: Someone has commented on your %{commentable}
-      title: New comment
+      hi: Hoi
+      new_comment_by_html: Er is een reactie van <b>%{commenter}</b>
+      subject: Iemand heeft een reactie achtergelaten op %{commentable}
+      title: Nieuwe reactie
     config:
       manage_email_subscriptions: To stop receiving these emails change your settings in
     email_verification:
