@@ -1,56 +1,56 @@
 nl:
   verification:
     alert:
-      lock: You have reached the maximum number of attempts. Please try again later.
-    back: Return to my account
+      lock: Je hebt het maximale aantal inlogpogingen bereikt. Probeer het later opnieuw.
+    back: Ga terug naar mijn account
     email:
       create:
         alert:
-          failure: There was a problem with sending an email to your account
+          failure: Er was een probleem met het verzenden van een e-mail naar je account
         flash:
-          success: 'We have sent a confirmation email to your account: %{email}'
+          success: 'We hebben een bevestigingsmail naar je account gestuurd: %{email}'
       show:
         alert:
-          failure: Verification code incorrect
+          failure: De verificatiecode is onjuist
         flash:
-          success: You are a verified user
+          success: Je bent een geverifieerde gebruiker
     letter:
       alert:
-        unconfirmed_code: You have not yet entered the confirmation code
+        unconfirmed_code: Je hebt de bevestigingscode nog niet ingevuld
       create:
         flash:
-          offices: Citizen Support Offices
-          success_html: Thank you for requesting your <b>maximum security code (only required for the final votes)</b>. In a few days we will send it to the address featuring in the data we have on file. Please remember that, if you prefer, you can collect your code from any of the %{offices}.
+          offices: Burgers ondersteuningskantoren
+          success_html: Bedankt voor het aanvragen van je <b>veiligheidscode (deze is alleen nodig voor de definitieve stemming)</b>. Binnen een paar dagen sturen we deze code naar het adres wat bij ons bekend is. Please remember that, if you prefer, you can collect your code from any of the %{offices}. aanpassen.
       edit:
-        see_all: See proposals
-        title: Letter requested
+        see_all: Bekijk voorstellen
+        title: Brief aangevraagd
       errors:
-        incorrect_code: Verification code incorrect
+        incorrect_code: De verificatiecode is onjuist
       new:
-        explanation: 'For participate on final voting you can:'
-        go_to_index: See proposals
-        office: Verify in any %{office}
-        offices: Citizen Support Offices
-        send_letter: Send me a letter with the code
-        title: Congratulations!
-        user_permission_info: With your account you can...
+        explanation: 'Om deel te nemen aan de definitieve stemming kun je:'
+        go_to_index: Bekijk voorstellen
+        office: Bevestig in een %{office}
+        offices: Burgers ondersteuningskantoren
+        send_letter: Stuur mij een brief met de code
+        title: Gefeliciteerd!
+        user_permission_info: Met uw account kunt u...
       update:
         flash:
-          success: Code correct. Your account is now verified
+          success: Juiste code. Je account is nu geverifieerd
     redirect_notices:
-      already_verified: Your account is already verified
-      email_already_sent: We have already sent an email with a confirmation link. If you cannot locate the email, you can request a reissue here
+      already_verified: Je account is al geverifieerd
+      email_already_sent: We hebben al een e-mail gestuurd met een bevestigingslink. Als je de e-mail niet kunt vinden, dan kun je hier een nieuwe e-mail aanvragen
     residence:
       alert:
-        unconfirmed_residency: You have not yet confirmed your residency
+        unconfirmed_residency: Je hebt je woonplaats nog niet bevestigd
       create:
         flash:
-          success: Residence verified
+          success: Je woonplaats is bevestigd
       new:
-        accept_terms_text: I accept %{terms_url} of the Census
-        accept_terms_text_title: I accept the terms and conditions of access of the Census
-        date_of_birth: Date of birth
-        document_number: Document number
+        accept_terms_text: Ik accepteer %{terms_url} van de telling
+        accept_terms_text_title: Ik accepteer de algemene voorwaarden voor toegang tot de telling
+        date_of_birth: Geboortedatum
+        document_number: Documentnummer
         document_number_help_title: Help
         document_number_help_text_html: '<strong>DNI</strong>: 12345678A<br> <strong>Passport</strong>: AAA000001<br> <strong>Residence card</strong>: X1234567P'
         document_type:
