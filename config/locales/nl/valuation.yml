@@ -120,7 +120,7 @@ nl:
         undefined_feasible: In afwachting
         feasible_explanation_html: Toelichting op de haalbaarheid
         valuation_finished: Beoordeling afgerond
-        time_scope_html: Tijdsspanne
+        time_scope_html: Tijdsspanning
         internal_comments_html: Interne reacties
         save: Bewaar wijzigingen
       notice:
