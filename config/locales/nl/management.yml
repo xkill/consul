@@ -2,19 +2,19 @@ nl:
   management:
     account:
       menu:
-        reset_password_email: Reset password via email
-        reset_password_manually: Reset password manually
+        reset_password_email: Reset wachtwoord via e-mail
+        reset_password_manually: Wachtwoord handmatig opnieuw instellen
       alert:
-        unverified_user: No verified user logged in yet
+        unverified_user: Geen geverifieerde gebruiker heeft nog ingelogd
       show:
-        title: User account
+        title: Gebruikers account
       edit:
-        title: 'Edit user account: Reset password'
-        back: Back
+        title: 'Gebruikersaccount bewerken: Reset wachtwoord'
+        back: Terug
         password:
-          password: Password
-          send_email: Send reset password email
-          reset_email_send: Email correctly sent.
+          password: Wachtwoord
+          send_email: Stuur een nieuw wachtwoord per mail
+          reset_email_send: E-mail correct verzonden.
           reseted: Password reseted successfully
           random: Generate random password
           save: Save
