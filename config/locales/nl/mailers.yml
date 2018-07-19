@@ -22,11 +22,11 @@ nl:
       title: Nieuwe reactie op je reactie
     unfeasible_spending_proposal:
       hi: "Beste deelnemer,"
-      new_html: "For all these, we invite you to elaborate a <strong>new proposal</strong> that ajusts to the conditions of this process. You can do it following this link: %{url}."
-      new_href: "new investment project"
-      reconsider_html: "If you believe that the rejected proposal meets the requirements to be an investment proposal, you can communicate this, within 48 hours, responding to the email address examples@consul.es. Including the code %{code} in the subject of the email."
-      sincerely: "Sincerely"
-      signatory: "DEPARTMENT OF PUBLIC PARTICIPATION"
+      new_html: "Voor al deze vragen nodigen we u uit een <strong>nieuw voorstel</ strong> uit te werken dat zich aanpast aan de voorwaarden van dit proces. U kunt dit doen door deze link te volgen: %{url}."
+      new_href: "nieuw investeringsproject"
+      reconsider_html: "Als u van mening bent dat het afgewezen voorstel voldoet aan de vereisten om een investeringsvoorstel te zijn, kunt u dit binnen 48 uur communiceren door te reageren op het e-mailadres examples@consul.es. De code %{code} opnemen in het onderwerp van de e-mail."
+      sincerely: "Oprecht"
+      signatory: "Afdeling Burgerparticipatie"
       sorry: "Sorry for the inconvenience and we again thank you for your invaluable participation."
       subject: "Your investment project '%{code}' has been marked as unfeasible"
       unfeasible_html: "From the City Council we want to thank you for your participation in the <strong>participatory budgets</strong>. We regret to inform you that your proposal <strong>'%{title}'</strong> will be excluded from this participatory process for the following reason:"
