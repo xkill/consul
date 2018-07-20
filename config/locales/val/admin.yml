@@ -127,7 +127,6 @@ val:
         table_amount: Quantitat
         table_population: Població
         population_info: "El camp població de les partides pressupuestaries s'usa amb fins estadistics únicament, amb l'objectiu de mostrar el percentatge de vots en cada partida que represente un àrea amb població. Es un camp opciona, així que pots deixarlo en blanc si no s'aplica."
-        max_votable_headings: "Màxim número de partides en les que un usuari pot votar"
       winners:
         calculate: Calcular propostes guanyadores
         calculated: Calculant guanyadores, pot tardar algún minut.
