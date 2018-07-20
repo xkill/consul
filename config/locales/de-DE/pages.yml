@@ -67,6 +67,13 @@ de:
       other:
         title: "Weitere interessante Informationen"
         how_to_use: "Verwenden Sie %{org_name} in Ihrer Stadt"
+      how_to_use:
+        text: |-
+          Verwenden Sie es in Ihrer lokalen Regierung, oder helfen Sie uns es zu verbessern. Es ist freie Software.
+          
+          Dieses offene Regierungs-Portal benutzt die [CONSUL app](https://github.com/consul/consul 'consul github'), die eine freie Software, mit der Lizens [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ) ist. Einfach gesagt, dies bedeuted, dass jeder diesen Code frei benutzen, kopieren, detailiert betrachten, modifizieren und Versionen, mit gewünschten Modifikationen, neu an die Welt verteilen kann (wobei anderen gestattet wird das selbe zu tun). Denn wir glauben, dass Kultur besser und reicher ist, wenn es veröffentlicht ist.
+          
+          Wenn Sie ein Programmierer sind, können Sie den Code betrachten und uns helfen diesen auf [CONSUL app](https://github.com/consul/consul 'consul github') zu verbessern.
       titles:
         how_to_use: Verwenden Sie es in Ihrer lokalen Regierung
     privacy: Datenschutzregelung
