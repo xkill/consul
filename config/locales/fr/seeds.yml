@@ -43,6 +43,7 @@ fr:
         equity_and_employment: Équité & Emploi
       statuses:
         studying_project: Études du projet
+        bidding: Soumettre
         executing_project: Exécuter le projet
         executed: Exécuté
     polls:
