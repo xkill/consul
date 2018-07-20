@@ -127,7 +127,6 @@ fr:
         table_amount: Montant
         table_population: Population
         population_info: "Le champ de population pour la tranche du budget est utilisé à des fins statistiques à la fin du budget pour montrer le pourcentage de votants pour chaque tranche qui représente une zone. Le champ est optionnel donc vous pouvez le laissez blanc."
-        max_votable_headings: "Nombre maxium de rubriques dans lequel un utilisateur peut voter"
       winners:
         calculate: Calculer les investissements gagnant
         calculated: Le calcul des gagnants peut prendre quelques minutes.
