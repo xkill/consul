@@ -114,7 +114,6 @@ pt-BR:
         table_amount: Quantidade
         table_population: População
         population_info: "O campo \"população\" do Título do Orçamento é usado para fins Estatísticos ao final do Orçamento, para mostrar a porcentagem votante da população da área de cada Título. O campo é opcional, então você pode deixá-lo vazio se não se aplicar."
-        max_votable_headings: "Número máximo de títulos em que um usuário pode votar"
       winners:
         calculate: Calcular os investimentos vencedores
         calculated: Vencedores sendo calculados, pode demorar um minuto.
