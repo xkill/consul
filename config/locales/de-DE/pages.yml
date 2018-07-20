@@ -67,10 +67,13 @@ de:
       other:
         title: "Weitere interessante Informationen"
         how_to_use: "Verwenden Sie %{org_name} in Ihrer Stadt"
+      titles:
+        how_to_use: Verwenden Sie es in Ihrer lokalen Regierung
     privacy: Datenschutzregelung
     titles:
       accessibility: Barrierefreiheit
       conditions: Nutzungsbedingungen
+      help: "Was ist %{org}? -Bürgerbeteiligung"
       privacy: Datenschutzregelung
     verify:
       code: Code, den Sie per Brief/SMS erhalten haben
