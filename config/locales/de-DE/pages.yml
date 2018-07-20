@@ -48,6 +48,7 @@ de:
         feature_1: "Um an der Abstimmung teilzunehmen, müssen Sie %{link} und Ihr Konto verifizieren."
         feature_1_link: "anmelden %{org_name}"
         feature_2: "Alle registrierten Wähler über dem alter von 16 Jahren können wählen."
+        feature_3: "Die Ergebnisse aller Abstimmungen ist verbindlich für die Stadtregierung."
       processes:
         title: "Prozesse"
         link: "Prozesse"
