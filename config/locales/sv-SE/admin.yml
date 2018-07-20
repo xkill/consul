@@ -118,7 +118,6 @@ sv:
         table_amount: Antal
         table_population: Befolkning
         population_info: "Budget rubrik befolkningen fältet används för statistiska ändamål i slutet av budgeten för att visa för varje rubrik som representerar ett område med befolkning vilken procentandel röstade. Fältet är valfritt så kan du lämna det tomt om det inte gäller."
-        max_votable_headings: "Maxium antal rubriker där en användare kan rösta"
       winners:
         calculate: Beräkna vinnande budgetförslag
         calculated: Vinnare beräknas, kan det ta en minut.
