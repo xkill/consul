@@ -53,6 +53,7 @@ de:
         title: "Prozesse"
         description: "Im %{link}-Abschnitt nehmen Bürger an der Ausarbeitung und Änderung von, die stadt betreffenden, Bestimmungen teil und können ihre Meinung bezüglich kommunaler Richtlinien in vorausgehenden Debatten äußern."
         link: "Prozesse"
+        feature: "Um an einem Prozess teilzunehmen, müssen sie %{sign_up} und die %{link} Seite regelmäßig prüfen, sodass Sie sehen, welche Bestimmungen und Richtlinien diskutiert und hinzubezogen werden."
         sign_up: "Registrierung unter %{org}"
       faq:
         title: "Technische Probleme?"
@@ -60,6 +61,7 @@ de:
         button: "Zeige häufig gestellte Fragen"
         page:
           title: "Häufige gestellte Fragen"
+          description: "Benutzen Sie diese Seite um gängigen FAQs der Nutzer der Seite zu lösen."
           faq_1_title: "Frage 1"
           faq_1_description: "Dies ist ein Beispiel für die Beschreibung der ersten Frage."
       other:
