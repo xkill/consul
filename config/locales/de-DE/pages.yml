@@ -43,17 +43,17 @@ de:
         figcaption_html: '"Unterstützungs"- und "Wahlphasen" kommunaler Budgets.'
       polls:
         title: "Umfragen"
-        description: "Der %{link}-Abschnitt wird aktiviert, wann immer ein Antrag 1% an Unterstützung erreicht und zur Abstimmung übergeht, oder wenn der Stadtrat ein Problem zur Abstimmung unterbreitet."
+        description: "Der %{link}-Abschnitt wird aktiviert, wann immer ein Antrag 1% an Unterstützung erreicht und zur Abstimmung übergeht, oder wenn der Stadtrat ein Problem zur Abstimmung vorlegt."
         link: "Umfragen"
         feature_1: "Um an der Abstimmung teilzunehmen, müssen Sie %{link} und Ihr Konto verifizieren."
         feature_1_link: "anmelden %{org_name}"
-        feature_2: "Alle registrierten Wähler über dem alter von 16 Jahren können wählen."
-        feature_3: "Die Ergebnisse aller Abstimmungen ist verbindlich für die Stadtregierung."
+        feature_2: "Alle registrierten Wähler über dem Alter von 16 Jahren können wählen."
+        feature_3: "Die Ergebnisse aller Abstimmungen sind verbindlich für die Stadtregierung."
       processes:
         title: "Prozesse"
-        description: "Im %{link}-Abschnitt nehmen Bürger an der Ausarbeitung und Änderung von, die stadt betreffenden, Bestimmungen teil und können ihre Meinung bezüglich kommunaler Richtlinien in vorausgehenden Debatten äußern."
+        description: "Im %{link}-Abschnitt nehmen Bürger an der Ausarbeitung und Änderung von, die Stadt betreffenden, Bestimmungen teil und können ihre Meinung bezüglich kommunaler Richtlinien in vorausgehenden Debatten äußern."
         link: "Prozesse"
-        feature: "Um an einem Prozess teilzunehmen, müssen sie %{sign_up} und die %{link} Seite regelmäßig prüfen, sodass Sie sehen, welche Bestimmungen und Richtlinien diskutiert und hinzubezogen werden."
+        feature: "Um an einem Prozess teilzunehmen, müssen Sie %{sign_up} und die %{link} Seite regelmäßig prüfen, sodass Sie sehen, welche Bestimmungen und Richtlinien diskutiert und hinzubezogen werden."
         sign_up: "Registrierung unter %{org}"
       faq:
         title: "Technische Probleme?"
@@ -61,7 +61,7 @@ de:
         button: "Zeige häufig gestellte Fragen"
         page:
           title: "Häufige gestellte Fragen"
-          description: "Benutzen Sie diese Seite um gängigen FAQs der Nutzer der Seite zu lösen."
+          description: "Benutzen Sie diese Seite, um gängige FAQs der Seiten-Nutzer zu lösen."
           faq_1_title: "Frage 1"
           faq_1_description: "Dies ist ein Beispiel für die Beschreibung der ersten Frage."
       other:
