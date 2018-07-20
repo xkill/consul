@@ -127,7 +127,6 @@ nl:
         table_amount: Bedrag
         table_population: Bevolking
         population_info: "Het veld rubriek wordt gebruikt voor statistische doeleinden. Na afloop van de begroting kan voor elke rubriek en per gebied worden weergegeven door welk percentage is gestemd. Het veld is optioneel, dus u kunt het leeg laten als het niet van toepassing is."
-        max_votable_headings: "Maximum aantal rubrieken waarin gestemd kan worden"
       winners:
         calculate: Bereken gewonnen bestemmingen
         calculated: Bestemmingen worden berekend, kan even duren.
