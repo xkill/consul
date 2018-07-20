@@ -38,12 +38,16 @@ de:
         phase_2_html: "Im März müssen Antragssteller Unterstützung, in Form einer <strong>Vorauswahl</strong>, sammeln."
         phase_3_html: "Zwischen April und dem Beginn von Mai, <strong>bewerten</strong> die Experten des Stadtrates Projekte von mehr zu weniger Unterstützt und überprüfen, ob sie durchführbar sind."
         phase_4_html: "Abschließend, zwischen Mai und Juni, können alle Bürger für Projekte, welche sie am meisten interessieren, <strong>stimmen</strong>."
+        phase_5_html: "Im folgenden Jahr Mach der Genehmigung des Budgets, beginnt der Stadtrat damit die siegreichen Projekte umzusetzen."
         image_alt: "Verschiedene Phasen eines partizipativen Haushalts"
+        figcaption_html: '"Unterstützungs"- und "Wahlphasen" kommunaler Budgets.'
       polls:
         title: "Umfragen"
+        description: "Der %{link}-Abschnitt wird aktiviert, wann immer ein Antrag 1% an Unterstützung erreicht und zur Abstimmung übergeht, oder wenn der Stadtrat ein Problem zur Abstimmung unterbreitet."
         link: "Umfragen"
         feature_1: "Um an der Abstimmung teilzunehmen, müssen Sie %{link} und Ihr Konto verifizieren."
         feature_1_link: "anmelden %{org_name}"
+        feature_2: "Alle registrierten Wähler über dem alter von 16 Jahren können wählen."
       processes:
         title: "Prozesse"
         link: "Prozesse"
