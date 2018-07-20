@@ -51,6 +51,7 @@ de:
         feature_3: "Die Ergebnisse aller Abstimmungen ist verbindlich für die Stadtregierung."
       processes:
         title: "Prozesse"
+        description: "Im %{link}-Abschnitt nehmen Bürger an der Ausarbeitung und Änderung von, die stadt betreffenden, Bestimmungen teil und können ihre Meinung bezüglich kommunaler Richtlinien in vorausgehenden Debatten äußern."
         link: "Prozesse"
         sign_up: "Registrierung unter %{org}"
       faq:
