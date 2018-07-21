@@ -82,6 +82,7 @@ de:
           valuation_open: Offen
           valuating: In der Bewertungsphase
           valuation_finished: Bewertung beendet
+        title: Investitionsprojekte für den Bürgerhaushalt
         edit: Bearbeiten
       show:
         back: Zurück
@@ -93,13 +94,33 @@ de:
         geozone: Rahmen
         dossier: Dossier
         edit_dossier: Dossier bearbeiten
+        price: Preis
+        price_first_year: Kosten im ersten Jahr
         currency: "€"
         feasibility: Durchführbarkeit
         feasible: Durchführbar
+        not_feasible: Nicht durchführbar
+        undefined: Nicht definiert
+        valuation_finished: Bewertung beendet
+        time_scope: Zeitrahmen
+        internal_comments: Interne Bemerkungen
         responsibles: Verantwortliche
+        assigned_admin: Zugewiesener Admin
+        assigned_valuators: Zugewiesene Gutachter
       edit:
         dossier: Dossier
+        price_html: "Preis (%{currency})"
+        price_first_year_html: "Kosten im ersten Jahr (%{currency})"
+        currency: "€"
+        price_explanation_html: Preiserklärung
+        feasibility: Durchführbarkeit
+        feasible: Durchführbar
+        not_feasible: Nicht durchführbar
+        undefined_feasible: Ausstehend
+        feasible_explanation_html: Erläuterung der Durchführbarkeit
+        valuation_finished: Bewertung beendet
         time_scope_html: Zeitrahmen
+        internal_comments_html: Interne Bemerkungen
         save: Änderungen speichern
       notice:
         valuate: "Dossier aktualisiert"
