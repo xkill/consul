@@ -4,8 +4,11 @@ de:
       title: Bewertung
     menu:
       title: Bewertung
+      budgets: Bürgerhaushalte
+      spending_proposals: Ausgabenvorschläge
     budgets:
       index:
+        title: Bürgerhaushalte
         filters:
           current: Offen
           finished: Fertig
