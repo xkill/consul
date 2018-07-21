@@ -51,6 +51,9 @@ de:
       allow_attached_documents: Upload und Anzeigen von angehängten Dokumenten erlauben
       guides: Anleitungen zum Erstellen von Amträgen und Investitionsprojekten
       public_stats: Öffentliche Statistiken
+    related_content_score_threshold: Punktzahl-Grenze für verwandte Inhalte
+    map_latitude: Breitengrad
+    map_longitude: Längengrad
     map_zoom: Zoom
     mailer_from_address: Herkunft-E-Mailadresse
     min_age_to_participate: erforderliches Mindestalter zur Teilnahme
