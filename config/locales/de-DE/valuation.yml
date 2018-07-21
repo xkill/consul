@@ -21,19 +21,30 @@ de:
         headings_filter_all: Alle Überschriften
         filters:
           valuation_open: Offen
+          valuating: In der Bewertungsphase
+          valuation_finished: Bewertung beendet
+        assigned_to: "%{valuator} zugewiesen"
         title: Investitionsprojekte
         edit: Dossier bearbeiten
+        valuators_assigned:
+          one: '%{valuator} zugewiesen'
+          other: "%{count} Gutachter zugewiesen"
+        no_valuators_assigned: Keine Gutacher zugewiesen
         table_id: ID
         table_title: Titel
+        table_heading_name: Name der Rubrik
         table_actions: Aktionen
+        no_investments: "Keine Investitionsprojekte vorhanden."
       show:
         back: Zurück
         title: Investitionsprojekt
         info: Autor Informationen
         by: Gesendet von
+        sent: Gesendet um
         heading: Überschrift
         dossier: Dossier
         edit_dossier: Dossier bearbeiten
+        price: Preis
         currency: "€"
         feasibility: Durchführbarkeit
         feasible: Durchführbar
