@@ -60,4 +60,6 @@ de:
     meta_title: "Seiten-Titel (SEO)"
     meta_description: "Seiten-Beschreibung (SEO)"
     meta_keywords: "Stichwörter (SEO)"
+    verification_offices_url: Bestätigungsbüro URL
     min_age_to_participate: erforderliches Mindestalter zur Teilnahme
+    proposal_improvement_path: Interner Link zu Antrags Verbesserungs Informationen
