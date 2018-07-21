@@ -55,5 +55,8 @@ de:
     map_latitude: Breitengrad
     map_longitude: Längengrad
     map_zoom: Zoom
+    mailer_from_name: Name der originalen E-Mail
     mailer_from_address: Herkunft-E-Mailadresse
+    meta_title: "Seiten-Titel (SEO)"
+    meta_description: "Seiten-Beschreibung (SEO)"
     min_age_to_participate: erforderliches Mindestalter zur Teilnahme
