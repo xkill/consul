@@ -44,6 +44,8 @@ de:
       statuses:
         studying_project: Das Projekt studieren
         bidding: Ausschreibung
+        executing_project: Das Projekt durchführen
+        executed: Ausgeführt
     polls:
       current_poll: "Aktuelle Umfrage"
       incoming_poll: "Eingehende Umfrage"
