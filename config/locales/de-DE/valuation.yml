@@ -1,5 +1,9 @@
 de:
   valuation:
+    header:
+      title: Bewertung
+    menu:
+      title: Bewertung
     budgets:
       index:
         filters:
