@@ -13,6 +13,8 @@ de:
     votes_for_proposal_success: "Anzahl der notwendigen Stimmen zur Genehmigung eines Vorschlags"
     months_to_archive_proposals: "Anzahl der Monate, um Vorschläge zu archivieren"
     email_domain_for_officials: "E-Mail-Domäne für Beamte"
+    per_page_code_head: "Code, der auf jeder Seite eingefügt wird (<head>)"
+    per_page_code_body: "Code, der auf jeder Seite eingefügt wird (<body>)"
     twitter_handle: "Twitter Benutzer*name"
     twitter_hashtag: "Twitter hashtag"
     facebook_handle: "Facebook Benutzer*name"
@@ -20,6 +22,9 @@ de:
     telegram_handle: "Benutzer*name für Telegram"
     instagram_handle: "Instagram handle"
     blog_url: "Blog URL"
+    transparency_url: "Transparenz-URL"
+    opendata_url: "Offene-Daten-URL"
+    url: "Haupt-URL"
     org_name: "Name der Organisation"
     place_name: "Name des Ortes"
     feature:
@@ -31,12 +36,20 @@ de:
       debates: Diskussionen
       polls: Umfragen
       signature_sheets: Unterschriftenbögen
+      spending_proposals: Investitionsprojekte
+      spending_proposal_features:
+        voting_allowed: Für Investitionsprojekte stimmen
       legislation: Gesetzgebung
       user:
         recommendations: Empfehlungen
         skip_verification: Benutzer*überprüfung überspringen
+        recommendations_on_debates: Empfehlungen für Debatten
+        recommendations_on_proposals: Empfehlungen für Anträge
+      community: Community für Anträge und Investitionen
+      map: Standort des Antrages und der Budgetinvestition
       allow_images: Upload und Anzeigen von Bildern erlauben
       allow_attached_documents: Upload und Anzeigen von angehängten Dokumenten erlauben
+      guides: Anleitungen zum Erstellen von Amträgen und Investitionsprojekten
       public_stats: Öffentliche Statistiken
     map_zoom: Zoom
     mailer_from_address: Herkunft-E-Mailadresse
