@@ -1,5 +1,11 @@
 de:
   seeds:
+    settings:
+      official_level_1_name: Öffentliche Mitarbeiter
+      official_level_2_name: Kommunale Organisation 
+      official_level_3_name: Generaldirektoren
+      official_level_4_name: Ratsmitglieder
+      official_level_5_name: Bürgermeister
     organizations:
       human_rights: Menschenrechte
     categories:
