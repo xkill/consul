@@ -49,7 +49,7 @@ de:
       map: Standort des Antrages und der Budgetinvestition
       allow_images: Upload und Anzeigen von Bildern erlauben
       allow_attached_documents: Upload und Anzeigen von angehängten Dokumenten erlauben
-      guides: Anleitungen zum Erstellen von Amträgen und Investitionsprojekten
+      guides: Anleitungen zum Erstellen von Anträgen und Investitionsprojekten
       public_stats: Öffentliche Statistiken
     related_content_score_threshold: Punktzahl-Grenze für verwandte Inhalte
     map_latitude: Breitengrad
