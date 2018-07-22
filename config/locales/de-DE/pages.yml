@@ -26,7 +26,7 @@ de:
         title: "Vorschläge"
         description: "Im %{link}-Abschnitt können Sie Anträge an den Stadtrat stellen. Die Anträge brauchen dann Unterstützung. Wenn Ihr Antrag ausreichend Unterstützung bekommt, wird er zur öffentlichen Wahl freigegeben. Anträge, die durch Bürgerstimmen bestätigt wurden, werden vom Stadtrat angenommen und umgesetzt."
         link: "Bürgervorschläge"
-        feature_html: "Um einen Antrag zu erstellen, müssen Sie sich in %{org} registrieren. Die Anträge, die Unterstützung, auf der Webseite, von 1% wahlberechtigter Personen (%{supports} Unterstützungen von registrierten Personen über dem Alter von 16 Jahren) erhalten, werden zur Abstimmung freigegeben. Um einen Antrag zu unterstützen, ist es wichtig Ihr Benutzerkonto zu bestätigen."
+        feature_html: "Um einen Antrag zu erstellen, müssen Sie sich in %{org} registrieren. Die Anträge, die Unterstützung, auf der Webseite, von 1% wahlberechtigter Personen (%{supports} über dem Alter von 16 Jahren) erhalten, werden zur Abstimmung freigegeben. Um einen Antrag zu unterstützen, ist es wichtig Ihr Benutzerkonto zu bestätigen."
         image_alt: "Button zur Unterstützung eines Vorschlags"
         figcaption_html: 'Taste um einen Vorschlag zu "unterstützen".<br>Wenn die Mindestanzahl an Unterstützung erreicht, wird der Antrag zur Abstimmung freigegeben.'
       budgets:
@@ -71,7 +71,7 @@ de:
         text: |-
           Verwenden Sie es in Ihrer lokalen Regierung, oder helfen Sie uns es zu verbessern. Es ist freie Software.
           
-          Dieses offene Regierungs-Portal benutzt die [CONSUL app](https://github.com/consul/consul 'consul github'), die eine freie Software, mit der Lizens [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ) ist. Einfach gesagt, dies bedeuted, dass jeder diesen Code frei benutzen, kopieren, detailiert betrachten, modifizieren und Versionen, mit gewünschten Modifikationen, neu an die Welt verteilen kann (wobei anderen gestattet wird das selbe zu tun). Denn wir glauben, dass Kultur besser und reicher ist, wenn es veröffentlicht ist.
+          Dieses offene Regierungs-Portal benutzt die [CONSUL app](https://github.com/consul/consul 'consul github'), die eine freie Software, mit der Lizens [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ) ist. Einfach gesagt, dies bedeuted, dass jeder diesen Code frei benutzen, kopieren, detailiert betrachten, modifizieren und Versionen, mit gewünschten Modifikationen, neu an die Welt verteilen kann (wobei anderen gestattet wird das selbe zu tun). Denn wir glauben, dass Kultur besser und reicher ist, wenn es öffentlich ist.
           
           Wenn Sie ein Programmierer sind, können Sie den Code betrachten und uns helfen diesen auf [CONSUL app](https://github.com/consul/consul 'consul github') zu verbessern.
       titles:
