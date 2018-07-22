@@ -12,7 +12,7 @@ de:
         poll_question_answer_image: "Bild erfolgreich hochgeladen"
         proposal: "Vorschlag erfolgreich erstellt."
         proposal_notification: "Ihre Nachricht wurde versendet."
-        spending_proposal: "Ausgabenvorschlag erfolgreich erstellt. Sie können auf %{activity} darauf zugreifen"
+        spending_proposal: "Ausgabenvorschlag erfolgreich erstellt. Sie können über %{activity} darauf zugreifen"
         budget_investment: "Budgetinvestition wurde erfolgreich erstellt."
         signature_sheet: "Unterschriftenblatt wurde erfolgreich erstellt"
         topic: "Thema erfolgreich erstellt."
