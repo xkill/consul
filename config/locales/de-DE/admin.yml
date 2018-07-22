@@ -127,6 +127,8 @@ de:
         table_amount: Menge
         table_population: Bevölkerung
         population_info: "Das Feld 'Bevölkerung' in den Budgetrubriken wird nur für statistische Zwecke verwendet mit dem Ziel, den Prozentsatz der Stimmen in jeder Rubrik anzuzeigen, die ein Bevölkerungsgebiet darstellt. Es ist ein optionales Feld, daher können Sie es leer lassen, wenn es nicht zutrifft."
+        max_votable_headings: "Maximale Anzahl von Rubriken, in der ein Nutzer abstimmen kann"
+        current_of_max_headings: "%{current} von %{max}"
       winners:
         calculate: Meistbewertete Budgetvorschläge berechnen
         calculated: Die Gewinner werden ermittelt, es kann einen Moment dauern.
