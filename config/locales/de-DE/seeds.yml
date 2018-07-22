@@ -13,7 +13,7 @@ de:
       central_district: Bezirk-Zentrum
     organizations:
       human_rights: Menschenrechte
-      neighborhood_association: Nachbatschaftsvereinigung
+      neighborhood_association: Nachbarschaftsvereinigung
     categories:
       associations: Verbände
       culture: Kultur
@@ -42,7 +42,7 @@ de:
         urban_development: Nachhaltige Stadtentwicklung
         equity_and_employment: Eigenkapital & Beschäftigung
       statuses:
-        studying_project: Das Projekt studieren
+        studying_project: Das Projekt untersuchen
         bidding: Ausschreibung
         executing_project: Das Projekt durchführen
         executed: Ausgeführt
