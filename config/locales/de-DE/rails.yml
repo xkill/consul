@@ -191,9 +191,11 @@ de:
       two_words_connector: " und "
       words_connector: ", "
   time:
+    am: vormittags
     formats:
       datetime: "%Y-%m-%d %H:%M:%S"
       default: "%a, %d %b %Y %H:%M:%S %z"
       long: "%B %d, %Y %H:%M"
       short: "%d %b %H:%M"
       api: "%Y-%m-%d %H"
+    pm: nachmittags
