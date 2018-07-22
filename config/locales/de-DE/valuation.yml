@@ -29,7 +29,7 @@ de:
         edit: Dossier bearbeiten
         valuators_assigned:
           one: '%{valuator} zugewiesen'
-          other: "%{count} Gutachter zugewiesen"
+          other: "%{count} zugewiesene Gutachter"
         no_valuators_assigned: Keine Gutacher zugewiesen
         table_id: ID
         table_title: Titel
