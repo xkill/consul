@@ -14,6 +14,7 @@ de:
           finished: Fertig
         table_name: Name
         table_phase: Phase
+        table_assigned_investments_valuation_open: Zugeordnete Investmentprojekte mit offener Bewertung
         table_actions: Aktionen
         evaluate: Bewerten
     budget_investments:
