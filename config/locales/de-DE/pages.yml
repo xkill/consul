@@ -5,8 +5,8 @@ de:
     general_terms: Allgemeine Nutzungsbedingungen
     help:
       title: "%{org} ist eine Plattform zur Bürgerbeteiligung"
-      subtitle: "In %{org} können Sie Anträge erstellen, in Bürgerbefragungen abstimmen, Bürgerhaushalts-Projekte vorschlagen, Gemeindeverordnungen beschließen und Debatten öffnen, um Ihre Meinung mit anderen zu teilen."
-      guide: "Diese Anleitung erklärt Ihnen, was jeder einzelne %{org}-Abschnitt ist und wie dieser funktioniert."
+      subtitle: "In %{org} können Sie Anträge erstellen, in Bürgerbefragungen abstimmen, Bürgerhaushaltsprojekte vorschlagen, Gemeindeverordnungen beschließen und Debatten öffnen, um Ihre Meinung mit anderen zu teilen."
+      guide: "Diese Anleitung erklärt Ihnen, was die einzelnen %{org}-Abschnitte sind und wie diese funktionieren."
       menu:
         debates: "Diskussionen"
         proposals: "Vorschläge"
@@ -28,15 +28,15 @@ de:
         link: "Bürgervorschläge"
         feature_html: "Um einen Antrag zu erstellen, müssen Sie sich in %{org} registrieren. Die Anträge, die Unterstützung, auf der Webseite, von 1% wahlberechtigter Personen (%{supports} über dem Alter von 16 Jahren) erhalten, werden zur Abstimmung freigegeben. Um einen Antrag zu unterstützen, ist es wichtig Ihr Benutzerkonto zu bestätigen."
         image_alt: "Button zur Unterstützung eines Vorschlags"
-        figcaption_html: 'Taste um einen Vorschlag zu "unterstützen".<br>Wenn die Mindestanzahl an Unterstützung erreicht, wird der Antrag zur Abstimmung freigegeben.'
+        figcaption_html: 'Schaltfläche, um einen Vorschlag zu "unterstützen".<br>Wenn die Mindestanzahl an Unterstützung erreicht, wird der Antrag zur Abstimmung freigegeben.'
       budgets:
         title: "Partizipative Haushaltsplanung"
         description: "Der %{link}-Abschnitt hilft Personen eine direkte Entscheidung zu treffen, für was das kommunale Budget ausgegeben werden soll."
         link: "Bürgerhaushalte"
-        feature: "Durch diesen Prozess errichten, unterstützen und stimmen Menschen jährlich für Projekte ab. Die am meisten gewählten Projekte werden mit dem kommunalen Budget finanziert."
+        feature: "Durch diesen Prozess errichten, unterstützen und stimmen Menschen jährlich für Projekte ab. Die Projekte mit den meisten Stimmen werden mit dem kommunalen Budget finanziert."
         phase_1_html: "Zwischen Januar und frühem März, können Personen, die in %{org} registriert sind, <strong>vortragen</strong>."
-        phase_2_html: "Im März müssen Antragssteller Unterstützung, in Form einer <strong>Vorauswahl</strong>, sammeln."
-        phase_3_html: "Zwischen April und dem Beginn von Mai, <strong>bewerten</strong> die Experten des Stadtrates Projekte von mehr zu weniger Unterstützt und überprüfen, ob diese durchführbar sind."
+        phase_2_html: "Im März müssen Antragssteller Unterstützung in Form einer <strong>Vorauswahl</strong> sammeln."
+        phase_3_html: "Zwischen April und Anfang Mai, <strong>bewerten</strong> die Experten des Stadtrates, on Projekte mehr oder weniger untersützt wurden und überprüfen, ob diese durchführbar sind."
         phase_4_html: "Abschließend, zwischen Mai und Juni, können alle Bürger für Projekte, welche sie am meisten interessieren, <strong>stimmen</strong>."
         phase_5_html: "Im folgenden Jahr, nach der Genehmigung des Budgets, beginnt der Stadtrat damit die siegreichen Projekte umzusetzen."
         image_alt: "Verschiedene Phasen eines partizipativen Haushalts"
