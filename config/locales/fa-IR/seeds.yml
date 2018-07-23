@@ -1,11 +1,5 @@
 fa:
   seeds:
-    settings:
-      official_level_1_name: کارگران عمومی
-      official_level_2_name: سازمان شهری
-      official_level_3_name: مدیران عمومی
-      official_level_4_name: مشاوران
-      official_level_5_name: شهردار
     geozones:
       north_district: منطقه شمال
       west_district: منطقه غرب
