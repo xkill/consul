@@ -1,11 +1,5 @@
 nl:
   seeds:
-    settings:
-      official_level_1_name: Ambtenaren
-      official_level_2_name: Overheidsorganisaties
-      official_level_3_name: Algemene directeuren
-      official_level_4_name: Raadsleden
-      official_level_5_name: Burgemeester
     geozones:
       north_district: Noord
       west_district: West
