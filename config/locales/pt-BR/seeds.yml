@@ -1,11 +1,5 @@
 pt-BR:
   seeds:
-    settings:
-      official_level_1_name: Servidores públicos
-      official_level_2_name: Organização Municipal
-      official_level_3_name: Diretores Gerais
-      official_level_4_name: Conselheiros
-      official_level_5_name: Prefeito
     geozones:
       north_district: Distrito norte
       west_district: Distrito oeste
