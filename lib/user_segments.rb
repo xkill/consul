@@ -1,12 +1,15 @@
 class UserSegments
-  SEGMENTS = %w(all_users
-                administrators
-                proposal_authors
-                investment_authors
-                feasible_and_undecided_investment_authors
-                selected_investment_authors
-                winner_investment_authors
-                not_supported_on_current_budget) + Geozone.all.map(&:name).map(&:parameterize).map(&:underscore).sort - ["city"]
+
+  def self.segments
+    %w(all_users
+       administrators
+       proposal_authors
+       investment_authors
+       feasible_and_undecided_investment_authors
+       selected_investment_authors
+       winner_investment_authors
+       not_supported_on_current_budget) + geozones
+  end
 
   def self.all_users
     User.active
@@ -47,6 +50,10 @@ class UserSegments
                   current_budget_investments.pluck(:id)
                 )
     )
+  end
+
+  def self.geozones
+    Geozone.pluck(:name).map(&:parameterize).map(&:underscore).sort - ["city"]
   end
 
   Geozone.all.each do |geozone|
