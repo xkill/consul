@@ -502,7 +502,6 @@ val:
       administrators: Administradors
       managers: Gestors
       moderators: Moderadors
-      emails: Enviament d'emails
       newsletters: Butlletins informatius
       emails_download: Descàrrega de emails
       valuators: Evaluadors
