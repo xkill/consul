@@ -175,18 +175,6 @@ es-AR:
           undecided: "Sin decidir"
         selected: "Seleccionada"
         select: "Seleccionar"
-        table_id: "ID"
-        table_title: "Título"
-        table_supports: "Apoyos"
-        table_admin: "Administrador"
-        table_valuator: "Evaluador"
-        table_valuation_group: "Grupo Valorado"
-        table_geozone: "Ámbito de actuación"
-        table_feasibility: "Viabilidad"
-        table_valuation_finished: "Ev. Fin."
-        table_selection: "Seleccionado"
-        table_evaluation: "Mostrar a evaluador"
-        table_incompatible: "Incompatible"
         cannot_calculate_winners: El presupuesto tiene que permanecer en la fase "Proyectos de votación", "Revisión de votación" o "Votación finalizada" en orden para calcular los proyectos ganadores
         see_results: "Ver resultados"
       show:
