@@ -154,7 +154,6 @@ id:
           one_filter_html: "Filter yang diterapkan saat ini: <b><em>%{filter}</em></b>"
           two_filters_html: "Filter yang diterapkan saat ini: <b><em>%{filter}, %{advanced_filters}</em></b>"
         buttons:
-          search: Cari
           filter: Menyaring
         download_current_selection: "Unduh pilihan saat ini"
         no_budget_investments: "Tidak ada proyek investasi."
