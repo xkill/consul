@@ -154,7 +154,6 @@ gl:
           one_filter_html: "Filtros aplicados actualmente: <b><em>%{filter}</em></b>"
           two_filters_html: "Filtros de uso aplicados actualmente: <b><em>%{filter}, %{advanced_filters}</em></b>"
         buttons:
-          search: Buscar
           filter: Filtrar
         download_current_selection: "Descargar a selección actual"
         no_budget_investments: "Non hai proxectos de investimento."
