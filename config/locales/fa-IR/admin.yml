@@ -158,7 +158,6 @@ fa:
           one_filter_html: "فیلترهای فعلی موجود:<b><em>%{filter}</em></b>"
           two_filters_html: "فیلترهای فعلی موجود:<b><em>%{filter}%{advanced_filters}</em></b>"
         buttons:
-          search: جستجو
           filter: فیلتر
         download_current_selection: "انتخاب کنونی را دانلود کنید"
         no_budget_investments: "هیچ پروژه سرمایه گذاری وجود ندارد."
