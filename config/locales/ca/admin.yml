@@ -70,8 +70,6 @@ ca:
         feasibility:
           feasible: "Viable (%{price})"
           undecided: "sense decidir"
-        table_valuator: "avaluador"
-        table_valuation_finished: "Ev. Fi."
       show:
         info: "%{budget_name} - Grup: %{group_name} - Proposta d'inversió %{id}"
         edit_classification: Edita classificació
