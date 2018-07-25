@@ -86,8 +86,6 @@ ar:
           winners: الفائزين
           one_filter_html: "الفلتر المطبق حاليا: <b><em>%{filter}</em></b>"
           two_filters_html: "الفلتر المطبق حاليا: <b><em>%{filter}, %{advanced_filters}</em></b>"
-        buttons:
-          search: بحث
         title: مشاريع استثمارية
         assigned_admin: المشرف المعين
         no_admin_assigned: المشرف غير المعين
