@@ -74,8 +74,6 @@ ast:
         feasibility:
           feasible: "Vidable (%{price})"
           undecided: "Ensin decidir"
-        table_valuator: "Evaluaor"
-        table_valuation_finished: "Ev. Rem."
       show:
         info: "%{budget_name} - Grupu: %{group_name} - Propuesta d'inversión %{id}"
         edit_classification: Editar clasificación
