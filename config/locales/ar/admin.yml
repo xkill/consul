@@ -89,7 +89,6 @@ ar:
         title: مشاريع استثمارية
         assigned_admin: المشرف المعين
         no_admin_assigned: المشرف غير المعين
-        table_incompatible: "غير متوافق"
       show:
         classification: تصنيف
       edit:
