@@ -169,16 +169,6 @@ pt-BR:
           undecided: "Não decidido"
         selected: "Selecionado"
         select: "Selecionar"
-        table_id: "ID"
-        table_title: "Título"
-        table_supports: "Apoios"
-        table_admin: "Administrador"
-        table_valuator: "Avaliador"
-        table_geozone: "Escopo da operação"
-        table_feasibility: "Factibilidade"
-        table_valuation_finished: "Valor Final."
-        table_selection: "Selecionado"
-        table_incompatible: "Incompatível"
       show:
         assigned_admin: Administrador designado
         assigned_valuators: Avaliadores designados
