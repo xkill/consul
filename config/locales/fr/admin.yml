@@ -184,18 +184,6 @@ fr:
           undecided: "Incertain"
         selected: "Sélectionné"
         select: "Sélectionner"
-        table_id: "ID"
-        table_title: "Titre"
-        table_supports: "Soutiens"
-        table_admin: "Administrateur"
-        table_valuator: "Évaluateur"
-        table_valuation_group: "Groupe d’évaluation"
-        table_geozone: "Périmètre des opérations"
-        table_feasibility: "Faisabilité"
-        table_valuation_finished: "Ev. Ter."
-        table_selection: "Sélection"
-        table_evaluation: "Montrer aux évaluateurs"
-        table_incompatible: "Incompatibles"
         cannot_calculate_winners: Le budget doit rester sur la phase "Vote des projets", "Dépouillage du bulletin de vote" ou "Budget terminé" afin de calculer les projets gagnants
         see_results: "Voir les résultats"
       show:
