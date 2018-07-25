@@ -129,13 +129,6 @@ es-HN:
           undecided: "Sin decidir"
         selected: "Seleccionada"
         select: "Seleccionar"
-        table_title: "Título"
-        table_supports: "Apoyos"
-        table_admin: "Administrador"
-        table_valuator: "Evaluador"
-        table_geozone: "Ámbito de actuación"
-        table_feasibility: "Viabilidad"
-        table_valuation_finished: "Ev. Fin."
       show:
         assigned_admin: Administrador asignado
         assigned_valuators: Evaluadores asignados
