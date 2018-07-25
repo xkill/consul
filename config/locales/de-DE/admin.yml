@@ -186,18 +186,6 @@ de:
           undecided: "Offen"
         selected: "Ausgewählt"
         select: "Auswählen"
-        table_id: "ID"
-        table_title: "Titel"
-        table_supports: "Unterstützer/innen"
-        table_admin: "Administrator"
-        table_valuator: "Begutachter/in"
-        table_valuation_group: "Bewertungsgruppe"
-        table_geozone: "Tätigkeitsbereich"
-        table_feasibility: "Durchführbarkeit"
-        table_valuation_finished: "Bew. Fin."
-        table_selection: "Ausgewählt"
-        table_evaluation: "Den Begutachtern/Begutachterinnen zeigen"
-        table_incompatible: "Inkompatibel"
         cannot_calculate_winners: Das Budget muss in einer der Phasen "Finale Abstimmung", "Abstimmung beendet" oder "Ergebnisse" stehen, um Gewinnervorschläge berechnen zu können
         see_results: "Ergebnisse anzeigen"
       show:
