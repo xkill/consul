@@ -79,9 +79,6 @@ pl:
           unfeasible: "Niemożliwy do realizacji"
         selected: "Wybrany"
         select: "Wybierz"
-        table_id: "Numer ID"
-        table_title: "Tytuł"
-        table_selection: "Wybrany"
       show:
         edit: Edytuj
         tags: Tagi
