@@ -172,18 +172,6 @@ fa:
           undecided: "بلاتکلیف"
         selected: "انتخاب شده"
         select: "انتخاب"
-        table_id: "شناسه"
-        table_title: "عنوان"
-        table_supports: "پشتیبانی ها"
-        table_admin: "مدیران"
-        table_valuator: "ارزیابی"
-        table_valuation_group: "گروه ارزيابي"
-        table_geozone: "حوزه عملیات"
-        table_feasibility: "امکان پذیری\n"
-        table_valuation_finished: "Val. Fin."
-        table_selection: "انتخاب شده"
-        table_evaluation: "نشان دادن به ارزیاب ها"
-        table_incompatible: "ناسازگار"
         cannot_calculate_winners: بودجه باید در مرحله "رای گیری پروژه ها"، "بررسی رای گیری" یا " پایان بودجه" برای محاسبه پروژه های برنده باقی بماند
       show:
         assigned_admin: سرپرست تعیین شده
