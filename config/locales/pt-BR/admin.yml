@@ -156,7 +156,6 @@ pt-BR:
           one_filter_html: "Filtros aplicados no momento: <b><em>%{filter}</em></b>"
           two_filters_html: "Filtros aplicados no momento: <b><em>%{filter}, %{advanced_filters}</em></b>"
         buttons:
-          search: Buscar
           filter: Filtro
         download_current_selection: "Baixar seleção atual"
         no_budget_investments: "Não há projetos de investimento."
