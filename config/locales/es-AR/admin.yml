@@ -161,7 +161,6 @@ es-AR:
           one_filter_html: "Filtros actuales aplicados:<b><em>%{filter}</em></b>"
           two_filters_html: "Filtros actuales aplicados:<b><em>%{filter},%{advanced_filters}</em></b>"
         buttons:
-          search: Buscar
           filter: Filtro
         download_current_selection: "Descargar selección actual"
         no_budget_investments: "No hay proyectos de inversión."
