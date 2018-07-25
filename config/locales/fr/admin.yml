@@ -170,7 +170,6 @@ fr:
           one_filter_html: "Filtres activés : <b><em>%{filter}</em></b>"
           two_filters_html: "Filtres activés : <b><em>%{filter}, %{advanced_filters}</em></b>"
         buttons:
-          search: Rechercher
           filter: Filtrer
         download_current_selection: "Télécharger la sélection"
         no_budget_investments: "Il n’y a aucun projet d’investissement."
