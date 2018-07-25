@@ -154,7 +154,6 @@ es-VE:
           one_filter_html: "Filtros aplicados actualmente: <b><em>%{filter}</em></b>"
           two_filters_html: "Filtros aplicados actualmente: <b><em>%{filter}, %{advanced_filters}</em></b>"
         buttons:
-          search: Buscar
           filter: Filtro
         download_current_selection: "Descargar selección actual"
         no_budget_investments: "No hay proyectos de inversión."
