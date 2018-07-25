@@ -167,16 +167,6 @@ id:
           undecided: "Bimbang"
         selected: "Dipilih"
         select: "Pilih"
-        table_id: "ID"
-        table_title: "Judul"
-        table_supports: "Dukungan"
-        table_admin: "Administrasi"
-        table_valuator: "Penilai"
-        table_geozone: "Lingkup operasi"
-        table_feasibility: "Kelayakan"
-        table_valuation_finished: "Val. Fin."
-        table_selection: "Dipilih"
-        table_incompatible: "Tidak cocok"
       show:
         assigned_admin: Pengelola ditetapkan
         assigned_valuators: Ditugaskan penilai
