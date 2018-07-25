@@ -71,8 +71,6 @@ it:
         feasibility:
           feasible: "Fattibile (%{price})"
           undecided: "Nessuna decisione"
-        table_valuator: "Valutatore"
-        table_incompatible: "Incompatibile"
       show:
         info: "%{budget_name} - gruppo: %{group_name} - %{id} progetto di investimento"
         edit_classification: Modificare la classificazione
