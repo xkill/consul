@@ -161,7 +161,6 @@ sv:
           one_filter_html: "Nuvarande använda filter: <b><em>%{filter}</em></b>"
           two_filters_html: "Nuvarande använda filter: <b><em>%{filter}, %{advanced_filters}</em></b>"
         buttons:
-          search: Sök
           filter: Filtrera
         download_current_selection: "Ladda ned nuvarande val"
         no_budget_investments: "Det finns inga budgetförslag."
