@@ -175,18 +175,6 @@ sv:
           undecided: "Ej beslutat"
         selected: "Vald"
         select: "Välj"
-        table_id: "Legitimation"
-        table_title: "Titel"
-        table_supports: "Stöder"
-        table_admin: "Administratör"
-        table_valuator: "Bedömare"
-        table_valuation_group: "Värderingsgrupp"
-        table_geozone: "Område"
-        table_feasibility: "Genomförbarhet"
-        table_valuation_finished: "Val. Fin."
-        table_selection: "Vald"
-        table_evaluation: "Visa till bedömare"
-        table_incompatible: "Oförenlig"
         cannot_calculate_winners: Budgeten måste stå i fas "lottningsprojekt", "granskar valsedlar" eller "färdiga budgeter" för att kunna beräkna vinnarprojekt
         see_results: "Visa resultat"
       show:
