@@ -184,18 +184,6 @@ val:
           undecided: "Sense decidir"
         selected: "Seleccionada"
         select: "Seleccionar"
-        table_id: "ID"
-        table_title: "Títol"
-        table_supports: "Avals"
-        table_admin: "Administrador"
-        table_valuator: "Avaluador"
-        table_valuation_group: "Grup avaluador"
-        table_geozone: "Ámbit d'actuació"
-        table_feasibility: "Viabilitat"
-        table_valuation_finished: "Av. Fin."
-        table_selection: "Selecció"
-        table_evaluation: "Veure a evaluadors"
-        table_incompatible: "Incompatible"
         cannot_calculate_winners: El pressupost ha d'estar en les fases "Votació final", "Votació finalitzada" o "Resultats" per a poder calcular les propostes guanyadores
         see_results: "Veure resultats"
       show:
