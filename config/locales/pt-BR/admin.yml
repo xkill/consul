@@ -151,7 +151,6 @@ pt-BR:
           selected: Selecionado
           undecided: Não decidido
           unfeasible: Infactível
-          max_per_heading: Máx. suportes por título
           winners: Vencedores
           one_filter_html: "Filtros aplicados no momento: <b><em>%{filter}</em></b>"
           two_filters_html: "Filtros aplicados no momento: <b><em>%{filter}, %{advanced_filters}</em></b>"
