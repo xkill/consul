@@ -166,7 +166,6 @@ nl:
           selected: Geselecteerd
           undecided: Onbeslist
           unfeasible: Onhaalbaar
-          max_per_heading: Max. steunbetuiginen per rubriek
           winners: Winnaars
           one_filter_html: "Actieve filters: <b><em>%{filter}</em></b>"
           two_filters_html: "Actieve filters: <b><em>%{filter}, %{advanced_filters}</em></b>"
