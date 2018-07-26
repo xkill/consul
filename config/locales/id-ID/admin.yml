@@ -149,7 +149,6 @@ id:
           selected: Dipilih
           undecided: Bimbang
           unfeasible: Tidak layak
-          max_per_heading: Maksimal dukungan setiap judul
           winners: Pemenang
           one_filter_html: "Filter yang diterapkan saat ini: <b><em>%{filter}</em></b>"
           two_filters_html: "Filter yang diterapkan saat ini: <b><em>%{filter}, %{advanced_filters}</em></b>"
