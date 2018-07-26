@@ -156,7 +156,6 @@ es-AR:
           selected: Seleccionadas
           undecided: Sin decidir
           unfeasible: Inviable
-          max_per_heading: Máx. soportado por partida
           winners: Ganadoras
           one_filter_html: "Filtros actuales aplicados:<b><em>%{filter}</em></b>"
           two_filters_html: "Filtros actuales aplicados:<b><em>%{filter},%{advanced_filters}</em></b>"
