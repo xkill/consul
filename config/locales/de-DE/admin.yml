@@ -167,7 +167,6 @@ de:
           selected: Ausgewählt
           undecided: Unentschieden
           unfeasible: Undurchführbar
-          max_per_heading: Maximale Unterstützer/innen pro Rubrik
           winners: Gewinner
           one_filter_html: "Aktuell angewendete Filter: <b><em>%{filter}</em></b>"
           two_filters_html: "Aktuell angewendete Filter: <b><em>%{filter},%{advanced_filters}</em></b>"
