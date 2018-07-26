@@ -657,6 +657,8 @@ nl:
         pending_to_be_sent: Dit is de inhoud in afwachting die moet worden verzonden
       proposal_notification_digest:
         title: Voorgestelde melding verwerken
+        description: Verzamelt alle meldingen van het voorstel voor een gebruiker in een enkel bericht, om te voorkomen dat er te veel e-mails worden verstuurd.
+        preview_detail: Gebruikers ontvangen alleen meldingen uit de voorstellen die ze volgen
     emails_download:
       index:
         title: E-mails download
@@ -1053,6 +1055,11 @@ nl:
       image: Afbeelding
       show_image: Toon afbeelding
       moderated_content: "Controleer de inhoud die door de moderators is aangemaakt en bevestig wanneer dit correct is gedaan."
+      view: Weergave
+      proposal: Voorstel
+      author: Auteur
+      content: Inhoud
+      created_at: Aangemaakt op
     spending_proposals:
       index:
         geozone_filter_all: Alle zones
