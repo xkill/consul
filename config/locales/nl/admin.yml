@@ -618,6 +618,42 @@ nl:
       create_success: Kennisgeving met succes gemaakt
       update_success: Kennisgeving met succes bijgewerkt
       send_success: Kennisgeving met succes verzonden
+      delete_success: Kennisgeving succesvol verwijderd
+      index:
+        section_title: Meldingen
+        new_notification: Nieuwe melding
+        title: Titel
+        segment_recipient: Geadresseerden
+        sent: Verzonden
+        actions: Acties
+        draft: Concept
+        edit: Bewerk
+        delete: Verwijder
+        preview: Voorbeeld
+        view: Weergave
+        empty_notifications: Er zijn geen meldingen te tonen
+      new:
+        section_title: Nieuwe melding
+      edit:
+        section_title: Bericht bewerken
+      show:
+        section_title: Voorbeeld van de kennisgeving
+        send: Stuur
+        will_get_notified: (de%{n} gebruikers zullen worden aangemeld)
+        got_notified: (%{n} gebruikers ontving kennisgeving)
+        sent_at: Verzonden naar
+        title: Titel
+        body: Tekst
+        link: Link
+        segment_recipient: Geadresseerden
+        preview_guide: "Dit is hoe de gebruikers de melding zullen zien:"
+        sent_guide: "Dit is hoe de gebruikers de melding zullen zien:"
+        send_alert: Weet u zeker dat u deze melding naar %{n} deelnemers wilt sturen?
+    system_emails:
+      preview_pending:
+        action: Voorbeeld in behandeling
+        preview_of: Voorbeeld van %{name}
+        pending_to_be_sent: Dit is de inhoud in afwachting die moet worden verzonden
     emails_download:
       index:
         title: E-mails download
