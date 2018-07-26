@@ -149,7 +149,6 @@ es-VE:
           selected: Seleccionadas
           undecided: Indeciso
           unfeasible: Inviable
-          max_per_heading: Max. soportes por encabezado
           winners: Ganadores
           one_filter_html: "Filtros aplicados actualmente: <b><em>%{filter}</em></b>"
           two_filters_html: "Filtros aplicados actualmente: <b><em>%{filter}, %{advanced_filters}</em></b>"
