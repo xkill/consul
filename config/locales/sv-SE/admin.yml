@@ -156,7 +156,6 @@ sv:
           selected: Vald
           undecided: Obeslutat
           unfeasible: Ej genomförbart
-          max_per_heading: Max. stöd per rubrik
           winners: Vinnare
           one_filter_html: "Nuvarande använda filter: <b><em>%{filter}</em></b>"
           two_filters_html: "Nuvarande använda filter: <b><em>%{filter}, %{advanced_filters}</em></b>"
