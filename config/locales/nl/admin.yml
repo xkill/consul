@@ -128,6 +128,7 @@ nl:
         table_population: Bevolking
         population_info: "Het veld rubriek wordt gebruikt voor statistische doeleinden. Na afloop van de begroting kan voor elke rubriek en per gebied worden weergegeven door welk percentage is gestemd. Het veld is optioneel, dus u kunt het leeg laten als het niet van toepassing is."
         max_votable_headings: "Maximum aantal rubrieken waarin gestemd kan worden"
+        current_of_max_headings: "%{current} of %{max}"
       winners:
         calculate: Bereken gewonnen bestemmingen
         calculated: Bestemmingen worden berekend, kan even duren.
@@ -184,6 +185,18 @@ nl:
           undecided: "Onbeslist"
         selected: "Geselecteerd"
         select: "Selecteer"
+        list:
+          id: ID
+          title: Titel
+          supports: Steunen
+          admin: Beheerder
+          valuator: Beoordelaar
+          valuation_group: Beoordelingsgroep
+          geozone: Reikwijdte van het initiatief
+          feasibility: Haalbaarheid
+          valuation_finished: Beoordeling gedaan.
+          selected: Geselecteerd
+          visible_to_valuators: Tonen aan beoordelaars
         cannot_calculate_winners: Het budget moet in fase blijven "Ballotage projecten", "Rekening houden met stemmingen" of "Voltooide begroting" om winnaarsprojecten te kunnen berekenen
         see_results: "Toon resultaten"
       show:
