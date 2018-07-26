@@ -197,6 +197,8 @@ nl:
           valuation_finished: Beoordeling gedaan.
           selected: Geselecteerd
           visible_to_valuators: Tonen aan beoordelaars
+          author_username: Gebruikersnaam van de auteur
+          incompatible: Onverenigbaar
         cannot_calculate_winners: Het budget moet in fase blijven "Ballotage projecten", "Rekening houden met stemmingen" of "Voltooide begroting" om winnaarsprojecten te kunnen berekenen
         see_results: "Toon resultaten"
       show:
@@ -515,7 +517,10 @@ nl:
       administrators: Beheerders
       managers: Beheerders
       moderators: Moderatoren
+      messaging_users: Berichten naar gebruikers
       newsletters: Nieuwsbrieven
+      admin_notifications: Meldingen
+      system_emails: E-mails van het systeem
       emails_download: E-mails download
       valuators: beoordelaars
       poll_officers: Peiling beambten
@@ -609,6 +614,10 @@ nl:
         body: E-mail inhoud
         body_help_text: Dit is hoe de deelnemers de e-mail zullen zien
         send_alert: Weet u zeker dat u deze nieuwsbrief naar %{n} deelnemer wilt sturen?
+    admin_notifications:
+      create_success: Kennisgeving met succes gemaakt
+      update_success: Kennisgeving met succes bijgewerkt
+      send_success: Kennisgeving met succes verzonden
     emails_download:
       index:
         title: E-mails download
