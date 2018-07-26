@@ -277,6 +277,10 @@ nl:
           attributes:
             segment_recipient:
               invalid: "Het onderdeel ontvangers is ongeldig"
+        admin_notification:
+          attributes:
+            segment_recipient:
+              invalid: "Het onderdeel ontvangers is ongeldig"
         map_location:
           attributes:
             map:
