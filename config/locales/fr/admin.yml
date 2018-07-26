@@ -165,7 +165,6 @@ fr:
           selected: Sélectionné
           undecided: Non décidé
           unfeasible: Irréalisable
-          max_per_heading: Nombre maximum de soutiens par tranche
           winners: Gagnants
           one_filter_html: "Filtres activés : <b><em>%{filter}</em></b>"
           two_filters_html: "Filtres activés : <b><em>%{filter}, %{advanced_filters}</em></b>"
