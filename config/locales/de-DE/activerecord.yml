@@ -41,8 +41,8 @@ de:
         one: "Bewertungsgruppe"
         other: "Bewertungsgruppen"
       manager:
-        one: "Manager"
-        other: "Manager"
+        one: "Manager*in"
+        other: "Manager*innen"
       newsletter:
         one: "Newsletter"
         other: "Newsletter"
