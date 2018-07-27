@@ -213,8 +213,6 @@ it:
       stats: Statistiche
       signature_sheets: Fogli firma
       site_customization:
-        pages: Pagine personalizzate
-        images: Immagini personalizzate
         content_blocks: Blocchi di contenuto personalizzato
       title_moderated_content: Contenuto moderato
       title_budgets: Bilanci
