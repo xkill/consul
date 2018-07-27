@@ -5,8 +5,8 @@ de:
         one: "Aktivität"
         other: "Aktivitäten"
       budget:
-        one: "Budget"
-        other: "Budgets"
+        one: "Bürger*innenhaushalt"
+        other: "Bürger*innenhaushalte"
       budget/investment:
         one: "Investition"
         other: "Investitionen"
