@@ -451,8 +451,6 @@ gl:
       stats: Estatísticas
       signature_sheets: Follas de sinatura
       site_customization:
-        pages: Páxinas personalizadas
-        images: Imaxes personalizadas
         content_blocks: Personalizar bloques
       title_moderated_content: Moderar contido
       title_budgets: Orzamentos
