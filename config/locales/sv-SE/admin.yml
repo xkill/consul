@@ -507,8 +507,6 @@ sv:
       signature_sheets: Underskrifter
       site_customization:
         homepage: Hemsida
-        pages: Anpassade sidor
-        images: Anpassade bilder
         content_blocks: Anpassade innehållsblock
       title_moderated_content: Modererat innehåll
       title_budgets: Budgetar
