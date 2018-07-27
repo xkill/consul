@@ -230,8 +230,6 @@ ast:
       stats: Estadístiques
       signature_sheets: Fueyes de firmes
       site_customization:
-        pages: Personalizar páxines
-        images: Personalizar imaxes
         content_blocks: Personalizar bloques
       title_moderated_content: Conteníu moderao
       title_budgets: Presupuestos
