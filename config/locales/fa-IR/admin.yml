@@ -473,8 +473,6 @@ fa:
       signature_sheets: ورق امضا
       site_customization:
         homepage: صفحه اصلی
-        pages: صفحات سفارشی
-        images: عکس های سفارشی
         content_blocks: محتوای بلوکهای سفارشی 
       title_moderated_content: کنترل محتویات
       title_budgets: بودجه ها
