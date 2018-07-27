@@ -451,8 +451,6 @@ id:
       stats: Statistik
       signature_sheets: Lembar Tanda Tangan
       site_customization:
-        pages: Halaman Kustom
-        images: Gambar Khusus
         content_blocks: Blok konten khusus
       title_moderated_content: Konten moderasi
       title_budgets: Anggaran
