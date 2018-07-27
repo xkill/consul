@@ -537,8 +537,6 @@ nl:
       signature_sheets: Handtekening lijsten
       site_customization:
         homepage: Homepage
-        pages: Aangepaste pagina's
-        images: Aangepaste beelden
         content_blocks: Aangepaste inhoud
       title_moderated_content: Gemodereerde inhoud
       title_budgets: Budgetten
