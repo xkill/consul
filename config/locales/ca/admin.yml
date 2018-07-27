@@ -209,8 +209,6 @@ ca:
       stats: Estadístiques
       signature_sheets: Fulls de signatures
       site_customization:
-        pages: Personalitzar pàgines
-        images: Personalitzar imatges
         content_blocks: Personalitzar blocs
       title_moderated_content: Contingut moderat
       title_budgets: Pressupostos
