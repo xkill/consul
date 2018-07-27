@@ -8,8 +8,8 @@ de:
         one: "Bürger*innenhaushalt"
         other: "Bürger*innenhaushalte"
       budget/investment:
-        one: "Investition"
-        other: "Investitionen"
+        one: "Ausgabenvorschlag"
+        other: "Ausgabenvorschläge"
       budget/investment/milestone:
         one: "Meilenstein"
         other: "Meilensteine"
@@ -23,20 +23,20 @@ de:
         one: "Diskussion"
         other: "Diskussionen"
       tag:
-        one: "Markierung"
-        other: "Markierungen"
+        one: "Kennzeichen"
+        other: "Themen"
       user:
-        one: "Benutzer"
-        other: "Benutzer"
+        one: "Benutzer*in"
+        other: "Benutzer*innen"
       moderator:
-        one: "Moderator"
-        other: "Moderatoren"
+        one: "Moderator*in"
+        other: "Moderator*innen"
       administrator:
-        one: "Administrator"
-        other: "Administratoren"
+        one: "Administrator*in"
+        other: "Administrator*innen"
       valuator:
-        one: "Begutachter/in"
-        other: "Begutachter/innen"
+        one: "Begutachter*in"
+        other: "Begutachter*innen"
       valuator_group:
         one: "Bewertungsgruppe"
         other: "Bewertungsgruppen"
