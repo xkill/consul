@@ -519,8 +519,6 @@ de:
       signature_sheets: Unterschriftenbögen
       site_customization:
         homepage: Homepage
-        pages: Benutzer*definierte Seiten
-        images: Benutzer*definierte Bilder
         content_blocks: Benutzer*spezifische Inhaltsdatenblöcke
       title_moderated_content: Moderierter Inhalt
       title_budgets: Budgets
