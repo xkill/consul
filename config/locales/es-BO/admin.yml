@@ -398,8 +398,6 @@ es-BO:
       stats: Estadísticas
       signature_sheets: Hojas de firmas
       site_customization:
-        pages: Personalizar páginas
-        images: Personalizar imágenes
         content_blocks: Personalizar bloques
       title_moderated_content: Contenido moderado
       title_budgets: Presupuestos
