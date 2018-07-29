@@ -10,7 +10,15 @@ pl:
       drafting: Wersja robocza (niewidoczna dla pozostałych użytkowników)
     index:
       empty_budgets: Brak budżetów.
+      section_header:
+        all_phases: Zobacz wszystkie fazy
+      investment_proyects: Lista wszystkich projektów inwestycyjnych
+      unfeasible_investment_proyects: Lista wszystkich niewykonalnych projektów inwestycyjnych
+      not_selected_investment_proyects: Lista wszystkich projektów inwestycyjnych nie wybranych do głosowania
       see_results: Zobacz wyniki
+      section_footer:
+        title: Pomoc z budżetem partycypacyjnym
+        description: Przy pomocy budżetów partycypacyjnych obywatele decydują, którym projektom przedstawionym przez sąsiadów przeznaczona jest część budżetu gminnego.
     investments:
       index:
         sidebar:
