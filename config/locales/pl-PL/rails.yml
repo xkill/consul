@@ -53,6 +53,13 @@ pl:
       half_a_minute: pół minuty
   number:
     human:
+      decimal_units:
+        units:
+          billion: Miliard
+          million: Milion
+          quadrillion: Biliard
+          thousand: Tysiąc
+          trillion: Bilion
       format:
         significant: true
         strip_insignificant_zeros: true
