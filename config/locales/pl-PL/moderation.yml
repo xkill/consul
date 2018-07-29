@@ -30,8 +30,22 @@ pl:
         ignore_flags: Oznacz jako wyświetlone
         orders:
           created_at: Najnowsze
+        title: Debaty
     menu:
       flagged_comments: Komentarze
+    proposals:
+      index:
+        orders:
+          created_at: Ostatnie
+        title: Propozycje
+    budget_investments:
+      index:
+        confirm: Czy na pewno?
+        filter: Filtr
+        filters:
+          all: Wszystko
+          pending_flag_review: Oczekujące
+          with_ignored_flag: Oznaczone jako wyświetlone
     users:
       index:
         hidden: Zablokowany
