@@ -2,12 +2,16 @@ pl:
   moderation:
     comments:
       index:
+        confirm: Czy na pewno?
+        filter: Filtr
         filters:
           all: Wszystkie
           pending_flag_review: Oczekujące
+          with_ignored_flag: Oznaczone jako wyświetlone
         headers:
           comment: Skomentuj
         hide_comments: Ukryj komentarze
+        ignore_flags: Oznacz jako wyświetlone
         orders:
           newest: Najnowsze
         title: Komentarze
@@ -17,6 +21,15 @@ pl:
     debates:
       index:
         confirm: Jesteś pewny/a?
+        filters:
+          pending_flag_review: Oczekujące
+          with_ignored_flag: Oznaczone jako wyświetlone
+        headers:
+          debate: Debata
+        hide_debates: Ukryj debaty
+        ignore_flags: Oznacz jako wyświetlone
+        orders:
+          created_at: Najnowsze
     menu:
       flagged_comments: Komentarze
     users:
