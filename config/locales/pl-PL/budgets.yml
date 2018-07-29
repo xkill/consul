@@ -11,6 +11,7 @@ pl:
     index:
       empty_budgets: Brak budżetów.
       section_header:
+        title: Budżety partycypacyjne
         all_phases: Zobacz wszystkie fazy
       investment_proyects: Lista wszystkich projektów inwestycyjnych
       unfeasible_investment_proyects: Lista wszystkich niewykonalnych projektów inwestycyjnych
@@ -19,6 +20,8 @@ pl:
       section_footer:
         title: Pomoc z budżetem partycypacyjnym
         description: Przy pomocy budżetów partycypacyjnych obywatele decydują, którym projektom przedstawionym przez sąsiadów przeznaczona jest część budżetu gminnego.
+        help_text_1: "Budżety partycypacyjne są to procesy, w których obywatele bezpośrednio decydują o tym, na co wydawana jest część budżetu gminy. Każda zarejestrowana osoba powyżej 16 roku życia może zaproponować projekt inwestycyjny, który jest wybierany w fazie wsparcia obywatelskiego."
+        help_text_2: "Projekty o największej liczbie głosów są oceniane i przekazywane dalej do ostatecznego głosowania, w którym decyduje się o czynnościach, które wykonać ma rada miejska, gdy budżety gminne roku następnego będą zatwierdzone."
     investments:
       index:
         sidebar:
