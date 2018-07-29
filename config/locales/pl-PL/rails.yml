@@ -36,14 +36,21 @@ pl:
       - Luty
       - Marzec
       - Kwiecień
-      - May
-      - June
-      - July
-      - August
-      - September
-      - October
-      - November
-      - December
+      - Maj
+      - Czerwiec
+      - Lipiec
+      - Sierpień
+      - Wrzesień
+      - Październik
+      - Listopad
+      - Grudzień
+    order:
+      - :rok
+      - ':miesiąc'
+      - ':dzień'
+  datetime:
+    distance_in_words:
+      half_a_minute: pół minuty
   number:
     human:
       format:
