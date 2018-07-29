@@ -22,7 +22,11 @@ pl:
         description: Przy pomocy budżetów partycypacyjnych obywatele decydują, którym projektom przedstawionym przez sąsiadów przeznaczona jest część budżetu gminnego.
         help_text_1: "Budżety partycypacyjne są to procesy, w których obywatele bezpośrednio decydują o tym, na co wydawana jest część budżetu gminy. Każda zarejestrowana osoba powyżej 16 roku życia może zaproponować projekt inwestycyjny, który jest wybierany w fazie wsparcia obywatelskiego."
         help_text_2: "Projekty o największej liczbie głosów są oceniane i przekazywane dalej do ostatecznego głosowania, w którym decyduje się o czynnościach, które wykonać ma rada miejska, gdy budżety gminne roku następnego będą zatwierdzone."
+        help_text_3: "Prezentacja projektów budżetowania partycypacyjnego odbywa się od stycznia i trwa półtora miesiąca. Aby brać udział i przedkładać propozycje dla całego miasta i/lub dzielnic, musisz zarejestrować się na %{org} i zweryfikować swoje konto."
+        help_text_4: "Aby uzyskać jak najwięcej poparć i głosów, wybierz dla swojego projektu opisowy i zrozumiały nagłówek. Następnie masz przestrzeń do rozwinięcia Twojej propozycji. Upewnij się, aby dostarczyć wszelkie dane oraz objaśnienia, a nawet dokumenty i obrazy, w celu ułatwienia innym uczestnikom zrozumienia tego, co proponujesz."
     investments:
+      form:
+        tag_category_label: "Kategorie"
       index:
         sidebar:
           create: "Utwórz nowy projekt"
