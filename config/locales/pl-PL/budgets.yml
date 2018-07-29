@@ -9,6 +9,7 @@ pl:
     phase:
       drafting: Wersja robocza (niewidoczna dla pozostałych użytkowników)
     index:
+      empty_budgets: Brak budżetów.
       see_results: Zobacz wyniki
     investments:
       index:
