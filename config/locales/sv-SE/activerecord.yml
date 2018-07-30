@@ -170,7 +170,7 @@ sv:
         association_name: "Föreningens namn"
         description: "Beskrivning"
         external_url: "Länk till ytterligare dokumentation"
-        geozone_id: "Verksamhetsområde"
+        geozone_id: "Område"
         title: "Rubrik"
       poll:
         name: "Namn"
