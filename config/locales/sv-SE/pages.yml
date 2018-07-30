@@ -53,7 +53,7 @@ sv:
         title: "Processer"
         description: "I %{link}-delen är medborgare med i processen att skriva och kommentera nya policydokument som rör staden och kan kommentera existerande dokument."
         link: "processer"
-        feature: "För att delta i processen behöver du %{sign_up} och följa %{link}-sidan för att se vilka dokument och policies som diskuteras."
+        feature: "För att delta i processen behöver du %{sign_up} och regelbundet kontrollera %{link}-sidan för att se vilka dokument och policies som diskuteras."
         sign_up: "registrera dig på %{org}"
       faq:
         title: "Har du tekniska problem?"
@@ -75,7 +75,7 @@ sv:
           
           Om du är programmerare får du gärna hjälpa oss att förbättra koden på [CONSUL](https://github.com/consul/consul 'CONSUL på GitHub'), eller den svenska implementeringen på [Digidem Lab/CONSUL](https://github.com/digidemlab/consul 'CONSUL Sweden på GitHub').
       titles:
-        how_to_use: Använd det i din lokal styrelse
+        how_to_use: Använd det i din kommun
     privacy: Sekretesspolicy
     titles:
       accessibility: Tillgänglighet
