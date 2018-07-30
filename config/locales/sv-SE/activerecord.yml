@@ -103,6 +103,9 @@ sv:
       poll:
         one: "Omröstning"
         other: "Omröstningar"
+      proposal_notification:
+        one: "Förslagsnotifikation"
+        other: "Förslagsnotifikationer"
     attributes:
       budget:
         name: "Namn"
@@ -277,6 +280,10 @@ sv:
               min_image_width: "Bilden måste vara minst %{required_min_width} px bred"
               min_image_height: "Bilden måste vara minst %{required_min_height} px hög"
         newsletter:
+          attributes:
+            segment_recipient:
+              invalid: "Mottagardelen innehåller fel"
+        admin_notification:
           attributes:
             segment_recipient:
               invalid: "Mottagardelen innehåller fel"
