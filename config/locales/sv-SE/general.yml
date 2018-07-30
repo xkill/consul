@@ -323,18 +323,18 @@ sv:
       started: Pågående
       unfeasible: Ej genomförbart
       done: Genomfört
-      other: Andra
+      other: Annat
     form:
       geozone: Område
       proposal_external_url: Länk till ytterligare dokumentation
       proposal_question: Frågeställning
-      proposal_question_example_html: "Ska sammanfattas i en ja- eller nej-fråga.<br>Till exempel: 'Ska vi göra om Drottninggatan till gågata?'"
+      proposal_question_example_html: "Ska sammanfattas i en ja- eller nej-fråga.<br>Till exempel: 'Ska vi göra Drottninggatan till gågata?'"
       proposal_responsible_name: Förslagslämnarens fullständiga namn
       proposal_responsible_name_note: "(individuellt eller som representant för en grupp; kommer inte att visas offentligt)"
-      proposal_summary: Förslags sammanfattning
+      proposal_summary: Sammanfattning av förslaget
       proposal_summary_note: "(högst 200 tecken)"
-      proposal_text: Förslags text
-      proposal_title: Förslags titel
+      proposal_text: Förslagets text
+      proposal_title: Förslagets titel
       proposal_video_url: Länk till extern video
       proposal_video_url_note: Lägg till en länk till YouTube eller Vimeo
       tag_category_label: "Kategorier"
@@ -378,7 +378,7 @@ sv:
         one: " innehåller <strong>'%{search_term}'</strong>"
         other: " innehåller <strong>'%{search_term}'</strong>"
       select_order: Sortera efter
-      select_order_long: 'Du visar förslagen'
+      select_order_long: 'Du visar förslag enligt:'
       start_proposal: Skapa förslag
       title: Förslag
       top: Veckans topp
@@ -559,7 +559,7 @@ sv:
       date_5: 'Anpassad'
       from: 'Från'
       general: 'Med texten'
-      general_placeholder: 'Skriva text'
+      general_placeholder: 'Fyll i texten'
       search: 'Filtrera'
       title: 'Avancerad sökning'
       to: 'Till'
@@ -587,7 +587,7 @@ sv:
           notice_html: "Du har slutat följa det här medborgarförslaget! </br> Vi kommer inte längre meddela dig om ändringar för det här förslaget."
     hide: Dölj
     print:
-      print_button: Skriv ut denna info
+      print_button: Skriv ut informationen
     search: Sök
     show: Visa
     suggest:
@@ -611,8 +611,8 @@ sv:
         see_all: "Visa alla"
     tags_cloud:
       tags: Populära
-      districts: "Distrikter"
-      districts_list: "Distriktlist"
+      districts: "Stadsdelar"
+      districts_list: "Lista över stadsdelar"
       categories: "Kategorier"
     target_blank_html: " (länken öppnas i ett nytt fönster)"
     you_are_in: "Du är på"
@@ -733,8 +733,8 @@ sv:
           one: 1 kommentar
           other: "%{count} kommentarer"
         debates:
-          one: 1 Debatt
-          other: "%{count} Debatter"
+          one: 1 debatt
+          other: "%{count} debatter"
         proposals:
           one: 1 förslag
           other: "%{count} förslag"
