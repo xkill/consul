@@ -3,7 +3,7 @@ sv:
     actions:
       create:
         notice: "%{resource_name} har skapats."
-        debate: "Diskussionsämnet har skapats."
+        debate: "Debatten har skapats."
         direct_message: "Ditt meddelande har skickats."
         poll: "Omröstningen har skapats."
         poll_booth: "Röstbåset har skapats."
