@@ -54,7 +54,7 @@ sv:
         recommendations_title: Rekommendationer om att skapa ett ämne
         recommendation_one: Använd inte versaler i inläggets titel eller i hela meningar i beskrivningen. På internet betyder det att skrika, och ingen gillar när folk skriker på dem.
         recommendation_two: Inlägg eller kommentarer som förespråkar olagliga handlingar eller försöker sabotera diskussionen kommer att raderas. Allt annat är tillåtet.
-        recommendation_three: Platsen är din med - du ska kunna trivas och göra dig hörd här.
+        recommendation_three: Det här är din plats, du ska kunna trivas och göra din röst hörd här.
   topics:
     show:
-      login_to_comment: Du måste %{signin} eller %{signup} för att kunna lämna en kommentar.
+      login_to_comment: Du behöver %{signin} eller %{signup} för att kunna kommentera.
