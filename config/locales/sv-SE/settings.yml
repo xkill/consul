@@ -6,7 +6,7 @@ sv:
     official_level_3_name: "Tjänsteperson nivå 3"
     official_level_4_name: "Tjänsteperson nivå 4"
     official_level_5_name: "Tjänsteperson nivå 5"
-    max_ratio_anon_votes_on_debates: "Maximal andel anonyma röster per diskussion"
+    max_ratio_anon_votes_on_debates: "Maximal andel anonyma röster per debatt"
     max_votes_for_proposal_edit: "Gräns för antal röster efter vilket ett förslag inte längre kan redigeras"
     max_votes_for_debate_edit: "Gräns för antal röster efter vilket en debatt inte längre kan redigeras"
     proposal_code_prefix: "Prefix för förslagskoder"
