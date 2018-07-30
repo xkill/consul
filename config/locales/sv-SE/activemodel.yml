@@ -18,5 +18,5 @@ sv:
           recipient: "E-post"
       officing/residence:
         document_type: "Identitetshandling"
-        document_number: "Personnummer"
-        year_of_birth: "Född år"
+        document_number: "Identitetshandlingens nummer (inklusive bokstäver)"
+        year_of_birth: "Födelseår"
