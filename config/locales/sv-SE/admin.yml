@@ -1215,12 +1215,12 @@ sv:
           title: Anpassade sidor
           see_page: Visa sida
         new:
-          title: Skapa ny custom sida
+          title: Skapa ny anpassad sida
         page:
-          created_at: Skapad den
+          created_at: Skapad
           status: Status
           title: Titel
-          updated_at: Uppdaterad den
+          updated_at: Uppdaterad
           status_draft: Utkast
           status_published: Publicerad
           locale: Språk
