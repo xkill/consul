@@ -29,6 +29,7 @@ nl:
         budget_investment: "Budgetinvestering is bijgewerkt."
         topic: "Onderwerp is bijgewerkt."
         valuator_group: "Beoordelingsgroep is bijgewerkt"
+        translation: "Vertaling is succesvol bijgewerkt"
       destroy:
         spending_proposal: "Begrotingsvoorstel is verwijderd."
         budget_investment: "Budgetinvestering is verwijderd."
