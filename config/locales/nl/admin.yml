@@ -67,6 +67,7 @@ nl:
           on_debates: Debatten
           on_proposals: Voorstellen
           on_users: Deelnemers
+          on_system_emails: E-mails van het systeem
         title: Moderator activiteit
         type: Type
         no_activity: Er is geen moderator activiteit.
@@ -344,6 +345,15 @@ nl:
         hidden_at: 'Verborgen op:'
         registered_at: 'Geregistreerd op:'
         title: Activiteit van deelnemer (%{user})
+    hidden_budget_investments:
+      index:
+        filter: Filter
+        filters:
+          all: Allen
+          with_confirmed_hide: Bevestigd
+          without_confirmed_hide: In afwachting
+        title: Verborgen begrotingsinvesteringen
+        no_hidden_budget_investments: Er zijn geen verborgen begrotingsinvesteringen
     legislation:
       processes:
         create:
@@ -513,6 +523,7 @@ nl:
       hidden_comments: Verborgen commentaar
       hidden_debates: Verborgen debatten
       hidden_proposals: Verborgen voorstellen
+      hidden_budget_investments: Verborgen begrotingsinvesteringen
       hidden_proposal_notifications: Verborgen notificaties
       hidden_users: Verborgen gebruikers
       administrators: Beheerders
@@ -537,7 +548,22 @@ nl:
       signature_sheets: Handtekening lijsten
       site_customization:
         homepage: Homepage
+        pages: Aangepaste pagina's
+        images: Aangepaste afbeeldingen
         content_blocks: Aangepaste inhoud
+        information_texts: Aangepaste informatie teksten
+        information_texts_menu:
+          debates: "Discussies"
+          community: "Gemeenschap"
+          proposals: "Voorstellen"
+          polls: "Peilingen"
+          layouts: "Lay-outs"
+          mailers: "Emails"
+          management: "Beheer"
+          guides: "Leiden"
+          welcome: "Welkom"
+        buttons:
+          save: "Opslaan"
       title_moderated_content: Gemodereerde inhoud
       title_budgets: Budgetten
       title_polls: Peilingen
@@ -653,6 +679,9 @@ nl:
         action: Voorbeeld in behandeling
         preview_of: Voorbeeld van %{name}
         pending_to_be_sent: Dit is de inhoud in afwachting die moet worden verzonden
+        moderate_pending: Bemiddelde melding verzenden
+        send_pending: Stuur in behandeling
+        send_pending_notification: In behandeling zijnde aanmeldingen succesvol verzonden
       proposal_notification_digest:
         title: Voorgestelde melding verwerken
         description: Verzamelt alle meldingen van het voorstel voor een gebruiker in een enkel bericht, om te voorkomen dat er te veel e-mails worden verstuurd.
