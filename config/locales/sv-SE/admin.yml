@@ -174,6 +174,9 @@ sv:
           undecided: "Ej beslutat"
         selected: "Vald"
         select: "Välj"
+        list:
+          id: ID
+          title: Titel
         cannot_calculate_winners: Budgeten måste stå i fas "lottningsprojekt", "granskar valsedlar" eller "färdiga budgeter" för att kunna beräkna vinnarprojekt
         see_results: "Visa resultat"
       show:
@@ -318,6 +321,10 @@ sv:
         hidden_at: 'Dold:'
         registered_at: 'Registrerad:'
         title: Aktivitet från användaren (%{user})
+    hidden_budget_investments:
+      index:
+        filters:
+          all: Alla
     legislation:
       processes:
         create:
@@ -508,6 +515,10 @@ sv:
       site_customization:
         homepage: Hemsida
         content_blocks: Anpassade innehållsblock
+        information_texts_menu:
+          polls: "Omröstningar"
+        buttons:
+          save: "Spara"
       title_moderated_content: Modererat innehåll
       title_budgets: Budgetar
       title_polls: Omröstningar
@@ -582,6 +593,19 @@ sv:
         body: E-postmeddelande
         body_help_text: Så här kommer e-postmeddelandet se ut för mottagarna
         send_alert: Är du säker att du vill skicka nyhetsbrevet till %{n} mottagare?
+    admin_notifications:
+      index:
+        title: Titel
+        sent: Skickat
+        draft: Utkast
+        edit: Redigera
+        delete: Ta bort
+        view: Visa
+      show:
+        send: Skicka
+        title: Titel
+        body: Text
+        link: Länk
     emails_download:
       index:
         title: Hämta e-postadresser
@@ -919,6 +943,11 @@ sv:
           without_confirmed_hide: Väntande
         title: Dolda förslag
         no_hidden_proposals: Det finns inga dolda förslag.
+    proposal_notifications:
+      index:
+        filter: Filtrera
+        filters:
+          all: Alla
     settings:
       flash:
         updated: Uppdaterad värde
@@ -969,6 +998,8 @@ sv:
       image: Bild
       show_image: Visa bild
       moderated_content: "Kontrollera det modererade innehållet och bekräfta om modereringen är korrekt."
+      view: Visa
+      author: Författare
     spending_proposals:
       index:
         geozone_filter_all: Alla områden
