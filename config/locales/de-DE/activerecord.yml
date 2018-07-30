@@ -68,14 +68,14 @@ de:
         one: Meine Seite
         other: Meine Seiten
       site_customization/image:
-        one: Benutzerbild
-        other: Bilder
+        one: Benutzer*bild
+        other: Benutzer*bilder
       site_customization/content_block:
         one: Benutzer*spezifischer Inhaltsdatenblock
         other: Benutzer*spezifische Inhaltsdatenblöcke
       legislation/process:
-        one: "Prozess"
-        other: "Prozesse"
+        one: "Verfahren"
+        other: "Verfahren"
       legislation/draft_versions:
         one: "Entwurfsfassung"
         other: "Entwurfsfassungen"
