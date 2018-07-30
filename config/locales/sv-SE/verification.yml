@@ -2,7 +2,7 @@ sv:
   verification:
     alert:
       lock: Du har nått det maximala antalet försök. Vänligen försök igen senare.
-    back: Återvänd till mitt konto
+    back: Gå tillbaka till mitt konto
     email:
       create:
         alert:
