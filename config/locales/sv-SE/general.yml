@@ -139,7 +139,7 @@ sv:
       info_link: skapa ett nytt förslag
       more_info: Mer information
       recommendation_four: Det här är din plats, du ska kunna trivas och göra din röst hörd här.
-      recommendation_one: Använd inte versaler i debattens titel eller i hela meningar i beskrivningen. På internet betyder det att skrika, och ingen gillar när folk skriker på dem.
+      recommendation_one: Använd inte versaler i debattinläggets titel eller i hela meningar i beskrivningen. På internet betyder det att skrika, och ingen gillar när folk skriker på dem.
       recommendation_three: Hänsynslös kritik välkomnas. Det här utrymmet är till för diskussion och reflektion. Men vi rekommenderar att du ändå håller diskussionen sjysst och intelligent. Världen blir en bättre plats om vi alla tänker på det.
       recommendation_two: Debattinlägg eller kommentarer som förespråkar olagliga handlingar eller försöker sabotera diskussionen kommer att raderas. Allt annat är tillåtet.
       recommendations_title: Rekommendationer för debattinlägg
@@ -682,14 +682,14 @@ sv:
       spending_proposal: Budgetförslag
       already_supported: Du stöder redan det här projektet. Dela det!
       support: Stöd
-      support_title: Stödja detta projekt
+      support_title: Stöd projektet
       supports:
-        zero: Inga stöd
+        zero: Inget stöd
         one: 1 stöd
         other: "%{count} stöd"
   stats:
     index:
-      visits: Besök
+      visits: Visningar
       debates: Debatter
       proposals: Förslag
       comments: Kommentarer
@@ -698,11 +698,11 @@ sv:
       comment_votes: Röster på kommentarer
       votes: Totalt antal röster
       verified_users: Verifierade användare
-      unverified_users: Overifierade användare
+      unverified_users: Ej verifierade användare
   unauthorized:
     default: Du har inte behörighet att komma åt sidan.
     manage:
-      all: "Du har inte behörighet att utföra åtgärden '%{action}' %{subject}."
+      all: "Du har inte behörighet att utföra åtgärden '%{action}' på %{subject}."
   users:
     direct_messages:
       new:
@@ -715,7 +715,7 @@ sv:
         verify_account: verifiera ditt konto
         authenticate: Du behöver %{signin} eller %{signup} för att fortsätta.
         signin: logga in
-        signup: registrera sig
+        signup: registrera dig
       show:
         receiver: Meddelandet har skickats till %{receiver}
     show:
