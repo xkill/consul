@@ -19,7 +19,7 @@ sv:
         unconfirmed_code: Du har inte angett bekräftelsekoden ännu
       create:
         flash:
-          offices: Citizen Support Offices
+          offices: Medborgarkontor
           success_html: Tack för att du begärde din <b> högsta säkerhetskod (krävs endast för slutliga röster) </b>. Om några dagar skickar vi det till adressen med de data vi har på filen. Kom ihåg att du kan samla din kod från något av %{offices}.
       edit:
         see_all: Visa förslag
