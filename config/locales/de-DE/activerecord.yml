@@ -86,8 +86,8 @@ de:
         one: "Frage"
         other: "Fragen"
       legislation/question_options:
-        one: "Fragemöglichkeit"
-        other: "Fragemöglichkeiten"
+        one: "Antwortmöglichkeit"
+        other: "Antwortmöglichkeiten"
       legislation/answers:
         one: "Antwort"
         other: "Antworten"
