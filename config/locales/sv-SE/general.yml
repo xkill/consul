@@ -8,7 +8,7 @@ sv:
       finish_verification: Slutför verifiering
       notifications: Meddelanden
       organization_name_label: Organisationsnamn
-      organization_responsible_name_placeholder: Företrädare för organisationen/gruppen
+      organization_responsible_name_placeholder: Representant för organisationen/gruppen
       personal: Personlig information
       phone_number_label: Telefonnummer
       public_activity_label: Visa min lista över aktiviteter offentligt
@@ -188,7 +188,7 @@ sv:
     image: Bild
   geozones:
     none: Hela staden
-    all: Alla ämnen
+    all: Alla områden
   layouts:
     application:
       chrome: Google Chrome
@@ -547,7 +547,7 @@ sv:
     "no": "Nej"
     search_results: "Sökresultat"
     advanced_search:
-      author_type: 'Efter författarkategori'
+      author_type: 'Efter skribentkategori'
       author_type_blank: 'Välj en kategori'
       date: 'Efter datum'
       date_placeholder: 'DD/MM/ÅÅÅÅ'
@@ -662,7 +662,7 @@ sv:
         one: " som innehåller '%{search_term}'"
         other: " som innehåller '%{search_term}'"
       sidebar:
-        geozones: Geografiskt område
+        geozones: Område
         feasibility: Genomförbarhet
         unfeasible: Ej genomförbart
       start_spending_proposal: Skapa ett budgetförslag
