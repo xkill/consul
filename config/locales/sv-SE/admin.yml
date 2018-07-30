@@ -164,8 +164,8 @@ sv:
         download_current_selection: "Ladda ned nuvarande val"
         no_budget_investments: "Det finns inga budgetförslag."
         title: Budgetförslag
-        assigned_admin: Utsedd administratör
-        no_admin_assigned: Ingen admin tilldelad
+        assigned_admin: Ansvarig administratör
+        no_admin_assigned: Saknar ansvarig administratör
         no_valuators_assigned: Inga tilldelade bedömare
         no_valuation_groups: Inga värderingsgrupper tilldelade
         feasibility:
@@ -1090,7 +1090,7 @@ sv:
           budgets: Pågående budgetar
           budget_investments: Budgetförslag
           spending_proposals: Förslag på utgifter
-          unverified_users: Overifierade användare
+          unverified_users: Ej verifierade användare
           user_level_three: Nivå tre användare
           user_level_two: Nivå två användare
           users: Totalt antal användare
