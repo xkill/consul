@@ -7,7 +7,7 @@ sv:
       confirm: Är du säker?
       confirm_hide: Bekräfta moderering
       hide: Dölj
-      hide_author: Dölj författare
+      hide_author: Dölj förslagslämnare
       restore: Återställ
       mark_featured: Stjärnmarkera
       unmark_featured: Ta bort stjärnmarkering
@@ -777,7 +777,7 @@ sv:
           save_image: "Spara bild"
       show:
         proposal: Ursprungliga förslaget
-        author: Författare
+        author: Förslagslämnare
         question: Fråga
         edit_question: Redigera fråga
         valid_answers: Giltiga svar
