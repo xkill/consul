@@ -767,7 +767,7 @@ sv:
         table_proposal: "Förslag"
         table_question: "Fråga"
       edit:
-        title: "Redigera frågan"
+        title: "Redigera fråga"
       new:
         title: "Skapa fråga"
         poll_label: "Omröstning"
@@ -923,11 +923,11 @@ sv:
       flash:
         updated: Uppdaterad värde
       index:
-        banners: Banner stilar
+        banners: Bannerformat
         banner_imgs: Banner bilder
         no_banners_images: Inga banner bild
         no_banners_styles: Inga banner stilar
-        title: Konfigurationsinställningar
+        title: Inställningar
         update_setting: Uppdatera
         feature_flags: Funktioner
         features:
@@ -1096,11 +1096,11 @@ sv:
           users: Totalt antal användare
           verified_users: Verifierade användare
           verified_users_who_didnt_vote_proposals: Verifierade användare som inte röstade för något förslag
-          visits: Besök
+          visits: Visningar
           votes: Totalt antal röster
         spending_proposals_title: Förslag på utgifter
         budgets_title: Medborgarbudget
-        visits_title: Besök
+        visits_title: Visningar
         direct_messages: Direktmeddelanden
         proposal_notifications: Förslagsnotifikationer
         incomplete_verifications: Ofullständiga verifieringar
@@ -1114,11 +1114,11 @@ sv:
         total: Totalt
         proposals_with_notifications: Förslag med notifikationer
       polls:
-        title: Opinionsundersökningsstatistik
+        title: Statistik för omröstning
         all: Omröstningar
         web_participants: Webbdeltagare
         total_participants: Totalt antal deltagare
-        poll_questions: "Frågor från Enkät: %{poll}"
+        poll_questions: "Frågor från omröstningen: %{poll}"
         table:
           poll_name: Omröstning
           question_name: Fråga
@@ -1203,7 +1203,7 @@ sv:
         destroy:
           notice: Sidan raderades
         edit:
-          title: Redigerae %{page_title}
+          title: Redigerar %{page_title}
         errors:
           form:
             error: Fel
