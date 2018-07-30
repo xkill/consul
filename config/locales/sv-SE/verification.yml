@@ -50,7 +50,7 @@ sv:
         accept_terms_text: Jag accepterar %{terms_url} för adressregistret
         accept_terms_text_title: Jag accepterar villkoren för tillgång till adressregistret
         date_of_birth: Födelsedatum
-        document_number: Dokumentnummer
+        document_number: Identitetshandlingens nummer
         document_number_help_title: Hjälp
         document_number_help_text_html: '<strong>ID-kort</strong>: 12345678A<br> <strong>Pass</strong>: AAA000001<br> <strong>Legitimation</strong>: X1234567P'
         document_type:
