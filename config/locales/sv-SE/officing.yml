@@ -7,7 +7,7 @@ sv:
         title: Omröstningskontor
         info: Här kan du granska användardokumentation och spara resultat från omröstningar
     menu:
-      voters: Granska dokument
+      voters: Godkänn identitetshandling
       total_recounts: Resultat av omröstning
     polls:
       final:
@@ -45,9 +45,9 @@ sv:
         create: "Verifierad identitetshandling"
         not_allowed: "Du har inga arbetspass idag"
       new:
-        title: Godkänn dokument
-        document_number: "Dokumentnummer (inklusive bokstäver)"
-        submit: Godkänn dokument
+        title: Godkänn identitetshandling
+        document_number: "Identitetshandlingens nummer (inklusive bokstäver)"
+        submit: Godkänn identitetshandling
         error_verifying_census: "Din identitetshandling kunde inte verifieras."
         form_errors: förhindrade godkännandet av det här dokumentet
         no_assignments: "Du har inga arbetspass idag"
