@@ -110,12 +110,12 @@ de:
       budget:
         name: "Name"
         description_accepting: "Beschreibung während der Präsentationsphase"
-        description_reviewing: "Beschreibung während Überprüfungsphase"
-        description_selecting: "Beschreibung während Auswahlphase"
-        description_valuating: "Beschreibung während Bewertungsphase"
-        description_balloting: "Beschreibung während Abstimmungsphase"
+        description_reviewing: "Beschreibung während der internen Überprüfungsphase"
+        description_selecting: "Beschreibung während der Auswahlphase"
+        description_valuating: "Beschreibung während der Bewertungsphase"
+        description_balloting: "Beschreibung während der Abstimmungsphase"
         description_reviewing_ballots: "Beschreibung während der Überprüfungshase der Abstimmungen"
-        description_finished: "Beschreibung wenn das Budget finalisiert ist"
+        description_finished: "Beschreibung, wenn der Bürgerhaushalt beschlossen ist/Ergebnisse"
         phase: "Phase"
         currency_symbol: "Währung"
       budget/investment:
