@@ -57,7 +57,7 @@ sv:
       title: "Tack för att du skapat ett budgetförslag!"
       intro_html: "Hej <strong>%{author}</strong>,"
       text_html: "Tack för att du skapat budgetförslaget <strong>%{investment}</strong> för medborgarbudgeten <strong>%{budget}</strong>."
-      follow_html: "Vi vill informera dig om hur processen går, men du kan också följa på <strong>%{link}</strong>."
+      follow_html: "Du kommer att få löpande information om hur processen går, och du kan också följa den på <strong>%{link}</strong>."
       follow_link: "Medborgarbudgetar"
       sincerely: "Vänliga hälsningar,"
       signatory: "FÖRVALTNINGEN FÖR MEDBORGARDELTAGANDE"
@@ -78,7 +78,7 @@ sv:
       selected_html: "Från kommunfullmäktige vill vi tacka för ditt deltagande i <strong>medborgarbudgeten</strong>. Ditt budgetförslag <strong>'%{title}'</strong> har gått vidare till slutomröstningen, som kommer att ske <strong>15 maj till 30 juni</strong>."
       share: "Börja samla röster och dela i sociala medier för att ditt förslag ska kunna bli verklighet."
       share_button: "Dela ditt budgetförslag"
-      thanks: "Tack igen för att du deltar."
+      thanks: "Tack återigen för att du deltar."
       sincerely: "Vänliga hälsningar"
       signatory: "FÖRVALTNINGEN FÖR MEDBORGARDELTAGANDE"
     budget_investment_unselected:
