@@ -31,6 +31,12 @@ sv:
         target_url: Länk
         post_started_at: Inlägget påbörjades
         post_ended_at: Inlägget avslutades
+        sections:
+          homepage: Hemsida
+          debates: Debatter
+          proposals: Förslag
+          help_page: Hjälpsida
+        font_color: Teckenfärg
       edit:
         editing: Redigera banner
         form:
@@ -177,6 +183,13 @@ sv:
         list:
           id: ID
           title: Titel
+          supports: Stöd
+          admin: Administratör
+          valuator: Bedömare
+          valuation_group: Bedömningsgrupp
+          feasibility: Genomförbarhet
+          selected: Vald
+          incompatible: Oförenlig
         cannot_calculate_winners: Budgeten måste stå i fas "lottningsprojekt", "granskar valsedlar" eller "färdiga budgeter" för att kunna beräkna vinnarprojekt
         see_results: "Visa resultat"
       show:
@@ -323,8 +336,10 @@ sv:
         title: Aktivitet från användaren (%{user})
     hidden_budget_investments:
       index:
+        filter: Filtrera
         filters:
           all: Alla
+          without_confirmed_hide: Väntande
     legislation:
       processes:
         create:
@@ -499,6 +514,7 @@ sv:
       managers: Chefer
       moderators: Moderatorer
       newsletters: Nyhetsbrev
+      admin_notifications: Notifikationer
       emails_download: Hämta e-postadresser
       valuators: Bedömare
       poll_officers: Valarbetare
@@ -514,9 +530,18 @@ sv:
       signature_sheets: Underskrifter
       site_customization:
         homepage: Hemsida
+        pages: Anpassade sidor
+        images: Anpassade bilder
         content_blocks: Anpassade innehållsblock
         information_texts_menu:
+          debates: "Debatter"
+          community: "Gemenskap"
+          proposals: "Förslag"
           polls: "Omröstningar"
+          mailers: "E-post"
+          management: "Förvaltning"
+          guides: "Guider"
+          welcome: "Välkommen"
         buttons:
           save: "Spara"
       title_moderated_content: Modererat innehåll
@@ -595,17 +620,28 @@ sv:
         send_alert: Är du säker att du vill skicka nyhetsbrevet till %{n} mottagare?
     admin_notifications:
       index:
+        section_title: Notifikationer
+        new_notification: Ny notifikation
         title: Titel
+        segment_recipient: Mottagare
         sent: Skickat
+        actions: Åtgärder
         draft: Utkast
         edit: Redigera
         delete: Ta bort
+        preview: Förhandsvisning
         view: Visa
+      new:
+        section_title: Ny notifikation
+      edit:
+        section_title: Redigera notifikation
       show:
         send: Skicka
+        sent_at: Skickas på
         title: Titel
         body: Text
         link: Länk
+        segment_recipient: Mottagare
     emails_download:
       index:
         title: Hämta e-postadresser
@@ -948,6 +984,7 @@ sv:
         filter: Filtrera
         filters:
           all: Alla
+          without_confirmed_hide: Väntande
     settings:
       flash:
         updated: Uppdaterad värde
@@ -999,7 +1036,10 @@ sv:
       show_image: Visa bild
       moderated_content: "Kontrollera det modererade innehållet och bekräfta om modereringen är korrekt."
       view: Visa
+      proposal: Förslag
       author: Författare
+      content: Innehåll
+      created_at: Skapad den
     spending_proposals:
       index:
         geozone_filter_all: Alla områden
