@@ -20,6 +20,7 @@ sv:
       email_on_direct_message_label: Få e-post om direkta meddelanden
       email_digest_label: Få en sammanfattning av meddelanden om förslag
       official_position_badge_label: Visa etikett för officiell roll
+      recommendations: Rekommendationer
       title: Mitt konto
       user_permission_debates: Delta i debatter
       user_permission_info: Med ditt konto kan du...
@@ -631,6 +632,10 @@ sv:
       title: Visningsläge
       cards: Kort
       list: Lista
+    recommended_index:
+      title: Rekommendationer
+      see_more: Visa fler rekommendationer
+      hide: Dölj rekommendationer
   social:
     blog: "%{org} Blogg"
     facebook: "%{org} på Facebook"
@@ -845,3 +850,7 @@ sv:
   admin/widget:
     header:
       title: Administration
+  annotator:
+    help:
+      text_sign_in: logga in
+      text_sign_up: registrera dig
