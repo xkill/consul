@@ -76,12 +76,12 @@ sv:
         filter: Filtrera
         filters:
           all: Alla
-          pending_flag_review: Väntande
+          pending_flag_review: Avvaktar
           with_ignored_flag: Markerad som läst
         headers:
           moderate: Moderera
           budget_investment: Budgetförslag
-        hide_budget_investments: Dölja investeringsförslag
+        hide_budget_investments: Dölj budgetförslag
         ignore_flags: Markera som läst
         order: Sortera efter
         orders:
