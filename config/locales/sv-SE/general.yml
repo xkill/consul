@@ -386,12 +386,12 @@ sv:
       section_header:
         icon_alt: Förslag-ikonen
         title: Förslag
-        help: Hjälp om förslag
+        help: Hjälp med förslag
       section_footer:
-        title: Hjälp om förslag
+        title: Hjälp med förslag
         description: Skriv ett medborgarförslag. Om det får tillräckligt med stöd går det till omröstning, så att alla medborgare kan bestämma om sin stad.
-        help_text_1: "Medborgarförslagen är en möjlighet för grannar och föreningar att bestämma hur de vill att staden ska se ut. Vem som helst kan lämna ett förslag om en fråga som är viktigt för dem, och kommunen kommer sedan genomföra förslaget om det för tillräckligt med stöd för att gå till omröstning och vinna."
-        help_text_2: "Du behöver registrera dig på %{org} för att skapa ett förslag. Förslag som får stöd 1% av invånarna går vidare till omröstning. Du behöver ha ett verifierat konto för att kunna stödja förslag."
+        help_text_1: "Medborgarförslagen är en möjlighet för grannar och föreningar att bestämma hur de vill att staden ska se ut. Vem som helst kan lämna ett förslag om en fråga som är viktigt för dem, och kommunen kommer sedan genomföra förslaget om det får tillräckligt med stöd för att gå till omröstning och vinna."
+        help_text_2: "Du behöver registrera dig på %{org} för att skapa ett förslag. Förslag som får stöd av 1% av invånarna går vidare till omröstning. Du behöver ha ett verifierat konto för att kunna stödja förslag."
         help_text_3: "Medborgarförslag som fått tillräckligt stöd går vidare till omröstning. Om förslaget får en majoritet av rösterna i omröstningen kommer kommunen att genomföra förslaget."
     new:
       form:
