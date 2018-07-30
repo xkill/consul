@@ -46,6 +46,7 @@ nl:
     menu:
       flagged_comments: Reacties
       flagged_debates: Discussies
+      flagged_investments: Begrotingsvoorstellen
       proposals: Voorstellen
       proposal_notifications: Voorgestelde notificaties
       users: Blokkeer deelnemers
@@ -68,6 +69,25 @@ nl:
           created_at: Meest recent
           flags: Meest gemarkeerd
         title: Voorstellen
+    budget_investments:
+      index:
+        block_authors: Blokkeer auteurs
+        confirm: Weet je het zeker?
+        filter: Filter
+        filters:
+          all: Allen
+          pending_flag_review: In afwachting
+          with_ignored_flag: Markeer als gelezen
+        headers:
+          moderate: Bemiddelen
+          budget_investment: Begrotingsvoorstel
+        hide_budget_investments: Verbergen begrotingsinvesteringen
+        ignore_flags: Markeer als gelezen
+        order: Bestel door
+        orders:
+          created_at: Meest recent
+          flags: Meest gemarkeerd
+        title: Begrotingsvoorstellen
     proposal_notifications:
       index:
         block_authors: Blokkeer auteurs
