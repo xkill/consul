@@ -52,11 +52,6 @@ pt-BR:
       see_results: Exibir resultados
       section_footer:
         title: Ajuda com orçamentos participativos
-        description: Com os orçamentos participativos, os cidadãos decidem para quais dos projetos apresentados por seus vizinhos é destinada uma parte do orçamento municipal.
-        help_text_1: "Orçamentos participativos são processos em que os cidadãos decidem diretamente sobre parte do que é gasto no orçamento municipal. Qualquer pessoa registrada com mais de 16 anos pode propor um projeto de investimento que é pré-selecionado em fase de voto popular."
-        help_text_2: "Os projetos mais votados são avaliados e aprovados para uma votação final, na qual são decididas as ações a serem realizadas pela Prefeitura, uma vez aprovados os orçamentos municipais do próximo ano."
-        help_text_3: "A apresentação dos projetos de orçamento participativo ocorre a partir de janeiro e durante um período de um mês e meio. Para participar e fazer propostas para toda a cidade e/ou distritos, você deve se inscrever em %{org} e verificar sua conta."
-        help_text_4: "Para obter o maior número possível de apoios e votos, escolha um título descritivo e compreensível para o seu projeto. Então você terá um espaço para desenvolver a abordagem da sua proposta. Forneça todos os dados e explicações, incluindo documentos e imagens, para ajudar os outros participantes a entender melhor o que você está propondo."
     investments:
       form:
         tag_category_label: "Categorias"
