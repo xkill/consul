@@ -200,7 +200,7 @@ sv:
           visible_to_valuators: Visa bedömare
           author_username: Författarens användarnamn
           incompatible: Oförenlig
-        cannot_calculate_winners: Budgeten måste stå i fas "lottningsprojekt", "granskar valsedlar" eller "färdiga budgeter" för att kunna beräkna vinnarprojekt
+        cannot_calculate_winners: Budgeten måste vara i någon av faserna "Omröstning", "Rösträkning" eller "Avslutad budget" för att kunna räkna fram vinnande förslag
         see_results: "Visa resultat"
       show:
         assigned_admin: Ansvarig administratör
