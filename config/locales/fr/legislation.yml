@@ -71,9 +71,6 @@ fr:
         section_footer:
           title: Aide sur les processus législatifs
           description: Participer aux débats et aux processus préalables à la création d’une ordonnance ou d'une décision municipale. Votre avis sera examiné par le conseil municipal.
-          help_text_1: "Dans les processus participatifs, la mairie offre à ses citoyens la possibilité de participer à l’élaboration et la modification de la réglementation touchant la ville et de pouvoir se prononcer sur certaines actions qu’elle entend mener."
-          help_text_2: "Les personnes inscrites au sein de %{org} peuvent contribuer à la consultation publique de nouveaux règlements, ordonnances et directives, entre autres choses. Vos commentaires sont analysés par la circonscription correspondante et pris en considération pour la rédaction finale des ordonnances."
-          help_text_3: "Le conseil municipal ouvre également des processus pour recevoir des contributions et des avis sur l'action de la mairie."
       phase_not_open:
         not_open: Cette phase n’est pas encore ouverte
       phase_empty:
