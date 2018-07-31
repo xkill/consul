@@ -71,9 +71,6 @@ pt-BR:
         section_footer:
           title: Ajuda sobre processos legislativos
           description: Participar nos debates e processos prévios para a aprovação de um instrumento legal ou uma ação municipal. Sua opinião será considerada pela Prefeitura.
-          help_text_1: "Em processos participativos, a Prefeitura oferece para seus cidadãos a oportunidade de participar na elaboração e modificação do estatuto, afetando a cidade e sendo capazes de dar suas opiniões sobre determinadas ações que a Prefeitura pretende realizar."
-          help_text_2: "Pessoas cadastradas no %{org} podem participar com contribuições na consulta pública de novas ordenanças, regulações e orientações, entre outros. Seus comentários são analisados pela área correspondente e considerados para a elaboração final das ordenanças."
-          help_text_3: "A Prefeitura abre também processos para receber contribuições e opiniões sobre ações municipais."
       phase_not_open:
         not_open: Nesta fase ainda não está aberta
       phase_empty:
