@@ -6,10 +6,10 @@ de:
       actions: Aktionen
       confirm: Sind Sie sich sicher?
       confirm_hide: Moderation bestätigen
-      hide: Ausblenden
-      hide_author: Autor verbergen
+      hide: Verbergen
+      hide_author: Verfasser*in verbergen
       restore: Wiederherstellen
-      mark_featured: Markiert
+      mark_featured: Markieren
       unmark_featured: Markierung aufheben
       edit: Bearbeiten
       configure: Konfigurieren
@@ -34,8 +34,8 @@ de:
         sections_label: Abschnitte, in denen es angezeigt wird
         sections:
           homepage: Homepage
-          debates: Debatten
-          proposals: Anträge
+          debates: Diskussionen
+          proposals: Vorschläge
           budgets: Bürgerhaushalt
           help_page: Hilfe-Seite
         background_color: Hintergrundfarbe
