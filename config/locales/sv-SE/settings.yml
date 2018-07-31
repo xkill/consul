@@ -39,7 +39,7 @@ sv:
       spending_proposals: Budgetförslag
       spending_proposal_features:
         voting_allowed: Omröstning om budgetförslag
-      legislation: Lagstiftning
+      legislation: Planering
       user:
         recommendations: Rekommendationer
         skip_verification: Hoppa över användarverifiering
