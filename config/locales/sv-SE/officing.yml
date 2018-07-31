@@ -19,13 +19,13 @@ sv:
       flash:
         create: "Resultatet har sparats"
         error_create: "Resultatet har INTE sparats. Felaktig data."
-        error_wrong_booth: "Fel röstbås. Resultatet sparades INTE."
+        error_wrong_booth: "Fel röststation. Resultatet sparades INTE."
       new:
         title: "%{poll} - Lägg till resultat"
         not_allowed: "Du kan lägga till resultat för den här omröstning"
-        booth: "Röstbås"
+        booth: "Röststation"
         date: "Datum"
-        select_booth: "Välj röstbås"
+        select_booth: "Välj röststation"
         ballots_white: "Blankröster"
         ballots_null: "Ogiltiga röster"
         ballots_total: "Totalt antal röster"
