@@ -82,7 +82,7 @@ sv:
         key_dates: Viktiga datum
         debate_dates: Debatt
         draft_publication_date: Publiceringsdatum för utkast
-        allegations_dates: Påståenden
+        allegations_dates: Kommentera utkast
         result_publication_date: Publiceringsdatum för resultat
         proposals_dates: Förslag
     questions:
