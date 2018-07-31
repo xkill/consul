@@ -71,9 +71,6 @@ nl:
         section_footer:
           title: Hulp bij wetgevingsprocessen
           description: Neem deel aan discussies en processen voorafgaand aan de totstandkoming van verordeningen, beleid en uitvoering vanuit de gemeente. Jouw mening wordt meegenomen door je gemeente.
-          help_text_1: "In participatieprocessen is het belangrijk dat de gemeente haar inwoners de kans biedt om deel te nemen aan het ontwerpen en bijstellen van beleid en wetgeving en inwoners hun mening te laten geven op alle activiteiten die de gemeente en haar inwoners betreffen."
-          help_text_2: "Inwoners van %{org} kunnen deelnemen en een bijdrage leveren aan de conceptversies van nieuwe verordeningen, regels en richtlijnen. Jouw input wordt geanalyseerd door de gemeente en meegenomen in eindversies."
-          help_text_3: "De gemeente is transparant in haar processen om bijdragen en meningen van haar inwoners mee te laten wegen in gemeentelijk beleid en activiteiten."
       phase_not_open:
         not_open: Deze fase is nog niet gestart.
       phase_empty:
