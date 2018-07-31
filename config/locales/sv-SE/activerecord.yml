@@ -57,7 +57,7 @@ sv:
         other: "röststationer"
       poll/officer:
         one: "funktionär"
-        other: "funktionär"
+        other: "funktionärer"
       proposal:
         one: "Medborgarförslag"
         other: "Medborgarförslag"
@@ -109,11 +109,11 @@ sv:
     attributes:
       budget:
         name: "Namn"
-        description_accepting: "Beskrivning under förslagsinlämningsfasen"
+        description_accepting: "Beskrivning av fasen för förslagsinlämning"
         description_reviewing: "Beskrivning av granskningsfasen"
         description_selecting: "Beskrivning av urvalsfasen"
         description_valuating: "Beskrivning av kostnadsberäkningsfasen"
-        description_balloting: "Beskrivning under omröstningsfasen"
+        description_balloting: "Beskrivning av omröstningsfasen"
         description_reviewing_ballots: "Beskrivning av fasen för granskning av röster"
         description_finished: "Beskrivning för när budgeten är avslutad"
         phase: "Fas"
