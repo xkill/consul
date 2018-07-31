@@ -201,3 +201,77 @@ zh-TW:
         edit: 編輯
         edit_classification: 編輯分類
         by: 由
+        sent: 發送
+        group: 組
+        heading: 標題
+        dossier: 檔案
+        edit_dossier: 編輯檔案
+        tags: 標籤
+        user_tags: 用戶標籤
+        undefined: 未定義
+        milestone: 里程碑
+        new_milestone: 創建新的里程碑
+        compatibility:
+          title: 相容性
+          "true": 不相容
+          "false": 相容
+        selection:
+          title: 選擇
+          "true": 已選擇
+    milestones:
+      edit:
+        title: 編輯里程碑
+      create:
+        notice: 新的里程碑已創建成功!
+      update:
+        notice: 里程碑已成功更新
+      delete:
+        notice: 里程碑已成功刪除
+    statuses:
+      index:
+        title: 投資狀態
+        empty_statuses: 尚未創建投資狀態
+        new_status: 創建新的投資狀態
+        table_name: 名字
+        table_description: 說明
+        table_actions: 行動
+        delete: 刪除
+        edit: 編輯
+      edit:
+        title: 編輯投資狀態
+      update:
+        notice: 投資狀態已更新成功
+      new:
+        title: 創建投資狀態
+      create:
+        notice: 投資狀態已創建成功
+      delete:
+        notice: 投資狀態已成功刪除
+    comments:
+      index:
+        filter: 篩選器
+        filters:
+          all: 所有
+          with_confirmed_hide: 確認
+          without_confirmed_hide: 有待
+        hidden_debate: 隱藏的辯論
+        hidden_proposal: 隱藏的建議
+        title: 隱藏的評論
+        no_hidden_comments: 沒有隱藏的評論。
+    dashboard:
+      index:
+        back: 返回 %{org}
+        title: 管理
+        description: 歡迎使用 %{org} 管理面板。
+    debates:
+      index:
+        filter: 篩選器
+        filters:
+          all: 所有
+          with_confirmed_hide: 確認
+          without_confirmed_hide: 有待
+        title: 隱藏的辯論
+        no_hidden_debates: 沒有隱藏的辯論。
+    hidden_users:
+      index:
+        filter: 篩選器
