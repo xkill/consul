@@ -422,7 +422,7 @@ sv:
         zero: Inga röster
         one: 1 röst
         other: "%{count} röster"
-      supports_necessary: "behöver %{number} röster"
+      supports_necessary: "behöver stöd från %{number} personer"
       total_percent: 100%
       archived: "Förslaget har arkiverats och kan inte längre stödjas."
       successful: "Förslaget har fått tillräckligt med stöd."
@@ -475,7 +475,7 @@ sv:
         help: Hjälp med omröstning
       section_footer:
         title: Hjälp med omröstning
-        description: Medborgaromröstningar är en deltagande funktion i vilket medborgare som är röstberättigade kan göra direkta beslut
+        description: Medborgaromröstningar är en deltagandeprocess där röstberättigade medborgare fattar beslut genom omröstning
       no_polls: "Det finns inga pågående omröstningar."
     show:
       already_voted_in_booth: "Du har redan röstat i en fysisk valstation. Du kan inte rösta igen."
