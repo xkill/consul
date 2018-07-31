@@ -252,7 +252,7 @@ sv:
         tags: Taggar
         tags_placeholder: "Fyll i taggar separerade med kommatecken (,)"
         undefined: Odefinierad
-        user_groups: "Grupper"
+        user_groups: "Område"
       search_unfeasible: Sökningen misslyckades
     milestones:
       index:
@@ -349,7 +349,7 @@ sv:
         filter: Filtrera
         filters:
           all: Alla
-          with_confirmed_hide: Bekräftad
+          with_confirmed_hide: Godkänd
           without_confirmed_hide: Väntande
         title: Dolda budgetförslag
         no_hidden_budget_investments: Det finns inga dolda budgetförslag
@@ -437,7 +437,7 @@ sv:
           close_text_editor: Stäng textredigerare
           use_markdown: Använda Markdown för att formatera texten
           hints:
-            final_version: Denna version kommer att publiceras som slutresultatet för denna process. Kommentarer inte kommer att tillåtas i denna version.
+            final_version: Denna version kommer att publiceras som slutresultatet för denna process. Kommentarer kommer inte att tillåtas i denna version.
             status:
               draft: Du kan förhandsgranska som administratör, ingen annan kan se det
               published: Synligt för alla
@@ -486,7 +486,7 @@ sv:
           question_options: "Möjliga svar (frivilligt fält, öppna svar som standard)"
         index:
           back: Tillbaka
-          title: Frågor som är associerade till denna process
+          title: Frågor som är kopplade till denna process
           create: Skapa fråga
           delete: Ta bort
         new:
@@ -569,7 +569,7 @@ sv:
       title_profiles: Profiler
       title_settings: Inställningar
       title_site_customization: Webbplatsens innehåll
-      title_booths: Röststation
+      title_booths: Röststationer
       legislation: Kollaborativ planering
       users: Användare
     administrators:
