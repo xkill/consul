@@ -1,17 +1,17 @@
 sv:
   community:
     sidebar:
-      title: Gemenskap
+      title: Diskussion
       description:
-        proposal: Delta i gemenskapen kring detta förslag.
+        proposal: Delta i diskussionen kring detta förslag.
         investment: Delta i diskussionen om budgetförslaget.
-      button_to_access: Gå med i gemenskapen
+      button_to_access: Kom med i diskussionen
     show:
       title:
-        proposal: Gemenskap kring förslaget
+        proposal: Diskussion om förslaget
         investment: Diskussion om budgetförslaget
       description:
-        proposal: Delta i gemenskapen kring förslaget. En aktiv gemenskap kan förbättra innehållet i förslaget, göra det mer känt och öka dess stöd.
+        proposal: Delta i diskussionen om förslaget. En aktiv diskussion kan leda till förbättringar av förslaget, ge det större spridning och ökat stöd.
         investment: Delta i diskussionen om budgetförslaget. En aktiv diskussion kan leda till förbättringar av förslaget, ge det större spridning och ökat stöd.
       create_first_community_topic:
         first_theme_not_logged_in: Inga ämnen finns tillgängliga, skapa det första.
