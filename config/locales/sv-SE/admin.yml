@@ -676,9 +676,13 @@ sv:
         send_alert: Är du säker på att du vill skicka den här aviseringen till %{n} användare?
     system_emails:
       preview_pending:
+        action: Inväntar granskning
         preview_of: Förhandsgranskning av %{name}
         pending_to_be_sent: Här är innehållet som kommer att skickas
+        send_pending: Väntar på att skicka
+        send_pending_notification: Aviseringarna har skickats
       proposal_notification_digest:
+        title: Sammanfattande avisering om förslag
         description: Samlar alla förslagsaviseringar till en användare i ett enskilt meddelande för att undvika för mycket mejl.
         preview_detail: Användare kommer endast få aviseringar från förslag de följer
     emails_download:
@@ -812,7 +816,7 @@ sv:
         officers_list: "Lista över funktionärer för denna röststation"
         no_officers: "Det finns inga funktionärer i denna röststation"
         recounts: "Rösträkning"
-        recounts_list: "Räkna rösterna för denna röststation"
+        recounts_list: "Räkna rösterna för den här röststationen"
         results: "Resultat"
         date: "Datum"
         count_final: "Slutgiltig rösträkning (av funktionärer)"
@@ -1032,9 +1036,9 @@ sv:
         updated: Uppdaterad värde
       index:
         banners: Bannerformat
-        banner_imgs: Bannerbilder
-        no_banners_images: Inga banner bild
-        no_banners_styles: Inga banner stilar
+        banner_imgs: Banner
+        no_banners_images: Inga banner
+        no_banners_styles: Inga bannerformat
         title: Inställningar
         update_setting: Uppdatera
         feature_flags: Funktioner
