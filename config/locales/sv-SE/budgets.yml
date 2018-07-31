@@ -172,8 +172,8 @@ sv:
       show_all_link: Visa alla
       price: Kostnad
       amount_available: Tillgänglig budget
-      accepted: "Accepterade utgiftsförslag: "
-      discarded: "Kasserade utgiftsförslag: "
+      accepted: "Accepterade budgetförslag: "
+      discarded: "Avvisade budgetförslag: "
       incompatibles: Oförenliga
       investment_proyects: Lista över budgetförslag
       unfeasible_investment_proyects: Lista över ej genomförbara budgetförslag
