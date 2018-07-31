@@ -137,7 +137,7 @@ sv:
         name: "Namn"
         description: "Beskrivning (frivilligt fält)"
       budget/heading:
-        name: "Rubriknamn"
+        name: "Underområde"
         price: "Kostnad"
         population: "Befolkning"
       comment:
