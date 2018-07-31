@@ -94,7 +94,7 @@ sv:
       debate_text: Inledande debatt-text
       debate_title: Debatt-titel
       tags_instructions: Tagga debatten.
-      tags_label: Ämne
+      tags_label: Ämnen
       tags_placeholder: "Skriv taggarna du vill använda, avgränsade med komma (',')"
     index:
       featured_debates: Utvalda
