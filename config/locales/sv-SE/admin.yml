@@ -301,7 +301,7 @@ sv:
           all: Alla
           with_confirmed_hide: Godkända
           without_confirmed_hide: Väntande
-        hidden_debate: Gömd debatt
+        hidden_debate: Dold debatt
         hidden_proposal: Gömt förslag
         title: Dolda kommentarer
         no_hidden_comments: Det finns inga dolda kommentarer.
