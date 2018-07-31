@@ -25,6 +25,7 @@ sv:
         description: "I %{link}-delen kan du skriva förslag som du vill att kommunen ska genomföra. Förslagen behöver få tillräckligt med stöd för att gå vidare till omröstning. De förslag som vinner en omröstning kommer att genomföras av kommunen."
         link: "medborgarförslag"
         image_alt: "Knapp för att stödja förslag"
+        figcaption_html: 'Knapp för att "Stödja" ett förslag.'
       budgets:
         title: "Medborgarbudget"
         description: "I %{link}-delen beslutar invånarna om hur en del av stadens budget ska användas."
