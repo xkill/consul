@@ -768,12 +768,12 @@ sv:
       new:
         add_shift: "Lägg till arbetspass"
         shift: "Uppdrag"
-        shifts: "Arbetspass för den här röststationen"
+        shifts: "Arbetspass för röststationen"
         date: "Datum"
         task: "Uppgift"
         edit_shifts: Redigera arbetspass
         new_shift: "Nytt arbetspass"
-        no_shifts: "Den här röststationen har inga arbetspass"
+        no_shifts: "Röststationen har inga arbetspass"
         officer: "Funktionär"
         remove_shift: "Ta bort"
         search_officer_button: Sök
