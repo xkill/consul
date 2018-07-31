@@ -16,7 +16,6 @@ fr:
       confirmation_instructions:
         confirm_link: Confirmer mon compte
         text: 'Vous pouvez confirmer votre courriel en cliquant sur le lien suivant :'
-        title: Bienvenue sur le portail Gouvernement Ouvert
         welcome: Bienvenue
       reset_password_instructions:
         change_link: Changer mon mot de passe
