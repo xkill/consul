@@ -41,8 +41,8 @@ sv:
         one: "Bedömningsgrupp"
         other: "Bedömningsgrupper"
       manager:
-        one: "Chef"
-        other: "Chefer"
+        one: "Medborgarguide"
+        other: "Medborgarguider"
       newsletter:
         one: "Nyhetsbrev"
         other: "Nyhetsbrev"
