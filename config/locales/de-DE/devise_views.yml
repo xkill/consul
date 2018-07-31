@@ -16,7 +16,6 @@ de:
       confirmation_instructions:
         confirm_link: Mein Benutzerkonto bestätigen
         text: 'Sie können Ihre E-Mail unter folgenden Link bestätigen:'
-        title: Willkommen auf dem öffentlichen Regierungsportal
         welcome: Willkommen
       reset_password_instructions:
         change_link: Mein Passwort ändern
