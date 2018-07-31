@@ -20,6 +20,9 @@ gl:
       email_on_direct_message_label: Recibir correos con mensaxes privadas
       email_digest_label: Recibir un resumo de notificacións sobre as propostas
       official_position_badge_label: Amosar etiqueta do tipo de usuario
+      recommendations: Recomendacións
+      show_debates_recommendations: Amosar recomendacións de debates
+      show_proposals_recommendations: Amosar recomendacións de propostas
       title: A miña conta
       user_permission_debates: Participar en debates
       user_permission_info: Coa túa conta xa podes...
@@ -208,10 +211,10 @@ gl:
       open_data_title: Datos abertos
       open_source: software libre
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
-      participation_text: Decide como debe ser a cidade de Madrid que queres.
+      participation_text: Decide como debe ser a cidade que queres.
       participation_title: Participación
       privacy: Política de privacidade
-      transparency_text: Obtén cualquera información sobre o Concello de Madrid.
+      transparency_text: Obtén cualquera información sobre a cidade.
       transparency_title: Transparencia
       transparency_url: https://transparencia.madrid.es
     header:
