@@ -16,6 +16,7 @@ sv:
       confirmation_instructions:
         confirm_link: Bekräfta mitt konto
         text: 'Bekräfta din e-postadress med följande länk:'
+        title: Välkommen
         welcome: Välkommen
       reset_password_instructions:
         change_link: Ändra mitt lösenord
