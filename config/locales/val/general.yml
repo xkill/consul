@@ -136,9 +136,6 @@ val:
         description: Inicia un debat per a compartir punts de vista amb altres persones sobre els temes que et preocupen.
         help_text_1: "L'espai de debats ciutadans està dirigit a que quansevol persona puga exposar temes que li preocupen i sobre els que vullga compartir punts de vista amb altres persones."
         help_text_2: 'Per a obrir un debat es necessari registrar-se en %{org}. Els usuaris ja registrats també poden comentar els debats oberts i varlorar-los amb els botons "Estic d''acord" o "No estic d''acord" que es troben en cadascun d''ells.'
-        help_text_3: "Tin en compte que un debat no activa cap mecanisme d'actuació concret. Si vols fer una %{proposal} per a la ciutat o plantejar un projecte de %{budget} quant s'obriga la convocatoria, ves a la secció corresponent."
-        proposals_link: proposta
-        budget_link: pressupostos participatius
     new:
       form:
         submit_button: Iniciar un debat
@@ -210,17 +207,11 @@ val:
       contact_us: Per a assistencia técnica entra en
       copyright: CONSUL, %{year}
       description: Este portal utilitza la %{consul} que es %{open_source}.
-      faq: assistència técnica
-      open_data_text: Totes les dades del Ajuntament son teues.
-      open_data_title: Dades obertes
       open_source: software de codi obert
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: Decideix com ha de ser la ciutat que vols.
       participation_title: Participació
       privacy: Política de privacitat
-      transparency_text: Obtín qualsevol informació sobre la ciutat.
-      transparency_title: Transparència
-      transparency_url: https://transparency.consul
     header:
       administration_menu: Admin
       administration: Administració
@@ -228,10 +219,6 @@ val:
       collaborative_legislation: Processos legislatius
       debates: Debats
       external_link_blog: Blog
-      external_link_opendata: Dades obertes
-      external_link_opendata_url: https://opendata.consul
-      external_link_transparency: Transparència
-      external_link_transparency_url: https://transparency.consul
       locale: 'Idioma:'
       logo: Logo de CONSUL
       management: Gestió
@@ -335,7 +322,6 @@ val:
       geozone: Ámbit d'actuació
       proposal_external_url: Enllaç a documentació adicional
       proposal_question: Pregunta de la proposta
-      proposal_question_example_html: "Deu ser resumida en una pregunta amb resposta Sí o No. <br>Ex. 'Està vosté d'acort en peatonalitzar el carrer Major?'"
       proposal_responsible_name: Nom i cognoms de la persona que fa aquesta proposta
       proposal_responsible_name_note: "(individualment o com representant d'un col·lectiu; no es mostrarà públicament)"
       proposal_summary: Resum de la proposta
@@ -400,10 +386,6 @@ val:
         help: Ajuda sobre les propostes
       section_footer:
         title: Ajuda sobre les propostes
-        description: Fes una proposta ciutadana. Si obté els avals suficients i pasa a votació, pots conseguir que tots els habitants decidisquen com volen que siga la nostra ciutat.
-        help_text_1: "Les propostes ciutadanes son una oportunitat per a que els veins i col·lectius decidisquen directament com volen que siga la seua ciutat. Quansevol persona pot fer una proposta sobre un tema que l'interese o preocupe per a que l'Ajuntament la duga a terme, després d'aconseguir els avals suficients i de sotmetre's a votació ciutadana."
-        help_text_2: "Per a crear una proposta cal registrar-se en %{org}. Les propostes que aconseguisquen el aval de l'1% de la gent en la web, pasen a votació. Per a avalar propostes es necessari tindre un compte verificat."
-        help_text_3: "Es convoca una votació ciutadana quant les propostes aconsegueixen els avals necesaris. Una vegada cel·lebrada, si hi ha més gent a favor que en contra, el Consistori asumeix la proposta i la du a terme."
     new:
       form:
         submit_button: Crear proposta
@@ -428,7 +410,6 @@ val:
         zero: Sense comentaris
         one: 1 comentari
         other: "%{count} comentaris"
-      reason_for_supports_necessary: 1% del Cens
       support: Avalar
       support_title: Avalar aquesta proposta
       supports:
@@ -442,8 +423,6 @@ val:
       supports_necessary: "%{number} avals necessaris"
       total_percent: 100%
       archived: "Aquesta proposta ha sigut arxivada i ja no pot recollir avals."
-      successful: "Esta proposta ha aconseguit els avals necessaris i pasarà a la %{voting}."
-      voting: "pròxima votació"
     show:
       author_deleted: Usuari eliminat
       code: 'Codi de la proposta:'
@@ -493,9 +472,6 @@ val:
         help: Ajuda sobre les votacions
       section_footer:
         title: Ajuda sobre les votacions
-        description: Registra't per poder votar propostes ciutadanes i les qüestions que pregunta als veïns l'Ajuntament. Pren decisions municipals de forma directa.
-        help_text_1: "Les votacions es convoquen quant una proposta ciutadana arriba a l'1% d'avals del cens amb dret a vot. En les votacions també es poden incloure qüestions que l'Ajuntament sotmet a decisió directa de la ciutadania."
-        help_text_2: "Per participar en la pròxima votació has de regitstrar-te en %{org} i verificar el teu compte. Poden votar totes les persones empadronades en la ciutat majors de 16 anys. Els resultats de totes les votacions seran vinculants per al govern."
       no_polls: "No hi ha votacions obertes."
     show:
       already_voted_in_booth: "Ya has participat en esta votació en urnes presencials, no pots tornar a participar."
