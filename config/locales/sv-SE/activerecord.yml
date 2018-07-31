@@ -56,8 +56,8 @@ sv:
         one: "röstbås"
         other: "röstbås"
       poll/officer:
-        one: "valarbetare"
-        other: "valarbetare"
+        one: "funktionär"
+        other: "funktionär"
       proposal:
         one: "Medborgarförslag"
         other: "Medborgarförslag"
@@ -109,12 +109,12 @@ sv:
     attributes:
       budget:
         name: "Namn"
-        description_accepting: "Beskrivning under presentationsfasen"
-        description_reviewing: "Beskrivning under granskningsfasen"
-        description_selecting: "Beskrivning under valfasen"
-        description_valuating: "Beskrivning under utvärderingsetappen"
+        description_accepting: "Beskrivning under förslagsinlämningsfasen"
+        description_reviewing: "Beskrivning av granskningsfasen"
+        description_selecting: "Beskrivning av urvalsfasen"
+        description_valuating: "Beskrivning av kostnadsberäkningsfasen"
         description_balloting: "Beskrivning under omröstningsfasen"
-        description_reviewing_ballots: "Beskrivning när röstsedlarna granskas"
+        description_reviewing_ballots: "Beskrivning av rösträkningen"
         description_finished: "Beskrivning när budgeten är klar"
         phase: "Fas"
         currency_symbol: "Valuta"
