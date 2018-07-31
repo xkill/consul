@@ -502,15 +502,15 @@ sv:
           remove_option: Ta bort alternativ
     managers:
       index:
-        title: Chefer
+        title: Medborgarguider
         name: Namn
         email: E-post
-        no_managers: Det finns inga chefer.
+        no_managers: Det finns inga medborgarguider.
       manager:
         add: Lägg till
         delete: Ta bort
       search:
-        title: 'Chefer: Användarsökning'
+        title: 'Bedömare: Sök användare'
     menu:
       activity: Moderatoraktivitet
       admin: Administrationsmeny
@@ -526,7 +526,7 @@ sv:
       hidden_proposal_notifications: Dolda förslagsaviseringar
       hidden_users: Dolda användare
       administrators: Administratörer
-      managers: Chefer
+      managers: Medborgarguider
       moderators: Moderatorer
       messaging_users: Meddelanden till användare
       newsletters: Nyhetsbrev
@@ -544,7 +544,7 @@ sv:
       settings: Globala inställningar
       spending_proposals: Budgetförslag
       stats: Statistik
-      signature_sheets: Underskrifter
+      signature_sheets: Namninsamling
       site_customization:
         homepage: Hemsida
         pages: Anpassade sidor
@@ -1168,12 +1168,12 @@ sv:
       author: Förslagslämnare
       created_at: Skapad den
       name: Namn
-      no_signature_sheets: "Det finns inga signatur_blanketter"
+      no_signature_sheets: "Det finns inga namninsamlingar"
       index:
-        title: Signatur ark
-        new: Nya underskriftspapper
+        title: Namninsamling
+        new: Ny namninsamling
       new:
-        title: Nya underskriftspapper
+        title: Ny namninsamling
         document_numbers_note: "Fyll i siffrorna separerade med kommatecken (,)"
         submit: Skapa signatur ark
       show:
@@ -1201,7 +1201,7 @@ sv:
           proposals: Förslag
           budgets: Pågående budgetar
           budget_investments: Budgetförslag
-          spending_proposals: Förslag på utgifter
+          spending_proposals: Budgetförslag
           unverified_users: Ej verifierade användare
           user_level_three: Nivå tre användare
           user_level_two: Nivå två användare
@@ -1210,7 +1210,7 @@ sv:
           verified_users_who_didnt_vote_proposals: Verifierade användare som inte röstade för något förslag
           visits: Visningar
           votes: Totalt antal röster
-        spending_proposals_title: Förslag på utgifter
+        spending_proposals_title: Budgetförslag
         budgets_title: Medborgarbudget
         visits_title: Visningar
         direct_messages: Direktmeddelanden
