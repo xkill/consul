@@ -31,12 +31,12 @@ sv:
         go_to_index: Visa förslag
         office: Verifiera i någon %{office}
         offices: Medborgarkontor
-        send_letter: Skicka mig ett brev med koden
+        send_letter: Skicka ett brev till mig med koden
         title: Grattis!
         user_permission_info: Med ditt konto kan du...
       update:
         flash:
-          success: Kod korrekt. Ditt konto är nu verifierat
+          success: Koden är giltig. Ditt konto har verifierats
     redirect_notices:
       already_verified: Ditt konto är redan verifierat
       email_already_sent: Vi har redan skickat ett e-postmeddelande med en bekräftelselänk. Om du inte hittar e-postmeddelandet, kan du begära ett nytt här
@@ -52,7 +52,7 @@ sv:
         date_of_birth: Födelsedatum
         document_number: Identitetshandlingens nummer
         document_number_help_title: Hjälp
-        document_number_help_text_html: '<strong>ID-kort</strong>: 12345678A<br> <strong>Pass</strong>: AAA000001<br> <strong>Övrig identitetshandling</strong>: X1234567P'
+        document_number_help_text_html: '<strong>Legitimation</strong>: 12345678A<br> <strong>Pass</strong>: AAA000001<br> <strong>Övrig identitetshandling</strong>: X1234567P'
         document_type:
           passport: Pass
           residence_card: Övrig identitetshandling
