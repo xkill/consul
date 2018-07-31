@@ -6,7 +6,7 @@ sv:
       email_on_comment_reply_label: Meddela mig via e-post när någon svarar på mina kommentarer
       erase_account_link: Ta bort mitt konto
       finish_verification: Slutför verifiering
-      notifications: Meddelanden
+      notifications: Aviseringar
       organization_name_label: Organisationsnamn
       organization_responsible_name_placeholder: Representant för organisationen/gruppen
       personal: Personlig information
@@ -18,9 +18,11 @@ sv:
       save_changes_submit: Spara ändringar
       subscription_to_website_newsletter_label: Få relevanta uppdateringar om webbplatsen med e-post
       email_on_direct_message_label: Få e-post om direkta meddelanden
-      email_digest_label: Få en sammanfattning av meddelanden om förslag
+      email_digest_label: Få en sammanfattning av aviseringar om förslag
       official_position_badge_label: Visa etikett för officiell roll
       recommendations: Rekommendationer
+      show_debates_recommendations: Visa rekommenderade debatter
+      show_proposals_recommendations: Visa rekommenderade förslag
       title: Mitt konto
       user_permission_debates: Delta i debatter
       user_permission_info: Med ditt konto kan du...
@@ -111,6 +113,10 @@ sv:
       recommendations:
         without_results: Det finns inga debatter som rör dina intressen
         without_interests: Följ förslag så vi kan ge dig rekommendationer
+        disable: "Rekommenderade debatter kommer sluta visas om du avfärdar de. Du kan aktivera de igen under \"Mitt konto\"."
+        actions:
+          success: "Nu är rekommenderade debatter inaktiverade för detta konto"
+          error: "Ett fel har uppstått. Var vänlig och gå till \"Mitt konto\" för att manuellt inaktivera rekommenderade debatter"
       search_form:
         button: Sök
         placeholder: Sök debatter...
@@ -175,7 +181,7 @@ sv:
     not_saved_html: "gjorde att %{resource} inte kunde sparas. <br>Kontrollera och rätta till de markerade fälten:"
     policy: Sekretesspolicy
     proposal: Förslag
-    proposal_notification: "Meddelande"
+    proposal_notification: "Avisering"
     spending_proposal: Budgetförslag
     budget/investment: Budgetförslag
     budget/heading: Budgetrubrik
@@ -243,10 +249,10 @@ sv:
       spending_proposals: Budgetförslag
       notification_item:
         new_notifications:
-          one: Du har %{count} nytt meddelande
-          other: Du har %{count} nya meddelanden
-        notifications: Meddelanden
-        no_notifications: "Du har inga nya meddelanden"
+          one: Du har %{count} ny avisering
+          other: Du har %{count} nya aviseringar
+        notifications: Aviseringar
+        no_notifications: "Du har inga nya aviseringar"
     admin:
       watch_form_message: 'Du har inte sparat dina ändringar. Vill du verkligen lämna sidan?'
   legacy_legislation:
@@ -259,10 +265,10 @@ sv:
   locale: Svenska
   notifications:
     index:
-      empty_notifications: Du har inga nya meddelanden.
+      empty_notifications: Du har inga nya aviseringar.
       mark_all_as_read: Markera alla som lästa
       read: Lästa
-      title: Meddelanden
+      title: Aviseringar
       unread: Olästa
     notification:
       action:
@@ -270,8 +276,8 @@ sv:
           one: Någon kommenterade
           other: Det finns %{count} nya kommentarer till
         proposal_notification:
-          one: Du har ett nytt meddelande om
-          other: Du har %{count} nya meddelanden om
+          one: Du har en ny avisering om
+          other: Du har %{count} nya aviseringar om
         replies_to:
           one: Du har fått ett svar på din kommentar om
           other: Du har fått %{count} svar på din kommentar om
@@ -362,6 +368,10 @@ sv:
       recommendations:
         without_results: Finns det inga förslag som rör dina intressen
         without_interests: Följ förslag så vi kan ge dig rekommendationer
+        disable: "Rekommenderade förslag kommer sluta visas om du avfärdar de. Du kan aktivera de igen under \"Mitt konto\""
+        actions:
+          success: "Nu är rekommenderade förslag inaktiverade för detta konto"
+          error: "Ett fel har uppstått. Var vänlig och gå till \"Mitt konto\" för att manuellt inaktivera rekommenderade förslag"
       retired_proposals: Förslag som dragits tillbaka
       retired_proposals_link: "Förslag som dragits tillbaka av förslagslämnaren"
       retired_links:
@@ -445,13 +455,13 @@ sv:
       edit_proposal_link: Redigera
       flag: Förslaget har markerats som olämpligt av flera användare.
       login_to_comment: Du behöver %{signin} eller %{signup} för att kunna kommentera.
-      notifications_tab: Meddelanden
+      notifications_tab: Avisering
       retired_warning: "Förslagslämnaren vill inte längre att förslaget ska samla stöd."
       retired_warning_link_to_explanation: Läs beskrivningen innan du röstar på förslaget.
       retired: Förslag som dragits tillbaka av förslagslämnaren
       share: Dela
-      send_notification: Skicka meddelande
-      no_notifications: "Förslaget har inte några meddelanden."
+      send_notification: Skicka avisering
+      no_notifications: "Förslaget har inte några aviseringar."
       embed_video_title: "Video om %{proposal}"
       title_external_url: "Ytterligare dokumentation"
       title_video_url: "Extern video"
@@ -852,5 +862,8 @@ sv:
       title: Administration
   annotator:
     help:
+      alt: Markera texten du vill kommentera och klicka på knappen med pennan.
+      text: Du behöver %{sign_in} eller %{sign_up} för att kommentera dokumentet. Markera sedan texten du vill kommentera och klicka på knappen med pennan.
       text_sign_in: logga in
       text_sign_up: registrera dig
+      title: Hur kan jag kommentera det här dokumentet?
