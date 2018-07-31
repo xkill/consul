@@ -54,3 +54,22 @@ zh-TW:
           restore: 恢復
         by: 審核者
         content: 內容
+        filter: 顯示
+        filters:
+          all: 所有
+          on_comments: 評論
+          on_debates: 辯論
+          on_proposals: 建議
+          on_users: 用戶
+          on_system_emails: 系統電子郵件
+    budgets:
+      form:
+        table_population: 人口
+        population_info: "預算標題 \"人口\" 欄位用於統計目的, 在預算結束時顯示每個標題, 代表一個地區與人口百分比投票率。該欄位是可選擇填寫的, 因此如果不適用, 您可以將其留空。"
+        max_votable_headings: "用戶可投票的最大標題數"
+        current_of_max_headings: "%{max} 之%{current}"
+    budget_phases:
+      edit:
+        start_date: 開始日期
+        end_date: 結束日期
+        summary: 總結
