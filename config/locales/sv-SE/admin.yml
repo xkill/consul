@@ -538,7 +538,7 @@ sv:
       poll_booths: Adress för röststation
       poll_booth_assignments: Tilldela röststation
       poll_shifts: Hantera arbetspass
-      officials: Tjänstemän
+      officials: Staden
       organizations: Organisationer
       settings: Globala inställningar
       spending_proposals: Budgetförslag
@@ -795,7 +795,7 @@ sv:
         recounts_list: "Räkna om listan för denna röststation"
         results: "Resultat"
         date: "Datum"
-        count_final: "Slutlig omräkning (av valarbetare)"
+        count_final: "Slutgiltig rösträkning (av funktionärer)"
         count_by_system: "Röster (automatisk)"
         total_system: Totalt antal röster (automatiskt)
       index:
@@ -939,8 +939,8 @@ sv:
         edit: "Redigera röststation"
     officials:
       edit:
-        destroy: Ta bort 'Officiella' status
-        title: 'Tjänstemän: Redigera användare'
+        destroy: Ta bort 'Staden'-status
+        title: 'Staden: Redigera användare'
       flash:
         official_destroyed: 'Detaljer sparade: användaren är inte längre en ämbetsman'
         official_updated: Detaljer för ämbetsman sparade
