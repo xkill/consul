@@ -31,11 +31,14 @@ sv:
         target_url: Länk
         post_started_at: Inlägget påbörjades
         post_ended_at: Inlägget avslutades
+        sections_label: Avsnitt där det kommer visas
         sections:
           homepage: Hemsida
           debates: Debatter
           proposals: Förslag
+          budgets: Medborgarbudget
           help_page: Hjälpsida
+        background_color: Bakgrundsfärg
         font_color: Teckenfärg
       edit:
         editing: Redigera banner
@@ -64,6 +67,7 @@ sv:
           on_debates: Debatter
           on_proposals: Förslag
           on_users: Användare
+          on_system_emails: Systemmejl
         title: Moderatoraktivitet
         type: Typ
         no_activity: Det finns ingen moderatoraktivitet.
@@ -514,7 +518,7 @@ sv:
       managers: Chefer
       moderators: Moderatorer
       newsletters: Nyhetsbrev
-      admin_notifications: Notifikationer
+      admin_notifications: Aviseringar
       emails_download: Hämta e-postadresser
       valuators: Bedömare
       poll_officers: Valarbetare
@@ -620,8 +624,8 @@ sv:
         send_alert: Är du säker att du vill skicka nyhetsbrevet till %{n} mottagare?
     admin_notifications:
       index:
-        section_title: Notifikationer
-        new_notification: Ny notifikation
+        section_title: Aviseringar
+        new_notification: Ny avisering
         title: Titel
         segment_recipient: Mottagare
         sent: Skickat
@@ -632,9 +636,9 @@ sv:
         preview: Förhandsvisning
         view: Visa
       new:
-        section_title: Ny notifikation
+        section_title: Ny avisering
       edit:
-        section_title: Redigera notifikation
+        section_title: Redigera avisering
       show:
         send: Skicka
         sent_at: Skickas på
