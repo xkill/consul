@@ -89,6 +89,34 @@ zh-TW:
         description: "說明"
         external_url: "鏈接到其他文檔"
         administrator_id: "管理員"
+        location: "地點 (可選擇填寫)"
+        organization_name: "如果您以集體/組織的名義，或代表多人提出建議，請寫下其名稱"
+        image: "建議說明性圖像"
+        image_title: "圖像標題"
+      budget/investment/milestone:
+        status_id: "當前投資狀況 (可選擇填寫)"
+        title: "標題"
+        description: "說明 (如果已經指定了狀態, 則可選擇填寫)"
+        publication_date: "出版日期"
+      budget/investment/status:
+        name: "名字"
+        description: "說明 (可選擇填寫)"
+      budget/heading:
+        name: "標題名稱"
+        price: "價格"
+        population: "人口"
+      comment:
+        body: "評論"
+        user: "用戶"
+      debate:
+        author: "作者"
+        description: "意見"
+        terms_of_service: "服務條款"
+        title: "標題"
+      proposal:
+        author: "作者"
+        title: "標題"
+        question: "問題"
       poll/question:
         description: "說明"
         external_url: "鏈接到其他文檔"
