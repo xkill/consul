@@ -5,7 +5,7 @@ sv:
         reset_password_email: Återställ lösenordet med e-post
         reset_password_manually: Återställa lösenordet manuellt
       alert:
-        unverified_user: Ingen verifierad användare inloggad än
+        unverified_user: Inga verifierad användare har loggat
       show:
         title: Användarkonto
       edit:
