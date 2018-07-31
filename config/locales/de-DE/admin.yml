@@ -197,23 +197,26 @@ de:
           geozone: Tätigkeitsbereich
           feasibility: Durchführbarkeit
           selected: Ausgewählt
+          visible_to_valuators: Den Begutachter*innen zeigen
+          author_username: Benutzer*name des*r Verfasser*in
+          incompatible: Inkompatibel
         cannot_calculate_winners: Das Budget muss in einer der Phasen "Finale Abstimmung", "Abstimmung beendet" oder "Ergebnisse" stehen, um Gewinnervorschläge berechnen zu können
         see_results: "Ergebnisse anzeigen"
       show:
-        assigned_admin: Zugewiesene/r Administrator/in
-        assigned_valuators: Zugewiesene/r Begutachter/innen
+        assigned_admin: Zugewiesene*r Administrator*in
+        assigned_valuators: Zugewiesene Begutachter*innen
         classification: Klassifizierung
         info: "%{budget_name} - Gruppe: %{group_name} - Ausgabenvorschlag %{id}"
         edit: Bearbeiten
         edit_classification: Klassifizierung bearbeiten
-        by: Von
+        by: Verfasser*in
         sent: Gesendet
         group: Gruppe
         heading: Rubrik
         dossier: Bericht
         edit_dossier: Bericht bearbeiten
         tags: Tags
-        user_tags: Benutzertags
+        user_tags: Benutzer*tags
         undefined: Nicht definiert
         milestone: Meilenstein
         new_milestone: Neuen Meilenstein erstellen
@@ -226,7 +229,7 @@ de:
           "true": Ausgewählt
           "false": Nicht ausgewählt
         winner:
-          title: Gewinner
+          title: Gewinner*in
           "true": "Ja"
           "false": "Nein"
         image: "Bild"
@@ -242,12 +245,12 @@ de:
         mark_as_incompatible: Als inkompatibel markieren
         selection: Auswahl
         mark_as_selected: Als ausgewählt markieren
-        assigned_valuators: Begutachter/innen
+        assigned_valuators: Begutachter*innen
         select_heading: Wählen Sie eine Rubrik
         submit_button: Aktualisieren
         user_tags: Benutzerzugewiesene Tags
         tags: Tags
-        tags_placeholder: "Schreiben Sie die Kennzeichen, die Sie wollen durch Kommas (,) getrennt"
+        tags_placeholder: "Geben Sie die gewünschten Tags durch Kommas (,) getrennt ein"
         undefined: Nicht definiert
         user_groups: "Gruppen"
       search_unfeasible: Suchen Sie nicht durchführbar
@@ -340,15 +343,24 @@ de:
         email: 'E-Mail:'
         hidden_at: 'Verborgen am:'
         registered_at: 'Registriert am:'
-        title: Aktivität des Benutzers/der Benutzerin (%{user})
+        title: Aktivität des/der Benutzer*in (%{user})
+    hidden_budget_investments:
+      index:
+        filter: Filter
+        filters:
+          all: Alle
+          with_confirmed_hide: Bestätigt
+          without_confirmed_hide: Ausstehend
+        title: Verborgene Budgetvorschläge
+        no_hidden_budget_investments: Keine verborgenen Budgetvorschkäge vorhanden
     legislation:
       processes:
         create:
           notice: 'Verfahren erfolgreich erstellt. <a href="%{link}"> Klicken Sie, um zu besuchen</a>'
           error: Beteiligungsverfahren konnte nicht erstellt werden
         update:
-          notice: 'Beteiligungsverfahren erfolgreich aktualisiert. <a href="%{link}"> Jetzt besuchen </a>'
-          error: Beteiligungsverfahren konnte nicht aktualisiert werden
+          notice: 'Verfahren erfolgreich aktualisiert. <a href="%{link}"> Jetzt besuchen </a>'
+          error: Verfahren konnte nicht aktualisiert werden
         destroy:
           notice: Beteiligungsverfahren erfolgreich gelöscht
         edit:
