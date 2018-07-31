@@ -90,7 +90,7 @@ sv:
         title: Budgetförslag
     proposal_notifications:
       index:
-        block_authors: Blockera författare
+        block_authors: Blockera förslagslämnare
         confirm: Är du säker?
         filter: Filtrera
         filters:
