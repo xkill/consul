@@ -295,23 +295,23 @@ de:
           attributes:
             document_number:
               not_in_census: "Dieses Dokument scheint nicht im Melderegister auf"
-              has_voted: "Der/Die Benutzer/in hat bereits abgestimmt"
+              has_voted: "Der/Die Benutzer*in hat bereits abgestimmt"
         legislation/process:
           attributes:
             end_date:
-              invalid_date_range: muss an oder nach dem Anfangsdatum erfolgen
+              invalid_date_range: muss an oder nach dem Anfangsdatum sein
             debate_end_date:
-              invalid_date_range: muss an oder nach dem Anfangsdatum der Diskussion erfolgen
+              invalid_date_range: muss an oder nach dem Anfangsdatum der Diskussion sein
             allegations_end_date:
-              invalid_date_range: muss an oder nach dem Anfangsdatum der Überprüfung erfolgen
+              invalid_date_range: muss an oder nach dem Anfangsdatum der Überprüfung sein
         proposal:
           attributes:
             tag_list:
-              less_than_or_equal_to: "Markierungen müssen kleiner als oder gleich %{count} sein"
+              less_than_or_equal_to: "Tags müssen kleiner oder gleich %{count} sein"
         budget/investment:
           attributes:
             tag_list:
-              less_than_or_equal_to: "Markierungen müssen kleiner als oder gleich %{count} sein"
+              less_than_or_equal_to: "Tags müssen kleiner oder gleich %{count} sein"
         proposal_notification:
           attributes:
             minimum_interval:
@@ -333,7 +333,7 @@ de:
         comment:
           attributes:
             valuation:
-              cannot_comment_valuation: 'Sie können keine Überprüfung kommentieren'
+              cannot_comment_valuation: 'Eine Überprüfung kann nicht kommentiert werden'
       messages:
         record_invalid: "Validierung fehlgeschlagen: %{errors}"
         restrict_dependent_destroy:
