@@ -28,9 +28,9 @@ sv:
         title: Budgetförslag
         edit: Redigera rapport
         valuators_assigned:
-          one: Ansvarig handläggare
-          other: "%{count} ansvariga handläggare"
-        no_valuators_assigned: Inga ansvariga handläggare
+          one: Ansvarig bedömare
+          other: "%{count} ansvariga bedömare"
+        no_valuators_assigned: Inga ansvariga bedömare
         table_id: Legitimation
         table_title: Titel
         table_heading_name: Underområde
@@ -56,7 +56,7 @@ sv:
         duration: Tidsram
         responsibles: Ansvariga
         assigned_admin: Ansvarig administratör
-        assigned_valuators: Ansvarig handläggare
+        assigned_valuators: Ansvariga bedömare
       edit:
         dossier: Rapport
         price_html: "Kostnad (%{currency})"
@@ -107,7 +107,7 @@ sv:
         internal_comments: Interna kommentarer
         responsibles: Ansvariga
         assigned_admin: Ansvarig administratör
-        assigned_valuators: Ansvarig handläggare
+        assigned_valuators: Ansvarig bedömare
       edit:
         dossier: Rapport
         price_html: "Kostnad (%{currency})"
