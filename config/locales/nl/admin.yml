@@ -663,7 +663,6 @@ nl:
         section_title: Bericht bewerken
       show:
         section_title: Voorbeeld van de kennisgeving
-        send: Stuur
         will_get_notified: (de%{n} gebruikers zullen worden aangemeld)
         got_notified: (%{n} gebruikers ontving kennisgeving)
         sent_at: Verzonden naar
