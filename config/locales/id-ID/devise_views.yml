@@ -16,7 +16,6 @@ id:
       confirmation_instructions:
         confirm_link: Konfirmasikan akun saya
         text: 'Anda bisa mengkonfirmasi akun email anda di link berikut:'
-        title: Selamat datang di Portal Terbuka Pemerintah
         welcome: Selamat Datang
       reset_password_instructions:
         change_link: Ubah kata sandi saya
