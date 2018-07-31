@@ -94,7 +94,7 @@ sv:
           different_heading_assigned_html: "Du röstar redan under en annan rubrik: %{heading_link}"
           change_ballot: "Om du ändrar dig kan du ta bort dina röster i %{check_ballot} och börja om."
           check_ballot_link: "kontrollera min omröstning"
-          zero: Du har inte röstat på några budgetförslag i den här gruppen.
+          zero: Du har inte röstat på några budgetförslag i det här området.
           verified_only: "För att skapa ett nytt budgetförslag måste du %{verify}."
           verify_account: "verifiera ditt konto"
           create: "Skapa ett budgetförslag"
@@ -154,7 +154,7 @@ sv:
       assigned: "Du har fördelat: "
       available: "Tillgänglig budget: "
     show:
-      group: Grupp
+      group: Område
       phase: Aktuell fas
       unfeasible_title: Ej genomförbara budgetförslag
       unfeasible: Visa ej genomförbara budgetförslag
