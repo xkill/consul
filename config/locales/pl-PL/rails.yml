@@ -73,6 +73,12 @@ pl:
       odd: musi być nieparzysta
       required: musi istnieć
       taken: jest zajęte
+      other_than: musi być inne niż %{count}
+    template:
+      body: 'Wystąpiły problemy z następującymi polami:'
+  helpers:
+    select:
+      prompt: Proszę wybrać
   number:
     human:
       decimal_units:
