@@ -646,6 +646,7 @@ de:
       edit:
         section_title: Benachrichtigung bearbeiten
       show:
+        section_title: Vorschau der Benachrichtigung
         send: Benachrichtigung senden
         will_get_notified: (%{n} Benutzer*innen werden benachrichtigt)
         got_notified: (%{n} Benutzer*innen wurden benachrichtigt)
@@ -672,33 +673,33 @@ de:
         download_emails_button: Email-Liste herunterladen
     valuators:
       index:
-        title: Gutachter
+        title: Begutachter*innen
         name: Name
         email: E-Mail
         description: Beschreibung
-        no_description: Keine Beschreibung
+        no_description: Ohne Beschreibung
         no_valuators: Keine Begutachter*innen vorhanden.
-        valuator_groups: "Bewertungsgruppe"
+        valuator_groups: "Bewertungsgruppen"
         group: "Gruppe"
         no_group: "Ohne Gruppe"
       valuator:
-        add: Zu Gutachern hinzufügen
+        add: Als Begutachter*in hinzufügen
         delete: Löschen
       search:
-        title: 'Gutacher: Benutzersuche'
+        title: 'Begutachter*innen: Benutzer*innensuche'
       summary:
         title: Zusammenfassung der Bewertungen der Ausgabenvorschläge
-        valuator_name: Gutachter
+        valuator_name: Begutachter*in
         finished_and_feasible_count: Abgeschlossen und durchführbar
-        finished_and_unfeasible_count: Abgeschlossen und undurchführbar
+        finished_and_unfeasible_count: Abgeschlossen und nicht durchführbar
         finished_count: Abgeschlossen
         in_evaluation_count: In Auswertung
         total_count: Gesamt
-        cost: Kosten
+        cost: Gesamtkosten
       form:
-        edit_title: "Gutachter: Gutachter bearbeiten"
+        edit_title: "Begutachter*innen: Begutachter*in bearbeiten"
         update: "Begutachter*in aktualisieren"
-        updated: "Gutachter erfolgreich aktualisiert"
+        updated: "Begutachter*in erfolgreich aktualisiert"
       show:
         description: "Beschreibung"
         email: "E-Mail"
@@ -707,8 +708,8 @@ de:
         no_group: "Ohne Gruppe"
     valuator_groups:
       index:
-        title: "Bewertungsgruppen"
-        new: "Bewertungsgruppe erstellen"
+        title: "Gruppe von Begutachter*innen"
+        new: "Gruppe von Begutachter*innen erstellen"
         name: "Name"
         members: "Mitglieder"
         no_groups: "Keine Bewertungsgruppen vorhanden"
