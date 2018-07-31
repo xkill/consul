@@ -30,3 +30,4 @@ pl:
       no_token: "Nie masz dostępu do tej strony, chyba że poprzez link do zresetowania hasła. Jeśli dostałeś się na nią poprzez link do zresetowania hasła, upewnij się, że adres URL jest kompletny."
       send_instructions: "W ciągu kilku minut otrzymasz e-mail zawierający instrukcje dotyczące resetowania hasła."
       send_paranoid_instructions: "Jeśli Twój adres e-mail znajduje się w naszej bazie danych, w ciągu kilku minut otrzymasz link, którego możesz użyć w celu zresetowania hasła."
+      updated: "Twoje hasło zostało zmienione pomyślnie. Uwierzytelnienie pomyślne."
