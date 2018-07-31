@@ -243,6 +243,12 @@ gl:
       poll_questions: Votacións
       budgets: Orzamentos participativos
       spending_proposals: Propostas de investimento
+      notification_item:
+        new_notifications:
+          one: Tes %{count} notificacións novas
+          other: Tes %{count} notificacións novas
+        notifications: Notificacións
+        no_notifications: "Non tes notificacións novas"
     admin:
       watch_form_message: 'Realizaches cambios que aínda non se gardaron. Tes a certeza de que queres deixar a páxina?'
   legacy_legislation:
@@ -257,7 +263,9 @@ gl:
     index:
       empty_notifications: Non tes notificacións novas.
       mark_all_as_read: Marcar todas como lidas
+      read: Lido
       title: Notificacións
+      unread: Non lido
   map:
     title: "Distritos"
     proposal_for_district: "Crea unha proposta para o teu distrito"
