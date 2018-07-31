@@ -13,6 +13,8 @@ zh-TW:
         other: "投資狀態"
       comment:
         other: "評論"
+      debate:
+        other: "討論"
       tag:
         other: "標籤"
       user:
@@ -25,6 +27,8 @@ zh-TW:
         other: "評估員"
       valuator_group:
         other: "評估小組"
+      manager:
+        other: "經理"
       newsletter:
         other: "通訊"
       vote:
@@ -70,3 +74,23 @@ zh-TW:
     attributes:
       budget:
         name: "名字"
+        description_accepting: "在接受階段中的說明"
+        description_reviewing: "在審閱階段中的說明"
+        description_selecting: "在選擇階段中的說明"
+        description_valuating: "在評估計價階段中的說明"
+        description_balloting: "在投票階段中的說明"
+        description_reviewing_ballots: "在審查點票階段中的說明"
+        description_finished: "預算完成時的說明"
+        phase: "階段"
+        currency_symbol: "貨幣"
+      budget/investment:
+        heading_id: "標題"
+        title: "標題"
+        description: "說明"
+        external_url: "鏈接到其他文檔"
+        administrator_id: "管理員"
+      poll/question:
+        description: "說明"
+        external_url: "鏈接到其他文檔"
+      signature_sheet:
+        document_numbers: "文檔編號"
