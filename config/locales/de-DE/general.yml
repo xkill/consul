@@ -322,6 +322,7 @@ de:
       geozone: Rahmenbedingungen
       proposal_external_url: Link zur weiteren Dokumentation
       proposal_question: Antrags Frage
+      proposal_question_example_html: "Bitte in einer geschlossenen Frage zusammenfassen, die mit Ja oder Nein beantwortet werden kann"
       proposal_responsible_name: Vollständiger Name der Person, die den Vorschlag einreicht
       proposal_responsible_name_note: "(Einzelperson oder Vertreter/in eines Kollektivs; wird nicht öffentlich angezeigt)"
       proposal_summary: Zusammenfassung Vorschlag
