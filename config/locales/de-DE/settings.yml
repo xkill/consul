@@ -21,45 +21,40 @@ de:
     youtube_handle: "Benutzer*name für Youtube"
     telegram_handle: "Benutzer*name für Telegram"
     instagram_handle: "Instagram handle"
-    blog_url: "Blog URL"
-    transparency_url: "Transparenz-URL"
-    opendata_url: "Offene-Daten-URL"
     url: "Haupt-URL"
     org_name: "Name der Organisation"
     place_name: "Name des Ortes"
-    feature:
-      budgets: Bürgerhaushalt
-      twitter_login: Twitter login
-      facebook_login: Facebook login
-      google_login: Google login
-      proposals: Vorschläge
-      debates: Diskussionen
-      polls: Umfragen
-      signature_sheets: Unterschriftenbögen
-      spending_proposals: Investitionsprojekte
-      spending_proposal_features:
-        voting_allowed: Für Investitionsprojekte stimmen
-      legislation: Gesetzgebung
-      user:
-        recommendations: Empfehlungen
-        skip_verification: Benutzer*überprüfung überspringen
-        recommendations_on_debates: Empfehlungen für Debatten
-        recommendations_on_proposals: Empfehlungen für Anträge
-      community: Community für Anträge und Investitionen
-      map: Standort des Antrages und der Budgetinvestition
-      allow_images: Upload und Anzeigen von Bildern erlauben
-      allow_attached_documents: Upload und Anzeigen von angehängten Dokumenten erlauben
-      guides: Anleitungen zum Erstellen von Anträgen und Investitionsprojekten
-      public_stats: Öffentliche Statistiken
-    related_content_score_threshold: Punktzahl-Grenze für verwandte Inhalte
-    map_latitude: Breitengrad
-    map_longitude: Längengrad
-    map_zoom: Zoom
-    mailer_from_name: Name der originalen E-Mail
-    mailer_from_address: Herkunft-E-Mailadresse
+    related_content_score_threshold: "Punktzahl-Grenze für verwandte Inhalte"
+    map_latitude: "Breitengrad"
+    map_longitude: "Längengrad"
+    map_zoom: "Zoom"
     meta_title: "Seiten-Titel (SEO)"
     meta_description: "Seiten-Beschreibung (SEO)"
     meta_keywords: "Stichwörter (SEO)"
-    verification_offices_url: Bestätigungsbüro URL
     min_age_to_participate: erforderliches Mindestalter zur Teilnahme
+    blog_url: "Blog URL"
+    transparency_url: "Transparenz-URL"
+    opendata_url: "Offene-Daten-URL"
+    verification_offices_url: Bestätigungsbüro URL
     proposal_improvement_path: Interner Link zur Antragsverbesserungsinformation
+    feature:
+      budgets: "Bürgerhaushalt"
+      twitter_login: "Twitter login"
+      facebook_login: "Facebook login"
+      google_login: "Google login"
+      proposals: "Vorschläge"
+      debates: "Diskussionen"
+      polls: "Umfragen"
+      signature_sheets: "Unterschriftenbögen"
+      legislation: "Gesetzgebung"
+      user:
+        recommendations: "Empfehlungen"
+        skip_verification: "Benutzer*überprüfung überspringen"
+        recommendations_on_debates: "Empfehlungen für Debatten"
+        recommendations_on_proposals: "Empfehlungen für Anträge"
+      community: "Community für Anträge und Investitionen"
+      map: "Standort des Antrages und der Budgetinvestition"
+      allow_images: "Upload und Anzeigen von Bildern erlauben"
+      allow_attached_documents: "Upload und Anzeigen von angehängten Dokumenten erlauben"
+      guides: "Anleitungen zum Erstellen von Anträgen und Investitionsprojekten"
+      public_stats: "Öffentliche Statistiken"
