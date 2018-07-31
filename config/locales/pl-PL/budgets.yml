@@ -23,10 +23,33 @@ pl:
       form:
         tag_category_label: "Kategorie"
       index:
+        unfeasible_text: "Inwestycje muszą spełniać określone kryteria (legalność, konkretność, bycie odpowiedzialnością miasta, mieszczenie się w ramach budżetu), aby zostały zadeklarowane wykonalnymi i osiągnęły etap ostatecznego głosowania. Wszystkie inwestycje nie spełniające tych kryteriów są oznaczane jako nierealne i publikowane na następującej liście, wraz z raportem ich niewykonalności."
         sidebar:
+          voted_info: Możesz %{link} w każdej chwili aż do zamknięcia tej fazy. Nie ma potrzeby wydawania wszystkich dostępnych pieniędzy.
+          voted_info_link: zmień swój głos
+          change_ballot: "Jeśli zmienisz zdanie, możesz usunąć swoje głosy w %{check_ballot} i zacząć od nowa."
+          check_ballot_link: "sprawdź moje głosowanie"
+          zero: Nie zagłosowałeś na żaden z projektów inwestycyjnych w tej grupie.
+          verify_account: "zweryfikuj swoje konto"
           create: "Utwórz nowy projekt"
+          sign_in: "zaloguj się"
+          sign_up: "zarejestruj się"
+          by_feasibility: Według wykonalności
           feasible: Projekty uznane za możliwe do realizacji
           unfeasible: Projekty uznane za niemożliwe do realizacji
+        orders:
+          random: losowe
+          confidence_score: najwyżej oceniane
+          price: według ceny
       show:
+        author_deleted: Użytkownik usunięty
+        price_explanation: Wyjaśnienie ceny
+        unfeasibility_explanation: Wyjaśnienie niewykonalności
+        code_html: 'Kod projektu inwestycyjnego: <strong>%{code}</strong>'
         price: Koszt
         comments_tab: Komentarze
+        milestone_status_changed: Zmieniono stan inwestycji na
+        author: Autor
+        project_unfeasible_html: 'Ten projekt inwestycyjny <strong>został oznaczony jako niewykonalny</strong> i nie przejdzie do fazy głosowania.'
+        project_selected_html: 'Ten projekt inwestycyjny <strong>został wybrany</strong> do fazy głosowania.'
+        project_winner: 'Zwycięski projekt inwestycyjny'
