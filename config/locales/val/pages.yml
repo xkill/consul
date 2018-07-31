@@ -1,11 +1,9 @@
 val:
   pages:
-    census_terms: Per a verificar el compte hi ha que tindre 16 anys o més i estar empadronat aportant les dades indicades anteriorment, les quals seran contrastades. Acceptant el procés de verificació accepta donar el seu consentiment per a contrastar dita informació, així com els mitjans de contacte que figuren en els dits fitxers. Les dades aportades seran incorporades i tractades en un fitxer indicat anteriorment en les condicions d'us del portal.
     conditions: Condicions d'us
     general_terms: Condicions d'us
     help:
       title: "%{org} es una plataforma de participació ciutadana"
-      subtitle: "En %{org} es poden fer propostes, votar en les consultes ciutadanes, plantejar projectes de pressupostos participatius, decidir la normativa municipal i obrir debats per a intercanviar opinions amb altres persones."
       guide: "Esta guia explica per a qué serveixen i com funcionen cadascuna de les seccions de %{org}."
       menu:
         debates: "Debats"
@@ -26,19 +24,11 @@ val:
         title: "Propostes"
         description: "En la secció %{link} pots plantejar propostes per a que l'Ajuntament les duga a terme. Les propostes recaben avals, i si arriben als avals suficients es sotmeten a votació ciutadana. Les propostes aprovades en aquestes votacions ciutadanes son asumides per l'Ajuntament i es duen a terme."
         link: "propostes ciutadanes"
-        feature_html: "Per a crear una proposta cal registrar-se en %{org}. Les propostes que aconsegueixen l'aval de la web de l'1% de la gent amb dret a vot (%{supports} avals de persones majors de 16 anys registrades) passen a votació. Per a avalar propostes, cal verificar el teu compte."
         image_alt: "Botó per a avalar una proposta"
-        figcaption_html: 'Botó per a "Avalar" una proposta. <br>Quant arribe el número d''avals pasarà a votació.'
       budgets:
         title: "Pressupostos Participatius"
         description: "La secció de %{link} serveix per a que la gent decidisca de manera directa a qué es estina una part del pressupost municipal."
         link: "pressupostos participatius"
-        feature: "En este procés cada any la gent planteja, avala, i vota propostes. Els més votats passen a finançar-se amb el pressupost municipal."
-        phase_1_html: "Entre gener i principis de març, les persones registrades en %{org} poden <strong>presentar propostes</strong>."
-        phase_2_html: "En març, els proponents han de reunir avals, a mode de <strong>fase de preselecció</strong>."
-        phase_3_html: "Entre abril i principis de maig, els experts de l'Ajuntament <strong>tasen els projectes</strong> per ordre de més a menys avals i comproven que son viables."
-        phase_4_html: "Finalment, entre maig i juny, tota la ciutadania pot <strong>votar els projectes</strong> que més l'interessen."
-        phase_5_html: "A partir de l'aprovació dels pressupostos a l'any següent l'Ajuntament comença a dur a terme els projectes guanyadors."
         image_alt: "Diferents fases d'un pressupost participatiu"
         figcaption_html: 'Fase d''"Avals" i fase de "Votació" dels pressupostos participatius.'
       polls:
@@ -47,14 +37,10 @@ val:
         link: "votacions"
         feature_1: "Per a participar en les votacions has de %{link} i verificar el teu compte."
         feature_1_link: "registrar-te en %{org_name}"
-        feature_2: "Poden votar totes les persones empadronades en la ciutat majors de 16 anys."
-        feature_3: "Els resultats de totes les votacions son vinculants per al govern municipal."
       processes:
         title: "Processos legislatius"
         description: "En la secció de %{link} la ciutadania participa en l'elaboració i modificació de normativa que afecta a la ciutat i pot donar la seua opinió sobre les polítiques municipals en debats previs."
         link: "processos legislatius"
-        feature: "Per a participar en un procés cal %{sign_up} i consultar la pàgina de %{link} periòdicament per saver qué normatives i polítiques s'estan debatint i consultant."
-        sign_up: "registrar-se en %{org}"
       faq:
         title: "Problemes tècnics?"
         description: "Llig les preguntes freqüents i resol els teus dubtes."
