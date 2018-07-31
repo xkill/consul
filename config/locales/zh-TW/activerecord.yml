@@ -39,3 +39,34 @@ zh-TW:
         other: "公民提議"
       spending_proposal:
         other: "投資項目"
+      site_customization/page:
+        other: 自定義頁面
+      site_customization/image:
+        other: 自定義圖像
+      site_customization/content_block:
+        other: 自定義內容塊
+      legislation/process:
+        other: "過程"
+      legislation/draft_versions:
+        other: "草稿版本"
+      legislation/draft_texts:
+        other: "草稿"
+      legislation/questions:
+        other: "問題"
+      legislation/question_options:
+        other: "問題選項"
+      legislation/answers:
+        other: "答案"
+      documents:
+        other: "文件"
+      images:
+        other: "圖像"
+      topic:
+        other: "主題"
+      poll:
+        other: "民意調查"
+      proposal_notification:
+        other: "提議通知"
+    attributes:
+      budget:
+        name: "名字"
