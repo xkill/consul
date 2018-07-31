@@ -104,8 +104,8 @@ sv:
         one: "Omröstning"
         other: "Omröstningar"
       proposal_notification:
-        one: "Förslagsnotifikation"
-        other: "Förslagsnotifikationer"
+        one: "Förslagsavisering"
+        other: "Förslagsaviseringar"
     attributes:
       budget:
         name: "Namn"
@@ -315,7 +315,7 @@ sv:
         proposal_notification:
           attributes:
             minimum_interval:
-              invalid: "Du måste ha minst %{interval} dagar mellan meddelanden"
+              invalid: "Du måste ha minst %{interval} dagar mellan aviseringar"
         signature:
           attributes:
             document_number:
