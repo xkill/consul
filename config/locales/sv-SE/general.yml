@@ -322,6 +322,7 @@ sv:
       geozone: Område
       proposal_external_url: Länk till ytterligare dokumentation
       proposal_question: Frågeställning
+      proposal_question_example_html: "Måste sammanfattas i en fråga med ett ja eller nej svar"
       proposal_responsible_name: Förslagslämnarens fullständiga namn
       proposal_responsible_name_note: "(individuellt eller som representant för en grupp; kommer inte att visas offentligt)"
       proposal_summary: Sammanfattning av förslaget
@@ -386,6 +387,7 @@ sv:
         help: Hjälp med förslag
       section_footer:
         title: Hjälp med förslag
+        description: Medborgarförslag är en möjlighet för grannar och föreningar att direkt bestämma över hur de vill ha sin stad, efter att ha fått tillräckligt med stöd och genomgått en omröstning.
     new:
       form:
         submit_button: Skapa förslag
@@ -423,6 +425,7 @@ sv:
       supports_necessary: "behöver %{number} röster"
       total_percent: 100%
       archived: "Förslaget har arkiverats och kan inte längre stödjas."
+      successful: "Förslaget har uppnått tillräckligt med stöd."
     show:
       author_deleted: Användaren är borttagen
       code: 'Förslagskod:'
@@ -472,6 +475,7 @@ sv:
         help: Hjälp med omröstning
       section_footer:
         title: Hjälp med omröstning
+        description: Medborgaromröstningar är en deltagande funktion i vilket medborgare som är röstberättigade kan göra direkta beslut
       no_polls: "Det finns inga pågående omröstningar."
     show:
       already_voted_in_booth: "Du har redan röstat i en fysisk valstation. Du kan inte rösta igen."
