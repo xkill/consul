@@ -57,12 +57,9 @@ gl:
       vote_proposals: Participar nas votacións finais
     print:
       proposals_info: Fai a túa proposta en http://url.consul
-      proposals_note: As propostas máis apoiadas serán levadas a votación. E se as acepta unha maioría, o concello levaraas a cabo.
       proposals_title: 'Propostas:'
       spending_proposals_info: Participa en http://url.consul
-      spending_proposals_note: Os orzamentos participativos investiranse nas propostas de investimento máis apoiadas.
       budget_investments_info: Participa en http://url.consul
-      budget_investments_note: Os orzamentos participativos investiranse nas propostas de investimento máis apoiadas.
     print_info: Imprimir esta información
     proposals:
       alert:
@@ -75,7 +72,6 @@ gl:
         unverified_user: Usuario/a non verificado
       create: Crear un proxecto novo
       filters:
-        heading: Concepto
         unfeasible: Proxectos non factibles
       print:
         print_button: Imprimir
