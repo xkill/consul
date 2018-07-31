@@ -37,7 +37,7 @@ de:
           debates: Diskussionen
           proposals: Vorschläge
           budgets: Bürgerhaushalt
-          help_page: Hilfe-Seite
+          help_page: Hilfeseite
         background_color: Hintergrundfarbe
         font_color: Schriftfarbe
       edit:
@@ -47,8 +47,8 @@ de:
       errors:
         form:
           error:
-            one: "ein Fehler verhinderte, dass das Banner gespeichert wurde"
-            other: "Fehler verhinderten, dass das Banner gespeichert wurde"
+            one: "Aufgrund eines Fehlers konnte dieser Banner nicht gespeichert werden"
+            other: "Aufgrund von Fehlern konnte dieser Banner nicht gespeichert werden"
       new:
         creating: Banner erstellen
     activity:
@@ -66,19 +66,20 @@ de:
           on_comments: Kommentare
           on_debates: Diskussionen
           on_proposals: Vorschläge
-          on_users: Benutzer
-        title: Aktivität des/der Moderator/in
+          on_users: Benutzer*innen
+          on_system_emails: E-mails vom System
+        title: Aktivität der Moderator*innen
         type: Typ
         no_activity: Hier sind keine Moderatoren/Moderatorinnen aktiv.
     budgets:
       index:
-        title: Bürgerbudgets
+        title: Bürgerhaushalte
         new_link: Neues Budget erstellen
         filter: Filter
         filters:
           open: Offen
           finished: Abgeschlossen
-        budget_investments: Projekte verwalten
+        budget_investments: Ausgabenprojekte verwalten
         table_name: Name
         table_phase: Phase
         table_investments: Ausgabenvorschläge
@@ -87,12 +88,12 @@ de:
         edit_groups: Gruppierungen von Rubriken bearbeiten
         edit_budget: Budget bearbeiten
       create:
-        notice: Ein neues Bürgerbudget wurde erfolgreich erstellt!
+        notice: Ein neuer Bürgerhaushalt wurde erfolgreich erstellt!
       update:
-        notice: Bürgerbudget wurde erfolgreich aktualisiert
+        notice: Bürgerhaushalt erfolgreich aktualisiert
       edit:
-        title: Bürgerbudget bearbeiten
-        delete: Budget löschen
+        title: Bürgerhaushalt bearbeiten
+        delete: Bürgerhaushalt löschen
         phase: Phase
         dates: Datum
         enabled: Aktiviert
@@ -101,8 +102,8 @@ de:
         active: Aktiv
         blank_dates: Das Datumfeld ist leer
       destroy:
-        success_notice: Budget erfolgreich gelöscht
-        unable_notice: Sie können ein Budget mit zugehörigem Ausgabenvorschlag nicht löschen
+        success_notice: Bürgerhaushalt erfolgreich gelöscht
+        unable_notice: Sie können einen Bürgerhaushalt mit zugehörigem Ausgabenvorschlag nicht löschen
       new:
         title: Neues Bürgerbudget
       show:
