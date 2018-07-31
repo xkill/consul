@@ -1,1 +1,28 @@
 zh-TW:
+  admin:
+    actions:
+      actions: 行動
+      confirm: 您是否確定？
+      confirm_hide: 確認審核
+      hide: 隱藏
+      hide_author: 隱藏作者
+      restore: 恢復
+      mark_featured: 特色
+      unmark_featured: 解除標記為"特色"
+      edit: 編輯
+      configure: 配置
+      delete: 刪除
+    banners:
+      index:
+        title: 橫幅
+        create: 創建橫幅
+        edit: 編輯橫幅
+        delete: 刪除橫幅
+        filters:
+          all: 所有
+          with_active: 活動
+          with_inactive: 非活動
+        preview: 預覽
+      banner:
+        title: 標題
+        description: 說明
