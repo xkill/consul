@@ -546,7 +546,7 @@ sv:
       title_label: "Titel"
       body_label: "Meddelande"
       submit_button: "Skicka meddelande"
-      info_about_receivers_html: "Det här meddelandet kommer att skickas till <strong>%{count} personer</strong> och visas på %{proposal_page}.<br> Meddelanden skickas inte på en gång, utan som regelbundna e-postmeddelanden med sammanfattningar av förslagen."
+      info_about_receivers_html: "Det här meddelandet kommer att skickas till <strong>%{count} personer</strong> och visas på %{proposal_page}.<br> Meddelanden skickas inte på en gång, utan som regelbundna e-postmeddelanden med aviseringar om förslagen."
       proposal_page: "förslagets sida"
     show:
       back: "Gå tillbaka till min aktivitet"
@@ -590,12 +590,12 @@ sv:
         create:
           notice_html: "Du följer nu det här budgetförslaget! </br> Vi meddelar dig om alla ändringar så att du kan hålla dig uppdaterad."
         destroy:
-          notice_html: "Du har slutat följa det här budgetförslaget! </br> Vi kommer inte längre meddela dig om ändringar för det här förslaget."
+          notice_html: "Du har slutat följa det här budgetförslaget! </br> Vi kommer inte längre skicka aviseringar om förslaget."
       proposal:
         create:
           notice_html: "Du följer nu det här medborgarförslaget! </br> Vi meddelar dig om alla ändringar så att du kan hålla dig uppdaterad."
         destroy:
-          notice_html: "Du har slutat följa det här medborgarförslaget! </br> Vi kommer inte längre meddela dig om ändringar för det här förslaget."
+          notice_html: "Du har slutat följa det här medborgarförslaget! </br> Vi kommer inte längre skicka aviseringar om förslaget."
     hide: Dölj
     print:
       print_button: Skriv ut informationen
@@ -765,7 +765,7 @@ sv:
       send_private_message: "Skicka privat meddelande"
       delete_alert: "Är du säker på att du vill ta bort budgetförslaget? Åtgärden kan inte ångras"
     proposals:
-      send_notification: "Skicka meddelande"
+      send_notification: "Skicka aviseringar"
       retire: "Dra tillbaka"
       retired: "Förslag som dragits tillbaka"
       see: "Visa förslag"
