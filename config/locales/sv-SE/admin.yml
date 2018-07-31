@@ -83,9 +83,9 @@ sv:
         table_name: Namn
         table_phase: Fas
         table_investments: Budgetförslag
-        table_edit_groups: Partigrupper
+        table_edit_groups: Områden
         table_edit_budget: Redigera
-        edit_groups: Redigera partigrupper
+        edit_groups: Redigera områden
         edit_budget: Redigera budget
       create:
         notice: En ny medborgarbudget har skapats!
@@ -108,26 +108,28 @@ sv:
         title: Ny medborgarbudget
       show:
         groups:
-          one: grupper av budgetrubriker
-          other: "\"%{count}\" grupper av budgetrubriker"
+          one: 1 område
+          other: "%{count} områden"
       form:
-        group: Gruppnamn
-        no_groups: Inga grupper skapade ännu. Varje användare kommer kunna rösta i endast en rubrik per grupp.
-        add_group: Lägga till grupp
-        create_group: Skapa grupp
-        edit_group: Redigera grupp
-        submit: Spara grupp
+        group: Område
+        no_groups: Inga områden har skapats. Användare kommer att kunna rösta på ett underområde inom varje område.
+        add_group: Lägga till område
+        create_group: Skapa område
+        edit_group: Redigera område
+        submit: Spara område
         heading: Rubriknamn
         add_heading: Lägga till rubrik
         amount: Antal
         population: "Befolkning (frivilligt fält)"
         population_help_text: "Den här informationen används uteslutande för statistik"
         save_heading: Spara rubrik
-        no_heading: Denna grupp har inga tilldelade rubrik.
+        no_heading: Området har inga underområden.
         table_heading: Rubrik
         table_amount: Antal
         table_population: Befolkning
         population_info: "Budget rubrik befolkningen fältet används för statistiska ändamål i slutet av budgeten för att visa för varje rubrik som representerar ett område med befolkning vilken procentandel röstade. Fältet är valfritt så kan du lämna det tomt om det inte gäller."
+        max_votable_headings: "Högst antal områden där en användare kan rösta"
+        current_of_max_headings: "%{current} av %{max}"
       winners:
         calculate: Beräkna vinnande budgetförslag
         calculated: Vinnare beräknas, kan det ta en minut.
@@ -191,8 +193,11 @@ sv:
           admin: Administratör
           valuator: Bedömare
           valuation_group: Bedömningsgrupp
+          geozone: Område
           feasibility: Genomförbarhet
           selected: Vald
+          visible_to_valuators: Visa bedömare
+          author_username: Författarens användarnamn
           incompatible: Oförenlig
         cannot_calculate_winners: Budgeten måste stå i fas "lottningsprojekt", "granskar valsedlar" eller "färdiga budgeter" för att kunna beräkna vinnarprojekt
         see_results: "Visa resultat"
@@ -200,12 +205,12 @@ sv:
         assigned_admin: Ansvarig administratör
         assigned_valuators: Ansvarig bedömare
         classification: Klassificering
-        info: "%{budget_name} - grupp: %{group_name} - budgetförslag %{id}"
+        info: "%{budget_name} - område: %{group_name} - budgetförslag %{id}"
         edit: Redigera
         edit_classification: Redigera klassificering
         by: Av
         sent: Skickat
-        group: Grupp
+        group: Område
         heading: Rubrik
         dossier: Rapport
         edit_dossier: Redigera rapport
@@ -343,7 +348,10 @@ sv:
         filter: Filtrera
         filters:
           all: Alla
+          with_confirmed_hide: Bekräftad
           without_confirmed_hide: Väntande
+        title: Dolda budgetförslag
+        no_hidden_budget_investments: Det finns inga dolda budgetförslag
     legislation:
       processes:
         create:
@@ -513,12 +521,16 @@ sv:
       hidden_comments: Dolda kommentarer
       hidden_debates: Dolda debatter
       hidden_proposals: Dolda förslag
+      hidden_budget_investments: Dolda budgetförslag
+      hidden_proposal_notifications: Dolda förslagsaviseringar
       hidden_users: Dolda användare
       administrators: Administratörer
       managers: Chefer
       moderators: Moderatorer
+      messaging_users: Meddelanden till användare
       newsletters: Nyhetsbrev
       admin_notifications: Aviseringar
+      system_emails: Systemmejl
       emails_download: Hämta e-postadresser
       valuators: Bedömare
       poll_officers: Valarbetare
@@ -537,11 +549,13 @@ sv:
         pages: Anpassade sidor
         images: Anpassade bilder
         content_blocks: Anpassade innehållsblock
+        information_texts: Anpassade informationstexter
         information_texts_menu:
           debates: "Debatter"
           community: "Gemenskap"
           proposals: "Förslag"
           polls: "Omröstningar"
+          layouts: "Layouter"
           mailers: "E-post"
           management: "Förvaltning"
           guides: "Guider"
