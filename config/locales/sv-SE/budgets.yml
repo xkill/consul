@@ -60,7 +60,7 @@ sv:
     investments:
       form:
         tag_category_label: "Kategorier"
-        tags_instructions: "Tagga detta förslag. Du kan välja från de föreslagna kategorier eller lägga till egna"
+        tags_instructions: "Tagga förslaget. Du kan välja från de föreslagna kategorier eller lägga till egna"
         tags_label: Taggar
         tags_placeholder: "Skriv taggarna du vill använda, avgränsade med semikolon (',')"
         map_location: "Kartposition"
