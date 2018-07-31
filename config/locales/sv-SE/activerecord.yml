@@ -53,8 +53,8 @@ sv:
         one: "Organisation"
         other: "Organisationer"
       poll/booth:
-        one: "röstbås"
-        other: "röstbås"
+        one: "röststation"
+        other: "röststationer"
       poll/officer:
         one: "funktionär"
         other: "funktionär"
