@@ -16,7 +16,7 @@ sv:
         budget_investment: "Budgetförslaget har skapats."
         signature_sheet: "Signaturarket har skapats"
         topic: "Ämnet har skapats."
-        valuator_group: "Värderingsgruppen har skapats"
+        valuator_group: "Bedömningsgruppen har skapats"
       save_changes:
         notice: Ändringarna har sparats
       update:
@@ -28,7 +28,7 @@ sv:
         spending_proposal: "Budgetförslaget har uppdaterats."
         budget_investment: "Budgetförslaget har uppdaterats."
         topic: "Ämnet har uppdaterats."
-        valuator_group: "Värderingsgruppen har uppdaterats"
+        valuator_group: "Bedömningsgruppen har uppdaterats"
         translation: "Översättning har uppdaterats"
       destroy:
         spending_proposal: "Budgetförslaget har raderats."
@@ -36,4 +36,4 @@ sv:
         error: "Kunde inte radera"
         topic: "Ämnet har raderats."
         poll_question_answer_video: "Videosvaret har raderats."
-        valuator_group: "Värderingsgruppen har tagits bort"
+        valuator_group: "Bedömningsgruppen har tagits bort"
