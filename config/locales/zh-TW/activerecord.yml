@@ -160,6 +160,7 @@ zh-TW:
         content: 內容
         created_at: 創建於
         subtitle: 副標題
+        slug: Slug
         status: 狀態
         title: 標題
         updated_at: 更新於
@@ -171,7 +172,9 @@ zh-TW:
         image: 圖像
       site_customization/content_block:
         name: 名字
+        body: 內容
       legislation/process:
+        title: 進程標題
         summary: 總結
         description: 說明
         additional_info: 附加其他資訊
@@ -179,12 +182,48 @@ zh-TW:
         end_date: 結束日期
         debate_start_date: 辯論開始日期
         debate_end_date: 辯論結束日期
+        draft_publication_date: 草稿發佈日期
+        allegations_start_date: 指控開始日期
+        allegations_end_date: 指控結束日期
+        result_publication_date: 最終結果發佈日期
+      legislation/draft_version:
+        title: 版本標題
+        body: 文本
+        changelog: 變化
+        status: 狀態
+        final_version: 最終版本
+      legislation/question:
+        title: 標題
+        question_options: 選項
+      legislation/question_option:
+        value: 價值
+      legislation/annotation:
+        text: 評論
+      document:
+        title: 標題
+        attachment: 附件
+      image:
+        title: 標題
+        attachment: 附件
+      poll/question/answer:
+        title: 答案
+        description: 說明
+      poll/question/answer/video:
+        title: 標題
+        url: 外部視頻
+      newsletter:
+        segment_recipient: 收件者
+        subject: 主題
+        from: 從
+        body: 電子郵件內容
       widget/card:
         label: 標籤 (可選擇填寫)
         title: 標題
         description: 說明
         link_text: 鏈接文本
         link_url: 鏈接 URL
+      widget/feed:
+        limit: 項目數
     errors:
       models:
         user:
@@ -195,14 +234,45 @@ zh-TW:
           attributes:
             tag_list:
               less_than_or_equal_to: "標記必須小於或等於%{count}"
+        direct_message:
+          attributes:
+            max_per_day:
+              invalid: "您已達到每天的最大私人郵件數"
         image:
           attributes:
             attachment:
               min_image_width: "圖像寬度必須至少為%{required_min_width}像素"
               min_image_height: "圖像高度必須至少為%{required_min_height}像素"
+        newsletter:
+          attributes:
+            segment_recipient:
+              invalid: "用戶收件段無效"
+        admin_notification:
+          attributes:
+            segment_recipient:
+              invalid: "用戶收件段無效"
+        map_location:
+          attributes:
+            map:
+              invalid: 地圖位置不能為空。 如果不需要地理定位（geolocalization），請放置標記，或選中復選框
+        poll/voter:
+          attributes:
+            document_number:
+              not_in_census: "不在人口普查中的文檔"
+              has_voted: "用戶已經投票"
         legislation/process:
           attributes:
             end_date:
               invalid_date_range: 必須在開始日期或之後
             debate_end_date:
               invalid_date_range: 必須在辯論開始日期或之後
+            allegations_end_date:
+              invalid_date_range: 必須在指控開始日期或之後
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "標記必須小於或等於 %{count}"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "標記必須小於或等於%{count}"
