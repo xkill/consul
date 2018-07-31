@@ -123,9 +123,6 @@ id:
         description: Memulai sebuah perdebatan untuk berbagi pendapat dengan orang lain tentang topik yang anda pedulikan.
         help_text_1: "Ruang untuk warga perdebatan ini ditujukan untuk siapa saja yang bisa mengekspos isu-isu keprihatinan mereka dan orang-orang yang ingin berbagi pendapat dengan orang-orang lain."
         help_text_2: 'Untuk membuka debat yang anda butuhkan untuk mendaftar di %{org}. Pengguna juga dapat memberikan komentar pada debat terbuka dan menilai mereka dengan "saya setuju" atau "saya tidak setuju" tombol yang ditemukan di masing-masing dari mereka.'
-        help_text_3: "Perlu diingat bahwa perdebatan tidak memulai tindakan tertentu. Jika anda ingin membuat %{proposal} untuk kota atau meningkatkan investasi proyek dari %{budget} ketika fase terbuka, pergi ke bagian yang sesuai."
-        proposals_link: proposal
-        budget_link: penganggaran partisipatif
     new:
       form:
         submit_button: Memulai sebuah perdebatan
@@ -196,17 +193,11 @@ id:
       contact_us: Untuk bantuan teknis memasuki
       copyright: KONSUL, %{year}
       description: Portal ini menggunakan %{consul} Itulah %{open_source}.
-      faq: bantuan teknis
-      open_data_text: Setiap detail tentang Dewan Kota adalah milikmu untuk akses.
-      open_data_title: Data terbuka
       open_source: perangkat lunak open-source
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: Memutuskan bagaimana bentuk kota yang anda ingin tinggal di.
       participation_title: Partisipasi
       privacy: Kebijakan Privasi
-      transparency_text: Cari tahu apa saja tentang kota ini.
-      transparency_title: Transparansi
-      transparency_url: https://transparency.consul
     header:
       administration_menu: Admin
       administration: Administrasi
@@ -214,10 +205,6 @@ id:
       collaborative_legislation: Undang-undang proses
       debates: Perdebatan
       external_link_blog: Blog
-      external_link_opendata: Data terbuka
-      external_link_opendata_url: https://opendata.consul
-      external_link_transparency: Transparansi
-      external_link_transparency_url: https://transparency.consul
       locale: 'Bahasa:'
       logo: Logo CONSUL
       management: Manajemen
@@ -299,7 +286,6 @@ id:
       geozone: Lingkup operasi
       proposal_external_url: Tautkan ke dokumentasi tambahan
       proposal_question: Proposal pertanyaan
-      proposal_question_example_html: "Harus disingkatkan dalam satu pertanyaan dengan jawaban ya atau tidak. <br>Misalnya 'Apakah Anda setuju dengan pedestrianisation dari Calle Walikota?'"
       proposal_responsible_name: Nama lengkap orang yang mengajukan proposal
       proposal_responsible_name_note: "(secara individu atau sebagai wakil dari kolektif; tidak akan ditampilkan dipublikasikan)"
       proposal_summary: Proposal ringkasan
@@ -358,10 +344,6 @@ id:
         help: Bantuan tentang proposal
       section_footer:
         title: Bantuan tentang proposal
-        description: Membuat warga proposal. Jika mendapat cukup dukungan itu akan pergi ke tahap suara, sehingga anda bisa mendapatkan semua warga untuk memutuskan bagaimana mereka ingin kota mereka.
-        help_text_1: "Warga proposal kesempatan bagi tetangga dan kolektif untuk memutuskan secara langsung bagaimana mereka ingin membentuk kota mereka. Setiap orang dapat membuat proposal tentang topik atau menyangkut kepentingan mereka, untuk Dewan Kota untuk membuatnya, setelah mendapat dukungan yang cukup untuk dimasukkan ke warga memilih."
-        help_text_2: "Untuk membuat proposal, anda harus mendaftar di %{org}. Proposal yang mendapatkan dukungan dari 1% dari pengguna di web, masuk ke tahap voting. Untuk mendukung proposal itu perlu untuk memiliki akun terverifikasi."
-        help_text_3: "Warga memilih dirayakan ketika proposal mendapatkan yang diperlukan mendukung. Sekali dirayakan, jika ada lebih banyak orang yang mendukung daripada melawan, Dewan Kota mengasumsikan proposal dan membawanya keluar."
     new:
       form:
         submit_button: Membuat proposal
@@ -385,7 +367,6 @@ id:
       comments:
         zero: Tidak ada komentar
         other: "1 Komentar\n%{count} komentar"
-      reason_for_supports_necessary: 1% dari sensus
       support: Mendukung
       support_title: Mendukung proyek ini
       supports:
@@ -397,8 +378,6 @@ id:
       supports_necessary: "%{number} mendukung diperlukan"
       total_percent: 100%
       archived: "Proposal ini telah Diarsipkan dan tidak dapat mengumpulkan mendukung."
-      successful: "Proposal ini telah mencapai mendukung diperlukan dan akan memilih di %{voting}."
-      voting: "vote berikutnya"
     show:
       author_deleted: Pengguna dihapus
       code: 'Usulan kode:'
@@ -447,9 +426,6 @@ id:
         help: Bantuan tentang voting
       section_footer:
         title: Bantuan tentang voting
-        description: Mendaftar untuk memilih pada warga proposal dan pertanyaan Dewan Kota minta ke tetangga. Membuat municipal keputusan ini diatas.
-        help_text_1: "Pemungutan suara berlangsung ketika seorang warga usulan mendukung mencapai 1% dari sensus dengan hak suara. Pemungutan suara juga dapat mencakup pertanyaan-pertanyaan yang Dewan Kota meminta kepada warga keputusan."
-        help_text_2: "Untuk berpartisipasi dalam pemungutan suara berikutnya anda harus mendaftar di %{org} dan memverifikasi akun anda. Semua pemilih yang terdaftar di kota ini lebih dari 16 tahun dapat suara. Hasil dari semua suara yang mengikat pemerintah."
     show:
       already_voted_in_booth: "Anda telah berpartisipasi dalam fisik bilik. Anda tidak dapat berpartisipasi lagi."
       already_voted_in_web: "Anda telah berpartisipasi dalam jajak pendapat ini. Jika anda memilih lagi itu akan ditimpa."
