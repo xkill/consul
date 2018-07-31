@@ -164,6 +164,13 @@ zh-TW:
         title: 標題
         updated_at: 更新於
         more_info_flag: 在説明頁中顯示
+        print_content_flag: '"列印內容" 按鈕'
+        locale: 語言
+      site_customization/image:
+        name: 名字
+        image: 圖像
+      site_customization/content_block:
+        name: 名字
       widget/card:
         label: 標籤 (可選擇填寫)
         title: 標題
