@@ -495,7 +495,7 @@ de:
           submit_button: Frage erstellen
         table:
           title: Titel
-          question_options: Fragemöglichkeiten
+          question_options: Antwortmöglichkeiten
           answers_count: Anzahl der Antworten
           comments_count: Anzahl der Kommentare
         question_option_fields:
@@ -516,25 +516,29 @@ de:
       admin: Administrator*innen-Menü
       banner: Banner verwalten
       poll_questions: Fragen
-      proposals_topics: Themen für Vorschläge
+      proposals_topics: Themen der Vorschläge
       budgets: Bürgerhaushalt
       geozones: Stadtteile verwalten
       hidden_comments: Verborgene Kommentare
       hidden_debates: Verborgene Diskussionen
       hidden_proposals: Verborgene Vorschläge
+      hidden_budget_investments: Verborgene Ausgabenvorschläge
       hidden_proposal_notifications: Benachrichtigungen zu verborgenen Vorschlägen
       hidden_users: Verborgene Benutzer*innen
       administrators: Administrator*innen
       managers: Manager*innen
       moderators: Moderator*innen
+      messaging_users: Nachrichten an Benutzer*innen
       newsletters: Newsletter
+      admin_notifications: Benachrichtigungen
+      system_emails: E-mails vom System
       emails_download: E-Mails herunterladen
       valuators: Begutachter*innen
       poll_officers: Vorsitzende der Abstimmung
       polls: Abstimmungen
-      poll_booths: Standort der Wahlurnen
-      poll_booth_assignments: Zuordnung der Wahlurnen
-      poll_shifts: Schichten verwalten
+      poll_booths: Standort der Wahlkabinen
+      poll_booth_assignments: Zuordnung der Wahlkabinen
+      poll_shifts: Arbeitsschichten verwalten
       officials: Öffentliche Ämter
       organizations: Organisationen
       settings: Globale Einstellungen
