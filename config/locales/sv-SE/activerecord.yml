@@ -147,10 +147,10 @@ sv:
         author: "Debattör"
         description: "Inlägg"
         terms_of_service: "Användarvillkor"
-        title: "Rubrik"
+        title: "Titel"
       proposal:
         author: "Förslagslämnare"
-        title: "Rubrik"
+        title: "Titel"
         question: "Fråga"
         description: "Beskrivning"
         terms_of_service: "Användarvillkor"
@@ -174,7 +174,7 @@ sv:
         description: "Beskrivning"
         external_url: "Länk till ytterligare dokumentation"
         geozone_id: "Område"
-        title: "Rubrik"
+        title: "Titel"
       poll:
         name: "Namn"
         starts_at: "Startdatum"
@@ -197,7 +197,7 @@ sv:
         subtitle: Underrubrik
         slug: URL
         status: Status
-        title: Rubrik
+        title: Titel
         updated_at: Uppdaterad den
         more_info_flag: Visa i hjälpsidor
         print_content_flag: Skriv ut innehåll
