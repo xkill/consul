@@ -78,12 +78,9 @@ sv:
       vote_proposals: Rösta på förslag
     print:
       proposals_info: Skapa ditt förslag på http://url.consul
-      proposals_note: De förslag som har fått tillräckligt med stöd går vidare till omröstning. Kommunen kommer att genomföra förslaget om det får en majoritet av rösterna.
       proposals_title: 'Förslag:'
       spending_proposals_info: Delta på http://url.consul
-      spending_proposals_note: Medborgarbudgeten fördelas mellan de förslag som får flest röster.
       budget_investments_info: Delta på http://url.consul
-      budget_investments_note: Medborgarbudgeten fördelas mellan de förslag som får flest röster.
     print_info: Skriv ut informationen
     proposals:
       alert:
@@ -106,7 +103,6 @@ sv:
         unverified_user: Användaren är inte verifierad
       create: Skapa budgetförslag
       filters:
-        heading: Begrepp
         unfeasible: Ej genomförbara budgetförslag
       print:
         print_button: Skriv ut
