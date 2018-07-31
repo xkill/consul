@@ -3,7 +3,7 @@ sv:
     header:
       title: Kostnadsberäkning
     menu:
-      title: Bedömning
+      title: Kostnadsberäkning
       budgets: Medborgarbudgetar
       spending_proposals: Förslag på utgifter
     budgets:
@@ -16,14 +16,14 @@ sv:
         table_phase: Fas
         table_assigned_investments_valuation_open: Tilldelade budgetförslag öppna för bedömning
         table_actions: Åtgärder
-        evaluate: Utvärdering
+        evaluate: Utvärdera
     budget_investments:
       index:
         headings_filter_all: Alla underområden
         filters:
           valuation_open: Pågående
-          valuating: Under bedömning
-          valuation_finished: Bedömning avslutad
+          valuating: Under kostnadsberäkning
+          valuation_finished: Kostnadsberäkning avslutad
         assigned_to: "Tilldelad %{valuator}"
         title: Budgetförslag
         edit: Redigera rapport
@@ -75,7 +75,7 @@ sv:
       notice:
         valuate: "Uppdaterad rapport"
       valuation_comments: Kommentarer från bedömning
-      not_in_valuating_phase: Budgetförslag kan endast vara värderas när budgeten är i värderingfasen
+      not_in_valuating_phase: Budgetförslag kan endast kostnadsberäknas när budgeten är i kostnadsberäkningsfasen
     spending_proposals:
       index:
         geozone_filter_all: Alla stadsdelar
