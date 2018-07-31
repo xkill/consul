@@ -11,7 +11,6 @@ nl:
     email_verification:
       click_here_to_verify: Deze link
       instructions_2_html: Deze e-mail verifieert uw account met <b>%{document_type} %{document_number}</ b>. Als deze niet van u zijn, klik dan niet op de vorige link en negeer deze e-mail.
-      instructions_html: Om de verificatie van uw gebruikersaccount in het Open Overheid Scherm te voltooien, moet u klikken op %{verification_link}.
       subject: Bevestig uw email
       thanks: Heel erg bedankt.
       title: Bevestig uw account door de volgende link te gebruiken
@@ -24,12 +23,9 @@ nl:
       hi: "Beste deelnemer,"
       new_html: "Voor al deze vragen nodigen we u uit een <strong>nieuw voorstel</ strong> uit te werken dat zich aanpast aan de voorwaarden van dit proces. U kunt dit doen door deze link te volgen: %{url}."
       new_href: "nieuw investeringsproject"
-      reconsider_html: "Als u van mening bent dat het afgewezen voorstel voldoet aan de vereisten om een investeringsvoorstel te zijn, kunt u dit binnen 48 uur communiceren door te reageren op het e-mailadres examples@consul.es. De code %{code} opnemen in het onderwerp van de e-mail."
       sincerely: "Oprecht"
-      signatory: "Afdeling Burgerparticipatie"
       sorry: "Sorry for the inconvenience and we again thank you for your invaluable participation."
       subject: "Uw investeringsproject '%{code}' is als onhaalbaar gemarkeerd"
-      unfeasible_html: "Vanuit de Gemeenteraad willen we u bedanken voor uw deelname aan de <strong>participatieve budgetten</ strong>. Tot onze spijt moeten we u meedelen dat uw voorstel <strong>'%{title}'</ strong> om de volgende reden wordt uitgesloten van dit participatieproces:"
     proposal_notification_digest:
       info: "Dit zijn de nieuwe meldingen die zijn gepubliceerd door auteurs van de voorstellen die u hebt ondersteund in %{org_name}."
       title: "Voorstelmeldingen in %{org_name}"
@@ -47,7 +43,6 @@ nl:
       title_html: "Je hebt een nieuw privébericht gestuurd naar <strong>%{receiver}</strong> met de inhoud:"
     user_invite:
       ignore: "Als u deze uitnodiging niet hebt geaccepteerd maak je geen zorgen, u kunt deze e-mail dan negeren."
-      text: "Bedankt voor uw aanmelding om lid te worden van %{org}! Binnen enkele seconden kunt u beginnen met het bepalen van de stad, vul het onderstaande formulier in:"
       thanks: "Heel erg bedankt."
       title: "Welkom bij %{org}"
       button: Inschrijving voltooien
@@ -60,33 +55,23 @@ nl:
       follow_html: "Wij zullen u informeren over hoe het proces vordert, dit kun je ook volgen op <strong>%{link}<div class=\"notranslate\"> 2 volgen kun</div>."
       follow_link: "Participatieve budgetten"
       sincerely: "Oprecht,"
-      signatory: "Afdeling Burgerparticipatie"
       share: "Deel uw project"
     budget_investment_unfeasible:
       hi: "Beste gebruiker,"
       new_html: "Voor al deze vragen nodigen we u uit een <strong>nieuw voorstel</ strong> uit te werken dat zich aanpast aan de voorwaarden van dit proces. U kunt dit doen door deze link te volgen: %{url}."
       new_href: "nieuw investeringsproject"
-      reconsider_html: "Als u van mening bent dat het afgewezen voorstel voldoet aan de vereisten om een investeringsvoorstel te zijn, kunt u dit binnen 48 uur communiceren door te reageren op het e-mailadres examples@consul.es. De code %{code} opnemen in het onderwerp van de e-mail."
       sincerely: "Hoogachtend"
-      signatory: "Afdeling Burgerparticipatie"
       sorry: "Sorry voor het ongemak en nogmaals hartelijk dank voor uw waardevolle deelname."
       subject: "Uw investeringsproject '%{code}' is als onhaalbaar gemarkeerd"
-      unfeasible_html: "Vanuit de Gemeenteraad willen we u bedanken voor uw deelname aan de <strong>participatieve budgetten</ strong>. Tot onze spijt moeten we u meedelen dat uw investering <strong>'%{title}'</ strong> om de volgende reden wordt uitgesloten van dit participatieproces:"
     budget_investment_selected:
       subject: "Uw investeringsproject '%{code}' is geselecteerd"
       hi: "Beste gebruiker,"
-      selected_html: "Vanuit de Gemeenteraad willen we u bedanken voor uw deelname aan de <strong>participatieve budgetten</ strong>. We willen u graag laten weten dat uw investeringsproject <strong>'%{title}'</ strong> is geselecteerd voor de laatste stemmingsfase die plaatsvindt van <strong> 15 mei tot 30 juni</ strong>."
       share: "Begin nu om stemmen te ontvangen, deel uw investeringsproject op sociale netwerken. Delen is essentieel om het te realiseren."
       share_button: "Deel uw investeringsproject"
       thanks: "Nogmaals dank voor uw deelname."
       sincerely: "Hoogachtend"
-      signatory: "Afdeling Burgerparticipatie"
     budget_investment_unselected:
       subject: "Uw investeringsproject '%{code}' is niet geselecteerd"
       hi: "Beste gebruiker,"
-      unselected_html: "Vanuit de Gemeenteraad willen we u bedanken voor uw deelname aan de <strong>participatieve budgetten</ strong>. Tot onze spijt moeten we u mededelen dat uw investeringsproject <strong>'%{title}'</ strong> niet is geselecteerd voor de laatste stemmingsfase."
-      participate_html: "U kunt deelnemen aan de laatste stemfase voor investeringsvoorstellen van <strong>15 mei tot 30 juni</strong>."
-      participate_url: "Neem deel aan de definitieve stemronde"
       thanks: "Dank u nogmaals voor uw deelname."
       sincerely: "Hoogachtend"
-      signatory: "Afdeling Burgerparticipatie"
