@@ -11,8 +11,8 @@ sv:
       new_button: Jag vill skapa ett budgetförslag
     proposal:
       title: "Ett medborgarförslag"
-      feature_1_html: "Idéer kring åtgärder som kommunfullmäktige kan ta"
-      feature_2_html: "Behöver <strong>%{votes} stöd</strong> i %{org} för att gå till omröstning"
+      feature_1_html: "Idéer till åtgärder som kommunfullmäktige kan genomföra"
+      feature_2_html: "Behöver <strong>%{votes} stöd</strong> på %{org} för att gå till omröstning"
       feature_3_html: "Aktivera när som helst, du har <strong>ett år</strong> på dig att samla stöd"
       feature_4_html: "Om det godkänns i en omröstning accepterar kommunfullmäktige förslaget"
       new_button: Jag vill skapa ett förslag
