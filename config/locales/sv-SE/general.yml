@@ -866,4 +866,4 @@ sv:
       text: Du behöver %{sign_in} eller %{sign_up} för att kommentera dokumentet. Markera sedan texten du vill kommentera och klicka på knappen med pennan.
       text_sign_in: logga in
       text_sign_up: registrera dig
-      title: Hur kan jag kommentera på det här dokumentet?
+      title: Hur kan jag kommentera det här dokumentet?
