@@ -53,3 +53,11 @@ pl:
         project_unfeasible_html: 'Ten projekt inwestycyjny <strong>został oznaczony jako niewykonalny</strong> i nie przejdzie do fazy głosowania.'
         project_selected_html: 'Ten projekt inwestycyjny <strong>został wybrany</strong> do fazy głosowania.'
         project_winner: 'Zwycięski projekt inwestycyjny'
+        project_not_selected_html: 'Ten projekt inwestycyjny <strong>nie został wybrany</strong> do fazy głosowania.'
+      wrong_price_format: Tylko liczby całkowite
+      investment:
+        already_added: Dodałeś już ten projekt inwestycyjny
+        already_supported: Już wsparłeś ten projekt inwestycyjny. Udostępnij go!
+        support_title: Wesprzyj ten projekt
+      header:
+        check_ballot: Sprawdź moje głosowanie
