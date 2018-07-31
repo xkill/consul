@@ -37,7 +37,6 @@ gl:
       updated: "O teu contrasinal cambiou correctamente. Fuches identificado correctamente."
       updated_not_active: "O teu contrasinal cambiouse correctamente."
     registrations:
-      destroyed: "Adeus! A túa conta foi cancelada. Esperamos volverte ver axiña. Informámolo/a de que de conformidade coa súa petición, os seus datos persoais rexistrados como usuario da web decide.madrid.es e que forman parte do ficheiro 'Xestión de procesos participativos' cuxo responsable é a Dirección Xeral de Participación Cidadá, foron cancelados nos termos do previsto no artigo 16 da Lei orgánica 15/1999 de protección de datos de carácter persoal e do artigo 31 do seu Regulamento de desenvolvemento (RD 1720/2007)."
       signed_up: "Benvido! Fuches identificado."
       signed_up_but_inactive: "Rexistrácheste correctamente, pero non puideches iniciar sesión porque a túa conta non foi activada."
       signed_up_but_locked: "Rexistrácheste correctamente, pero non puideches iniciar sesión porque a túa conta está bloqueada."
