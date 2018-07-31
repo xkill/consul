@@ -33,11 +33,11 @@ sv:
       informing: Information
       accepting: Förslagsinlämning
       reviewing: Granskning av förslag
-      selecting: Väljer projekt
-      valuating: Värderar projekt
-      publishing_prices: Publicerar projektpriser
+      selecting: Urval
+      valuating: Kostnadsberäkning
+      publishing_prices: Publicering av kostnader
       balloting: Rösta på projekt
-      reviewing_ballots: Granskning omröstning
+      reviewing_ballots: Rösträkning
       finished: Färdig budget
     index:
       title: Medborgarbudgetar
