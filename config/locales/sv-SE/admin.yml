@@ -639,10 +639,10 @@ sv:
         body_help_text: Så här kommer e-postmeddelandet se ut för mottagarna
         send_alert: Är du säker att du vill skicka nyhetsbrevet till %{n} mottagare?
     admin_notifications:
-      create_success: Avisering har skapats
-      update_success: Avisering har uppdaterats
-      send_success: Avisering har skickats
-      delete_success: Avisering har raderats
+      create_success: Aviseringen har skapats
+      update_success: Aviseringen har uppdaterats
+      send_success: Aviseringen har skickats
+      delete_success: Aviseringen har raderats
       index:
         section_title: Aviseringar
         new_notification: Ny avisering
@@ -663,7 +663,7 @@ sv:
       show:
         section_title: Förhandsgranska avisering
         send: Skicka
-        will_get_notified: (%{n} användare kommer meddelas)
+        will_get_notified: (%{n} användare kommer att meddelas)
         got_notified: (%{n} användare meddelades)
         sent_at: Skickat
         title: Titel
@@ -672,11 +672,11 @@ sv:
         segment_recipient: Mottagare
         preview_guide: "Så här kommer användare se aviseringen:"
         sent_guide: "Så här ser användarna aviseringen:"
-        send_alert: Är du säker på att du vill skicka denna avisering till %{n} användare?
+        send_alert: Är du säker på att du vill skicka den här aviseringen till %{n} användare?
     system_emails:
       preview_pending:
         preview_of: Förhandsgranskning av %{name}
-        pending_to_be_sent: Här är innehållet som ska skickas
+        pending_to_be_sent: Här är innehållet som kommer att skickas
       proposal_notification_digest:
         description: Samlar alla förslagsaviseringar till en användare i ett enskilt meddelande för att undvika för mycket mejl.
         preview_detail: Användare kommer endast få aviseringar från förslag de följer
