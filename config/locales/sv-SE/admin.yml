@@ -441,11 +441,11 @@ sv:
             status:
               draft: Du kan förhandsgranska som administratör, ingen annan kan se det
               published: Synligt för alla
-          title_placeholder: Skriv titel på utkastet
+          title_placeholder: Titel på utkastet
           changelog_placeholder: Lägg till de viktigaste förändringarna från föregående version
-          body_placeholder: Skriv ner utkastet till text
+          body_placeholder: Text till utkastet
         index:
-          title: Utkastversioner
+          title: Versioner av utkast
           create: Skapa version
           delete: Ta bort
           preview: Förhandsvisning
@@ -673,6 +673,13 @@ sv:
         preview_guide: "Så här kommer användare se aviseringen:"
         sent_guide: "Så här ser användarna aviseringen:"
         send_alert: Är du säker på att du vill skicka denna avisering till %{n} användare?
+    system_emails:
+      preview_pending:
+        preview_of: Förhandsgranskning av %{name}
+        pending_to_be_sent: Här är innehållet som ska skickas
+      proposal_notification_digest:
+        description: Samlar alla förslagsaviseringar till en användare i ett enskilt meddelande för att undvika för mycket mejl.
+        preview_detail: Användare kommer endast få aviseringar från förslag de följer
     emails_download:
       index:
         title: Hämta e-postadresser
@@ -1015,7 +1022,10 @@ sv:
         filter: Filtrera
         filters:
           all: Alla
+          with_confirmed_hide: Godkänd
           without_confirmed_hide: Väntande
+        title: Dolda aviseringar
+        no_hidden_proposals: Det finns inga dolda aviseringar.
     settings:
       flash:
         updated: Uppdaterad värde
