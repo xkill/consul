@@ -31,8 +31,8 @@ sv:
     phase:
       drafting: Utkast (inte synligt för allmänheten)
       informing: Information
-      accepting: Accepterar projekt
-      reviewing: Granskar projekt
+      accepting: Förslagsinlämning
+      reviewing: Granskning av förslag
       selecting: Väljer projekt
       valuating: Värderar projekt
       publishing_prices: Publicerar projektpriser
