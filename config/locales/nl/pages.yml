@@ -1,11 +1,9 @@
 nl:
   pages:
-    census_terms: Om het account te kunnen bevestigen, moet je boven de 16 jaar zijn en geregistreerd staan, waarbij je alle benodigde informatie verstrekt en deze informatie kunt verifieren. Door akkoord te gaan met dit verificatieproces stem je in met de verificatie van al deze informatie en contactmethoden. By accepting the verification process, you also consent to the verification of this information, as well as the contact methods featuring in said files. The data provided will be acquired and processed in a file mentioned previously in the terms and conditions of use for the Portal.
     conditions: Gebruikersvoorwaarden
     general_terms: Algemene voorwaarden
     help:
       title: "%{org} is een platform voor burgerparticipatie"
-      subtitle: "In %{org} kun je jouw ideeen en voorstellen indienen, stemmen in burgerconsultaties, meedoen in burgerbegrotingen, beslissen over gemeentelijke wetgeving en discussies starten met anderen."
       guide: "Deze handleiding behandelt ieder onderdeel van %{org}. Meer informatie vind je door te klikken op onderstaande links."
       menu:
         debates: "Discussies"
@@ -26,19 +24,11 @@ nl:
         title: "Voorstellen"
         description: "In dit %{link} onderdeel kun je voorstellen indienen aan jouw gemeente en reageren op voorstellen van anderen. De voorstellen hebben voldoende steun van anderen nodig om tot een stemming te leiden. Als een voorstel veel stemmen krijgt, wordt deze door de gemeente goedgekeurd en uitgevoerd."
         link: "Voorstellen"
-        feature_html: "Om een voorstel in te kunnen dienen moet je je registreren in %{org}. De voorstellen die 1% steun krijgen van anderen met het recht om te stemmen(%{supports} steun van andere geregistreerde gebruikers van boven de 16 jaar) worden in stemming gebracht. Om voorstellen te steunen moet je geregistreerd zijn."
         image_alt: "Knop om een voorstel te steunen"
-        figcaption_html: 'Knop om het voorstel te "Steunen".<br>Als het minimum aantal steunbetuigingen is bereikt, wordt het voorstel in stemming gebracht.'
       budgets:
         title: "Burgerbegrotingen"
         description: "Het %{link} onderdeel helpt bij het geven van direct zeggenschap aan inwoners over de besteding van gebiedsbudgetten van de gemeente."
         link: "Burgerbegrotingen"
-        feature: "Bij dit proces kunnen inwoners  elk jaar voorstellen en projecten voor budgetuitgaven indienen, deze ondersteunen en daar op stemmen. De projecten met de meeste stemmen worden door de gemeentelijke (gebieds)budgetten gefinancierd."
-        phase_1_html: "Tussen januari en maart kunnen inwoners die geregistreerd zijn in %{org} hun voorstel voor budgetuitgave <strong>indienen</strong>."
-        phase_2_html: "In maart verzamelen de indieners steun voor hun voorstel, in de vorm van <strong>voorselectie</strong>."
-        phase_3_html: "Tussen april en begin mei worden de meest gesteunde voorstellen door <strong>experts van de gemeente</strong> getoetst op haalbaarheid en er wordt een budget vastgesteld."
-        phase_4_html: "Tot slot kunnen alle inwoners tussen mei en juni <strong>stemmen</strong> op hun favoriete voorstellen voor budgetuitgaven."
-        phase_5_html: "Na goedkeuring van de budgetten richt de gemeente zich vanaf het volgende jaar op de uitvoering van de winnende voorstellen."
         image_alt: "Verschillende fasen van een burgerbegroting"
         figcaption_html: '"Steun" and "Stem" fases van de burgerbegroting.'
       polls:
@@ -47,14 +37,10 @@ nl:
         link: "peilingen"
         feature_1: "Om te participeren in het stemmen moet je %{link} en je account verifieren."
         feature_1_link: "registreren in %{org_name}"
-        feature_2: "Alle geregistreerde gebruikers boven de 16 jaar kunnen stemmen."
-        feature_3: "De resultaten van de stemming zijn bindend voor de gemeente."
       processes:
         title: "Processen"
         description: "In het %{link} onderdeel kunnen inwoners participeren in het opstellen en aanpassen van regelgeving die de gemeente en haar inwoners betreft. Inwoners kunnen hier ook hun mening geven over gemeentelijk beleid in eerdere discussies."
         link: "processen"
-        feature: "Om te participeren in een proces moet je  %{sign_up} en regelmatig de %{link} pagina bekijken om de wetgeving en beleidzaken te bekijken die opengesteld worden voor discussie en consultatie."
-        sign_up: "registreer je bij %{org}"
       faq:
         title: "Technische problemen?"
         description: "Vind de antwoorden op je vragen in de Veelgestelde vragen."
