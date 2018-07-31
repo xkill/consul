@@ -56,11 +56,6 @@ val:
       see_results: Vore resultats
       section_footer:
         title: Ajuda amb els pressupostos participatius
-        description: Amb els pressupostos participatius la ciutadanía decideix a quins projectes presentats per els veins i veines va destinada una part del pressupost municipal.
-        help_text_1: "Els pressupostos participatius son un processos en els que la ciutadania decideix de forma directa en qué es gasten una part del pressupost municipal. Quansevol persona empadronada major de 16 anys pot proposar un projecte de despesa que es preselecciona en una fase d'avals ciutadans."
-        help_text_2: "Els projectes més votats s'avaluen i pasen a una votació final en la que es decideixen les actuacions que durà a terme l'Ajuntament una vegada s'aproven els pressupostos municipals de l'any següent."
-        help_text_3: "La presentació de projectes de pressupostos participatius es du a terme desde gener i al llarc d'un periode de mes i mig, aproximadament. Per tal de participar i plantejar propostes per a tota la ciutat i/ els distictes hi ha que registrarse en %{org} i verificar el compte."
-        help_text_4: "Per tal d'aconseguir el major número d'avals i vots possible, eligeix un titular descriptiu i comprensible del teu projecte. Després tens un espai per a desenvolupar el plantejament de la teua proposta. Aporta totes les dades i explicacions, i inclus documents i imatges, per a ajudar a altres persones participants a entendre millor el que plantejes."
     investments:
       form:
         tag_category_label: "Categoríes"
