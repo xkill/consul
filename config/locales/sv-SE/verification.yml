@@ -30,7 +30,7 @@ sv:
         explanation: 'För att delta i slutomröstningen kan du:'
         go_to_index: Visa förslag
         office: Verifiera i någon %{office}
-        offices: Citizen Support Offices
+        offices: Medborgarkontor
         send_letter: Skicka mig ett brev med koden
         title: Grattis!
         user_permission_info: Med ditt konto kan du...
