@@ -866,7 +866,7 @@ sv:
         filter_poll: Filtrera efter omröstning
         select_poll: Välj omröstning
         questions_tab: "Frågor"
-        successful_proposals_tab: "Framgångsrika förslag"
+        successful_proposals_tab: "Förslag som fått tillräckligt med stöd"
         create_question: "Skapa fråga"
         table_proposal: "Förslag"
         table_question: "Fråga"
