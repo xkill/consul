@@ -275,3 +275,23 @@ zh-TW:
     hidden_users:
       index:
         filter: 篩選器
+        filters:
+          all: 所有
+          with_confirmed_hide: 確認
+          without_confirmed_hide: 有待
+        title: 隱藏的用戶
+        user: 用戶
+        no_hidden_users: 沒有隱藏的用戶。
+      show:
+        email: '電郵:'
+        hidden_at: '隱藏於:'
+        registered_at: '註冊於:'
+        title: 用戶的活動 (%{user})
+    hidden_budget_investments:
+      index:
+        filter: 篩選器
+        filters:
+          all: 所有
+          with_confirmed_hide: 確認
+          without_confirmed_hide: 有待
+        title: 隱藏的預算投資
