@@ -35,11 +35,14 @@ es:
         one: "Evaluador"
         other: "Evaluadores"
       valuator_group:
-        one: "Grupo de Evaluadores"
-        other: "Grupos de Evaluadores"
+        one: "Grupo de evaluadores"
+        other: "Grupos de evaluadores"
       manager:
         one: "Gestor"
         other: "Gestores"
+      newsletter:
+        one: "Newsletter"
+        other: "Newsletter"
       vote:
         one: "Voto"
         other: "Votos"
@@ -56,8 +59,8 @@ es:
         one: "Propuesta ciudadana"
         other: "Propuestas ciudadanas"
       spending_proposal:
-        one: "Propuesta de inversión"
-        other: "Propuestas de inversión"
+        one: "Proyecto de inversión"
+        other: "Proyectos de inversión"
       site_customization/page:
         one: Página
         other: Páginas
@@ -97,6 +100,9 @@ es:
       poll:
         one: "Votación"
         other: "Votaciones"
+      proposal_notification:
+        one: "Notificación de propuesta"
+        other: "Notificaciónes de propuesta"
     attributes:
       budget:
         name: "Nombre"
@@ -120,8 +126,13 @@ es:
         image: "Imagen descriptiva de la propuesta de inversión"
         image_title: "Título de la imagen"
       budget/investment/milestone:
+        status_id: "Estado actual de la inversión (opcional)"
         title: "Título"
+        description: "Descripción (opcional si hay una condición asignada)"
         publication_date: "Fecha de publicación"
+      budget/investment/status:
+        name: "Nombre"
+        description: "Descripción (opcional)"
       budget/heading:
         name: "Nombre de la partida"
         price: "Cantidad"
@@ -269,6 +280,10 @@ es:
           attributes:
             segment_recipient:
               invalid: "El segmento de usuarios es inválido"
+        admin_notification:
+          attributes:
+            segment_recipient:
+              invalid: "El usuario del destinatario es inválido"
         map_location:
           attributes:
             map:
