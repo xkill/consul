@@ -71,7 +71,7 @@ sv:
         title: Förslag
     budget_investments:
       index:
-        block_authors: Blockera författare
+        block_authors: Blockera förslagslämnare
         confirm: Är du säker?
         filter: Filtrera
         filters:
