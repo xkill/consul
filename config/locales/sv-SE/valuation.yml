@@ -19,7 +19,7 @@ sv:
         evaluate: Utvärdering
     budget_investments:
       index:
-        headings_filter_all: Alla rubriker
+        headings_filter_all: Alla underområden
         filters:
           valuation_open: Pågående
           valuating: Under bedömning
@@ -33,7 +33,7 @@ sv:
         no_valuators_assigned: Inga ansvariga handläggare
         table_id: Legitimation
         table_title: Titel
-        table_heading_name: Rubriknamn
+        table_heading_name: Underområde
         table_actions: Åtgärder
         no_investments: "Det finns inga budgetförslag."
       show:
@@ -42,7 +42,7 @@ sv:
         info: Om förslagslämnaren
         by: Inskickat av
         sent: Registrerat
-        heading: Rubrik
+        heading: Underområde
         dossier: Rapport
         edit_dossier: Redigera rapport
         price: Kostnad
