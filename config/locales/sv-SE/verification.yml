@@ -52,9 +52,10 @@ sv:
         date_of_birth: Födelsedatum
         document_number: Identitetshandlingens nummer
         document_number_help_title: Hjälp
-        document_number_help_text_html: '<strong>ID-kort</strong>: 12345678A<br> <strong>Pass</strong>: AAA000001<br> <strong>Legitimation</strong>: X1234567P'
+        document_number_help_text_html: '<strong>ID-kort</strong>: 12345678A<br> <strong>Pass</strong>: AAA000001<br> <strong>Övrig identitetshandling</strong>: X1234567P'
         document_type:
           passport: Pass
+          residence_card: Övrig identitetshandling
           spanish_id: Legitimation
         document_type_label: Identitetshandling
         error_not_allowed_age: Du är för ung för att delta
