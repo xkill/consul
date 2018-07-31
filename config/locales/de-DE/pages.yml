@@ -1,11 +1,9 @@
 de:
   pages:
-    census_terms: Um das Benutzerkonto zu bestätigen, müssen Sie mindestens 16 Jahre alt und registriert sein. Des Weiteren müssen Sie die zuvor angeforderten Informationen zur Verfügung gestellt haben. Wenn Sie den Prüfvorgang akzeptieren, stimmen Sie automatisch der Überprüfung dieser Informationen, sowie den Kontaktmethoden, welche in den besagten Datein dargestellt sind, zu. Die zur Verfügung gestellten Daten werden in einer zuvor erwähnten Datei nach den Benutzervoraussetzungen des Portals erfasst und verarbeitet.
     conditions: Allgemeine Nutzungsbedingungen
     general_terms: Allgemeine Nutzungsbedingungen
     help:
       title: "%{org} ist eine Plattform zur Bürgerbeteiligung"
-      subtitle: "In %{org} können Sie Anträge erstellen, in Bürgerbefragungen abstimmen, Bürgerhaushaltsprojekte vorschlagen, Gemeindeverordnungen beschließen und Debatten öffnen, um Ihre Meinung mit anderen zu teilen."
       guide: "Diese Anleitung erklärt Ihnen, was die einzelnen %{org}-Abschnitte sind und wie diese funktionieren."
       menu:
         debates: "Diskussionen"
@@ -26,19 +24,11 @@ de:
         title: "Vorschläge"
         description: "Im %{link}-Abschnitt können Sie Anträge an den Stadtrat stellen. Die Anträge brauchen dann Unterstützung. Wenn Ihr Antrag ausreichend Unterstützung bekommt, wird er zur öffentlichen Wahl freigegeben. Anträge, die durch Bürgerstimmen bestätigt wurden, werden vom Stadtrat angenommen und umgesetzt."
         link: "Bürgervorschläge"
-        feature_html: "Um einen Antrag zu erstellen, müssen Sie sich in %{org} registrieren. Die Anträge, die Unterstützung, auf der Webseite, von 1% wahlberechtigter Personen (%{supports} über dem Alter von 16 Jahren) erhalten, werden zur Abstimmung freigegeben. Um einen Antrag zu unterstützen, ist es wichtig Ihr Benutzerkonto zu bestätigen."
         image_alt: "Button zur Unterstützung eines Vorschlags"
-        figcaption_html: 'Schaltfläche, um einen Vorschlag zu "unterstützen".<br>Wenn die Mindestanzahl an Unterstützung erreicht, wird der Antrag zur Abstimmung freigegeben.'
       budgets:
         title: "Partizipative Haushaltsplanung"
         description: "Der %{link}-Abschnitt hilft Personen eine direkte Entscheidung zu treffen, für was das kommunale Budget ausgegeben werden soll."
         link: "Bürgerhaushalte"
-        feature: "Durch diesen Prozess errichten, unterstützen und stimmen Menschen jährlich für Projekte ab. Die Projekte mit den meisten Stimmen werden mit dem kommunalen Budget finanziert."
-        phase_1_html: "Zwischen Januar und frühem März, können Personen, die in %{org} registriert sind, <strong>vortragen</strong>."
-        phase_2_html: "Im März müssen Antragssteller Unterstützung in Form einer <strong>Vorauswahl</strong> sammeln."
-        phase_3_html: "Zwischen April und Anfang Mai, <strong>bewerten</strong> die Experten des Stadtrates, on Projekte mehr oder weniger untersützt wurden und überprüfen, ob diese durchführbar sind."
-        phase_4_html: "Abschließend, zwischen Mai und Juni, können alle Bürger für Projekte, welche sie am meisten interessieren, <strong>stimmen</strong>."
-        phase_5_html: "Im folgenden Jahr, nach der Genehmigung des Budgets, beginnt der Stadtrat damit die siegreichen Projekte umzusetzen."
         image_alt: "Verschiedene Phasen eines partizipativen Haushalts"
         figcaption_html: '"Unterstützungs"- und "Wahlphasen" kommunaler Budgets.'
       polls:
@@ -47,14 +37,10 @@ de:
         link: "Umfragen"
         feature_1: "Um an der Abstimmung teilzunehmen, müssen Sie %{link} und Ihr Konto verifizieren."
         feature_1_link: "anmelden %{org_name}"
-        feature_2: "Alle registrierten Wähler über dem Alter von 16 Jahren können wählen."
-        feature_3: "Die Ergebnisse aller Abstimmungen sind verbindlich für die Stadtregierung."
       processes:
         title: "Prozesse"
         description: "Im %{link}-Abschnitt nehmen Bürger an der Ausarbeitung und Änderung von, die Stadt betreffenden, Bestimmungen teil und können ihre Meinung bezüglich kommunaler Richtlinien in vorausgehenden Debatten äußern."
         link: "Prozesse"
-        feature: "Um an einem Prozess teilzunehmen, müssen Sie %{sign_up} und die %{link} Seite regelmäßig prüfen, sodass Sie sehen, welche Bestimmungen und Richtlinien diskutiert und hinzubezogen werden."
-        sign_up: "Registrierung unter %{org}"
       faq:
         title: "Technische Probleme?"
         description: "Lesen Sie die FAQs und finden Sie Antworten auf Ihre Fragen."
