@@ -136,9 +136,6 @@ nl:
         description: Start een discussie om je mening met anderen te delen over onderwerpen die jij belangrijk vindt.
         help_text_1: "Deze plek voor discussies is bedoeld voor het uiten en delen van meningen over alle onderwerpen, kansen of knelpunten die men belangrijk vindt in de gemeente."
         help_text_2: '''Om een discussie te starten moet je inloggen op {org}. Deelnemers kunnen ook reageren op bestaande discussies en deze beoordelen met de knoppen ''Eens'' of ''Oneens'' die bij elke discussie staan.'
-        help_text_3: "Wees je bewust dat een discussie nog geen activiteit tot gevolgen heeft. Als je een %{proposal} voor de gemeente wilt indienen of een %{budget} wilt maken, ga dan naar de betreffende pagina's."
-        proposals_link: voorstel
-        budget_link: burgerbegroting
     new:
       form:
         submit_button: Start een discussie
@@ -210,17 +207,11 @@ nl:
       contact_us: Voor tech support klik
       copyright: Consul, %{year}
       description: Deze site gebruikt %{consul}; een %{open_source} toepassing.
-      faq: hier
-      open_data_text: Gegevens van een open en transparant overheidsbeleid.
-      open_data_title: Open data
       open_source: open-source software
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: Beslis mee over de vormgeving en beleid in uw gemeente.
       participation_title: Participatie
       privacy: Privacybeleid
-      transparency_text: Ontdek alles over je gemeente.
-      transparency_title: Transparantie
-      transparency_url: https://transparency.consul
     header:
       administration_menu: Beheerder
       administration: Beheer
@@ -228,10 +219,6 @@ nl:
       collaborative_legislation: Wetgevingsprocessen
       debates: Discussies
       external_link_blog: Blog
-      external_link_opendata: Open data
-      external_link_opendata_url: https://opendata.consul
-      external_link_transparency: Transparantie
-      external_link_transparency_url: https://transparency.consul
       locale: 'Taal:'
       logo: CONSUL logo
       management: Management
@@ -335,7 +322,6 @@ nl:
       geozone: Regio
       proposal_external_url: Link naar meer informatie
       proposal_question: Vraag
-      proposal_question_example_html: "Moet samengevat worden in een vraag met een ja/nee antwoord. <br>Bijvoorbeeld; 'Ben je het eens met een autovrije hoofdstraat?'\nproposal_responsible_name: Volledige naam van persoon die het voorstel doet\nproposal_responsible_name_note: \"(individueel of als vertegenwoordiger van een collectief; niet publiek zichtbaar)"
       proposal_responsible_name: Volledige naam van persoon die het voorstel doet
       proposal_responsible_name_note: "(individueel of als vertegenwoordiger van een collectief; niet publiek zichtbaar)"
       proposal_summary: Samenvatting voorstel
@@ -400,10 +386,6 @@ nl:
         help: Hulp over voorstellen
       section_footer:
         title: Hulp over voorstellen
-        description: Een burger doet een voorstel. Als het genoeg stemmen krijgt dan gaat het naar de stemmingsfase toe, zodat vervolgens alle burgers kunnen stemmen hoe zij hun stad willen vormgeven.
-        help_text_1: "De burgervoorstellen zijn een mogelijkheid voor buren en collectieven om rechtstreeks te beslissen hoe zij hun stad willen vormgeven. Iedereen kan een voorstel doen over een onderwerp of bezorgdheid uiten over hun belang, zodat de gemeenteraad hiernaar kan handelen, nadat het voldoende steun heeft gekregen om tot een stem van de burger te worden gebracht."
-        help_text_2: "Als u een voorstel wilt maken, moet u zich aanmelden op %{org}. De voorstellen die de steun van 1% van de gebruikers krijgen, gaan door naar de stemmingsfase. Ter ondersteuning van de voorstellen is het noodzakelijk te beschikken over een geverifieerd account."
-        help_text_3: "De stemming van een burger wordt gevierd als de voorstellen de nodige steun krijgen. Zodra gevierd, dan zijn er meer mensen voor dan tegen, de gemeenteraad voert het voorstel uit."
     new:
       form:
         submit_button: Doe voorstel
@@ -428,7 +410,6 @@ nl:
         zero: Geen reacties
         one: 1 reactie
         other: "%{count} reacties"
-      reason_for_supports_necessary: 1% van de Census
       support: Support
       support_title: Steun dit voorstel
       supports:
@@ -442,8 +423,6 @@ nl:
       supports_necessary: "%{number} steunbetuigingen nodig"
       total_percent: 100%
       archived: "Dit voorstel is gearchiveerd en kan niet worden gesteund."
-      successful: "Dit voorstel heeft het benodigd aantal steunbetuigingen en zal in %{voting} worden gebracht."
-      voting: "stemming"
     show:
       author_deleted: Deelnemer verwijderd
       code: 'Voorstel code:'
@@ -493,9 +472,6 @@ nl:
         help: Hulp bij stemmen
       section_footer:
         title: Hulp bij stemmen
-        description: Registreer je om te kunnen stemmen op voorstellen van mede-gebruikers en om vragen vanuit de gemeente aan haar inwoners te kunnen bekijken. Heb direct invloed op de gemeentelijke besluitvoering.
-        help_text_1: "Stemmen vindt plaats als een voorstel steun krijgt van 1% van de census met stemrechten."
-        help_text_2: "Om deel te nemen aan de volgende stemronde moet je inloggen op %{org} en je account verifieren. Alle geregistreerde stemgerechtigden ouder dan 16 jaar mogen stemmen. Het resultaat van alle stemmen zijn bindend voor de gemeente."
       no_polls: "Er zijn geen openstaande stemmingen."
     show:
       already_voted_in_booth: "Je hebt al gestemd in een stemhokje. Je kunt niet meer deelnemen."
