@@ -126,7 +126,7 @@ de:
         administrator_id: "Administrator*in"
         location: "Standort (optional)"
         organization_name: "Wenn Sie einen Vorschlag im Namen einer Gruppe, Organisation oder mehreren Personen einreichen, nennen Sie bitte dessen/deren Name/n"
-        image: "Vorschlag beschreibendes Bild"
+        image: "Beschreibendes Bild zum Ausgabenvorschlag"
         image_title: "Bildtitel"
       budget/investment/milestone:
         status_id: "Derzeitiger Status des Ausgabenvorschlags (optional)"
@@ -137,19 +137,19 @@ de:
         name: "Name"
         description: "Beschreibung (optional)"
       budget/heading:
-        name: "Name der Überschrift"
-        price: "Preis"
+        name: "Name der Rubrik"
+        price: "Summe"
         population: "Bevölkerung"
       comment:
         body: "Kommentar"
-        user: "Benutzer/in"
+        user: "Benutzer*in"
       debate:
-        author: "Autor/in"
+        author: "Verfasser*in"
         description: "Meinung"
         terms_of_service: "Nutzungsbedingungen"
         title: "Titel"
       proposal:
-        author: "Autor/in"
+        author: "Verfasser*in"
         title: "Titel"
         question: "Frage"
         description: "Beschreibung"
