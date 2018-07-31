@@ -708,18 +708,18 @@ de:
         no_group: "Ohne Gruppe"
     valuator_groups:
       index:
-        title: "Gruppe von Begutachter*innen"
-        new: "Gruppe von Begutachter*innen erstellen"
+        title: "Begutachtungsgruppen"
+        new: "Begutachtungsgruppe erstellen"
         name: "Name"
         members: "Mitglieder"
-        no_groups: "Keine Bewertungsgruppen vorhanden"
+        no_groups: "Keine Begutachtungsgruppen vorhanden"
       show:
-        title: "Bewertungsgruppe: %{group}"
-        no_valuators: "Dieser Gruppe sind keine Begutachter*innen zugeordnet"
+        title: "Begutachtungsgruppe: %{group}"
+        no_valuators: "Es gibt keine Begutachter*innen, die dieser Gruppe zugeordnet sind"
       form:
         name: "Gruppenname"
-        new: "Bewertungsgruppe erstellen"
-        edit: "Bewertungsgruppe speichern"
+        new: "Begutachtungsgruppe erstellen"
+        edit: "Begutachtungsgruppe speichern"
     poll_officers:
       index:
         title: Vorsitzende der Abstimmung
@@ -741,19 +741,19 @@ de:
         table_email: "E-Mail"
       by_officer:
         date: "Datum"
-        booth: "Wahlurne"
+        booth: "Wahlkabine"
         assignments: "Der/Die Wahlvorsteher*in wechselt in dieser Abstimmung"
         no_assignments: "In dieser Abstimmung gibt es keinen Schichtwechsel des/der Wahlvorsteher*in."
     poll_shifts:
       new:
         add_shift: "Arbeitsschicht hinzufügen"
         shift: "Zuordnung"
-        shifts: "Arbeitsschichten für dieser Wahlurne"
+        shifts: "Arbeitsschichten in dieser Wahlkabine"
         date: "Datum"
         task: "Aufgabe"
         edit_shifts: Arbeitsschicht zuordnen
         new_shift: "Neue Arbeitsschicht"
-        no_shifts: "Dieser Wahlurne wurden keine Arbeitsschichten zugeordnet"
+        no_shifts: "Dieser Wahlkabine wurden keine Arbeitsschichten zugeordnet"
         officer: "Wahlvorsteher*in"
         remove_shift: "Entfernen"
         search_officer_button: Suchen
