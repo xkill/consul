@@ -294,7 +294,7 @@ de:
         poll/voter:
           attributes:
             document_number:
-              not_in_census: "Dokument scheint nicht im Melderegister auf"
+              not_in_census: "Dieses Dokument scheint nicht im Melderegister auf"
               has_voted: "Der/Die Benutzer/in hat bereits abgestimmt"
         legislation/process:
           attributes:
