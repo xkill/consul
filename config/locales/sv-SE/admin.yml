@@ -139,7 +139,7 @@ sv:
         start_date: Startdatum
         end_date: Slutdatum
         summary: Sammanfattning
-        summary_help_text: Denna text kommer att informera användaren om fasen. Markera kryssrutan nedan för att visa den även om fasen inte är aktiv
+        summary_help_text: Denna text kommer att informera användaren om fasen. Markera rutan nedan för att visa den även om fasen inte är aktiv
         description: Beskrivning
         description_help_text: Den här texten visas i rubriken när fasen är aktiv
         enabled: Fasen är aktiverad
@@ -535,7 +535,7 @@ sv:
       system_emails: E-postmeddelanden från systemet
       emails_download: Hämta e-postadresser
       valuators: Bedömare
-      poll_officers: Valarbetare
+      poll_officers: Funktionärer
       polls: Omröstningar
       poll_booths: Adress för röststation
       poll_booth_assignments: Tilldela röststation
@@ -762,18 +762,18 @@ sv:
       by_officer:
         date: "Datum"
         booth: "Röststation"
-        assignments: "Arbetspass under denna omröstning"
-        no_assignments: "Denna användare har inga arbetspass under denna omröstning."
+        assignments: "Arbetspass under omröstningen"
+        no_assignments: "Den här användaren har inga arbetspass under omröstningen."
     poll_shifts:
       new:
         add_shift: "Lägg till arbetspass"
         shift: "Uppdrag"
-        shifts: "Arbetspass i denna röststation"
+        shifts: "Arbetspass för den här röststationen"
         date: "Datum"
         task: "Uppgift"
         edit_shifts: Redigera arbetspass
         new_shift: "Nytt arbetspass"
-        no_shifts: "Denna röststation har inga arbetspass"
+        no_shifts: "Den här röststationen har inga arbetspass"
         officer: "Funktionär"
         remove_shift: "Ta bort"
         search_officer_button: Sök
@@ -813,8 +813,8 @@ sv:
       show:
         location: "Plats"
         officers: "Funktionärer"
-        officers_list: "Lista över funktionärer för denna röststation"
-        no_officers: "Det finns inga funktionärer i denna röststation"
+        officers_list: "Lista över funktionärer för den här röststationen"
+        no_officers: "Det finns inga funktionärer för den här röststationen"
         recounts: "Rösträkning"
         recounts_list: "Räkna rösterna för den här röststationen"
         results: "Resultat"
@@ -939,7 +939,7 @@ sv:
         booth: Röststation
         results: Resultat
         see_results: Visa resultat
-        title: "Röststationens resultat"
+        title: "Resultat för röststationer"
     booths:
       index:
         title: "Lista över aktiva röststationer"
@@ -994,8 +994,8 @@ sv:
           rejected: Avvisade
           verified: Verifierade
         hidden_count_html:
-          one: Det finns också <strong>en organisation</strong> med inga användare eller med en dold användare.
-          other: Det finns också <strong>%{count} en organisationer</strong> med inga användare eller med en dold användare.
+          one: Det finns också <strong>en organisation</strong> utan användare eller med dolda användare.
+          other: Det finns också <strong>%{count} organisationer</strong> utan användare eller med dolda användare.
         name: Namn
         email: E-post
         phone_number: Telefon
@@ -1033,7 +1033,7 @@ sv:
         no_hidden_proposals: Det finns inga dolda aviseringar.
     settings:
       flash:
-        updated: Uppdaterad värde
+        updated: Uppdaterad kostnadsberäkning
       index:
         banners: Bannerformat
         banner_imgs: Banner
@@ -1096,8 +1096,8 @@ sv:
           valuation_open: Pågående
           without_admin: Utan ansvarig administratör
           managed: Hanterade
-          valuating: Under bedömning
-          valuation_finished: Bedömning avslutad
+          valuating: Under kostnadsberäkning
+          valuation_finished: Kostnadsberäkning avslutad
           all: Alla
         title: Budgetförslag för medborgarbudget
         assigned_admin: Ansvarig administratör
@@ -1139,7 +1139,7 @@ sv:
         finished_and_feasible_count: Avslutat och genomförbart
         finished_and_unfeasible_count: Avslutat och ej genomförbart
         finished_count: Avslutat
-        in_evaluation_count: Utvärderas
+        in_evaluation_count: Under utvärdering
         total_count: Totalt
         cost_for_geozone: Kostnad
     geozones:
@@ -1156,8 +1156,8 @@ sv:
       errors:
         form:
           error:
-            one: "fel förhindrade att detta distrikt kunde sparas"
-            other: 'fel förhindrade att detta distrikt kunde sparas'
+            one: "fel förhindrade området från att sparas"
+            other: 'fel förhindrade området från att sparas'
       edit:
         form:
           submit_button: Spara ändringar
@@ -1168,7 +1168,7 @@ sv:
         creating: Skapa område
       delete:
         success: Området har tagits bort
-        error: Detta område kan inte raderas eftersom det finns element fäst vid den
+        error: Området kan inte raderas eftersom det finns förslag kopplade till det
     signature_sheets:
       author: Förslagslämnare
       created_at: Skapad den
@@ -1268,7 +1268,7 @@ sv:
       index:
         phone_not_given: Telefonnummer saknas
         sms_code_not_confirmed: SMS-koden har inte bekräftats
-        title: Ofullständiga kontroller
+        title: Ofullständiga verifieringar
     site_customization:
       content_blocks:
         information: Information om innehållsblock
