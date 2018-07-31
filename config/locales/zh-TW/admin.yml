@@ -73,3 +73,20 @@ zh-TW:
         start_date: 開始日期
         end_date: 結束日期
         summary: 總結
+        description: 說明
+        description_help_text: 當此文本將顯示在頁眉中，則表示階段處於活躍狀態
+        enabled: 啟用階段
+        enabled_help_text: 這一階段將在預算的階段時間內公開, 也會為其他目的而活躍
+        save_changes: 保存更改
+    budget_investments:
+      index:
+        heading_filter_all: 所有標題
+        valuator_filter_all: 所有評估員
+        tags_filter_all: 所有標籤
+        advanced_filters: 高級篩選器
+        placeholder: 搜索項目
+        sort_by:
+          placeholder: 排序依據
+          id: ID
+          title: 標題
+          supports: 支援
