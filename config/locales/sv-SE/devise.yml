@@ -29,7 +29,7 @@ sv:
         subject: "Instruktioner för att låsa upp kontot"
     omniauth_callbacks:
       failure: "Du godkändes inte som %{kind} eftersom ”%{reason}”."
-      success: "Framgångsrikt identifierat som %{kind}."
+      success: "Identifierad som %{kind}."
     passwords:
       no_token: "Du kan inte komma åt denna sida utom genom en länk för återställning av lösenord. Om du har kommit hit genom en länk för återställning av lösenord, kontrollera att webbadressen är komplett."
       send_instructions: "Du kommer strax att få ett e-postmeddelande med instruktioner för att återställa ditt lösenord."
