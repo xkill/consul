@@ -127,6 +127,8 @@ sv:
         milestone_status_changed: Förslagets status har ändrats till
         author: Förslagslämnare
         project_unfeasible_html: 'Det här budgetförslaget <strong>har markerats som ej genomförbart</strong> och kommer inte gå vidare till omröstning.'
+        project_selected_html: 'Det här budgetförslaget <strong>har gått vidare</strong> till omröstning.'
+        project_winner: 'Vinnande budgetförslag'
         project_not_selected_html: 'Det här budgetförslaget <strong>har inte gått vidare</strong> till omröstning.'
       wrong_price_format: Endast heltal
       investment:
