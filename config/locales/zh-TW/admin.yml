@@ -1,5 +1,7 @@
 zh-TW:
   admin:
+    header:
+      title: 管理
     actions:
       actions: 行動
       confirm: 您是否確定？
@@ -27,6 +29,9 @@ zh-TW:
         title: 標題
         description: 說明
         target_url: 鏈接
+        post_started_at: 通告開始於
+        post_ended_at: 通告結束於
+        sections_label: 它將出現於的部分
         sections:
           homepage: 主網頁
           debates: 辯論
@@ -62,7 +67,21 @@ zh-TW:
           on_proposals: 建議
           on_users: 用戶
           on_system_emails: 系統電子郵件
+        type: 類型
     budgets:
+      index:
+        title: 參與性預算
+        new_link: 創建新預算
+        filter: 篩選器
+        filters:
+          open: 打開
+          finished: 完成
+        budget_investments: 管理項目
+        table_name: 名字
+        table_phase: 階段
+        table_investments: 投資
+        table_edit_groups: 標題組
+        table_edit_budget: 編輯
       form:
         table_population: 人口
         population_info: "預算標題 \"人口\" 欄位用於統計目的, 在預算結束時顯示每個標題, 代表一個地區與人口百分比投票率。該欄位是可選擇填寫的, 因此如果不適用, 您可以將其留空。"
@@ -81,6 +100,7 @@ zh-TW:
     budget_investments:
       index:
         heading_filter_all: 所有標題
+        administrator_filter_all: 所有管理員
         valuator_filter_all: 所有評估員
         tags_filter_all: 所有標籤
         advanced_filters: 高級篩選器
@@ -90,3 +110,29 @@ zh-TW:
           id: ID
           title: 標題
           supports: 支援
+        filters:
+          all: 所有
+          without_admin: 沒有指定的管理員
+          without_valuator: 沒有指定的評估員
+          under_valuation: 正在評估中
+          valuation_finished: 評估完成
+          feasible: 可行
+          selected: 選擇
+          undecided: 未定
+          unfeasible: 不可行
+          min_total_supports: 最小支援
+          one_filter_html: "當前應用的篩選器:<b><em>%{filter}</em></b>"
+          two_filters_html: "當前應用的篩選器:<b><em>%{filter},%{advanced_filters}</em></b>"
+        buttons:
+          filter: 篩選器
+        download_current_selection: "下載當前所選內容"
+        no_budget_investments: "沒有投資項目。"
+        title: 投資項目
+        assigned_admin: 指定的管理員
+        no_admin_assigned: 未分配管理員
+        no_valuators_assigned: 未分配評估員
+        no_valuation_groups: 未分配評估組
+        feasibility:
+          feasible: "可行 (%{price})"
+          unfeasible: "不可行"
+          undecided: "未定"
