@@ -631,6 +631,39 @@ de:
       index:
         section_title: Benachrichtigungen
         new_notification: Neue Benachrichtigung
+        title: Titel
+        segment_recipient: Empfänger*innen
+        sent: Gesendet
+        actions: Aktionen
+        draft: Entwurf
+        edit: Bearbeiten
+        delete: Löschen
+        preview: Vorschau
+        view: Anzeigen
+        empty_notifications: Keine Benachrichtigungen vorhanden
+      new:
+        section_title: Neue Benachrichtigung
+      edit:
+        section_title: Benachrichtigung bearbeiten
+      show:
+        send: Benachrichtigung senden
+        will_get_notified: (%{n} Benutzer*innen werden benachrichtigt)
+        got_notified: (%{n} Benutzer*innen wurden benachrichtigt)
+        sent_at: Gesendet
+        title: Titel
+        body: Text
+        link: Link
+        segment_recipient: Empfänger*innen
+        preview_guide: "So wird die Benachrichtigung für Benutzer*innen aussehen:"
+        sent_guide: "So sieht die Benachrichtigung für Benutzer*innen aus:"
+        send_alert: Sind Sie sicher, dass Sie diese Benachrichtigung an %{n} Benutzer*innen senden möchten?
+    system_emails:
+      preview_pending:
+        action: Vorschau ausstehend
+        preview_of: Vorschau von %{name}
+      proposal_notification_digest:
+        description: Sammelt alle Benachrichtigungen über Vorschläge für eine*n Benutzer*in in einer Nachricht, um mehrfache E-Mails zu vermeiden.
+        preview_detail: Benutzer*innen erhalten nur Benachrichtigungen zu Vorschlägen, denen sie folgen
     emails_download:
       index:
         title: E-Mails herunterladen
