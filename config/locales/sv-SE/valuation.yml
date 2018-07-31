@@ -5,7 +5,7 @@ sv:
     menu:
       title: Kostnadsberäkning
       budgets: Medborgarbudgetar
-      spending_proposals: Förslag på utgifter
+      spending_proposals: Budgetförslag
     budgets:
       index:
         title: Medborgarbudgetar
