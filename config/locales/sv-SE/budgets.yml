@@ -19,7 +19,7 @@ sv:
         not_selected: Omarkerade budgetförslag kan inte stödjas
         not_enough_money_html: "Du har redan använt hela din budget.<br><small>Kom ihåg att du kan %{change_ballot} när som helst</small>"
         no_ballots_allowed: Urvalsfasen är stängd
-        different_heading_assigned_html: "Du har redan röstat under en annan rubrik: %{heading_link}"
+        different_heading_assigned_html: "Du har redan röstat inom ett annat underområde: %{heading_link}"
         change_ballot: ändra dina röster
     groups:
       show:
@@ -91,7 +91,7 @@ sv:
             other: "<strong>Du har röstat på %{count} förslag som kostar %{amount_spent}</strong>"
           voted_info: Du kan %{link} när som helst under den här fasen. Du behöver inte spendera hela din budget.
           voted_info_link: ändra din röst
-          different_heading_assigned_html: "Du röstar redan under en annan rubrik: %{heading_link}"
+          different_heading_assigned_html: "Du röstar redan inom ett annat underområde: %{heading_link}"
           change_ballot: "Om du ändrar dig kan du ta bort dina röster i %{check_ballot} och börja om."
           check_ballot_link: "kontrollera min omröstning"
           zero: Du har inte röstat på några budgetförslag i det här området.
@@ -146,10 +146,10 @@ sv:
         give_support: Stöd
       header:
         check_ballot: Kontrollera min omröstning
-        different_heading_assigned_html: "Du röstar redan under en annan rubrik: %{heading_link}"
+        different_heading_assigned_html: "Du röstar redan inom ett annat underområde: %{heading_link}"
         change_ballot: "Om du ändrar dig kan du ta bort dina röster i %{check_ballot} och börja om."
         check_ballot_link: "kontrollera min omröstning"
-        price: "Denna rubrik har en budget på"
+        price: "Det här underområdet har en budget på"
     progress_bar:
       assigned: "Du har fördelat: "
       available: "Tillgänglig budget: "
