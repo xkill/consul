@@ -171,6 +171,14 @@ zh-TW:
         image: 圖像
       site_customization/content_block:
         name: 名字
+      legislation/process:
+        summary: 總結
+        description: 說明
+        additional_info: 附加其他資訊
+        start_date: 開始日期
+        end_date: 結束日期
+        debate_start_date: 辯論開始日期
+        debate_end_date: 辯論結束日期
       widget/card:
         label: 標籤 (可選擇填寫)
         title: 標題
