@@ -136,9 +136,6 @@ de:
         description: Teilen Sie ihre Meinung mit anderen in einer Diskussion über Themen, die Sie interessieren.
         help_text_1: "Der Raum für Bürgerdebatten richtet sich an alle, die ihr Anliegen darlegen können und sich mit anderen Menschen austauschen wollen."
         help_text_2: 'Um eine Diskussion zu eröffnen, müssen Sie sich auf %{org} registrieren. Benutzer können auch offene Diskussionen kommentieren und sie über "Ich stimme zu" oder "Ich stimme nicht zu" Buttons bewerten.'
-        help_text_3: "Denken Sie daran, dass eine Debatte keine bestimmte Aktion auslöst. Wenn sie ein %{proposal} für die Stadt machen oder ein Investitionsprojekt von %{budget} erhöhen möchten, sobald die Phase offen ist, gehen Sie zum entsprechenden Abschnitt."
-        proposals_link: Vorschlag
-        budget_link: partizipative Haushaltsplanung
     new:
       form:
         submit_button: Starten Sie eine Diskussion
@@ -210,17 +207,11 @@ de:
       contact_us: Für technische Unterstützung geben Sie ein
       copyright: CONSUL, %{year}
       description: Die Plattform basiert auf %{consul}, einer %{open_source}.
-      faq: Technische Hilfe
-      open_data_text: Sie haben Zugang zu allen Daten der Stadtverwaltung.
-      open_data_title: Open Data
       open_source: Open-Source Software
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: Gestalten Sie die Stadt, in der Sie leben möchten.
       participation_title: Teilnahme
       privacy: Datenschutzbestimmungen
-      transparency_text: Erfahren Sie alles über die Stadt.
-      transparency_title: Transparenz
-      transparency_url: https://transparency.consul
     header:
       administration_menu: Admin
       administration: Verwaltung
@@ -228,10 +219,6 @@ de:
       collaborative_legislation: Gesetzgebungsverfahren
       debates: Diskussionen
       external_link_blog: Blog
-      external_link_opendata: Open Data
-      external_link_opendata_url: https://opendata.consul
-      external_link_transparency: Transparenz
-      external_link_transparency_url: https://transparency.consul
       locale: 'Sprache:'
       logo: Consul-Logo
       management: Management
@@ -335,7 +322,6 @@ de:
       geozone: Rahmenbedingungen
       proposal_external_url: Link zur weiteren Dokumentation
       proposal_question: Antrags Frage
-      proposal_question_example_html: "Muss in eine Frage zusammengefasst werden, die mit Ja oder Nein beantwortet werden kann. <br> Z.B. \"Sind Sie damit einverstanden, dass die Große Straße zur Fußgängerzone wird?\""
       proposal_responsible_name: Vollständiger Name der Person, die den Vorschlag einreicht
       proposal_responsible_name_note: "(Einzelperson oder Vertreter/in eines Kollektivs; wird nicht öffentlich angezeigt)"
       proposal_summary: Zusammenfassung Vorschlag
@@ -400,10 +386,6 @@ de:
         help: Hilfe zu Vorschlägen
       section_footer:
         title: Hilfe zu Vorschlägen
-        description: Stellen Sie einen Bürgerantrag. Wenn er genügend Unterstützung erhält, geht er in die Abstimmungsphase, so dass Sie alle Bürger veranlassen können, zu entscheiden, wie ihre Stadt aussehen soll.
-        help_text_1: "Bürgervorschläge sind eine Chance für Nachbarn und Gemeinschaften direkt zu mitzuentscheiden, wie Sie ihre Stadt gestalten wollen. Jede Person kann einen Vorschlag zu einem Thema oder Anliegen Ihres Interesses bei der Stadtverwaltung einbringen, nachdem dieser ausreichend Unterstützung bekommen hat und die Abstimmungsphase passiert hat."
-        help_text_2: "Um einen Vorschlag einzubringen, müssen Sie sich auf %{org} registrieren. Vorschläge, die Unterstützung von anderen Benutzern im Netz erhalten haben, gehen weiter in die Abstimmungsphase. Um Vorschläge unterstützen zu können, ist ein verifierziertes Benutzerkonto notwendig."
-        help_text_3: "Eine Bürgerabstimmung wird durchgeführt, wenn die Vorschläge die notwendige Unterstützung erhalten. Einmal abgehalten, wird der Vorschlag vom Stadtrat angenommen und umgesetzt, wenn mehr Menschen dafür als dagegen sind."
     new:
       form:
         submit_button: Vorschlag erstellen
@@ -428,7 +410,6 @@ de:
         zero: Keine Kommentare
         one: 1 Kommentar
         other: "%{count} Kommentare"
-      reason_for_supports_necessary: 1 % der Volkszählung
       support: Unterstützung
       support_title: Vorschlag unterstützen
       supports:
@@ -442,8 +423,6 @@ de:
       supports_necessary: "%{number} Unterstützungen benötigt"
       total_percent: 100 %
       archived: "Dieser Vorschlag wurde archiviert und nicht mehr unterstützt werden."
-      successful: "Dieser Vorschlag hat die erforderliche Unterstützung erreicht und geht nun weiter in die %{voting}."
-      voting: "Nächste Abstimmung"
     show:
       author_deleted: Benutzer gelöscht
       code: 'Antrags-Code:'
@@ -493,9 +472,6 @@ de:
         help: Hilfe zur Abstimmung
       section_footer:
         title: Hilfe zur Abstimmung
-        description: Registrieren Sie sich, um für Bürgeranträge und Fragen des Stadtrates an die Nachbarn zu stimmen. Treffen Sie kommunale Entscheidungen direkt.
-        help_text_1: "Eine Abstimmung findet dann statt, wenn ein Bürgervorschlag von 1% der Stimmberechtigten in der Volkszählung unterstützt wird. Eine Abstimmung kann außerdem eine Bürgerbefragung durch die Stadtverwaltung beinhalten."
-        help_text_2: "Um an der nächsten Wahl teilzunehmen, müssen Sie sich auf %{org} registrieren und Ihr Benutzerkonto bestätigen. Alle registrierten Wähler der Stadt über dem Alter von 16 Jahren können abstimmen. Das Ergebniss aller Stimmen ist verbindlich für die Regierung."
       no_polls: "Keine offenen Abstimmungen."
     show:
       already_voted_in_booth: "Sie haben bereits in einer physischen Wahlkabine teilgenommen. Sie können nicht nochmal teilnehmen."
