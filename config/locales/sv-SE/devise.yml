@@ -37,6 +37,7 @@ sv:
       updated: "Ditt lösenord har ändrats."
       updated_not_active: "Ditt lösenord har ändrats."
     registrations:
+      destroyed: "Hejdå! Ditt konto har avslutats. Vi hoppas på att snart få se dig igen."
       signed_up: "Välkommen! Du har autentiserats."
       signed_up_but_inactive: "Din registrering lyckades, men du behöver aktivera ditt konto innan du kan logga in."
       signed_up_but_locked: "Din registrering lyckades, men du behöver aktivera ditt konto innan du kan logga in."
