@@ -15,3 +15,18 @@ pl:
       locked: "Twoje konto zostało zablokowane."
       last_attempt: "Pozostała Ci jedna próba zanim Twoje konto zostanie zablokowane."
       not_found_in_database: "Nieprawidłowe %{authentication_keys} lub hasło."
+      timeout: "Sesja wygasła. Proszę zalogować się ponownie by kontynuować."
+      unauthenticated: "Musisz się zalogować lub zarejestrować, by kontynuować."
+      unconfirmed: "Aby kontynuować, proszę kliknąć link potwierdzający, który wysłaliśmy Ci przez e-mail"
+    mailer:
+      confirmation_instructions:
+        subject: "Instrukcje potwierdzenia"
+      reset_password_instructions:
+        subject: "Instrukcje dotyczące resetowania hasła"
+    omniauth_callbacks:
+      failure: "Nie była możliwa autoryzacja Ciebie jako %{kind} ponieważ \"%{reason}\"."
+      success: "Pomyślnie zidentyfikowany jako %{kind}."
+    passwords:
+      no_token: "Nie masz dostępu do tej strony, chyba że poprzez link do zresetowania hasła. Jeśli dostałeś się na nią poprzez link do zresetowania hasła, upewnij się, że adres URL jest kompletny."
+      send_instructions: "W ciągu kilku minut otrzymasz e-mail zawierający instrukcje dotyczące resetowania hasła."
+      send_paranoid_instructions: "Jeśli Twój adres e-mail znajduje się w naszej bazie danych, w ciągu kilku minut otrzymasz link, którego możesz użyć w celu zresetowania hasła."
