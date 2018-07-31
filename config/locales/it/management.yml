@@ -42,9 +42,7 @@ it:
       debates: Partecipare nei dibattiti
       vote_proposals: Partecipare alle votazioni finali
     print:
-      proposals_note: Le proposte maggiormente sostenute passeranno alla fase di votazione. Se saranno accettate dalla maggioranza, il Comune si impegna a realizzarla.
       proposals_title: 'Proposte:'
-      spending_proposals_note: I fondi per il bilancio partecipativo saranno assegnati ai progetti di investimento più votati.
     proposals:
       alert:
         unverified_user: L'utente non è stato verificato
