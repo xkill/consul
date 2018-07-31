@@ -219,8 +219,8 @@ sv:
         debate_start_date: Startdatum för diskussion
         debate_end_date: Slutdatum för diskussion
         draft_publication_date: Publiceringsdatum för utkast
-        allegations_start_date: Startdatum för utvärdering
-        allegations_end_date: Slutdatum för utvärdering
+        allegations_start_date: Startdatum för att kommentera utkast
+        allegations_end_date: Slutdatum för att kommentera utkast
         result_publication_date: Publiceringsdatum för resultat
       legislation/draft_version:
         title: Titel på versionen
@@ -303,7 +303,7 @@ sv:
             debate_end_date:
               invalid_date_range: måste vara på eller efter startdatum för debatten
             allegations_end_date:
-              invalid_date_range: måste vara på eller efter startdatum för utvärderingen
+              invalid_date_range: måste vara på eller efter startdatum för fasen för att kommentera utkast
         proposal:
           attributes:
             tag_list:
