@@ -117,6 +117,33 @@ zh-TW:
         author: "作者"
         title: "標題"
         question: "問題"
+        description: "說明"
+        terms_of_service: "服務條款"
+      user:
+        login: "電子郵件或用戶名"
+        email: "電郵"
+        username: "用戶名"
+        password_confirmation: "密碼確認"
+        password: "密碼"
+        current_password: "當前密碼"
+        phone_number: "電話號碼"
+        official_position: "正式職位"
+        official_level: "正式級別"
+        redeemable_code: "通過電子郵件收到的驗證代碼"
+      organization:
+        name: "組織名稱"
+        responsible_name: "組織的負責人"
+      spending_proposal:
+        administrator_id: "管理員"
+        association_name: "協會名稱"
+        description: "說明"
+        external_url: "鏈接到其他文檔"
+        geozone_id: "經營範圍"
+        title: "標題"
+      poll:
+        name: "名字"
+        starts_at: "開始日期"
+        ends_at: "截止日期"
       poll/question:
         description: "說明"
         external_url: "鏈接到其他文檔"
