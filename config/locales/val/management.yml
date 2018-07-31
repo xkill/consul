@@ -78,12 +78,9 @@ val:
       vote_proposals: Participar en les votacions finals
     print:
       proposals_info: Fes la teua proposta en http://url.consul
-      proposals_note: Les propostes més avalades seran dutes a votació. I si les accepta una majoría, l'Ajuntament les durà a terme.
       proposals_title: 'Propostes:'
       spending_proposals_info: Participa en http://url.consul
-      spending_proposals_note: Els pressupostos participatius s'invertiran en les propostes d'inversió més avalades.
       budget_investments_info: Participa en http://url.consul
-      budget_investments_note: Els pressupostos participatius s'invertiran en les propostes d'inversió més avalades.
     print_info: Imprimir esta informació
     proposals:
       alert:
@@ -106,7 +103,6 @@ val:
         unverified_user: Usuari no verificat
       create: Crear nou projecte
       filters:
-        heading: Concepte
         unfeasible: Projectes no factibles
       print:
         print_button: Imprimir
