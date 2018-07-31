@@ -285,6 +285,7 @@ zh-TW:
           attributes:
             document_number:
               not_in_census: '未通過人口普查核實'
+              already_voted: '這個提案已經被投票'
         site_customization/page:
           attributes:
             slug:
@@ -294,6 +295,10 @@ zh-TW:
             image:
               image_width: "寬度必須為%{required_width}像素"
               image_height: "高度必須為%{required_height}像素"
+        comment:
+          attributes:
+            valuation:
+              cannot_comment_valuation: '你不能對評估作評論'
       messages:
         record_invalid: "驗證失敗: %{errors}"
         restrict_dependent_destroy:
