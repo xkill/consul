@@ -48,7 +48,7 @@ sv:
       flagged_debates: Debatter
       flagged_investments: Budgetförslag
       proposals: Förslag
-      proposal_notifications: Förslagsnotifikationer
+      proposal_notifications: Förslagsaviseringar
       users: Blockera användare
     proposals:
       index:
@@ -99,14 +99,14 @@ sv:
           ignored: Markera som läst
         headers:
           moderate: Moderera
-          proposal_notification: Förslagsnotifikation
+          proposal_notification: Förslagsaviseringar
         hide_proposal_notifications: Dölj förslag
         ignore_flags: Markera som läst
         order: Sortera efter
         orders:
           created_at: Senaste
           moderated: Modererad
-        title: Förslagsnotifikationer
+        title: Förslagsaviseringar
     users:
       index:
         hidden: Blockerade
