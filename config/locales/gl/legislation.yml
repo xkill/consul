@@ -65,9 +65,6 @@ gl:
           help: Axuda sobre os procesos lexislativos
         section_footer:
           title: Axuda sobre procesos lexislativos
-          help_text_1: "Nos procesos participativos, o concello ofrécelle á cidadanía a oportunidade de participar na elaboración e modificación de normativa que lle afecta á cidade e de dar a súa opinión sobre algunhas accións que teñen previsto levar a cabo."
-          help_text_2: "As persoas rexistradas en %{org} poden participar con achegas na consulta pública de novas ordenanzas, regulamentos e direccións, entre outros. Os seus comentarios serán analizados pola área que corresponda e teranse en conta para a redacción final das normas."
-          help_text_3: "O concello tamén abre procesos para recibir achegas e opinións sobre accións municipais."
       phase_not_open:
         not_open: Esta fase aínda non está aberta
       phase_empty:
