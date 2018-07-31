@@ -1,11 +1,9 @@
 fr:
   pages:
-    census_terms: Pour confirmer ce compte, vous devez être âgé(e) de 16 ans ou plus, et avoir été recensé avec les données indiquées ci-dessus, lesquelles seront vérifiées. En acceptant le processus de vérification, vous donnez également votre consentement au recoupement de cette information, ainsi que les moyens de communication qui figurent dans ce fichier. Les données fournies seront intégrées et traitées dans le fichier indiqué dans les conditions d'utilisations du portail.
     conditions: Conditions d'utilisation
     general_terms: Conditions générales
     help:
       title: "%{org} est une plate-forme pour la participation citoyenne"
-      subtitle: "Dans %{org} vous pouvez créer des propositions, voter lors de consultations citoyennes, proposer des projets pour le budget participatif, prendre des décisions concernant les règlements municipaux et ouvrir des débats pour échanger avec d’autres."
       guide: "Ce guide détaille chacune des sections de la %{org} et comment elles fonctionnent."
       menu:
         debates: "Débats"
@@ -26,19 +24,11 @@ fr:
         title: "Propositions"
         description: "Dans la section %{link}, vous pouvez faire des propositions que la mairie pourrait réaliser. Les propositions ont besoin de soutiens, et si elles atteignent un nombre suffisant, elles sont soumises à un vote public. Les propositions approuvées par ces votes citoyens sont acceptées par le conseil municipal et réalisées."
         link: "propositions citoyennes"
-        feature_html: "Pour créer une proposition, vous devez vous inscrire à %{org}. Les propositions qui reçoivent le soutien de 1% des personnes ayant le droit de vote (%{supports} soutiens de personnes de plus de 16 ans inscrites) sont soumises à un vote. Pour soutenir des propositions, il est nécessaire de vérifier votre compte."
         image_alt: "Bouton pour soutenir une proposition"
-        figcaption_html: 'Bouton pour "Soutenir" une proposition.<br>Quand le nombre de supports requis est atteint, elle sera soumise au vote.'
       budgets:
         title: "Budget participatif"
         description: "La section %{link} permet aux citoyens de participer à la répartition du budget municipal."
         link: "budgets participatifs"
-        feature: "Via ce processus, chaque année, les citoyens créent, soutiennent et votent des projets. Les plus plébiscités sont financés par le budget municipal."
-        phase_1_html: "Entre janvier et début mars, les membres de %{org} peuvent <strong>présenter</strong>."
-        phase_2_html: "En mars, les personnes ayant proposé des projets doivent recueillir des soutiens pour qu'ils soient <strong>présélectionnés</strong>."
-        phase_3_html: "Entre avril et début mai, les experts du <strong>conseil municipal évaluent</strong> les projets qui sont plus ou moins soutenus et vérifient qu'ils sont réalisables."
-        phase_4_html: "Enfin, entre mai et juin, tous les citoyens peuvent <strong>voter</strong> pour les projets qui les intéressent le plus."
-        phase_5_html: "Après les avoir intégré dans les budget de l'année suivante et approuvés, le conseil municipal peut commencer à réaliser les projets gagnants."
         image_alt: "Différentes phases d’un budget participatif"
         figcaption_html: '"Phase de soutien" et "phase de vote" des budgets participatifs.'
       polls:
@@ -47,14 +37,10 @@ fr:
         link: "votes"
         feature_1: "Pour participer au vote, vous devez %{link} et avoir un compte vérifié."
         feature_1_link: "s’inscrire à %{org_name}"
-        feature_2: "Tous les électeurs inscrits de plus de 16 ans peuvent voter."
-        feature_3: "Les résultats de tous les votes sont contraignants pour le conseil municipal."
       processes:
         title: "Processus législatifs"
         description: "Dans la section des %{link} , les citoyens participent à l’élaboration et la modification des réglements qui s'appliquent à la ville et peuvent donner leur avis sur les politiques municipales lors des débats préalables."
         link: "processus législatifs"
-        feature: "Pour participer à un processus, vous devez %{sign_up} et vérifiez la page des %{link} régulièrement pour voir quels sont les règlements et les politiques en cours de discussion."
-        sign_up: "vous inscrire au %{org}"
       faq:
         title: "Problèmes techniques ?"
         description: "Lisez la FAQ et trouvez la réponse à vos questions."
