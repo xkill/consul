@@ -1200,9 +1200,9 @@ sv:
       destroy: Ta bort ämne
       index:
         add_tag: Lägg till ett nytt ämne för förslag
-        title: Ämnesområden för förslag
+        title: Ämnen för förslag
         topic: Ämne
-        help: "När en användare skapar ett förslag föreslås de följande ämnena som taggar."
+        help: "När en användare skapar ett förslag föreslås följande ämnen som taggar."
       name:
         placeholder: Skriv namnet på ämnet
     users:
