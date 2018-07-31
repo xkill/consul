@@ -62,9 +62,6 @@ id:
           help: Bantuan tentang undang-undang proses
         section_footer:
           title: Bantuan tentang undang-undang proses
-          help_text_1: "Dalam proses partisipatif, Dewan Kota menawarkan kepada warganya kesempatan untuk berpartisipasi dalam perancangan dan modifikasi peraturan, yang mempengaruhi kota dan untuk dapat memberikan pendapat mereka mengenai tindakan tertentu yang direncanakan untuk dilaksanakan."
-          help_text_2: "Orang yang terdaftar di %{org} dapat berpartisipasi dengan kontribusi dalam konsultasi publik mengenai tata cara, peraturan, dan pedoman baru, antara lain. Komentar anda dianalisis oleh daerah yang sesuai dan dipertimbangkan untuk penyusunan peraturan akhir."
-          help_text_3: "Dewan Kota juga membuka proses untuk menerima kontribusi dan pendapat tentang tindakan pemerintah kota."
       phase_not_open:
         not_open: Help about the legislation process
       phase_empty:
