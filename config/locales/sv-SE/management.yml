@@ -17,6 +17,7 @@ sv:
           reset_email_send: E-post skickat.
           reseted: Lösenordet återställd
           random: Generera nytt slumpmässigt lösenord
+          save: Spara lösenord
           print: Visa lösenord
           print_help: Du kommer kunna skriva ut lösenordet när det har sparats.
     account_info:
@@ -26,6 +27,7 @@ sv:
       email_label: 'E-post:'
       identified_label: 'Identifierad som:'
       username_label: 'Användarnamn:'
+    check: Kontrollera dokument
     dashboard:
       index:
         title: Förvaltning
@@ -64,7 +66,11 @@ sv:
       print_spending_proposals: Skriv ut budgetförslag
       support_spending_proposals: Stöd budgetförslag
       create_budget_investment: Skapa budgetförslag
+      print_budget_investments: Skriv ut budgetförslag
+      support_budget_investments: Stöd budgetförslag
+      users: Användarhantering
       user_invites: Skicka inbjudningar
+      select_user: Välj användare
     permissions:
       create_proposals: Skapa förslag
       debates: Delta i debatter
@@ -85,6 +91,10 @@ sv:
       create_proposal: Skapa förslag
       print:
         print_button: Skriv ut
+      index:
+        title: Stöd förslag
+    budgets:
+      create_new_investment: Skapa budgetförslag
     budget_investments:
       alert:
         unverified_user: Användaren är inte verifierad
