@@ -16,7 +16,6 @@ fa:
       confirmation_instructions:
         confirm_link: تایید حساب
         text: 'شما می توانید حساب ایمیل خود را در لینک زیر تأیید کنید:'
-        title: به پرتال دولت باز خوش آمدید 
         welcome: خوش آمدید 
       reset_password_instructions:
         change_link: تغییر کلمه عبور
