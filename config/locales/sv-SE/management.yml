@@ -16,7 +16,7 @@ sv:
           send_email: Skicka e-post för lösenordsåterställning
           reset_email_send: E-post skickat.
           reseted: Lösenordet återställd
-          random: Generera nytt slumpmässigt lösenord
+          random: Skapa ett slumpmässigt lösenord
           save: Spara lösenord
           print: Visa lösenord
           print_help: Du kommer kunna skriva ut lösenordet när det har sparats.
@@ -57,7 +57,7 @@ sv:
       if_existing_account: Om personen redan har ett användarkonto på webbplatsen,
       if_no_existing_account: Om personen ännu inte skapat ett användarkonto
       introduce_email: 'Fyll i e-postadressen för användarkontot:'
-      send_email: Skicka verifieringsmail
+      send_email: Skicka verifieringsmejl
     menu:
       create_proposal: Skapa förslag
       print_proposals: Skriv ut förslag
