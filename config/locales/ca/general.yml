@@ -9,9 +9,6 @@ ca:
     header:
       administration: Administración
       spending_proposals: Propostes d'inversió
-  proposals:
-    form:
-      proposal_question_example_html: "Ha de ser resumida en una pregunta la resposta de la qual siga Sí o No. <em>Ex. 'Està vostè d'acord en peatonalizar el carrer Major?'</em>"
   poll_questions:
     create_question: "crear pregunta"
   shared:
