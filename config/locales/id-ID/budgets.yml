@@ -48,11 +48,6 @@ id:
       see_results: Lihat hasil
       section_footer:
         title: Membantu dengan anggaran partisipatif
-        description: Dengan anggaran partisipatif warga memutuskan untuk proyek-proyek yang disajikan oleh tetangga ditakdirkan bagian dari anggaran kota.
-        help_text_1: "Partisipatif anggaran adalah proses di mana warga memutuskan langsung pada apa yang menghabiskan bagian dari anggaran kota. Setiap orang yang terdaftar lebih dari 16 tahun dapat mengusulkan suatu proyek investasi yang terpilih dalam fase warga mendukung."
-        help_text_2: "Yang paling memilih proyek-proyek yang dievaluasi dan disahkan untuk pemungutan suara final di mana mereka memutuskan tindakan yang akan dilakukan oleh Dewan Kota setelah anggaran kota tahun depan disetujui."
-        help_text_3: "Presentasi penganggaran partisipatif proyek berlangsung dari bulan januari dan lebih dari jangka waktu satu setengah bulan. Untuk berpartisipasi dan mengajukan proposal untuk seluruh kota dan / atau kabupaten / kota, anda harus mendaftar di %{org} dan memverifikasi akun anda."
-        help_text_4: "Untuk mendapatkan banyak dukungan dan suara mungkin, memilih deskriptif dan mudah dipahami judul untuk proyek anda. Maka anda memiliki ruang untuk mengembangkan pendekatan proposal anda. Menyediakan semua data dan penjelasan, dan bahkan dokumen dan gambar, untuk membantu peserta lain untuk lebih memahami apa yang anda usulkan."
     investments:
       form:
         tag_category_label: "Kategori"
