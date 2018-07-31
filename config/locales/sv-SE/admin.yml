@@ -168,6 +168,7 @@ sv:
           selected: Vald
           undecided: Obeslutat
           unfeasible: Ej genomförbart
+          min_total_supports: Minst stöd
           winners: Vinnare
           one_filter_html: "Nuvarande använda filter: <b><em>%{filter}</em></b>"
           two_filters_html: "Nuvarande använda filter: <b><em>%{filter}, %{advanced_filters}</em></b>"
@@ -538,7 +539,7 @@ sv:
       poll_booths: Adress för röststation
       poll_booth_assignments: Tilldela röststation
       poll_shifts: Hantera arbetspass
-      officials: Staden
+      officials: Representanter för staden
       organizations: Organisationer
       settings: Globala inställningar
       spending_proposals: Budgetförslag
@@ -638,6 +639,10 @@ sv:
         body_help_text: Så här kommer e-postmeddelandet se ut för mottagarna
         send_alert: Är du säker att du vill skicka nyhetsbrevet till %{n} mottagare?
     admin_notifications:
+      create_success: Avisering har skapats
+      update_success: Avisering har uppdaterats
+      send_success: Avisering har skickats
+      delete_success: Avisering har raderats
       index:
         section_title: Aviseringar
         new_notification: Ny avisering
@@ -650,17 +655,24 @@ sv:
         delete: Ta bort
         preview: Förhandsvisning
         view: Visa
+        empty_notifications: Det finns inga aviseringar att visa
       new:
         section_title: Ny avisering
       edit:
         section_title: Redigera avisering
       show:
+        section_title: Förhandsgranska avisering
         send: Skicka
+        will_get_notified: (%{n} användare kommer meddelas)
+        got_notified: (%{n} användare meddelades)
         sent_at: Skickas på
         title: Titel
         body: Text
         link: Länk
         segment_recipient: Mottagare
+        preview_guide: "Så här kommer användare se aviseringen:"
+        sent_guide: "Så här ser användarna aviseringen:"
+        send_alert: Är du säker på att du vill skicka denna avisering till %{n} användare?
     emails_download:
       index:
         title: Hämta e-postadresser
@@ -792,7 +804,7 @@ sv:
         officers_list: "Lista över funktionärer för denna röststation"
         no_officers: "Det finns inga funktionärer i denna röststation"
         recounts: "Rösträkning"
-        recounts_list: "Räkna om listan för denna röststation"
+        recounts_list: "Räkna rösterna för denna röststation"
         results: "Resultat"
         date: "Datum"
         count_final: "Slutgiltig rösträkning (av funktionärer)"
@@ -899,7 +911,7 @@ sv:
         title: "Rösträkning"
         no_recounts: "Det finns inga röster att räkna"
         table_booth_name: "Röststation"
-        table_total_recount: "Totala omräkningen (av ämbetsman)"
+        table_total_recount: "Total rösträkning (av funktionär)"
         table_system_count: "Röster (automatiskt)"
     results:
       index:
@@ -939,28 +951,28 @@ sv:
         edit: "Redigera röststation"
     officials:
       edit:
-        destroy: Ta bort 'Staden'-status
-        title: 'Staden: Redigera användare'
+        destroy: Ta bort 'Representant för staden'-status
+        title: 'Representanter för staden: Redigera användare'
       flash:
-        official_destroyed: 'Detaljer sparade: användaren är inte längre en ämbetsman'
-        official_updated: Detaljer för ämbetsman sparade
+        official_destroyed: 'Uppgifterna har sparats: användaren är inte längre en representant för staden'
+        official_updated: Uppgifter för representant för staden har sparats
       index:
-        title: Ämbetsmän
-        no_officials: Det finns inga ämbetsmän.
+        title: Representanter för staden
+        no_officials: Det finns inga representanter för staden.
         name: Namn
-        official_position: Officiella position
+        official_position: Titel
         official_level: Nivå
-      level_0: Inte officiell
+      level_0: Ej representant för staden
       level_1: Nivå 1
       level_2: Nivå 2
       level_3: Nivå 3
       level_4: Nivå 4
       level_5: Nivå 5
       search:
-        edit_official: Redigera offentliga kontor
-        make_official: Gör officiellt
-        title: 'Officiella positioner: användarsökning'
-        no_results: Officiella positioner hittades inte.
+        edit_official: Redigera representant för staden
+        make_official: Gör till representant för staden
+        title: 'Representanter för staden: Sök användare'
+        no_results: Inga representanter för staden hittades.
     organizations:
       index:
         filter: Filtrera
