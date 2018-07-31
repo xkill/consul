@@ -115,7 +115,7 @@ sv:
         without_interests: Följ förslag så vi kan ge dig rekommendationer
         disable: "Rekommenderade debatter kommer sluta visas om du avfärdar de. Du kan aktivera de igen under \"Mitt konto\"."
         actions:
-          success: "Nu är rekommenderade debatter inaktiverade för detta konto"
+          success: "Rekommenderade debatter har inaktiverats för kontot"
           error: "Ett fel har uppstått. Var vänlig och gå till \"Mitt konto\" för att manuellt inaktivera rekommenderade debatter"
       search_form:
         button: Sök
@@ -332,7 +332,7 @@ sv:
       proposal_video_url: Länk till extern video
       proposal_video_url_note: Lägg till en länk till YouTube eller Vimeo
       tag_category_label: "Kategorier"
-      tags_instructions: "Lägg till ämnesområden till förslaget. Du kan välja mellan de föreslagna kategorierna eller lägga till dina egna"
+      tags_instructions: "Tagga förslaget. Du kan välja från de föreslagna kategorier eller lägga till egna"
       tags_label: Taggar
       tags_placeholder: "Skriv de ämnesområden du vill använda, avgränsade med komma (',')"
       map_location: "Kartposition"
@@ -357,7 +357,7 @@ sv:
         without_interests: Följ förslag så vi kan ge dig rekommendationer
         disable: "Rekommenderade förslag kommer sluta visas om du avfärdar de. Du kan aktivera de igen under \"Mitt konto\""
         actions:
-          success: "Nu är rekommenderade förslag inaktiverade för detta konto"
+          success: "Rekommenderade förslag har inaktiverats för kontot"
           error: "Ett fel har uppstått. Var vänlig och gå till \"Mitt konto\" för att manuellt inaktivera rekommenderade förslag"
       retired_proposals: Förslag som dragits tillbaka
       retired_proposals_link: "Förslag som dragits tillbaka av förslagslämnaren"
@@ -379,7 +379,7 @@ sv:
       select_order_long: 'Du visar förslag enligt:'
       start_proposal: Skapa förslag
       title: Förslag
-      top: Veckans topp rankade
+      top: Veckans populäraste förslag
       top_link_proposals: Populäraste förslagen från varje kategori
       section_header:
         icon_alt: Förslagsikonen
@@ -791,7 +791,7 @@ sv:
       title: Stjärnmarkerade
     recommended:
       title: Rekommenderat innehåll
-      help: "Rekommendationerna baseras på ämnen och förslag som du följer."
+      help: "Rekommendationerna baseras på taggar för de debatter och förslag som du följer."
       debates:
         title: Rekommenderade debatter
         btn_text_link: Alla rekommenderade debatter
