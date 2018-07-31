@@ -1,1 +1,17 @@
 pl:
+  devise:
+    password_expired:
+      change_password: "Zmień hasło"
+      new_password: "Nowe hasło"
+      updated: "Hasło pomyślnie zaktualizowane"
+    confirmations:
+      confirmed: "Twoje konto zostało potwierdzone."
+      send_instructions: "W ciągu kilku minut otrzymasz e-mail zawierający instrukcje dotyczące resetowania hasła."
+      send_paranoid_instructions: "Jeśli Twój adres e-mail znajduje się w naszej bazie danych, w ciągu kilku minut otrzymasz e-mail zawierający instrukcje dotyczące resetowania hasła."
+    failure:
+      already_authenticated: "Jesteś już zalogowany."
+      inactive: "Twoje konto nie zostało jeszcze aktywowane."
+      invalid: "Nieprawidłowe %{authentication_keys} lub hasło."
+      locked: "Twoje konto zostało zablokowane."
+      last_attempt: "Pozostała Ci jedna próba zanim Twoje konto zostanie zablokowane."
+      not_found_in_database: "Nieprawidłowe %{authentication_keys} lub hasło."
