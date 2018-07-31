@@ -1,11 +1,9 @@
 gl:
   pages:
-    census_terms: Para verificar a conta hai que ter 16 años ou máis e estar empadroado, ademais de achegar os datos que se indicaron anteriormente, que serán contrastados. Aceptando o proceso de verificación aceptas dar o teu consentimento para contrastar esta información, así como os medios de contacto que figuren nos devanditos ficheiros. Os datos que achegues serán incorporados y tratados nun ficheiro indicado anteriormente nas condicións de uso do portal.
     conditions: Condicións de uso
     general_terms: Termos e condicións
     help:
       title: "%{org} é unha plataforma de participación cidadá"
-      subtitle: "En %{org} pódense facer propuestas, votar en consultas cidadás, presentar proxectos de orzamentos participativos, decidir a normativa municipal e abrir debates para intercambiar opinións con outras personas."
       guide: "Esta guía explica para que serven e como funcionan cada unha das seccións de %{org}."
       menu:
         debates: "Debates"
@@ -24,19 +22,11 @@ gl:
         title: "Propostas"
         description: "Na sección %{link} podes formular propostas para que o Concello as leve a cabo. As propostas obteñen apoios e se alcanzan abondos sométense a votación cidadá. As propostas aprobadas nestas votacións cidadás son asumidas polo Concello e lévanse a cabo."
         link: "propostas cidadás"
-        feature_html: "Para crear unha proposta hai que rexistrarse en %{org}. As propostas que conseguen o apoio na web do 1% da xente con dereito a voto (%{supports} apoios de persoas maiores de 16 anos empadroadas) pasan a votación. Para apoiar propostas é necesario verificar a túa conta."
         image_alt: "Botón para apoiar unha proposta"
-        figcaption_html: 'Botón para "apoiar" unha proposta. <br>Cando alcance o número de apoios pasará a votación.'
       budgets:
         title: "Orzamentos participativos"
         description: "A sección de %{link} serve para que a xente decida de maneira directa a que se destina unha parte do orzamento municipal."
         link: "orzamentos participativos"
-        feature: "Neste proceso cada ano a xente formula, apoia e vota proxectos. Os máis votados pasan a financiarse co orzamento municipal."
-        phase_1_html: "Entre xaneiro e principios de marzo, as persoas rexistradas en %{org} poden <strong>presentar proxectos</strong>."
-        phase_2_html: "En marzo, as persoas que fixeron propostas teñen que obter apoios, a modo de <strong>fase de preselección</strong>."
-        phase_3_html: "Entre abril e comezos de maio, o persoal técnico do Concello <strong>taxan os proxectos</strong> por orde de máis a menos número de apoios e comproban que son viables."
-        phase_4_html: "Para rematar, entre maio e xuño, toda a cidadanía pode <strong>votar</strong> os proxectos que máis lle interese."
-        phase_5_html: "A partir da aprobación dos orzamentos ao ano seguinte, o concello comeza a levar a cabo os proxectos gañadores."
         image_alt: "Diferentes fases dun orzamento participativo"
         figcaption_html: 'Fase de "apoios" e de "votación" dos orzamentos participativos.'
       polls:
@@ -45,8 +35,6 @@ gl:
         link: "votacións"
         feature_1: "Para participares na votación, tes que %{link} e verificar a túa conta."
         feature_1_link: "rexistrarte en %{org_name}"
-        feature_2: "Poden votar todas as persoas empadroadas na cidade maiores de 16 anos."
-        feature_3: "Os resultados de todas as votacións son vinculantes para o goberno municipal."
       faq:
         title: "Problemas técnicos?"
         description: "Le as preguntas frecuentes e resolve as túas dúbidas."
