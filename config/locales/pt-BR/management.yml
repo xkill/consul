@@ -59,12 +59,9 @@ pt-BR:
       vote_proposals: Votar propostas
     print:
       proposals_info: Crie sua proposta em http://url.consul
-      proposals_note: As propostas mais apoiadas serão votadas. E se forem aceitas por uma maioria, a Prefeitura irá realizá-las.
       proposals_title: 'Propostas:'
       spending_proposals_info: Participar em http://url.consul
-      spending_proposals_note: O orçamento participativo será atribuído ao investimento orçamentário mais votado.
       budget_investments_info: Participar em http://url.consul
-      budget_investments_note: O orçamento participativo será atribuído ao investimento orçamentário mais votado.
     print_info: Imprimir esta informação
     proposals:
       alert:
@@ -77,7 +74,6 @@ pt-BR:
         unverified_user: Usuário não está verificado
       create: Criar um investimento orçamentário
       filters:
-        heading: Conceito
         unfeasible: Investimentos inviáveis
       print:
         print_button: Imprimir
