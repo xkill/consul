@@ -43,11 +43,11 @@ zh-TW:
       edit:
         editing: 編輯橫幅
         form:
-          submit_button: 保存更改
+          submit_button: 儲存更改
       errors:
         form:
           error:
-            other: "有錯誤阻止此橫幅被保存"
+            other: "有錯誤阻止此橫幅被儲存"
       new:
         creating: 創建橫幅
     activity:
@@ -108,6 +108,20 @@ zh-TW:
           other: "1組預算標題\n%{count} 組預算標題"
       form:
         group: 組名字
+        no_groups: 尚未創建任何小組。 每個用戶只能在每個組中的一個標題中投票。
+        add_group: 添加新組
+        create_group: 創建組
+        edit_group: 編輯組
+        submit: 儲存組
+        heading: 標題名稱
+        add_heading: 添加標題
+        amount: 數量
+        population: "人口 (可選擇填寫)"
+        population_help_text: "此數據僅用於計算參與統計資訊"
+        save_heading: 儲存標題
+        no_heading: 此組沒有指定的標題。
+        table_heading: 標題
+        table_amount: 數量
         table_population: 人口
         population_info: "預算標題 \"人口\" 欄位用於統計目的, 在預算結束時顯示每個標題, 代表一個地區與人口百分比投票率。該欄位是可選擇填寫的, 因此如果不適用, 您可以將其留空。"
         max_votable_headings: "用戶可投票的最大標題數"
@@ -121,7 +135,7 @@ zh-TW:
         description_help_text: 當此文本將顯示在頁眉中，則表示階段處於活躍狀態
         enabled: 啟用階段
         enabled_help_text: 這一階段將在預算的階段時間內公開, 也會為其他目的而活躍
-        save_changes: 保存更改
+        save_changes: 儲存更改
     budget_investments:
       index:
         heading_filter_all: 所有標題
@@ -161,3 +175,5 @@ zh-TW:
           feasible: "可行 (%{price})"
           unfeasible: "不可行"
           undecided: "未定"
+        selected: "已選擇"
+        select: "選擇"
