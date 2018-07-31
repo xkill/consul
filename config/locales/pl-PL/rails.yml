@@ -51,6 +51,28 @@ pl:
   datetime:
     distance_in_words:
       half_a_minute: pół minuty
+  errors:
+    messages:
+      accepted: musi być zaakceptowane
+      blank: nie może być puste
+      present: musi być puste
+      confirmation: nie pasuje do %{attribute}
+      empty: nie może być puste
+      equal_to: musi się równać %{count}
+      even: musi być równe
+      exclusion: jest zarezerwowane
+      greater_than: musi być większe niż %{count}
+      greater_than_or_equal_to: musi być większe lub równe %{count}
+      inclusion: nie znajduje się na liście
+      invalid: jest nieprawidłowe
+      less_than: musi być mniejsze niż %{count}
+      less_than_or_equal_to: musi być mniejsze lub równe %{count}
+      model_invalid: "Sprawdzanie poprawności nie powiodło się: %{errors}"
+      not_a_number: nie jest liczbą
+      not_an_integer: musi być liczbą całkowitą
+      odd: musi być nieparzysta
+      required: musi istnieć
+      taken: jest zajęte
   number:
     human:
       decimal_units:
