@@ -31,11 +31,11 @@ sv:
       subject: "Ditt budgetförslag '%{code}' har markerats som ej genomförbart"
       unfeasible_html: "Från kommunfullmäktige vill vi tacka för ditt deltagande i <strong>medborgarbudgeten</strong>. Tyvärr kommer ditt förslag <strong>'%{title}'</strong> att uteslutas från den här processen av följande anledning:"
     proposal_notification_digest:
-      info: "Här är de nya meddelandena från förslagslämnarna till de förslag som du stöder på %{org_name}."
-      title: "Meddelanden om förslag på %{org_name}"
+      info: "Här är de senaste aviseringarna från förslagslämnarna till de förslag som du stöder på %{org_name}."
+      title: "Aviseringar om förslag på %{org_name}"
       share: Dela förslaget
       comment: Kommentera förslaget
-      unsubscribe: "Gå till %{account} och avmarkera 'Få sammanfattningar av meddelanden om förslag', om du inte längre vill få meddelanden om förslag."
+      unsubscribe: "Gå till %{account} och avmarkera 'Få sammanfattningar av aviseringar om förslag', om du inte längre vill få aviseringar om förslag."
       unsubscribe_account: Mitt konto
     direct_message_for_receiver:
       subject: "Du har fått ett nytt meddelande"
