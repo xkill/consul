@@ -237,7 +237,7 @@ sv:
       management: Förvaltning
       moderation: Moderering
       valuation: Bedömning
-      officing: Valarbetare
+      officing: Funktionärer
       help: Hjälp
       my_account_link: Mitt konto
       my_activity_link: Min aktivitet
@@ -358,7 +358,7 @@ sv:
         one: " med ämne '%{topic} '"
         other: " med ämne '%{topic} '"
       orders:
-        confidence_score: högst betygsatt
+        confidence_score: högst rankade
         created_at: senaste
         hot_score: mest aktiva
         most_commented: mest kommenterade
@@ -533,7 +533,7 @@ sv:
         null_votes: "Ogiltiga"
       results:
         title: "Frågor"
-        most_voted_answer: "Mest utvald svar: "
+        most_voted_answer: "Högst rankade svar: "
   poll_questions:
     create_question: "Skapa fråga"
     show:
@@ -708,8 +708,8 @@ sv:
       debates: Debatter
       proposals: Förslag
       comments: Kommentarer
-      proposal_votes: Röster om förslag
-      debate_votes: Röster om debatter
+      proposal_votes: Röster på förslag
+      debate_votes: Röster på debatter
       comment_votes: Röster på kommentarer
       votes: Totalt antal röster
       verified_users: Verifierade användare
@@ -866,4 +866,4 @@ sv:
       text: Du behöver %{sign_in} eller %{sign_up} för att kommentera dokumentet. Markera sedan texten du vill kommentera och klicka på knappen med pennan.
       text_sign_in: logga in
       text_sign_up: registrera dig
-      title: Hur kan jag kommentera det här dokumentet?
+      title: Hur kan jag kommentera på det här dokumentet?
