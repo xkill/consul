@@ -81,8 +81,8 @@ sv:
         geozone_filter_all: Alla stadsdelar
         filters:
           valuation_open: Pågående
-          valuating: Under bedömning
-          valuation_finished: Bedömning avslutad
+          valuating: Under kostnadsberäkning
+          valuation_finished: Kostnadsberäkning avslutad
         title: Budgetförslag för medborgarbudget
         edit: Redigera
       show:
@@ -102,7 +102,7 @@ sv:
         feasible: Genomförbart
         not_feasible: Ej genomförbart
         undefined: Odefinierat
-        valuation_finished: Bedömning avslutad
+        valuation_finished: Kostnadsberäkning avslutad
         time_scope: Tidsram
         internal_comments: Interna kommentarer
         responsibles: Ansvariga
