@@ -43,6 +43,8 @@ sv:
       user:
         recommendations: Rekommendationer
         skip_verification: Hoppa över användarverifiering
+        recommendations_on_debates: Rekommenderade debatter
+        recommendations_on_proposals: Rekommenderade förslag
       community: Diskussion om budgetförslag
       map: Geografisk plats för budgetförslag
       allow_images: Tillåt uppladdning och visning av bilder
