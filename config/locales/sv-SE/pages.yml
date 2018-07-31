@@ -1,11 +1,9 @@
 sv:
   pages:
-    census_terms: För att verifiera kontot måste du vara 16 år eller äldre och registrera dig med ovan angivna uppgifter, vilka kommer att granskas. Genom att godkänna verifieringsprocessen bekräftar du att informationen är korrekt, inklusive de kontaktuppgifter som angetts. Uppgifterna kommer att sparas och behandlas i en databas enligt användningsvillkoren för portalen.
     conditions: Regler och användarvillkor
     general_terms: Regler och villkor
     help:
       title: "%{org} är en plattform för medborgardeltagande"
-      subtitle: "På %{org} kan du lägga förslag, delta i omröstningar, ge förslag till medborgarbudgetar, besluta i lokala frågor och debattera med andra."
       guide: "Den här guiden förklarar de olika delarna av %{org} och hur de fungerar."
       menu:
         debates: "Debatter"
@@ -26,19 +24,11 @@ sv:
         title: "Förslag"
         description: "I %{link}-delen kan du skriva förslag som du vill att kommunen ska genomföra. Förslagen behöver få tillräckligt med stöd för att gå vidare till omröstning. De förslag som vinner en omröstning kommer att genomföras av kommunen."
         link: "medborgarförslag"
-        feature_html: "För att skapa ett förslag behöver du registrera dig på %{org}. De förslag som får stöd av 1% av de röstberättigade invånarna (%{supports} är för personer över 16 år som är registrerade på webbplatsen) går vidare till omröstning. För att kunna stödja förslag behöver du ha ett verifierat konto."
         image_alt: "Knapp för att stödja förslag"
-        figcaption_html: 'Knapp för att "stödja" ett förslag.<br>När förslaget fått tillräckligt med stöd går det vidare till omröstning.'
       budgets:
         title: "Medborgarbudget"
         description: "I %{link}-delen beslutar invånarna om hur en del av stadens budget ska användas."
         link: "medborgarbudgetar"
-        feature: "Varje år skapar, stöder och röstar medborgarna på projekt. De projekt som fått mest stöd bekostas av stadens budget."
-        phase_1_html: "Från januari till början av mars kan alla som är registrerade på %{org} <strong>föreslå projekt</strong>."
-        phase_2_html: "Under mars månad samlar förslagslämnarna stöd i en <strong>första urvalsprocess</strong>."
-        phase_3_html: "Från april till början av maj <strong>rangordnar</strong> experter från staden projekten efter hur mycket stöd de fått, och bedömer om de är genomförbara."
-        phase_4_html: "Från maj till juni kan medborgare slutligen <strong>rösta</strong> på de projekt de gillar bäst."
-        phase_5_html: "Från det att budgeten för kommande år godkänts börjar stadsfullmäktige genomföra de vinnande projekten."
         image_alt: "Olika faser av en medborgarbudget"
         figcaption_html: '"Stöd"- och "Omröstnings"-faser av en medborgarbudget.'
       polls:
@@ -47,14 +37,10 @@ sv:
         link: "omröstningar"
         feature_1: "För att delta i omröstningen måste du %{link} och verifiera ditt konto."
         feature_1_link: "registrera dig på %{org_name}"
-        feature_2: "Alla verifierade medborgare över 16 år har möjlighet att rösta."
-        feature_3: "Resultaten av omröstningar är bindande för kommunfullmäktige."
       processes:
         title: "Processer"
         description: "I %{link}-delen är medborgare med i processen att skriva och kommentera nya policydokument som rör staden och kan kommentera existerande dokument."
         link: "processer"
-        feature: "För att delta i processen behöver du %{sign_up} och regelbundet kontrollera %{link}-sidan för att se vilka dokument och policies som diskuteras."
-        sign_up: "registrera dig på %{org}"
       faq:
         title: "Har du tekniska problem?"
         description: "Läs de vanligaste frågorna och svaren."
