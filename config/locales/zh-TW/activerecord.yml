@@ -1,1 +1,41 @@
 zh-TW:
+  activerecord:
+    models:
+      activity:
+        other: "活動"
+      budget:
+        other: "預算"
+      budget/investment:
+        other: "投資"
+      budget/investment/milestone:
+        other: "里程碑"
+      budget/investment/status:
+        other: "投資狀態"
+      comment:
+        other: "評論"
+      tag:
+        other: "標籤"
+      user:
+        other: "用戶"
+      moderator:
+        other: "版主"
+      administrator:
+        other: "管理員"
+      valuator:
+        other: "評估員"
+      valuator_group:
+        other: "評估小組"
+      newsletter:
+        other: "通訊"
+      vote:
+        other: "票"
+      organization:
+        other: "組織"
+      poll/booth:
+        other: "攤位"
+      poll/officer:
+        other: "人員"
+      proposal:
+        other: "公民提議"
+      spending_proposal:
+        other: "投資項目"
