@@ -6,6 +6,7 @@ sv:
       index:
         title: Omröstningskontor
         info: Här kan du granska användardokumentation och spara resultat från omröstningar
+        no_shifts: Du har inga arbetspass idag.
     menu:
       voters: Godkänn identitetshandling
       total_recounts: Resultat av omröstning
@@ -57,6 +58,7 @@ sv:
         table_poll: Omröstning
         table_status: Omröstningsstatus
         table_actions: Åtgärder
+        not_to_vote: Personen har bestämt sig för att inte rösta denna gång
       show:
         can_vote: Kan rösta
         error_already_voted: Du har redan deltagit i den här omröstningen
