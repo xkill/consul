@@ -132,9 +132,6 @@ gl:
         description: Comeza un debate para compartir puntos de vista con outras persoas sobre os temas que te preocuparen.
         help_text_1: "O espazo de debates cidadáns está dirixido para que calquera persoa poida expor temas que lle preocupan e sobre os que queira compartir puntos de vista con outras persoas."
         help_text_2: 'Para abrir un debate é preciso rexistrarse en %{org}. As persoas xa rexistradas tamén poden comentar os debates que estean abertos e valoralos cos botóns de ''Estou de acordo'' ou ''Non estou de acordo'' que se atopan en cada un deles.'
-        help_text_3: "Ten en conta que un debate non activa ningún mecanismo de actuación concreto. Se queres facer unha %{proposal} para a cidade ou formular algún proxecto de %{budget} cando se abra a convocatoria, vai á sección correspondente."
-        proposals_link: proposta
-        budget_link: orzamentos participativos
     new:
       form:
         submit_button: Comezar un debate
@@ -206,17 +203,11 @@ gl:
       contact_us: Para asistencia técnica entra en
       copyright: CONSUL, %{year}
       description: Este portal usa a %{consul} que é %{open_source}. De Madrid, para o mundo enteiro.
-      faq: Asistencia técnica
-      open_data_text: Todos os datos do Concello son teus.
-      open_data_title: Datos abertos
       open_source: software libre
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: Decide como debe ser a cidade que queres.
       participation_title: Participación
       privacy: Política de privacidade
-      transparency_text: Obtén cualquera información sobre a cidade.
-      transparency_title: Transparencia
-      transparency_url: https://transparencia.madrid.es
     header:
       administration_menu: Admin
       administration: Administración
@@ -224,10 +215,6 @@ gl:
       collaborative_legislation: Procesos lexislativos
       debates: Debates
       external_link_blog: Blog
-      external_link_opendata: Datos abertos
-      external_link_opendata_url: http://datos.madrid.es
-      external_link_transparency: Transparencia
-      external_link_transparency_url: https://transparency.consul
       locale: 'Idioma:'
       logo: Logo de CONSUL
       management: Xestión
@@ -331,7 +318,6 @@ gl:
       geozone: Ámbito de actuación
       proposal_external_url: Ligazón a documentación adicional
       proposal_question: Pregunta da proposta
-      proposal_question_example_html: "Debe ser resumida nunha pregunta cuxa resposta sexa Si ou Non. <em>Ej. 'Está vostede de acordo en peonalizar a rúa Mayor?'</em>"
       proposal_responsible_name: Nome e apelidos da persoa que fai esta proposta
       proposal_responsible_name_note: "(individualmente ou como representante dun colectivo; non se mostrará publicamente)"
       proposal_summary: Resumo da proposta
@@ -392,10 +378,6 @@ gl:
         help: Axuda sobre as propostas
       section_footer:
         title: Axuda sobre as propostas
-        description: Fai unha proposta cidadá. Se obtén os apoios suficientes e para á votación, podes conseguir que toda a cidadanía decida como quere que sexa a nosa cidade.
-        help_text_1: "As propostas cidadás son unha oportunidade para que a veciñanza e os colectivos decidan directamente como queren que sexa a súa cidade. Calquera persoa pode facer unha proposta sobre un tema que lle interese ou que lle preocupe para que o concello a leve a cabo, despois de conseguir os apoios suficientes e de se someter a votación cidadá."
-        help_text_2: "Para creares unha proposta, debes rexistrarte en %{org}. As propostas que consigan o apoio do 1% de usuarios na web pasan á votación. Para apoiares propostas é necesario ter unha conta verificada."
-        help_text_3: "Convócase unha votación cidadá cando as propostas conseguen os apoios necesarios. Logo de se levar a cabo, se hai máis xente a favor que en contra, o concello asume a proposta e lévaa a cabo."
     new:
       form:
         submit_button: Crear proposta
@@ -420,7 +402,6 @@ gl:
         zero: Sen comentarios
         one: 1 comentario
         other: "%{count} comentarios"
-      reason_for_supports_necessary: 2% do censo
       support: Apoiar
       support_title: Apoiar esta proposta
       supports:
@@ -434,8 +415,6 @@ gl:
       supports_necessary: "%{number} apoios necesarios"
       total_percent: 100%
       archived: "Esta proposta foi arquivada e xa non pode recoller apoios."
-      successful: "Esta proposta acadou os apoios necesarios e pasará á %{voting}."
-      voting: "próxima votación"
     show:
       author_deleted: Usuario eliminado
       code: 'Código da proposta:'
@@ -485,9 +464,6 @@ gl:
         help: Axuda sobre as votacións
       section_footer:
         title: Axuda sobre as votacións
-        description: Rexístrate para poder votar as propostas cidadás e as cuestións que o concello pregunta á súa veciñanza. Toma decisións municipais de forma directa.
-        help_text_1: "As votacións convócanse cando unha proposta cidadá acada o 1% dos apoios do censo con dereito a voto. Nas votacións poden incluírse cuestións que o concello somete a decisión directa da cidadanía."
-        help_text_2: "Para participares na próxima votación tes que rexistrarte en %{org} e verificares a túa conta. Poden votar todas as persoas na cidade maiores de 16 anos. Os resultados de todas as votacións serán vinculantes para o goberno."
     show:
       already_voted_in_booth: "Xa participaches nesta votación en urnas presenciais polo que non podes volver participar."
       already_voted_in_web: "Xa participaches nesta votación. Se volves votar, modificarás o teu voto anterior."
