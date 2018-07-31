@@ -11,6 +11,7 @@ sv:
     email_verification:
       click_here_to_verify: den här länken
       instructions_2_html: Det här e-postmeddelandet är för att verifiera ditt konto med <b>%{document_type} %{document_number}</b>. Klicka inte på länken ovan om de inte tillhör dig.
+      instructions_html: Du måste klicka på %{verification_link} för att slutföra verifieringen av ditt användarkonto.
       subject: Bekräfta din e-postadress
       thanks: Tack så mycket.
       title: Bekräfta kontot via länken nedan
@@ -43,6 +44,7 @@ sv:
       title_html: "Du har skickat ett meddelande till <strong>%{receiver}</strong> med innehållet:"
     user_invite:
       ignore: "Om du inte har begärt denna inbjudan oroa inte dig, du kan ignorera detta mail."
+      text: "Tack för att du registrerat dig på %{org}! Nu kan du snart vara med och delta, fyll bara i det här formuläret:"
       thanks: "Tack så mycket."
       title: "Välkommen till %{org}"
       button: Slutför registrering
