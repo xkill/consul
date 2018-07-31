@@ -46,4 +46,4 @@ sv:
       incoming_poll: "Kommande omröstning"
       recounting_poll: "Rösträkning"
       expired_poll_without_stats: "Avslutad omröstning (utan statistik eller resultat)"
-      expired_poll_with_stats: "Avslutad omröstning (med statistik eller resultat)"
+      expired_poll_with_stats: "Avslutad omröstning (med statistik och resultat)"
