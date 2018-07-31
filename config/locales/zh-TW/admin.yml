@@ -26,3 +26,31 @@ zh-TW:
       banner:
         title: 標題
         description: 說明
+        target_url: 鏈接
+        sections:
+          homepage: 主網頁
+          debates: 辯論
+          proposals: 建議
+          budgets: 參與性預算編制
+          help_page: 幫助頁
+        background_color: 背景色
+        font_color: 字體色
+      edit:
+        editing: 編輯橫幅
+        form:
+          submit_button: 保存更改
+      errors:
+        form:
+          error:
+            other: "有錯誤阻止此橫幅被保存"
+      new:
+        creating: 創建橫幅
+    activity:
+      show:
+        action: 行動
+        actions:
+          block: 封鎖
+          hide: 隱藏
+          restore: 恢復
+        by: 審核者
+        content: 內容
