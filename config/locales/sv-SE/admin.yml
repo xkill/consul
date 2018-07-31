@@ -744,12 +744,12 @@ sv:
       new:
         add_shift: "Lägg till arbetspass"
         shift: "Uppdrag"
-        shifts: "Växlingar i denna monter"
+        shifts: "Arbetspass i denna röststation"
         date: "Datum"
         task: "Uppgift"
         edit_shifts: Redigera arbetspass
         new_shift: "Nytt arbetspass"
-        no_shifts: "Denna monter har inga växlingar"
+        no_shifts: "Denna röststation har inga arbetspass"
         officer: "Valarbetare"
         remove_shift: "Ta bort"
         search_officer_button: Sök
@@ -785,22 +785,22 @@ sv:
         destroy: "Denna röststation är inte längre tilldelad"
         create: "Röststation tilldelad"
         error_destroy: "Ett fel uppstod när du tog bort röststationens tilldelning"
-        error_create: "Ett fel uppstod när du tilldelade mätningen till montern"
+        error_create: "Ett fel uppstod när röststationen tilldelades omröstningen"
       show:
         location: "Plats"
-        officers: "Valarbetare"
-        officers_list: "Lista över valarbetare för denna vallokal"
-        no_officers: "Det finns inga valarbetare i denna vallokal"
+        officers: "Funktionärer"
+        officers_list: "Lista över funktionärer för denna röststation"
+        no_officers: "Det finns inga funktionärer i denna röststation"
         recounts: "Rösträkning"
-        recounts_list: "Räkna om lista för denna monter"
+        recounts_list: "Räkna om listan för denna röststation"
         results: "Resultat"
         date: "Datum"
         count_final: "Slutlig omräkning (av valarbetare)"
         count_by_system: "Röster (automatisk)"
         total_system: Totalt antal röster (automatiskt)
       index:
-        booths_title: "Lista över montrar"
-        no_booths: "Det finns inga montrar som är tilldelade till denna opinionsundersökning."
+        booths_title: "Lista över röststationer"
+        no_booths: "Det finns inga tilldelade röststationer till denna omröstning."
         table_name: "Namn"
         table_location: "Plats"
     polls:
@@ -823,7 +823,7 @@ sv:
         submit_button: "Uppdatera omröstning"
       show:
         questions_tab: Frågor
-        booths_tab: Röstbås
+        booths_tab: Röststation
         officers_tab: Valarbetare
         recounts_tab: Rösträkning
         results_tab: Resultat
@@ -898,7 +898,7 @@ sv:
       index:
         title: "Rösträkning"
         no_recounts: "Det finns inga röster att räkna"
-        table_booth_name: "Vallokal"
+        table_booth_name: "Röststation"
         table_total_recount: "Totala omräkningen (av ämbetsman)"
         table_system_count: "Röster (automatiskt)"
     results:
@@ -912,31 +912,31 @@ sv:
         table_answer: Svar
         table_votes: Röster
       results_by_booth:
-        booth: Monter
+        booth: Röststation
         results: Resultat
         see_results: Visa resultat
-        title: "Resultat av monter"
+        title: "Röststationens resultat"
     booths:
       index:
-        title: "Lista över aktiva vallokaler"
+        title: "Lista över aktiva röststationer"
         no_booths: "Det finns inga aktiva valstationer för den kommande omröstningen."
-        add_booth: "Lägg till monter"
+        add_booth: "Lägg till röststation"
         name: "Namn"
         location: "Plats"
         no_location: "Ingen plats"
       new:
-        title: "Ny monter"
+        title: "Ny röststation"
         name: "Namn"
         location: "Plats"
-        submit_button: "Skapa monter"
+        submit_button: "Skapa röststation"
       edit:
-        title: "Redigera monter"
-        submit_button: "Uppdatera monter"
+        title: "Redigera röststation"
+        submit_button: "Uppdatera röststation"
       show:
         location: "Plats"
       booth:
         shifts: "Hantera arbetspass"
-        edit: "Redigera monter"
+        edit: "Redigera röststation"
     officials:
       edit:
         destroy: Ta bort 'Officiella' status
@@ -1030,7 +1030,7 @@ sv:
     shared:
       booths_search:
         button: Sök
-        placeholder: Sök vallokal efter namn
+        placeholder: Sök röststation efter namn
       poll_officers_search:
         button: Sök
         placeholder: Sök valarbetare
