@@ -186,7 +186,7 @@ sv:
     poll/question/answer: Svar
     user: Konto
     verification/sms: telefon
-    signature_sheet: Underskriftspapper
+    signature_sheet: Namninsamling
     document: Dokument
     topic: Ämne
     image: Bild
@@ -379,10 +379,10 @@ sv:
       select_order_long: 'Du visar förslag enligt:'
       start_proposal: Skapa förslag
       title: Förslag
-      top: Veckans topp
+      top: Veckans topp rankade
       top_link_proposals: Populäraste förslagen från varje kategori
       section_header:
-        icon_alt: Förslag-ikonen
+        icon_alt: Förslagsikonen
         title: Förslag
         help: Hjälp med förslag
       section_footer:
@@ -425,7 +425,7 @@ sv:
       supports_necessary: "behöver %{number} röster"
       total_percent: 100%
       archived: "Förslaget har arkiverats och kan inte längre stödjas."
-      successful: "Förslaget har uppnått tillräckligt med stöd."
+      successful: "Förslaget har fått tillräckligt med stöd."
     show:
       author_deleted: Användaren är borttagen
       code: 'Förslagskod:'
