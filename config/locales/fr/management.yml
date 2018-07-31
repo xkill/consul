@@ -78,12 +78,9 @@ fr:
       vote_proposals: Voter sur des propositions
     print:
       proposals_info: Faites votre proposition sur http://url.consul
-      proposals_note: Les propositions les plus soutenues seront soumises au vote. Si elles sont acceptées par la majorité, la mairie les exécutera.
       proposals_title: 'Propositions :'
       spending_proposals_info: Participer sur http://url.consul
-      spending_proposals_note: Le budget participatif sera attribué à la proposition d'investissement ayant le plus de votes.
       budget_investments_info: Participer sur http://url.consul
-      budget_investments_note: Le budget participatif sera attribué à la proposition d'investissement ayant le plus de votes.
     print_info: Imprimer cette information
     proposals:
       alert:
@@ -106,7 +103,6 @@ fr:
         unverified_user: Utilisateur non vérifié
       create: Créer un nouveau projet
       filters:
-        heading: Concept
         unfeasible: Projets infaisables
       print:
         print_button: Imprimer
