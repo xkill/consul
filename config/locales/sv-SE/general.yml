@@ -526,7 +526,7 @@ sv:
         total_votes: "Totalt antal röster"
         votes: "RÖSTER"
         web: "WEBB"
-        booth: "VALSTATION"
+        booth: "Röststation"
         total: "TOTALT"
         valid: "Giltiga"
         white: "Blankröster"
