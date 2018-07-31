@@ -162,8 +162,8 @@ sv:
         password: "Lösenord"
         current_password: "Nuvarande lösenord"
         phone_number: "Telefonnummer"
-        official_position: "Tjänsteman"
-        official_level: "Tjänstemannanivå"
+        official_position: "Titel"
+        official_level: "Tjänstepersonnivå"
         redeemable_code: "Mottagen bekräftelsekod"
       organization:
         name: "Organisationens namn"
