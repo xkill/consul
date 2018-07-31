@@ -78,12 +78,9 @@ de:
       vote_proposals: Über Vorschläge abstimmen
     print:
       proposals_info: Erstellen Sie Ihren Antrag auf http://url.consul
-      proposals_note: Die am meisten unterstützten Anträge werden gewählt. Wenn sie von der Mehrheit akzeptiert werden, wird der Stadtrat sie umsetzen.
       proposals_title: 'Vorschläge:'
       spending_proposals_info: Auf http://url.consul teilnehmen
-      spending_proposals_note: Bürgerhaushalt wird der Budgetinvestition mit den meisten Stimmen zugeteilt.
       budget_investments_info: Auf http://url.consul teilnehmen
-      budget_investments_note: Bürgerhaushalt wird der Budgetinvestition mit den meisten Stimmen zugeteilt.
     print_info: Diese Info drucken
     proposals:
       alert:
@@ -106,7 +103,6 @@ de:
         unverified_user: Der Benutzer ist nicht verifiziert
       create: Eine Budgetinvestitionen erstellen
       filters:
-        heading: Konzept
         unfeasible: Undurchführbare Investition
       print:
         print_button: Drucken
