@@ -14,8 +14,8 @@ sv:
         proposal: Delta i diskussionen om förslaget. En aktiv diskussion kan leda till förbättringar av förslaget, ge det större spridning och ökat stöd.
         investment: Delta i diskussionen om budgetförslaget. En aktiv diskussion kan leda till förbättringar av förslaget, ge det större spridning och ökat stöd.
       create_first_community_topic:
-        first_theme_not_logged_in: Inga ämnen finns tillgängliga, skapa det första.
-        first_theme: Skapa det första ämnet i gemenskapen
+        first_theme_not_logged_in: Inga inlägg finns tillgängliga, skapa det första.
+        first_theme: Skapa det första inlägget i diskussionen
         sub_first_theme: "För att skapa ett tema behöver du %{sign_in} eller %{sign_up}."
         sign_in: "logga in"
         sign_up: "registrera dig"
@@ -23,10 +23,10 @@ sv:
         participants: Deltagare
       sidebar:
         participate: Delta
-        new_topic: Skapa ämne
+        new_topic: Skapa inlägg
       topic:
-        edit: Redigera ämne
-        destroy: Ta bort ämne
+        edit: Redigera inlägg
+        destroy: Ta bort inlägg
         comments:
           zero: Inga kommentarer
           one: 1 kommentar
@@ -34,13 +34,13 @@ sv:
       author: Förslagslämnare
       back: Tillbaka till %{community} %{proposal}
     topic:
-      create: Skapa ett ämne
-      edit: Redigera ämne
+      create: Skapa ett inlägg
+      edit: Redigera inlägg
       form:
         topic_title: Titel
         topic_text: Inledande text
         new:
-          submit_button: Skapa ämne
+          submit_button: Skapa inlägg
         edit:
           submit_button: Redigera ämne
         create:
