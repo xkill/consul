@@ -14,7 +14,7 @@ zh-TW:
       comment:
         other: "評論"
       debate:
-        other: "討論"
+        other: "辯論"
       tag:
         other: "標籤"
       user:
@@ -144,8 +144,50 @@ zh-TW:
         name: "名字"
         starts_at: "開始日期"
         ends_at: "截止日期"
+        geozone_restricted: "受地理區域（geozone）限制"
+        summary: "總結"
+        description: "說明"
       poll/question:
+        title: "問題"
+        summary: "總結"
         description: "說明"
         external_url: "鏈接到其他文檔"
       signature_sheet:
+        signable_type: "可簽名類型"
+        signable_id: "可簽名 ID"
         document_numbers: "文檔編號"
+      site_customization/page:
+        content: 內容
+        created_at: 創建於
+        subtitle: 副標題
+        status: 狀態
+        title: 標題
+        updated_at: 更新於
+        more_info_flag: 在説明頁中顯示
+      widget/card:
+        label: 標籤 (可選擇填寫)
+        title: 標題
+        description: 說明
+        link_text: 鏈接文本
+        link_url: 鏈接 URL
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              password_already_set: "此用戶已有密碼"
+        debate:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "標記必須小於或等於%{count}"
+        image:
+          attributes:
+            attachment:
+              min_image_width: "圖像寬度必須至少為%{required_min_width}像素"
+              min_image_height: "圖像高度必須至少為%{required_min_height}像素"
+        legislation/process:
+          attributes:
+            end_date:
+              invalid_date_range: 必須在開始日期或之後
+            debate_end_date:
+              invalid_date_range: 必須在辯論開始日期或之後
