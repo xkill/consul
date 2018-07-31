@@ -172,6 +172,7 @@ zh-TW:
         image: 圖像
       site_customization/content_block:
         name: 名字
+        locale: 地區
         body: 內容
       legislation/process:
         title: 進程標題
@@ -276,3 +277,25 @@ zh-TW:
           attributes:
             tag_list:
               less_than_or_equal_to: "標記必須小於或等於%{count}"
+        proposal_notification:
+          attributes:
+            minimum_interval:
+              invalid: "在通知之間，您必須至少等待%{interval} 天"
+        signature:
+          attributes:
+            document_number:
+              not_in_census: '未通過人口普查核實'
+        site_customization/page:
+          attributes:
+            slug:
+              slug_format: "必須是字母，數位，_ 和-"
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "寬度必須為%{required_width}像素"
+              image_height: "高度必須為%{required_height}像素"
+      messages:
+        record_invalid: "驗證失敗: %{errors}"
+        restrict_dependent_destroy:
+          has_one: "無法刪除記錄, 因為有依賴的%{record} 存在"
+          has_many: "無法刪除記錄, 因為有依賴的%{record} 存在"
