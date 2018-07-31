@@ -113,7 +113,7 @@ sv:
       recommendations:
         without_results: Det finns inga debatter som rör dina intressen
         without_interests: Följ förslag så vi kan ge dig rekommendationer
-        disable: "Rekommenderade debatter kommer sluta visas om du avfärdar de. Du kan aktivera de igen under \"Mitt konto\"."
+        disable: "Rekommenderade debatter kommer sluta visas om du avaktiverar dem. Du kan aktivera funktionen igen under \"Mitt konto\""
         actions:
           success: "Rekommenderade debatter har inaktiverats för kontot"
           error: "Ett fel har uppstått. Var vänlig och gå till \"Mitt konto\" för att manuellt inaktivera rekommenderade debatter"
@@ -322,7 +322,7 @@ sv:
       geozone: Område
       proposal_external_url: Länk till ytterligare dokumentation
       proposal_question: Frågeställning
-      proposal_question_example_html: "Måste sammanfattas i en fråga med ett ja eller nej svar"
+      proposal_question_example_html: "Måste skrivas som en ja- eller nej-fråga"
       proposal_responsible_name: Förslagslämnarens fullständiga namn
       proposal_responsible_name_note: "(individuellt eller som representant för en grupp; kommer inte att visas offentligt)"
       proposal_summary: Sammanfattning av förslaget
@@ -334,7 +334,7 @@ sv:
       tag_category_label: "Kategorier"
       tags_instructions: "Tagga förslaget. Du kan välja från de föreslagna kategorier eller lägga till egna"
       tags_label: Taggar
-      tags_placeholder: "Skriv de ämnesområden du vill använda, avgränsade med komma (',')"
+      tags_placeholder: "Skriv taggarna du vill använda, avgränsade med komma (',')"
       map_location: "Kartposition"
       map_location_instructions: "Navigera till platsen på kartan och placera markören."
       map_remove_marker: "Ta bort kartmarkör"
@@ -355,7 +355,7 @@ sv:
       recommendations:
         without_results: Finns det inga förslag som rör dina intressen
         without_interests: Följ förslag så vi kan ge dig rekommendationer
-        disable: "Rekommenderade förslag kommer sluta visas om du avfärdar de. Du kan aktivera de igen under \"Mitt konto\""
+        disable: "Rekommenderade förslag kommer sluta visas om du avaktiverar dem. Du kan aktivera funktionen igen under \"Mitt konto\""
         actions:
           success: "Rekommenderade förslag har inaktiverats för kontot"
           error: "Ett fel har uppstått. Var vänlig och gå till \"Mitt konto\" för att manuellt inaktivera rekommenderade förslag"
@@ -387,7 +387,7 @@ sv:
         help: Hjälp med förslag
       section_footer:
         title: Hjälp med förslag
-        description: Medborgarförslag är en möjlighet för grannar och föreningar att direkt bestämma över hur de vill ha sin stad, efter att ha fått tillräckligt med stöd och genomgått en omröstning.
+        description: Medborgarförslag är en möjlighet för grannar och föreningar att direkt bestämma över hur de vill ha sin stad, genom att samla stöd för sitt förslag och vinna en omröstning.
     new:
       form:
         submit_button: Skapa förslag
