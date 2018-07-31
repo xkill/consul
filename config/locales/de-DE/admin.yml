@@ -378,12 +378,12 @@ de:
           start: Beginn
           end: Ende
           use_markdown: Verwenden Sie Markdown, um den Text zu formatieren
-          title_placeholder: Titel des Beteiligungsverfahrens
-          summary_placeholder: Kurzzusammenfassung der Beschreibung
-          description_placeholder: Fügen Sie eine Beschreibung des Beteiligungsverfahrens hinzu
+          title_placeholder: Titel des Verfahrens
+          summary_placeholder: Kurze Zusammenfassung der Beschreibung
+          description_placeholder: Fügen Sie eine Beschreibung des Verfahrens hinzu
           additional_info_placeholder: Fügen Sie zusätzliche Informationen hinzu, die von Interesse sein könnte
         index:
-          create: Neues Beteiligungsverfahren
+          create: Neues Verfahren
           delete: Löschen
           title: Kollaborative Gesetzgebungsprozesse
           filters:
@@ -394,9 +394,9 @@ de:
         new:
           back: Zurück
           title: Neues kollaboratives Gesetzgebungsverfahren erstellen
-          submit_button: Beteiligungsverfahren erstellen
+          submit_button: Verfahren erstellen
         process:
-          title: Beteiligungsverfahren
+          title: Verfahren
           comments: Kommentare
           status: Status
           creation_date: Erstellungsdatum
@@ -432,7 +432,7 @@ de:
           form:
             error: Fehler
         form:
-          title_html: 'Bearbeiten des <span class="strong">-%{draft_version_title}-</span> Beteiligungsverfahrens <span class="strong">%{process_title}</span>'
+          title_html: 'Bearbeiten des <span class="strong">-%{draft_version_title}-</span> Verfahrens <span class="strong">%{process_title}</span>'
           launch_text_editor: Textbearbeitung öffnen
           close_text_editor: Textbearbeitung schließen
           use_markdown: Verwenden Sie Markdown, um den Text zu formationen
@@ -441,7 +441,7 @@ de:
             status:
               draft: Als Admin können Sie eine Vorschau anzeigen lassen, die niemand sonst sehen kann
               published: Sichtbar für alle
-          title_placeholder: Geben Sie den Titel der Entwurfsversion ein
+          title_placeholder: Titel der Entwurfsfassung
           changelog_placeholder: Beschreiben Sie alle relevanten Änderungen der vorherigen Version
           body_placeholder: Notieren Sie sich den Entwurf
         index:
