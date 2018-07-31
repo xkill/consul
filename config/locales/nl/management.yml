@@ -78,12 +78,9 @@ nl:
       vote_proposals: Stem voorstellen
     print:
       proposals_info: Maak je eigen voorstel op http://url.consul
-      proposals_note: Over de meer ondersteunde voorstellen zal worden gestemd. Indien aanvaard door een meerderheid, zullen deze door de Gemeenteraad worden uitgevoerd.
       proposals_title: 'Voorstellen:'
       spending_proposals_info: Neem deel op http://url.consul
-      spending_proposals_note: Begrotingsvoorstellen zullen worden beoordeeld op basis van het aantal stemmen.
       budget_investments_info: Neem deel op http://url.consul
-      budget_investments_note: Begrotingsvoorstellen zullen worden beoordeeld op basis van het aantal stemmen.
     print_info: Print deze informatie
     proposals:
       alert:
@@ -106,7 +103,6 @@ nl:
         unverified_user: Gebruiker is niet geverifieerd
       create: Nieuw begrotingsvoorstel maken
       filters:
-        heading: Concept
         unfeasible: Onhaalbare investering
       print:
         print_button: Afdrukken
