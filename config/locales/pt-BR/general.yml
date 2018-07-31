@@ -129,9 +129,6 @@ pt-BR:
         description: Inicie um debate para compartilhar opiniões com outras pessoas sobre os temas que te preocupam.
         help_text_1: "O espaço para debates cidadãos destina-se a qualquer um que possa expor questões de seu interesse e àqueles que querem compartilhar opiniões com outras pessoas."
         help_text_2: 'Para abrir um debate, você precisa se inscrever em %{org}. Os usuários registrados também podem comentar sobre debates abertos e avaliá-los com os botões "Concordo" ou "Discordo" encontrados em cada um deles.'
-        help_text_3: "Tenha em mente que um debate não inicia nenhuma ação específica. Se você quiser fazer uma %{proposal} para a cidade ou criar um projeto de investimento de %{budget} quando a fase estiver aberta, vá para a seção correspondente."
-        proposals_link: proposta
-        budget_link: orçamento participativo
     new:
       form:
         submit_button: Iniciar um debate
@@ -203,17 +200,11 @@ pt-BR:
       contact_us: Para suporte técnico entre em
       copyright: Consul, %{year}
       description: Este portal usa o %{consul} que é %{open_source}. De Madrid para o mundo.
-      faq: suporte técnico
-      open_data_text: Todos os detalhes sobre a Prefeitura estão disponíveis para acesso.
-      open_data_title: Dados abertos
       open_source: programa de código aberto
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: Decida como dar forma à cidade em que você deseja viver.
       participation_title: Participação
       privacy: Política de privacidade
-      transparency_text: Descubra tudo sobre a cidade.
-      transparency_title: Transparência
-      transparency_url: https://transparency.consul
     header:
       administration_menu: Admin
       administration: Administração
@@ -221,10 +212,6 @@ pt-BR:
       collaborative_legislation: Processos legislativos
       debates: Debates
       external_link_blog: Blog
-      external_link_opendata: Dados abertos
-      external_link_opendata_url: https://opendata.consul
-      external_link_transparency: Transparência
-      external_link_transparency_url: https://transparency.consul
       locale: 'Idioma:'
       logo: Consul logotipo
       management: Gerenciamento
@@ -328,7 +315,6 @@ pt-BR:
       geozone: Escopo de operação
       proposal_external_url: Link para documentação adicional
       proposal_question: Questão proposta
-      proposal_question_example_html: "Deve ser resumida em uma pergunta cuja resposta seja Sim ou Não. <br>Exemplo: 'Você concorda com a repavimentação da Rua 7 de Setembro?'"
       proposal_responsible_name: Nome completo da pessoa que está submetendo a proposta
       proposal_responsible_name_note: "(indivudualmente ou como representante de um\ncoletivo; não será mostrado publicamente)"
       proposal_summary: Sumário da proposta
@@ -389,10 +375,6 @@ pt-BR:
         help: Ajuda sobre propostas
       section_footer:
         title: Ajuda sobre propostas
-        description: Faça uma proposta cidadã. Se obtiver apoio suficiente e passar para a fase de votação, você pode fazer com que todos os cidadãos decidam como querem que nossa cidade seja.
-        help_text_1: "As propostas cidadãs são uma oportunidade para que os vizinhos e coletivos decidam diretamente como eles querem que seja a sua cidade. Qualquer pessoa pode fazer uma proposta sobre um tema que seja do seu interesse para a prefeitura da cidade colocá-la em prática, após conseguir apoio suficiente e ser submetida a uma votação cidadã."
-        help_text_2: "Para criar uma proposta, você deve se inscrever em %{org}. As propostas que recebem o apoio de 1% dos usuários na web vão para a fase de votação. Para apoiar propostas é necessário ter uma conta verificada."
-        help_text_3: "É convocada uma votação cidadã quando as propostas conseguem os apoios necessários. Uma vez celebrada, se houver mais pessoas a favor do que contra, a Prefeitura assume a proposta e a realiza."
     new:
       form:
         submit_button: Criar proposta
@@ -417,7 +399,6 @@ pt-BR:
         zero: Nenhum comentário
         one: 1 comentário
         other: "%{count} comentários"
-      reason_for_supports_necessary: 1% do Censo
       support: Apoiar
       support_title: Apoiar esta proposta
       supports:
@@ -431,8 +412,6 @@ pt-BR:
       supports_necessary: "%{number} apoios necessários"
       total_percent: 100%
       archived: "Esta proposta foi arquivada e não é possível angariar suporte."
-      successful: "Esta proposta alcançou o apoio necessário e será votada na %{voting}."
-      voting: "próxima votação"
     show:
       author_deleted: Usuário apagado
       code: 'Código da proposta:'
@@ -482,9 +461,6 @@ pt-BR:
         help: Ajuda sobre votação
       section_footer:
         title: Ajuda sobre votação
-        description: Inscreva-se para poder votar nas propostas cidadãs e nas perguntas que seus vizinhos fazem à Prefeitura. Tome decisões municipais diretamente.
-        help_text_1: "A votação ocorre quando o apoio a uma proposta cidadã atinge 1% do censo com direito a voto. A votação também pode incluir questões que a Prefeitura submete à decisão direta do público."
-        help_text_2: "Para participar da próxima votação, você precisa se inscrever no %{org} e verificar sua conta. Todas as pessoas registradas na cidade com mais de 16 anos podem votar. Os resultados de todos os votos serão vinculativos para o governo."
     show:
       already_voted_in_booth: "Você já participou de uma urna física. Você não pode participar novamente."
       already_voted_in_web: "Você já participou desta votação. Se você votar novamente, este voto será sobrescrito ao voto anterior."
