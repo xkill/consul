@@ -50,8 +50,6 @@ pl:
       search_form:
         button: Szukaj
         title: Szukaj
-      section_footer:
-        budget_link: budżety partycypacyjne
     new:
       more_info: Więcej informacji
     show:
@@ -71,19 +69,12 @@ pl:
       consul: Aplikacja CONSUL
       consul_url: https://github.com/consul/consul
       copyright: CONSUL, %{year}
-      open_data_title: Otwarte dane
       participation_title: Partycypacja
       privacy: Polityka prywatności
-      transparency_title: Przejrzystość
-      transparency_url: https://transparency.consul
     header:
       available_locales: Dostępne wersje językowe
       collaborative_legislation: Procesy legislacyjne
       external_link_blog: Blog
-      external_link_opendata: Otwarte dane
-      external_link_opendata_url: https://opendata.consul
-      external_link_transparency: Przejrzystość
-      external_link_transparency_url: https://transparency.consul
   locale: angielski
   notifications:
     index:
