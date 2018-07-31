@@ -11,7 +11,6 @@ de:
     email_verification:
       click_here_to_verify: diesen Link
       instructions_2_html: Diese E-Mail dient dazu Ihr Konto mit <b>%{document_type} %{document_number}</b>zu verifizieren. Wenn es sich hierbei nicht um Ihre Daten handelt, klicken Sie bitte nicht auf den vorherigen Link und ignorieren Sie diese E-Mail.
-      instructions_html: Um die Überprüfung Ihres Benutzerkontos im Open Government-Portal abzuschließen, müssen Sie auf %{verification_link} klicken.
       subject: E-Mail-Adresse bestätigen
       thanks: Vielen Dank.
       title: Bestätigen Sie Ihr Konto über den folgenden Link
@@ -24,12 +23,9 @@ de:
       hi: "Liebe/r Benutzer/in"
       new_html: "Deshalb laden wir Sie ein, einen <strong>neuen Vorschlag</strong> zu erstellen, der die Bedingungen für diesen Prozess erfüllt. Sie können dies mithilfe des folgenden Links machen: %{url}."
       new_href: "neuer Investitionsvorschlag"
-      reconsider_html: "Wenn Sie glauben, dass der abgelehnte Antrag die Anforderungen für einen Anlagevorschlag erfüllt, können Sie das, innerhalb von 48 Stunden, per E-mail an examples@consul.es mitteilen. Bitte fügen Sie den Code %{code} in die Betreffzeile der E-Mail ein."
       sincerely: "Mit freundlichen Grüßen"
-      signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
       sorry: "Entschuldigung für die Unannehmlichkeiten und vielen Dank für Ihre wertvolle Beteiligung."
       subject: "Ihr Investitionsprojekt '%{code}' wurde als undurchführbar markiert"
-      unfeasible_html: "Im Namen des Stadtrats möchten wir Ihnen für Ihre Teilnahme am <strong>Bürgerhaushalt</strong> danken. Wir bedauern Ihnen mitzuteilen, dass Ihr Antrag <strong>%{title}</strong> vom kommunalen Prozess, aus folgendem Grund, ausgeschlossen wurde:"
     proposal_notification_digest:
       info: "Hier sind die neuen Benachrichtigungen, die von Autoren, für den Antrag von %{org_name}, den Sie unterstützen, veröffentlicht wurden."
       title: "Antrags-Benachrichtigungen von %{org_name}"
@@ -47,7 +43,6 @@ de:
       title_html: "Sie haben eine neue persönliche Nachricht versendet an <strong>%{receiver}</strong> mit dem Inhalt:"
     user_invite:
       ignore: "Wenn Sie diese Einladung nicht angefordert haben, können Sie diese E-Mail einfach ignorieren."
-      text: "Danke für Ihre Anmeldung bei %{org}! In wenigen Sekunden können Sie damit beginnen Ihre Stadt mitzugestalten. Füllen Sie einfach vorher das untenstehende Formular aus:"
       thanks: "Vielen Dank."
       title: "Willkommen zu %{org}"
       button: Registrierung abschließen
@@ -60,33 +55,23 @@ de:
       follow_html: "Wir werden Sie über den Fortgang des Prozesses informieren, dem Sie auch über folgenden <strong>%{link}</strong> folgen können."
       follow_link: "Bürgerhaushalte"
       sincerely: "Mit freundlichen Grüßen,"
-      signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
       share: "Teilen Sie Ihr Projekt"
     budget_investment_unfeasible:
       hi: "Liebe/r Benutzer/in,"
       new_html: "Hierfür laden wir Sie ein, eine <strong>neue Investition</strong> auszuarbeiten, die an die Konditionen dieses Prozesses angepasst sind. Sie können dies über folgenden Link tun: %{url}."
       new_href: "neues Investitionsprojekt"
-      reconsider_html: "Wenn Sie glauben, dass die abgelehnte Investition die Anforderungen für einen Investitionsprojekt erfüllt, können Sie dies, innerhalb von 48 Stunden, per E-mail an examples@consul.es mitteilen. Bitte fügen Sie den Code %{code} in die Betreffzeile der E-Mail ein."
       sincerely: "Mit freundlichen Grüßen"
-      signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
       sorry: "Entschuldigung für die Unannehmlichkeiten und vielen Dank für Ihre wertvolle Beteiligung."
       subject: "Ihr Investitionsprojekt %{code} wurde als undurchführbar markiert"
-      unfeasible_html: "Im Namen des Stadtrats möchten wir Ihnen für Ihre Teilnahme am <strong>Bürgerhaushalt</strong> danken. Wir bedauern Ihnen mitzuteilen, dass Ihr Investitionsprojekt <strong>%{title}</strong> vom kommunalen Prozess, aus folgendem Grund, ausgeschlossen wurde:"
     budget_investment_selected:
       subject: "Ihr Investitionsprojekt %{code} wurde ausgewählt"
       hi: "Liebe/r Benutzer/in,"
-      selected_html: "Im Namen des Stadtrats möchten wir Ihnen für Ihre Teilnahme am <strong>Bürgerhaushalt</strong> danken. Wir freuen uns Ihnen mitzuteilen, dass Ihr Investitionsprojekt <strong>%{title}</strong> für die endgültige Wahlphase, welche vom <strong>15. Mai bis 30. Juni</strong> stattfinden wird, ausgewählt wurde."
       share: "Fangen Sie an Stimmen zu bekommen, indem sie Ihr Investitionsprojekt auf sozialen Netzwerken teilen. Teilen ist wichtig, um Ihr Projekt zu verwirklichen."
       share_button: "Teilen Sie Ihr Investitionsprojekt"
       thanks: "Vielen Dank für Ihre Teilnahme."
       sincerely: "Mit freundlichen Grüßen"
-      signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
     budget_investment_unselected:
       subject: "Ihr Investitionsprojekt %{code} wurde nicht ausgewählt"
       hi: "Liebe/r Benutzer/in,"
-      unselected_html: "Im Namen des Stadtrats möchten wir Ihnen für Ihre Teilnahme am <strong>Bürgerhaushalt</strong> danken. Wir bedauern Ihnen mitzuteilen, dass Ihr Investitionsprojekt <strong>%{title}</strong> nicht für die endgültige Wahlphase ausgewählt wurde."
-      participate_html: "Sie können weiterhin an der endgültigen Wahlphase für Investitionsprojekte vom <strong>15. Mai bis 30. Juni</strong> teilzunehmen."
-      participate_url: "An finaler Abstimmung teilnehmen"
       thanks: "Vielen Dank für Ihre Teilnahme."
       sincerely: "Mit freundlichen Grüßen"
-      signatory: "ABTEILUNG FÜR BÜRGERBETEILIGUNG"
