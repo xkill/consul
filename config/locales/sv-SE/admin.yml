@@ -132,7 +132,7 @@ sv:
         current_of_max_headings: "%{current} av %{max}"
       winners:
         calculate: Beräkna vinnande budgetförslag
-        calculated: Vinnare beräknas, det kan ta en minut.
+        calculated: Vinnare beräknas, det kan ta en stund.
         recalculate: Räkna om vinnande budgetförslag
     budget_phases:
       edit:
@@ -252,7 +252,7 @@ sv:
         tags: Taggar
         tags_placeholder: "Fyll i taggar separerade med kommatecken (,)"
         undefined: Odefinierad
-        user_groups: "Område"
+        user_groups: "Områden"
       search_unfeasible: Sökningen misslyckades
     milestones:
       index:
@@ -653,7 +653,7 @@ sv:
         draft: Utkast
         edit: Redigera
         delete: Ta bort
-        preview: Förhandsvisning
+        preview: Förhandsgranska
         view: Visa
         empty_notifications: Det finns inga aviseringar att visa
       new:
@@ -665,7 +665,7 @@ sv:
         send: Skicka
         will_get_notified: (%{n} användare kommer meddelas)
         got_notified: (%{n} användare meddelades)
-        sent_at: Skickas på
+        sent_at: Skickat
         title: Titel
         body: Text
         link: Länk
@@ -737,28 +737,28 @@ sv:
         edit: "Spara bedömningsgrupp"
     poll_officers:
       index:
-        title: Valarbetare
+        title: Funktionärer
       officer:
         add: Lägg till
         delete: Ta bort position
         name: Namn
         email: E-post
-        entry_name: valarbetare
+        entry_name: funktionär
       search:
         email_placeholder: Sök användare efter e-post
         search: Sök
         user_not_found: Användaren hittades inte
     poll_officer_assignments:
       index:
-        officers_title: "Lista över valarbetare"
-        no_officers: "Det finns ingen officerare som tilldelats denna enkät."
+        officers_title: "Lista över funktionärer"
+        no_officers: "Ingen funktionär har tilldelats denna omröstning."
         table_name: "Namn"
         table_email: "E-post"
       by_officer:
         date: "Datum"
         booth: "Röststation"
-        assignments: "Officing skiftar i denna enkät"
-        no_assignments: "Denna användare har inga officing förändringar i denna enkät."
+        assignments: "Arbetspass under denna omröstning"
+        no_assignments: "Denna användare har inga arbetspass under denna omröstning."
     poll_shifts:
       new:
         add_shift: "Lägg till arbetspass"
@@ -769,11 +769,11 @@ sv:
         edit_shifts: Redigera arbetspass
         new_shift: "Nytt arbetspass"
         no_shifts: "Denna röststation har inga arbetspass"
-        officer: "Valarbetare"
+        officer: "Funktionär"
         remove_shift: "Ta bort"
         search_officer_button: Sök
-        search_officer_placeholder: Sök valarbetare
-        search_officer_text: Sök efter en valarbetare för att tilldela ett nytt skift
+        search_officer_placeholder: Sök funktionär
+        search_officer_text: Sök efter en funktionär för att tilldela ett nytt arbetspass
         select_date: "Välj dag"
         no_voting_days: "Omröstningen har avslutats"
         select_task: "Välj uppgift"
@@ -796,14 +796,14 @@ sv:
           unassigned: Ej tilldelad
         actions:
           assign: Tilldela röststation
-          unassign: Ta bort röststation
+          unassign: Inaktivera röststation
     poll_booth_assignments:
       alert:
-        shifts: "Denna röststation har tilldelats arbetspass. Om du tar bort röststationen kommer arbetspassen också tas bort. Vill du fortsätta?"
+        shifts: "Denna röststation har tilldelats arbetspass. Om du tar inaktiverar röststationen kommer arbetspassen också tas bort. Vill du fortsätta?"
       flash:
-        destroy: "Denna röststation är inte längre tilldelad"
+        destroy: "Denna röststation är inte längre aktiv"
         create: "Röststation tilldelad"
-        error_destroy: "Ett fel uppstod när du tog bort röststationens tilldelning"
+        error_destroy: "Ett fel uppstod när du inaktiverade röststationen"
         error_create: "Ett fel uppstod när röststationen tilldelades omröstningen"
       show:
         location: "Plats"
@@ -835,7 +835,7 @@ sv:
         show_results_and_stats: "Visa resultat och statistik"
         show_results: "Visa resultat"
         show_stats: "Visa statistik"
-        results_and_stats_reminder: "Markerar dessa kryssrutor av resultat och/eller statistik för denna enkät kommer att vara allmänt tillgängliga och varje användare kommer att se dem."
+        results_and_stats_reminder: "Genom att markera dessa rutor kommer omröstningens resultat att visas offentligt för alla användare."
         submit_button: "Skapa omröstning"
       edit:
         title: "Redigera omröstning"
@@ -843,7 +843,7 @@ sv:
       show:
         questions_tab: Frågor
         booths_tab: Röststation
-        officers_tab: Valarbetare
+        officers_tab: Funktionärer
         recounts_tab: Rösträkning
         results_tab: Resultat
         no_questions: "Det finns inga frågor till den här omröstningen."
@@ -874,7 +874,7 @@ sv:
           add_image: "Lägg till bild"
           save_image: "Spara bild"
       show:
-        proposal: Ursprungliga förslaget
+        proposal: Ursprungligt förslag
         author: Förslagslämnare
         question: Fråga
         edit_question: Redigera fråga
@@ -885,9 +885,9 @@ sv:
           title: Svar
           description: Beskrivning
           videos: Videoklipp
-          video_list: Videolista
+          video_list: Lista över videoklipp
           images: Bilder
-          images_list: Bilder lista
+          images_list: Lista över bilder
           documents: Dokument
           documents_list: Lista med dokument
           document_title: Titel
