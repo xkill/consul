@@ -119,7 +119,7 @@ sv:
         phase: "Fas"
         currency_symbol: "Valuta"
       budget/investment:
-        heading_id: "Rubrik"
+        heading_id: "Underområde"
         title: "Titel"
         description: "Beskrivning"
         external_url: "Länk till ytterligare dokumentation"
