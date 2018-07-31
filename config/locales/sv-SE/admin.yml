@@ -117,18 +117,18 @@ sv:
         create_group: Skapa område
         edit_group: Redigera område
         submit: Spara område
-        heading: Rubriknamn
-        add_heading: Lägga till rubrik
+        heading: Underområde
+        add_heading: Lägga till underområde
         amount: Antal
         population: "Befolkning (frivilligt fält)"
         population_help_text: "Den här informationen används uteslutande för statistik"
-        save_heading: Spara rubrik
+        save_heading: Spara underområde
         no_heading: Området har inga underområden.
-        table_heading: Rubrik
+        table_heading: Underområde
         table_amount: Antal
         table_population: Befolkning
-        population_info: "Budget rubrik befolkningen fältet används för statistiska ändamål i slutet av budgeten för att visa för varje rubrik som representerar ett område med befolkning vilken procentandel röstade. Fältet är valfritt så kan du lämna det tomt om det inte gäller."
-        max_votable_headings: "Högst antal områden där en användare kan rösta"
+        population_info: "Fältet för folkmängd inom ett underområde används för att föra statistik över hur stor del av befolkningen där som deltagit i omröstningen. Fältet är frivilligt."
+        max_votable_headings: "Högst antal underområden som användare kan rösta inom"
         current_of_max_headings: "%{current} av %{max}"
       winners:
         calculate: Beräkna vinnande budgetförslag
@@ -147,7 +147,7 @@ sv:
         save_changes: Spara ändringar
     budget_investments:
       index:
-        heading_filter_all: Alla rubriker
+        heading_filter_all: Alla underområden
         administrator_filter_all: Alla administratörer
         valuator_filter_all: Alla bedömare
         tags_filter_all: Alla taggar
@@ -211,7 +211,7 @@ sv:
         by: Av
         sent: Skickat
         group: Område
-        heading: Rubrik
+        heading: Underområde
         dossier: Rapport
         edit_dossier: Redigera rapport
         tags: Taggar
@@ -245,7 +245,7 @@ sv:
         selection: Urval
         mark_as_selected: Markera som valda
         assigned_valuators: Bedömare
-        select_heading: Välj rubrik
+        select_heading: Välj underområde
         submit_button: Uppdatera
         user_tags: Användarens taggar
         tags: Taggar
@@ -737,7 +737,7 @@ sv:
         table_email: "E-post"
       by_officer:
         date: "Datum"
-        booth: "Vallokal"
+        booth: "Röststation"
         assignments: "Officing skiftar i denna enkät"
         no_assignments: "Denna användare har inga officing förändringar i denna enkät."
     poll_shifts:
@@ -776,15 +776,15 @@ sv:
           assigned: Tilldelad
           unassigned: Ej tilldelad
         actions:
-          assign: Tilldela monter
-          unassign: Ta bort tilldelning monter
+          assign: Tilldela röststation
+          unassign: Ta bort röststation
     poll_booth_assignments:
       alert:
-        shifts: "Det finns växlingar som är associerade med denna monter. Om du tar bort monterns uppgifter kommer växlingarna tas bort också. Vill du fortsätta?"
+        shifts: "Denna röststation har tilldelats arbetspass. Om du tar bort röststationen kommer arbetspassen också tas bort. Vill du fortsätta?"
       flash:
-        destroy: "Monter är inte tilldelad längre"
-        create: "Monter tilldelad"
-        error_destroy: "Ett fel uppstod när du tog bort montertilldelningen"
+        destroy: "Denna röststation är inte längre tilldelad"
+        create: "Röststation tilldelad"
+        error_destroy: "Ett fel uppstod när du tog bort röststationens tilldelning"
         error_create: "Ett fel uppstod när du tilldelade mätningen till montern"
       show:
         location: "Plats"
