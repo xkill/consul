@@ -16,7 +16,6 @@ it:
       confirmation_instructions:
         confirm_link: Confermare il mio account
         text: 'È possibile confermare l’account di posta elettronica attraverso il seguente link:'
-        title: Benvenuti nel Portale per l’Amministrazione Aperta
         welcome: Benvenuti
       reset_password_instructions:
         change_link: Cambiare la password
