@@ -21,40 +21,35 @@ fa:
     youtube_handle: "دسته یوتیوب"
     telegram_handle: "تلگرام"
     instagram_handle: "اینستاگرام"
-    blog_url: "نشانی اینترنتی وبلاگ"
-    transparency_url: "نشانی اینترنتی شفافیت"
-    opendata_url: "URL Data را باز کنید"
     url: "آدرس اصلی"
     org_name: "سازمان"
     place_name: "محل"
-    feature:
-      budgets: بودجه مشارکتی
-      twitter_login: ورود توییتر
-      facebook_login: ورود فیس بوک
-      google_login: ورود به سایت گوگل
-      proposals: طرح های پیشنهادی
-      debates: مباحثه
-      polls: نظر سنجی ها
-      signature_sheets: محاسبه برنده سرمایه گذاری
-      spending_proposals: پروژه های سرمایه گذاری
-      spending_proposal_features:
-        voting_allowed: رای گیری در پروژه های سرمایه گذاری
-      legislation: قانون
-      user:
-        recommendations: توصیه ها
-        skip_verification: رد کردن تأیید کاربر 
-      community: جامعه در طرح و سرمایه گذاری
-      map: پیشنهادات و جغرافیای سرمایه گذاری بودجه
-      allow_images: اجازه آپلود و نمایش تصاویر
-      allow_attached_documents: اجازه آپلود و نمایش اسناد متصل
     map_latitude: "عرض جغرافیایی\n"
-    map_longitude: طول جغرافیایی
-    map_zoom: زوم
-    mailer_from_name: نام ایمیل مبدا
-    mailer_from_address: نام ایمیل مبدا
+    map_longitude: "طول جغرافیایی"
+    map_zoom: "زوم"
     meta_title: "عنوان سایت (SEO)"
     meta_description: "توضیحات سایت (SEO)"
     meta_keywords: "واژه هاي كليدي (SEO)"
-    verification_offices_url: دفاتر تأیید URL
     min_age_to_participate: حداقل سن مورد نیاز برای شرکت 
+    blog_url: "نشانی اینترنتی وبلاگ"
+    transparency_url: "نشانی اینترنتی شفافیت"
+    opendata_url: "URL Data را باز کنید"
+    verification_offices_url: دفاتر تأیید URL
     proposal_improvement_path: لینک بهبود اطلاعات لینک داخلی
+    feature:
+      budgets: "بودجه مشارکتی"
+      twitter_login: "ورود توییتر"
+      facebook_login: "ورود فیس بوک"
+      google_login: "ورود به سایت گوگل"
+      proposals: "طرح های پیشنهادی"
+      debates: "مباحثه"
+      polls: "نظر سنجی ها"
+      signature_sheets: "محاسبه برنده سرمایه گذاری"
+      legislation: "قانون"
+      user:
+        recommendations: "توصیه ها"
+        skip_verification: "رد کردن تأیید کاربر "
+      community: "جامعه در طرح و سرمایه گذاری"
+      map: "پیشنهادات و جغرافیای سرمایه گذاری بودجه"
+      allow_images: "اجازه آپلود و نمایش تصاویر"
+      allow_attached_documents: "اجازه آپلود و نمایش اسناد متصل"
