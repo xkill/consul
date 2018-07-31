@@ -56,11 +56,6 @@ fr:
       see_results: Voir les résultats
       section_footer:
         title: Aide sur les budgets participatifs
-        description: Avec les budgets participatifs les citoyens gèrent tout ou partie du budget municipal en votant des projets d'investissement.
-        help_text_1: "Les budgets participatifs sont des processus au cours desquels les citoyens décident directement de l'usage d'une partie du budget municipal. Toute personne inscrite de plus de 16 ans peut proposer un projet d’investissement qui est présélectionné pour la phase de soutien citoyen."
-        help_text_2: "Les projets les plus votés sont évalués et soumis à un vote final lors duquel sont décidées les actions à réaliser par le conseil municipal lorsque les budgets municipaux de l'année suivante ont été approuvés."
-        help_text_3: "La présentation des projets du budget participatif commence en janvier pour une période d'un mois et demi. Pour participer et suggérer des propositions pour la ville entière et/ou une zone, vous devez vous inscrire sur %{org} et vérifier votre compte."
-        help_text_4: "Pour recueillir autant de soutiens et de votes que possible, choisissez un titre descriptif et compréhensible pour votre projet. Vous avez aussi un espace pour développer l'approche de votre proposition. Fournissez toutes les données et explications possibles et même des documents et des images pour aider les autres participants à mieux comprendre ce que vous proposez."
     investments:
       form:
         tag_category_label: "Catégories"
