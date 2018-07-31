@@ -266,6 +266,20 @@ gl:
       read: Lido
       title: Notificacións
       unread: Non lido
+    notification:
+      action:
+        comments_on:
+          one: Hai un novo comentario en
+          other: Hai %{count} comentarios novos en
+        proposal_notification:
+          one: Hai unha notificación nova en
+          other: Hai %{count} notificacións novas en
+        replies_to:
+          one: Hai unha resposta nova ao teu comentario en
+          other: Hai %{count} respostas novas ao teu comentario en
+      mark_as_read: Marcar como lida
+      mark_as_unread: Marcar como non lida
+      notifiable_hidden: Este elemento xa non está dispoñible.
   map:
     title: "Distritos"
     proposal_for_district: "Crea unha proposta para o teu distrito"
@@ -615,6 +629,13 @@ gl:
       previous_slide: Imaxe anterior
       next_slide: Imaxe seguinte
     documentation: Documentación adicional
+    view_mode:
+      cards: Tarxetas
+      list: Lista
+    recommended_index:
+      title: Recomendacións
+      see_more: Ver máis recomendacións
+      hide: Agochar as recomendacións
   social:
     blog: "Blog"
     facebook: "Facebook"
@@ -732,6 +753,7 @@ gl:
       no_private_messages: "Esta persoa usuaria non acepta mensaxes privadas."
       private_activity: Esta persoa usuaria decidiu manter en privado a súa listaxe de actividades.
       send_private_message: "Enviar unha mensaxe privada"
+      delete_alert: "Tes a certeza de que desexas borrar o proxecto de investimento? Está acción non se pode desfacer"
     proposals:
       send_notification: "Enviar notificación"
       retire: "Retirar"
