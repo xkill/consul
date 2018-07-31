@@ -132,18 +132,18 @@ sv:
         current_of_max_headings: "%{current} av %{max}"
       winners:
         calculate: Beräkna vinnande budgetförslag
-        calculated: Vinnare beräknas, kan det ta en minut.
+        calculated: Vinnare beräknas, det kan ta en minut.
         recalculate: Räkna om vinnande budgetförslag
     budget_phases:
       edit:
         start_date: Startdatum
         end_date: Slutdatum
         summary: Sammanfattning
-        summary_help_text: Denna text kommer att informera användaren om fasen. Markera kryssrutan nedan för att visa det även om fasen inte är aktiv,
+        summary_help_text: Denna text kommer att informera användaren om fasen. Markera kryssrutan nedan för att visa den även om fasen inte är aktiv
         description: Beskrivning
-        description_help_text: Den här texten visas i huvudet när fasen är aktiv
+        description_help_text: Den här texten visas i rubriken när fasen är aktiv
         enabled: Fasen är aktiverad
-        enabled_help_text: Denna fas kommer att vara offentliga i budgetens faser tidslinje, samt aktiva för andra ändamål
+        enabled_help_text: Denna fas kommer visas offentligt i budgetens tidslinje och vara aktiv för andra ändamål
         save_changes: Spara ändringar
     budget_investments:
       index:
@@ -161,12 +161,12 @@ sv:
         filters:
           all: Alla
           without_admin: Utan ansvarig administratör
-          without_valuator: Utan tilldelad bedömare
+          without_valuator: Saknar ansvarig bedömare
           under_valuation: Under bedömning
           valuation_finished: Bedömning avslutad
           feasible: Genomförbart
           selected: Vald
-          undecided: Obeslutat
+          undecided: Ej beslutat
           unfeasible: Ej genomförbart
           min_total_supports: Minst stöd
           winners: Vinnare
@@ -174,13 +174,13 @@ sv:
           two_filters_html: "Nuvarande använda filter: <b><em>%{filter}, %{advanced_filters}</em></b>"
         buttons:
           filter: Filtrera
-        download_current_selection: "Ladda ned nuvarande val"
+        download_current_selection: "Ladda ner nuvarande markering"
         no_budget_investments: "Det finns inga budgetförslag."
         title: Budgetförslag
         assigned_admin: Ansvarig administratör
         no_admin_assigned: Saknar ansvarig administratör
-        no_valuators_assigned: Inga tilldelade bedömare
-        no_valuation_groups: Inga värderingsgrupper tilldelade
+        no_valuators_assigned: Inga ansvariga bedömare
+        no_valuation_groups: Inga ansvariga bedömningsgrupper
         feasibility:
           feasible: "Genomförbart (%{price})"
           unfeasible: "Ej genomförbart"
@@ -197,14 +197,14 @@ sv:
           geozone: Område
           feasibility: Genomförbarhet
           selected: Vald
-          visible_to_valuators: Visa bedömare
+          visible_to_valuators: Visa för bedömare
           author_username: Författarens användarnamn
           incompatible: Oförenlig
-        cannot_calculate_winners: Budgeten måste vara i någon av faserna "Omröstning", "Rösträkning" eller "Avslutad budget" för att kunna räkna fram vinnande förslag
+        cannot_calculate_winners: Budgeten måste vara i någon av faserna "Omröstning", "Granskning av röstning" eller "Avslutad budget" för att kunna räkna fram vinnande förslag
         see_results: "Visa resultat"
       show:
         assigned_admin: Ansvarig administratör
-        assigned_valuators: Ansvarig bedömare
+        assigned_valuators: Ansvariga bedömare
         classification: Klassificering
         info: "%{budget_name} - område: %{group_name} - budgetförslag %{id}"
         edit: Redigera
@@ -238,7 +238,7 @@ sv:
         documents: "Dokument"
         see_documents: "Visa dokument (%{count})"
         no_documents: "Utan dokument"
-        valuator_groups: "Värderingsorgan"
+        valuator_groups: "Bedömningsgrupper"
       edit:
         classification: Klassificering
         compatibility: Kompatibilitet
@@ -694,14 +694,14 @@ sv:
         description: Beskrivning
         no_description: Ingen beskrivning
         no_valuators: Det finns inga bedömare.
-        valuator_groups: "Bedömargrupper"
+        valuator_groups: "Bedömningsgrupper"
         group: "Grupp"
         no_group: "Ingen grupp"
       valuator:
         add: Lägg till bedömare
         delete: Ta bort
       search:
-        title: 'Bedömare: Användarsökning'
+        title: 'Bedömare: Sök användare'
       summary:
         title: Sammanfattning av bedömning av budgetförslag
         valuator_name: Bedömare
@@ -714,7 +714,7 @@ sv:
       form:
         edit_title: "Bedömare: Redigera bedömare"
         update: "Uppdatera bedömare"
-        updated: "Bedömare uppdaterad framgångsrik"
+        updated: "Bedömaren har uppdaterats"
       show:
         description: "Beskrivning"
         email: "E-post"
@@ -723,18 +723,18 @@ sv:
         no_group: "Utan grupp"
     valuator_groups:
       index:
-        title: "Bedömargrupper"
-        new: "Skapa bedömargrupp"
+        title: "Bedömningsgrupper"
+        new: "Skapa bedömningsgrupp"
         name: "Namn"
         members: "Medlemmar"
-        no_groups: "Det finns inga bedömargrupper"
+        no_groups: "Det finns inga bedömningsgrupper"
       show:
-        title: "Bedömargrupp: %{group}"
-        no_valuators: "Det finns inga bedömare som tilldelats denna grupp"
+        title: "Bedömningsgrupp: %{group}"
+        no_valuators: "Det finns inga bedömare i den här gruppen"
       form:
         name: "Gruppnamn"
-        new: "Skapa bedömargrupp"
-        edit: "Spara bedömargrupp"
+        new: "Skapa bedömningsgrupp"
+        edit: "Spara bedömningsgrupp"
     poll_officers:
       index:
         title: Valarbetare
@@ -1097,7 +1097,7 @@ sv:
         title: Budgetförslag för medborgarbudget
         assigned_admin: Ansvarig administratör
         no_admin_assigned: Saknar ansvarig administratör
-        no_valuators_assigned: Inga tilldelade bedömare
+        no_valuators_assigned: Inga ansvariga bedömare
         summary_link: "Sammanfattning av budgetförslag"
         valuator_summary_link: "Sammanfattning från bedömare"
         feasibility:
@@ -1106,7 +1106,7 @@ sv:
           undefined: "Odefinierad"
       show:
         assigned_admin: Ansvarig administratör
-        assigned_valuators: Tilldelade bedömare
+        assigned_valuators: Ansvariga bedömare
         back: Tillbaka
         classification: Klassificering
         heading: "Budgetförslag %{id}"
