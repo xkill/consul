@@ -18,3 +18,4 @@ zh-TW:
       officing/residence:
         document_type: "文件類型"
         document_number: "文件編號 (包括信件)"
+        year_of_birth: "出生年份"
