@@ -4,7 +4,7 @@ sv:
       title: Omröstning
     dashboard:
       index:
-        title: Omröstningskontor
+        title: Röststationer
         info: Här kan du granska identitetshandlingar och spara resultat från omröstningar
         no_shifts: Du har inga arbetspass idag.
     menu:
