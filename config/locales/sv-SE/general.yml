@@ -136,9 +136,6 @@ sv:
         description: Starta en debatt för att diskutera frågor du är intresserad av.
         help_text_1: "Utrymmet för medborgardebatter riktar sig till alla som vill ta upp frågor som berör dem och som de vill diskutera med andra."
         help_text_2: 'För att starta en debatt behöver du registrera dig på %{org}. Användare kan även kommentera i öppna debatter och betygsätta dem med knapparna för "jag håller med" eller "jag håller inte med".'
-        help_text_3: "Tänk på att en debatt inte leder till någon konkret handling. Om du vill lägga ett %{proposal} för staden eller ett budgetförslag för %{budget} när den fasen är öppen, gå till respektive del av hemsidan."
-        proposals_link: förslag
-        budget_link: medborgarbudget
     new:
       form:
         submit_button: Starta en debatt
@@ -210,17 +207,11 @@ sv:
       contact_us: För teknisk support gå till
       copyright: CONSUL, %{year}
       description: Den här webbplatsen använder %{consul} som är %{open_source}.
-      faq: teknisk support
-      open_data_text: Du har tillgång till all information om kommunfullmäktige.
-      open_data_title: Öppen data
       open_source: program med öppen källkod
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: Skapa den stad du vill ha.
       participation_title: Deltagande
       privacy: Sekretesspolicy
-      transparency_text: Få reda på allt som staden.
-      transparency_title: Transparens
-      transparency_url: https://transparency.consul
     header:
       administration_menu: Admin
       administration: Administration
@@ -228,10 +219,6 @@ sv:
       collaborative_legislation: Planeringsprocesser
       debates: Debatter
       external_link_blog: Blogg
-      external_link_opendata: Öppen data
-      external_link_opendata_url: https://opendata.consul
-      external_link_transparency: Transparens
-      external_link_transparency_url: https://transparency.consul
       locale: 'Språk:'
       logo: CONSULs logotyp
       management: Förvaltning
@@ -335,7 +322,6 @@ sv:
       geozone: Område
       proposal_external_url: Länk till ytterligare dokumentation
       proposal_question: Frågeställning
-      proposal_question_example_html: "Ska sammanfattas i en ja- eller nej-fråga.<br>Till exempel: 'Ska vi göra Drottninggatan till gågata?'"
       proposal_responsible_name: Förslagslämnarens fullständiga namn
       proposal_responsible_name_note: "(individuellt eller som representant för en grupp; kommer inte att visas offentligt)"
       proposal_summary: Sammanfattning av förslaget
@@ -400,10 +386,6 @@ sv:
         help: Hjälp med förslag
       section_footer:
         title: Hjälp med förslag
-        description: Skriv ett medborgarförslag. Om det får tillräckligt med stöd går det till omröstning, så att alla medborgare kan bestämma om sin stad.
-        help_text_1: "Medborgarförslagen är en möjlighet för grannar och föreningar att bestämma hur de vill att staden ska se ut. Vem som helst kan lämna ett förslag om en fråga som är viktigt för dem, och kommunen kommer sedan genomföra förslaget om det får tillräckligt med stöd för att gå till omröstning och vinna."
-        help_text_2: "Du behöver registrera dig på %{org} för att skapa ett förslag. Förslag som får stöd av 1% av invånarna går vidare till omröstning. Du behöver ha ett verifierat konto för att kunna stödja förslag."
-        help_text_3: "Medborgarförslag som fått tillräckligt stöd går vidare till omröstning. Om förslaget får en majoritet av rösterna i omröstningen kommer kommunen att genomföra förslaget."
     new:
       form:
         submit_button: Skapa förslag
@@ -428,7 +410,6 @@ sv:
         zero: Inga kommentarer
         one: 1 kommentar
         other: "%{count} kommentarer"
-      reason_for_supports_necessary: 1% av invånarna
       support: Stöd
       support_title: Stöd förslaget
       supports:
@@ -442,8 +423,6 @@ sv:
       supports_necessary: "behöver %{number} röster"
       total_percent: 100%
       archived: "Förslaget har arkiverats och kan inte längre stödjas."
-      successful: "Förslaget har fått tillräckligt stort stöd och kommer att gå vidare till %{voting}."
-      voting: "nästa omröstning"
     show:
       author_deleted: Användaren är borttagen
       code: 'Förslagskod:'
@@ -493,9 +472,6 @@ sv:
         help: Hjälp med omröstning
       section_footer:
         title: Hjälp med omröstning
-        description: Registrera dig för att kunna rösta på medborgarförslag och förslag från staden. Bli direkt delaktig i lokala beslut.
-        help_text_1: "Förslag som får stöd av 1% av invånarna går vidare till omröstning. Även förslag från kommunfullmäktige kan gå till omröstning."
-        help_text_2: "För att delta i nästa omröstning behöver du registrera dig på %{org} och verifiera ditt konto. Alla stadens invånare över 16 får rösta. Resultatet av omröstningen är bindande för kommunfullmäktige."
       no_polls: "Det finns inga pågående omröstningar."
     show:
       already_voted_in_booth: "Du har redan röstat i en fysisk valstation. Du kan inte rösta igen."
