@@ -99,9 +99,6 @@ fa:
       title: مباحثه
       section_header:
         title: مباحثه
-      section_footer:
-        proposals_link: طرح های پیشنهادی
-        budget_link: بودجه مشارکتی
     new:
       form:
         submit_button: شروع بحث
