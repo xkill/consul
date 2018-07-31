@@ -29,6 +29,7 @@ sv:
         budget_investment: "Budgetförslaget har uppdaterats."
         topic: "Ämnet har uppdaterats."
         valuator_group: "Värderingsgruppen har uppdaterats"
+        translation: "Översättning har uppdaterats"
       destroy:
         spending_proposal: "Budgetförslaget har raderats."
         budget_investment: "Budgetförslaget har raderats."
