@@ -20,7 +20,7 @@ sv:
       create:
         flash:
           offices: Medborgarkontor
-          success_html: Tack för att du begärde din <b> högsta säkerhetskod (krävs endast för slutliga röster) </b>. Om några dagar skickar vi det till adressen med de data vi har på filen. Kom ihåg att du kan samla din kod från något av %{offices}.
+          success_html: Tack för att du begärt din <b>säkerhetskod (krävs endast för slutomröstningar) </b>. Vi skickar koden inom några dagar till den adress som du registrerat. Kom ihåg att du även kan få din kod från något av %{offices}.
       edit:
         see_all: Visa förslag
         title: Brev begärt
@@ -29,7 +29,7 @@ sv:
       new:
         explanation: 'För att delta i slutomröstningen kan du:'
         go_to_index: Visa förslag
-        office: Verifiera i någon %{office}
+        office: Verifiera dig personligen på något %{office}
         offices: Medborgarkontor
         send_letter: Skicka ett brev till mig med koden
         title: Grattis!
