@@ -127,8 +127,6 @@ it:
         description: Inizia un dibattito per condividere opinioni con gli altri sugli argomenti che ti interessano.
         help_text_1: "Lo spazio per i dibattiti dei cittadini è rivolto a chiunque sia in grado di esporre questioni relative alla propria preoccupazione e a coloro che desiderano condividere opinioni con altre persone."
         help_text_2: 'Per aprire un dibattito devi registrarti su %{org}. Gli utenti possono anche commentare i dibattiti aperti e valutarli con i pulsanti "Accetto" o "Non sono d''accordo" in ognuno di essi.'
-        help_text_3: "Tenete a mente che un dibattito non avvia alcuna azione specifica. Se si desidera fare un %{proposal} per la città o generare un progetto di investimento di %{budget} quando la fase è aperta, andare alla sezione corrispondente."
-        proposals_link: proposta
     new:
       info_link: creare una nuova proposta
       more_info: Ulteriori informazioni
@@ -143,17 +141,11 @@ it:
       contact_us: Per assistenza tecnica entra
       copyright: CONSOLE, %{year}
       description: Questo portale utilizza %{consul} che è %{open_source}.
-      faq: assistenza tecnica
-      open_data_text: Ogni dettaglio circa il Consiglio comunale è tuo per accedere.
-      open_data_title: Open data
       open_source: software open-source
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: Decidi come modellare la città in cui vuoi vivere.
       participation_title: Partecipazione
       privacy: Informativa sulla privacy
-      transparency_text: Scopri qualcosa sulla città.
-      transparency_title: Trasparenza
-      transparency_url: https://transparency.consul
     header:
       administration_menu: Admin
       administration: Amministrazione
@@ -161,10 +153,6 @@ it:
       collaborative_legislation: Processi di legislazione
       debates: Dibattiti
       external_link_blog: Blog
-      external_link_opendata: Open data
-      external_link_opendata_url: https://opendata.consul
-      external_link_transparency: Trasparenza
-      external_link_transparency_url: https://transparency.consul
       locale: 'Lingua:'
       logo: CONSUL logo
       management: Gestione
@@ -243,10 +231,6 @@ it:
         help: Aiuto sulle proposte
       section_footer:
         title: Aiuto sulle proposte
-        description: Fai una proposta di cittadino. Se riceve abbastanza supporti, passerà alla fase di votazione, in modo che tutti i cittadini possano decidere come vogliono che sia la loro città.
-        help_text_1: "Le proposte dei cittadini sono un'opportunità per i vicini e i collettivi di decidere direttamente come vogliono plasmare la loro città. Qualunque persona può fare una proposta su un argomento o una preoccupazione del proprio interesse, perché il Consiglio comunale possa farcela, dopo aver ottenuto sufficienti sostegni da mettere ai voti dei cittadini."
-        help_text_2: "Per creare una proposta, devi registrarti su %{org}. Le proposte che ottengono il supporto dell'1% degli utenti nel web, passano alla fase di votazione. Per supportare le proposte è necessario avere un account verificato."
-        help_text_3: "Il voto dei cittadini viene celebrato quando le proposte ottengono i necessari supporti. Una volta celebrato, se ci sono più persone favorevoli che contrarie, il Consiglio Comunale assume la proposta e la esegue."
     new:
       form:
         submit_button: Creare una proposta
@@ -275,9 +259,6 @@ it:
         help: Aiuto sul voto
       section_footer:
         title: Aiuto sul voto
-        description: Iscriviti per votare le proposte dei cittadini e le domande che il Consiglio comunale rivolge ai vicini. Prendi le decisioni comunali direttamente.
-        help_text_1: "Le votazioni avvengono quando una proposta di cittadino supporta l'1% del censimento con diritto di voto. Le votazioni possono anche includere domande che il Consiglio comunale chiede alla decisione dei cittadini."
-        help_text_2: "Per partecipare al prossimo voto devi registrarti su %{org} e verificare il tuo account. Tutti gli elettori registrati nella città oltre i 16 anni possono votare. I risultati di tutti i voti sono vincolanti per il governo."
     show:
       already_voted_in_booth: "Hai già partecipato a una votazione. Non puoi partecipare di nuovo."
       already_voted_in_web: "Hai già partecipato a questo sondaggio. Se si vota di nuovo, verrà sovrascritto."
