@@ -16,7 +16,6 @@ nl:
       confirmation_instructions:
         confirm_link: Bevestig mijn account
         text: 'Je kunt je emailaccount via de volgende link bevestigen.'
-        title: Welkom op het Open Government portaal
         welcome: Welkom
       reset_password_instructions:
         change_link: Wijzig mijn wachtwoord
