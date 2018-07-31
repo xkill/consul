@@ -196,6 +196,7 @@ sv:
           valuation_group: Bedömningsgrupp
           geozone: Område
           feasibility: Genomförbarhet
+          valuation_finished: Bedöm. Avsl.
           selected: Vald
           visible_to_valuators: Visa för bedömare
           author_username: Författarens användarnamn
@@ -486,7 +487,7 @@ sv:
           question_options: "Möjliga svar (frivilligt fält, öppna svar som standard)"
         index:
           back: Tillbaka
-          title: Frågor som är kopplade till denna process
+          title: Frågor som är kopplade till processen
           create: Skapa fråga
           delete: Ta bort
         new:
@@ -523,7 +524,7 @@ sv:
       hidden_debates: Dolda debatter
       hidden_proposals: Dolda förslag
       hidden_budget_investments: Dolda budgetförslag
-      hidden_proposal_notifications: Dolda förslagsaviseringar
+      hidden_proposal_notifications: Dolda aviseringar om förslag
       hidden_users: Dolda användare
       administrators: Administratörer
       managers: Medborgarguider
@@ -531,7 +532,7 @@ sv:
       messaging_users: Meddelanden till användare
       newsletters: Nyhetsbrev
       admin_notifications: Aviseringar
-      system_emails: Systemmejl
+      system_emails: E-postmeddelanden från systemet
       emails_download: Hämta e-postadresser
       valuators: Bedömare
       poll_officers: Valarbetare
@@ -553,7 +554,7 @@ sv:
         information_texts: Anpassade informationstexter
         information_texts_menu:
           debates: "Debatter"
-          community: "Gemenskap"
+          community: "Diskussion"
           proposals: "Förslag"
           polls: "Omröstningar"
           layouts: "Layouter"
@@ -819,7 +820,7 @@ sv:
         total_system: Totalt antal röster (automatiskt)
       index:
         booths_title: "Lista över röststationer"
-        no_booths: "Det finns inga tilldelade röststationer till denna omröstning."
+        no_booths: "Den här omröstningen har inga tilldelade röststationer."
         table_name: "Namn"
         table_location: "Plats"
     polls:
@@ -842,7 +843,7 @@ sv:
         submit_button: "Uppdatera omröstning"
       show:
         questions_tab: Frågor
-        booths_tab: Röststation
+        booths_tab: Röststationer
         officers_tab: Funktionärer
         recounts_tab: Rösträkning
         results_tab: Resultat
@@ -884,10 +885,10 @@ sv:
         answers:
           title: Svar
           description: Beskrivning
-          videos: Videoklipp
-          video_list: Lista över videoklipp
+          videos: Videor
+          video_list: Lista med videor
           images: Bilder
-          images_list: Lista över bilder
+          images_list: Lista med bilder
           documents: Dokument
           documents_list: Lista med dokument
           document_title: Titel
@@ -1031,7 +1032,7 @@ sv:
         updated: Uppdaterad värde
       index:
         banners: Bannerformat
-        banner_imgs: Banner bilder
+        banner_imgs: Bannerbilder
         no_banners_images: Inga banner bild
         no_banners_styles: Inga banner stilar
         title: Inställningar
