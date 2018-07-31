@@ -71,12 +71,9 @@ fa:
       vote_proposals: پیشنهادات رای دهی
     print:
       proposals_info: ایجاد پیشنهاد  در http://url.consul
-      proposals_note: پیشنهادات بیشتر حمایت شده رای خواهد آورد . در صورت پذیرش اکثریت، شورای شهر باید انجام دهد.
       proposals_title: 'طرح های پیشنهادی:'
       spending_proposals_info: شرکت درhttp://url.consul
-      spending_proposals_note: بودجه مشارکتی به  بودجه بیشتر رای آورده اختصاص می یابد.
       budget_investments_info: شرکت درhttp://url.consul
-      budget_investments_note: بودجه مشارکتی به  بودجه بیشتر رای آورده اختصاص می یابد.
     print_info: این اطلاعات را چاپ کنید
     proposals:
       alert:
@@ -89,7 +86,6 @@ fa:
         unverified_user: کاربر تأیید نشده است
       create: "ایجاد بودجه سرمایه گذاری \n"
       filters:
-        heading: مفهوم
         unfeasible: سرمایه گذاری غیر قابل پیش بینی
       print:
         print_button: چاپ
