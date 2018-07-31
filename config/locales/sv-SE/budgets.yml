@@ -36,9 +36,9 @@ sv:
       selecting: Urval
       valuating: Kostnadsberäkning
       publishing_prices: Publicering av kostnader
-      balloting: Rösta på projekt
-      reviewing_ballots: Rösträkning
-      finished: Färdig budget
+      balloting: Omröstning
+      reviewing_ballots: Granskning av röster
+      finished: Avslutad budget
     index:
       title: Medborgarbudgetar
       empty_budgets: Det finns inga budgetar.
