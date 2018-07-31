@@ -762,7 +762,7 @@ de:
         select_date: "Tag auswählen"
         no_voting_days: "Abstimmungsphase beendet"
         select_task: "Aufgabe auswählen"
-        table_shift: "Schicht"
+        table_shift: "Arbeitsschicht"
         table_email: "E-Mail"
         table_name: "Name"
       flash:
@@ -810,7 +810,7 @@ de:
     polls:
       index:
         title: "Liste der aktiven Abstimmungen"
-        no_polls: "Keine Abstimmung geplant."
+        no_polls: "Keine kommenden Abstimmungen geplant."
         create: "Abstimmung erstellen"
         name: "Name"
         dates: "Datum"
@@ -827,7 +827,7 @@ de:
         submit_button: "Abstimmung aktualisieren"
       show:
         questions_tab: Fragen
-        booths_tab: Wahlurnen
+        booths_tab: Wahlkabinen
         officers_tab: Wahlvorsteher*innen
         recounts_tab: Nachzählung
         results_tab: Ergebnisse
@@ -902,7 +902,7 @@ de:
       index:
         title: "Nachzählungen"
         no_recounts: "Es gibt nichts zum Nachzählen"
-        table_booth_name: "Wahlurne"
+        table_booth_name: "Wahlkabine"
         table_total_recount: "Endgültige Nachzählung (Wahlvorsteher*in)"
         table_system_count: "Stimmen (automatisch)"
     results:
@@ -912,35 +912,35 @@ de:
       result:
         table_whites: "Völlig leere Stimmzettel"
         table_nulls: "Ungültige Stimmzettel"
-        table_total: "Gesamtanzahl der Stimmzettel"
+        table_total: "Stimmzettel gesamt"
         table_answer: Antwort
         table_votes: Stimmen
       results_by_booth:
-        booth: Wahlurne
+        booth: Wahlkabine
         results: Ergebnisse
         see_results: Ergebnisse anzeigen
-        title: "Ergebnisse nach Wahlurne"
+        title: "Ergebnisse nach Wahlkabine"
     booths:
       index:
-        title: "Liste der aktiven Wahlurnen"
-        no_booths: "Es gibt keine aktiven Wahlurnen für bevorstehende Abstimmungen."
-        add_booth: "Wahlurne hinzufügen"
+        title: "Liste der aktiven Wahlkabinen"
+        no_booths: "Es gibt keine aktiven Wahlkabinen für bevorstehende Abstimmungen."
+        add_booth: "Wahlkabine hinzufügen"
         name: "Name"
         location: "Standort"
         no_location: "Ohne Standort"
       new:
-        title: "Neue Wahlurne"
+        title: "Neue Wahlkabine"
         name: "Name"
         location: "Standort"
-        submit_button: "Wahlurne erstellen"
+        submit_button: "Wahlkabine erstellen"
       edit:
-        title: "Wahlurne bearbeiten"
-        submit_button: "Wahlurne aktualisieren"
+        title: "Wahlkabine bearbeiten"
+        submit_button: "Wahlkabine aktualisieren"
       show:
         location: "Standort"
       booth:
         shifts: "Arbeitsschichten verwalten"
-        edit: "Wahlurne bearbeiten"
+        edit: "Wahlkabine bearbeiten"
     officials:
       edit:
         destroy: Status "Beamte/r" entfernen
