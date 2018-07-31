@@ -51,11 +51,6 @@ gl:
       see_results: Ver os resultados
       section_footer:
         title: Axuda sobre os orzamentos participativos
-        description: Con estes orzamentos participativos, a cidadanía decide a que proxectos presentados pola veciñanza vai destinada unha parte do orzamento municipal.
-        help_text_1: "Os orzamentos participativos é un proceso en que a cidadanía decide de xeito directo en que se inviste unha parte do orzamento municipal. Calquera persoa que estiver empadroada e que for maior de 16 anos poderá propór un proxecto de investimento, que se preselecciona nunha fase de apoios cidadáns."
-        help_text_2: "Os proxectos que máis votos reciban avaliaranse e pasarán a unha votación final, na que se decidirán as actuacións que levará a cabo o concello cando se aprobaren os orzamentos municipais do vindeiro ano."
-        help_text_3: "A presentación dos proxectos de orzamentos participativos lévase a cabo desde xaneiro ao longo do período dun mes e medio, aproximadamente. Para participar e forumular propostas para toda a cidade e / ou barrios, debes rexistrarte en %{org} e verificar a conta."
-        help_text_4: "Para conseguires un amplo número de apoios e votos, elixe un titular que sexa descritivo do teu proxecto. Despois tes un espazo para desenvolver e explicar a túa proposta. Achega todos os datos e explicacións que xulgares oportuno, mesmo imaxes e documentos, para que as demais persoas entendan mellor o que formulas."
     investments:
       form:
         tag_category_label: "Categorías"
