@@ -21,45 +21,40 @@ fr:
     youtube_handle: "Nom d'utilisateur Youtube"
     telegram_handle: "Nom d'utilisateur Telegram"
     instagram_handle: "Nom d'utilisateur Instagram"
-    blog_url: "URL du blog"
-    transparency_url: "URL de transparence"
-    opendata_url: "URL d'Open Data"
     url: "URL principale"
     org_name: "Nom de l'organisation"
     place_name: "Nom du lieu"
-    feature:
-      budgets: Budget participatif
-      twitter_login: Se connecter avec Twitter
-      facebook_login: Se connecter avec Facebook
-      google_login: Se connecter avec Google
-      proposals: Propositions
-      debates: Débats
-      polls: Votes
-      signature_sheets: Feuilles de signature
-      spending_proposals: Propositions d'investissement
-      spending_proposal_features:
-        voting_allowed: Vote sur les propositions d'investissement
-      legislation: Législation
-      user:
-        recommendations: Recommandations
-        skip_verification: Passer la vérification de l'utilisateur
-        recommendations_on_debates: Recommandations sur les discussions
-        recommendations_on_proposals: Recommandations sur les propositions
-      community: Communauté sur les propositions et les investissements
-      map: Localisation des propositions et des projets d'investissement
-      allow_images: Permettre d'importer et d'afficher des images
-      allow_attached_documents: Permettre le téléchargement et le visionnage de pièces jointes
-      guides: Guides pour créer des propositions ou projets d’investissement
-      public_stats: Stats publiques
-    related_content_score_threshold: Seuil de score pour le contenu associé
-    map_latitude: Latitude
-    map_longitude: Longitude
-    map_zoom: Zoom
-    mailer_from_name: Nom de l'expéditeur
-    mailer_from_address: Courriel de l'expéditeur
+    related_content_score_threshold: "Seuil de score pour le contenu associé"
+    map_latitude: "Latitude"
+    map_longitude: "Longitude"
+    map_zoom: "Zoom"
     meta_title: "Titre du site (SEO)"
     meta_description: "Description du site (SEO)"
     meta_keywords: "Mots-clés (SEO)"
-    verification_offices_url: URL des bureaux de vérification
     min_age_to_participate: Âge minimum de participation
+    blog_url: "URL du blog"
+    transparency_url: "URL de transparence"
+    opendata_url: "URL d'Open Data"
+    verification_offices_url: URL des bureaux de vérification
     proposal_improvement_path: Lien interne vers les suggestions d'amélioration de la proposition
+    feature:
+      budgets: "Budget participatif"
+      twitter_login: "Se connecter avec Twitter"
+      facebook_login: "Se connecter avec Facebook"
+      google_login: "Se connecter avec Google"
+      proposals: "Propositions"
+      debates: "Débats"
+      polls: "Votes"
+      signature_sheets: "Feuilles de signature"
+      legislation: "Législation"
+      user:
+        recommendations: "Recommandations"
+        skip_verification: "Passer la vérification de l'utilisateur"
+        recommendations_on_debates: "Recommandations sur les discussions"
+        recommendations_on_proposals: "Recommandations sur les propositions"
+      community: "Communauté sur les propositions et les investissements"
+      map: "Localisation des propositions et des projets d'investissement"
+      allow_images: "Permettre d'importer et d'afficher des images"
+      allow_attached_documents: "Permettre le téléchargement et le visionnage de pièces jointes"
+      guides: "Guides pour créer des propositions ou projets d’investissement"
+      public_stats: "Stats publiques"
