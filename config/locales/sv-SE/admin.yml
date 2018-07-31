@@ -535,8 +535,8 @@ sv:
       valuators: Bedömare
       poll_officers: Valarbetare
       polls: Omröstningar
-      poll_booths: Båslägen
-      poll_booth_assignments: Bås uppgifter
+      poll_booths: Adress för röststation
+      poll_booth_assignments: Tilldela röststation
       poll_shifts: Hantera arbetspass
       officials: Tjänstemän
       organizations: Organisationer
@@ -568,6 +568,7 @@ sv:
       title_profiles: Profiler
       title_settings: Inställningar
       title_site_customization: Webbplatsens innehåll
+      title_booths: Röststation
       legislation: Kollaborativ planering
       users: Användare
     administrators:
