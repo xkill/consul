@@ -177,3 +177,27 @@ zh-TW:
           undecided: "未定"
         selected: "已選擇"
         select: "選擇"
+        list:
+          id: ID
+          title: 標題
+          supports: 支援
+          admin: 管理員
+          valuator: 評估員
+          valuation_group: 評估組
+          geozone: 經營範圍
+          feasibility: 可行性
+          valuation_finished: 評估完成
+          selected: 選擇
+          visible_to_valuators: 為評估員顯示
+          author_username: 作者用戶名
+          incompatible: 不相容
+        cannot_calculate_winners: 預算必須留在 "投票項目", "審查選票" 或 "完成預算"的階段, 以便計算勝出者項目
+        see_results: "查看結果"
+      show:
+        assigned_admin: 指定的管理員
+        assigned_valuators: 指定的評估員
+        classification: 分類
+        info: "%{budget_name} - 組： %{group_name} - 投資項目 %{id}"
+        edit: 編輯
+        edit_classification: 編輯分類
+        by: 由
