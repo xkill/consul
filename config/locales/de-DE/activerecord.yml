@@ -237,10 +237,10 @@ de:
         text: Kommentar
       document:
         title: Titel
-        attachment: Anlage
+        attachment: Anhang
       image:
         title: Titel
-        attachment: Anlage
+        attachment: Anhang
       poll/question/answer:
         title: Antwort
         description: Beschreibung
@@ -248,16 +248,16 @@ de:
         title: Titel
         url: Externes Video
       newsletter:
-        segment_recipient: Empfänger
+        segment_recipient: Empfänger*innen
         subject: Betreff
         from: Von
         body: Inhalt der E-Mail
       widget/card:
-        label: Kennzeichen (optional)
+        label: Tag (optional)
         title: Titel
         description: Beschreibung
         link_text: Linktext
-        link_url: Link URL
+        link_url: URL des Links
       widget/feed:
         limit: Anzahl der Elemente
     errors:
@@ -265,11 +265,11 @@ de:
         user:
           attributes:
             email:
-              password_already_set: "Diese/r Benutzer/in hat bereits ein Passwort"
+              password_already_set: "Diese*r Benutzer*in hat bereits ein Passwort"
         debate:
           attributes:
             tag_list:
-              less_than_or_equal_to: "Markierungen müssen kleiner als oder gleich %{count} sein"
+              less_than_or_equal_to: "Tags müssen kleiner oder gleich %{count} sein"
         direct_message:
           attributes:
             max_per_day:
@@ -282,11 +282,15 @@ de:
         newsletter:
           attributes:
             segment_recipient:
-              invalid: "Das Benutzersegment Empfänger ist ungültig"
+              invalid: "Das Benutzersegment ist ungültig"
+        admin_notification:
+          attributes:
+            segment_recipient:
+              invalid: "Das Benutzersegment ist ungültig"
         map_location:
           attributes:
             map:
-              invalid: Der Kartenstandort darf nicht leer sein. Platzieren Sie einen Marker oder aktivieren Sie das Kontrollkästchen, wenn eine Standorterkennung nich möglich ist
+              invalid: Der Kartenstandort darf nicht leer sein. Platzieren Sie einen Marker oder aktivieren Sie das Kontrollkästchen, wenn eine Standorterkennung nicht möglich ist
         poll/voter:
           attributes:
             document_number:
