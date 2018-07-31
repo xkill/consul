@@ -40,7 +40,7 @@ sv:
         feature_1_link: "registrera dig på %{org_name}"
       processes:
         title: "Processer"
-        description: "I %{link}-delen är medborgare med i processen att skriva och kommentera nya policydokument som rör staden och kan kommentera existerande dokument."
+        description: "I %{link}-delen är medborgare med i processen för att skriva och kommentera nya dokument och handlingar som rör staden."
         link: "processer"
       faq:
         title: "Har du tekniska problem?"
