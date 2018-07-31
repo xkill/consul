@@ -21,7 +21,7 @@ sv:
           print: Visa lösenord
           print_help: Du kommer kunna skriva ut lösenordet när det har sparats.
     account_info:
-      change_user: Ändra användare
+      change_user: Byt användare
       document_number_label: 'Dokumentnummer:'
       document_type_label: 'Dokumenttyp:'
       email_label: 'E-post:'
@@ -103,6 +103,7 @@ sv:
         unverified_user: Användaren är inte verifierad
       create: Skapa budgetförslag
       filters:
+        heading: Koncept
         unfeasible: Ej genomförbara budgetförslag
       print:
         print_button: Skriv ut
