@@ -22,8 +22,8 @@ zh-TW:
         delete: 刪除橫幅
         filters:
           all: 所有
-          with_active: 活動
-          with_inactive: 非活動
+          with_active: 活躍
+          with_inactive: 非活躍
         preview: 預覽
       banner:
         title: 標題
@@ -82,7 +82,32 @@ zh-TW:
         table_investments: 投資
         table_edit_groups: 標題組
         table_edit_budget: 編輯
+        edit_groups: 編輯標題組
+        edit_budget: 編輯預算
+      create:
+        notice: 新的參與性預算創建成功!
+      update:
+        notice: 參與性預算已成功更新
+      edit:
+        title: 編輯參與性預算
+        delete: 刪除預算
+        phase: 階段
+        dates: 日期
+        enabled: 啟用
+        actions: 行動
+        edit_phase: 編輯階段
+        active: 活躍
+        blank_dates: 日期是空白的
+      destroy:
+        success_notice: 預算已成功刪除
+        unable_notice: 您無法銷毀具有相關投資的預算
+      new:
+        title: 新的參與性預算
+      show:
+        groups:
+          other: "1組預算標題\n%{count} 組預算標題"
       form:
+        group: 組名字
         table_population: 人口
         population_info: "預算標題 \"人口\" 欄位用於統計目的, 在預算結束時顯示每個標題, 代表一個地區與人口百分比投票率。該欄位是可選擇填寫的, 因此如果不適用, 您可以將其留空。"
         max_votable_headings: "用戶可投票的最大標題數"
