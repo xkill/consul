@@ -35,6 +35,7 @@ pl:
       signed_up_but_inactive: "Twoja rejestracja powiodła się, ale nie mogłeś/łaś się zalogować, ponieważ Twoje konto nie zostało jeszcze aktywowane."
       signed_up_but_locked: "Twoja rejestracja powiodła się, ale nie mogłeś/łaś się zalogować, ponieważ Twoje konto jest zablokowane."
       signed_up_but_unconfirmed: "Wysłano Ci wiadomość zawierającą link weryfikacyjny. Kliknij w niego, aby aktywować swoje konto."
+      update_needs_confirmation: "Aktualizacja Twojego konta powiodła się; musimy jednak zweryfikować Twój nowy adres e-mail. Sprawdź swoją skrzynkę pocztową i kliknij w link, aby ukończyć potwierdzanie Twojego nowego adresu e-mail."
   errors:
     messages:
       already_confirmed: "Zostałeś/łaś już zweryfikowany/a; spróbuj się zalogować."
