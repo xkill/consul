@@ -40,5 +40,5 @@ pl:
     messages:
       already_confirmed: "Zostałeś/łaś już zweryfikowany/a; spróbuj się zalogować."
       confirmation_period_expired: "Musisz zostać zweryfikowany/a w ciągu %{period}; proszę wysłać ponowny wniosek."
-      expired: "utracił ważność; proszę wysłać ponowny wniosek."
+      expired: "utracił/a ważność; proszę wysłać ponowny wniosek."
       not_found: "nie znaleziono."
