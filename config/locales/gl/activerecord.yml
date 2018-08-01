@@ -13,6 +13,9 @@ gl:
       budget/investment/milestone:
         one: "fito"
         other: "fitos"
+      budget/investment/status:
+        one: "Estado do investimento"
+        other: "Estado dos investimentos"
       comment:
         one: "Comentario"
         other: "Comentarios"
@@ -34,9 +37,15 @@ gl:
       valuator:
         one: "Avaliador"
         other: "Avaliadores"
+      valuator_group:
+        one: "Grupo de avaliadores"
+        other: "Grupos de avaliadores"
       manager:
         one: "Xestor"
         other: "Xestores"
+      newsletter:
+        one: "Boletín informativo"
+        other: "Boletíns informativos"
       vote:
         one: "Voto"
         other: "Votos"
@@ -94,6 +103,9 @@ gl:
       poll:
         one: "Votación"
         other: "Votacións"
+      proposal_notification:
+        one: "Aviso de proposta"
+        other: "Avisos de propostas"
     attributes:
       budget:
         name: "Nome"
@@ -117,6 +129,7 @@ gl:
         image: "Imaxe descritiva da proposta"
         image_title: "Título da imaxe"
       budget/investment/milestone:
+        status_id: "Estado do investimento actual (opcional)"
         title: "Título"
         publication_date: "Data de publicación"
       budget/heading:
