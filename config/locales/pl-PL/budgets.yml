@@ -3,6 +3,7 @@ pl:
     ballots:
       show:
         amount_spent: Łączna wartość wybranych projektów
+        remaining: "Wciąż masz <span>%{amount}</span> do zainwestowania."
         zero: Nie wybrałeś/aś jeszcze żadnego projektu.
       reasons_for_not_balloting:
         not_verified: W głosowaniu mogą wziąć udział tylko zweryfikowani użytkownicy. %{verify_account}.
