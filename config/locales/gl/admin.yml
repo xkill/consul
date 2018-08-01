@@ -284,6 +284,18 @@ gl:
         notice: Fito actualizado correctamente
       delete:
         notice: Fito borrado correctamente
+    statuses:
+      index:
+        title: Estados dos investimentos
+        empty_statuses: Aínda non se definirion os estados dos investimentos
+        new_status: Crear novo estado de investimento
+        table_name: Nome
+        table_description: Descrición
+        table_actions: Accións
+        delete: Borrar
+        edit: Editar
+      edit:
+        title: Editar estados de investimento
     comments:
       index:
         filter: Filtro
