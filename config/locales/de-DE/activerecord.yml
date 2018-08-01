@@ -145,7 +145,7 @@ de:
         user: "Benutzer*in"
       debate:
         author: "Verfasser*in"
-        description: "Meinung"
+        description: "Beitrag"
         terms_of_service: "Nutzungsbedingungen"
         title: "Titel"
       proposal:
@@ -155,9 +155,9 @@ de:
         description: "Beschreibung"
         terms_of_service: "Nutzungsbedingungen"
       user:
-        login: "E-Mail oder Benutzername"
+        login: "E-Mail oder Benutzer*innenname"
         email: "E-Mail"
-        username: "Benutzername"
+        username: "Benutzer*innenname"
         password_confirmation: "Bestätigen Sie das Passwort "
         password: "Passwort"
         current_password: "Aktuelles Passwort"
