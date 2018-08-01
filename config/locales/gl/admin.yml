@@ -31,6 +31,15 @@ gl:
         target_url: Ligazón
         post_started_at: Inicio de publicación
         post_ended_at: Fin de publicación
+        sections_label: Seccións nas que amosar
+        sections:
+          homepage: Páxina principal
+          debates: Debates
+          proposals: Propostas
+          budgets: Orzamentos participativos
+          help_page: Páxina de inicio
+        background_color: Cor de fondo
+        font_color: Cor da fonte
       edit:
         editing: Editar banner
         form:
@@ -58,8 +67,10 @@ gl:
           on_debates: Debates
           on_proposals: Propostas
           on_users: Usuarios
+          on_system_emails: Correos electrónicos do sistema
         title: Actividade dos moderadores
         type: Tipo
+        no_activity: Non hai actividade de moderadores.
     budgets:
       index:
         title: Orzamentos participativos
@@ -68,6 +79,7 @@ gl:
         filters:
           open: Abrir
           finished: Rematados
+        budget_investments: Xestionar proxectos
         table_name: Nome
         table_phase: Fase
         table_investments: Propostas de investimento
@@ -103,6 +115,8 @@ gl:
         no_groups: Non hai grupos creados aínda. Cada persoa usuaria poderá votar nunha soa partida de cada grupo.
         add_group: Engadir un grupo novo
         create_group: Crear un grupo
+        edit_group: Editar grupo
+        submit: Gardar grupo
         heading: Nome da partida
         add_heading: Engadir partida
         amount: Cantidade
@@ -114,9 +128,11 @@ gl:
         table_amount: Cantidade
         table_population: Poboación
         population_info: "O campo poboación das partidas do orzamento utilízase unicamente con fins estatísticos, co obxectivo de amosar a porcentaxe de votos de cada partida que represente unha área con poboación. É un campo opcional, así que podes deixalo en branco se non o aplicas."
+        current_of_max_headings: "%{current} de %{max}"
       winners:
         calculate: Calcular propostas gañadoras
         calculated: Calculando gañadoras, pode tardar un minuto.
+        recalculate: Recalcular propostas gañadoras
     budget_phases:
       edit:
         start_date: Data de inicio
@@ -151,6 +167,7 @@ gl:
           selected: Seleccionadas
           undecided: Sen decidir
           unfeasible: Inviable
+          min_total_supports: Soportes mínimos
           winners: Gañadoras
           one_filter_html: "Filtros aplicados actualmente: <b><em>%{filter}</em></b>"
           two_filters_html: "Filtros de uso aplicados actualmente: <b><em>%{filter}, %{advanced_filters}</em></b>"
@@ -162,12 +179,29 @@ gl:
         assigned_admin: Administrador asignado
         no_admin_assigned: Sen administrador asignado
         no_valuators_assigned: Sen avaliador asignado
+        no_valuation_groups: Grupos asignados sen valoración
         feasibility:
           feasible: "Viable (%{price})"
           unfeasible: "Non viables"
           undecided: "Sen decidir"
         selected: "Seleccionada"
         select: "Seleccionar"
+        list:
+          id: ID
+          title: Título
+          supports: Apoios
+          admin: Administrador
+          valuator: Avaliador
+          valuation_group: Grupo de avaliadores
+          geozone: Ámbito de actuación
+          feasibility: Viabilidade
+          valuation_finished: Av. Fin.
+          selected: Seleccionado
+          visible_to_valuators: Amosar aos avaliadores
+          author_username: Nome de usuario do autor
+          incompatible: Incompatible
+        cannot_calculate_winners: O orzamento debe manterse na fase «Proxecto en votación», «Revisión de votacións» ou «Orzamento rematado» para poder calcular os proxectos gañadores
+        see_results: "Ver resultados"
       show:
         assigned_admin: Administrador asignado
         assigned_valuators: Avaliadores asignados
@@ -177,6 +211,7 @@ gl:
         edit_classification: Editar a clasificación
         by: autoría
         sent: Data
+        group: Grupo
         heading: Partida
         dossier: Informe
         edit_dossier: Editar informe
@@ -197,6 +232,11 @@ gl:
           title: Gañadora
           "true": "Si"
           "false": "Non"
+        image: "Imaxe"
+        see_image: "Ver imaxe"
+        no_image: "Sen imaxe"
+        documents: "Documentos"
+        see_documents: "Ver documentos (%{count})"
       edit:
         classification: Clasificación
         compatibility: Compatibilidade
