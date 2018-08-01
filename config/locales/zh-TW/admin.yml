@@ -54,7 +54,7 @@ zh-TW:
       show:
         action: 行動
         actions:
-          block: 封鎖
+          block: 禁用
           hide: 隱藏
           restore: 恢復
         by: 審核者
