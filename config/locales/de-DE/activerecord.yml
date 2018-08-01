@@ -315,7 +315,7 @@ de:
         proposal_notification:
           attributes:
             minimum_interval:
-              invalid: "Sie müssen mindestens %{interval} Tage zwischen den Benachrichtigungen warten"
+              invalid: "Sie müssen mindestens %{interval} Tage zwischen Benachrichtigungen warten"
         signature:
           attributes:
             document_number:
@@ -337,5 +337,5 @@ de:
       messages:
         record_invalid: "Validierung fehlgeschlagen: %{errors}"
         restrict_dependent_destroy:
-          has_one: "Datensatz kann nicht gelöscht werden, da dieser mit %{record} verbunden ist"
-          has_many: "Datensatz kann nicht gelöscht werden, da dieser mit %{record} verbunden ist"
+          has_one: "Der Eintrag kann nicht gelöscht werden, da dieser mit %{record} verbunden ist"
+          has_many: "Der Eintrag kann nicht gelöscht werden, da dieser mit %{record} verbunden ist"
