@@ -296,6 +296,14 @@ gl:
         edit: Editar
       edit:
         title: Editar estados de investimento
+      update:
+        notice: O estado do investimento foi actualizado correctamente
+      new:
+        title: Crear estado de investimento
+      create:
+        notice: O estado do investimento foi creado correctamente
+      delete:
+        notice: O estado do investimento foi eliminado correctamente
     comments:
       index:
         filter: Filtro
@@ -336,6 +344,15 @@ gl:
         hidden_at: 'Bloqueado:'
         registered_at: 'Data de alta:'
         title: Actividade do usuario (%{user})
+    hidden_budget_investments:
+      index:
+        filter: Filtro
+        filters:
+          all: Todo
+          with_confirmed_hide: Confirmado
+          without_confirmed_hide: Pendente
+        title: Agochar as propostas de investimento
+        no_hidden_budget_investments: Non hai propostas de investimento agochadas
     legislation:
       processes:
         create:
@@ -356,6 +373,7 @@ gl:
           enabled: Habilitado
           process: Proceso
           debate_phase: Fase previa
+          allegations_phase: Fase de redacción
           proposals_phase: Fase de propostas
           start: Comezo
           end: Remate
@@ -387,6 +405,7 @@ gl:
           status_planned: Planificado
         subnav:
           info: Información
+          draft_texts: Redacción
           questions: Debate
           proposals: Propostas
       proposals:
@@ -461,7 +480,10 @@ gl:
             error: Erro
         form:
           add_option: Engadir unha opción
+          title: Pregunta
+          title_placeholder: Engadir pregunta
           value_placeholder: Engadir unha resposta pechada
+          question_options: "Posibles respostas (opcional, respostas abertas por defecto)"
         index:
           back: Volver
           title: Preguntas asociadas ao proceso
@@ -493,12 +515,14 @@ gl:
       activity: Actividade de moderadores
       admin: Menú de administración
       banner: Xestionar banners
+      poll_questions: Preguntas
       proposals_topics: Temas propostos
       budgets: Orzamentos participativos
       geozones: Xestionar distritos
       hidden_comments: Comentarios ocultos
       hidden_debates: Debates ocultos
       hidden_proposals: Propostas ocultas
+      hidden_budget_investments: Agochar proposta de investimento
       hidden_users: Usuarios/as bloqueados/as
       administrators: Administradores
       managers: Xestores/as
