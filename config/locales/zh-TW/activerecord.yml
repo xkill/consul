@@ -238,7 +238,7 @@ zh-TW:
         direct_message:
           attributes:
             max_per_day:
-              invalid: "您已達到每天的最大私人郵件數"
+              invalid: "您已達到每天的最大私人消息數"
         image:
           attributes:
             attachment:
@@ -289,7 +289,7 @@ zh-TW:
         site_customization/page:
           attributes:
             slug:
-              slug_format: "必須是字母，數位，_ 和-"
+              slug_format: "必須是字母，數字，_ 和-"
         site_customization/image:
           attributes:
             image:
