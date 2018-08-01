@@ -138,7 +138,7 @@ de:
         description: "Beschreibung (optional)"
       budget/heading:
         name: "Name der Rubrik"
-        price: "Summe"
+        price: "Kosten"
         population: "Bevölkerung"
       comment:
         body: "Kommentar"
