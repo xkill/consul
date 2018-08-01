@@ -26,7 +26,7 @@ gl:
         one: "Tema"
         other: "Temas"
       user:
-        one: "Usuario/a"
+        one: "Usuario"
         other: "Usuarios/as"
       moderator:
         one: "Moderador"
