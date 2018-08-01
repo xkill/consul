@@ -108,11 +108,11 @@ de:
         title: Neuer Bürgerhaushalt
       show:
         groups:
-          one: 1 Gruppe von Budgetrubriken
+          one: 1 Gruppe von Rubriken
           other: "%{count} Gruppen von Budgetkategorien"
       form:
         group: Name der Gruppe
-        no_groups: Bisher wurden noch keine Gruppen erstellt. Jede*r Benutzer*in darf nur in einer Rubrik per Gruppe wählen.
+        no_groups: Bisher wurden noch keine Gruppen erstellt. Jede*r Benutzer*in darf in nur einer Rubrik per Gruppe abstimmen.
         add_group: Neue Gruppe hinzufügen
         create_group: Gruppe erstellen
         edit_group: Gruppe bearbeiten
@@ -123,15 +123,15 @@ de:
         population: "Bevölkerung (optional)"
         population_help_text: "Diese Daten dienen ausschließlich dazu, die Beteiligungsstatistiken zu berechnen"
         save_heading: Rubrik speichern
-        no_heading: Diese Gruppe hat noch keine zugewiesene Rubrik.
+        no_heading: Diese Gruppe hat noch keine zugeordnete Rubrik.
         table_heading: Rubrik
         table_amount: Summe
         table_population: Bevölkerung
-        population_info: "Das Feld 'Bevölkerung' in den Budgetrubriken wird nur für statistische Zwecke verwendet mit dem Ziel, den Prozentsatz der Stimmen in jeder Rubrik anzuzeigen, die ein Bevölkerungsgebiet darstellt. Es ist ein optionales Feld, daher können Sie es leer lassen, wenn es nicht zutrifft."
-        max_votable_headings: "Maximale Anzahl von Rubriken, in der ein Nutzer abstimmen kann"
+        population_info: "Das Feld 'Bevölkerung' in den Rubriken wird nur für statistische Zwecke verwendet, mit dem Ziel, den Prozentsatz der Stimmen in jeder Rubrik anzuzeigen, die ein Bevölkerungsgebiet darstellt. Dieses Feld ist optional; Sie können es daher leer lassen, wenn es nicht zutrifft."
+        max_votable_headings: "Maximale Anzahl von Rubriken, in der ein*e Benutzer*in abstimmen kann"
         current_of_max_headings: "%{current} von %{max}"
       winners:
-        calculate: Meistbewertete Budgetvorschläge berechnen
+        calculate: Bestbewertete Vorschläge berechnen
         calculated: Die Gewinner werden ermittelt, es kann einen Moment dauern.
         recalculate: Meistbewertete Budgetvorschläge neu berechnen
     budget_phases:
