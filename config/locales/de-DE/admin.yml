@@ -74,7 +74,7 @@ de:
     budgets:
       index:
         title: Bürgerhaushalte
-        new_link: Neues Budget erstellen
+        new_link: Neuen Bürgerhaushalt erstellen
         filter: Filter
         filters:
           open: Offen
@@ -86,9 +86,9 @@ de:
         table_edit_groups: Gruppierungen von Rubriken
         table_edit_budget: Bearbeiten
         edit_groups: Gruppierungen von Rubriken bearbeiten
-        edit_budget: Budget bearbeiten
+        edit_budget: Bürgerhaushalt bearbeiten
       create:
-        notice: Ein neuer Bürgerhaushalt wurde erfolgreich erstellt!
+        notice: Neuer Bürgerhaushalt erfolgreich erstellt!
       update:
         notice: Bürgerhaushalt erfolgreich aktualisiert
       edit:
@@ -103,7 +103,7 @@ de:
         blank_dates: Das Datumfeld ist leer
       destroy:
         success_notice: Bürgerhaushalt erfolgreich gelöscht
-        unable_notice: Sie können einen Bürgerhaushalt mit zugehörigem Ausgabenvorschlag nicht löschen
+        unable_notice: Ein Bürgerhaushalt mit zugehörigen Ausgabenvorschlägen kann nicht gelöscht werden
       new:
         title: Neuer Bürgerhaushalt
       show:
