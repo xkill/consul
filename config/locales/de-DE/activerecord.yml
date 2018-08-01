@@ -162,18 +162,18 @@ de:
         password: "Passwort"
         current_password: "Aktuelles Passwort"
         phone_number: "Telefonnummer"
-        official_position: "Beamter/Beamtin"
+        official_position: "Öffentliches Amt"
         official_level: "Amtsebene"
         redeemable_code: "Bestätigungscode per Post (optional)"
       organization:
         name: "Name der Organisation"
-        responsible_name: "Der/die Gruppenverantwortliche"
+        responsible_name: "Der/die* Gruppenverantwortliche"
       spending_proposal:
         administrator_id: "Administrator*in"
         association_name: "Name des Vereins"
         description: "Beschreibung"
         external_url: "Link zu zusätzlicher Dokumentation"
-        geozone_id: "Tätigkeitsbereich"
+        geozone_id: "Tätigkeitsfeld"
         title: "Titel"
       poll:
         name: "Name"
