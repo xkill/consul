@@ -353,7 +353,7 @@ de:
           with_confirmed_hide: Bestätigt
           without_confirmed_hide: Ausstehend
         title: Verborgene Vorschläge
-        no_hidden_budget_investments: Keine verborgenen Budgetvorschkäge vorhanden
+        no_hidden_budget_investments: Es gibt keine verborgenen Vorschläge
     legislation:
       processes:
         create:
