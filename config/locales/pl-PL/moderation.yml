@@ -40,7 +40,7 @@ pl:
         title: Propozycje
     budget_investments:
       index:
-        confirm: Czy na pewno?
+        confirm: Jesteś pewien?
         filter: Filtr
         filters:
           all: Wszystko
