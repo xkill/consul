@@ -38,8 +38,8 @@ de:
         one: "Begutachter*in"
         other: "Begutachter*innen"
       valuator_group:
-        one: "Bewertungsgruppe"
-        other: "Bewertungsgruppen"
+        one: "Begutachtungsgruppe"
+        other: "Begutachtungsgruppen"
       manager:
         one: "Manager*in"
         other: "Manager*innen"
