@@ -112,7 +112,7 @@ de:
         description_accepting: "Beschreibung während der Vorschlagsphase"
         description_reviewing: "Beschreibung während der internen Überprüfungsphase"
         description_selecting: "Beschreibung während der Auswahlphase"
-        description_valuating: "Beschreibung während der Bewertungsphase"
+        description_valuating: "Beschreibung während der Begutachtungsphase"
         description_balloting: "Beschreibung während der Abstimmungsphase"
         description_reviewing_ballots: "Beschreibung während der Auswertungsphase der Abstimmungen"
         description_finished: "Beschreibung, wenn endgültige Ergebnisse vorliegen/der Bürgerhaushalt beschlossen ist"
