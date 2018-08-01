@@ -707,6 +707,8 @@ gl:
         name: "Nome"
         members: "Membros"
         no_groups: "Non hai grupos de avalidores"
+      form:
+        name: "Nome do grupo"
     poll_officers:
       index:
         title: Presidentas da mesa
@@ -984,6 +986,15 @@ gl:
           without_confirmed_hide: Pendentes
         title: Propostas ocultas
         no_hidden_proposals: Non hai propostas ocultas.
+    proposal_notifications:
+      index:
+        filter: Filtro
+        filters:
+          all: Todo
+          with_confirmed_hide: Confirmado
+          without_confirmed_hide: Pendente
+        title: Agochar notificacións
+        no_hidden_proposals: Non hai notificacións agochadas.
     settings:
       flash:
         updated: Valor actualizado
@@ -1287,3 +1298,28 @@ gl:
           locale: Idioma
     homepage:
       title: Páxina principal
+      header_title: Cabeceira
+      no_header: Non hai cabeceira.
+      create_header: Crear cabeceira
+      cards_title: Tarxetas
+      create_card: Crear tarxeta
+      no_cards: Non hai tarxetas.
+      cards:
+        title: Título
+        description: Descrición
+        link_text: Texto da ligazón
+        link_url: URL da ligazón
+      feeds:
+        proposals: Propostas
+        debates: Debates
+        processes: Procesos
+      new:
+        header_title: Nova cabeceira
+        submit_header: Crear cabeceira
+        card_title: Nova tarxeta
+        submit_card: Crear tarxeta
+      edit:
+        header_title: Editar cabeceira
+        submit_header: Gardar cabeceira
+        card_title: Editar tarxeta
+        submit_card: Gardar tarxeta
