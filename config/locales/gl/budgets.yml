@@ -29,14 +29,18 @@ gl:
         unselected: Ver as propostas que non foron seleccionadas para a votación final
     phase:
       drafting: Borrador (non visible para o público)
+      informing: Información
       accepting: Presentación de proxectos
       reviewing: Revisión de proxectos
       selecting: Fase de apoios
       valuating: Avaliación de proxectos
       publishing_prices: Publicación de prezos
+      balloting: Votando proxectos
+      reviewing_ballots: Revisando votación
       finished: Resultados
     index:
       title: Orzamentos participativos
+      empty_budgets: Non hai orzamentos.
       section_header:
         icon_alt: Icona dos orzamentos participativos
         title: Orzamentos participativos
