@@ -2,7 +2,7 @@ pl:
   moderation:
     comments:
       index:
-        confirm: Czy na pewno?
+        confirm: Jesteś pewien?
         filter: Filtr
         filters:
           all: Wszystkie
