@@ -1,13 +1,13 @@
 pl:
   date:
     abbr_day_names:
-      - "N"
-      - Pn
+      - Słońce
+      - Pon
       - Wt
       - Śr
-      - Cz
+      - Czw
       - Pt
-      - So
+      - Sob
     abbr_month_names:
       - 
       - STY
