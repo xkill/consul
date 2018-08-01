@@ -282,11 +282,11 @@ de:
         newsletter:
           attributes:
             segment_recipient:
-              invalid: "Das Benutzersegment ist ungültig"
+              invalid: "Das Benutzer*innensegment ist ungültig"
         admin_notification:
           attributes:
             segment_recipient:
-              invalid: "Das Benutzersegment ist ungültig"
+              invalid: "Das Empfänger*innensegment ist ungültig"
         map_location:
           attributes:
             map:
@@ -295,7 +295,7 @@ de:
           attributes:
             document_number:
               not_in_census: "Dieses Dokument scheint nicht im Melderegister auf"
-              has_voted: "Der/Die Benutzer*in hat bereits abgestimmt"
+              has_voted: "Der/die Benutzer*in hat bereits abgestimmt"
         legislation/process:
           attributes:
             end_date:
