@@ -40,8 +40,11 @@ de:
     feature:
       budgets: "Bürgerhaushalt"
       twitter_login: "Twitter login"
+      twitter_login_description: "Anmeldung mit Twitter-Account erlauben"
       facebook_login: "Facebook login"
+      facebook_login_description: "Anmeldung mit Facebook-Account erlauben"
       google_login: "Google login"
+      google_login_description: "Anmeldung mit Google-Account erlauben"
       proposals: "Vorschläge"
       debates: "Diskussionen"
       polls: "Umfragen"
