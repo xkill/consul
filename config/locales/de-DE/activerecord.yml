@@ -68,8 +68,8 @@ de:
         one: Meine Seite
         other: Meine Seiten
       site_customization/image:
-        one: Benutzer*bild
-        other: Benutzer*bilder
+        one: Benutzer*innenbild
+        other: Benutzer*innenbilder
       site_customization/content_block:
         one: Benutzer*spezifischer Inhaltsdatenblock
         other: Benutzer*spezifische Inhaltsdatenblöcke
