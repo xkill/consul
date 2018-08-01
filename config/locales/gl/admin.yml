@@ -602,6 +602,7 @@ gl:
     newsletters:
       index:
         title: Newsletters
+        new_newsletter: Novo boletín informativo
         subject: Asunto
         segment_recipient: Destinatarios
         sent: Enviado
@@ -613,8 +614,12 @@ gl:
         empty_newsletters: Non hai notificacións para amosar
       new:
         title: Novo boletín informativo
+      edit:
+        title: Editar boletín informativo
       show:
+        title: Vista previa do boletín informativo
         send: Enviar
+        affected_users: (%{n} usuarios afectados)
         sent_at: Enviado a
         subject: Asunto
         segment_recipient: Destinatarios
@@ -661,11 +666,17 @@ gl:
         action: Vista previa pendente
         preview_of: Vista previa de %{name}
         pending_to_be_sent: Este é o contido pendente de enviar
+        moderate_pending: Enviada notificación de moderación
         send_pending: Pendente de envío
         send_pending_notification: A notificación pendente foi enviada correctamente
+      proposal_notification_digest:
+        title: Resumo de notificacións de propostas
     emails_download:
       index:
         title: Descarga de correos electrónicos
+        download_segment: Descargar enderezos de correo electrónico
+        download_segment_help_text: Descargar en formato CSV
+        download_emails_button: Descargar lista de correos electrónicos
     valuators:
       index:
         title: Avaliadores/as
@@ -674,6 +685,7 @@ gl:
         description: Descrición
         no_description: Sen descrición
         no_valuators: Non hai avaliadores/as.
+        valuator_groups: "Grupos de avaliadores"
         group: "Grupo"
         no_group: "Sen grupo"
       valuator:
@@ -707,8 +719,13 @@ gl:
         name: "Nome"
         members: "Membros"
         no_groups: "Non hai grupos de avalidores"
+      show:
+        title: "Grupo de avaliadores: %{group}"
+        no_valuators: "Non hai avaliadores dentro deste grupo"
       form:
         name: "Nome do grupo"
+        new: "Crear grupo de avaliadores"
+        edit: "Gardar grupo de avaliadores"
     poll_officers:
       index:
         title: Presidentas da mesa
@@ -749,6 +766,7 @@ gl:
         search_officer_placeholder: Procurar presidente de mesa
         search_officer_text: Procura a presidencia de mesa para asignar unha quenda
         select_date: "Escolle o día"
+        no_voting_days: "Días de votación rematados"
         select_task: "Escolle tarefa"
         table_shift: "Quenda"
         table_email: "Correo electrónico"
@@ -797,6 +815,8 @@ gl:
         table_location: "Localización"
     polls:
       index:
+        title: "Lista de votacións activas"
+        no_polls: "Non hai ningunha votación proximamente."
         create: "Crear votación"
         name: "Nome"
         dates: "Datas"
@@ -908,6 +928,7 @@ gl:
         title: "Resultados por urna"
     booths:
       index:
+        title: "Lista de urnas activas"
         add_booth: "Engadir urna"
         name: "Nome"
         location: "Localización"
@@ -999,6 +1020,10 @@ gl:
       flash:
         updated: Valor actualizado
       index:
+        banners: Estilos de anuncio
+        banner_imgs: Imaxes do anuncio
+        no_banners_images: Non hai imaxes de anuncio
+        no_banners_styles: Non hai estilo de anuncio
         title: Configuración global
         update_setting: Actualizar
         feature_flags: Funcionalidades
@@ -1014,6 +1039,10 @@ gl:
             update: A configuración do mapa gardouse correctamente.
           form:
             submit: Actualizar
+      setting: Característica
+      setting_actions: Accións
+      setting_name: Axuste
+      setting_status: Estados
       setting_value: Valor
       no_description: "Sen descrición"
     shared:
