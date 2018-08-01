@@ -62,8 +62,8 @@ gl:
         one: "Proposta cidadá"
         other: "Propostas cidadás"
       spending_proposal:
-        one: "Proposta de investimento"
-        other: "Propostas de investimento"
+        one: "Proxecto de investimento"
+        other: "Proxectos de investimento"
       site_customization/page:
         one: Páxina
         other: Páxinas
@@ -110,11 +110,11 @@ gl:
       budget:
         name: "Nome"
         description_accepting: "Descrición durante a fase de presentación de proxectos"
-        description_reviewing: "Descrición durante a fase de revisión"
-        description_selecting: "Descrición durante a fase de selección"
-        description_valuating: "Descrición durante a fase de avaliación"
-        description_balloting: "Descrición durante a fase de votación"
-        description_reviewing_ballots: "Descrición durante a fase de revisión de votos"
+        description_reviewing: "Descrición durante a fase de Revisión"
+        description_selecting: "Descrición durante a fase de Selección"
+        description_valuating: "Descrición durante a fase de Avaliación"
+        description_balloting: "Descrición durante a fase de Votación"
+        description_reviewing_ballots: "Descrición durante a fase de Revisión de votos"
         description_finished: "Descrición cando o orzamento está rematado"
         phase: "Fase"
         currency_symbol: "Moeda"
@@ -131,7 +131,11 @@ gl:
       budget/investment/milestone:
         status_id: "Estado do investimento actual (opcional)"
         title: "Título"
+        description: "Descrición (opcional se hai unha condición asignada)"
         publication_date: "Data de publicación"
+      budget/investment/status:
+        name: "Nome"
+        description: "Descrición (opcional)"
       budget/heading:
         name: "Nome da partida"
         price: "Cantidade"
@@ -160,11 +164,12 @@ gl:
         phone_number: "Teléfono"
         official_position: "Cargo público"
         official_level: "Nivel do cargo"
-        redeemable_code: "Código de verificación por carta (opcional)"
+        redeemable_code: "Código de verificación recibido por correo electrónico"
       organization:
         name: "Nome da organización"
         responsible_name: "Persoa responsable do colectivo"
       spending_proposal:
+        administrator_id: "Administrador"
         association_name: "Nome da asociación"
         description: "Descrición"
         external_url: "Ligazón á documentación adicional"
@@ -181,7 +186,7 @@ gl:
         title: "Pregunta"
         summary: "Resumo"
         description: "Descrición"
-        external_url: "Enlace a documentación adicional"
+        external_url: "Ligazón á documentación adicional"
       signature_sheet:
         signable_type: "Tipo de sinaturas"
         signable_id: "ID de proposta cidadá/proposta de investimento"
@@ -206,6 +211,7 @@ gl:
         body: Contido
       legislation/process:
         title: Título do proceso
+        summary: Resumo
         description: Descrición
         additional_info: Información adicional
         start_date: Data de comezo
@@ -241,6 +247,19 @@ gl:
       poll/question/answer/video:
         title: Título
         url: Vídeo externo
+      newsletter:
+        segment_recipient: Destinatarios
+        subject: Asunto
+        from: De
+        body: Contido da mensaxe
+      widget/card:
+        label: Etiqueta (opcional)
+        title: Título
+        description: Descrición
+        link_text: Texto da ligazón
+        link_url: URL da ligazón
+      widget/feed:
+        limit: Número de elementos
     errors:
       models:
         user:
@@ -260,6 +279,14 @@ gl:
             attachment:
               min_image_width: "A imaxe debe ter, cando menos, %{required_min_width}px de largo"
               min_image_height: "A imaxe debe ter, cando menos %{required_min_height}px de alto"
+        newsletter:
+          attributes:
+            segment_recipient:
+              invalid: "O segmento de destinatarios é inválido"
+        admin_notification:
+          attributes:
+            segment_recipient:
+              invalid: "O segmento de destinatarios é inválido"
         map_location:
           attributes:
             map:
