@@ -23,7 +23,7 @@ gl:
         one: "Tema"
         other: "Temas"
       user:
-        one: "Usuario/as"
+        one: "Usuario/a"
         other: "Usuarios/as"
       moderator:
         one: "Moderador"
