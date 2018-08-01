@@ -237,6 +237,8 @@ gl:
         no_image: "Sen imaxe"
         documents: "Documentos"
         see_documents: "Ver documentos (%{count})"
+        no_documents: "Sen documentos"
+        valuator_groups: "Grupos de avaliadores"
       edit:
         classification: Clasificación
         compatibility: Compatibilidade
@@ -250,6 +252,7 @@ gl:
         tags: Etiquetas
         tags_placeholder: "Escribe as etiquetas que desexes separadas por comas (,)"
         undefined: Sen definir
+        user_groups: "Grupos"
       search_unfeasible: Buscar inviables
     milestones:
       index:
@@ -257,15 +260,22 @@ gl:
         table_title: "Título"
         table_description: "Descrición"
         table_publication_date: "Data de publicación"
+        table_status: Estado
         table_actions: "Accións"
         delete: "Eliminar fito"
         no_milestones: "Non hai fitos definidos"
         image: "Imaxe"
         show_image: "Amosar imaxe"
         documents: "Documentos"
+      form:
+        add_language: Engadir idioma
+        remove_language: Eliminar idioma
+        admin_statuses: Administrar estados de investimento
+        no_statuses_defined: Aínda non se definirion os estados dos investimentos
       new:
         creating: Crear fito
         date: Data
+        description: Descrición
       edit:
         title: Editar fito
       create:
@@ -498,6 +508,8 @@ gl:
       title_budgets: Orzamentos
       title_polls: Votacións
       title_profiles: Perfís
+      title_site_customization: Contido do sitio
+      title_booths: Urnas de votación
       legislation: Lexislación colaborativa
       users: Usuarios/as
     administrators:
@@ -523,6 +535,10 @@ gl:
         delete: Borrar
       search:
         title: 'Moderadores/as: procura de usuarios/as'
+    segment_recipient:
+      all_users: Todos os usuarios
+      administrators: Administradores
+      proposal_authors: Autores da proposta
     newsletters:
       index:
         title: Newsletters
