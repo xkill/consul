@@ -271,8 +271,8 @@ de:
       form:
         add_language: Sprache hinzufügen
         remove_language: Sprache entfernen
-        admin_statuses: Status der Ausgabenvorschläge verwalten
-        no_statuses_defined: Kein definierter Status der Ausgabenvorschläge bislang vorhanden
+        admin_statuses: Status des Ausgabenvorschlags verwalten
+        no_statuses_defined: Es wurde noch kein Status für diese Ausgabenvorschläge definiert
       new:
         creating: Meilenstein erstellen
         date: Datum
@@ -288,8 +288,8 @@ de:
     statuses:
       index:
         title: Status der Ausgabenvorschläge
-        empty_statuses: Es wurden noch kein Status für Ausgabenvorschläge erstellt
-        new_status: Neuen Status för Ausgabenvorschläge erstellen
+        empty_statuses: Es wurde noch kein Status für Ausgabenvorschläge definiert
+        new_status: Neuen Status für Ausgabenvorschlag erstellen
         table_name: Name
         table_description: Beschreibung
         table_actions: Aktionen
@@ -320,7 +320,7 @@ de:
       index:
         back: Zurück zu %{org}
         title: Administration
-        description: Herzlich Willkommen auf dem %{org}-Admin-Panel.
+        description: Willkommen auf dem Admin-Panel für %{org}.
     debates:
       index:
         filter: Filter
@@ -339,7 +339,7 @@ de:
           without_confirmed_hide: Ausstehend
         title: Verborgene Benutzer*innen
         user: Benutzer*in
-        no_hidden_users: Keine verborgenen Benutzer*innen vorhanden.
+        no_hidden_users: Es gibt keine verborgenen Benutzer*innen.
       show:
         email: 'E-Mail:'
         hidden_at: 'Verborgen am:'
@@ -352,7 +352,7 @@ de:
           all: Alle
           with_confirmed_hide: Bestätigt
           without_confirmed_hide: Ausstehend
-        title: Verborgene Budgetvorschläge
+        title: Verborgene Vorschläge
         no_hidden_budget_investments: Keine verborgenen Budgetvorschkäge vorhanden
     legislation:
       processes:
