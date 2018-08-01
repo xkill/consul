@@ -29,7 +29,7 @@ de:
         title: Titel
         description: Beschreibung
         target_url: Link
-        post_started_at: Eintrag veröffentlicht am
+        post_started_at: Veröffentlicht am
         post_ended_at: Eintrag beendet am
         sections_label: Abschnitte, in denen es angezeigt wird
         sections:
@@ -70,7 +70,7 @@ de:
           on_system_emails: E-mails vom System
         title: Aktivität der Moderator*innen
         type: Typ
-        no_activity: Hier sind keine Moderatoren/Moderatorinnen aktiv.
+        no_activity: Hier sind keine Moderator*innen aktiv.
     budgets:
       index:
         title: Bürgerhaushalte
