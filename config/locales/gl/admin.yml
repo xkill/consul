@@ -602,8 +602,42 @@ gl:
     newsletters:
       index:
         title: Newsletters
+        subject: Asunto
+        segment_recipient: Destinatarios
+        sent: Enviado
+        actions: Accións
+        draft: Borrador
+        edit: Editar
+        delete: Eliminar
+        preview: Vista previa
+        empty_newsletters: Non hai notificacións para amosar
+      new:
+        title: Novo boletín informativo
+      show:
+        send: Enviar
+        sent_at: Enviado a
+        subject: Asunto
+        segment_recipient: Destinatarios
+        body: Contido da mensaxe
+        body_help_text: Así verán os usuarios a mensaxe de correo
+        send_alert: Confirma que quere enviar este boletín informativo a %{n} usuarios?
     admin_notifications:
+      create_success: Notificación creada correctamente
+      update_success: Notificación actualizada correctamente
+      send_success: Notificación enviada correctamente
+      delete_success: Notificación eliminada correctamente
       index:
+        section_title: Notificacións
+        new_notification: Nova notificación
+        title: Título
+        segment_recipient: Destinatarios
+        sent: Enviado
+        actions: Accións
+        draft: Borrador
+        edit: Editar
+        delete: Eliminar
+        preview: Vista previa
+        view: Ver
         empty_notifications: Non hai notificacións para amosar
       new:
         section_title: Novo notificación
@@ -620,6 +654,18 @@ gl:
         link: Ligazón
         segment_recipient: Destinatarios
         preview_guide: "Así verán os usuarios a notificación:"
+        sent_guide: "Así ven os usuarios a notificación:"
+        send_alert: Confirma que quere enviar esta notificación a %{n} usuarios?
+    system_emails:
+      preview_pending:
+        action: Vista previa pendente
+        preview_of: Vista previa de %{name}
+        pending_to_be_sent: Este é o contido pendente de enviar
+        send_pending: Pendente de envío
+        send_pending_notification: A notificación pendente foi enviada correctamente
+    emails_download:
+      index:
+        title: Descarga de correos electrónicos
     valuators:
       index:
         title: Avaliadores/as
@@ -628,6 +674,8 @@ gl:
         description: Descrición
         no_description: Sen descrición
         no_valuators: Non hai avaliadores/as.
+        group: "Grupo"
+        no_group: "Sen grupo"
       valuator:
         add: Engadir como avaliador
         delete: Borrar
@@ -642,6 +690,23 @@ gl:
         in_evaluation_count: A avaliárense
         total_count: Total
         cost: Custo
+      form:
+        edit_title: "Avaliadores: Editar avaliador"
+        update: "Actualizar avaliador"
+        updated: "Avaliador actualizado correctamente"
+      show:
+        description: "Descrición"
+        email: "Correo electrónico"
+        group: "Grupo"
+        no_description: "Sen descrición"
+        no_group: "Sen grupo"
+    valuator_groups:
+      index:
+        title: "Grupos de avaliadores"
+        new: "Crear grupo de avaliadores"
+        name: "Nome"
+        members: "Membros"
+        no_groups: "Non hai grupos de avalidores"
     poll_officers:
       index:
         title: Presidentas da mesa
@@ -938,6 +1003,8 @@ gl:
             update: A configuración do mapa gardouse correctamente.
           form:
             submit: Actualizar
+      setting_value: Valor
+      no_description: "Sen descrición"
     shared:
       booths_search:
         button: Procurar
@@ -962,6 +1029,13 @@ gl:
       actions: Accións
       title: Título
       description: Descrición
+      image: Imaxe
+      show_image: Amosar imaxe
+      view: Ver
+      proposal: Proposta
+      author: Autor
+      content: Contido
+      created_at: Creado en
     spending_proposals:
       index:
         geozone_filter_all: Todos os ámbitos de actuación
@@ -1211,3 +1285,5 @@ gl:
           status_draft: Bosquexo
           status_published: Publicada
           locale: Idioma
+    homepage:
+      title: Páxina principal
