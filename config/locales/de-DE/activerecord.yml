@@ -110,7 +110,7 @@ de:
       budget:
         name: "Name"
         description_accepting: "Beschreibung während der Vorschlagsphase"
-        description_reviewing: "Beschreibung während der internen Auswertungsphase"
+        description_reviewing: "Beschreibung während der internen Überprüfungsphase"
         description_selecting: "Beschreibung während der Auswahlphase"
         description_valuating: "Beschreibung während der Bewertungsphase"
         description_balloting: "Beschreibung während der Abstimmungsphase"
