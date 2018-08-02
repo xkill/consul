@@ -725,7 +725,7 @@ de:
           one: 1 Kommentar
           other: "%{count} Kommentare"
         debates:
-          one: 1 Debatte
+          one: 1 Diskussion
           other: "%{count} Debatten"
         proposals:
           one: 1 Antrag
