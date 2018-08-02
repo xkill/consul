@@ -122,12 +122,19 @@ gl:
         milestone_publication_date: "Publicouse o %{publication_date}"
         milestone_status_changed: O investimento mudou de estado a
         author: Autoría
+        project_unfeasible_html: 'O proxecto de investimento <strong>foi marcado como inviable</strong> e non chegará á fase de votación.'
+        project_selected_html: 'Este proxecto de investimento <strong>foi seleccionado</strong> para a fase de votación.'
+        project_winner: 'Proxecto de investimento gañador'
+        project_not_selected_html: 'O proxecto de inversión <strong>non foi seleccionado</strong> para a fase de votación.'
       wrong_price_format: Só pode incluír caracteres numéricos
       investment:
         add: Votar
         already_added: Xa engadiches esta proposta de investimento
         already_supported: Xa apoiaches este proxecto de investimento. Compárteo!
         support_title: Apoiar esta proposta
+        confirm_group:
+          one: "Só pode apoiar investimentos en %{count} distrito. De continuar, non poderá cambiarse de distrito. Está seguro?"
+          other: "Só pode apoiar investimentos en %{count} distritos. De continuar, non poderá cambiarse de distrito. Está seguro?"
         supports:
           zero: Sen apoios
           one: 1 apoio
