@@ -11,7 +11,7 @@ de:
     email_verification:
       click_here_to_verify: diesen Link
       instructions_2_html: Diese E-Mail dient dazu Ihr Konto mit <b>%{document_type} %{document_number}</b>zu verifizieren. Wenn es sich hierbei nicht um Ihre Daten handelt, klicken Sie bitte nicht auf den vorherigen Link und ignorieren Sie diese E-Mail.
-      subject: E-Mail-Adresse bestätigen
+      subject: Bestätigen Sie Ihre E-Mail-Adresse
       thanks: Vielen Dank.
       title: Bestätigen Sie Ihr Konto über den folgenden Link
     reply:
@@ -20,12 +20,12 @@ de:
       subject: Jemand hat auf Ihren Kommentar geantwortet
       title: Neue Antwort auf Ihren Kommentar
     unfeasible_spending_proposal:
-      hi: "Liebe/r Benutzer/in"
+      hi: "Liebe*r Benutzer*in,"
       new_html: "Deshalb laden wir Sie ein, einen <strong>neuen Vorschlag</strong> zu erstellen, der die Bedingungen für diesen Prozess erfüllt. Sie können dies mithilfe des folgenden Links machen: %{url}."
-      new_href: "neuer Investitionsvorschlag"
+      new_href: "neuer Ausgabenvorschlag"
       sincerely: "Mit freundlichen Grüßen"
       sorry: "Entschuldigung für die Unannehmlichkeiten und vielen Dank für Ihre wertvolle Beteiligung."
-      subject: "Ihr Investitionsprojekt '%{code}' wurde als undurchführbar markiert"
+      subject: "Ihr Ausgabenvorschlag '%{code}' wurde als undurchführbar markiert"
     proposal_notification_digest:
       info: "Hier sind die neuen Benachrichtigungen, die von Autoren, für den Antrag von %{org_name}, den Sie unterstützen, veröffentlicht wurden."
       title: "Antrags-Benachrichtigungen von %{org_name}"
@@ -39,7 +39,7 @@ de:
       unsubscribe: "Wenn Sie keine direkten Nachrichten erhalten möchten, besuchen Sie %{account} und deaktivieren Sie \"E-Mails zu Direktnachrichten empfangen\"."
       unsubscribe_account: Mein Benutzerkonto
     direct_message_for_sender:
-      subject: "Sie haben eine neue persönliche Nachricht versendet"
+      subject: "Sie haben eine neue persönliche Nachricht gesendet"
       title_html: "Sie haben eine neue persönliche Nachricht versendet an <strong>%{receiver}</strong> mit dem Inhalt:"
     user_invite:
       ignore: "Wenn Sie diese Einladung nicht angefordert haben, können Sie diese E-Mail einfach ignorieren."
@@ -57,7 +57,7 @@ de:
       sincerely: "Mit freundlichen Grüßen,"
       share: "Teilen Sie Ihr Projekt"
     budget_investment_unfeasible:
-      hi: "Liebe/r Benutzer/in,"
+      hi: "Liebe*r Benutzer*in,"
       new_html: "Hierfür laden wir Sie ein, eine <strong>neue Investition</strong> auszuarbeiten, die an die Konditionen dieses Prozesses angepasst sind. Sie können dies über folgenden Link tun: %{url}."
       new_href: "neues Investitionsprojekt"
       sincerely: "Mit freundlichen Grüßen"
