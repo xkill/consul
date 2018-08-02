@@ -19,6 +19,7 @@ gl:
         not_selected: Non se poden votar propostas inviables
         not_enough_money_html: "Xa asignaches o orzamento dispoñible.<br><small>Lembra que podes %{change_ballot} cando quixeres</small>"
         no_ballots_allowed: O período de votacións está pechado
+        different_heading_assigned_html: "Xa votaches nunha sección distinta do orzamento: %{heading_link}"
         change_ballot: cambiar os teus votos
     groups:
       show:
@@ -55,6 +56,7 @@ gl:
       see_results: Ver os resultados
       section_footer:
         title: Axuda sobre os orzamentos participativos
+        description: Con estes orzamentos participativos, a cidadanía decide a que proxectos presentados pola veciñanza vai destinada unha parte do orzamento municipal.
     investments:
       form:
         tag_category_label: "Categorías"
@@ -65,9 +67,11 @@ gl:
         map_location_instructions: "Navega polo mapa até a localización e coloca o marcador."
         map_remove_marker: "Borrar o marcador do mapa"
         location: "Información adicional de localización"
+        map_skip_checkbox: "Este investimento non ten unha localización concreta ou non a coñezo."
       index:
         title: Orzamentos participativos
         unfeasible: Proxectos de investimento non viables
+        unfeasible_text: "Os investimentos deben cumprir unha serie de criterios (como a legalidade, a concrención, seren competencia do concello, non superaren o máximo do orzamento), para seren declaradas viables e chegaren até a votación final. Todos os investimentos que non cumpriren estes criterios son marcados como inviables e publicadas na seguinte relación, xunto co seu informe de inviabilidade."
         by_heading: "Propostas de investimento con ámbito: %{heading}"
         search_form:
           button: Procurar
@@ -116,6 +120,7 @@ gl:
         milestones_tab: Seguimento
         no_milestones: Non hai datos definidos
         milestone_publication_date: "Publicouse o %{publication_date}"
+        milestone_status_changed: O investimento mudou de estado a
         author: Autoría
       wrong_price_format: Só pode incluír caracteres numéricos
       investment:
