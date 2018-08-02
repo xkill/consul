@@ -128,6 +128,7 @@ gl:
         table_amount: Cantidade
         table_population: Poboación
         population_info: "O campo poboación das partidas do orzamento utilízase unicamente con fins estatísticos, co obxectivo de amosar a porcentaxe de votos de cada partida que represente unha área con poboación. É un campo opcional, así que podes deixalo en branco se non o aplicas."
+        max_votable_headings: "Número máximo de partidas nas que un usuario pode votar"
         current_of_max_headings: "%{current} de %{max}"
       winners:
         calculate: Calcular propostas gañadoras
@@ -1280,6 +1281,9 @@ gl:
       content_blocks:
         information: Información sobre bloques de contido
         about: Pode crear bloques de contido HTML para ser inseridos na cabeceira ou no rodapé do seu CONSUL.
+        top_links_html: "Os <strong>bloques da cabeceira (top_links)</strong> son bloques que deben ter este formato:"
+        footer_html: "Os <strong> bloques do rodapé</strong> poden ter calquera formato, e poden usarse para inserir Javascript, CSS ou HTML personalizado."
+        no_blocks: "Non hai bloques de contido."
         create:
           notice: O bloque creouse correctamente
           error: Non se puido crear o bloque
@@ -1347,6 +1351,7 @@ gl:
           locale: Idioma
     homepage:
       title: Páxina principal
+      description: Os módulos activos aparecerán na páxina principal na mesma orde que aquí.
       header_title: Cabeceira
       no_header: Non hai cabeceira.
       create_header: Crear cabeceira
