@@ -38,7 +38,7 @@ gl:
       updated_not_active: "O teu contrasinal cambiouse correctamente."
     registrations:
       destroyed: "Ata pronto! A súa conta foi desactivada. Agardamos poder velo de novo."
-      signed_up: "Benvido! Fuches identificado."
+      signed_up: "Benvido! Fuches autenticado correctamente"
       signed_up_but_inactive: "Rexistrácheste correctamente, pero non puideches iniciar sesión porque a túa conta non foi activada."
       signed_up_but_locked: "Rexistrácheste correctamente, pero non puideches iniciar sesión porque a túa conta está bloqueada."
       signed_up_but_unconfirmed: "Envióuseche unha mensaxe cun enlace de confirmación. Por favor, visita o enlace para activar a túa conta."
