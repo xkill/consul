@@ -35,6 +35,7 @@ gl:
         table_title: Título
         table_heading_name: Nome da partida
         table_actions: Accións
+        no_investments: "Non hai proxectos de investimento."
       show:
         back: Volver
         title: Proxectos de investimento
