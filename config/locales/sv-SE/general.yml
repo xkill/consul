@@ -170,13 +170,13 @@ sv:
   form:
     accept_terms: Jag godkänner %{policy} och %{conditions}
     accept_terms_title: Jag godkänner sekretesspolicyn och användarvillkoren
-    conditions: Användarvillkoren
+    conditions: användarvillkoren
     debate: Debattera
     direct_message: privat meddelande
     error: fel
     errors: fel
     not_saved_html: "gjorde att %{resource} inte kunde sparas. <br>Kontrollera och rätta till de markerade fälten:"
-    policy: Sekretesspolicy
+    policy: sekretesspolicyn
     proposal: Förslag
     proposal_notification: "Avisering"
     spending_proposal: Budgetförslag
@@ -201,7 +201,7 @@ sv:
       ie_title: Webbplatsen är inte optimerad för din webbläsare
     footer:
       accessibility: Tillgänglighet
-      conditions: Regler och användarvillkor
+      conditions: Användarvillkor
       consul: CONSUL
       consul_url: https://github.com/consul/consul
       contact_us: För teknisk support gå till
