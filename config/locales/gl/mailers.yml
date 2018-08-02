@@ -11,6 +11,7 @@ gl:
     email_verification:
       click_here_to_verify: nesta ligazón
       instructions_2_html: Este correo electrónico é para verificar a túa conta con <b>%{document_type} %{document_number}</b>. Se eses non son os teus datos, por favor non premas o enlace anterior e ignora este correo.
+      instructions_html: Para completar o proceso de verificación da túa conta, tes que premer en %{verification_link}
       subject: Verifica o teu correo electrónico
       thanks: Moitas grazas.
       title: Verifica a túa conta coa seguinte ligazón
@@ -54,7 +55,7 @@ gl:
       text_html: "Moitas grazas por crear o teu proxecto <strong>%{investment}</strong> para os orzamentos participativos <strong>%{budget}</strong>."
       follow_html: "Informámoste de como avanza o proceso, que tamén podes setuir na páxina de <strong>%{link}</strong>."
       follow_link: "Orzamentos participativos"
-      sincerely: "Un saúdo cordial,"
+      sincerely: "Un cordial saúdo"
       share: "Comparte o teu proxecto"
     budget_investment_unfeasible:
       hi: "Estimado/a usuario/a,"
