@@ -67,7 +67,9 @@ zh-TW:
           on_proposals: 建議
           on_users: 用戶
           on_system_emails: 系統電子郵件
+        title: 審核員活動
         type: 類型
+        no_activity: 審核員活動
     budgets:
       index:
         title: 參與性預算
@@ -126,6 +128,10 @@ zh-TW:
         population_info: "預算標題 \"人口\" 欄位用於統計目的, 在預算結束時顯示每個標題, 代表一個地區與人口百分比投票率。該欄位是可選擇填寫的, 因此如果不適用, 您可以將其留空。"
         max_votable_headings: "用戶可投票的最大標題數"
         current_of_max_headings: "%{max} 之%{current}"
+      winners:
+        calculate: 計算勝出者投資
+        calculated: 勝出者正在被計算中，可能需要一分鐘。
+        recalculate: 重新計算勝出者投資
     budget_phases:
       edit:
         start_date: 開始日期
