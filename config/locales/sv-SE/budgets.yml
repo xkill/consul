@@ -102,7 +102,7 @@ sv:
           unfeasible: Ej genomförbara projekt
         orders:
           random: slumpmässig
-          confidence_score: högst betyg
+          confidence_score: populära
           price: efter pris
       show:
         author_deleted: Användare är borttagen
