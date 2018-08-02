@@ -109,7 +109,7 @@ de:
       show:
         groups:
           one: 1 Gruppe von Rubriken
-          other: "%{count} Gruppen von Budgetkategorien"
+          other: "%{count} Gruppe von Rubriken"
       form:
         group: Name der Gruppe
         no_groups: Bisher wurden noch keine Gruppen erstellt. Jede*r Benutzer*in darf in nur einer Rubrik per Gruppe abstimmen.
@@ -119,7 +119,7 @@ de:
         submit: Gruppe speichern
         heading: Name der Rubrik
         add_heading: Rubrik hinzufügen
-        amount: Menge
+        amount: Summe
         population: "Bevölkerung (optional)"
         population_help_text: "Diese Daten dienen ausschließlich dazu, die Beteiligungsstatistiken zu berechnen"
         save_heading: Rubrik speichern
@@ -524,7 +524,7 @@ de:
       hidden_debates: Verborgene Diskussionen
       hidden_proposals: Verborgene Vorschläge
       hidden_budget_investments: Verborgene Ausgabenvorschläge
-      hidden_proposal_notifications: Benachrichtigungen zu verborgenen Vorschlägen
+      hidden_proposal_notifications: Verborgene Benachrichtigungen
       hidden_users: Verborgene Benutzer*innen
       administrators: Administrator*innen
       managers: Manager*innen
@@ -548,14 +548,28 @@ de:
       signature_sheets: Unterschriftenbögen
       site_customization:
         homepage: Homepage
+        pages: Meine Seiten
+        images: Benutzer*innenbilder
         content_blocks: Benutzer*spezifische Inhaltsdatenblöcke
+        information_texts_menu:
+          debates: "Diskussionen"
+          community: "Community"
+          proposals: "Vorschläge"
+          polls: "Abstimmungen"
+          layouts: "Layouts"
+          mailers: "E-Mails"
+          management: "Verwaltung"
+          guides: "Guides"
+          welcome: "Willkommen"
+        buttons:
+          save: "Speichern"
       title_moderated_content: Moderierter Inhalt
-      title_budgets: Budgets
+      title_budgets: Bürger*innenhaushalte
       title_polls: Abstimmungen
       title_profiles: Profile
       title_settings: Einstellungen
       title_site_customization: Seiteninhalt
-      title_booths: Wahlurnen
+      title_booths: Wahlkabinen
       legislation: Kollaborative Gesetzgebung
       users: Benutzer*innen
     administrators:
@@ -663,6 +677,7 @@ de:
       preview_pending:
         action: Vorschau ausstehend
         preview_of: Vorschau von %{name}
+        send_pending: Ausstehendes senden
       proposal_notification_digest:
         description: Sammelt alle Benachrichtigungen über Vorschläge für eine*n Benutzer*in in einer Nachricht, um mehrfache E-Mails zu vermeiden.
         preview_detail: Benutzer*innen erhalten nur Benachrichtigungen zu Vorschlägen, denen sie folgen
@@ -680,7 +695,7 @@ de:
         description: Beschreibung
         no_description: Ohne Beschreibung
         no_valuators: Keine Begutachter*innen vorhanden.
-        valuator_groups: "Bewertungsgruppen"
+        valuator_groups: "Begutachtungsgruppen"
         group: "Gruppe"
         no_group: "Ohne Gruppe"
       valuator:
@@ -689,10 +704,10 @@ de:
       search:
         title: 'Begutachter*innen: Benutzer*innensuche'
       summary:
-        title: Zusammenfassung der Bewertungen der Ausgabenvorschläge
+        title: Begutachter*innen-Zusammenfassung der Ausgabenvorschläge
         valuator_name: Begutachter*in
         finished_and_feasible_count: Abgeschlossen und durchführbar
-        finished_and_unfeasible_count: Abgeschlossen und nicht durchführbar
+        finished_and_unfeasible_count: Abgeschlossen und undurchführbar
         finished_count: Abgeschlossen
         in_evaluation_count: In Auswertung
         total_count: Gesamt
@@ -726,7 +741,7 @@ de:
         title: Vorsitzende der Abstimmung
       officer:
         add: Hinzufügen
-        delete: Position löschen
+        delete: Amt löschen
         name: Name
         email: E-Mail
         entry_name: Wahlvorsteher*in
