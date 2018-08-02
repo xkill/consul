@@ -386,6 +386,37 @@ zh-TW:
           delete: 刪除
           title: 立法進程
           filters:
+            open: 打開
             next: 下一個
+            past: 過去的
+            all: 所有
         new:
           back: 返回
+          title: 創建新的合作立法進程
+          submit_button: 創建進程
+        process:
+          title: 進程
+          comments: 評論
+          status: 狀態
+          creation_date: 創建日期
+          status_open: 開
+          status_closed: 關
+          status_planned: 計劃
+        subnav:
+          info: 資訊
+          draft_texts: 起草
+          questions: 辯論
+          proposals: 建議
+      proposals:
+        index:
+          title: 建議
+          back: 返回
+        form:
+          custom_categories: 類別
+      draft_versions:
+        edit:
+          back: 返回
+          submit_button: 儲存更改
+    homepage:
+      feeds:
+        processes: 進程
