@@ -944,6 +944,7 @@ gl:
     booths:
       index:
         title: "Lista de urnas activas"
+        no_booths: "Non hai urnas activas para ningunha votación próxima."
         add_booth: "Engadir urna"
         name: "Nome"
         location: "Localización"
@@ -1086,6 +1087,7 @@ gl:
       description: Descrición
       image: Imaxe
       show_image: Amosar imaxe
+      moderated_content: "Comprobar o contido revisado polos moderadores, e confirmar se a moderación foi realizada correctamente."
       view: Ver
       proposal: Proposta
       author: Autor
@@ -1253,6 +1255,7 @@ gl:
         add_tag: Engade un novo tema de debate
         title: Temas de debate
         topic: Tema
+        help: "Cando un usuario crea unha proposta, amosanse os seguintes temas como etiquetas predeterminadas."
       name:
         placeholder: Escribe o nome do tema
     users:
@@ -1275,6 +1278,8 @@ gl:
         title: Verificacións incompletas
     site_customization:
       content_blocks:
+        information: Información sobre bloques de contido
+        about: Pode crear bloques de contido HTML para ser inseridos na cabeceira ou no rodapé do seu CONSUL.
         create:
           notice: O bloque creouse correctamente
           error: Non se puido crear o bloque
