@@ -7,7 +7,7 @@ sv:
       confirm: Är du säker?
       confirm_hide: Bekräfta moderering
       hide: Dölj
-      hide_author: Dölj förslagslämnare
+      hide_author: Dölj skribent
       restore: Återställ
       mark_featured: Stjärnmarkera
       unmark_featured: Ta bort stjärnmarkering
@@ -1165,7 +1165,7 @@ sv:
         back: Gå tillbaka
       new:
         back: Gå tillbaka
-        creating: Skapa område
+        creating: Skapa stadsdel
       delete:
         success: Området har tagits bort
         error: Området kan inte raderas eftersom det finns förslag kopplade till det
