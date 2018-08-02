@@ -601,6 +601,11 @@ gl:
       administrators: Administradores
       proposal_authors: Autores da proposta
       investment_authors: Autores do investimento no orzamento actual
+      feasible_and_undecided_investment_authors: "Autores dalgún investimento no orzamento actual que non cumpre con: [avaliación finalizada inviable]"
+      selected_investment_authors: Autores de investimentos seleccionados no orzamento actual
+      winner_investment_authors: Autores de investimentos gañadores no orzamento actual
+      not_supported_on_current_budget: Usuarios que non apoiaron investimentos no orzamento actual
+      invalid_recipients_segment: "Segmento de destinatarios inválido"
     newsletters:
       create_success: Boletín informativo creado correctamente
       update_success: Boletín informativo actualizado correctamente
@@ -620,6 +625,7 @@ gl:
         empty_newsletters: Non hai notificacións para amosar
       new:
         title: Novo boletín informativo
+        from: Enderezo de correo electrónico que aparecerá como remitente no boletín informativo
       edit:
         title: Editar boletín informativo
       show:
@@ -629,6 +635,7 @@ gl:
         sent_at: Enviado a
         subject: Asunto
         segment_recipient: Destinatarios
+        from: Enderezo de correo electrónico que aparecerá como remitente no boletín informativo
         body: Contido da mensaxe
         body_help_text: Así verán os usuarios a mensaxe de correo
         send_alert: Confirma que quere enviar este boletín informativo a %{n} usuarios?
@@ -677,6 +684,8 @@ gl:
         send_pending_notification: A notificación pendente foi enviada correctamente
       proposal_notification_digest:
         title: Resumo de notificacións de propostas
+        description: Agrupa todas as notificacións de proposta para un usuario nunha única mensaxe, evitando o envío dun número elevado de mensaxes.
+        preview_detail: Os usuarios só recibirán as notificacións das propostas que están a seguir
     emails_download:
       index:
         title: Descarga de correos electrónicos
