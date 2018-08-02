@@ -9,8 +9,8 @@ sv:
       hide: Dölj
       hide_author: Dölj skribent
       restore: Återställ
-      mark_featured: Stjärnmarkera
-      unmark_featured: Ta bort stjärnmarkering
+      mark_featured: Markera som utvald
+      unmark_featured: Ta bort markera som utvald
       edit: Redigera
       configure: Inställningar
       delete: Ta bort
