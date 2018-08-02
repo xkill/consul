@@ -183,6 +183,10 @@ fr:
           undecided: "Incertain"
         selected: "Sélectionné"
         select: "Sélectionner"
+        list:
+          title: Titre
+          supports: Soutiens
+          admin: Administrateur
         cannot_calculate_winners: Le budget doit rester sur la phase "Vote des projets", "Dépouillage du bulletin de vote" ou "Budget terminé" afin de calculer les projets gagnants
         see_results: "Voir les résultats"
       show:
