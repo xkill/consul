@@ -425,10 +425,12 @@ zh-TW:
         edit:
           back: 返回
           submit_button: 儲存更改
+          warning: 您已經編輯了文本, 別忘記按一下 "儲存" 以永久儲存更改。
         errors:
           form:
             error: 錯誤
         form:
+          title_html: '從進程 <span class="strong">%{process_title}</span> 編輯<span class="strong">%{draft_version_title}</span>'
           launch_text_editor: 啟動文字編輯器
           close_text_editor: 關閉文字編輯器
           use_markdown: 使用Markdown格式化文本
@@ -437,6 +439,35 @@ zh-TW:
             status:
               draft: 您作為管理員可以預覽, 其他人未能看到它
               published: 所有人都可以看見
+          title_placeholder: 編寫草稿版本的標題
+          changelog_placeholder: 添加從早期版本中的主要更改
+          body_placeholder: 寫下草稿文本
+        index:
+          title: 草稿版本
+          create: 創建版本
+          delete: 刪除
+          preview: 預覽
+        new:
+          back: 返回
+          title: 創建新版本
+          submit_button: 創建版本
+        statuses:
+          draft: 草稿
+          published: 發表
+        table:
+          title: 標題
+          created_at: 創建於
+          comments: 評論
+          final_version: 最終版本
+          status: 狀態
+      questions:
+        create:
+          notice: '問題已成功創建。 <a href="%{link}">點擊訪問</a>'
+          error: 問題無法創建
+        update:
+          notice: '問題已成功更新。 <a href="%{link}">點擊訪問</a>'
+        edit:
+          back: 返回
     homepage:
       feeds:
         processes: 進程
