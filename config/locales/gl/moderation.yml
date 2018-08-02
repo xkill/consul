@@ -46,7 +46,9 @@ gl:
     menu:
       flagged_comments: Comentarios
       flagged_debates: Debates
+      flagged_investments: Investimentos orzamentarios
       proposals: Propostas
+      proposal_notifications: Notificacións de propostas
       users: Bloquear usuarios
     proposals:
       index:
@@ -71,11 +73,40 @@ gl:
       index:
         block_authors: Autores de bloques
         confirm: Estás seguro?
+        filter: Filtro
         filters:
           all: Todo
+          pending_flag_review: Pendente
           with_ignored_flag: Marcado como visto
+        headers:
+          moderate: Moderador
+          budget_investment: Investimento orzamentario
+        hide_budget_investments: Agochar investimentos orzamentarios
+        ignore_flags: Marcado como visto
+        order: Ordeado por
         orders:
           created_at: Máis recente
+          flags: Máis denunciados
+        title: Investimentos orzamentarios
+    proposal_notifications:
+      index:
+        block_authors: Autores de bloque
+        confirm: Estás seguro?
+        filter: Filtro
+        filters:
+          all: Todo
+          pending_review: Revisión pendente
+          ignored: Marcado como visto
+        headers:
+          moderate: Moderador
+          proposal_notification: Notificación de proposta
+        hide_proposal_notifications: Agochar propostas
+        ignore_flags: Marcado como visto
+        order: Ordeado por
+        orders:
+          created_at: Máis recente
+          moderated: Moderado
+        title: Notificacións de proposta
     users:
       index:
         hidden: Bloqueado
