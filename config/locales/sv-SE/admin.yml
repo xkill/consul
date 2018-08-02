@@ -545,7 +545,7 @@ sv:
       settings: Globala inställningar
       spending_proposals: Budgetförslag
       stats: Statistik
-      signature_sheets: Namninsamling
+      signature_sheets: Namninsamlingar
       site_customization:
         homepage: Hemsida
         pages: Anpassade sidor
@@ -1175,7 +1175,7 @@ sv:
       name: Namn
       no_signature_sheets: "Det finns inga namninsamlingar"
       index:
-        title: Namninsamling
+        title: Namninsamlingar
         new: Ny namninsamling
       new:
         title: Ny namninsamling
@@ -1216,7 +1216,7 @@ sv:
           visits: Visningar
           votes: Totalt antal röster
         spending_proposals_title: Budgetförslag
-        budgets_title: Medborgarbudget
+        budgets_title: Medborgarbudgetar
         visits_title: Visningar
         direct_messages: Direktmeddelanden
         proposal_notifications: Aviseringar om förslag
