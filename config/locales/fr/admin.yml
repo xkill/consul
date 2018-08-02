@@ -660,6 +660,14 @@ fr:
         body: Texte
         link: Lien
         segment_recipient: Destinataires
+        preview_guide: "Voici le rendu de la notification pour les destinataires :"
+        sent_guide: "Voici le rendu de la notification pour les destinataires :"
+        send_alert: Êtes-vous sûr de vouloir envoyer cette notification à %{n} utilisateurs ?
+    system_emails:
+      preview_pending:
+        preview_of: Aperçu de %{name}
+        pending_to_be_sent: Ceci est le contenu en attente d’être envoyé
+        send_pending_notification: Les notifications en attente ont été envoyées avec succès
     emails_download:
       index:
         title: Téléchargement des courriels
@@ -1029,6 +1037,9 @@ fr:
             update: Configuration de la carte mise à jour avec succès.
           form:
             submit: Mettre à jour
+      setting: Fonctionnalité
+      setting_actions: Actions
+      setting_name: Paramètres
       setting_status: Statut
       setting_value: Valeur
       no_description: "Aucune description"
