@@ -375,7 +375,7 @@ de:
           process: Verfahren
           debate_phase: Diskussionsphase
           allegations_phase: Entwurfsphase
-          proposals_phase: Phase für Vorschläge
+          proposals_phase: Vorschlagsphase
           start: Beginn
           end: Ende
           use_markdown: Verwenden Sie Markdown, um den Text zu formatieren
