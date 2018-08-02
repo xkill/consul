@@ -113,9 +113,9 @@ gl:
       recommendations:
         without_results: Non hai ningún debate relacionado cos teus intereses
         without_interests: Sigue propostas para que podamos ofrecerche recomendacións
-        disable: "As recomendacións dos debates deixarán de amosarse se as desactivas. Pode volver a activalas desde a páxina «A miña conta»"
+        disable: "As recomendacións dos debates deixarán de amosarse se as desactiva. Pode volver a activalas desde a páxina «A miña conta»"
         actions:
-          success: "As recomendacións para debates foron habilitadas para esta conta"
+          success: "As recomendacións para debates foron deshabilitadas para esta conta"
           error: "Produciuse un erro. Por favor, vaia a «A miña conta» e deshabilite as recomendacións para debates"
       search_form:
         button: Procurar
@@ -322,6 +322,7 @@ gl:
       geozone: Ámbito de actuación
       proposal_external_url: Ligazón a documentación adicional
       proposal_question: Pregunta da proposta
+      proposal_question_example_html: "Debe resumirse nunha pregunta cunha resposta tipo «Si ou Non»"
       proposal_responsible_name: Nome e apelidos da persoa que fai esta proposta
       proposal_responsible_name_note: "(individualmente ou como representante dun colectivo; non se mostrará publicamente)"
       proposal_summary: Resumo da proposta
@@ -354,6 +355,10 @@ gl:
       recommendations:
         without_results: Non hai propostas relacionadas cos teus intereses
         without_interests: Sigue propostas para que che podamos facer recomendacións
+        disable: "As recomendacións de propostas deixarán de amosarse se as desactiva. Pode volver a activalas desde a páxina «A miña conta»"
+        actions:
+          success: "As recomendacións para propostas foron deshabilitadas para esta conta"
+          error: "Produciuse un erro. Por favor, vaia a «A miña conta» e deshabilite as recomendacións para propostas"
       retired_proposals: Propostas retiradas
       retired_proposals_link: "Propostas retiradas polos seus autores"
       retired_links:
@@ -382,6 +387,7 @@ gl:
         help: Axuda sobre as propostas
       section_footer:
         title: Axuda sobre as propostas
+        description: As propostas da cidadanía son unha oportunidade para que os veciños e colectivos poidan decidir sobre como queren que sexa a súa cidade, despois de conseguir suficientes apoios e sometelas a un proceso de votación.
     new:
       form:
         submit_button: Crear proposta
@@ -419,6 +425,7 @@ gl:
       supports_necessary: "%{number} apoios necesarios"
       total_percent: 100%
       archived: "Esta proposta foi arquivada e xa non pode recoller apoios."
+      successful: "Esta proposta acadou os apoios necesarios."
     show:
       author_deleted: Usuario eliminado
       code: 'Código da proposta:'
@@ -468,6 +475,8 @@ gl:
         help: Axuda sobre as votacións
       section_footer:
         title: Axuda sobre as votacións
+        description: As votacións da cidadanía son un proceso participativo polo cal os veciños con dereito a voto poden tomar decisións dun modo directo
+      no_polls: "Non hai votacións abertas."
     show:
       already_voted_in_booth: "Xa participaches nesta votación en urnas presenciais polo que non podes volver participar."
       already_voted_in_web: "Xa participaches nesta votación. Se volves votar, modificarás o teu voto anterior."
