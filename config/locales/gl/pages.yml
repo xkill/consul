@@ -67,7 +67,7 @@ gl:
     verify:
       code: Código que recibiches na túa carta
       email: Correo electrónico
-      info: 'Para comprobar a túa conta, introduce os teus datos de acceso:'
+      info: 'Para confirmar a túa conta, introduce os datos de acceso:'
       info_code: 'Agora escribe o código que recibiches na carta:'
       password: Contrasinal
       submit: Verificar a miña conta
