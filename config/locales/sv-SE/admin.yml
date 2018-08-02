@@ -390,7 +390,7 @@ sv:
           filters:
             open: Pågående
             next: Nästa
-            past: Föregående
+            past: Avslutade
             all: Alla
         new:
           back: Tillbaka
