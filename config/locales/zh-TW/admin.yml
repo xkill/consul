@@ -413,6 +413,8 @@ zh-TW:
           back: 返回
         form:
           custom_categories: 類別
+          custom_categories_description: 用戶可以選擇創建建議的類別。
+          custom_categories_placeholder: 輸入您想使用的標籤, 用逗號 (,) 作分隔，並需處於引號 ("") 中間
       draft_versions:
         create:
           notice: '草稿已成功創建。 <a href="%{link}">點擊訪問</a>'
@@ -480,6 +482,7 @@ zh-TW:
           add_option: 添加選項
           title: 問題
           title_placeholder: 添加問題
+          value_placeholder: 添加一個已關閉的答案
     menu:
       officials: 官員
       organizations: 組織
@@ -512,6 +515,24 @@ zh-TW:
       title_settings: 設置
       title_site_customization: 網站內容
       title_booths: 投票亭
+      legislation: 合作立法
+      users: 用戶
+    administrators:
+      index:
+        title: 管理員
+        name: 名字
+        email: 電郵
+        no_administrators: 沒有管理員。
+      administrator:
+        add: 添加
+        delete: 刪除
+        restricted_removal: "對不起，您無法將自己從管理員中刪除"
+      search:
+        title: "管理員：用戶搜索"
+    moderators:
+      index:
+        title: 審核員
+        name: 名字
     homepage:
       feeds:
         processes: 進程
