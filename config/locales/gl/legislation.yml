@@ -49,6 +49,7 @@ gl:
       header:
         additional_info: Información adicional
         description: Descrición
+        more_info: Máis información e contexto
       proposals:
         empty_proposals: Non hai ningunha proposta
       debate:
@@ -69,6 +70,7 @@ gl:
           help: Axuda sobre os procesos lexislativos
         section_footer:
           title: Axuda sobre procesos lexislativos
+          description: Participa nos debates e procesos previos ao se aprobar unha norma ou unha acción municipal. A túa opinión será tida en conta polo concello.
       phase_not_open:
         not_open: Esta fase aínda non está aberta
       phase_empty:
