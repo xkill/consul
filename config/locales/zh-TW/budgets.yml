@@ -1,1 +1,8 @@
 zh-TW:
+  budgets:
+    ballots:
+      show:
+        title: 你的選票
+        amount_spent: 用了的金額
+        remaining: "您仍然有 <span>%{amount}</span> 可以投資。"
+        no_balloted_group_yet: "你還沒有投票給這個組, 去投票吧!"
