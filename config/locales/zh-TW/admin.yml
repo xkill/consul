@@ -251,7 +251,14 @@ zh-TW:
         tags: 標籤
         tags_placeholder: "寫下你想要的標籤，用逗號 (,) 作分隔"
         undefined: 未定義
+        user_groups: "組"
+      search_unfeasible: 搜尋不可行
     milestones:
+      index:
+        table_id: "ID"
+        table_title: "標題"
+        table_description: "說明"
+        table_publication_date: "出版日期"
       edit:
         title: 編輯里程碑
       create:
