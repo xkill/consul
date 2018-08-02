@@ -46,12 +46,16 @@ gl:
         text_body: Texto
         text_comments: Comentarios
     processes:
+      header:
+        additional_info: Información adicional
+        description: Descrición
       proposals:
         empty_proposals: Non hai ningunha proposta
       debate:
         empty_questions: Non hai ningunha pregunta
         participate: Realiza as túas achegas ao debate previo participando nos temas seguintes
       index:
+        filter: Filtro
         filters:
           open: Procesos abertos
           next: Proximamente
