@@ -31,7 +31,7 @@ gl:
     map_zoom: "Zoom"
     meta_title: "Título do sitio (SEO)"
     meta_description: "Descrición do sitio (SEO)"
-    meta_keywords: "Palabras chave (SEO)"
+    meta_keywords: "Palabras clave (SEO)"
     min_age_to_participate: Idade mínima para participar
     blog_url: "URL do blog"
     transparency_url: "URL de Transparency"
