@@ -101,7 +101,7 @@ sv:
           feasible: Genomförbara projekt
           unfeasible: Ej genomförbara projekt
         orders:
-          random: slumpmässig
+          random: slumpvis ordning
           confidence_score: populära
           price: efter pris
       show:
