@@ -104,7 +104,7 @@ sv:
         one: " med ämne '%{topic} '"
         other: " med ämne '%{topic} '"
       orders:
-        confidence_score: högst betyg
+        confidence_score: populära
         created_at: senaste
         hot_score: mest aktiva
         most_commented: mest kommenterade
@@ -207,7 +207,7 @@ sv:
       contact_us: För teknisk support gå till
       copyright: CONSUL, %{year}
       description: Den här webbplatsen använder %{consul} som är %{open_source}.
-      open_source: program med öppen källkod
+      open_source: en plattform med öppen källkod
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: Skapa den stad du vill ha.
       participation_title: Deltagande
@@ -231,8 +231,8 @@ sv:
       open: öppen
       open_gov: Open Government
       proposals: Förslag
-      poll_questions: Omröstning
-      budgets: Medborgarbudget
+      poll_questions: Omröstningar
+      budgets: Medborgarbudgetar
       spending_proposals: Budgetförslag
       notification_item:
         new_notifications:
@@ -345,7 +345,7 @@ sv:
         one: " med ämne '%{topic} '"
         other: " med ämne '%{topic} '"
       orders:
-        confidence_score: högst rankade
+        confidence_score: populära
         created_at: senaste
         hot_score: mest aktiva
         most_commented: mest kommenterade
@@ -459,7 +459,7 @@ sv:
     index:
       filters:
         current: "Pågående"
-        incoming: "Inkommande"
+        incoming: "Kommande"
         expired: "Avslutade"
       title: "Omröstningar"
       participate_button: "Delta i omröstningen"
@@ -544,9 +544,9 @@ sv:
       date_placeholder: 'DD/MM/ÅÅÅÅ'
       date_range_blank: 'Välj ett datum'
       date_1: 'Det senaste dygnet'
-      date_2: 'Förra veckan'
-      date_3: 'Förra månaden'
-      date_4: 'Förra året'
+      date_2: 'Senaste veckan'
+      date_3: 'Senaste månaden'
+      date_4: 'Senaste året'
       date_5: 'Anpassad'
       from: 'Från'
       general: 'Med texten'
