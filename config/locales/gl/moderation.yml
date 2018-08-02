@@ -67,6 +67,15 @@ gl:
           created_at: Máis recentes
           flags: Máis denunciadas
         title: Propostas
+    budget_investments:
+      index:
+        block_authors: Autores de bloques
+        confirm: Estás seguro?
+        filters:
+          all: Todo
+          with_ignored_flag: Marcado como visto
+        orders:
+          created_at: Máis recente
     users:
       index:
         hidden: Bloqueado
