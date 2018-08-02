@@ -38,14 +38,14 @@ sv:
     verification_offices_url: Webbadress för verifieringskontor
     proposal_improvement_path: Intern länk för förbättring av förslag
     feature:
-      budgets: "Medborgarbudget"
+      budgets: "Medborgarbudgetar"
       twitter_login: "Twitter-inloggning"
       facebook_login: "Facebook-inloggning"
       google_login: "Google-inloggning"
       proposals: "Förslag"
       debates: "Debatter"
       polls: "Omröstningar"
-      signature_sheets: "Namninsamling"
+      signature_sheets: "Namninsamlingar"
       legislation: "Planering"
       user:
         recommendations: "Rekommendationer"
