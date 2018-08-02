@@ -384,6 +384,8 @@ zh-TW:
         index:
           create: 新進程
           delete: 刪除
-          title: 立法程序
+          title: 立法進程
           filters:
             next: 下一個
+        new:
+          back: 返回
