@@ -31,9 +31,9 @@ zh-TW:
         target_url: 鏈接
         post_started_at: 通告開始於
         post_ended_at: 通告結束於
-        sections_label: 它將出現於的部分
+        sections_label: 它將出現的部分
         sections:
-          homepage: 主網頁
+          homepage: 主頁
           debates: 辯論
           proposals: 建議
           budgets: 參與性預算編制
@@ -156,7 +156,7 @@ zh-TW:
           under_valuation: 正在評估中
           valuation_finished: 評估完成
           feasible: 可行
-          selected: 選擇
+          selected: 已選擇
           undecided: 未定
           unfeasible: 不可行
           min_total_supports: 最小支援
@@ -187,7 +187,7 @@ zh-TW:
           geozone: 經營範圍
           feasibility: 可行性
           valuation_finished: 評估完成
-          selected: 選擇
+          selected: 已選擇
           visible_to_valuators: 為評估員顯示
           author_username: 作者用戶名
           incompatible: 不相容
