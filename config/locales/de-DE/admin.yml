@@ -1259,7 +1259,7 @@ de:
         roles: Rollen
         verification_level: Überprüfungsstatus
       index:
-        title: Benutzer*in
+        title: Benutzer*innen
         no_users: Keine Benutzer*innen vorhanden.
       search:
         placeholder: Suche Benutzer*in nach E-Mail, Name oder Ausweis suchen
@@ -1329,7 +1329,7 @@ de:
         index:
           create: Neue Seite erstellen
           delete: Seite löschen
-          title: Benutzer*definierte Seiten
+          title: Meine Seiten
           see_page: Seite anzeigen
         new:
           title: Neue benutzer*definierte Seite erstellen
