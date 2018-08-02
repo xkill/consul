@@ -340,7 +340,7 @@ sv:
       map_remove_marker: "Ta bort kartmarkör"
       map_skip_checkbox: "Det finns ingen specifik geografisk plats för förslaget, eller jag känner inte till platsen."
     index:
-      featured_proposals: Stjärnmarkerade
+      featured_proposals: Utvalda
       filter_topic:
         one: " med ämne '%{topic} '"
         other: " med ämne '%{topic} '"
@@ -788,7 +788,7 @@ sv:
       process_label: Process
       see_process: Visa process
     cards:
-      title: Stjärnmarkerade
+      title: Tips
     recommended:
       title: Rekommenderat innehåll
       help: "Rekommendationerna baseras på taggar för de debatter och förslag som du följer."
