@@ -16,6 +16,7 @@ gl:
       confirmation_instructions:
         confirm_link: Confirmar a miña conta
         text: 'Podes confirmar a túa conta de correo electrónico na ligazón seguinte:'
+        title: Benvido
         welcome: Benvida
       reset_password_instructions:
         change_link: Cambiar o meu contrasinal
