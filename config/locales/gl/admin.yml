@@ -415,6 +415,7 @@ gl:
         form:
           custom_categories: Categorias
           custom_categories_description: Categorías que o usuario pode seleccionar o crear a proposta.
+          custom_categories_placeholder: Escribe as etiquetas que desexes, separadas por comas (,) e entre comiñas duplas ("")
       draft_versions:
         create:
           notice: 'Borrador creado correctamente. <a href="%{link}">Preme para o veres</a>'
@@ -599,7 +600,12 @@ gl:
       all_users: Todos os usuarios
       administrators: Administradores
       proposal_authors: Autores da proposta
+      investment_authors: Autores do investimento no orzamento actual
     newsletters:
+      create_success: Boletín informativo creado correctamente
+      update_success: Boletín informativo actualizado correctamente
+      send_success: Boletín informativo enviado correctamente
+      delete_success: Boletín informativo eliminado correctamente
       index:
         title: Newsletters
         new_newsletter: Novo boletín informativo
