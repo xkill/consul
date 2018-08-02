@@ -389,7 +389,7 @@ sv:
           title: Planeringsprocesser
           filters:
             open: Pågående
-            next: Nästa
+            next: Kommande
             past: Avslutade
             all: Alla
         new:
@@ -571,7 +571,7 @@ sv:
       title_settings: Inställningar
       title_site_customization: Webbplatsens innehåll
       title_booths: Röststationer
-      legislation: Kollaborativ planering
+      legislation: Planeringsprocesser
       users: Användare
     administrators:
       index:
