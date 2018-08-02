@@ -466,8 +466,52 @@ zh-TW:
           error: 問題無法創建
         update:
           notice: '問題已成功更新。 <a href="%{link}">點擊訪問</a>'
+          error: 問題無法更新
+        destroy:
+          notice: 問題已成功刪除
         edit:
           back: 返回
+          title: "編輯 \"%{question_title}\""
+          submit_button: 儲存更改
+        errors:
+          form:
+            error: 錯誤
+        form:
+          add_option: 添加選項
+          title: 問題
+          title_placeholder: 添加問題
+    menu:
+      officials: 官員
+      organizations: 組織
+      settings: 全域設置
+      spending_proposals: 支出建議
+      stats: 統計
+      signature_sheets: 簽名表
+      site_customization:
+        homepage: 主頁
+        pages: 自訂頁
+        images: 自訂圖像
+        content_blocks: 自訂內容塊
+        information_texts: 自訂資訊文本
+        information_texts_menu:
+          debates: "辯論"
+          community: "社區"
+          proposals: "建議"
+          polls: "民意調查"
+          layouts: "佈局"
+          mailers: "電郵"
+          management: "管理"
+          guides: "指南"
+          welcome: "歡迎"
+        buttons:
+          save: "儲存"
+      title_moderated_content: 已審核的內容
+      title_budgets: 預算
+      title_polls: 民意調查
+      title_profiles: 配置檔
+      title_settings: 設置
+      title_site_customization: 網站內容
+      title_booths: 投票亭
     homepage:
       feeds:
         processes: 進程
