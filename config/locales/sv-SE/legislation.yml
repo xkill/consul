@@ -60,7 +60,7 @@ sv:
         filters:
           open: Pågående processer
           next: Nästa
-          past: Föregående
+          past: Avslutade
         no_open_processes: Det finns inga pågående processer
         no_next_processes: Det finns inga planerade processer
         no_past_processes: Det finns inga avslutade processer
