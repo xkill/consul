@@ -23,7 +23,7 @@ gl:
       hi: "Estimado usuario,"
       new_html: "Por todo iso, invitámoste a que elabores unha <strong>nova proposta</strong> que se axuste ás condicións deste proceso. Isto pódelo facer neste enlace: %{url}."
       new_href: "novo proxecto de investimento"
-      sincerely: "Atentamente"
+      sincerely: "Un cordial saúdo"
       sorry: "Sentimos as molestias ocasionadas e volvémosche dar as grazas pola túa inestimable participación."
       subject: "A túa proposta de investimento '%{code}' foi marcada como inviable"
     proposal_notification_digest:
