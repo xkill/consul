@@ -121,6 +121,9 @@ gl:
       odd: debe ser impar
       required: debe existir
       taken: xa está en uso
+      too_long:
+        one: demasiado longo (o máximo é 1 carácter)
+        other: é moi longo (máximo %{count} caracteres)
       too_short:
         one: é moi curto (mínimo 1 carácter)
         other: é moi curto (mínimo %{count} caracteres)
