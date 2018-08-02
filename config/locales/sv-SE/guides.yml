@@ -13,6 +13,6 @@ sv:
       title: "Ett medborgarförslag"
       feature_1_html: "Idéer till åtgärder som kommunfullmäktige kan genomföra"
       feature_2_html: "Behöver stöd från minst <strong>%{votes} personer</strong> på %{org} för att gå till omröstning"
-      feature_3_html: "Aktivera när som helst, du har <strong>ett år</strong> på dig att samla stöd"
+      feature_3_html: "Publicera ditt förslag när du är färdig med det, du har <strong>ett år</strong> på dig att samla stöd"
       feature_4_html: "Om det godkänns i en omröstning genomför staden förslaget"
       new_button: Jag vill skapa ett medborgarförslag
