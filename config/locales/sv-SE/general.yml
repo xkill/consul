@@ -480,7 +480,7 @@ sv:
     show:
       already_voted_in_booth: "Du har redan röstat i en fysisk valstation. Du kan inte rösta igen."
       already_voted_in_web: "Du har redan deltagit i den här omröstningen. Om du röstar igen kommer din föregående röst att skrivas över."
-      back: Tillbaka till omröstning
+      back: Tillbaka till omröstningar
       cant_answer_not_logged_in: "Du behöver %{signin} eller %{signup} för att kunna delta."
       comments_tab: Kommentarer
       login_to_comment: Du behöver %{signin} eller %{signup} för att kunna kommentera.
