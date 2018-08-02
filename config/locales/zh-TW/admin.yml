@@ -414,9 +414,29 @@ zh-TW:
         form:
           custom_categories: 類別
       draft_versions:
+        create:
+          notice: '草稿已成功創建。 <a href="%{link}">點擊訪問</a>'
+          error: 草稿無法創建
+        update:
+          notice: '草稿已成功更新。 <a href="%{link}">點擊訪問</a>'
+          error: 草稿無法更新
+        destroy:
+          notice: 草稿已成功刪除
         edit:
           back: 返回
           submit_button: 儲存更改
+        errors:
+          form:
+            error: 錯誤
+        form:
+          launch_text_editor: 啟動文字編輯器
+          close_text_editor: 關閉文字編輯器
+          use_markdown: 使用Markdown格式化文本
+          hints:
+            final_version: 此版本將發佈為此進程的"最終結果"。此版本中不允許使用評論。
+            status:
+              draft: 您作為管理員可以預覽, 其他人未能看到它
+              published: 所有人都可以看見
     homepage:
       feeds:
         processes: 進程
