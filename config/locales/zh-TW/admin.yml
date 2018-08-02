@@ -607,6 +607,18 @@ zh-TW:
         send: 發送通知
         will_get_notified: (%{n} 用戶將被通知)
         got_notified: (%{n} 用戶已被通知)
+        sent_at: 發送於
+        title: 標題
+        body: 文本
+        link: 鏈接
+        segment_recipient: 收件者
+        preview_guide: "這是用戶將看到通知的方式："
+        sent_guide: "這是用戶查看通知的方式："
+        send_alert: 您確實要將此通知發送到 %{n} 用戶嗎？
+    system_emails:
+      preview_pending:
+        action: 預覽待定
+        preview_of: 預覽 %{name}
     homepage:
       feeds:
         processes: 進程
