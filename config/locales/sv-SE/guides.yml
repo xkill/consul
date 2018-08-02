@@ -4,7 +4,7 @@ sv:
     subtitle: "Välj vad du vill skapa"
     budget_investment:
       title: "Ett budgetförslag"
-      feature_1_html: "Förslag för hur delar av<strong>kommunens budget</strong> ska spenderas"
+      feature_1_html: "Förslag för hur delar av <strong>kommunens budget</strong> ska spenderas"
       feature_2_html: "Budgetförslag tas emot <strong>från januari till och med mars</strong>"
       feature_3_html: "Om det får tillräckligt med stöd, är genomförbart och inom stadens ansvarsområde, går det vidare till omröstning"
       feature_4_html: "Om medborgarna godkänner projekten blir de verklighet"
