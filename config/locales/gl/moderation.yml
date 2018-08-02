@@ -79,7 +79,7 @@ gl:
           pending_flag_review: Pendente
           with_ignored_flag: Marcado como visto
         headers:
-          moderate: Moderador
+          moderate: Moderar
           budget_investment: Investimento orzamentario
         hide_budget_investments: Agochar investimentos orzamentarios
         ignore_flags: Marcado como visto
@@ -98,7 +98,7 @@ gl:
           pending_review: Revisión pendente
           ignored: Marcado como visto
         headers:
-          moderate: Moderador
+          moderate: Moderar
           proposal_notification: Notificación de proposta
         hide_proposal_notifications: Agochar propostas
         ignore_flags: Marcado como visto
