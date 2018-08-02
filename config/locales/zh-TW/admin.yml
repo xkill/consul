@@ -371,3 +371,19 @@ zh-TW:
         form:
           enabled: 啟用
           process: 進程
+          debate_phase: 辯論階段
+          allegations_phase: 起草階段
+          proposals_phase: 建議階段
+          start: 開始
+          end: 結束
+          use_markdown: 使用Markdown格式化文本
+          title_placeholder: 進程的標題
+          summary_placeholder: 說明的簡短摘要
+          description_placeholder: 添加進程的說明
+          additional_info_placeholder: 添加您認為有用的額外資訊
+        index:
+          create: 新進程
+          delete: 刪除
+          title: 立法程序
+          filters:
+            next: 下一個
