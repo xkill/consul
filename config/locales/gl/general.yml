@@ -104,9 +104,9 @@ gl:
         one: " co tema '%{topic}'"
         other: " co tema '%{topic}'"
       orders:
-        confidence_score: mellor valoradas
+        confidence_score: máis apoiados
         created_at: Novos
-        hot_score: Máis activos hoxe
+        hot_score: máis activos
         most_commented: Máis comentados
         relevance: Máis relevantes
         recommendations: recomendacións
@@ -345,7 +345,7 @@ gl:
         one: " co tema '%{topic}'"
         other: " cos temas '%{topic}'"
       orders:
-        confidence_score: Máis apoiadas
+        confidence_score: máis apoiadas
         created_at: novas
         hot_score: máis activas
         most_commented: máis comentadas
