@@ -247,6 +247,10 @@ zh-TW:
         assigned_valuators: 評估員
         select_heading: 選擇標題
         submit_button: 更新
+        user_tags: 用戶分配的標籤
+        tags: 標籤
+        tags_placeholder: "寫下你想要的標籤，用逗號 (,) 作分隔"
+        undefined: 未定義
     milestones:
       edit:
         title: 編輯里程碑
