@@ -93,7 +93,7 @@ de:
         submit_button: Änderungen speichern
       show_link: Diskussion anzeigen
     form:
-      debate_text: Ursprünglicher Text der Debatte
+      debate_text: Beitrag
       debate_title: Titel der Diskussion
       tags_instructions: Diskussion markieren.
       tags_label: Inhalte
