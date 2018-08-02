@@ -137,6 +137,7 @@ zh-TW:
         start_date: 開始日期
         end_date: 結束日期
         summary: 總結
+        summary_help_text: 本文將告知用戶關於階段。就算階段未活躍也要顯示，請選中下面的複選框
         description: 說明
         description_help_text: 當此文本將顯示在頁眉中，則表示階段處於活躍狀態
         enabled: 啟用階段
@@ -166,6 +167,7 @@ zh-TW:
           undecided: 未定
           unfeasible: 不可行
           min_total_supports: 最小支援
+          winners: 勝出者
           one_filter_html: "當前應用的篩選器:<b><em>%{filter}</em></b>"
           two_filters_html: "當前應用的篩選器:<b><em>%{filter},%{advanced_filters}</em></b>"
         buttons:
@@ -224,6 +226,27 @@ zh-TW:
         selection:
           title: 選擇
           "true": 已選擇
+          "false": 未被選擇
+        winner:
+          title: 勝出者
+          "true": "是的"
+          "false": "否"
+        image: "圖像"
+        see_image: "請參閱圖像"
+        no_image: "沒有圖像"
+        documents: "文檔"
+        see_documents: "請參閱文檔 (%{count})"
+        no_documents: "沒有文檔"
+        valuator_groups: "評估組"
+      edit:
+        classification: 分類
+        compatibility: 相容性
+        mark_as_incompatible: 標記為不相容
+        selection: 選擇
+        mark_as_selected: 標記為已選中
+        assigned_valuators: 評估員
+        select_heading: 選擇標題
+        submit_button: 更新
     milestones:
       edit:
         title: 編輯里程碑
