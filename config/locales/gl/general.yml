@@ -113,6 +113,10 @@ gl:
       recommendations:
         without_results: Non hai ningún debate relacionado cos teus intereses
         without_interests: Sigue propostas para que podamos ofrecerche recomendacións
+        disable: "As recomendacións dos debates deixarán de amosarse se as desactivas. Pode volver a activalas desde a páxina «A miña conta»"
+        actions:
+          success: "As recomendacións para debates foron habilitadas para esta conta"
+          error: "Produciuse un erro. Por favor, vaia a «A miña conta» e deshabilite as recomendacións para debates"
       search_form:
         button: Procurar
         placeholder: Buscar debates...
@@ -240,7 +244,7 @@ gl:
       watch_form_message: 'Realizaches cambios que aínda non se gardaron. Tes a certeza de que queres deixar a páxina?'
   legacy_legislation:
     help:
-      alt: Escolle o texto que queres comentar e preme o botón coa forma do lapis.
+      alt: Escolle o texto que queres comentar e preme o botón que ten forma do lapis.
       text: Para comentar este documento, debes %{sign_in}%{sign_up}. Despois, escolle o texto que queres comentar e preme o botón que ten forma de lapis.
       text_sign_in: iniciar sesión
       text_sign_up: rexístrate
@@ -606,6 +610,7 @@ gl:
       next_slide: Imaxe seguinte
     documentation: Documentación adicional
     view_mode:
+      title: Modo vista
       cards: Tarxetas
       list: Lista
     recommended_index:
@@ -759,13 +764,25 @@ gl:
       organization: As organizacións non poden votar
       unfeasible: Non se poden votar as propostas inviables
       not_voting_allowed: O período de votación está pechado
+      different_heading_assigned:
+        one: "Só pode apoiar proxectos de investimento en %{count} distrito"
+        other: "Só pode apoiar proxectos de investimento en %{count} distritos"
   welcome:
     feed:
       most_active:
+        debates: "Debates máis activos"
+        proposals: "Propostas máis activa"
         processes: "Procesos abertos"
       see_all_debates: Ver todos os debates
+      see_all_proposals: Ver todas as propostas
+      see_all_processes: Ver todos os procesos
+      process_label: Proceso
+      see_process: Ver proceso
+    cards:
+      title: Destacadas
     recommended:
       title: Recomendacións que che poden interesar
+      help: "Estas recomendacións son creadas polas etiquetas dos debates e propostas que estás a seguir."
       debates:
         title: Debates recomendados
         btn_text_link: Todos os debates recomendados
@@ -774,6 +791,7 @@ gl:
         btn_text_link: Todas as propostas recomendadas
       budget_investments:
         title: Orzamentos recomendados
+      slide: "Ver %{title}"
     verification:
       i_dont_have_an_account: Non teño conta, quero crear unha e verificala
       i_have_an_account: Xa teño unha conta que quero verificar
@@ -810,8 +828,13 @@ gl:
       proposal: "Proposta"
       debate: "Debate"
       budget_investment: "Proposta de investimento"
+  admin/widget:
+    header:
+      title: Administración
   annotator:
     help:
+      alt: Selecciona o texto que quere comentar e prema no botón con forma de lapis.
+      text: Para comentar este documento, debes %{sign_in}%{sign_up}. Despois, escolle o texto que queres comentar e preme o botón que ten forma de lapis.
       text_sign_in: iniciar sesión
       text_sign_up: rexistrate
       title: Como podo comentar este documento?
