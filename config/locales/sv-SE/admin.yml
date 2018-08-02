@@ -33,7 +33,7 @@ sv:
         post_ended_at: Slutdatum
         sections_label: Avsnitt där det kommer visas
         sections:
-          homepage: Hemsida
+          homepage: Startsida
           debates: Debatter
           proposals: Förslag
           budgets: Medborgarbudget
@@ -139,7 +139,7 @@ sv:
         start_date: Startdatum
         end_date: Slutdatum
         summary: Sammanfattning
-        summary_help_text: Den här texten är för att informera användaren om fasen. Markera rutan nedan för att visa den även om fasen inte är aktiv
+        summary_help_text: Den här texten är för att informera användaren om fasen. Markera rutan nedan för att visa den även om fasen inte är pågående
         description: Beskrivning
         description_help_text: Den här texten visas i sidhuvudet när fasen är aktiv
         enabled: Fasen är aktiverad
@@ -547,7 +547,7 @@ sv:
       stats: Statistik
       signature_sheets: Namninsamlingar
       site_customization:
-        homepage: Hemsida
+        homepage: Startsida
         pages: Anpassade sidor
         images: Anpassade bilder
         content_blocks: Anpassade innehållsblock
@@ -1037,7 +1037,7 @@ sv:
       index:
         banners: Bannerformat
         banner_imgs: Banner
-        no_banners_images: Inga banner
+        no_banners_images: Ingen banner
         no_banners_styles: Inga bannerformat
         title: Inställningar
         update_setting: Uppdatera
@@ -1144,7 +1144,7 @@ sv:
         cost_for_geozone: Kostnad
     geozones:
       index:
-        title: Geografiskt område
+        title: Geografiska områden
         create: Skapa geografiskt område
         edit: Redigera
         delete: Ta bort
@@ -1342,8 +1342,8 @@ sv:
           status_published: Publicerad
           locale: Språk
     homepage:
-      title: Hemsida
-      description: De aktiva modulerna visas på hemsidan i samma ordning som här.
+      title: Startsida
+      description: De aktiva modulerna visas på startsidan i samma ordning som här.
       header_title: Sidhuvud
       no_header: Det finns inget sidhuvud.
       create_header: Skapa sidhuvud
