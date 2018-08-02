@@ -537,7 +537,7 @@ sv:
       valuators: Bedömare
       poll_officers: Funktionärer
       polls: Omröstningar
-      poll_booths: Adress för röststation
+      poll_booths: Här finns röststationerna
       poll_booth_assignments: Tilldelning av röststation
       poll_shifts: Hantera arbetspass
       officials: Representanter för staden
@@ -559,7 +559,7 @@ sv:
           polls: "Omröstningar"
           layouts: "Layouter"
           mailers: "E-post"
-          management: "Förvaltning"
+          management: "Användarhantering"
           guides: "Guider"
           welcome: "Välkommen"
         buttons:
