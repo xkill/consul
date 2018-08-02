@@ -30,7 +30,7 @@ gl:
       user_permission_support_proposal: Apoiar propostas*
       user_permission_title: Participación
       user_permission_verify: Para poder realizar todas as accións verifica a túa conta.
-      user_permission_verify_info: "* Só usuarios empadroados no municipio de Madrid."
+      user_permission_verify_info: "* Só para persoas empadroadas."
       user_permission_votes: Participar nas votacións finais*
       username_label: Nome de usuario/a
       verified_account: Conta verificada
@@ -206,7 +206,7 @@ gl:
       consul_url: https://github.com/consul/consul
       contact_us: Para asistencia técnica entra en
       copyright: CONSUL, %{year}
-      description: Este portal usa a %{consul} que é %{open_source}. De Madrid, para o mundo enteiro.
+      description: Este portal usa a %{consul} que é %{open_source}.
       open_source: software libre
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: Decide como debe ser a cidade que queres.
