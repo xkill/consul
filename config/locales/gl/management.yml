@@ -1,10 +1,24 @@
 gl:
   management:
     account:
+      menu:
+        reset_password_email: Restabelecer o contrasinal a través do correo
+        reset_password_manually: Restabelecer o contrasinal de xeito manual
       alert:
         unverified_user: Só se poden editar contas de usuarios/as verificados/as
       show:
         title: Conta de usuario/a
+      edit:
+        title: 'Editar conta de usuario: Restabelecer o contrasinal'
+        back: Atrás
+        password:
+          password: Contrasinal
+          send_email: Enviar correo para restabelecer o contrasinal
+          reset_email_send: Mensaxe enviada correctamente.
+          reseted: Contrasinal restabelecido correctamente
+          random: Crear contrasinal aleatorio
+          save: Gardar contrasinal
+          print: Imprimir contrasinal
     account_info:
       change_user: Cambiar usuario/a
       document_number_label: 'Número de documento:'
@@ -12,6 +26,7 @@ gl:
       email_label: 'Correo electrónico:'
       identified_label: 'Identificado como:'
       username_label: 'Usuario:'
+    check: Comprobar documento
     dashboard:
       index:
         title: Xestión
@@ -50,8 +65,12 @@ gl:
       print_spending_proposals: Imprimir propostas de investimento
       support_spending_proposals: Apoiar propostas de investimento
       create_budget_investment: Crear proxectos de investimento
+      support_budget_investments: Apoiar investimentos orzamentarios
+      users: Xestión de usuarios
+      user_invites: Enviar convites
+      select_user: Seleccionar usuario
     permissions:
-      create_proposals: Crear novas propostas
+      create_proposals: Crear propostas
       debates: Participar en debates
       support_proposals: Apoiar propostas
       vote_proposals: Participar nas votacións finais
