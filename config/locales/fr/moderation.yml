@@ -68,6 +68,22 @@ fr:
           created_at: Les plus récents
           flags: Les plus signalés
         title: Propositions
+    budget_investments:
+      index:
+        confirm: Êtes-vous sûr(e) ?
+        filter: Filtrer
+        filters:
+          all: Tous
+          pending_flag_review: En attente
+          with_ignored_flag: Marqué comme vu
+        headers:
+          moderate: Modérer
+        ignore_flags: Marquer comme vu
+        order: Trier par
+        orders:
+          created_at: Les plus récents
+          flags: Les plus signalés
+        title: Propositions d'investissement
     proposal_notifications:
       index:
         block_authors: Bloquer des auteurs
