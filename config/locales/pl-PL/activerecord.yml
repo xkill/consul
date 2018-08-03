@@ -1,1 +1,9 @@
 pl:
+  activerecord:
+    attributes:
+      budget:
+        description_accepting: "Opis w fazie Akceptowania"
+        description_reviewing: "Opis w fazie Przeglądania"
+        description_selecting: "Opis w fazie Wybierania"
+        description_valuating: "Opis w fazie Wyceny"
+        description_balloting: "Opis w fazie Głosowania"
