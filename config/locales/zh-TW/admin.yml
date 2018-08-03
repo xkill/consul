@@ -717,12 +717,22 @@ zh-TW:
         add: 添加
     poll_shifts:
       new:
-        new_shift: "新班次"
-        no_shifts: "這個攤位沒有輪班"
+        new_shift: "新輪班班次"
+        no_shifts: "這個攤位沒有輪班班次"
         officer: "人員"
         remove_shift: "刪除"
         search_officer_button: 搜尋
-        search_officer_placeholder: 搜索官員
+        search_officer_placeholder: 搜尋員
+        search_officer_text: 尋找一個人員來分配新的輪班班次
+        select_date: "選擇日期"
+        no_voting_days: "投票日結束"
+        select_task: "選擇任務"
+        table_shift: "輪班班次"
+        table_email: "電郵"
+        table_name: "名字"
+      flash:
+        create: "添加的輪班班次"
+        destroy: "輪班班次移除"
     homepage:
       feeds:
         processes: 進程
