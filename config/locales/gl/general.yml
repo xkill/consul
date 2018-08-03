@@ -118,9 +118,9 @@ gl:
           success: "As recomendacións para debates foron deshabilitadas para esta conta"
           error: "Produciuse un erro. Por favor, vaia a «A miña conta» e deshabilite as recomendacións para debates"
       search_form:
-        button: Procurar
+        button: Buscar
         placeholder: Buscar debates...
-        title: Procurar
+        title: Buscar
       search_results_html:
         one: " que contén o termo <strong>%{search_term}</strong>"
         other: " que conteñen <strong>%{search_term}</strong>"
@@ -369,9 +369,9 @@ gl:
         done: Realizadas
         other: Outras
       search_form:
-        button: Procurar
+        button: Buscar
         placeholder: Buscar propostas...
-        title: Procurar
+        title: Buscar
       search_results_html:
         one: " que contén o termo <strong>%{search_term}</strong>"
         other: " que conteñen o termo <strong>%{search_term}</strong>"
@@ -579,7 +579,7 @@ gl:
     hide: Ocultar
     print:
       print_button: Imprimir esta información
-    search: Procurar
+    search: Buscar
     show: Mostrar
     suggest:
       debate:
@@ -650,9 +650,9 @@ gl:
       unfeasible: Propostas de investimento non viables
       by_geozone: "Propostas de investimento con ámbito: %{geozone}"
       search_form:
-        button: Procurar
+        button: Buscar
         placeholder: Propostas de investimento...
-        title: Procurar
+        title: Buscar
       search_results:
         one: " que contén '%{search_term}'"
         other: " que conteñen '%{search_term}'"
