@@ -520,7 +520,7 @@ gl:
       poll_questions: Preguntas
       proposals_topics: Temas propostos
       budgets: Orzamentos participativos
-      geozones: Xestionar distritos
+      geozones: Xestionar zonas
       hidden_comments: Comentarios ocultos
       hidden_debates: Debates ocultos
       hidden_proposals: Propostas ocultas
@@ -1152,10 +1152,10 @@ gl:
         cost_for_geozone: Investimento
     geozones:
       index:
-        title: Distritos
-        create: Crear un distrito
+        title: Zonas
+        create: Crear unha zona
         edit: Editar
-        delete: Borrar
+        delete: Eliminar
       geozone:
         name: Nome
         external_code: Código externo
@@ -1164,7 +1164,7 @@ gl:
       errors:
         form:
           error:
-            one: "un erro impediu gardar o distrito"
+            one: "un erro impediu gardar a zona"
             other: 'uns erros impediron gardar o distrito'
       edit:
         form:
