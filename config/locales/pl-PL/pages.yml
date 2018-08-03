@@ -30,8 +30,14 @@ pl:
         figcaption_html: 'Fazy "Poparcie" i "Głosowanie" budżetów partycypacyjnych.'
       polls:
         title: "Ankiety"
+        description: "Sekcja %{link} jest aktywowana za każdym razem, gdy propozycja osiąga 1% poparcia i przechodzi do głosowania lub gdy Rada Miejska przedkłada kwestię, w której sprawie ludzie mają zadecydować."
         link: "ankiety"
+        feature_1: "Aby uczestniczyć w głosowaniu, musisz %{link} i zweryfikować swoje konto."
+      processes:
+        title: "Procesy"
+        description: "W sekcji %{link} obywatele uczestniczą w opracowywaniu i modyfikowaniu przepisów dotyczących miasta oraz mogą wyrażać własne opinie na temat polityk komunalnych w poprzednich debatach."
       faq:
+        title: "Problemy techniczne?"
         description: "Przeczytaj FAQ, aby znaleźć odpowiedzi na swoje pytania."
         button: "Zobacz najczęściej zadawane pytania"
         page:
