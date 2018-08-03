@@ -512,7 +512,7 @@ gl:
         add: Engadir
         delete: Borrar
       search:
-        title: 'Xestores: procura de usuarios'
+        title: 'Xestores: busca de usuarios'
     menu:
       activity: Actividade de moderadores
       admin: Menú de administración
@@ -536,7 +536,7 @@ gl:
       system_emails: Correos electrónicos do sistema
       emails_download: Descarga de correos electrónicos
       valuators: Avaliadores/as
-      poll_officers: Presidencias de mesa
+      poll_officers: Presidentes de mesa
       polls: Votacións
       poll_booths: Localización das urnas
       poll_booth_assignments: Asignación de urnas
@@ -585,7 +585,7 @@ gl:
         delete: Borrar
         restricted_removal: "Sentímolo mais non podes borrarte a ti mesmo da relación"
       search:
-        title: "Administración: procura de usuarios"
+        title: "Administración: busca de usuarios"
     moderators:
       index:
         title: Moderadores/as
@@ -596,7 +596,7 @@ gl:
         add: Engadir
         delete: Borrar
       search:
-        title: 'Moderadores/as: procura de usuarios/as'
+        title: 'Moderadores: busca de usuarios'
     segment_recipient:
       all_users: Todos os usuarios
       administrators: Administradores
@@ -708,7 +708,7 @@ gl:
         add: Engadir como avaliador
         delete: Borrar
       search:
-        title: 'Avaliadores/as: procura de usuarios/as'
+        title: 'Avaliadores: busca de usuarios'
       summary:
         title: Resumo de avaliación das propostas de investimento
         valuator_name: Avaliador/a
@@ -744,13 +744,13 @@ gl:
         edit: "Gardar grupo de avaliadores"
     poll_officers:
       index:
-        title: Presidencias de mesa
+        title: Presidentes da mesa
       officer:
         add: Engadir
         delete: Borrar cargo
         name: Nome
         email: Correo
-        entry_name: presidencia da mesa
+        entry_name: presidente de mesa
       search:
         email_placeholder: Buscar usuario por correo
         search: Buscar
@@ -758,7 +758,7 @@ gl:
     poll_officer_assignments:
       index:
         officers_title: "Listaxe de presidentes/as asignados/as"
-        no_officers: "Non hai ningún presidente/a de mesa asignado/a a esta votación."
+        no_officers: "Non hai ningún presidente de mesa asignado a esta votación."
         table_name: "Nome"
         table_email: "Correo"
       by_officer:
@@ -780,7 +780,7 @@ gl:
         remove_shift: "Borrar"
         search_officer_button: Buscar
         search_officer_placeholder: Buscar presidente de mesa
-        search_officer_text: Procura a presidencia de mesa para asignar unha quenda
+        search_officer_text: Busca a presidencia de mesa para asignar unha quenda
         select_date: "Escolle o día"
         no_voting_days: "Días de votación rematados"
         select_task: "Escolle tarefa"
@@ -814,14 +814,14 @@ gl:
         error_create: "Produciuse un erro ao intentar asignar a urna"
       show:
         location: "Localización"
-        officers: "Presidentes/as de mesa"
-        officers_list: "Relación de presidentes/as de mesa asignados a esta urna"
-        no_officers: "Non hai ningún presidente/a de mesa para esta urna"
+        officers: "Presidentes de mesa"
+        officers_list: "Relación de presidentes de mesa asignados a esta urna"
+        no_officers: "Non hai ningún presidente de mesa para esta urna"
         recounts: "Recontos"
         recounts_list: "Listaxe de recontos desta urna"
         results: "Resultados"
         date: "Data"
-        count_final: "Reconto final (presidente de mesa)"
+        count_final: "Escrutinio final (presidente de mesa)"
         count_by_system: "Votos (automático)"
         total_system: Votos totais acumulados (automático)
       index:
@@ -850,7 +850,7 @@ gl:
       show:
         questions_tab: Preguntas
         booths_tab: Urnas
-        officers_tab: Presidentes/as de mesa
+        officers_tab: Presidentes de mesa
         recounts_tab: Recontos
         results_tab: Resultados
         no_questions: "Non hai preguntas asignadas a esta votación."
@@ -925,7 +925,7 @@ gl:
         title: "Recontos"
         no_recounts: "Non hai nada para o que facer o reconto"
         table_booth_name: "Urna"
-        table_total_recount: "Reconto total (presidencia de mesa)"
+        table_total_recount: "Escrutinio total (presidencia de mesa)"
         table_system_count: "Votos (automático)"
     results:
       index:
@@ -1081,7 +1081,7 @@ gl:
       user_search:
         button: Buscar
         placeholder: Buscar usuario por nome ou correo electrónico
-      search_results: "Resultados da procura"
+      search_results: "Resultados da busca"
       no_search_results: "Non se atoparon resultados."
       actions: Accións
       title: Título
