@@ -95,6 +95,22 @@ gl:
       legislation_description: "Nos procesos participativos, o concello ofrécelle á cidadanía a oportunidade de participar na elaboración e modificación de normativa que lle afecta á cidade e de dar a súa opinión sobre algunhas accións que teñen previsto levar a cabo"
       spending_proposals: "Propostas de gasto"
       spending_proposals_description: "⚠️ AVISO: Esta característica foi substituída polo Orzamento Participativo e vai desaparecer nas novas versións"
+      spending_proposal_features:
+        voting_allowed: Votando nos proxectos de investimento - Fase de preselección
+        voting_allowed_description: "⚠️ AVISO: Esta característica foi substituída polo Orzamento Participativo e vai desaparecer nas novas versións"
+      user:
+        recommendations: "Recomendacións"
+        recommendations_description: "Amosa na páxina principal recomendacións aos usuarios que están vencelladas coas etiquetas dos elementos que seguen"
+        skip_verification: "Omitir a confirmación do usuario"
+        skip_verification_description: "Isto deshabilitará a confirmación do usuario, e todos os usuarios rexistrados poderán participar nos procesos"
+        recommendations_on_debates: "Recomendacións nos debates"
+        recommendations_on_debates_description: "Amosa as recomendacións de usuarios aos usuarios na páxina de debates baseadas nas etiquetas dos elementos seguidos"
+        recommendations_on_proposals: "Recomendacións nas propostas"
+        recommendations_on_proposals_description: "Amosa as recomendacións de usuarios aos usuarios na páxina de propostas baseadas nas etiquetas dos elementos seguidos"
       community: "Comunidade de propostas e proxectos de investimento"
+      community_description: "Habilita a sección de comunidade nas propostas e nos proxectos de investimento dos Orzamentos Participativos"
       map: "Xeolocalización de propostas e proxectos de investimento"
+      map_description: "Habilita a xeolocalización das propostas e dos proxectos de investimento"
       allow_images: "Permitir subir e amosar imaxes"
+      allow_images_description: "Permite aos usuarios a subida de imaxes cando crean propostas e proxectos de investimento nos Orzamentos Participativos"
+      allow_attached_documents: "Permite a subida e a visualización de documentos anexos"
