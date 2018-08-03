@@ -366,7 +366,7 @@ gl:
           notice: Proceso eliminado correctamente
         edit:
           back: Volver
-          submit_button: Gardar cambios
+          submit_button: Gardar os cambios
         errors:
           form:
             error: Erro
@@ -428,8 +428,8 @@ gl:
           notice: O borrador borrouse correctamente
         edit:
           back: Volver
-          submit_button: Gardar cambios
-          warning: Xa editaches o texto, mais lembra premeres o botón Gardar para conservar permanentemente as mudanzas.
+          submit_button: Gardar os cambios
+          warning: Xa editaches o texto, mais lembra premeres o botón Gardar para conservar permanentemente os cambios.
         errors:
           form:
             error: Erro
@@ -476,7 +476,7 @@ gl:
         edit:
           back: Volver
           title: "Editar \"%{question_title}\""
-          submit_button: Gardar cambios
+          submit_button: Gardar os cambios
         errors:
           form:
             error: Erro
@@ -886,10 +886,10 @@ gl:
         question: Pregunta
         edit_question: Editar pregunta
         valid_answers: Respostas válidas
-        add_answer: Engadir pregunta
+        add_answer: Engadir resposta
         video_url: Vídeo externo
         answers:
-          title: Pregunta
+          title: Resposta
           description: Descrición
           videos: Vídeos
           video_list: Listaxe de vídeos
