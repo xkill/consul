@@ -608,6 +608,7 @@ zh-TW:
         segment_recipient: 收件者
         sent: 發送
         actions: 行動
+        draft: 起草
         edit: 編輯
         delete: 刪除
         preview: 預覽
@@ -659,7 +660,17 @@ zh-TW:
       preview_pending:
         action: 預覽待定
         preview_of: 預覽 %{name}
+        send_pending: 有待發送
+    emails_download:
+      index:
+        title: 電郵下載
+        download_segment: 下載電郵地址
+        download_segment_help_text: 以 CSV 格式下載
+        download_emails_button: 下載電郵清單
     valuators:
+      index:
+        title: 評估員
+        name: 名字
       show:
         email: "電郵"
         group: "組"
@@ -677,6 +688,11 @@ zh-TW:
         name: "組名稱"
         new: "創建評估組"
         edit: "儲存評估組"
+    poll_officers:
+      index:
+        title: 民意調查員
+      officer:
+        add: 添加
     homepage:
       feeds:
         processes: 進程
