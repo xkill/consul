@@ -7,3 +7,48 @@ pl:
         description_selecting: "Opis w fazie Wybierania"
         description_valuating: "Opis w fazie Wyceny"
         description_balloting: "Opis w fazie Głosowania"
+        description_finished: "Opis po zakończeniu budżetu"
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              password_already_set: "Ten użytkownik posiada już hasło"
+        direct_message:
+          attributes:
+            max_per_day:
+              invalid: "Osiągnąłeś maksymalną liczbę wiadomości prywatnych na dzień"
+        image:
+          attributes:
+            attachment:
+              min_image_width: "Szerokość obrazu musi wynosić co najmniej %{required_min_width}px"
+              min_image_height: "Wysokość obrazu musi wynosić co najmniej %{required_min_height}px"
+        map_location:
+          attributes:
+            map:
+              invalid: Lokalizacja na mapie nie może być pusta. Umieść znacznik lub zaznacz pole wyboru, jeśli geolokalizacja jest niepotrzebna
+        poll/voter:
+          attributes:
+            document_number:
+              not_in_census: "Brak dokumentu w spisie"
+              has_voted: "Użytkownik już zagłosował"
+        proposal_notification:
+          attributes:
+            minimum_interval:
+              invalid: "Musisz czekać minimalnie %{interval} dni pomiędzy powiadomieniami"
+        signature:
+          attributes:
+            document_number:
+              not_in_census: 'Niezweryfikowane przez Census'
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "Szerokość musi wynosić %{required_width}px"
+              image_height: "Wysokość musi wynosić %{required_height}px"
+        comment:
+          attributes:
+            valuation:
+              cannot_comment_valuation: 'Nie możesz komentować wyceny'
+      messages:
+        restrict_dependent_destroy:
+          has_one: "Nie można usunąć zapisu, ponieważ istnieje zależny %{record}"
