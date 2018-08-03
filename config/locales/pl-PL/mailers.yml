@@ -23,8 +23,10 @@ pl:
       subject: "Twój projekt inwestycyjny '%{code}' został oznaczony jako niewykonalny"
     proposal_notification_digest:
       info: "Oto nowe powiadomienia opublikowane przez autorów propozycji, które wsparłeś w %{org_name}."
+      unsubscribe: "Jeśli nie chcesz otrzymywać powiadomień propozycji, odwiedź %{account} i odznacz 'Otrzymuj podsumowanie powiadomień o propozycjach'."
       unsubscribe_account: Moje konto
     direct_message_for_receiver:
+      subject: "Otrzymałeś nową wiadomość prywatną"
       unsubscribe_account: Moje konto
     budget_investment_created:
       intro_html: "Cześć <strong>%{author}</strong>,"
