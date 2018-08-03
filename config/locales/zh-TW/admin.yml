@@ -588,6 +588,18 @@ zh-TW:
       index:
         title: 審核員
         name: 名字
+        email: 電郵
+        no_moderators: 沒有審核員。
+      moderator:
+        add: 添加
+        delete: 刪除
+      search:
+        title: '審核員：用戶搜索'
+    segment_recipient:
+      all_users: 所有用戶
+      administrators: 管理員
+      proposal_authors: 建議作者
+      investment_authors: 當前預算中的投資作者
     admin_notifications:
       index:
         sent: 發送
