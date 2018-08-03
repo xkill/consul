@@ -314,8 +314,8 @@ gl:
           without_confirmed_hide: Pendentes
         hidden_debate: Debate oculto
         hidden_proposal: Proposta oculta
-        title: Comentarios ocultos
-        no_hidden_comments: Non hai comentarios ocultos.
+        title: Comentarios agochados
+        no_hidden_comments: Non hai comentarios agochados.
     dashboard:
       index:
         back: Volver a %{org}
@@ -328,8 +328,8 @@ gl:
           all: Todos
           with_confirmed_hide: Confirmados
           without_confirmed_hide: Pendentes
-        title: Debates ocultos
-        no_hidden_debates: Non hai debates ocultos.
+        title: Debates agochados
+        no_hidden_debates: Non hai debates agochados.
     hidden_users:
       index:
         filter: Filtro
@@ -521,9 +521,9 @@ gl:
       proposals_topics: Temas das propostas
       budgets: Orzamentos participativos
       geozones: Xestionar zonas
-      hidden_comments: Comentarios ocultos
+      hidden_comments: Comentarios agochados
       hidden_debates: Debates ocultos
-      hidden_proposals: Propostas ocultas
+      hidden_proposals: Propostas agochadas
       hidden_budget_investments: Agochar proposta de investimento
       hidden_proposal_notifications: Agochar as notificacións de propostas
       hidden_users: Usuarios bloqueados
@@ -1022,8 +1022,8 @@ gl:
           all: Todas
           with_confirmed_hide: Confirmadas
           without_confirmed_hide: Pendentes
-        title: Propostas ocultas
-        no_hidden_proposals: Non hai propostas ocultas.
+        title: Propostas agochadas
+        no_hidden_proposals: Non hai propostas agochadas.
     proposal_notifications:
       index:
         filter: Filtro
@@ -1219,8 +1219,8 @@ gl:
           user_level_three: Usuarios de nivel tres
           user_level_two: Usuarios de nivel dous
           users: Usuarios
-          verified_users: Usuarios verificados
-          verified_users_who_didnt_vote_proposals: Usuarios verificados que non votaron propostas
+          verified_users: Usuarios confirmados
+          verified_users_who_didnt_vote_proposals: Usuarios confirmados que non votaron propostas
           visits: Visitas
           votes: Votos totais
         spending_proposals_title: Propostas de investimento
@@ -1233,7 +1233,7 @@ gl:
       direct_messages:
         title: Mensaxes directas
         total: Total
-        users_who_have_sent_message: Usuarios/as que enviaron unha mensaxe privada
+        users_who_have_sent_message: Usuarios que enviaron unha mensaxe privada
       proposal_notifications:
         title: Notificacións de propostas
         total: Total
@@ -1268,7 +1268,7 @@ gl:
         verification_level: Nivel de verificación
       index:
         title: Usuarios
-        no_users: Non hai usuarios/as.
+        no_users: Non hai usuarios.
       search:
         placeholder: Buscar usuarios por correo electrónico, nome ou DNI
         search: Buscar
