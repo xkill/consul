@@ -6,3 +6,5 @@ pl:
         info_text: Twoje hasło nie zostanie zmienione dopóki nie wejdziesz w link i nie dokonasz jego edycji.
         text: 'Otrzymaliśmy prośbę o zmianę Twojego hasła. Możesz jej dokonać pod następującym linkiem:'
         title: Zmień hasło
+      unlock_instructions:
+        info_text: Twoje konto zostało zablokowane z powodu nadmiernej liczby nieudanych prób zalogowania.
