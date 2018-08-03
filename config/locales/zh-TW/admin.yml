@@ -738,7 +738,10 @@ zh-TW:
         booth: "攤位"
     poll_shifts:
       new:
+        add_shift: "添加輪班班次"
         shift: "分配"
+        shifts: "此攤位的輪班班次"
+        date: "日期"
         task: "任務"
         new_shift: "新輪班班次"
         no_shifts: "這個攤位沒有輪班班次"
