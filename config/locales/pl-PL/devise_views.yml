@@ -38,3 +38,12 @@ pl:
           password_label: Hasło
           redeemable_code: Kod weryfikacyjny otrzymany za pośrednictwem poczty e-mail (opcjonalnie)
           submit: Zarejestruj się
+          terms: Rejestrując się, akceptujesz %{terms}
+          terms_title: Rejestrując się, akceptujesz regulamin i warunki użytkowania
+          username_is_available: Nazwa użytkownika dostępna
+          username_is_not_available: Nazwa użytkownika już w użyciu
+          username_label: Nazwa użytkownika
+        success:
+          back_to_index: Rozumiem; wróć do strony głównej
+          instructions_2_html: Po potwierdzeniu możesz rozpocząć udział.
+          thank_you_html: Dziękujemy za rejestrację na stronie. Teraz musisz <b>potwierdzić swój adres e-mail</b>.
