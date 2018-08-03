@@ -600,8 +600,36 @@ zh-TW:
       administrators: 管理員
       proposal_authors: 建議作者
       investment_authors: 當前預算中的投資作者
+    newsletters:
+      index:
+        title: 通訊
+        new_newsletter: 新通訊
+        subject: 主題
+        segment_recipient: 收件者
+        sent: 發送
+        actions: 行動
+        edit: 編輯
+        delete: 刪除
+        preview: 預覽
+        empty_newsletters: 沒有可顯示的通知
+      new:
+        title: 新通訊
+      edit:
+        title: 編輯通訊
+      show:
+        title: 通訊預覽
+        send: 發送
+        affected_users: (%{n} 受影響的用戶)
+        sent_at: 發送於
+        subject: 主題
+        segment_recipient: 收件者
+        body: 電郵內容
     admin_notifications:
       index:
+        section_title: 通知
+        new_notification: 新通知
+        title: 標題
+        segment_recipient: 收件者
         sent: 發送
         actions: 行動
         draft: 草稿
@@ -631,6 +659,10 @@ zh-TW:
       preview_pending:
         action: 預覽待定
         preview_of: 預覽 %{name}
+    valuators:
+      show:
+        email: "電郵"
+        group: "組"
     homepage:
       feeds:
         processes: 進程
