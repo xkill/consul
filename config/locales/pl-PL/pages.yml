@@ -42,8 +42,15 @@ pl:
         button: "Zobacz najczęściej zadawane pytania"
         page:
           title: "FAQ - najczęściej zadawane pytania"
+          faq_1_description: "To jest przykład opisu pytania pierwszego."
+      other:
+        title: "Inne przydatne informacje"
+        how_to_use: "Użyj %{org_name} w Twoim mieście"
+      titles:
+        how_to_use: Użyj go w swoim lokalnym rządzie
     privacy: Polityka prywatności
     titles:
+      conditions: Warunki użytkowania
       privacy: Polityka prywatności
     verify:
       email: Adres e-mail
