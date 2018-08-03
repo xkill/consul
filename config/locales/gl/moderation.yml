@@ -3,7 +3,7 @@ gl:
     comments:
       index:
         block_authors: Bloquear autores
-        confirm: Tes a certeza?
+        confirm: Queres continuar?
         filter: Filtro
         filters:
           all: Todo
@@ -25,7 +25,7 @@ gl:
     debates:
       index:
         block_authors: Bloquear autores
-        confirm: Tes a certeza?
+        confirm: Queres continuar?
         filter: Filtro
         filters:
           all: Todo
@@ -53,7 +53,7 @@ gl:
     proposals:
       index:
         block_authors: Bloquear autores/as
-        confirm: Tes a certeza?
+        confirm: Queres continuar?
         filter: Filtro
         filters:
           all: Todas
@@ -72,7 +72,7 @@ gl:
     budget_investments:
       index:
         block_authors: Autores de bloques
-        confirm: Estás seguro?
+        confirm: Queres continuar?
         filter: Filtro
         filters:
           all: Todo
@@ -91,7 +91,7 @@ gl:
     proposal_notifications:
       index:
         block_authors: Bloquear autores
-        confirm: Estás seguro?
+        confirm: Queres continuar?
         filter: Filtro
         filters:
           all: Todo
