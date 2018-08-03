@@ -18,7 +18,7 @@ gl:
         add_results: Engadir resultados
     results:
       flash:
-        create: "Resultados gardados"
+        create: "Gardaronse os resultados"
         error_create: "Os resultados non se gardaron pois houbo un erro nos datos."
         error_wrong_booth: "A urna non é correcta e os resultados non se gardaron."
       new:
