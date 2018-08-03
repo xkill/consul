@@ -741,6 +741,13 @@ zh-TW:
           assign_status: 分配
           assigned: 已分配
           unassigned: 未分配
+    poll_booth_assignments:
+      alert:
+        shifts: "這攤位有相關的輪班班次。如果您刪除攤位分配, 這些班次也將被刪除。您要繼續嗎？"
+      flash:
+        destroy: "攤位不再分配"
+        create: "攤位已被分配"
+        error_destroy: "刪除攤位分配時出錯"
     homepage:
       feeds:
         processes: 進程
