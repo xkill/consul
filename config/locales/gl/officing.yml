@@ -6,6 +6,7 @@ gl:
       index:
         title: Presidir mesas de votacións
         info: Aquí podes validar documentos da cidadanía e gardar os resultados das urnas
+        no_shifts: Hoxe non tes quenda de presidente de mesa.
     menu:
       voters: Validar documento
       total_recounts: Reconto total e escrutinio
@@ -57,6 +58,7 @@ gl:
         table_poll: Votación
         table_status: Estado das votacións
         table_actions: Accións
+        not_to_vote: A persoa decidiu non votar neste intre
       show:
         can_vote: Pode votar
         error_already_voted: Xa participou nesta votación
