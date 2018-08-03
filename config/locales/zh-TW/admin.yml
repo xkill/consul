@@ -663,6 +663,20 @@ zh-TW:
       show:
         email: "電郵"
         group: "組"
+        no_description: "沒有說明"
+        no_group: "沒有組"
+    valuator_groups:
+      index:
+        new: "創建評估組"
+        name: "名字"
+        no_groups: "沒有評估組"
+      show:
+        title: "評估組: %{group}"
+        no_valuators: "沒有評估員被分配到此組"
+      form:
+        name: "組名稱"
+        new: "創建評估組"
+        edit: "儲存評估組"
     homepage:
       feeds:
         processes: 進程
