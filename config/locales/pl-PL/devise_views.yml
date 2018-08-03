@@ -1,5 +1,9 @@
 pl:
   devise_views:
+    confirmations:
+      show:
+        instructions_html: Potwierdzanie konta za pomocą poczty e-mail %{email}
+        new_password_confirmation_label: Powtórz hasło dostępu
     mailer:
       reset_password_instructions:
         ignore_text: Jeżeli nie zażądałeś zmiany hasła, możesz zignorować ten e-mail.
