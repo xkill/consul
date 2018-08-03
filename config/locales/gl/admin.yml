@@ -752,8 +752,8 @@ gl:
         email: Correo
         entry_name: presidencia da mesa
       search:
-        email_placeholder: Procurar usuario/a por correo
-        search: Procurar
+        email_placeholder: Buscar usuario por correo
+        search: Buscar
         user_not_found: O usuario non se atopou
     poll_officer_assignments:
       index:
@@ -778,8 +778,8 @@ gl:
         no_shifts: "Esta urna non ten quendas asignadas"
         officer: "Presidente de mesa"
         remove_shift: "Borrar"
-        search_officer_button: Procurar
-        search_officer_placeholder: Procurar presidente de mesa
+        search_officer_button: Buscar
+        search_officer_placeholder: Buscar presidente de mesa
         search_officer_text: Procura a presidencia de mesa para asignar unha quenda
         select_date: "Escolle o día"
         no_voting_days: "Días de votación rematados"
@@ -1006,7 +1006,7 @@ gl:
         no_organizations: Non hai organizacións.
         reject: Rexeitar
         rejected: Rexeitada
-        search: Procurar
+        search: Buscar
         search_placeholder: Nome, correo electrónico ou teléfono
         title: Organización
         verified: Verificada
@@ -1064,14 +1064,14 @@ gl:
       no_description: "Sen descrición"
     shared:
       booths_search:
-        button: Procurar
-        placeholder: Procurar urna por nome
+        button: Buscar
+        placeholder: Buscar urna por nome
       poll_officers_search:
-        button: Procurar
-        placeholder: Procurar presidentes da mesa
+        button: Buscar
+        placeholder: Buscar presidentes da mesa
       poll_questions_search:
-        button: Procurar
-        placeholder: Procurar preguntas
+        button: Buscar
+        placeholder: Buscar preguntas
       proposal_search:
         button: Buscar
         placeholder: Buscar propostas por título, código, descrición ou pregunta
@@ -1079,7 +1079,7 @@ gl:
         button: Buscar
         placeholder: Buscar propostas por título ou descrición
       user_search:
-        button: Procurar
+        button: Buscar
         placeholder: Buscar usuario por nome ou correo electrónico
       search_results: "Resultados da procura"
       no_search_results: "Non se atoparon resultados."
@@ -1270,8 +1270,8 @@ gl:
         title: Usuarios
         no_users: Non hai usuarios/as.
       search:
-        placeholder: Procurar usuarios por correo electrónico, nome ou DNI
-        search: Procurar
+        placeholder: Buscar usuarios por correo electrónico, nome ou DNI
+        search: Buscar
     verifications:
       index:
         phone_not_given: Non deu o seu teléfono
