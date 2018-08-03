@@ -734,6 +734,13 @@ zh-TW:
         create: "添加的輪班班次"
         destroy: "輪班班次移除"
         date_missing: "必須選擇一個日期"
+      vote_collection: 收集選票
+    booth_assignments:
+      manage:
+        status:
+          assign_status: 分配
+          assigned: 已分配
+          unassigned: 未分配
     homepage:
       feeds:
         processes: 進程
