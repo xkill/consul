@@ -46,6 +46,13 @@ pl:
       other:
         title: "Inne przydatne informacje"
         how_to_use: "Użyj %{org_name} w Twoim mieście"
+      how_to_use:
+        text: |-
+          Użyj go w swoim lokalnym rządzie lub pomóż nam go ulepszyć, to darmowe oprogramowanie.
+          
+          Ten Open Government Portal - z ang. portal otwartego rządu - używa [CONSUL app](https://github.com/consul/consul 'consul github') będącego darmowym oprogramowaniem, z [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), co w prostych słowach oznacza, że ktokolwiek może za darmo używać kodu swobodnie, kopiować go, oglądać w szczegółach, modyfikować i ponownie udostępniać światu wraz z dowolnymi modyfikacjami, których sobie życzy (pozwalając innym robić to samo). Ponieważ uważamy, że kultura jest lepsza i bogatsza, gdy jest wolna.
+          
+          Jeśli jesteś programistą, możesz oglądać kod i pomóc nam go poprawiać na [CONSUL app](https://github.com/consul/consul 'consul github').
       titles:
         how_to_use: Użyj go w swoim lokalnym rządzie
     privacy: Polityka prywatności
@@ -54,5 +61,7 @@ pl:
       privacy: Polityka prywatności
     verify:
       email: Adres e-mail
+      info: 'Aby zweryfikować konto, wprowadź swoje dane dostępu:'
+      info_code: 'Teraz wprowadź kod otrzymany w liście:'
       password: Hasło
       title: Zweryfikuj swoje konto
