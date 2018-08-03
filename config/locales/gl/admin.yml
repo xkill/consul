@@ -1096,30 +1096,30 @@ gl:
       created_at: Creado en
     spending_proposals:
       index:
-        geozone_filter_all: Todos os ámbitos de actuación
+        geozone_filter_all: Todas as zonas
         administrator_filter_all: Todos os administradores
-        valuator_filter_all: Todos/as os/as avaliadores/as
+        valuator_filter_all: Todos os avaliadores
         tags_filter_all: Todas as etiquetas
         filters:
-          valuation_open: Abrir
-          without_admin: Sen administrador/a
+          valuation_open: Abertas
+          without_admin: Sen administrador
           managed: Xestionado
           valuating: En avaliación
           valuation_finished: Avaliación rematada
           all: Todas
         title: Propostas de investimento para os orzamentos participativos
-        assigned_admin: Administrador/a asignado/a
-        no_admin_assigned: Sen admin
-        no_valuators_assigned: Sen avaliador/a
-        summary_link: "Resumo"
-        valuator_summary_link: "Resumo de avaliadores/as"
+        assigned_admin: Administrador asignado
+        no_admin_assigned: Sen administrador asignado
+        no_valuators_assigned: Sen avaliador
+        summary_link: "Resumo de proxecto de investimento"
+        valuator_summary_link: "Resumo de avaliadores"
         feasibility:
           feasible: "Viable (%{price})"
           not_feasible: "Inviable"
           undefined: "Sen definir"
       show:
-        assigned_admin: Administrador/a asignado/a
-        assigned_valuators: Avaliadores/as asignados/as
+        assigned_admin: Administrador asignado
+        assigned_valuators: Avaliadores asignados
         back: Volver
         classification: Clasificación
         heading: "Proposta de investimento %{id}"
@@ -1127,15 +1127,15 @@ gl:
         edit_classification: Editar a clasificación
         association_name: Asociación
         by: Por
-        sent: Data
-        geozone: Ámbito
+        sent: Enviada
+        geozone: Zona
         dossier: Informe
         edit_dossier: Editar o informe
         tags: Etiquetas
         undefined: Sen definir
       edit:
         classification: Clasificación
-        assigned_valuators: Avaliadores/as
+        assigned_valuators: Avaliadores
         submit_button: Actualizar
         tags: Etiquetas
         tags_placeholder: "Escribe as etiquetas que desexes separadas por comas (,)"
@@ -1143,9 +1143,9 @@ gl:
       summary:
         title: Resumo de propostas de investimento
         title_proposals_with_supports: Resumo para propostas que superaron a fase de apoios
-        geozone_name: Ámbito
-        finished_and_feasible_count: Rematadas viables
-        finished_and_unfeasible_count: Rematadas inviables
+        geozone_name: Zona
+        finished_and_feasible_count: Rematadas e viables
+        finished_and_unfeasible_count: Rematadas e inviables
         finished_count: Rematadas
         in_evaluation_count: En avaliación
         total_count: Total
