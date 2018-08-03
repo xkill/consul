@@ -40,6 +40,7 @@ gl:
         feature_1_link: "rexistrarte en %{org_name}"
       processes:
         title: "Procesos"
+        description: "Na sección %{link}, a cidadanía participa na redacción e modificación da normativa que afecta á cidade, e pode dar a súa opinión sobre as políticas municipais en debates previos."
         link: "procesos"
       faq:
         title: "Problemas técnicos?"
