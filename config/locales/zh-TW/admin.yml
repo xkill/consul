@@ -671,6 +671,28 @@ zh-TW:
       index:
         title: 評估員
         name: 名字
+        email: 電郵
+        description: 說明
+        no_description: 沒有說明
+        no_valuators: 沒有審核員。
+        valuator_groups: "評估組"
+        group: "組"
+        no_group: "沒有組"
+      valuator:
+        add: 添加到評估組
+        delete: 刪除
+      search:
+        title: '評估員：用戶搜索'
+      summary:
+        valuator_name: 評估員
+        finished_and_feasible_count: 完成和可行
+        finished_and_unfeasible_count: 完成和不可行
+        finished_count: 已完成
+        in_evaluation_count: 正在評估中
+        total_count: 總
+        cost: 成本
+      form:
+        edit_title: "評估員：編輯評估員"
       show:
         email: "電郵"
         group: "組"
@@ -693,6 +715,14 @@ zh-TW:
         title: 民意調查員
       officer:
         add: 添加
+    poll_shifts:
+      new:
+        new_shift: "新班次"
+        no_shifts: "這個攤位沒有輪班"
+        officer: "人員"
+        remove_shift: "刪除"
+        search_officer_button: 搜尋
+        search_officer_placeholder: 搜索官員
     homepage:
       feeds:
         processes: 進程
