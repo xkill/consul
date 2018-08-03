@@ -748,6 +748,34 @@ zh-TW:
         destroy: "攤位不再分配"
         create: "攤位已被分配"
         error_destroy: "刪除攤位分配時出錯"
+      show:
+        location: "位置"
+        officers: "人員"
+        officers_list: "這個攤位的人員名單"
+        no_officers: "這個攤位沒有人員"
+        results: "結果"
+        date: "日期"
+      index:
+        booths_title: "攤位清單"
+        table_name: "名字"
+        table_location: "位置"
+    polls:
+      index:
+        name: "名字"
+        dates: "日期"
+    questions:
+      show:
+        add_answer: 添加答案
+        video_url: 外部視頻
+        answers:
+          title: 答案
+          description: 說明
+          videos: 視頻
+          video_list: 視頻清單
+          images: 圖像
+          images_list: 圖像清單
+          documents: 文檔
+          documents_list: 文檔清單
     homepage:
       feeds:
         processes: 進程
