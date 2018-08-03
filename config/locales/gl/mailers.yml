@@ -44,6 +44,7 @@ gl:
       title_html: "Enviaches unha nova mensaxe privada a <strong>%{receiver}</strong> co seguinte contido:"
     user_invite:
       ignore: "Se non solicitaches este convite non te preocupes, podes ignorar este correo."
+      text: "Grazas por solicitar unirte a %{org}! Nuns segundos poderás empezar a decidir a cidade que queres, só tes que cubrir o seguinte formulario:"
       thanks: "Moitas grazas."
       title: "Benvido/a a %{org}"
       button: Completar rexistro
