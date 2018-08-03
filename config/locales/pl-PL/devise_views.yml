@@ -8,3 +8,14 @@ pl:
         title: Zmień hasło
       unlock_instructions:
         info_text: Twoje konto zostało zablokowane z powodu nadmiernej liczby nieudanych prób zalogowania.
+        instructions_text: 'Kliknij w ten link, aby odblokować swoje konto:'
+        title: Twoje konto zostało zablokowane
+    organizations:
+      registrations:
+        new:
+          responsible_name_label: Imię i nazwisko osoby odpowiedzialnej za kolektyw
+          responsible_name_note: Byłaby to osoba reprezentująca stowarzyszenie/kolektyw, w której imieniu przedstawiane są propozycje
+          title: Zarejestruj się jako organizacja lub kolektyw
+        success:
+          back_to_index: Rozumiem; wróć do strony głównej
+          instructions_1_html: "<b>Wkrótce skontaktujemy się z Tobą</b>, aby zweryfikować, czy rzeczywiście reprezentujesz ten kolektyw."
