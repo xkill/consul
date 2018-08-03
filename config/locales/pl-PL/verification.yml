@@ -19,4 +19,22 @@ pl:
         document_type:
           passport: Paszport
         document_type_label: Typ dokumentu
+        error_verifying_census: Spis statystyczny nie był w stanie zweryfikować podanych przez Ciebie informacji. Upewnij się, że Twoje dane w spisie są poprawne, dzwoniąc do Urzędu Miejskiego lub odwiedzając go %{offices}.
+        postal_code_note: Aby zweryfikować swoje konto, musisz być zarejestrowany
+    sms:
+      create:
+        flash:
+          success: Wpisz kod potwierdzający, wysłany do Ciebie przez wiadomość tekstową
+      edit:
+        confirmation_code: Wpisz kod otrzymany na telefon
+        resend_sms_link: Kliknij tutaj, aby wysłać go ponownie
+        resend_sms_text: Nie otrzymałeś wiadomości z kodem potwierdzającym?
+        submit_button: Wyślij
+      new:
+        phone: Wprowadź swój numer telefonu komórkowego, aby otrzymać kod
+        phone_note: Używamy Twojego telefonu tylko do wysłania kodu, nigdy aby się z Tobą skontaktować.
     user_permission_support_proposal: Popieraj propozycje*
+    verified_user:
+      show:
+        title: Dostępne informacje
+        use_another_phone: Użyj innego telefonu
