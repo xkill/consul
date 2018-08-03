@@ -19,3 +19,22 @@ pl:
         success:
           back_to_index: Rozumiem; wróć do strony głównej
           instructions_1_html: "<b>Wkrótce skontaktujemy się z Tobą</b>, aby zweryfikować, czy rzeczywiście reprezentujesz ten kolektyw."
+          instructions_2_html: Podczas gdy Twój <b>e-mail jest przeglądany</b>, wysłaliśmy Ci <b>link do potwierdzenia Twojego konta</b>.
+          instructions_3_html: Po potwierdzeniu możesz zacząć uczestniczyć jako niezweryfikowany kolektyw.
+          thank_you_html: Dziękujemy za zarejestrowanie Twojego kolektywu na stronie. W tym momencie <b>oczekuje weryfikacji</b>.
+          title: Rejestracja organizacji / kolektywu
+    shared:
+      links:
+        new_confirmation: Nie zostałeś poinstruowany aby aktywować swoje konto?
+        new_password: Zapomniałeś hasła?
+        new_unlock: Nie otrzymałeś instrukcji odblokowania?
+        signin_with_provider: Zaloguj się za pomocą %{provider}
+    users:
+      registrations:
+        new:
+          organization_signup: Czy reprezentujesz organizację lub kolektyw? %{signup_link}
+          organization_signup_link: Zarejestruj się tutaj
+          password_confirmation_label: Potwierdź hasło
+          password_label: Hasło
+          redeemable_code: Kod weryfikacyjny otrzymany za pośrednictwem poczty e-mail (opcjonalnie)
+          submit: Zarejestruj się
