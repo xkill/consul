@@ -526,7 +526,7 @@ gl:
       hidden_proposals: Propostas ocultas
       hidden_budget_investments: Agochar proposta de investimento
       hidden_proposal_notifications: Agochar as notificacións de propostas
-      hidden_users: Usuarios/as bloqueados/as
+      hidden_users: Usuarios bloqueados
       administrators: Administradores
       managers: Xestores/as
       moderators: Moderadores
@@ -573,7 +573,7 @@ gl:
       title_site_customization: Contido do sitio
       title_booths: Urnas de votación
       legislation: Lexislación colaborativa
-      users: Usuarios/as
+      users: Usuarios
     administrators:
       index:
         title: Administradores/as
@@ -842,7 +842,7 @@ gl:
         show_results_and_stats: "Amosar os resultados e as estatísticas"
         show_results: "Amosar resultados"
         show_stats: "Amosar estatísticas"
-        results_and_stats_reminder: "Se marcas estas celas, os resultados e/ou as estatísticas desta votación publicaranse e todos/as usuarios/as poderán velos."
+        results_and_stats_reminder: "Se marcas estas celas, os resultados e/ou as estatísticas desta votación publicaranse e todos os usuarios poderán velos."
         submit_button: "Crear votación"
       edit:
         title: "Editar votación"
@@ -1228,7 +1228,7 @@ gl:
         visits_title: Visitas
         direct_messages: Mensaxes directas
         proposal_notifications: Notificacións das propostas
-        incomplete_verifications: Verificacións incompletas
+        incomplete_verifications: Confirmacións incompletas
         polls: Votacións
       direct_messages:
         title: Mensaxes directas
@@ -1276,7 +1276,7 @@ gl:
       index:
         phone_not_given: Non deu o seu teléfono
         sms_code_not_confirmed: Non introduciu o seu código de seguridade
-        title: Verificacións incompletas
+        title: Confirmacións incompletas
     site_customization:
       content_blocks:
         information: Información sobre bloques de contido
