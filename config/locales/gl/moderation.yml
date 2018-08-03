@@ -111,7 +111,7 @@ gl:
       index:
         hidden: Bloqueado
         hide: Bloquear
-        search: Procurar
+        search: Buscar
         search_placeholder: correo electrónico ou nome de usuario
         title: Bloquear usuarios/as
       notice_hide: Usuario bloqueado. Ocultáronse todos os seus debates e comentarios.
