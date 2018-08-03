@@ -1,1 +1,6 @@
 pl:
+  devise_views:
+    mailer:
+      reset_password_instructions:
+        ignore_text: Jeżeli nie zażądałeś zmiany hasła, możesz zignorować ten e-mail.
+        info_text: Twoje hasło nie zostanie zmienione dopóki nie wejdziesz w link i nie dokonasz jego edycji.
