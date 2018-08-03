@@ -733,6 +733,7 @@ zh-TW:
       flash:
         create: "添加的輪班班次"
         destroy: "輪班班次移除"
+        date_missing: "必須選擇一個日期"
     homepage:
       feeds:
         processes: 進程
