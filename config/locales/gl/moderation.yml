@@ -2,18 +2,18 @@ gl:
   moderation:
     comments:
       index:
-        block_authors: Bloquear autores/as
+        block_authors: Bloquear autores
         confirm: Tes a certeza?
         filter: Filtro
         filters:
           all: Todo
           pending_flag_review: Pendentes
-          with_ignored_flag: Marcados como revisados
+          with_ignored_flag: Marcado como visto
         headers:
           comment: Comentario
           moderate: Moderar
-        hide_comments: Ocultar comentarios
-        ignore_flags: Marcar como revisados
+        hide_comments: Agochar comentarios
+        ignore_flags: Marcado como vistos
         order: Orde
         orders:
           flags: Máis denunciados
@@ -24,13 +24,13 @@ gl:
         title: Moderar
     debates:
       index:
-        block_authors: Bloquear autores/as
+        block_authors: Bloquear autores
         confirm: Tes a certeza?
         filter: Filtro
         filters:
           all: Todo
           pending_flag_review: Pendente
-          with_ignored_flag: Marcados como revisados
+          with_ignored_flag: Marcado como visto
         headers:
           debate: Debate
           moderate: Moderar
@@ -90,7 +90,7 @@ gl:
         title: Investimentos orzamentarios
     proposal_notifications:
       index:
-        block_authors: Autores de bloque
+        block_authors: Bloquear autores
         confirm: Estás seguro?
         filter: Filtro
         filters:
@@ -113,5 +113,5 @@ gl:
         hide: Bloquear
         search: Buscar
         search_placeholder: correo electrónico ou nome de usuario
-        title: Bloquear usuarios/as
+        title: Bloquear usuarios
       notice_hide: Usuario bloqueado. Ocultáronse todos os seus debates e comentarios.
