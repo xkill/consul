@@ -19,6 +19,15 @@ pl:
         figcaption: 'Przyciski "Zgadzam się" i "Nie zgadzam się" do oceniania debat.'
       proposals:
         title: "Propozycje"
+        description: "W sekcji %{link} możesz składać propozycje do Rady Miejskiej, celem ich wdrożenia przez ów organ. Takie wnioski wymagają poparcia, a jeśli osiągną wystarczający jego poziom, zostają poddane publicznemu głosowaniu. Propozycje zatwierdzone w głosowaniach są akceptowane przez Radę Miejską i wykonywane."
+        link: "propozycje obywatelskie"
+        image_alt: "Przycisk do popierania propozycji"
+        figcaption_html: 'Przycisk do "Popierania" propozycji.'
+      budgets:
+        title: "Budżetowanie Partycypacyjne"
+        description: "Sekcja %{link} pomaga ludziom podjąć bezpośrednią decyzję odnośnie tego, na co zostanie wydana część budżetu gminnego."
+        image_alt: "Różne fazy budżetu partycypacyjnego"
+        figcaption_html: 'Fazy "Poparcie" i "Głosowanie" budżetów partycypacyjnych.'
       polls:
         title: "Ankiety"
         link: "ankiety"
