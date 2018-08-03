@@ -27,7 +27,7 @@ gl:
       user_permission_debates: Participar en debates
       user_permission_info: Coa túa conta xa podes...
       user_permission_proposal: Crear novas propostas
-      user_permission_support_proposal: Apoiar propostas*
+      user_permission_support_proposal: Apoiar propostas
       user_permission_title: Participación
       user_permission_verify: Para poder realizar todas as accións verifica a túa conta.
       user_permission_verify_info: "* Só para persoas empadroadas."
@@ -112,7 +112,7 @@ gl:
         recommendations: recomendacións
       recommendations:
         without_results: Non hai ningún debate relacionado cos teus intereses
-        without_interests: Sigue propostas para que podamos ofrecerche recomendacións
+        without_interests: Sigue propostas para que poidamos ofrecerche recomendacións
         disable: "As recomendacións dos debates deixarán de amosarse se as desactiva. Pode volver a activalas desde a páxina «A miña conta»"
         actions:
           success: "As recomendacións para debates foron deshabilitadas para esta conta"
@@ -354,11 +354,11 @@ gl:
         recommendations: recomendacións
       recommendations:
         without_results: Non hai propostas relacionadas cos teus intereses
-        without_interests: Sigue propostas para que che podamos facer recomendacións
-        disable: "As recomendacións de propostas deixarán de amosarse se as desactiva. Pode volver a activalas desde a páxina «A miña conta»"
+        without_interests: Sigue propostas para que che poidamos facer recomendacións
+        disable: "As recomendacións de propostas deixarán de amosarse se as desactivas. Podes volver a activalas desde a páxina «A miña conta»"
         actions:
           success: "As recomendacións para propostas foron deshabilitadas para esta conta"
-          error: "Produciuse un erro. Por favor, vaia a «A miña conta» e deshabilite as recomendacións para propostas"
+          error: "Produciuse un erro. Por favor, vai a «A miña conta» e deshabilita as recomendacións para propostas"
       retired_proposals: Propostas retiradas
       retired_proposals_link: "Propostas retiradas polos seus autores"
       retired_links:
@@ -376,7 +376,7 @@ gl:
         one: " que contén o termo <strong>%{search_term}</strong>"
         other: " que conteñen o termo <strong>%{search_term}</strong>"
       select_order: Ordenar por
-      select_order_long: 'Estás vendo as propostas'
+      select_order_long: 'Estás vendo as propostas de acordo con:'
       start_proposal: Crea unha proposta
       title: Propostas
       top: Top semanal
@@ -526,7 +526,7 @@ gl:
       title_label: "Título"
       body_label: "Mensaxe"
       submit_button: "Enviar mensaxe"
-      info_about_receivers_html: "Esta mensaxe enviaráselles a <strong>%{count} persoas</strong> e publicarase en %{proposal_page}.<br> A mensaxe non se envía inmediatamente epois os usuarios recibirán periodicamente un correo electrónico con todas as notificacións de propostas."
+      info_about_receivers_html: "Esta mensaxe enviaráselles a <strong>%{count} persoas</strong> e publicarase en %{proposal_page}.<br> A mensaxe non se envía inmediatamente, pois os usuarios recibirán periodicamente un correo electrónico con todas as notificacións de propostas."
       proposal_page: "a páxina da proposta"
     show:
       back: "Volver á miña actividade"
@@ -648,7 +648,7 @@ gl:
     index:
       title: Orzamentos participativos
       unfeasible: Propostas de investimento non viables
-      by_geozone: "Propostas de investimento con ámbito: %{geozone}"
+      by_geozone: "Propostas de investimento con zona: %{geozone}"
       search_form:
         button: Buscar
         placeholder: Propostas de investimento...
@@ -686,7 +686,7 @@ gl:
     index:
       visits: Visitas
       debates: Debates
-      proposals: Propostas cidadás
+      proposals: Propostas
       comments: Comentarios
       proposal_votes: Votos en propostas
       debate_votes: Votos en debates
@@ -763,15 +763,15 @@ gl:
     verify_account: verifica a túa conta
     spending_proposals:
       not_logged_in: Precisas %{signin} ou %{signup} para continuares.
-      not_verified: Só as persoas usuarias verificadas poden votar as propostas, polo que %{verify_account}.
+      not_verified: Só os usuarios verificados poden votar as propostas, %{verify_account}.
       organization: As organizacións non poden votar
-      unfeasible: Non se poden votar propostas inviables.
+      unfeasible: Non se poden votar proxectos de investimento inviables
       not_voting_allowed: O período de votación está cerrado.
     budget_investments:
       not_logged_in: Precisas %{signin} ou %{signup} para continuares.
       not_verified: As persoas usuarias verificadas só poden votar os proxectos de investimento, polo que %{verify_account}.
       organization: As organizacións non poden votar
-      unfeasible: Non se poden votar as propostas inviables
+      unfeasible: Non se poden votar proxectos de investimento inviables
       not_voting_allowed: O período de votación está pechado
       different_heading_assigned:
         one: "Só pode apoiar proxectos de investimento en %{count} distrito"
@@ -780,7 +780,7 @@ gl:
     feed:
       most_active:
         debates: "Debates máis activos"
-        proposals: "Propostas máis activa"
+        proposals: "Propostas máis activas"
         processes: "Procesos abertos"
       see_all_debates: Ver todos os debates
       see_all_proposals: Ver todas as propostas
@@ -807,7 +807,7 @@ gl:
       question: Tes xa unha conta en %{org_name}?
       title: Verificación de conta
     welcome:
-      go_to_index: Agora non, ver propostas
+      go_to_index: Ver propostas e debates
       title: Participa
       user_permission_debates: Participar en debates
       user_permission_info: Coa túa conta xa podes...
