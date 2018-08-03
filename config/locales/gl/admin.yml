@@ -4,7 +4,7 @@ gl:
       title: Administración
     actions:
       actions: Accións
-      confirm: Estás seguro?
+      confirm: Queres continuar?
       confirm_hide: Confirmar moderación
       hide: Ocultar
       hide_author: Bloquear o autor
