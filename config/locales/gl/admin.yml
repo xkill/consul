@@ -518,7 +518,7 @@ gl:
       admin: Menú de administración
       banner: Xestionar banners
       poll_questions: Preguntas
-      proposals_topics: Temas propostos
+      proposals_topics: Temas das propostas
       budgets: Orzamentos participativos
       geozones: Xestionar zonas
       hidden_comments: Comentarios ocultos
@@ -1073,10 +1073,10 @@ gl:
         button: Procurar
         placeholder: Procurar preguntas
       proposal_search:
-        button: Procurar
+        button: Buscar
         placeholder: Buscar propostas por título, código, descrición ou pregunta
       spending_proposal_search:
-        button: Procurar
+        button: Buscar
         placeholder: Buscar propostas por título ou descrición
       user_search:
         button: Procurar
@@ -1165,18 +1165,18 @@ gl:
         form:
           error:
             one: "un erro impediu gardar a zona"
-            other: 'uns erros impediron gardar o distrito'
+            other: 'varios erros impediron gardar a zona'
       edit:
         form:
           submit_button: Gardar os cambios
-        editing: Editar distrito
-        back: Regresar
+        editing: Editar zona
+        back: Volver
       new:
-        back: Regresar
-        creating: Crear distrito
+        back: Volver
+        creating: Crear zona
       delete:
-        success: O distrito borrouse correctamente
-        error: Non se pode borrar o distrito porque xa ten elementos asociados
+        success: A zona eliminouse correctamente
+        error: Non se pode eliminar a zona porque xa ten elementos asociados
     signature_sheets:
       author: Autoría
       created_at: Data de creación
@@ -1253,8 +1253,8 @@ gl:
       create: Crear tema
       destroy: Eliminar tema
       index:
-        add_tag: Engade un novo tema de debate
-        title: Temas de debate
+        add_tag: Engade un novo tema para as propostas
+        title: Temas das propostas
         topic: Tema
         help: "Cando un usuario crea unha proposta, amosanse os seguintes temas como etiquetas predeterminadas."
       name:
