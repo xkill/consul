@@ -536,7 +536,7 @@ gl:
       system_emails: Correos electrónicos do sistema
       emails_download: Descarga de correos electrónicos
       valuators: Avaliadores/as
-      poll_officers: Presidentes/as de mesa
+      poll_officers: Presidencias de mesa
       polls: Votacións
       poll_booths: Localización das urnas
       poll_booth_assignments: Asignación de urnas
@@ -744,7 +744,7 @@ gl:
         edit: "Gardar grupo de avaliadores"
     poll_officers:
       index:
-        title: Presidentas da mesa
+        title: Presidencias de mesa
       officer:
         add: Engadir
         delete: Borrar cargo
