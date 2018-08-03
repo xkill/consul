@@ -42,7 +42,7 @@ gl:
           flags: Máis denunciadas
         title: Debates
     header:
-      title: Moderaración
+      title: Moderación
     menu:
       flagged_comments: Comentarios
       flagged_debates: Debates
