@@ -68,6 +68,7 @@ gl:
     meta_keywords_description: 'Palabras clave <meta name="keywords">, usado para mellorar o SEO'
     min_age_to_participate: Idade mínima para participar
     min_age_to_participate_description: "Os usuarios maiores desta idade poden participar en todos os procesos"
+    analytics_url: "URL de analytics"
     blog_url: "URL do blog"
     transparency_url: "URL de Transparency"
     opendata_url: "URL de Open Data"
@@ -75,14 +76,25 @@ gl:
     proposal_improvement_path: Ligazón interna para mellorar propostas
     feature:
       budgets: "Orzamentos participativos"
+      budgets_description: "Con estes orzamentos participativos, a cidadanía decide a que proxectos presentados pola veciñanza vai destinada unha parte do orzamento municipal"
       twitter_login: "Rexistro con Twitter"
+      twitter_login_description: "Permitir aos usuarios o inicio de sesión coa conta de Twitter"
       facebook_login: "Rexistro con Facebook"
+      facebook_login_description: "Permitir aos usuarios o inicio de sesión coa conta de Facebook"
       google_login: "Rexistro con Google"
+      google_login_description: "Permitir aos usuarios o inicio de sesión coa conta de Google"
       proposals: "Propostas"
+      proposals_description: "As propostas da cidadanía son unha oportunidade para que os veciños e colectivos poidan decidir sobre como queren que sexa a súa cidade, despois de conseguir suficientes apoios e sometelas a un proceso de votación"
       debates: "Debates"
+      debates_description: "O espazo de debate da cidadanía está dirixido a calquera que poida presentar problemas que lles afecten e sobre os que queren compartir as súas opinións con outros"
       polls: "Votacións"
+      polls_description: "As votacións da cidadanía son un proceso participativo polo cal os veciños con dereito a voto poden tomar decisións dun modo directo"
       signature_sheets: "Follas de sinaturas"
+      signature_sheets_description: "Permite adherir desde o panel de administración as sinaturas recollidas no sitio para propostas e proxectos de investimento dos orzamentos participativos"
       legislation: "Lexislación"
+      legislation_description: "Nos procesos participativos, o concello ofrécelle á cidadanía a oportunidade de participar na elaboración e modificación de normativa que lle afecta á cidade e de dar a súa opinión sobre algunhas accións que teñen previsto levar a cabo"
+      spending_proposals: "Propostas de gasto"
+      spending_proposals_description: "⚠️ AVISO: Esta característica foi substituída polo Orzamento Participativo e vai desaparecer nas novas versións"
       community: "Comunidade de propostas e proxectos de investimento"
       map: "Xeolocalización de propostas e proxectos de investimento"
       allow_images: "Permitir subir e amosar imaxes"
