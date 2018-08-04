@@ -536,9 +536,9 @@ zh-TW:
       valuators: 評估員
       poll_officers: 民意調查員
       polls: 民意調查
-      poll_booths: 攤位位置
-      poll_booth_assignments: 攤位分配
-      poll_shifts: 管理班次
+      poll_booths: 投票亭位置
+      poll_booth_assignments: 投票亭分配
+      poll_shifts: 管理轉變
       officials: 官員
       organizations: 組織
       settings: 全域設置
@@ -723,42 +723,42 @@ zh-TW:
         delete: 刪除職位
         name: 名字
         email: 電郵
-        entry_name: 人員
+        entry_name: 官員
       search:
         email_placeholder: 通過電郵搜尋用戶
         search: 搜尋
         user_not_found: 未找到用戶
     poll_officer_assignments:
       index:
-        officers_title: "人員名單"
+        officers_title: "官員名單"
         table_name: "名字"
         table_email: "電郵"
       by_officer:
         date: "日期"
-        booth: "攤位"
+        booth: "投票亭"
     poll_shifts:
       new:
-        add_shift: "添加輪班班次"
+        add_shift: "添加轉變"
         shift: "分配"
-        shifts: "此攤位的輪班班次"
+        shifts: "此投票亭的轉變"
         date: "日期"
         task: "任務"
-        new_shift: "新輪班班次"
-        no_shifts: "這個攤位沒有輪班班次"
-        officer: "人員"
+        new_shift: "新轉變"
+        no_shifts: "此投票亭沒有轉變"
+        officer: "官員"
         remove_shift: "刪除"
         search_officer_button: 搜尋
         search_officer_placeholder: 搜尋員
-        search_officer_text: 尋找一個人員來分配新的輪班班次
+        search_officer_text: 尋找一個官員來分配新轉變
         select_date: "選擇日期"
         no_voting_days: "投票日結束"
         select_task: "選擇任務"
-        table_shift: "輪班班次"
+        table_shift: "轉變"
         table_email: "電郵"
         table_name: "名字"
       flash:
-        create: "添加的輪班班次"
-        destroy: "輪班班次移除"
+        create: "轉變已添加"
+        destroy: "轉變已刪除"
         date_missing: "必須選擇一個日期"
       vote_collection: 收集選票
     booth_assignments:
@@ -769,20 +769,20 @@ zh-TW:
           unassigned: 未分配
     poll_booth_assignments:
       alert:
-        shifts: "這攤位有相關的輪班班次。如果您刪除攤位分配, 這些班次也將被刪除。您要繼續嗎？"
+        shifts: "此投票亭有相關的轉變。如果您刪除投票亭分配, 這些轉變也將被刪除。您要繼續嗎？"
       flash:
-        destroy: "攤位不再分配"
-        create: "攤位已被分配"
-        error_destroy: "刪除攤位分配時出錯"
+        destroy: "投票亭不再被分配"
+        create: "投票亭已被分配"
+        error_destroy: "刪除投票亭分配時出錯"
       show:
         location: "位置"
-        officers: "人員"
-        officers_list: "這個攤位的人員名單"
-        no_officers: "這個攤位沒有人員"
+        officers: "官員"
+        officers_list: "此投票亭的官員名單"
+        no_officers: "此投票亭沒有官員"
         results: "結果"
         date: "日期"
       index:
-        booths_title: "攤位清單"
+        booths_title: "投票亭清單"
         table_name: "名字"
         table_location: "位置"
     polls:
