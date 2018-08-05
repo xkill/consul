@@ -788,6 +788,9 @@ zh-TW:
           assign_status: 分配
           assigned: 已分配
           unassigned: 未分配
+        actions:
+          assign: 分配投票亭
+          unassign: 未分配投票亭
     poll_booth_assignments:
       alert:
         shifts: "此投票亭有相關的轉變。如果您刪除投票亭分配, 這些轉變也將被刪除。您要繼續嗎？"
@@ -795,6 +798,7 @@ zh-TW:
         destroy: "投票亭不再被分配"
         create: "投票亭已被分配"
         error_destroy: "刪除投票亭分配時出錯"
+        error_create: "將投票亭分配到民意調查時出錯"
       show:
         location: "位置"
         officers: "官員"
@@ -949,6 +953,8 @@ zh-TW:
     officials:
       edit:
         destroy: 刪除 "官方" 狀態
+      flash:
+        official_destroyed: '儲存詳細信息：用戶不再是官員'
       index:
         official_position: 正式職位
         official_level: 級別
@@ -981,6 +987,13 @@ zh-TW:
         features:
           enable: "啟用"
           disable: "禁用"
+        map:
+          title: 映射配置
+          form:
+            submit: 更新
+      setting_actions: 操作
+      setting_name: 設置
+      setting_status: 狀態
       setting_value: 價值
       no_description: "沒有描述"
     shared:
@@ -991,6 +1004,12 @@ zh-TW:
         button: 搜尋
         placeholder: 搜尋民意調查員
       poll_questions_search:
+        button: 搜尋
+        placeholder: 搜尋民意調查問題
+      proposal_search:
+        button: 搜尋
+        placeholder: 按標題，代碼，描述或問題來搜尋建議
+      spending_proposal_search:
         button: 搜尋
     homepage:
       feeds:
