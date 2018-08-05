@@ -839,18 +839,32 @@ zh-TW:
         no_questions: "沒有分配給此民意調查的問題。"
         questions_title: "問題清單"
         table_title: "標題"
+      flash:
+        question_added: "此民意調查中添加的問題"
+        error_on_question_added: "無法將問題分配給此民意調查"
     questions:
       index:
         title: "問題"
         create: "創建問題"
         no_questions: "這裡沒有問題。"
+        filter_poll: 按民意調查篩選
+        select_poll: 選擇民意調查
+        questions_tab: "問題"
+        successful_proposals_tab: "成功的建議"
+        create_question: "創建問題"
         table_proposal: "建議"
+        table_question: "問題"
       edit:
         title: "編輯問題"
+      new:
+        title: "創建問題"
+        poll_label: "民意調查"
       answers:
         images:
           add_image: "添加圖像"
+          save_image: "儲存圖像"
       show:
+        proposal: 原建議
         author: 作者
         question: 問題
         edit_question: 編輯問題
@@ -887,6 +901,30 @@ zh-TW:
           video_url: 外部視頻
         new:
           title: 新視頻
+        edit:
+          title: 編輯視頻
+    recounts:
+      index:
+        title: "重新計票"
+        no_recounts: "沒有什麼要重新計票"
+        table_booth_name: "投票亭"
+        table_total_recount: "總重新計票 (由官員)"
+        table_system_count: "投票數 (自動)"
+    results:
+      index:
+        title: "結果"
+        no_results: "沒有結果"
+      result:
+        table_whites: "完全空白的選票"
+        table_nulls: "無效選票"
+        table_total: "選票總數"
+        table_answer: 答案
+        table_votes: 票
+      results_by_booth:
+        booth: 投票亭
+        results: 結果
+        see_results: 查看結果
+        title: "按投票亭的結果"
     booths:
       index:
         title: "活躍投票亭清單"
@@ -938,6 +976,11 @@ zh-TW:
         search: 搜尋
         search_placeholder: 姓名、電郵或電話號碼
     settings:
+      index:
+        update_setting: 更新
+        features:
+          enable: "啟用"
+          disable: "禁用"
       setting_value: 價值
       no_description: "沒有描述"
     shared:
