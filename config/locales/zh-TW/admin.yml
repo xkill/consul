@@ -1152,9 +1152,25 @@ zh-TW:
       index:
         title: 簽名表
         new: 新的簽名表
+      new:
+        title: 新的簽名表
+        document_numbers_note: "寫下數字，用逗號 (,) 作分隔"
+        submit: 創建簽名表
+      show:
+        created_at: 已創建
+        author: 作者
+        documents: 文檔
+        document_count: "文檔數目："
+        verified:
+          other: "有 %{count} 個有效簽名"
+        unverified:
+          other: "有 %{count} 個無效簽名"
+        unverified_error: (未通過人口普查核實)
     stats:
       show:
+        stats_title: 統計
         summary:
+          comment_votes: 評論票
           comments: 評論
           debate_votes: 辯論票數
           debates: 辯論
@@ -1216,7 +1232,31 @@ zh-TW:
       index:
         title: 用戶
     site_customization:
+      images:
+        index:
+          update: 更新
+          delete: 刪除
+          image: 圖像
+        update:
+          notice: 圖像已成功更新
+          error: 圖像無法更新
+        destroy:
+          notice: 圖像已成功刪除
+          error: 圖像無法刪除
       pages:
+        create:
+          notice: 頁面已成功創建
+          error: 頁面無法創建
+        update:
+          notice: 頁面已成功更新
+          error: 頁面無法更新
+        destroy:
+          notice: 頁面已成功刪除
+        edit:
+          title: 正在編輯 %{page_title}
+        errors:
+          form:
+            error: 錯誤
         page:
           status_draft: 草稿
           status_published: 發表
