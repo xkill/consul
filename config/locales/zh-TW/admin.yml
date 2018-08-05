@@ -1137,6 +1137,21 @@ zh-TW:
         form:
           submit_button: 儲存更改
         editing: 編輯地理區域
+        back: 返回
+      new:
+        back: 返回
+        creating: 創建地區
+      delete:
+        success: 地理區域成功刪除
+        error: 此地理區域無法刪除，因為它附加了元素
+    signature_sheets:
+      author: 作者
+      created_at: 創建日期
+      name: 名稱
+      no_signature_sheets: "沒有簽名表"
+      index:
+        title: 簽名表
+        new: 新的簽名表
     stats:
       show:
         summary:
@@ -1209,5 +1224,11 @@ zh-TW:
     homepage:
       title: 主頁
       header_title: 標題
+      cards_title: 卡
+      create_card: 創建卡
+      no_cards: 沒有卡。
+      cards:
+        title: 標題
+        description: 描述
       feeds:
         processes: 進程
