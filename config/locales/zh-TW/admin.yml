@@ -676,7 +676,7 @@ zh-TW:
         send_pending: 有待發送
       proposal_notification_digest:
         title: 建議通知摘要
-        description: 在單個信息中收集用戶的所有建議通知，以避免過多的電子郵件。
+        description: 在單個消息中收集用戶的所有建議通知，以避免過多的電子郵件。
         preview_detail: 用戶將只收到他們所跟蹤的建議之通知
     emails_download:
       index:
@@ -1047,6 +1047,16 @@ zh-TW:
         placeholder: 按標題，代碼，描述或問題來搜尋建議
       spending_proposal_search:
         button: 搜尋
+      user_search:
+        button: 搜尋
+        placeholder: 按名稱或電郵搜索用戶
+      search_results: "搜尋結果"
+      no_search_results: "未找到結果。"
+      actions: 操作
+      title: 標題
+      description: 描述
+      image: 圖像
+      show_image: 顯示圖像
     spending_proposals:
       index:
         title: 參與性預算的投資項目
@@ -1067,6 +1077,52 @@ zh-TW:
         heading: "投資項目 %{id}"
         edit: 編輯
         edit_classification: 編輯分類
+        by: 由
+        sent: 發送
+        geozone: 範圍
+        dossier: 檔案
+        edit_dossier: 編輯檔案
+        tags: 標籤
+        undefined: 未定義
+      edit:
+        classification: 分類
+        assigned_valuators: 評估員
+        submit_button: 更新
+        tags: 標籤
+        tags_placeholder: "寫下你想要的標籤，用逗號 (,) 作分隔"
+        undefined: 未定義
+      summary:
+        title: 投資項目摘要
+        title_proposals_with_supports: 具有支援的投資項目摘要
+        geozone_name: 範圍
+        finished_and_feasible_count: 已完成和可行
+        finished_and_unfeasible_count: 已完成和不可行
+        finished_count: 已完成
+        in_evaluation_count: 正在評估中
+        total_count: 總
+        cost_for_geozone: 成本
+    geozones:
+      index:
+        title: 地理區域
+        create: 創建地理區域
+        edit: 編輯
+        delete: 刪除
+      geozone:
+        name: 名稱
+        external_code: 外部代碼
+        census_code: 人口普查代碼
+        coordinates: 座標
+      errors:
+        form:
+          error:
+            other: '有錯誤阻止此地理區域被儲存'
+      edit:
+        form:
+          submit_button: 儲存更改
+        editing: 編輯地理區域
+    stats:
+      direct_messages:
+        users_who_have_sent_message: 已發送私人消息的用戶
     homepage:
       feeds:
         processes: 進程
