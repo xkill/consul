@@ -1141,8 +1141,40 @@ zh-TW:
       show:
         summary:
           comments: 評論
+          debate_votes: 辯論票數
+          debates: 辯論
+          proposal_votes: 建議票數
+          proposals: 建議
+          budgets: 開放式預算
+          budget_investments: 投資項目
+          spending_proposals: 開支建議
+          unverified_users: 未經核實的用戶
+          user_level_three: 三級用戶
+          user_level_two: 二級用戶
+          users: 用戶總數
+          verified_users: 已核實的用戶
+          verified_users_who_didnt_vote_proposals: 已核實的用戶，但沒有為建議投票
+          visits: 訪問
+          votes: 投票總數
+        spending_proposals_title: 開支建議
+        budgets_title: 參與性預算編制
+        visits_title: 訪問
+        direct_messages: 直接消息
+        proposal_notifications: 建議通知
+        incomplete_verifications: 不完全核實
+        polls: 民意調查
       direct_messages:
+        title: 直接消息
+        total: 總
         users_who_have_sent_message: 已發送私人消息的用戶
+      proposal_notifications:
+        title: 建議通知
+        total: 總
+        proposals_with_notifications: 有發通知的建議
+      polls:
+        title: 民意調查統計
+        all: 民意調查
+        web_participants: 網絡參與者
     homepage:
       feeds:
         processes: 進程
