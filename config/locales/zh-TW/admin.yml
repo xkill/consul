@@ -1057,8 +1057,25 @@ zh-TW:
       description: 描述
       image: 圖像
       show_image: 顯示圖像
+      moderated_content: "檢查審核員已審核過的內容，並確認審核是否已正確完成。"
+      view: 檢視
+      proposal: 建議
+      author: 作者
+      content: 內容
+      created_at: 創建於
     spending_proposals:
       index:
+        geozone_filter_all: 所有區域
+        administrator_filter_all: 所有管理員
+        valuator_filter_all: 所有評估員
+        tags_filter_all: 所有標籤
+        filters:
+          valuation_open: 開
+          without_admin: 沒有指定的管理員
+          managed: 已管理
+          valuating: 在評估中
+          valuation_finished: 評估已完成
+          all: 所有
         title: 參與性預算的投資項目
         assigned_admin: 已分配管理員
         no_admin_assigned: 未分配管理員
@@ -1121,6 +1138,9 @@ zh-TW:
           submit_button: 儲存更改
         editing: 編輯地理區域
     stats:
+      show:
+        summary:
+          comments: 評論
       direct_messages:
         users_who_have_sent_message: 已發送私人消息的用戶
     homepage:
