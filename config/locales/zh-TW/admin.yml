@@ -985,6 +985,18 @@ zh-TW:
         rejected: 已拒绝
         search: 搜尋
         search_placeholder: 姓名、電郵或電話號碼
+        title: 組織
+        verified: 已核實
+        verify: 核實
+        pending: 有待
+      search:
+        title: 搜尋組織
+        no_results: 未找到任何組織。
+    proposals:
+      index:
+        filter: 篩選器
+        filters:
+          all: 所有
     settings:
       index:
         update_setting: 更新
