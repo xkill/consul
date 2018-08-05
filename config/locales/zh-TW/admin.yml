@@ -823,6 +823,10 @@ zh-TW:
       new:
         title: "新民意調查"
         show_results_and_stats: "顯示結果和統計資訊"
+        show_results: "顯示結果"
+        show_stats: "顯示統計資訊"
+        results_and_stats_reminder: "標記這些複選框可以公開獲得此民意調查的結果和/或統計資訊，每個用戶都會看到它們。"
+        submit_button: "創建民意調查"
       show:
         results_tab: 結果
         questions_title: "問題清單"
@@ -875,6 +879,30 @@ zh-TW:
           video_url: 外部視頻
         new:
           title: 新視頻
+    booths:
+      index:
+        title: "活躍投票亭清單"
+        no_booths: "任何即將進行的民意調查都沒有活躍投票亭。"
+        add_booth: "添加投票亭"
+        name: "名稱"
+        location: "位置"
+        no_location: "無位置"
+      new:
+        title: "新投票亭"
+        name: "名稱"
+        location: "位置"
+        submit_button: "創建投票亭"
+      edit:
+        title: "編輯投票亭"
+        submit_button: "更新投票亭"
+      show:
+        location: "位置"
+      booth:
+        shifts: "管理轉變"
+        edit: "編輯投票亭"
+    officials:
+      edit:
+        destroy: 刪除 "官方" 狀態
     homepage:
       feeds:
         processes: 進程
