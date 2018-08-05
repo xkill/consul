@@ -827,8 +827,16 @@ zh-TW:
         show_stats: "顯示統計資訊"
         results_and_stats_reminder: "標記這些複選框可以公開獲得此民意調查的結果和/或統計資訊，每個用戶都會看到它們。"
         submit_button: "創建民意調查"
+      edit:
+        title: "編輯民意調查"
+        submit_button: "更新民意調查"
       show:
+        questions_tab: 問題
+        booths_tab: 投票亭
+        officers_tab: 官員
+        recounts_tab: 重新計票
         results_tab: 結果
+        no_questions: "沒有分配給此民意調查的問題。"
         questions_title: "問題清單"
         table_title: "標題"
     questions:
@@ -937,6 +945,9 @@ zh-TW:
         button: 搜尋
         placeholder: 按名稱搜尋投票亭
       poll_officers_search:
+        button: 搜尋
+        placeholder: 搜尋民意調查員
+      poll_questions_search:
         button: 搜尋
     homepage:
       feeds:
