@@ -1263,9 +1263,11 @@ zh-TW:
           create: 新建新頁面
           delete: 刪除頁面
           title: 自訂頁
+          see_page: 見頁面
         new:
           title: 創建新的自訂頁
         page:
+          created_at: 創建於
           status_draft: 草稿
           status_published: 發表
           locale: 語言
