@@ -919,6 +919,25 @@ zh-TW:
           pending: 有待
           rejected: 已拒绝
           verified: 已核實
+        name: 名字
+        email: 電郵
+        phone_number: 電話
+        responsible_name: 責任
+        status: 狀態
+        no_organizations: 這裡沒有組織。
+        reject: 拒絕
+        rejected: 已拒绝
+        search: 搜尋
+        search_placeholder: 姓名、電郵或電話號碼
+    settings:
+      setting_value: 價值
+      no_description: "沒有描述"
+    shared:
+      booths_search:
+        button: 搜尋
+        placeholder: 按名稱搜尋投票亭
+      poll_officers_search:
+        button: 搜尋
     homepage:
       feeds:
         processes: 進程
