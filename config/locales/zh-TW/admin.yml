@@ -903,6 +903,22 @@ zh-TW:
     officials:
       edit:
         destroy: 刪除 "官方" 狀態
+      index:
+        official_position: 正式職位
+        official_level: 級別
+      level_1: 級別1
+      level_2: 級別2
+      level_3: 級別3
+      level_4: 級別4
+      level_5: 級別5
+    organizations:
+      index:
+        filter: 篩選器
+        filters:
+          all: 所有
+          pending: 有待
+          rejected: 已拒绝
+          verified: 已核實
     homepage:
       feeds:
         processes: 進程
