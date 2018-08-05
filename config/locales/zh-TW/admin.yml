@@ -1175,6 +1175,19 @@ zh-TW:
         title: 民意調查統計
         all: 民意調查
         web_participants: 網絡參與者
+        total_participants: 參與者總數
+        poll_questions: "民意調查中的問題: %{poll}"
+        table:
+          poll_name: 民意調查
+          question_name: 問題
+          origin_total: 參與者總數
+    tags:
+      create: 創建主題
+      destroy: 銷毀主題
+      index:
+        add_tag: 添加新的建議主題
+        title: 建議主題
+        topic: 主題
     homepage:
       feeds:
         processes: 進程
