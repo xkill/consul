@@ -955,7 +955,11 @@ zh-TW:
         destroy: 刪除 "官方" 狀態
       flash:
         official_destroyed: '儲存詳細信息：用戶不再是官員'
+        official_updated: 官員的詳細信息已儲存
       index:
+        title: 官員
+        no_officials: 沒有官員
+        name: 名稱
         official_position: 正式職位
         official_level: 級別
       level_1: 級別1
