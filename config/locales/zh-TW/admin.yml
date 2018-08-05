@@ -677,6 +677,7 @@ zh-TW:
       proposal_notification_digest:
         title: 建議通知摘要
         description: 在單個信息中收集用戶的所有建議通知，以避免過多的電子郵件。
+        preview_detail: 用戶將只收到他們所跟蹤的建議之通知
     emails_download:
       index:
         title: 電郵下載
@@ -700,6 +701,7 @@ zh-TW:
       search:
         title: '評估員：用戶搜索'
       summary:
+        title: 評估員為投資項目作出的總結
         valuator_name: 評估員
         finished_and_feasible_count: 完成和可行
         finished_and_unfeasible_count: 完成和不可行
@@ -747,6 +749,7 @@ zh-TW:
     poll_officer_assignments:
       index:
         officers_title: "官員名單"
+        no_officers: "沒有分配給此項民意調查的官員。"
         table_name: "名字"
         table_email: "電郵"
       by_officer:
@@ -759,6 +762,7 @@ zh-TW:
         shifts: "此投票亭的轉變"
         date: "日期"
         task: "任務"
+        edit_shifts: 編輯轉變
         new_shift: "新轉變"
         no_shifts: "此投票亭沒有轉變"
         officer: "官員"
@@ -777,6 +781,7 @@ zh-TW:
         destroy: "轉變已刪除"
         date_missing: "必須選擇一個日期"
       vote_collection: 收集選票
+      recount_scrutiny: 重新計票和審查
     booth_assignments:
       manage:
         status:
