@@ -67,6 +67,7 @@ val:
           on_debates: Debats
           on_proposals: Propostes
           on_users: Usuaris
+          on_system_emails: Correus electònics del sistema
         title: Activitat dels Moderadors
         type: Tipus
         no_activity: No hi ha activitat dels moderadors.
