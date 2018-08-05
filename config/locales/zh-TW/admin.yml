@@ -997,8 +997,28 @@ zh-TW:
         filter: 篩選器
         filters:
           all: 所有
-    settings:
+          with_confirmed_hide: 已確認
+          without_confirmed_hide: 有待
+        title: 隱藏的建議
+        no_hidden_proposals: 沒有隱藏的建議。
+    proposal_notifications:
       index:
+        filter: 篩選器
+        filters:
+          all: 所有
+          with_confirmed_hide: 已確認
+          without_confirmed_hide: 有待
+        title: 隱藏通知
+        no_hidden_proposals: 沒有隱藏的通知。
+    settings:
+      flash:
+        updated: 價值已更新
+      index:
+        banners: 橫幅樣式
+        banner_imgs: 橫幅圖像
+        no_banners_images: 無橫幅圖像
+        no_banners_styles: 無橫幅樣式
+        title: 配置設置
         update_setting: 更新
         features:
           enable: "啟用"
@@ -1027,6 +1047,26 @@ zh-TW:
         placeholder: 按標題，代碼，描述或問題來搜尋建議
       spending_proposal_search:
         button: 搜尋
+    spending_proposals:
+      index:
+        title: 參與性預算的投資項目
+        assigned_admin: 已分配管理員
+        no_admin_assigned: 未分配管理員
+        no_valuators_assigned: 未分配評估員
+        summary_link: "投資項目摘要"
+        valuator_summary_link: "評估員摘要"
+        feasibility:
+          feasible: "可行 (%{price})"
+          not_feasible: "不可行"
+          undefined: "未定義"
+      show:
+        assigned_admin: 已分配的管理員
+        assigned_valuators: 分配的評估員
+        back: 返回
+        classification: 分類
+        heading: "投資項目 %{id}"
+        edit: 編輯
+        edit_classification: 編輯分類
     homepage:
       feeds:
         processes: 進程
