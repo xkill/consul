@@ -1257,6 +1257,14 @@ zh-TW:
         errors:
           form:
             error: 錯誤
+        form:
+          options: 選項
+        index:
+          create: 新建新頁面
+          delete: 刪除頁面
+          title: 自訂頁
+        new:
+          title: 創建新的自訂頁
         page:
           status_draft: 草稿
           status_published: 發表
