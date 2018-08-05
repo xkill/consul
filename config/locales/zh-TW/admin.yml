@@ -619,6 +619,7 @@ zh-TW:
         empty_newsletters: 沒有可顯示的通知
       new:
         title: 新通訊
+        from: 將顯示為發送通訊的電子郵件地址
       edit:
         title: 編輯通訊
       show:
@@ -628,8 +629,14 @@ zh-TW:
         sent_at: 發送於
         subject: 主題
         segment_recipient: 收件者
+        from: 將顯示為發送通訊的電子郵件地址
         body: 電郵內容
+        send_alert: 您確實要將此通訊發送到 %{n} 用戶嗎？
     admin_notifications:
+      create_success: 通知已成功創建
+      update_success: 通知已成功更新
+      send_success: 通知已成功發送
+      delete_success: 通知已成功刪除
       index:
         section_title: 通知
         new_notification: 新通知
@@ -664,7 +671,12 @@ zh-TW:
       preview_pending:
         action: 預覽待定
         preview_of: 預覽 %{name}
+        pending_to_be_sent: 這是待發送的內容
+        moderate_pending: 審核通知已發送
         send_pending: 有待發送
+      proposal_notification_digest:
+        title: 建議通知摘要
+        description: 在單個信息中收集用戶的所有建議通知，以避免過多的電子郵件。
     emails_download:
       index:
         title: 電郵下載
