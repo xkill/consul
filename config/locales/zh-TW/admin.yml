@@ -1188,6 +1188,26 @@ zh-TW:
         add_tag: 添加新的建議主題
         title: 建議主題
         topic: 主題
+        help: "當用戶創建建議時，將以下列主題用作默認標籤。"
+      name:
+        placeholder: 鍵入主題的名稱
+    users:
+      columns:
+        name: 名稱
+        email: 電郵
+        document_number: 文檔編號
+        roles: 角色
+        verification_level: 核實級別
+      index:
+        title: 用戶
+    site_customization:
+      pages:
+        page:
+          status_draft: 草稿
+          status_published: 發表
+          locale: 語言
     homepage:
+      title: 主頁
+      header_title: 標題
       feeds:
         processes: 進程
