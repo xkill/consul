@@ -103,6 +103,7 @@ nl:
         unverified_user: Gebruiker is niet geverifieerd
       create: Nieuw begrotingsvoorstel maken
       filters:
+        heading: Concept
         unfeasible: Onhaalbare investering
       print:
         print_button: Afdrukken
