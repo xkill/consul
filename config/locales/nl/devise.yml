@@ -37,6 +37,7 @@ nl:
       updated: "Je wachtwoord is succesvol gewijzigd."
       updated_not_active: "Je wachtwoord is succesvol gewijzigd."
     registrations:
+      destroyed: "Tot ziens! Uw account is geannuleerd. Wij hopen u snel weer te zien."
       signed_up: "U bent inschreven."
       signed_up_but_inactive: "Je registratie is succesvol verlopen, maar je kunt nog niet inloggen totdat je jouw account hebt geactiveerd."
       signed_up_but_locked: "Je registratie is succesvol verlopen, maar je kunt niet inloggen omdat je account is geblokkeerd."
