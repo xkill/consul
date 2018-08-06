@@ -121,3 +121,11 @@ zh-TW:
         author: 作者
         project_unfeasible_html: '此投資項目 <strong>已被標記為不可行</strong>，不會進入投票階段。'
         project_selected_html: '此投資項目 <strong>已被選定入投票階段</strong>。'
+        project_winner: '勝出的投資色項目'
+        project_not_selected_html: '此投資項目 <strong>未被選入</strong>投票階段。'
+      wrong_price_format: 只供整數
+      investment:
+        add: 票
+        already_added: 您已經添加了此投資項目
+        already_supported: 您已經支持此投資項目。把它分享吧!
+        support_title: 支持此項目
