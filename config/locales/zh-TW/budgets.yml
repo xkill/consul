@@ -16,3 +16,10 @@ zh-TW:
         not_selected: 未選定的投資項目是無法支援
         not_enough_money_html: "您已經分配了可用的預算。<br><small>記住，您可以隨時 %{change_ballot} </small>"
         no_ballots_allowed: 選擇階段已結束
+        different_heading_assigned_html: "您已投票給另一個標題： %{heading_link}"
+        change_ballot: 更改您的投票
+    groups:
+      show:
+        title: 選擇一個選項
+        unfeasible_title: 不可行的投資
+        unfeasible: 查看不可行的投資
