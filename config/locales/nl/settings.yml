@@ -1,6 +1,7 @@
 nl:
   settings:
     comments_body_max_length: "Maximale lengte van reacties"
+    comments_body_max_length_description: "Aantal tekens"
     official_level_1_name: "Level 1 overheidsambtenaar"
     official_level_2_name: "Level 2 overheidsambtenaar"
     official_level_3_name: "Level 3 overheidsambtenaar"
