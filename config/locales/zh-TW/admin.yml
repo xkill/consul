@@ -1356,4 +1356,16 @@ zh-TW:
         title: 標題
         description: 描述
       feeds:
+        proposals: 建議
+        debates: 辯論
         processes: 進程
+      new:
+        header_title: 新頁首
+        submit_header: 創建頁首
+        card_title: 新卡
+        submit_card: 創建卡
+      edit:
+        header_title: 編輯頁首
+        submit_header: 儲存頁首
+        card_title: 編輯卡
+        submit_card: 儲存卡
