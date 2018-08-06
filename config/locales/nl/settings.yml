@@ -15,6 +15,7 @@ nl:
     max_ratio_anon_votes_on_debates: "Maximum aantal van anonieme stemmen per discussie"
     max_ratio_anon_votes_on_debates_description: "Anonieme stemmen zijn geregistreerde gebruikers met een niet-geverifieerde account"
     max_votes_for_proposal_edit: " Het aantal stemmen waarna een voorstel niet meer aangepast kan worden"
+    max_votes_for_proposal_edit_description: "Vanaf dit aantal ondersteuningen kan de auteur van een voorstel dat niet meer bewerken"
     max_votes_for_debate_edit: "Het aantal stemmen waarna een discussie niet meer aangepast mag worden"
     proposal_code_prefix: "Kengetal voor voorstel codes"
     votes_for_proposal_success: "Het aantal stemmen benodigd voor goedkeuring van het voorstel"
