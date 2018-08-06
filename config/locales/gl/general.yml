@@ -40,7 +40,7 @@ gl:
     menu: Menú
   comments:
     comments_closed: Os comentarios están pechados
-    verified_only: Para participar, %{verify_account}
+    verified_only: Para participares, %{verify_account}
     verify_account: verifica a túa conta
     comment:
       admin: Administración
@@ -759,17 +759,17 @@ gl:
     signup: rexistrarse
     supports: Apoios
     unauthenticated: Precisas %{signin} ou %{signup} para continuares.
-    verified_only: As propostas só poden ser votadas por usuarios verificados, %{verify_account}.
+    verified_only: As propostas só poden ser votadas por usuarios con contas verificadas, %{verify_account}.
     verify_account: verifica a túa conta
     spending_proposals:
       not_logged_in: Precisas %{signin} ou %{signup} para continuares.
-      not_verified: Só os usuarios verificados poden votar as propostas, %{verify_account}.
+      not_verified: As propostas só poden ser votadas por usuarios con contas verificadas, %{verify_account}.
       organization: As organizacións non poden votar
       unfeasible: Non se poden votar proxectos de investimento inviables
       not_voting_allowed: O período de votación está cerrado.
     budget_investments:
       not_logged_in: Precisas %{signin} ou %{signup} para continuares.
-      not_verified: As persoas usuarias verificadas só poden votar os proxectos de investimento, polo que %{verify_account}.
+      not_verified: Os proxectos de investimento só poden ser votados por usuarios con contas verificadas, polo que %{verify_account}.
       organization: As organizacións non poden votar
       unfeasible: Non se poden votar proxectos de investimento inviables
       not_voting_allowed: O período de votación está pechado
