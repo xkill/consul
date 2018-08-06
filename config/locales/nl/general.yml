@@ -322,6 +322,7 @@ nl:
       geozone: Regio
       proposal_external_url: Link naar meer informatie
       proposal_question: Vraag
+      proposal_question_example_html: "Moeten worden samengevat in één vraag met een Ja of nee als antwoord"
       proposal_responsible_name: Volledige naam van persoon die het voorstel doet
       proposal_responsible_name_note: "(individueel of als vertegenwoordiger van een collectief; niet publiek zichtbaar)"
       proposal_summary: Samenvatting voorstel
@@ -423,6 +424,7 @@ nl:
       supports_necessary: "%{number} steunbetuigingen nodig"
       total_percent: 100%
       archived: "Dit voorstel is gearchiveerd en kan niet worden gesteund."
+      successful: "Dit voorstel heeft de vereiste ondersteuning bereikt."
     show:
       author_deleted: Deelnemer verwijderd
       code: 'Voorstel code:'
@@ -472,6 +474,7 @@ nl:
         help: Hulp bij stemmen
       section_footer:
         title: Hulp bij stemmen
+        description: Burger opiniepeilingen zijn een participatieve mechanisme waarmee burgers met stemrecht direct beslissingen kunnen nemen
       no_polls: "Er zijn geen openstaande stemmingen."
     show:
       already_voted_in_booth: "Je hebt al gestemd in een stemhokje. Je kunt niet meer deelnemen."
