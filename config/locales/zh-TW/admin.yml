@@ -601,6 +601,9 @@ zh-TW:
       proposal_authors: 建議作者
       investment_authors: 當前預算中的投資作者
       feasible_and_undecided_investment_authors: "在當前預算中的部分投資作者不符合規定： [評估已完成且不可行]"
+      selected_investment_authors: 當前預算中的選定投資之作者
+      winner_investment_authors: 當前預算中的勝出投資之作者
+      not_supported_on_current_budget: 未支持當前預算中投資之用戶
       invalid_recipients_segment: "收件者用戶段無效"
     newsletters:
       create_success: 通訊已成功創建
@@ -966,11 +969,15 @@ zh-TW:
         name: 名稱
         official_position: 正式職位
         official_level: 級別
+      level_0: 不是官員
       level_1: 級別1
       level_2: 級別2
       level_3: 級別3
       level_4: 級別4
       level_5: 級別5
+      search:
+        edit_official: 編輯官員
+        make_official: 成為官員
     organizations:
       index:
         filter: 篩選器
