@@ -763,7 +763,7 @@ zh-TW:
         date: "日期"
         booth: "投票亭"
         assignments: "這項民意調查的主要轉變"
-        no_assignments: "此用戶在這項民意調查中沒有主要變化"
+        no_assignments: "此用戶在這項民意調查中沒有主要轉變"
     poll_shifts:
       new:
         add_shift: "添加轉變"
@@ -993,6 +993,8 @@ zh-TW:
           pending: 有待
           rejected: 已拒绝
           verified: 已核實
+        hidden_count_html:
+          other: 有 <strong>%{count} 個組織</strong>沒有用戶，或有一名隱藏用戶。
         name: 名字
         email: 電郵
         phone_number: 電話
@@ -1120,6 +1122,7 @@ zh-TW:
         heading: "投資項目 %{id}"
         edit: 編輯
         edit_classification: 編輯分類
+        association_name: 協會
         by: 由
         sent: 發送
         geozone: 範圍
@@ -1267,9 +1270,39 @@ zh-TW:
       index:
         phone_not_given: 未提供電話
         sms_code_not_confirmed: 未確認 sms 代碼
+        title: 不完全核實
     site_customization:
+      content_blocks:
+        information: 有關內容塊的資訊
+        about: 您可以創建HTML 內容塊，為要插入到CONSUL頁首或頁尾中 。
+        top_links_html: "<strong>頁首塊 (top_links)</strong> 是必須具有此格式的連結塊："
+        footer_html: "<strong>頁尾塊</strong> 可以有任何格式，並可以用於插入 JAVAscript、CSS 或自訂 HTML。"
+        no_blocks: "沒有內容塊。"
+        create:
+          notice: 內容塊已成功創建
+          error: 內容塊無法創建
+        update:
+          notice: 內容塊已成功更新
+          error: 內容塊無法更新
+        destroy:
+          notice: 內容塊已成功刪除
+        edit:
+          title: 編輯內容塊
+        errors:
+          form:
+            error: 錯誤
+        index:
+          create: 創建新內容塊
+          delete: 刪除塊
+          title: 內容塊
+        new:
+          title: 創建新內容塊
+        content_block:
+          body: 內容
+          name: 名稱
       images:
         index:
+          title: 自訂圖像
           update: 更新
           delete: 刪除
           image: 圖像
@@ -1304,12 +1337,18 @@ zh-TW:
           title: 創建新的自訂頁
         page:
           created_at: 創建於
+          status: 狀態
+          title: 標題
+          updated_at: 更新於
           status_draft: 草稿
           status_published: 發表
           locale: 語言
     homepage:
       title: 主頁
+      description: 活動模組以相同的順序在主頁中顯示。
       header_title: 標題
+      no_header: 沒有頁首。
+      create_header: 創建頁首
       cards_title: 卡
       create_card: 創建卡
       no_cards: 沒有卡。
