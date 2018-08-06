@@ -1046,8 +1046,12 @@ zh-TW:
           disable: "禁用"
         map:
           title: 映射配置
+          help: 您可以在這裡自定義為用戶顯示地圖的方式。 拖動地圖標記或單擊地圖上的任意位置，設置所需的縮放並單擊“更新”按鈕。
+          flash:
+            update: 已成功更新地圖配置。
           form:
             submit: 更新
+      setting: 功能
       setting_actions: 操作
       setting_name: 設置
       setting_status: 狀態
@@ -1068,6 +1072,7 @@ zh-TW:
         placeholder: 按標題，代碼，描述或問題來搜尋建議
       spending_proposal_search:
         button: 搜尋
+        placeholder: 按標題或描述搜尋開支建議
       user_search:
         button: 搜尋
         placeholder: 按名稱或電郵搜索用戶
@@ -1187,6 +1192,7 @@ zh-TW:
         unverified:
           other: "有 %{count} 個無效簽名"
         unverified_error: (未通過人口普查核實)
+        loading: "仍然有簽名正在被人口普查核實中，請稍後刷新頁面"
     stats:
       show:
         stats_title: 統計
@@ -1232,6 +1238,7 @@ zh-TW:
         table:
           poll_name: 民意調查
           question_name: 問題
+          origin_web: 網絡參與者
           origin_total: 參與者總數
     tags:
       create: 創建主題
@@ -1252,6 +1259,14 @@ zh-TW:
         verification_level: 核實級別
       index:
         title: 用戶
+        no_users: 沒有用戶。
+      search:
+        placeholder: 按電郵、姓名或文檔編號搜尋用戶
+        search: 搜尋
+    verifications:
+      index:
+        phone_not_given: 未提供電話
+        sms_code_not_confirmed: 未確認 sms 代碼
     site_customization:
       images:
         index:
