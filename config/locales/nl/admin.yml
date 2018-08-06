@@ -416,6 +416,7 @@ nl:
         form:
           custom_categories: Categorieën
           custom_categories_description: Categorieën die deelnemers kunnen selecteren bij het maken van het voorstel.
+          custom_categories_placeholder: Voer de tags die u wilt gebruiken in, gescheiden door komma's (,) en tussen aanhalingstekens ("")
       draft_versions:
         create:
           notice: 'Concept is aangemaakt. <a href="%{link}">Klik om te zien</a>'
@@ -663,6 +664,7 @@ nl:
         section_title: Bericht bewerken
       show:
         section_title: Voorbeeld van de kennisgeving
+        send: Stuur notificatie
         will_get_notified: (de%{n} gebruikers zullen worden aangemeld)
         got_notified: (%{n} gebruikers ontving kennisgeving)
         sent_at: Verzonden naar
@@ -1054,6 +1056,12 @@ nl:
             update: Instellingen opgeslagen.
           form:
             submit: Pas aan
+      setting: Functie
+      setting_actions: Acties
+      setting_name: Instelling
+      setting_status: Status
+      setting_value: Waarde
+      no_description: "Geen beschrijving"
     shared:
       booths_search:
         button: Zoek
