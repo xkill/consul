@@ -143,7 +143,7 @@ gl:
       info_link: crear nova proposta
       more_info: Máis información
       recommendation_four: Goza deste espazo, das voces que o enchen, tamén é teu.
-      recommendation_one: Non escribas o título do debate ou frases enteiras en maiúsculas. En internet iso considérase berrar. E a ninguén lle gusta que lle berren.
+      recommendation_one: Non escribas o título do debate ou frases enteiras en maiúsculas. En Internet iso considérase berrar. E a ninguén lle gusta que lle berren.
       recommendation_three: As críticas desapiadadas son moi benvidas. Este é un espazo de pensamento. Pero recomendámosche conservar a elegancia e a intelixencia. O mundo é mellor con elas presentes.
       recommendation_two: Calquera debate ou comentario que implique unha acción ilegal será eliminado, tamén os que teñan a intención de sabotar os espazos de debate, todo o demais está permitido.
       recommendations_title: Recomendacións para crear un debate
@@ -327,10 +327,10 @@ gl:
       proposal_responsible_name_note: "(individualmente ou como representante dun colectivo; non se mostrará publicamente)"
       proposal_summary: Resumo da proposta
       proposal_summary_note: "(máximo 200 caracteres)"
-      proposal_text: Texto desenvolvido da proposta
+      proposal_text: Descrición ampliada da proposta
       proposal_title: Título da proposta
-      proposal_video_url: Enlace a vídeo externo
-      proposal_video_url_note: Podes engadir un enlace a YouTube ou Vimeo
+      proposal_video_url: Ligazón a vídeo externo
+      proposal_video_url_note: Podes engadir unha ligazón a YouTube ou Vimeo
       tag_category_label: "Categorías"
       tags_instructions: "Etiqueta esta proposta. Podes elixir entre as categorías propostas ou escribir as que desexares"
       tags_label: Etiquetas
@@ -392,7 +392,7 @@ gl:
       form:
         submit_button: Crear proposta
       more_info: Como funcionan as propostas cidadás?
-      recommendation_one: Non escribas o título da proposta ou frases enteiras en maiúsculas. En internet iso considérase berrar. E a ninguén lle gusta que lle berren.
+      recommendation_one: Non escribas o título da proposta ou frases enteiras en maiúsculas. En Internet iso considérase berrar. E a ninguén lle gusta que lle berren.
       recommendation_three: Goza deste espazo, das voces que o enchen. Tamén é teu.
       recommendation_two: Calquera proposta ou comentario que implique unha acción ilegal será eliminada, tamén as que teñan a intención de sabotar os espazos de proposta, todo o demais está permitido.
       recommendations_title: Recomendacións para crear unha proposta
@@ -663,7 +663,7 @@ gl:
       start_spending_proposal: Crea unha proposta de investimento
     new:
       more_info: Como funcionan os orzamentos participativos?
-      recommendation_one: É fundamental que haxa referencia a unha actuación orzamentable.
+      recommendation_one: É obrigatorio que a proposta faga referencia a unha actuación orzamentable.
       recommendation_three: Intenta detallar o máximo posible a proposta para que o equipo de goberno encargado de estudala teña as menos dúbidas posibles.
       recommendation_two: Calquera proposta ou comentario que implique accións ilegais será eliminada.
       recommendations_title: Cómo crear unha proposta de gasto
