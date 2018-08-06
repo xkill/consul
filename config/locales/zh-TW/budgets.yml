@@ -85,7 +85,7 @@ zh-TW:
           voted_info: 直到這個階段結束前，你可以隨時%{link} 。不需要用盡所有可用的錢。
           voted_info_link: 更改您的投票
           different_heading_assigned_html: "您在另一個標題中有積極的投票： %{heading_link}"
-          change_ballot: "如果您改變了主意, 您可以在 %{check_ballot} 中刪除您的選票，然後重新開始。"
+          change_ballot: "如果您改變了主意, 您可以在 %{check_ballot} 中刪除您的投票，然後重新開始。"
           check_ballot_link: "查看我的選票"
           zero: 你沒有在這個小組中投票給任何投資項目。
           verified_only: "創建新的預算投資 %{verify}。"
@@ -129,3 +129,37 @@ zh-TW:
         already_added: 您已經添加了此投資項目
         already_supported: 您已經支持此投資項目。把它分享吧!
         support_title: 支持此項目
+        confirm_group:
+          other: "您只能支持 %{count} 個區域中的投資。若你要繼續，你就不能改變你所在地區的選舉。是否確定？"
+        supports:
+          zero: 沒有支持
+          other: "%{count} 個支持"
+        give_support: 支持
+      header:
+        check_ballot: 查看我的選票
+        different_heading_assigned_html: "您在另一個標題中有積極的投票： %{heading_link}"
+        change_ballot: "如果您改變了主意, 您可以在 %{check_ballot} 中刪除您的投票，然後重新開始。"
+        check_ballot_link: "查看我的選票"
+        price: "此標題有一個預算"
+    progress_bar:
+      assigned: "您已分配： "
+      available: "可用預算： "
+    show:
+      group: 組
+      phase: 實際階段
+      unfeasible_title: 不可行的投資
+      unfeasible: 查看不可行的投資
+      unselected_title: 未被選入投票階段的投資
+      unselected: 查看未被選入投票階段的投資
+      see_results: 查看結果
+    results:
+      link: 結果
+      page_title: "%{budget} - 結果"
+      heading: "參與性預算結果"
+      heading_selection_title: "按地區"
+      spending_proposal: 建議標題
+      ballot_lines_count: 被選的次數
+      hide_discarded_link: 隱藏廢棄的
+      show_all_link: 顯示所有
+      price: 價格
+      amount_available: 可用預算
