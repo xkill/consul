@@ -14,7 +14,7 @@ gl:
       public_activity_label: Mostrar publicamente a miña lista de actividades
       public_interests_label: Mostrar publicamente as etiquetas dos elementos que sigo
       public_interests_my_title_list: Etiquetas dos elementos que seuges
-      public_interests_user_title_list: Etiquetas dos elementos que segue este/a usuario/a
+      public_interests_user_title_list: Etiquetas dos elementos que segue este usuario
       save_changes_submit: Gardar cambios
       subscription_to_website_newsletter_label: Recibir mensaxes de correo con información interesante sobre a web
       email_on_direct_message_label: Recibir correos con mensaxes privadas
@@ -32,7 +32,7 @@ gl:
       user_permission_verify: Para poder realizar todas as accións verifica a túa conta.
       user_permission_verify_info: "* Só para persoas empadroadas."
       user_permission_votes: Participar nas votacións finais*
-      username_label: Nome de usuario/a
+      username_label: Nome de usuario
       verified_account: Conta verificada
       verify_my_account: Verificar a miña conta
   application:
@@ -51,7 +51,7 @@ gl:
         zero: Sen respostas
         one: 1 resposta
         other: "%{count} respostas"
-      user_deleted: Usuario/a borrado/a
+      user_deleted: Usuario eliminado
       votes:
         zero: Ningún voto
         one: 1 voto
@@ -105,7 +105,7 @@ gl:
         other: " co tema '%{topic}'"
       orders:
         confidence_score: máis apoiados
-        created_at: Novos
+        created_at: novos
         hot_score: máis activos
         most_commented: Máis comentados
         relevance: Máis relevantes
@@ -149,7 +149,7 @@ gl:
       recommendations_title: Recomendacións para crear un debate
       start_new: Comezar un debate
     show:
-      author_deleted: Usuario/a borrado/a
+      author_deleted: Usuario eliminado
       comments:
         zero: Sen comentarios
         one: 1 comentario
@@ -165,7 +165,7 @@ gl:
         submit_button: Gardar cambios
   errors:
     messages:
-      user_not_found: Non se atopou o/a usuario/a
+      user_not_found: Non se atopou o usuario
       invalid_date_range: "O rango de datas non é correcto"
   form:
     accept_terms: Acepto a %{policy} e as %{conditions}
@@ -555,7 +555,7 @@ gl:
       title: 'Busca avanzada'
       to: 'Ata'
     author_info:
-      author_deleted: Usuario/a borrado/a
+      author_deleted: Usuario eliminado
     back: Volver
     check: Seleccionar
     check_all: Todo
@@ -692,8 +692,8 @@ gl:
       debate_votes: Votos en debates
       comment_votes: Votos en comentarios
       votes: Votos
-      verified_users: Usuarios verificados
-      unverified_users: Usuarios sen verificar
+      verified_users: Usuarios con contas verificadas
+      unverified_users: Usuarios con contas sen verificar
   unauthorized:
     default: Non tes permiso para acceder a esta páxina.
     manage:
