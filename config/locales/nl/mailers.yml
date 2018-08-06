@@ -11,6 +11,7 @@ nl:
     email_verification:
       click_here_to_verify: Deze link
       instructions_2_html: Deze e-mail verifieert uw account met <b>%{document_type} %{document_number}</ b>. Als deze niet van u zijn, klik dan niet op de vorige link en negeer deze e-mail.
+      instructions_html: Om de verificatie van uw account te voltooien klikt u %{verification_link}.
       subject: Bevestig uw email
       thanks: Heel erg bedankt.
       title: Bevestig uw account door de volgende link te gebruiken
@@ -43,6 +44,7 @@ nl:
       title_html: "Je hebt een nieuw privébericht gestuurd naar <strong>%{receiver}</strong> met de inhoud:"
     user_invite:
       ignore: "Als u deze uitnodiging niet hebt geaccepteerd maak je geen zorgen, u kunt deze e-mail dan negeren."
+      text: "Dank u voor uw interesse om toe te treden tot %{org}! In een paar seconden kunt u deelnemen, vul het onderstaande formulier in:"
       thanks: "Heel erg bedankt."
       title: "Welkom bij %{org}"
       button: Inschrijving voltooien
