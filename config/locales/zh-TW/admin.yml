@@ -69,7 +69,7 @@ zh-TW:
           on_system_emails: 系統電子郵件
         title: 審核員活動
         type: 類型
-        no_activity: 審核員活動
+        no_activity: 沒有審核員活動。
     budgets:
       index:
         title: 參與性預算
@@ -616,7 +616,7 @@ zh-TW:
         edit: 編輯
         delete: 刪除
         preview: 預覽
-        empty_newsletters: 沒有可顯示的通知
+        empty_newsletters: 沒有可顯示的通訊
       new:
         title: 新通訊
         from: 將顯示為發送通訊的電子郵件地址
@@ -625,7 +625,7 @@ zh-TW:
       show:
         title: 通訊預覽
         send: 發送
-        affected_users: (%{n} 受影響的用戶)
+        affected_users: (%{n} 個受影響的用戶)
         sent_at: 發送於
         subject: 主題
         segment_recipient: 收件者
@@ -657,7 +657,7 @@ zh-TW:
       show:
         section_title: 通知預覽
         send: 發送通知
-        will_get_notified: (%{n} 用戶將被通知)
+        will_get_notified: (%{n} 個用戶將被通知)
         got_notified: (%{n} 用戶已被通知)
         sent_at: 發送於
         title: 標題
@@ -666,7 +666,7 @@ zh-TW:
         segment_recipient: 收件者
         preview_guide: "這是用戶將看到通知的方式："
         sent_guide: "這是用戶查看通知的方式："
-        send_alert: 您確實要將此通知發送到 %{n} 用戶嗎？
+        send_alert: 您確實要將此通知發送到 %{n} 個用戶嗎？
     system_emails:
       preview_pending:
         action: 預覽待定
@@ -790,7 +790,7 @@ zh-TW:
           unassigned: 未分配
         actions:
           assign: 分配投票亭
-          unassign: 未分配投票亭
+          unassign: 取消分配投票亭
     poll_booth_assignments:
       alert:
         shifts: "此投票亭有相關的轉變。如果您刪除投票亭分配, 這些轉變也將被刪除。您要繼續嗎？"
@@ -1170,7 +1170,7 @@ zh-TW:
       show:
         stats_title: 統計
         summary:
-          comment_votes: 評論票
+          comment_votes: 評論票數
           comments: 評論
           debate_votes: 辯論票數
           debates: 辯論
