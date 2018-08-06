@@ -762,6 +762,8 @@ zh-TW:
       by_officer:
         date: "日期"
         booth: "投票亭"
+        assignments: "這項民意調查的主要轉變"
+        no_assignments: "此用戶在這項民意調查中沒有主要變化"
     poll_shifts:
       new:
         add_shift: "添加轉變"
@@ -790,7 +792,9 @@ zh-TW:
       vote_collection: 收集選票
       recount_scrutiny: 重新計票和審查
     booth_assignments:
+      manage_assignments: 管理分配
       manage:
+        assignments_list: "民意調查 \"%{poll}\" 的分配"
         status:
           assign_status: 分配
           assigned: 已分配
@@ -960,6 +964,7 @@ zh-TW:
     officials:
       edit:
         destroy: 刪除 "官方" 狀態
+        title: '官員: 編輯用戶'
       flash:
         official_destroyed: '儲存詳細信息：用戶不再是官員'
         official_updated: 官員的詳細信息已儲存
@@ -978,6 +983,8 @@ zh-TW:
       search:
         edit_official: 編輯官員
         make_official: 成為官員
+        title: '官員職位: 用戶搜尋'
+        no_results: 找不到官員職位。
     organizations:
       index:
         filter: 篩選器
@@ -1031,6 +1038,7 @@ zh-TW:
         no_banners_styles: 無橫幅樣式
         title: 配置設置
         update_setting: 更新
+        feature_flags: 特色
         features:
           enable: "啟用"
           disable: "禁用"
