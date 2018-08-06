@@ -1355,6 +1355,8 @@ zh-TW:
       cards:
         title: 標題
         description: 描述
+        link_text: 鏈接文本
+        link_url: 鏈接 URL
       feeds:
         proposals: 建議
         debates: 辯論
