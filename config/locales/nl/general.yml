@@ -387,6 +387,7 @@ nl:
         help: Hulp over voorstellen
       section_footer:
         title: Hulp over voorstellen
+        description: Voorstellen van de burgers zijn een kans voor buren en collectieven om direct te beslissen hoe ze hun stad willen, na het ontvangen van voldoende steun en het voorleggen aan een burger stemming.
     new:
       form:
         submit_button: Doe voorstel
