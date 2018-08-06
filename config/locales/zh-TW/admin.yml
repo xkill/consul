@@ -1038,8 +1038,10 @@ zh-TW:
         no_banners_styles: 無橫幅樣式
         title: 配置設置
         update_setting: 更新
-        feature_flags: 特色
+        feature_flags: 功能
         features:
+          enabled: "功能已啟用"
+          disabled: "功能已禁用"
           enable: "啟用"
           disable: "禁用"
         map:
