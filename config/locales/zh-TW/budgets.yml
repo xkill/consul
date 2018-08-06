@@ -120,7 +120,7 @@ zh-TW:
         milestone_status_changed: 投資狀態改為
         author: 作者
         project_unfeasible_html: '此投資項目 <strong>已被標記為不可行</strong>，不會進入投票階段。'
-        project_selected_html: '此投資項目 <strong>已被選定入投票階段</strong>。'
+        project_selected_html: '此投資項目 <strong>已被選入</strong>投票階段。'
         project_winner: '勝出的投資色項目'
         project_not_selected_html: '此投資項目 <strong>未被選入</strong>投票階段。'
       wrong_price_format: 只供整數
@@ -163,3 +163,14 @@ zh-TW:
       show_all_link: 顯示所有
       price: 價格
       amount_available: 可用預算
+      accepted: "通過的開支建議： "
+      discarded: "廢棄的開支建議： "
+      incompatibles: 不相容
+      investment_proyects: 所有投資項目清單
+      unfeasible_investment_proyects: 所有不可行的投資項目清單
+      not_selected_investment_proyects: 未被選入投票階段的所有投資項目清單
+    phases:
+      errors:
+        dates_range_invalid: "開始日期不能等於或晚於結束日期"
+        prev_phase_dates_invalid: "開始日期必須晚於上一個啟用階段 (%{phase_name}) 的開始日期"
+        next_phase_dates_invalid: "結束日期必須早過下一個啟用階段 (%{phase_name}) 的結束日期"
