@@ -272,7 +272,7 @@ gl:
       mark_as_unread: Marcar como non lida
       notifiable_hidden: Este elemento xa non está dispoñible.
   map:
-    title: "Distritos"
+    title: "Zonas"
     proposal_for_district: "Crea unha proposta para o teu distrito"
     select_district: Ámbito de actuación
     start_proposal: Crea unha proposta
@@ -466,7 +466,7 @@ gl:
       participate_button_incoming: "Máis información"
       participate_button_expired: "Votación rematada"
       no_geozone_restricted: "Toda a cidade"
-      geozone_restricted: "Distritos"
+      geozone_restricted: "Zonas"
       geozone_info: "Poden participar as persoas empadroadas en: "
       already_answer: "Xa participaches nesta votación"
       section_header:
@@ -602,8 +602,8 @@ gl:
         see_all: "Ver todas"
     tags_cloud:
       tags: Tendencias
-      districts: "Distritos"
-      districts_list: "Relación de distritos"
+      districts: "Zonas"
+      districts_list: "Relación de zonas"
       categories: "Categorías"
     target_blank_html: " (ábrese en ventá nova)"
     you_are_in: "Estás en"
@@ -775,7 +775,7 @@ gl:
       not_voting_allowed: O período de votación está pechado
       different_heading_assigned:
         one: "Só pode apoiar proxectos de investimento en %{count} distrito"
-        other: "Só pode apoiar proxectos de investimento en %{count} distritos"
+        other: "Só pode apoiar proxectos de investimento en %{count} zonas"
   welcome:
     feed:
       most_active:
