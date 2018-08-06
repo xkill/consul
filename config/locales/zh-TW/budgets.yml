@@ -72,3 +72,47 @@ zh-TW:
         unfeasible: 不可行的投資項目
         unfeasible_text: "投資必須符合一些標準 (合法性、具體性、是城市的責任, 不超出預算限額)，才能宣佈為可行，並可進入最終投票階段。所有不符合這些標準的投資，均被標記為不可行，並在下面的清單中公佈， 連同其不可行性的報告。"
         by_heading: "具有範圍的投資項目： %{heading}"
+        search_form:
+          button: 搜尋
+          placeholder: 搜尋投資項目...
+          title: 搜尋
+        search_results_html:
+          other: " 包含術語 <strong>'%{search_term}'</strong>"
+        sidebar:
+          my_ballot: 我的選票
+          voted_html:
+            other: "<strong>您已為 %{count} 項建議投票，成本為 %{amount_spent}</strong>"
+          voted_info: 直到這個階段結束前，你可以隨時%{link} 。不需要用盡所有可用的錢。
+          voted_info_link: 更改您的投票
+          different_heading_assigned_html: "您在另一個標題中有積極的投票： %{heading_link}"
+          change_ballot: "如果您改變了主意, 您可以在 %{check_ballot} 中刪除您的選票，然後重新開始。"
+          check_ballot_link: "查看我的選票"
+          zero: 你沒有在這個小組中投票給任何投資項目。
+          verified_only: "創建新的預算投資 %{verify}。"
+          verify_account: "核實您的帳戶"
+          create: "創建預算投資"
+          not_logged_in: "要創建新的預算投資, 您必須 %{sign_in} 或 %{sign_up}。"
+          sign_in: "登錄"
+          sign_up: "登記"
+          by_feasibility: 通過可行性
+          feasible: 可行項目
+          unfeasible: 不可行項目
+        orders:
+          random: 隨機
+          confidence_score: 最高額定值
+          price: 按價格
+      show:
+        author_deleted: 用戶已刪除
+        price_explanation: 價格說明
+        unfeasibility_explanation: 不可行的解釋
+        code_html: '投資項目代碼： <strong>%{code}</strong>'
+        location_html: '位置： <strong>%{location}</strong>'
+        organization_name_html: '代表 <strong>%{name}</strong>提出建議'
+        share: 共用
+        title: 投資項目
+        supports: 支援
+        votes: 票
+        price: 價格
+        comments_tab: 評論
+        milestones_tab: 里程碑
+        no_milestones: 沒有已定義的里程碑
