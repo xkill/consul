@@ -23,3 +23,24 @@ zh-TW:
         title: 選擇一個選項
         unfeasible_title: 不可行的投資
         unfeasible: 查看不可行的投資
+        unselected_title: 未被選入投票階段的投資
+        unselected: 查看未被選入投票階段的投資
+    phase:
+      informing: 資訊
+      accepting: 正在接受項目
+      reviewing: 正在審閱項目
+      selecting: 正在選擇專案
+      valuating: 正在評估項目
+      publishing_prices: 正在發佈項目價格
+      balloting: 正在為項目投票
+      reviewing_ballots: 正在審查投票
+      finished: 已完成的預算
+    index:
+      title: 參與性預算
+      empty_budgets: 沒有預算。
+      section_header:
+        icon_alt: 參與性預算的圖標
+        title: 參與性預算
+        help: 參與性預算的説明
+        all_phases: 查看所有階段
+      all_phases: 預算投資階段
