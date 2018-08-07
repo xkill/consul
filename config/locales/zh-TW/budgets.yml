@@ -28,7 +28,7 @@ zh-TW:
         unselected_title: 未被選入投票階段的投資
         unselected: 查看未被選入投票階段的投資
     phase:
-      drafting: 草稿 (不向公眾顯示)
+      drafting: 草稿 (公眾不可見)
       informing: 資訊
       accepting: 正在接受項目
       reviewing: 正在審閱項目
