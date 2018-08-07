@@ -664,7 +664,7 @@ zh-TW:
         section_title: 通知預覽
         send: 發送通知
         will_get_notified: (%{n} 個用戶將被通知)
-        got_notified: (%{n} 用戶已被通知)
+        got_notified: (%{n} 個用戶已被通知)
         sent_at: 發送於
         title: 標題
         body: 文本
