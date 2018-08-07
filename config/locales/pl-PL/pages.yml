@@ -15,6 +15,7 @@ pl:
       debates:
         title: "Debaty"
         description: "W sekcji %{link} możesz przedstawiać swoją opinię na temat istotnych dla Ciebie kwestii związanych z miastem oraz dzielić się nią z innymi ludźmi. Jest to również miejsce do generowania pomysłów, które poprzez inne sekcje %{org} prowadzą do konkretnych działań ze strony Rady Miejskiej."
+        link: "debaty obywatelskie"
         feature_html: "Możesz otwierać debaty, komentować i oceniać je przy pomocy <strong>Zgadzam się</strong> lub <strong>Nie zgadzam się</strong>. W tym celu musisz %{link}."
         feature_link: "zarejestruj się w %{org}"
         image_alt: "Przyciski do oceny debat"
@@ -28,6 +29,7 @@ pl:
       budgets:
         title: "Budżetowanie Partycypacyjne"
         description: "Sekcja %{link} pomaga ludziom podjąć bezpośrednią decyzję odnośnie tego, na co zostanie wydana część budżetu gminnego."
+        link: "budżety obywatelskie"
         image_alt: "Różne fazy budżetu partycypacyjnego"
         figcaption_html: 'Fazy "Poparcie" i "Głosowanie" budżetów partycypacyjnych.'
       polls:
@@ -66,4 +68,5 @@ pl:
       info: 'Aby zweryfikować konto, wprowadź swoje dane dostępu:'
       info_code: 'Teraz wprowadź kod otrzymany w liście:'
       password: Hasło
+      submit: Zweryfikuj swoje konto
       title: Zweryfikuj swoje konto
