@@ -33,8 +33,10 @@ pl:
         title: Debaty
     menu:
       flagged_comments: Komentarze
+      flagged_debates: Debaty
     proposals:
       index:
+        confirm: Jesteś pewny/a?
         orders:
           created_at: Ostatnie
         title: Propozycje
@@ -46,6 +48,9 @@ pl:
           all: Wszystko
           pending_flag_review: Oczekujące
           with_ignored_flag: Oznaczone jako wyświetlone
+    proposal_notifications:
+      index:
+        confirm: Jesteś pewny/a?
     users:
       index:
         hidden: Zablokowany
