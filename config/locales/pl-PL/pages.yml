@@ -1,5 +1,6 @@
 pl:
   pages:
+    conditions: Warunki korzystania
     general_terms: Regulamin
     help:
       guide: "Ten przewodnik objaśnia, do czego służy każda z sekcji %{org} i jak funkcjonuje."
