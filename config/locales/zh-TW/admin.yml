@@ -763,7 +763,7 @@ zh-TW:
         date: "日期"
         booth: "投票亭"
         assignments: "這項民意調查的主要轉變"
-        no_assignments: "此用戶在這項民意調查中沒有主要轉變"
+        no_assignments: "此用戶在這項民意調查中沒有主要轉變。"
     poll_shifts:
       new:
         add_shift: "添加轉變"
@@ -1274,9 +1274,9 @@ zh-TW:
     site_customization:
       content_blocks:
         information: 有關內容塊的資訊
-        about: 您可以創建HTML 內容塊，為要插入到CONSUL頁首或頁尾中 。
+        about: 您可以創建要插入到CONSUL頁首或頁尾中的 HTML 內容塊。
         top_links_html: "<strong>頁首塊 (top_links)</strong> 是必須具有此格式的連結塊："
-        footer_html: "<strong>頁尾塊</strong> 可以有任何格式，並可以用於插入 JAVAscript、CSS 或自訂 HTML。"
+        footer_html: "<strong>頁尾塊</strong> 可以有任何格式，並可以用於插入 Javascript、CSS 或自訂 HTML。"
         no_blocks: "沒有內容塊。"
         create:
           notice: 內容塊已成功創建
@@ -1345,7 +1345,7 @@ zh-TW:
           locale: 語言
     homepage:
       title: 主頁
-      description: 活動模組以相同的順序在主頁中顯示。
+      description: 活動模組以與此處相同的順序在主頁中顯示。
       header_title: 標題
       no_header: 沒有頁首。
       create_header: 創建頁首
