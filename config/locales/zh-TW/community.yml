@@ -1,4 +1,11 @@
 zh-TW:
   community:
     sidebar:
-      title: 社區
+      title: 社群
+      description:
+        proposal: 參與本建議的用戶社群。
+        investment: 參與本投資的用戶社群。
+    show:
+      title:
+        proposal: 建議社群
+        investment: 預算投資社群
