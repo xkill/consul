@@ -119,7 +119,7 @@ sv:
         phase: "Fas"
         currency_symbol: "Valuta"
       budget/investment:
-        heading_id: "Underområde"
+        heading_id: "Område"
         title: "Titel"
         description: "Beskrivning"
         external_url: "Länk till ytterligare dokumentation"
@@ -137,7 +137,7 @@ sv:
         name: "Namn"
         description: "Beskrivning (frivilligt fält)"
       budget/heading:
-        name: "Underområde"
+        name: "Område"
         price: "Kostnad"
         population: "Befolkning"
       comment:
