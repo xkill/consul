@@ -109,26 +109,26 @@ sv:
       show:
         groups:
           one: 1 delbudget
-          other: "%{count} områden"
+          other: "%{count} delbudgetar"
       form:
-        group: Område
-        no_groups: Inga områden har skapats. Användare kommer att kunna rösta på ett underområde inom varje område.
-        add_group: Lägga till område
-        create_group: Skapa område
-        edit_group: Redigera område
-        submit: Spara område
-        heading: Underområde
-        add_heading: Lägga till underområde
+        group: Delbudget
+        no_groups: Inga delbudgetar har skapats. Användare kommer att kunna rösta på ett område inom varje delbudget.
+        add_group: Lägga till delbudget
+        create_group: Skapa delbudget
+        edit_group: Redigera delbudget
+        submit: Spara delbudget
+        heading: Område
+        add_heading: Lägga till område
         amount: Antal
         population: "Befolkning (frivilligt fält)"
         population_help_text: "Den här informationen används uteslutande för statistik"
-        save_heading: Spara underområde
-        no_heading: Området har inga underområden.
-        table_heading: Underområde
+        save_heading: Spara område
+        no_heading: Delbudgeten har inga områden.
+        table_heading: Område
         table_amount: Antal
         table_population: Befolkning
-        population_info: "Fältet för folkmängd inom ett underområde används för att föra statistik över hur stor del av befolkningen där som deltagit i omröstningen. Fältet är frivilligt."
-        max_votable_headings: "Högst antal underområden som användare kan rösta inom"
+        population_info: "Fältet för folkmängd inom ett område används för att föra statistik över hur stor del av befolkningen där som deltagit i omröstningen. Fältet är frivilligt."
+        max_votable_headings: "Högst antal områden som användare kan rösta inom"
         current_of_max_headings: "%{current} av %{max}"
       winners:
         calculate: Beräkna vinnande budgetförslag
@@ -147,7 +147,7 @@ sv:
         save_changes: Spara ändringar
     budget_investments:
       index:
-        heading_filter_all: Alla underområden
+        heading_filter_all: Alla områden
         administrator_filter_all: Alla administratörer
         valuator_filter_all: Alla bedömare
         tags_filter_all: Alla taggar
@@ -207,13 +207,13 @@ sv:
         assigned_admin: Ansvarig administratör
         assigned_valuators: Ansvariga bedömare
         classification: Klassificering
-        info: "%{budget_name} - område: %{group_name} - budgetförslag %{id}"
+        info: "%{budget_name}: %{group_name} - budgetförslag %{id}"
         edit: Redigera
         edit_classification: Redigera klassificering
         by: Av
         sent: Skickat
-        group: Område
-        heading: Underområde
+        group: Delbudget
+        heading: Område
         dossier: Rapport
         edit_dossier: Redigera rapport
         tags: Taggar
@@ -247,13 +247,13 @@ sv:
         selection: Urval
         mark_as_selected: Markera som valda
         assigned_valuators: Bedömare
-        select_heading: Välj underområde
+        select_heading: Välj område
         submit_button: Uppdatera
         user_tags: Användarens taggar
         tags: Taggar
         tags_placeholder: "Fyll i taggar separerade med kommatecken (,)"
         undefined: Odefinierad
-        user_groups: "Områden"
+        user_groups: "Grupper"
       search_unfeasible: Sökningen misslyckades
     milestones:
       index:
