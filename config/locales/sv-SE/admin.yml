@@ -83,9 +83,9 @@ sv:
         table_name: Namn
         table_phase: Fas
         table_investments: Budgetförslag
-        table_edit_groups: Områden
+        table_edit_groups: Delbudgetar
         table_edit_budget: Redigera
-        edit_groups: Redigera områden
+        edit_groups: Redigera delbudgetar
         edit_budget: Redigera budget
       create:
         notice: En ny medborgarbudget har skapats!
@@ -108,7 +108,7 @@ sv:
         title: Ny medborgarbudget
       show:
         groups:
-          one: 1 område
+          one: 1 delbudget
           other: "%{count} områden"
       form:
         group: Område
