@@ -1,1 +1,11 @@
 zh-TW:
+  devise_views:
+    confirmations:
+      new:
+        email_label: 電郵
+        submit: 重新發送說明
+        title: 重新發送確認說明
+      show:
+        instructions_html: 用電郵%{email} 確認帳戶
+        new_password_confirmation_label: 重複訪問密碼
+        new_password_label: 新訪問密碼
