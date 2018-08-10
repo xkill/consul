@@ -1,1 +1,14 @@
 zh-TW:
+  devise:
+    password_expired:
+      expire_password: "密碼已過期"
+      change_required: "您的密碼已過期"
+      change_password: "更改您的密碼"
+      new_password: "新密碼"
+      updated: "密碼已成功更新"
+    confirmations:
+      confirmed: "您的帳戶已被確認。"
+      send_instructions: "幾分鐘後，您將收到一封電郵，內中包含如何重置密碼的說明。"
+      send_paranoid_instructions: "如果您的電郵地址已在我們的數據庫中，您將在幾分鐘內收到一封電郵，內中包含如何重置密碼的說明。"
+    failure:
+      already_authenticated: "您已登錄了。"
