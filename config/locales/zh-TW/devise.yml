@@ -12,3 +12,24 @@ zh-TW:
       send_paranoid_instructions: "如果您的電郵地址已在我們的數據庫中，您將在幾分鐘內收到一封電郵，內中包含如何重置密碼的說明。"
     failure:
       already_authenticated: "您已登錄了。"
+      inactive: "您的帳戶尚未啟動。"
+      invalid: "%{authentication_keys} 或密碼無效。"
+      locked: "你的賬戶被鎖了。"
+      last_attempt: "在您的帳戶被禁用之前，您還剩餘一次嘗試的機會。"
+      not_found_in_database: "%{authentication_keys} 或密碼無效。"
+      timeout: "您的會話已過期。 請再次登錄以繼續。"
+      unauthenticated: "您必須登錄或註冊才能繼續。"
+      unconfirmed: "要繼續，請點擊我們通過電郵發送給您的確認鏈接"
+    mailer:
+      confirmation_instructions:
+        subject: "確認說明"
+      reset_password_instructions:
+        subject: "重置密碼的說明"
+      unlock_instructions:
+        subject: "解鎖的說明"
+    omniauth_callbacks:
+      failure: "無法將您授權為%{kind}，因為 \"%{reason}\"。"
+      success: "成功識別為 %{kind}。"
+    passwords:
+      no_token: "除非通過重置密碼鏈接，否則無法訪問此頁面。 如果您已通過重置密碼鏈接來訪問，請檢查URL是否完整。"
+      send_instructions: "幾分鐘後，您將收到一封電郵，內中包含重置密碼的說明。"
