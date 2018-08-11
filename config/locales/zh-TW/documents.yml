@@ -15,3 +15,10 @@ zh-TW:
         notice: 文檔已成功刪除。
         alert: 無法銷毀文檔。
         confirm: 您是否確定要刪除該文檔？ 此操作將無法撤消！
+    buttons:
+      download_document: 下載檔案
+      destroy_document: 銷毀文檔
+    errors:
+      messages:
+        in_between: 必須在%{min} 和%{max} 之間
+        wrong_content_type: 內容類型%{content_type} 與任何已接受的內容類型%{accepted_content_types} 都不匹配
