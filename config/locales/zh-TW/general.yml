@@ -1,1 +1,8 @@
 zh-TW:
+  account:
+    show:
+      change_credentials_link: 更改我的身份驗證資訊
+      email_on_comment_label: 當有人評論我的建議或辯論時，通過電郵通知我
+      email_on_comment_reply_label: 當有人回覆我的評論時，通過電郵通知我
+      erase_account_link: 刪除我的帳戶
+      finish_verification: 完成驗證
