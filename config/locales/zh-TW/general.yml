@@ -128,7 +128,11 @@ zh-TW:
       section_footer:
         title: 關於辯論的說明
         description: 開始一個辯論，與別人分享您關注的主題的意見。
+        help_text_1: "這片公民辯論空間的對象是任何能夠揭露他們關注的問題，以及想要與別人分享意見的人。"
+        help_text_2: '要開始一個辯論，您需要在%{org} 登記。 用戶還可以對公開辯論發表評論，並使用其中的“我同意”或“我不同意”按鈕來評分。'
     new:
+      form:
+        submit_button: 開始一個辯論
       recommendations_title: 創建一個辯論的推薦
     show:
       author_deleted: 用戶已刪除
