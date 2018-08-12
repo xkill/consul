@@ -322,6 +322,7 @@ fr:
       geozone: Périmètre de l'opération
       proposal_external_url: Lien vers de la documentation complémentaire
       proposal_question: Question proposée
+      proposal_question_example_html: "Doivent être résumés en une question nécessitant une réponse en oui ou non"
       proposal_responsible_name: Nom complet de la personne qui soumet la proposition
       proposal_responsible_name_note: "(individuellement ou comme représentant d'un\ncollectif; ne sera pas public)"
       proposal_summary: Résumé de la proposition
@@ -386,6 +387,7 @@ fr:
         help: Aide concernant les propositions
       section_footer:
         title: Aide concernant les propositions
+        description: Les propositions des citoyens sont une occasion pour les voisins et les collectifs de décider directement comment ils veulent que soit leur ville, après l’obtention d’un soutien suffisant et de le soumettre au vote des citoyens.
     new:
       form:
         submit_button: Créer la proposition
