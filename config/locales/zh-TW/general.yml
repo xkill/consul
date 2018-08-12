@@ -59,10 +59,10 @@ zh-TW:
       comment_as_moderator: 以審核員身份作出評論
       leave_comment: 留下您的評論
     orders:
-      most_voted: 穫最多投票
+      most_voted: 最多投票
       newest: 最新排先
       oldest: 最舊排先
-      most_commented: 穫最多評論
+      most_commented: 最多評論
     select_order: 排序依據
     show:
       return_to_commentable: '返回到 '
@@ -99,8 +99,10 @@ zh-TW:
       filter_topic:
         other: " 主題'%{topic}'"
       orders:
+        confidence_score: 最高評分
         created_at: 最新
         hot_score: 最活躍
+        most_commented: 最多評論
         relevance: 具相關性
         recommendations: 推薦
       recommendations:
@@ -117,3 +119,12 @@ zh-TW:
       search_results_html:
         other: " 包含術語 <strong>'%{search_term}'</strong>"
       select_order: 排序依據
+      start_debate: 開始一個辯論
+      title: 辯論
+      section_header:
+        icon_alt: 辯論圖標
+        title: 辯論
+        help: 關於辯論的說明
+      section_footer:
+        title: 關於辯論的說明
+        description: 開始一個辯論，與別人分享您關注的主題的意見。
