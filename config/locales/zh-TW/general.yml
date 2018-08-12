@@ -133,6 +133,55 @@ zh-TW:
     new:
       form:
         submit_button: 開始一個辯論
+      info: 如果您想要提出建議，這是錯誤的位置，請輸入%{info_link}。
+      info_link: 創建新建議
+      more_info: 更多資訊
+      recommendation_four: 享受這片空間和其中充滿的聲音。 這也是你的空間。
+      recommendation_one: 不要用大寫字母寫辯論標題或整個句子。 在互聯網上，這是被當作為＂叫喊＂。沒有人喜歡被呼喝的。
+      recommendation_three: 無情的批評是非常受歡迎的。 這是一個反思的空間。 但我們建議您保持優雅和智慧。 有著這些美德，這世界將是更美好的地方。
+      recommendation_two: 任何暗示非法行為、和那些意圖破壞辯論空間的辯論或評論都將被刪除。 其餘一切都是允許的。
       recommendations_title: 創建一個辯論的推薦
+      start_new: 開始一個辯論
     show:
       author_deleted: 用戶已刪除
+      comments:
+        zero: 沒有評論
+        other: "%{count} 個評論"
+      comments_title: 評論
+      edit_debate_link: 編輯
+      flag: 此辯論已被一些用戶標記為不適當。
+      login_to_comment: 您必須%{signin} 或%{signup} 才能留下評論。
+      share: 共用
+      author: 作者
+    update:
+      form:
+        submit_button: 儲存更改
+  errors:
+    messages:
+      user_not_found: 未找到用戶
+      invalid_date_range: "日期範圍無效"
+  form:
+    accept_terms: 我同意%{policy} 和%{conditions}
+    accept_terms_title: 我同意隱私政策和使用條款及條件
+    conditions: 使用條款及條件
+    debate: 辯論
+    direct_message: 私人信息
+    error: 錯誤
+    errors: 錯誤
+    not_saved_html: "阻止此%{resource} 的儲存。 <br>請檢查標記的字段以了解如何更正它們："
+    policy: 隱私政策
+    proposal: 建議
+    proposal_notification: "通知"
+    budget/investment: 投資
+    budget/heading: 預算標題
+    poll/shift: 轉變
+    poll/question/answer: 答案
+    user: 帳戶
+    verification/sms: 電話
+    signature_sheet: 簽名表
+    document: 文檔
+    topic: 主題
+    image: 圖像
+  geozones:
+    none: 所有城市
+    all: 所有範圍
