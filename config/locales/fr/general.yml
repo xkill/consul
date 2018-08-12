@@ -425,6 +425,7 @@ fr:
       supports_necessary: "%{number} soutiens nécessaires"
       total_percent: 100%
       archived: "Cette proposition a été archivée et ne peut recueillir de soutiens."
+      successful: "Cette proposition a atteint les soutiens requis."
     show:
       author_deleted: Utilisateur effacé
       code: 'Code de la proposition'
@@ -474,6 +475,7 @@ fr:
         help: Aide concernant le vote
       section_footer:
         title: Aide concernant le vote
+        description: Les sondages des citoyens sont un mécanisme participatif par lequel les citoyens ayant le droit de vote peuvent prendre des décisions directes
       no_polls: "Il n’y a aucun vote ouvert."
     show:
       already_voted_in_booth: "Vous avez déjà voté physiquement. Vous ne pouvez participer à nouveau."
