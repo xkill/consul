@@ -185,3 +185,7 @@ zh-TW:
   geozones:
     none: 所有城市
     all: 所有範圍
+  layouts:
+    application:
+      chrome: 谷歌 Chrome
+      firefox: 火狐
