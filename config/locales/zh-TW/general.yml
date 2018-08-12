@@ -128,3 +128,7 @@ zh-TW:
       section_footer:
         title: 關於辯論的說明
         description: 開始一個辯論，與別人分享您關注的主題的意見。
+    new:
+      recommendations_title: 創建一個辯論的推薦
+    show:
+      author_deleted: 用戶已刪除
