@@ -283,6 +283,10 @@ fr:
           attributes:
             segment_recipient:
               invalid: "Le segment des utilisateurs destinataires est invalide"
+        admin_notification:
+          attributes:
+            segment_recipient:
+              invalid: "Le segment des utilisateurs destinataires n’est pas valide"
         map_location:
           attributes:
             map:
