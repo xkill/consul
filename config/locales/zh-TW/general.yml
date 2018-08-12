@@ -6,3 +6,12 @@ zh-TW:
       email_on_comment_reply_label: 當有人回覆我的評論時，通過電郵通知我
       erase_account_link: 刪除我的帳戶
       finish_verification: 完成驗證
+      notifications: 通知
+      organization_name_label: 組織名稱
+      organization_responsible_name_placeholder: 組織/集體的代表人
+      personal: 個人資料
+      phone_number_label: 電話號碼
+      public_activity_label: 把我的活動清單公開
+      save_changes_submit: 儲存更改
+      subscription_to_website_newsletter_label: 通過電郵接收網站相關信息
+      email_digest_label: 接收建議通知的摘要
