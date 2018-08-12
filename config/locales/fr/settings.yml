@@ -7,6 +7,7 @@ fr:
     official_level_4_name: "Personne officielle de niveau 4"
     official_level_5_name: "Personne officielle de niveau 5"
     max_ratio_anon_votes_on_debates: "Pourcentage maximum de votes anonymes par débat"
+    max_ratio_anon_votes_on_debates_description: "Les votes anonymes ont été effectués par des utilisateurs enregistrés mais qui n'ont pas vérifié leur compte"
     max_votes_for_proposal_edit: "Nombre de votes maximum à partir duquel une proposition ne peut plus être éditée"
     max_votes_for_debate_edit: "Nombre de votes à partir duquel un débat ne peut plus être édité"
     proposal_code_prefix: "Préfixe pour les codes des propositions"
