@@ -64,7 +64,7 @@ fr:
         filters:
           all: Tous
           on_comments: Commentaires
-          on_debates: Débats
+          on_debates: Discussions
           on_proposals: Propositions
           on_users: Utilisateurs
         title: Activité de modération
@@ -78,7 +78,7 @@ fr:
         filters:
           open: Ouvert
           finished: Terminé
-        budget_investments: Voir les propositions d'investissement
+        budget_investments: Gestion de projets
         table_name: Nom
         table_phase: Phases
         table_investments: Propositions d'investissement
@@ -678,7 +678,11 @@ fr:
         action: Aperçu en attente
         preview_of: Aperçu de %{name}
         pending_to_be_sent: Ceci est le contenu en attente d’être envoyé
+        send_pending: Envoi en attente
         send_pending_notification: Les notifications en attente ont été envoyées avec succès
+      proposal_notification_digest:
+        description: Rassemble toutes les notifications de proposition pour un utilisateur dans un seul message, afin d’éviter trop d’e-mails.
+        preview_detail: Les utilisateurs recevront uniquement les notifications des propositions qu’ils suivent
     emails_download:
       index:
         title: Téléchargement des courriels
