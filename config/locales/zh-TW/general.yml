@@ -15,3 +15,38 @@ zh-TW:
       save_changes_submit: 儲存更改
       subscription_to_website_newsletter_label: 通過電郵接收網站相關信息
       email_digest_label: 接收建議通知的摘要
+      title: 我的帳戶
+      user_permission_debates: 參與辯論
+      user_permission_info: 您可以用您的帳戶來......
+      user_permission_proposal: 創建新建議
+      user_permission_support_proposal: 支持建議
+      user_permission_title: 參與
+      user_permission_verify: 要執行所有操作，請核實您的帳戶。
+      user_permission_verify_info: "*僅適用於人口普查的用戶。"
+      user_permission_votes: 參與最終投票
+      username_label: 用戶名
+      verified_account: 帳戶已被核實
+      verify_my_account: 核實我的帳戶
+  application:
+    close: 關
+    menu: 菜單
+  comments:
+    comments_closed: 評論已關閉
+    verified_only: 要參與 %{verify_account}
+    verify_account: 核實您的帳戶
+    comment:
+      admin: 管理員
+      author: 作者
+      deleted: 此評論已被刪除
+      moderator: 審核員
+      responses:
+        zero: 沒有回覆
+        other: "%{count} 個回覆"
+      user_deleted: 用戶已刪除
+      votes:
+        zero: 沒有投票
+        other: "%{count} 個投票"
+    form:
+      comment_as_admin: 以管理員身份作出評論
+      comment_as_moderator: 以審核員身份作出評論
+      leave_comment: 留下您的評論
