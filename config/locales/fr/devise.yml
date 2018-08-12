@@ -17,7 +17,7 @@ fr:
       locked: "Votre compte a été bloqué."
       last_attempt: "Il vous reste un essai avant que votre compte soit bloqué."
       not_found_in_database: "%{authentication_keys} ou mot de passe invalide."
-      timeout: "Votre session a expiré. Veuillez vous re-connecter pour continuer."
+      timeout: "Votre session a expiré. Veuillez vous reconnecter pour continuer."
       unauthenticated: "Vous devez être connecté ou enregistré pour continuer."
       unconfirmed: "Pour continuer, veuillez cliquer sur le lien de confirmation envoyé par courriel"
     mailer:
@@ -37,6 +37,7 @@ fr:
       updated: "Votre mot de passe a été modifié avec succès. Identification réussie."
       updated_not_active: "Votre mot de passe a été modifié avec succès."
     registrations:
+      destroyed: "Au revoir ! Votre compte a été annulé. Nous espérons vous revoir bientôt."
       signed_up: "Bienvenue ! Vous avez été authentifié."
       signed_up_but_inactive: "Votre enregistrement a réussi, mais vous ne pouvez pas vous connecter car votre compte n'a pas été activé."
       signed_up_but_locked: "Votre enregistrement a réussi, mais vous ne pouvez pas vous connecter car votre compte est bloqué."
@@ -59,6 +60,6 @@ fr:
       not_found: "non trouvé."
       not_locked: "n'était pas bloqué."
       not_saved:
-        one: "1 erreur a empêché cette %{resource} d'être sauvegardée :"
-        other: "%{count} erreurs ont empêché cette %{resource} d'être sauvegardée. SVP vérifiez les champs indiqués pour savoir comment les corriger :"
+        one: "1 erreur a empêché cette %{resource} d’être enregistré. Veuillez vérifier les champs marqués pour savoir comment y remédier :"
+        other: "%{count} erreurs ont empêché cette %{resource} d'être sauvegardée. Veuillez vérifier les champs indiqués pour savoir comment les corriger :"
       equal_to_current_password: "doit être différent du mot de passe actuel."
