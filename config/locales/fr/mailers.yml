@@ -11,6 +11,7 @@ fr:
     email_verification:
       click_here_to_verify: sur ce lien
       instructions_2_html: Ce courriel va vérifier votre compte avec <b>%{document_type}%{document_number}</b>. Si ce compte ne vous appartient pas, veuillez ne pas cliquer sur le lien et ignorer ce courriel.
+      instructions_html: Procéder à la vérification de votre compte utilisateur, vous devez cliquer sur %{verification_link}.
       subject: Confirmer votre courriel
       thanks: Merci beaucoup.
       title: Confirmer votre compte en utilisant le lien suivant
@@ -43,6 +44,7 @@ fr:
       title_html: "Vous avez envoyé un nouveau message privé à <strong>%{receiver}</strong> avec le contenu suivant :"
     user_invite:
       ignore: "Si vous n'avez pas requis cette invitation, pas d'inquiétude, vous pouvez ignorer ce courriel."
+      text: "Merci d'avoir demandé à rejoindre %{org}! Dans quelques secondes vous pourrez commencer à participer, remplissez simplement le formulaire ci-dessous :"
       thanks: "Merci beaucoup."
       title: "Bienvenue sur %{org}"
       button: Enregistrement complet
