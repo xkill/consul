@@ -56,6 +56,7 @@ fr:
       see_results: Voir les résultats
       section_footer:
         title: Aide sur les budgets participatifs
+        description: Avec la participation des budgets les citoyens décident à quels projets est destinée une partie du budget.
     investments:
       form:
         tag_category_label: "Catégories"
