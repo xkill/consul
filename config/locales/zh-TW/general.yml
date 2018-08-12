@@ -14,7 +14,12 @@ zh-TW:
       public_activity_label: 把我的活動清單公開
       save_changes_submit: 儲存更改
       subscription_to_website_newsletter_label: 通過電郵接收網站相關信息
+      email_on_direct_message_label: 以電郵接收有關直接消息（direct messages）
       email_digest_label: 接收建議通知的摘要
+      official_position_badge_label: 顯示官方職位徽章
+      recommendations: 推薦
+      show_debates_recommendations: 顯示辯論推薦
+      show_proposals_recommendations: 顯示建議推薦
       title: 我的帳戶
       user_permission_debates: 參與辯論
       user_permission_info: 您可以用您的帳戶來......
@@ -50,3 +55,7 @@ zh-TW:
       comment_as_admin: 以管理員身份作出評論
       comment_as_moderator: 以審核員身份作出評論
       leave_comment: 留下您的評論
+    orders:
+      newest: 最新排先
+      oldest: 最舊排先
+      most_commented: 穫最多評論
