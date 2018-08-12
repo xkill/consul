@@ -63,7 +63,57 @@ zh-TW:
       newest: 最新排先
       oldest: 最舊排先
       most_commented: 穫最多評論
+    select_order: 排序依據
+    show:
+      return_to_commentable: '返回到 '
+  comments_helper:
+    comment_button: 發佈評論
+    comment_link: 評論
+    comments_title: 評論
+    reply_button: 發佈回覆
+    reply_link: 回覆
   debates:
+    create:
+      form:
+        submit_button: 開始一個辯論
+    debate:
+      comments:
+        zero: 沒有評論
+        other: "%{count} 個評論"
+      votes:
+        zero: 沒有投票
+        other: "%{count} 個投票"
+    edit:
+      editing: 編輯辯論
+      form:
+        submit_button: 儲存更改
+      show_link: 查看辯論
+    form:
+      debate_text: 初始辯論文本
+      debate_title: 辯論標題
+      tags_instructions: 標籤此辯論。
+      tags_label: 主題
+      tags_placeholder: "輸入您要用的標籤，以逗號分隔 (',')"
     index:
+      featured_debates: 功能
+      filter_topic:
+        other: " 主題'%{topic}'"
+      orders:
+        created_at: 最新
+        hot_score: 最活躍
+        relevance: 具相關性
+        recommendations: 推薦
       recommendations:
         without_results: 沒有與您興趣相關的辯論
+        without_interests: 跟蹤建議，以便我們為您提供推薦
+        disable: "如果您摒棄辯論推薦，辯論推薦將停止顯示。 您可以在“我的帳戶”頁面中重新啟用它"
+        actions:
+          success: "此帳戶現已禁用辯論推薦"
+          error: "發生錯誤。 請回到“您的帳戶”頁面，手動停用辯論推薦"
+      search_form:
+        button: 搜尋
+        placeholder: 搜尋辯論...
+        title: 搜尋
+      search_results_html:
+        other: " 包含術語 <strong>'%{search_term}'</strong>"
+      select_order: 排序依據
