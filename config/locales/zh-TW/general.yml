@@ -63,3 +63,7 @@ zh-TW:
       newest: 最新排先
       oldest: 最舊排先
       most_commented: 穫最多評論
+  debates:
+    index:
+      recommendations:
+        without_results: 沒有與您興趣相關的辯論
