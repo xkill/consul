@@ -245,3 +245,6 @@ zh-TW:
       mark_all_as_read: 標記所有為已讀
       read: 讀
       title: 通知
+  proposals:
+    edit:
+      show_link: 查看建議
