@@ -59,7 +59,7 @@ zh-TW:
     investments:
       form:
         tag_category_label: "類別"
-        tags_instructions: "为此建議加標籤。您可以從建議的類別中選擇，或添加您自己的"
+        tags_instructions: "為此建議加標籤。您可以從建議的類別中選擇，或添加您自己的"
         tags_label: 標籤
         tags_placeholder: "輸入您想使用的標籤, 用逗號 (',') 作分隔"
         map_location: "地圖位置"
