@@ -198,3 +198,50 @@ zh-TW:
       contact_us: 進入技術支援
       copyright: CONSUL, %{year}
       open_source: 開源軟件
+      open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
+      participation_text: 決定如何塑造你想要居住的城市。
+      participation_title: 參與
+      privacy: 隱私政策
+    header:
+      administration_menu: 管理員
+      administration: 管理
+      available_locales: 可用語言
+      collaborative_legislation: 立法進程
+      debates: 辯論
+      external_link_blog: 博客
+      locale: '語言：'
+      logo: CONSUL 商標
+      management: 管理
+      moderation: 審核
+      valuation: 評估
+      officing: 民意調查員
+      help: 說明
+      my_account_link: 我的帳戶
+      my_activity_link: 我的活動
+      open: 開
+      open_gov: 開放政府
+      proposals: 建議
+      poll_questions: 投票
+      budgets: 參與式預算編制
+      spending_proposals: 開支建議
+      notification_item:
+        new_notifications:
+          other: 您有%{count} 個新通知
+        notifications: 通知
+        no_notifications: "您沒有新通知"
+    admin:
+      watch_form_message: '您有未儲存的更改。 你是否確認要離開此頁面？'
+  legacy_legislation:
+    help:
+      alt: 選擇要評論的文本，然後按下鉛筆按鈕。
+      text: 要對此文檔發表評論，您必須%{sign_in} 或%{sign_up}。 然後選擇要評論的文本，並按下鉛筆按鈕。
+      text_sign_in: 登錄
+      text_sign_up: 登記
+      title: 我怎樣能對此文檔作評論？
+  locale: 英文
+  notifications:
+    index:
+      empty_notifications: 您沒有新通知
+      mark_all_as_read: 標記所有為已讀
+      read: 讀
+      title: 通知
