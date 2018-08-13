@@ -190,3 +190,11 @@ zh-TW:
     application:
       chrome: 谷歌 Chrome
       firefox: 火狐
+      ie: 我們檢測到您正在使用Internet Explorer來瀏覽。 為了增強體驗，我們建議您使用%{firefox} 或%{chrome}。
+    footer:
+      conditions: 使用條款及條件
+      consul: CONSUL 應用程式
+      consul_url: https://github.com/consul/consul
+      contact_us: 進入技術支援
+      copyright: CONSUL, %{year}
+      open_source: 開源軟件
