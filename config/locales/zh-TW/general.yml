@@ -292,3 +292,20 @@ zh-TW:
       form:
         submit_button: 儲存更改
       show_link: 查看建議
+    retire_form:
+      retired_reason_blank: 選擇一個選項
+      retired_explanation_label: 解釋
+      retired_explanation_placeholder: 簡單地解釋為什麼您認為此提案不應再獲得支持
+    retire_options:
+      duplicated: 重複
+      started: 已在進行中
+      unfeasible: 不可行
+      done: 完成
+      other: 其他
+    form:
+      geozone: 經營範圍
+      proposal_external_url: 鏈接到額外文檔
+      proposal_question: 建議問題
+      proposal_responsible_name: 提交建議的人的全名
+      proposal_responsible_name_note: "(個人或作為集體的代表；不會公開顯示)"
+      proposal_summary: 建議摘要
