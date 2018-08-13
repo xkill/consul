@@ -191,12 +191,14 @@ zh-TW:
       chrome: 谷歌 Chrome
       firefox: 火狐
       ie: 我們檢測到您正在使用Internet Explorer來瀏覽。 為了增強體驗，我們建議您使用%{firefox} 或%{chrome}。
+      ie_title: 此網站沒有為您的瀏覽器優化
     footer:
       conditions: 使用條款及條件
       consul: CONSUL 應用程式
       consul_url: https://github.com/consul/consul
       contact_us: 進入技術支援
       copyright: CONSUL, %{year}
+      description: 此入口網頁使用%{consul}，即是%{open_source}。
       open_source: 開源軟件
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: 決定如何塑造你想要居住的城市。
@@ -245,6 +247,48 @@ zh-TW:
       mark_all_as_read: 標記所有為已讀
       read: 讀
       title: 通知
+      unread: 未讀
+    notification:
+      action:
+        comments_on:
+          other: 有%{count} 個新評論
+        proposal_notification:
+          other: 有%{count} 個新通知
+        replies_to:
+          other: 您的評論有%{count} 個新回复
+      mark_as_read: 標記為已讀
+      mark_as_unread: 標記為未讀
+      notifiable_hidden: 此資源不再可用。
+  map:
+    title: "地區"
+    proposal_for_district: "為您的地區開始一個建議"
+    select_district: 經營範圍
+    start_proposal: 創建一個建議
+  omniauth:
+    facebook:
+      sign_in: 用Facebook登錄
+      sign_up: 用Facebook登記
+      name: Facebook
+    finish_signup:
+      title: "額外細節"
+      username_warning: "由於我們與社交網絡互動的方式發生了變化，您的用戶名可能現在顯示為“已在使用中”。 如果是這種情況，請選擇另一個用戶名。"
+    google_oauth2:
+      sign_in: 用Google登錄
+      sign_up: 用Google登記
+      name: Google
+    twitter:
+      sign_in: 用Twitter登錄
+      sign_up: 用Twitter登記
+      name: Twitter
+    info_sign_in: "登錄用："
+    info_sign_up: "登記用："
+    or_fill: "或填寫以下表格："
   proposals:
+    create:
+      form:
+        submit_button: 創建建議
     edit:
+      editing: 編輯建議
+      form:
+        submit_button: 儲存更改
       show_link: 查看建議
