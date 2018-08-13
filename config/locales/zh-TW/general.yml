@@ -293,6 +293,7 @@ zh-TW:
         submit_button: 儲存更改
       show_link: 查看建議
     retire_form:
+      title: 把建議退出
       retired_reason_blank: 選擇一個選項
       retired_explanation_label: 解釋
       retired_explanation_placeholder: 簡單地解釋為什麼您認為此提案不應再獲得支持
@@ -309,3 +310,37 @@ zh-TW:
       proposal_responsible_name: 提交建議的人的全名
       proposal_responsible_name_note: "(個人或作為集體的代表；不會公開顯示)"
       proposal_summary: 建議摘要
+      proposal_summary_note: "(最多200個字元)"
+      proposal_text: 建議文本
+      proposal_title: 建議標題
+      proposal_video_url: 鏈接到外部視頻
+      proposal_video_url_note: 您可以添加到 YouTube 或 Vimeo 的鏈接
+      tag_category_label: "類別"
+      tags_instructions: "為此建議加標籤。 您可以從建議的類別中選擇，或添加自己的"
+      tags_label: 標籤
+      tags_placeholder: "輸入您要用的標籤，以逗號分隔 (',')"
+      map_location: "地圖位置"
+      map_location_instructions: "將地圖導航到該位置，並放置標記。"
+      map_remove_marker: "刪除地圖標記"
+      map_skip_checkbox: "這個建議沒有具體的位置，或我沒有注意到。"
+    index:
+      featured_proposals: 特色
+      filter_topic:
+        other: " 主題'%{topic}'"
+      orders:
+        confidence_score: 最高評分
+        created_at: 最新
+        hot_score: 最活躍
+        most_commented: 最多評論
+        relevance: 具相關性
+        archival_date: 已存檔
+        recommendations: 推薦
+      recommendations:
+        without_results: 沒有與您興趣相關的建議
+        without_interests: 跟蹤建議，以便我們為您提供推薦
+        disable: "如果您取消建議推薦，建議推薦將停止顯示。 您可以在“我的帳戶”頁面中重新啟用它"
+        actions:
+          success: "此帳戶現已禁用建議推薦"
+          error: "發生錯誤。 請回到“您的帳戶”頁面，手動停用建議推薦"
+      retired_links:
+        all: 所有
