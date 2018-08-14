@@ -4,6 +4,9 @@ it:
       title: Amministrazione
     actions:
       actions: Azioni
+      confirm: Sei sicuro?
+      confirm_hide: Confermare intervento di moderazione
+      hide: Nascondi
       hide_author: Nascondi l'autore
       restore: Ripristino
       unmark_featured: Deselezionare 'in primo piano'
