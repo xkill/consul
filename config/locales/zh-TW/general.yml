@@ -95,7 +95,7 @@ zh-TW:
       tags_label: 主題
       tags_placeholder: "輸入您要用的標籤，以逗號分隔 (',')"
     index:
-      featured_debates: 功能
+      featured_debates: 特色
       filter_topic:
         other: " 主題'%{topic}'"
       orders:
@@ -133,7 +133,7 @@ zh-TW:
     new:
       form:
         submit_button: 開始一個辯論
-      info: 如果您想要提出建議，這是錯誤的位置，請輸入%{info_link}。
+      info: 如果您想要提出建議，這是錯誤的位置，請進入%{info_link}。
       info_link: 創建新建議
       more_info: 更多資訊
       recommendation_four: 享受這片空間和其中充滿的聲音。 這也是你的空間。
@@ -188,8 +188,8 @@ zh-TW:
     all: 所有範圍
   layouts:
     application:
-      chrome: 谷歌 Chrome
-      firefox: 火狐
+      chrome: Google Chrome
+      firefox: Firefox
       ie: 我們檢測到您正在使用Internet Explorer來瀏覽。 為了增強體驗，我們建議您使用%{firefox} 或%{chrome}。
       ie_title: 此網站沒有為您的瀏覽器優化
     footer:
@@ -243,7 +243,7 @@ zh-TW:
   locale: 英文
   notifications:
     index:
-      empty_notifications: 您沒有新通知
+      empty_notifications: 您沒有新通知。
       mark_all_as_read: 標記所有為已讀
       read: 讀
       title: 通知
