@@ -559,3 +559,38 @@ zh-TW:
           notice_html: "現在您正在跟隨此公民建議！ </br>出現更改時，我們會通知您，以便您了解最新動態。"
         destroy:
           notice_html: "您已停止跟隨此公民建議！ </br>您將不會再收到與此建議相關的通知。"
+    hide: 隱藏
+    print:
+      print_button: 列印此信息
+    search: 搜尋
+    show: 顯示
+    suggest:
+      debate:
+        found:
+          other: "有一些包含'%{query}'詞字的辯論，您可以參與其中，而不用開一個新的。"
+        message: "您看到%{count} 個辯論中的%{limit} 個包含'%{query}'一詞"
+        see_all: "查看所有"
+      budget_investment:
+        found:
+          other: "有一些包含'%{query}'詞字的投資，你可以參與其中，而不用開一個新的。"
+        message: "您看到%{count} 個投資中的%{limit} 個包含'%{query}'一詞"
+        see_all: "查看所有"
+      proposal:
+        found:
+          other: "有一些包含'%{query}'詞字的建議，您可以為它們做出貢獻，而不用創建新的"
+        message: "您看到%{count} 個建議中的%{limit} 個包含'%{query}'一詞"
+        see_all: "查看所有"
+    tags_cloud:
+      tags: 趨勢
+      districts: "地區"
+      districts_list: "地區清單"
+      categories: "類別"
+    target_blank_html: " (鏈接在新視窗中打開)"
+    you_are_in: "你在"
+    unflag: 取消標記
+    unfollow_entity: "取消跟隨%{entity}"
+    outline:
+      budget: 參與性預算
+      searcher: 搜尋者
+    go_to_page: "轉到頁面 "
+    share: 分享
