@@ -386,3 +386,7 @@ zh-TW:
       start_new: 創建新建議
     notice:
       retired: 建議已被撤回
+    proposal:
+      created: "您創建了一個建議！"
+      share:
+        guide: "現在您可以把它分享，以便人們可以開始支持。"
