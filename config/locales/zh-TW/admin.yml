@@ -534,8 +534,8 @@ zh-TW:
       system_emails: 系統電子郵件
       emails_download: 電子郵件下載
       valuators: 評估員
-      poll_officers: 民意調查員
-      polls: 民意調查
+      poll_officers: 投票站職員
+      polls: 投票
       poll_booths: 投票亭位置
       poll_booth_assignments: 投票亭分配
       poll_shifts: 管理轉變
@@ -555,7 +555,7 @@ zh-TW:
           debates: "辯論"
           community: "社區"
           proposals: "建議"
-          polls: "民意調查"
+          polls: "投票"
           layouts: "佈局"
           mailers: "電郵"
           management: "管理"
@@ -565,7 +565,7 @@ zh-TW:
           save: "儲存"
       title_moderated_content: 已審核的內容
       title_budgets: 預算
-      title_polls: 民意調查
+      title_polls: 投票
       title_profiles: 配置檔
       title_settings: 設置
       title_site_customization: 網站內容
@@ -742,7 +742,7 @@ zh-TW:
         edit: "儲存評估組"
     poll_officers:
       index:
-        title: 民意調查員
+        title: 投票站職員
       officer:
         add: 添加
         delete: 刪除職位
@@ -1237,7 +1237,7 @@ zh-TW:
         all: 民意調查
         web_participants: 網絡參與者
         total_participants: 參與者總數
-        poll_questions: "民意調查中的問題: %{poll}"
+        poll_questions: "投票中所設的問題: %{poll}"
         table:
           poll_name: 民意調查
           question_name: 問題
