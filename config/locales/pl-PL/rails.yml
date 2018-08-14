@@ -69,12 +69,52 @@ pl:
         few: około %{count} lat
         many: około %{count} lat
         other: około %{count} lat
+      almost_x_years:
+        one: prawie 1 rok
+        few: prawie %{count} lata
+        many: prawie %{count} lat
+        other: prawie %{count} lat
       half_a_minute: pół minuty
+      less_than_x_minutes:
+        one: mniej niż minuta
+        few: mniej niż %{count} minuty
+        many: mniej niż %{count} minut
+        other: mniej niż %{count} minut
+      less_than_x_seconds:
+        one: mniej niż 1 sekundę
+        few: mniej niż %{count} sekundy
+        many: mniej niż %{count} sekund
+        other: mniej niż %{count} sekund
       over_x_years:
         one: ponad 1 rok
         few: ponad %{count} lata
         many: ponad %{count} lat
         other: ponad %{count} lat
+      x_days:
+        one: 1 dzień
+        few: "%{count} dni"
+        many: "%{count} dni"
+        other: "%{count} dni"
+      x_minutes:
+        one: 1 minuta
+        few: "%{count} minuty"
+        many: "%{count} minut"
+        other: "%{count} minut"
+      x_months:
+        one: 1 miesiąc
+        few: "%{count} miesiące"
+        many: "%{count} miesięcy"
+        other: "%{count} miesięcy"
+      x_years:
+        one: 1 rok
+        few: "%{count} lata"
+        many: "%{count} lat"
+        other: "%{count} lat"
+      x_seconds:
+        one: 1 sekunda
+        few: "%{count} sekundy"
+        many: "%{count} sekund"
+        other: "%{count} sekund"
     prompts:
       day: Dzień
       hour: Godzina
@@ -105,6 +145,16 @@ pl:
       odd: musi być nieparzysta
       required: musi istnieć
       taken: jest zajęte
+      too_long:
+        one: jest zbyt długie (maksymalnie 1 znak)
+        few: jest zbyt długie (maksymalnie %{count} znaki)
+        many: jest zbyt długie (maksymalnie %{count} znaków)
+        other: jest zbyt długie (maksymalnie %{count} znaków)
+      too_short:
+        one: jest zbyt krótkie (minimalnie 1 znak)
+        few: jest zbyt krótkie (minimalnie %{count} znaki)
+        many: jest zbyt krótkie (minimalnie %{count} znaków)
+        other: jest zbyt krótkie (minimalnie %{count} znaków)
       other_than: musi być inne niż %{count}
     template:
       body: 'Wystąpiły problemy z następującymi polami:'
@@ -147,6 +197,11 @@ pl:
       storage_units:
         format: "%n %u"
         units:
+          byte:
+            one: Bajt
+            few: Bajty
+            many: Bajtów
+            other: Bajtów
           gb: GB
           kb: KB
           mb: MB
