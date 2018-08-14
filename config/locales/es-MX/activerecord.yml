@@ -4,12 +4,18 @@ es-MX:
       activity:
         one: "actividad"
         other: "actividades"
+      budget:
+        one: "Presupuesto"
+        other: "Presupuestos"
       budget/investment:
         one: "Proyecto de inversión"
         other: "Proyectos de inversión"
       budget/investment/milestone:
         one: "hito"
         other: "hitos"
+      budget/investment/status:
+        one: "Estado de inversión"
+        other: "Estados de inversión"
       comment:
         one: "Comentario"
         other: "Comentarios"
@@ -25,6 +31,12 @@ es-MX:
       administrator:
         one: "Administrador"
         other: "Administradores"
+      valuator:
+        one: "Evaluador"
+        other: "Evaluadores"
+      valuator_group:
+        one: "Grupo de evaluadores"
+        other: "Grupos de evaluadores"
       manager:
         one: "Gestor"
         other: "Gestores"
