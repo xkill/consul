@@ -460,3 +460,6 @@ zh-TW:
         title: 有關投票的說明
         description: 公民投票是一種參與機制，藉此擁有投票權的公民可以做出直接決定
       no_polls: "沒有開放的投票"
+    show:
+      stats:
+        total_votes: "投票總數"
