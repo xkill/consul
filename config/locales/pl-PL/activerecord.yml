@@ -1,5 +1,46 @@
 pl:
   activerecord:
+    models:
+      budget/investment:
+        one: "Inwestycja"
+        few: "Inwestycje"
+        many: "Inwestycji"
+        other: "Inwestycji"
+      budget/investment/milestone:
+        one: "kamień milowy"
+        few: "kamienie milowe"
+        many: "kamieni milowych"
+        other: "kamieni milowych"
+      budget/investment/status:
+        one: "Etap inwestycji"
+        few: "Etapy inwestycji"
+        many: "Etapów inwestycji"
+        other: "Etapów inwestycji"
+      comment:
+        one: "Komentarz"
+        few: "Komentarze"
+        many: "Komentarzy"
+        other: "Komentarzy"
+      debate:
+        one: "Debata"
+        few: "Debaty"
+        many: "Debat"
+        other: "Debat"
+      tag:
+        one: "Znacznik"
+        few: "Znaczniki"
+        many: "Znaczników"
+        other: "Znaczników"
+      user:
+        one: "Użytkownik"
+        few: "Użytkownicy"
+        many: "Użytkowników"
+        other: "Użytkowników"
+      administrator:
+        one: "Administrator"
+        few: "Administratorzy"
+        many: "Administratorów"
+        other: "Administratorów"
     attributes:
       budget:
         description_accepting: "Opis w fazie Akceptowania"
