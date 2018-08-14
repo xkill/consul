@@ -30,6 +30,10 @@ pl:
       - Czwartek
       - Piątek
       - Sobota
+    formats:
+      default: "%d-%m-%Y"
+      long: "%d %B %Y"
+      short: "%d %b"
     month_names:
       - 
       - Styczeń
@@ -51,7 +55,11 @@ pl:
   datetime:
     distance_in_words:
       half_a_minute: pół minuty
+    prompts:
+      second: Sekundy
+      year: Rok
   errors:
+    format: "%{attribute} %{message}"
     messages:
       accepted: musi być zaakceptowane
       blank: nie może być puste
@@ -80,6 +88,8 @@ pl:
     select:
       prompt: Proszę wybrać
     submit:
+      create: Stwórz %{model}
+      submit: Zapisz %{model}
       update: Zaktualizuj %{model}
   number:
     currency:
