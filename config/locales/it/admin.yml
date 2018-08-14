@@ -1,5 +1,7 @@
 it:
   admin:
+    header:
+      title: Amministrazione
     actions:
       hide_author: Nascondi l'autore
       restore: Ripristino
