@@ -46,6 +46,11 @@ pl:
         few: "Newslettery"
         many: "Newsletterów"
         other: "Newsletterów"
+      vote:
+        one: "Głos"
+        few: "Głosy"
+        many: "Głosów"
+        other: "Głosów"
       organization:
         one: "Organizacja"
         few: "Organizacje"
@@ -61,6 +66,41 @@ pl:
         few: "Propozycje obywatelskie"
         many: "Propozycji obywatelskich"
         other: "Propozycji obywatelskich"
+      spending_proposal:
+        one: "Projekt inwestycyjny"
+        few: "Projekty inwestycyjne"
+        many: "Projektów inwestycyjnych"
+        other: "Projektów inwestycyjnych"
+      site_customization/page:
+        one: Niestandardowa strona
+        few: Niestandardowe strony
+        many: Niestandardowych stron
+        other: Niestandardowych stron
+      site_customization/image:
+        one: Niestandardowy obraz
+        few: Niestandardowe obrazy
+        many: Niestandardowych obrazów
+        other: Niestandardowych obrazów
+      site_customization/content_block:
+        one: Niestandardowy blok
+        few: Niestandardowe bloki
+        many: Niestandardowych bloków
+        other: Niestandardowych bloków
+      legislation/process:
+        one: "Proces"
+        few: "Procesy"
+        many: "Procesów"
+        other: "Procesów"
+      legislation/draft_versions:
+        one: "Wersja robocza"
+        few: "Wersje robocze"
+        many: "Wersji roboczych"
+        other: "Wersji roboczych"
+      legislation/draft_texts:
+        one: "Projekt"
+        few: "Projekty"
+        many: "Projektów"
+        other: "Projektów"
     attributes:
       budget:
         description_accepting: "Opis w fazie Akceptowania"
