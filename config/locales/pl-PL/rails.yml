@@ -1,7 +1,7 @@
 pl:
   date:
     abbr_day_names:
-      - Słońce
+      - "N"
       - Pon
       - Wt
       - Śr
@@ -155,9 +155,19 @@ pl:
         few: jest zbyt krótkie (minimalnie %{count} znaki)
         many: jest zbyt krótkie (minimalnie %{count} znaków)
         other: jest zbyt krótkie (minimalnie %{count} znaków)
+      wrong_length:
+        one: jest złej długości (powinno zawierać 1 znak)
+        few: jest złej długości (powinno zawierać %{count} znaki)
+        many: jest złej długości (powinno zawierać %{count} znaków)
+        other: jest złej długości (powinno zawierać %{count} znaków)
       other_than: musi być inne niż %{count}
     template:
       body: 'Wystąpiły problemy z następującymi polami:'
+      header:
+        one: 1 błąd uniemożliwił zapis tego %{model}
+        few: "%{count} błędy uniemożliwiły zapis tego %{model}"
+        many: "%{count} błędów uniemożliwiło zapis tego %{model}"
+        other: "%{count} błędów uniemożliwiło zapis tego %{model}"
   helpers:
     select:
       prompt: Proszę wybrać
