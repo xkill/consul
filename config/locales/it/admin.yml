@@ -9,8 +9,11 @@ it:
       hide: Nascondi
       hide_author: Nascondi l'autore
       restore: Ripristino
+      mark_featured: In primo piano
       unmark_featured: Deselezionare 'in primo piano'
+      edit: Modificare
       configure: Configurare
+      delete: Eliminare
     banners:
       index:
         title: Banner
@@ -18,13 +21,34 @@ it:
         edit: Modifica il banner
         delete: Elimina il banner
         filters:
+          all: Tutti
           with_active: Attivo
           with_inactive: Inattivo
         preview: Anteprima
       banner:
+        title: Titolo
+        description: Descrizione
         target_url: Link
         post_started_at: Post iniziato alle
         post_ended_at: Post terminato alle
+        sections_label: Sezioni in cui apparirà
+        sections:
+          homepage: Homepage
+          debates: Dibattiti
+          proposals: Proposte
+          budgets: Bilancio partecipativo
+          help_page: Guida
+        background_color: Colore sfondo
+        font_color: Colore caratteri
+      edit:
+        editing: Modificare il banner
+        form:
+          submit_button: Salvare le modifiche
+      errors:
+        form:
+          error:
+            one: "errore ha impedito il salvataggio di questo banner"
+            other: "errori hanno impedito il salvataggio di questo banner"
     activity:
       show:
         action: Azione
