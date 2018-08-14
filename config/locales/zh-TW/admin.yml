@@ -748,37 +748,37 @@ zh-TW:
         delete: 刪除職位
         name: 名字
         email: 電郵
-        entry_name: 官員
+        entry_name: 職員
       search:
         email_placeholder: 通過電郵搜尋用戶
         search: 搜尋
         user_not_found: 未找到用戶
     poll_officer_assignments:
       index:
-        officers_title: "官員名單"
-        no_officers: "沒有分配給此項民意調查的官員。"
+        officers_title: "職員名單"
+        no_officers: "沒有分配給此投票項的職員。"
         table_name: "名字"
         table_email: "電郵"
       by_officer:
         date: "日期"
         booth: "投票亭"
-        assignments: "這項民意調查的主要轉變"
-        no_assignments: "此用戶在這項民意調查中沒有主要轉變。"
+        assignments: "此投票項的職員輪班"
+        no_assignments: "此用戶並不在此投票項的職員輪班中。"
     poll_shifts:
       new:
         add_shift: "添加轉變"
         shift: "分配"
-        shifts: "此投票亭的轉變"
+        shifts: "此投票亭的輪班"
         date: "日期"
         task: "任務"
         edit_shifts: 編輯轉變
         new_shift: "新轉變"
-        no_shifts: "此投票亭沒有轉變"
-        officer: "官員"
+        no_shifts: "此投票亭沒有輪班"
+        officer: "職員"
         remove_shift: "刪除"
         search_officer_button: 搜尋
         search_officer_placeholder: 搜尋員
-        search_officer_text: 尋找一個官員來分配新轉變
+        search_officer_text: 尋找一個職員來分配新輪班
         select_date: "選擇日期"
         no_voting_days: "投票日結束"
         select_task: "選擇任務"
@@ -794,7 +794,7 @@ zh-TW:
     booth_assignments:
       manage_assignments: 管理分配
       manage:
-        assignments_list: "民意調查 \"%{poll}\" 的分配"
+        assignments_list: "投票\"%{poll}\" 的分配"
         status:
           assign_status: 分配
           assigned: 已分配
@@ -804,16 +804,16 @@ zh-TW:
           unassign: 取消分配投票亭
     poll_booth_assignments:
       alert:
-        shifts: "此投票亭有相關的轉變。如果您刪除投票亭分配, 這些轉變也將被刪除。您要繼續嗎？"
+        shifts: "此投票亭有相關的輪班。如果您刪除投票亭分配, 這些輪班也將被刪除。您要繼續嗎？"
       flash:
         destroy: "投票亭不再被分配"
         create: "投票亭已被分配"
         error_destroy: "刪除投票亭分配時出錯"
-        error_create: "將投票亭分配到民意調查時出錯"
+        error_create: "為投票項分配投票亭時出錯"
       show:
         location: "位置"
-        officers: "官員"
-        officers_list: "此投票亭的官員名單"
+        officers: "職員"
+        officers_list: "此投票亭的職員名單"
         no_officers: "此投票亭沒有官員"
         recounts: "重新計票"
         recounts_list: "此投票亭的重新計票清單"
@@ -824,46 +824,46 @@ zh-TW:
         total_system: 總投票數 (自動)
       index:
         booths_title: "投票亭清單"
-        no_booths: "沒有分配給此民意調查的投票亭。"
+        no_booths: "沒有分配給此投票項的投票亭。"
         table_name: "名字"
         table_location: "位置"
     polls:
       index:
-        title: "活躍民意調查清單"
-        no_polls: "目前沒有民意調查。"
-        create: "創建民意調查"
+        title: "活躍投票清單"
+        no_polls: "目前沒有投票項。"
+        create: "創建投票項"
         name: "名字"
         dates: "日期"
         geozone_restricted: "限於區內"
       new:
-        title: "新民意調查"
+        title: "新投票項"
         show_results_and_stats: "顯示結果和統計資訊"
         show_results: "顯示結果"
         show_stats: "顯示統計資訊"
-        results_and_stats_reminder: "標記這些複選框可以公開獲得此民意調查的結果和/或統計資訊，每個用戶都會看到它們。"
-        submit_button: "創建民意調查"
+        results_and_stats_reminder: "標記這些複選框可以公開獲得此投票項的結果和/或統計資訊，每個用戶都會看到它們。"
+        submit_button: "創建投票項"
       edit:
-        title: "編輯民意調查"
-        submit_button: "更新民意調查"
+        title: "編輯投票項"
+        submit_button: "更新投票項"
       show:
         questions_tab: 問題
         booths_tab: 投票亭
-        officers_tab: 官員
+        officers_tab: 職員
         recounts_tab: 重新計票
         results_tab: 結果
-        no_questions: "沒有分配給此民意調查的問題。"
+        no_questions: "此投票項沒有穫分配的問題。"
         questions_title: "問題清單"
         table_title: "標題"
       flash:
-        question_added: "此民意調查中添加的問題"
-        error_on_question_added: "無法將問題分配給此民意調查"
+        question_added: "此投票項中添加的問題"
+        error_on_question_added: "無法將問題分配給此投票項"
     questions:
       index:
         title: "問題"
         create: "創建問題"
         no_questions: "這裡沒有問題。"
-        filter_poll: 按民意調查篩選
-        select_poll: 選擇民意調查
+        filter_poll: 按投票項篩選
+        select_poll: 選擇投票項
         questions_tab: "問題"
         successful_proposals_tab: "成功的建議"
         create_question: "創建問題"
@@ -873,7 +873,7 @@ zh-TW:
         title: "編輯問題"
       new:
         title: "創建問題"
-        poll_label: "民意調查"
+        poll_label: "投票"
       answers:
         images:
           add_image: "添加圖像"
@@ -943,7 +943,7 @@ zh-TW:
     booths:
       index:
         title: "活躍投票亭清單"
-        no_booths: "任何即將進行的民意調查都沒有活躍投票亭。"
+        no_booths: "任何即將進行的投票項都沒有活躍投票亭。"
         add_booth: "添加投票亭"
         name: "名稱"
         location: "位置"
@@ -1065,10 +1065,10 @@ zh-TW:
         placeholder: 按名稱搜尋投票亭
       poll_officers_search:
         button: 搜尋
-        placeholder: 搜尋民意調查員
+        placeholder: 搜尋投票站職員
       poll_questions_search:
         button: 搜尋
-        placeholder: 搜尋民意調查問題
+        placeholder: 搜尋投票項問題
       proposal_search:
         button: 搜尋
         placeholder: 按標題，代碼，描述或問題來搜尋建議
@@ -1223,7 +1223,7 @@ zh-TW:
         direct_messages: 直接消息
         proposal_notifications: 建議通知
         incomplete_verifications: 不完全核實
-        polls: 民意調查
+        polls: 投票
       direct_messages:
         title: 直接消息
         total: 總
@@ -1233,8 +1233,8 @@ zh-TW:
         total: 總
         proposals_with_notifications: 有發通知的建議
       polls:
-        title: 民意調查統計
-        all: 民意調查
+        title: 投票統計
+        all: 投票
         web_participants: 網絡參與者
         total_participants: 參與者總數
         poll_questions: "投票中所設的問題: %{poll}"
