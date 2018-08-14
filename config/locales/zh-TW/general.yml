@@ -461,5 +461,35 @@ zh-TW:
         description: 公民投票是一種參與機制，藉此擁有投票權的公民可以做出直接決定
       no_polls: "沒有開放的投票"
     show:
+      already_voted_in_booth: "您已經在實體投票亭參與了。 你不能再次參與。"
+      already_voted_in_web: "您已經參與此投票項。 如果再次投票的話，前票將被覆蓋。"
+      back: 返回投票
+      cant_answer_not_logged_in: "您必須%{signin} 或%{signup} 才能參與。"
+      comments_tab: 評論
+      login_to_comment: 您必須%{signin} 或%{signup} 才能留下評論。
+      signin: 登錄
+      signup: 登記
+      cant_answer_verify_html: "您必須%{verify_link} 才能回答。"
+      verify_link: "核實您的帳戶"
+      cant_answer_incoming: "此投票項尚未開始。"
+      cant_answer_expired: "此投票項已結束。"
+      cant_answer_wrong_geozone: "此問題並不適用於您的地理區域。"
+      more_info_title: "更多資訊"
+      documents: 文檔
+      zoom_plus: 展開圖片
+      read_more: "閱讀更多關於%{answer}"
+      read_less: "閱讀更少關於%{answer}"
+      videos: "外部視頻"
+      info_menu: "資訊"
+      stats_menu: "參與量的統計"
+      results_menu: "投票結果"
       stats:
+        title: "參與量的數據"
+        total_participation: "總參與量"
         total_votes: "投票總數"
+        votes: "投票"
+        web: "網絡"
+        booth: "投票亭"
+        total: "總數"
+        valid: "有效"
+        white: "白票"
