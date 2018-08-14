@@ -493,3 +493,36 @@ zh-TW:
         total: "總數"
         valid: "有效"
         white: "白票"
+        null_votes: "無效"
+      results:
+        title: "問題"
+  poll_questions:
+    create_question: "創建問題"
+    show:
+      vote_answer: "投票%{answer}"
+      voted: "您已投票%{answer}"
+      voted_token: "您可以寫下此投票識別符號，以便在最終結果中檢查您的投票："
+  proposal_notifications:
+    new:
+      title: "發送消息"
+      title_label: "標題"
+      body_label: "消息"
+      submit_button: "發送消息"
+      info_about_receivers_html: "此消息將發送給<strong>%{count} 個人</strong>，它將顯示在%{proposal_page} 中。<br>消息不會立即發送，用戶將定期收到包含所有建議通知的電子郵件。"
+      proposal_page: "建議的頁面"
+    show:
+      back: "回到我的活動"
+  shared:
+    edit: '編輯'
+    save: '儲存'
+    delete: 刪除
+    "yes": "是"
+    "no": "否"
+    search_results: "搜尋結果"
+    advanced_search:
+      author_type: '按作者類別'
+      author_type_blank: '選擇一個類別'
+      date: '按日期'
+      date_placeholder: '日日/月月/年年年年'
+      date_range_blank: '選擇一個日期'
+      date_1: '過去24小時'
