@@ -640,6 +640,13 @@ zh-TW:
         feasibility: 可行性
         unfeasible: 不可行
       start_spending_proposal: 創建一個投資項目
+    new:
+      more_info: 參與性預算如何運作？
+      recommendation_one: 建議必須提及的一個可預算的行動。
+      recommendation_three: 在描述您的開支建議時，嘗試詳細說明，以便審查小組能明白您的觀點。
+      recommendation_two: 任何暗示非法行為的建議或評論都將被刪除。
+      recommendations_title: 如何創建一個開支建議
+      start_new: 創建開支建議
     show:
       author_deleted: 用戶已刪除
       code: '建議編號：'
