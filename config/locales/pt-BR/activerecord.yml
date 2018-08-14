@@ -13,6 +13,9 @@ pt-BR:
       budget/investment/milestone:
         one: "Marco"
         other: "Marcos"
+      budget/investment/status:
+        one: "Status de investimento"
+        other: "Status dos investimentos"
       comment:
         one: "Comentário"
         other: "Comentários"
@@ -118,6 +121,7 @@ pt-BR:
         publication_date: "Data de publicação"
       budget/investment/status:
         name: "Nome"
+        description: "Descrição (opcional)"
       budget/heading:
         name: "Título"
         price: "Preço"
@@ -237,6 +241,9 @@ pt-BR:
       widget/card:
         title: Título
         description: Descrição
+        link_url: URL do link
+      widget/feed:
+        limit: Número de itens
     errors:
       models:
         user:
@@ -257,6 +264,10 @@ pt-BR:
               min_image_width: "Largura da imagem deve ser pelo menos %{required_min_width}px"
               min_image_height: "Altura da imagem deve ser pelo menos %{required_min_height}px"
         newsletter:
+          attributes:
+            segment_recipient:
+              invalid: "O segmento de destinatários do usuário é inválido"
+        admin_notification:
           attributes:
             segment_recipient:
               invalid: "O segmento de destinatários do usuário é inválido"
