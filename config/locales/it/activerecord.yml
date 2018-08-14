@@ -10,6 +10,9 @@ it:
       budget/investment:
         one: "Investimento"
         other: "Investimenti"
+      budget/investment/status:
+        one: "Stato dell’investimento"
+        other: "Stato degli investimenti"
       comment:
         one: "Commento"
         other: "Commenti"
@@ -28,6 +31,9 @@ it:
       administrator:
         one: "Amministratore"
         other: "Amministratori"
+      valuator:
+        one: "Valutatore"
+        other: "Valutatore"
       manager:
         one: "Gestore"
         other: "Gestori"
