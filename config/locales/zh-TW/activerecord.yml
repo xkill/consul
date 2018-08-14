@@ -36,9 +36,9 @@ zh-TW:
       organization:
         other: "組織"
       poll/booth:
-        other: "攤位"
+        other: "投票亭"
       poll/officer:
-        other: "人員"
+        other: "職員"
       proposal:
         other: "公民提議"
       spending_proposal:
@@ -68,7 +68,7 @@ zh-TW:
       topic:
         other: "主題"
       poll:
-        other: "民意調查"
+        other: "投票"
       proposal_notification:
         other: "提議通知"
     attributes:
