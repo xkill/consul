@@ -6,10 +6,13 @@ it:
         other: "attività"
       budget:
         one: "Bilancio"
-        other: "Bilancio"
+        other: "Bilanci"
       budget/investment:
         one: "Investimento"
         other: "Investimenti"
+      budget/investment/milestone:
+        one: "traguardo"
+        other: "traguardi"
       budget/investment/status:
         one: "Stato dell’investimento"
         other: "Stato degli investimenti"
@@ -70,6 +73,9 @@ it:
       site_customization/content_block:
         one: Blocco di contenuto personalizzato
         other: Blocchi di contenuto personalizzato
+      legislation/process:
+        one: "Processo"
+        other: "Processi"
       legislation/draft_versions:
         one: "Versione in bozza"
         other: "Versioni in bozza"
