@@ -101,6 +101,36 @@ pl:
         few: "Projekty"
         many: "Projektów"
         other: "Projektów"
+      legislation/questions:
+        one: "Pytanie"
+        few: "Pytania"
+        many: "Pytań"
+        other: "Pytań"
+      legislation/question_options:
+        one: "Opcja pytania"
+        few: "Opcje pytania"
+        many: "Opcji pytania"
+        other: "Opcji pytania"
+      legislation/answers:
+        one: "Odpowiedź"
+        few: "Odpowiedzi"
+        many: "Odpowiedzi"
+        other: "Odpowiedzi"
+      documents:
+        one: "Dokument"
+        few: "Dokumenty"
+        many: "Dokumentów"
+        other: "Dokumentów"
+      images:
+        one: "Obraz"
+        few: "Obrazy"
+        many: "Obrazów"
+        other: "Obrazów"
+      topic:
+        one: "Temat"
+        few: "Tematy"
+        many: "Tematów"
+        other: "Tematów"
     attributes:
       budget:
         description_accepting: "Opis w fazie Akceptowania"
