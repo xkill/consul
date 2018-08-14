@@ -256,6 +256,7 @@ pt-BR:
         label: Protocolo (opcional)
         title: Título
         description: Descrição
+        link_text: Texto do link
         link_url: URL do link
       widget/feed:
         limit: Número de itens
