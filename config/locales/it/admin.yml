@@ -49,22 +49,38 @@ it:
           error:
             one: "errore ha impedito il salvataggio di questo banner"
             other: "errori hanno impedito il salvataggio di questo banner"
+      new:
+        creating: Creare il banner
     activity:
       show:
         action: Azione
         actions:
+          block: Bloccato
           hide: Nascosto
           restore: Ripristinato
         by: Moderato da
+        content: Contenuto
+        filter: Mostra
         filters:
+          all: Tutti
+          on_comments: Commenti
+          on_debates: Dibattiti
+          on_proposals: Proposte
           on_users: Utenti
+          on_system_emails: Email di sistema
         title: Attività del moderatore
         type: Tipo
+        no_activity: Non c’è alcuna attività dei moderatori.
     budgets:
       index:
+        title: Bilanci partecipativi
         new_link: Creare un nuovo bilancio
+        budget_investments: Gestire i progetti
+        table_name: Nome
+        table_phase: Fase
         table_investments: Investimenti
         table_edit_groups: Gruppi di intestazioni
+        table_edit_budget: Modificare
         edit_groups: Modificare i gruppi di intestazioni
         edit_budget: Modifica il budget
       create:
@@ -73,6 +89,9 @@ it:
         notice: Bilancio partecipativo aggiornato con successo
       edit:
         title: Modificare il bilancio partecipativo
+        delete: Elimina budget
+        phase: Fase
+        dates: Date
       new:
         title: Nuovo bilancio partecipativo
       form:
