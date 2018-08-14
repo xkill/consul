@@ -325,3 +325,6 @@ it:
               cannot_comment_valuation: 'Non si può commentare una valutazione'
       messages:
         record_invalid: "Convalida non riuscita: %{errors}"
+        restrict_dependent_destroy:
+          has_one: "Non è possibile eliminare il documento perché esiste un %{record} subordinato"
+          has_many: "Non è possibile eliminare il documento perché esiste il %{record} subordinato"
