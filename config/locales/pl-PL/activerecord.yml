@@ -39,7 +39,7 @@ pl:
         signature:
           attributes:
             document_number:
-              not_in_census: 'Niezweryfikowane przez Census'
+              not_in_census: 'Niezweryfikowane z rejestrem mieszkańców'
         site_customization/image:
           attributes:
             image:
