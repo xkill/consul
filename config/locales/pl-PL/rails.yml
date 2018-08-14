@@ -55,11 +55,26 @@ pl:
   datetime:
     distance_in_words:
       about_x_hours:
-        one: około 1 godzina
-        few: około %{count} godziny
+        one: około 1 godziny
+        few: około %{count} godzin
         many: około %{count} godzin
         other: około %{count} godzin
+      about_x_months:
+        one: około 1 miesiąca
+        few: około %{count} miesięcy
+        many: około %{count} miesięcy
+        other: około %{count} miesięcy
+      about_x_years:
+        one: około 1 roku
+        few: około %{count} lat
+        many: około %{count} lat
+        other: około %{count} lat
       half_a_minute: pół minuty
+      over_x_years:
+        one: ponad 1 rok
+        few: ponad %{count} lata
+        many: ponad %{count} lat
+        other: ponad %{count} lat
     prompts:
       day: Dzień
       hour: Godzina
