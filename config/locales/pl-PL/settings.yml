@@ -1,1 +1,4 @@
 pl:
+  settings:
+    comments_body_max_length: "Max długość pola komentarza"
+    comments_body_max_length_description: "W liczbie znaków"
