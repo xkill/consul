@@ -496,6 +496,7 @@ zh-TW:
         null_votes: "無效"
       results:
         title: "問題"
+        most_voted_answer: "得最多投票的答案： "
   poll_questions:
     create_question: "創建問題"
     show:
@@ -526,3 +527,35 @@ zh-TW:
       date_placeholder: '日日/月月/年年年年'
       date_range_blank: '選擇一個日期'
       date_1: '過去24小時'
+      date_2: '上個星期'
+      date_3: '上個月'
+      date_4: '去年'
+      date_5: '已自定'
+      from: '從'
+      general: '隨著文本'
+      general_placeholder: '編寫文本'
+      search: '篩選器'
+      title: '進階搜尋'
+      to: '到'
+    author_info:
+      author_deleted: 用戶已刪除
+    back: 返回
+    check: 選擇
+    check_all: 所有
+    check_none: 無
+    collective: 集體
+    flag: 標記為不適當
+    follow: "跟隨"
+    following: "跟隨中"
+    follow_entity: "跟隨%{entity}"
+    followable:
+      budget_investment:
+        create:
+          notice_html: "您現在正在跟隨此投資項目！ </br>出現更改時，我們會通知您，以便您了解最新動態。"
+        destroy:
+          notice_html: "您已經停止了跟隨此投資項目！ </br>您將不會再收到與此項目相關的通知。"
+      proposal:
+        create:
+          notice_html: "現在您正在跟隨此公民建議！ </br>出現更改時，我們會通知您，以便您了解最新動態。"
+        destroy:
+          notice_html: "您已停止跟隨此公民建議！ </br>您將不會再收到與此建議相關的通知。"
