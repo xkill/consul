@@ -638,3 +638,9 @@ zh-TW:
       sidebar:
         geozones: 經營範圍
         feasibility: 可行性
+        unfeasible: 不可行
+      start_spending_proposal: 創建一個投資項目
+    show:
+      author_deleted: 用戶已刪除
+      code: '建議編號：'
+      share: 分享
