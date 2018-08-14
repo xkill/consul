@@ -33,10 +33,16 @@ it:
         other: "Amministratori"
       valuator:
         one: "Valutatore"
-        other: "Valutatore"
+        other: "Valutatori"
+      valuator_group:
+        one: "Gruppo di valutazione"
+        other: "Gruppi di valutazione"
       manager:
         one: "Gestore"
         other: "Gestori"
+      newsletter:
+        one: "Newsletter"
+        other: "Newsletter"
       vote:
         one: "Voto"
         other: "Voti"
@@ -52,6 +58,9 @@ it:
       proposal:
         one: "Proposta cittadina"
         other: "Proposte cittadine"
+      spending_proposal:
+        one: "Progetto d’investimento"
+        other: "Progetti d’investimento"
       site_customization/page:
         one: Pagina personalizzata
         other: Pagine personalizzate
@@ -88,6 +97,9 @@ it:
       poll:
         one: "Sondaggio"
         other: "Sondaggi"
+      proposal_notification:
+        one: "Notifica di proposta"
+        other: "Notifiche di proposta"
     attributes:
       budget:
         name: "Nome"
@@ -107,6 +119,17 @@ it:
         external_url: "Link alla documentazione addizionale"
         administrator_id: "Amministratore"
         location: "Posizione (facoltativo)"
+        organization_name: "Se presenti una proposta a nome di un collettivo o di un’organizzazione, ovvero per conto di più persone, indicane il nome"
+        image: "Immagine descrittiva della proposta"
+        image_title: "Titolo dell’immagine"
+      budget/investment/milestone:
+        status_id: "Stato attuale dell’investimento (facoltativo)"
+        title: "Titolo"
+        description: "Descrizione (facoltativa sé c’è gia uno stato assegnato)"
+        publication_date: "Data di pubblicazione"
+      budget/investment/status:
+        name: "Nome"
+        description: "Descrizione (facoltativa)"
       comment:
         user: "Utente"
       debate:
