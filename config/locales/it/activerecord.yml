@@ -190,16 +190,22 @@ it:
         created_at: Creato a
         subtitle: Sottotitolo
         status: Stato
+        title: Titolo
         updated_at: Aggiornato a
+        more_info_flag: Visualizza nella guida
         print_content_flag: Bottone di stampa
         locale: Lingua
       site_customization/image:
+        name: Nome
         image: Immagine
       site_customization/content_block:
+        name: Nome
         locale: Lingua
         body: Testo
       legislation/process:
         title: Titolo del processo
+        summary: Riepilogo
+        description: Descrizione
         additional_info: Ulteriori info
         start_date: Data di inizio
         end_date: Data di fine
@@ -211,11 +217,40 @@ it:
         title: Titolo della versione
         body: Testo
         changelog: Modifiche
+        status: Stato
         final_version: Versione finale
       legislation/question:
+        title: Titolo
         question_options: Opzioni
       legislation/question_option:
         value: Valore
+      legislation/annotation:
+        text: Commento
+      document:
+        title: Titolo
+        attachment: Allegato
+      image:
+        title: Titolo
+        attachment: Allegato
+      poll/question/answer:
+        title: Risposta
+        description: Descrizione
+      poll/question/answer/video:
+        title: Titolo
+        url: Video esterno
+      newsletter:
+        segment_recipient: Destinatari
+        subject: Oggetto
+        from: Da
+        body: Contenuto dell’email
+      widget/card:
+        label: Etichetta (facoltativa)
+        title: Titolo
+        description: Descrizione
+        link_text: Testo del link
+        link_url: URL del link
+      widget/feed:
+        limit: Numero di elementi
     errors:
       models:
         user:
@@ -230,6 +265,11 @@ it:
           attributes:
             max_per_day:
               invalid: "Hai raggiunto il numero massimo di messaggi privati giornalieri"
+        image:
+          attributes:
+            attachment:
+              min_image_width: "La Larghezza dell’immagine dev’essere pari ad almeno %{required_min_width}px"
+              min_image_height: "L’altezza dell’immagine dev’essere pari ad almeno %{required_min_height}px"
         poll/voter:
           attributes:
             document_number:
