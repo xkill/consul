@@ -41,6 +41,26 @@ pl:
         few: "Administratorzy"
         many: "Administratorów"
         other: "Administratorów"
+      newsletter:
+        one: "Newsletter"
+        few: "Newslettery"
+        many: "Newsletterów"
+        other: "Newsletterów"
+      organization:
+        one: "Organizacja"
+        few: "Organizacje"
+        many: "Organizacji"
+        other: "Organizacji"
+      poll/booth:
+        one: "kabina wyborcza"
+        few: "kabiny wyborcze"
+        many: "kabin wyborczych"
+        other: "kabin wyborczych"
+      proposal:
+        one: "Propozycje obywatelskie"
+        few: "Propozycje obywatelskie"
+        many: "Propozycji obywatelskich"
+        other: "Propozycji obywatelskich"
     attributes:
       budget:
         description_accepting: "Opis w fazie Akceptowania"
