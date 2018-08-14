@@ -412,3 +412,4 @@ zh-TW:
       successful: "此建議已得到所需的支持。"
     show:
       author_deleted: 用戶已刪除
+      code: '建議編號：'
