@@ -414,12 +414,26 @@ zh-TW:
       author_deleted: 用戶已刪除
       code: '建議編號：'
   polls:
+    all: "所有"
+    no_dates: "未分配日期"
+    dates: "從%{open_at} 到%{closed_at}"
+    final_date: "最終驗票/結果"
     index:
+      filters:
+        current: "開"
+        incoming: "傳入"
+        expired: "已過期"
       title: "投票"
       participate_button: "參與此投票"
+      participate_button_incoming: "更多資訊"
       participate_button_expired: "投票結束"
+      no_geozone_restricted: "所有城市"
+      geozone_restricted: "地區"
+      geozone_info: "人口普查的人可以參與： "
       already_answer: "您已參與此投票"
       section_header:
+        icon_alt: 投票圖示
+        title: 投票中
         help: 有關投票的說明
       section_footer:
         title: 有關投票的說明
