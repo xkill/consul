@@ -3,6 +3,7 @@ it:
     header:
       title: Amministrazione
     actions:
+      actions: Azioni
       hide_author: Nascondi l'autore
       restore: Ripristino
       unmark_featured: Deselezionare 'in primo piano'
