@@ -130,30 +130,57 @@ it:
       budget/investment/status:
         name: "Nome"
         description: "Descrizione (facoltativa)"
+      budget/heading:
+        name: "Intestazione"
+        price: "Prezzo"
+        population: "Popolazione"
       comment:
+        body: "Commento"
         user: "Utente"
       debate:
         author: "Autore"
         description: "Opinione"
         terms_of_service: "Termini di servizio"
+        title: "Titolo"
       proposal:
+        author: "Autore"
+        title: "Titolo"
         question: "Domanda"
+        description: "Descrizione"
+        terms_of_service: "Termini di servizio"
       user:
+        login: "Email o username"
+        email: "Email"
+        username: "Username"
         password_confirmation: "Conferma password"
+        password: "Password"
+        current_password: "Password attuale"
+        phone_number: "Numero di telefono"
         official_position: "Incarico ufficiale"
         official_level: "Livello dell'incarico"
         redeemable_code: "Il codice di verifica che hai ricevuto via email"
       organization:
+        name: "Nome dell’organizzazione"
         responsible_name: "La persona responsabile per l'organzzazione"
       spending_proposal:
+        administrator_id: "Amministratore"
         association_name: "Nome Associazione"
+        description: "Descrizione"
+        external_url: "Link alla documentazione integrativa"
         geozone_id: "Zona di attuazione"
+        title: "Titolo"
       poll:
+        name: "Nome"
         starts_at: "Data inizio"
         ends_at: "Data chiusura"
         geozone_restricted: "Ristretto alla zona geografica"
+        summary: "Riepilogo"
+        description: "Descrizione"
       poll/question:
+        title: "Domanda"
         summary: "Sommario"
+        description: "Descrizione"
+        external_url: "Link alla documentazione integrativa"
       signature_sheet:
         signable_type: "Tipo Foglio firme"
         signable_id: "ID Proposta"
