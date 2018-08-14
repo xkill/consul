@@ -651,3 +651,64 @@ zh-TW:
       author_deleted: 用戶已刪除
       code: '建議編號：'
       share: 分享
+    wrong_price_format: 只供整數
+    spending_proposal:
+      spending_proposal: 投資項目
+      already_supported: 你已經支持此項目。 把它分享吧！
+      support: 支持
+      support_title: 支持此項目
+      supports:
+        zero: 沒有支持
+        other: "%{count} 個支持"
+  stats:
+    index:
+      visits: 訪問
+      debates: 辯論
+      proposals: 建議
+      comments: 評論
+      proposal_votes: 對建議的投票數
+      debate_votes: 對辯論的投票數
+      comment_votes: 對評論的投票數
+      votes: 總投票數
+      verified_users: 已核實的用戶
+      unverified_users: 未核實的用戶
+  unauthorized:
+    default: 您沒有權限訪問此頁面。
+    manage:
+      all: "您沒有權限在%{subject} 上執行操作'%{action}'。"
+  users:
+    direct_messages:
+      new:
+        body_label: 消息
+        direct_messages_bloqued: "此用戶已決定不接收直接消息"
+        submit_button: 發送消息
+        title: 將私人消息發送到%{receiver}
+        title_label: 標題
+        verified_only: 要發送私人消息%{verify_account}
+        verify_account: 核實您的帳戶
+        authenticate: 您必須%{signin} 或%{signup} 才能繼續。
+        signin: 登錄
+        signup: 登記
+      show:
+        receiver: 消息已發送到%{receiver}
+    show:
+      deleted: 已刪除
+      deleted_debate: 此辯論已被刪除
+      deleted_proposal: 此建議已被刪除
+      deleted_budget_investment: 此投資項目已被刪除
+      proposals: 建議
+      debates: 辯論
+      budget_investments: 預算投資
+      comments: 評論
+      actions: 行動
+      filters:
+        comments:
+          other: "%{count} 個評論"
+        debates:
+          other: "%{count} 個辯論"
+        proposals:
+          other: "%{count} 個建議"
+        budget_investments:
+          other: "%{count} 個投資"
+        follows:
+          other: "%{count} 個跟隨中"
