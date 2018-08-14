@@ -193,6 +193,7 @@ zh-TW:
       ie: 我們檢測到您正在使用Internet Explorer來瀏覽。 為了增強體驗，我們建議您使用%{firefox} 或%{chrome}。
       ie_title: 此網站沒有為您的瀏覽器優化
     footer:
+      accessibility: 存取性
       conditions: 使用條款及條件
       consul: CONSUL 應用程式
       consul_url: https://github.com/consul/consul
@@ -350,3 +351,38 @@ zh-TW:
       retired_proposals_link: "建議已被作者撤回"
       retired_links:
         all: 所有
+        duplicated: 已重複
+        started: 進行中
+        unfeasible: 不可行
+        done: 完成
+        other: 其他
+      search_form:
+        button: 搜尋
+        placeholder: 搜尋建議...
+        title: 搜尋
+      search_results_html:
+        other: " 包含術語<strong>'%{search_term}'</strong>"
+      select_order: 排序依據
+      select_order_long: '您正在查看的建議是依據：'
+      start_proposal: 創建一個建議
+      title: 建議
+      top: 每週熱門
+      top_link_proposals: 按類別，得支持最多的建議
+      section_header:
+        icon_alt: 建議圖標
+        title: 建議
+        help: 關於建議的說明
+      section_footer:
+        title: 關於建議的說明
+        description: 在得到足夠的支持並通過公民投票後，公民的建議是鄰居和集體直接決定他們希望自己的城市將如何發展的機會。
+    new:
+      form:
+        submit_button: 創建建議
+      more_info: 公民建議是如何運作的？
+      recommendation_one: 不要用大寫字母寫建議標題或整個句子。 在互聯網上，這是被當作為＂叫喊＂。沒有人喜歡被呼喝的。
+      recommendation_three: 享受這片空間和其中充滿的聲音。 這也你的空間。
+      recommendation_two: 任何暗示非法行為、和那些意圖破壞辯論空間的建議或評論都將被刪除。 其餘一切都是允許的。
+      recommendations_title: 創建一個建議的推薦
+      start_new: 創建新建議
+    notice:
+      retired: 建議已被撤回
