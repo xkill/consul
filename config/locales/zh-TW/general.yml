@@ -390,3 +390,25 @@ zh-TW:
       created: "您創建了一個建議！"
       share:
         guide: "現在您可以把它分享，以便人們可以開始支持。"
+        edit: "在分享之前，您可以隨意更改文本。"
+        view_proposal: 不是現在，請轉到我的建議
+      improve_info: "改善您的推廣活動，並獲得更多支持"
+      improve_info_link: "查看更多資訊"
+      already_supported: 您已經支持此建議。 把它分享吧！
+      comments:
+        zero: 沒有評論
+        other: "%{count} 個評論"
+      support: 支持
+      support_title: 支持此建議
+      supports:
+        zero: 沒有支持
+        other: "%{count} 個支持"
+      votes:
+        zero: 沒有投票
+        other: "%{count} 個投票"
+      supports_necessary: "需要%{number} 個支持"
+      total_percent: 100%
+      archived: "此建議已存檔，無法再收集支持。"
+      successful: "此建議已得到所需的支持。"
+    show:
+      author_deleted: 用戶已刪除
