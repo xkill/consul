@@ -270,6 +270,18 @@ it:
             attachment:
               min_image_width: "La Larghezza dell’immagine dev’essere pari ad almeno %{required_min_width}px"
               min_image_height: "L’altezza dell’immagine dev’essere pari ad almeno %{required_min_height}px"
+        newsletter:
+          attributes:
+            segment_recipient:
+              invalid: "Il segmento dei destinatari è errato"
+        admin_notification:
+          attributes:
+            segment_recipient:
+              invalid: "Il segmento dei destinatari è errato"
+        map_location:
+          attributes:
+            map:
+              invalid: La posizione sulla mappa non può essere lasciata in bianco. Posiziona un segnaposto o seleziona l’apposita spunta se la geolocalizzazione non è necessaria
         poll/voter:
           attributes:
             document_number:
@@ -281,6 +293,14 @@ it:
               invalid_date_range: deve essere almeno dalla data di inizio
             debate_end_date:
               invalid_date_range: deve essere almeno dalla data di inizio del dibattio
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "i tag devono essere meno di o uguali a %{count}"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "i tag devono essere meno di o uguali a %{count}"
         proposal_notification:
           attributes:
             minimum_interval:
@@ -299,3 +319,9 @@ it:
             image:
               image_width: "La dimensione deve essere %{required_width}px"
               image_height: "L'altezza deve essere %{required_height}px"
+        comment:
+          attributes:
+            valuation:
+              cannot_comment_valuation: 'Non si può commentare una valutazione'
+      messages:
+        record_invalid: "Convalida non riuscita: %{errors}"
