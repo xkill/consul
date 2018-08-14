@@ -293,13 +293,13 @@ zh-TW:
         submit_button: 儲存更改
       show_link: 查看建議
     retire_form:
-      title: 取消建議
-      warning: "如果您把建議取消，此建議仍能接受支持，但將會從主列表中刪除，並且所有用戶都可以看到一條消息，表明作者認為此建議不應再受支持"
-      retired_reason_label: 把建議取消的原因
+      title: 撤回建議
+      warning: "如果您把建議撤回，此建議仍能接受支持，但將會從主列表中刪除，並且所有用戶都可以看到一條消息，表明作者認為此建議不應再受支持"
+      retired_reason_label: 把建議撤回的原因
       retired_reason_blank: 選擇一個選項
       retired_explanation_label: 解釋
       retired_explanation_placeholder: 簡單地解釋為什麼您認為此提案不應再獲得支持
-      submit_button: 取消建議
+      submit_button: 撤回建議
     retire_options:
       duplicated: 重複
       started: 已在進行中
@@ -346,7 +346,7 @@ zh-TW:
         actions:
           success: "此帳戶現已禁用建議推薦"
           error: "發生錯誤。 請回到“您的帳戶”頁面，手動停用建議推薦"
-      retired_proposals: 已取消建議
-      retired_proposals_link: "建議已被作者取消"
+      retired_proposals: 已撤回建議
+      retired_proposals_link: "建議已被作者撤回"
       retired_links:
         all: 所有
