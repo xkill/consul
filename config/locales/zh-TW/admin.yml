@@ -959,7 +959,7 @@ zh-TW:
       show:
         location: "位置"
       booth:
-        shifts: "管理轉變"
+        shifts: "管理輪班"
         edit: "編輯投票亭"
     officials:
       edit:
