@@ -538,7 +538,7 @@ zh-TW:
       polls: 投票
       poll_booths: 投票亭位置
       poll_booth_assignments: 投票亭分配
-      poll_shifts: 管理轉變
+      poll_shifts: 管理輪班
       officials: 官員
       organizations: 組織
       settings: 全域設置
@@ -766,13 +766,13 @@ zh-TW:
         no_assignments: "此用戶並不在此投票項的職員輪班中。"
     poll_shifts:
       new:
-        add_shift: "添加轉變"
+        add_shift: "添加輪班"
         shift: "分配"
         shifts: "此投票亭的輪班"
         date: "日期"
         task: "任務"
-        edit_shifts: 編輯轉變
-        new_shift: "新轉變"
+        edit_shifts: 編輯輪班
+        new_shift: "新輪班"
         no_shifts: "此投票亭沒有輪班"
         officer: "職員"
         remove_shift: "刪除"
@@ -782,12 +782,12 @@ zh-TW:
         select_date: "選擇日期"
         no_voting_days: "投票日結束"
         select_task: "選擇任務"
-        table_shift: "轉變"
+        table_shift: "輪班"
         table_email: "電郵"
         table_name: "名字"
       flash:
-        create: "轉變已添加"
-        destroy: "轉變已刪除"
+        create: "已添加輪班"
+        destroy: "輪班已刪除"
         date_missing: "必須選擇一個日期"
       vote_collection: 收集選票
       recount_scrutiny: 重新計票和審查
@@ -1237,9 +1237,9 @@ zh-TW:
         all: 投票
         web_participants: 網絡參與者
         total_participants: 參與者總數
-        poll_questions: "投票中所設的問題: %{poll}"
+        poll_questions: "民意調查中的問題: %{poll}"
         table:
-          poll_name: 民意調查
+          poll_name: 投票
           question_name: 問題
           origin_web: 網絡參與者
           origin_total: 參與者總數
