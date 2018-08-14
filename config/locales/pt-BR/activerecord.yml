@@ -34,6 +34,12 @@ pt-BR:
       administrator:
         one: "Administrador"
         other: "Administradores"
+      valuator:
+        one: "Avaliador"
+        other: "Avaliadores"
+      valuator_group:
+        one: "Grupo de avaliação"
+        other: "Grupos de avaliação"
       manager:
         one: "Gerente"
         other: "Gerentes"
@@ -55,6 +61,9 @@ pt-BR:
       proposal:
         one: "Proposta dos cidadãos"
         other: "Propostas dos cidadãos"
+      spending_proposal:
+        one: "Projeto de investimento"
+        other: "Projetos de investimento"
       site_customization/page:
         one: Página personalizada
         other: Páginas personalizadas
@@ -94,6 +103,9 @@ pt-BR:
       poll:
         one: "Votação"
         other: "Votações"
+      proposal_notification:
+        one: "Notificação de proposta"
+        other: "Notificações de proposta"
     attributes:
       budget:
         name: "Nome"
@@ -117,7 +129,9 @@ pt-BR:
         image: "Imagem descritiva da proposta"
         image_title: "Título da imagem"
       budget/investment/milestone:
+        status_id: "Status atual do investimento (opcional)"
         title: "Título"
+        description: "Descrição (opcional, se houver uma condição atribuída)"
         publication_date: "Data de publicação"
       budget/investment/status:
         name: "Nome"
@@ -239,6 +253,7 @@ pt-BR:
         from: De
         body: Conteúdo do e-mail
       widget/card:
+        label: Protocolo (opcional)
         title: Título
         description: Descrição
         link_url: URL do link
