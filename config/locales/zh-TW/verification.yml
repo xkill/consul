@@ -1,1 +1,50 @@
 zh-TW:
+  verification:
+    alert:
+      lock: 您已達到最大的嘗試次數。 請稍後再試。
+    back: 返回我的帳戶
+    email:
+      create:
+        alert:
+          failure: 向您的帳戶發送電郵時出現了問題
+        flash:
+          success: '我們已向您的帳戶發送了一封確認電郵：%{email}'
+      show:
+        alert:
+          failure: 驗證代碼不正確
+        flash:
+          success: 您是已核實的用戶
+    letter:
+      alert:
+        unconfirmed_code: 您尚未輸入確認代碼
+      create:
+        flash:
+          offices: 公民支援辦公室
+          success_html: 感謝您申請<b>最高安全代碼(僅用於最終投票)</b>。 過幾天，我們會將它發送到我們數據存檔中的地址。 請記住，如果您願意，可以到任何%{offices} 領取您的代碼。
+      edit:
+        see_all: 查看建議
+        title: 要求的信函
+      errors:
+        incorrect_code: 驗證代碼不正確
+      new:
+        explanation: '要參與最終投票，您可以：'
+        go_to_index: 查看建議
+        office: 在任何%{office} 中核實
+        offices: 公民支援辦公室
+        send_letter: 給我發一封帶代碼的信
+        title: 恭喜！
+        user_permission_info: 您可以用您的帳戶來...
+      update:
+        flash:
+          success: 代碼正確。 您的帳戶現已被核實
+    redirect_notices:
+      already_verified: 您的帳戶已被核實
+      email_already_sent: 我們已經發送了一封包含確認鏈接的電郵。 如果您找不到該電郵，可以在這裡申請重新發送
+    residence:
+      alert:
+        unconfirmed_residency: 您尚未確認您的居住地
+      create:
+        flash:
+          success: 居住地已核實
+      new:
+        accept_terms_text: 我接受人口普查的%{terms_url}
