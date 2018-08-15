@@ -530,7 +530,7 @@ zh-TW:
       date_2: '上個星期'
       date_3: '上個月'
       date_4: '去年'
-      date_5: '已自定'
+      date_5: '自定'
       from: '從'
       general: '隨著文本'
       general_placeholder: '編寫文本'
@@ -567,7 +567,7 @@ zh-TW:
     suggest:
       debate:
         found:
-          other: "有一些包含'%{query}'詞字的辯論，您可以參與其中，而不用開一個新的。"
+          other: "有一些包含術語'%{query}'的辯論，您可以參與其中，而不用開一個新的。"
         message: "您看到%{count} 個辯論中的%{limit} 個包含'%{query}'一詞"
         see_all: "查看所有"
       budget_investment:
@@ -577,7 +577,7 @@ zh-TW:
         see_all: "查看所有"
       proposal:
         found:
-          other: "有一些包含'%{query}'詞字的建議，您可以為它們做出貢獻，而不用創建新的"
+          other: "有一些包含術語'%{query}'的建議，您可以為它們做出貢獻，而不用創建新的"
         message: "您看到%{count} 個建議中的%{limit} 個包含'%{query}'一詞"
         see_all: "查看所有"
     tags_cloud:
@@ -595,8 +595,8 @@ zh-TW:
     go_to_page: "轉到頁面 "
     share: 分享
     orbit:
-      previous_slide: 上一張圖片
-      next_slide: 下一張圖片
+      previous_slide: 上一張幻燈片
+      next_slide: 下一張幻燈片
     documentation: 額外文檔
     view_mode:
       title: 查看模式
