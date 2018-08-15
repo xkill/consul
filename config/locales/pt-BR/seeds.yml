@@ -1,5 +1,11 @@
 pt-BR:
   seeds:
+    settings:
+      official_level_1_name: Autoridade/Cargo público 1
+      official_level_2_name: Autoridade/Cargo público 2
+      official_level_3_name: Autoridade/Cargo público 3
+      official_level_4_name: Autoridade/Cargo público 4
+      official_level_5_name: Autoridade/Cargo público 5
     geozones:
       north_district: Distrito norte
       west_district: Distrito oeste
