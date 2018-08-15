@@ -37,6 +37,7 @@ pt-BR:
       updated: "Sua senha foi alterada com sucesso. Autenticação bem sucedida."
       updated_not_active: "Sua senha foi alterada com sucesso."
     registrations:
+      destroyed: "Tchau! Sua conta foi cancelada. Esperamos te ver novamente em breve."
       signed_up: "Bem-vindo! Você foi autenticado."
       signed_up_but_inactive: "Seu registro foi bem sucedido, mas você não pode efetuar o login porque sua conta não foi ativada."
       signed_up_but_locked: "Seu registro foi bem sucedido, mas você não pode efetuar o login porque sua conta está bloqueada."
