@@ -16,6 +16,7 @@ pt-BR:
       confirmation_instructions:
         confirm_link: Confirmar minha conta
         text: 'Você pode confirmar a sua conta de email no seguinte link:'
+        title: Bem-vindo
         welcome: Bem-vindo
       reset_password_instructions:
         change_link: Altere minha senha
