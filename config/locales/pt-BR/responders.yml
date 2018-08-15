@@ -29,6 +29,7 @@ pt-BR:
         budget_investment: "Projeto de investimento atualizado com sucesso."
         topic: "Tópico atualizado com êxito."
         valuator_group: "Grupo avaliador atualizado com sucesso"
+        translation: "Tradução atualizada com sucesso"
       destroy:
         spending_proposal: "Proposta de gasto excluída com sucesso."
         budget_investment: "Projeto de investimento excluído com sucesso."
