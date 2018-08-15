@@ -1,1 +1,16 @@
 zh-TW:
+  valuation:
+    header:
+      title: 評估
+    menu:
+      title: 評估
+      budgets: 參與性預算
+      spending_proposals: 開支建議
+    budgets:
+      index:
+        title: 參與性預算
+        filters:
+          current: 開
+          finished: 完成
+        table_name: 名稱
+        table_phase: 階段
