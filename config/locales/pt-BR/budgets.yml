@@ -30,14 +30,18 @@ pt-BR:
         unselected: Ver investimentos não selecionados para a fase de votação
     phase:
       drafting: Rascunho (não visível ao público)
+      informing: Informação
       accepting: Aceite dos projetos
       reviewing: Revendo projetos
       selecting: Seleção dos projetos
       valuating: Avaliação dos projetos
       publishing_prices: Publicação dos preços dos projetos
+      balloting: Votação de projetos
+      reviewing_ballots: Revisão de voto
       finished: Orçamento final
     index:
       title: Orçamentos participativos
+      empty_budgets: Não há orçamentos.
       section_header:
         icon_alt: Ícone dos orçamentos participativos
         title: Orçamentos participativos
@@ -52,6 +56,7 @@ pt-BR:
       see_results: Exibir resultados
       section_footer:
         title: Ajuda com orçamentos participativos
+        description: Com os orçamentos participativos, os cidadãos decidem para quais dos projetos apresentados será destinada uma parte do orçamento municipal.
     investments:
       form:
         tag_category_label: "Categorias"
@@ -62,9 +67,11 @@ pt-BR:
         map_location_instructions: "Navegue no mapa até o local e fixe o marcador."
         map_remove_marker: "Remover o marcador do mapa"
         location: "Informações adicionais de localização"
+        map_skip_checkbox: "Esta proposta não tem uma localização concreta ou não a conheço."
       index:
         title: Orçamento participativo
         unfeasible: Projetos de investimento inviáveis
+        unfeasible_text: "As propostas devem atender a uma série de critérios (legalidade, concretude, ser de responsabilidade da cidade, não exceder o limite do orçamento) para serem declaradas viáveis e chegarem ao estágio de votação final. Todas as propostas que não atendem a esses critérios são marcadas como inviáveis e publicadas na lista a seguir, juntamente com seu relatório de inviabilidade."
         by_heading: "Projetos de investimento com escopo: %{heading}"
         search_form:
           button: Buscar
@@ -113,7 +120,10 @@ pt-BR:
         milestones_tab: Marcos
         no_milestones: Não possui marcos definidos
         milestone_publication_date: "Publicado %{publication_date}"
+        milestone_status_changed: Status de investimento mudado para
         author: Autor
+        project_unfeasible_html: 'Este projeto de investimento <strong>foi marcado como não viável</strong> e não vai à fase de votação.'
+        project_selected_html: 'Este projeto de investimento <strong>está selecionado</strong> para a fase de votação.'
       wrong_price_format: Apenas números inteiros
       investment:
         add: Vote
