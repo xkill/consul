@@ -1,1 +1,9 @@
 zh-TW:
+  social_share_button:
+    share_to: "共享到 %{name}"
+    weibo: "Sina Weibo（新浪微博）"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    douban: "Douban（豆瓣）"
+    email: "電郵"
+    telegram: "Telegram"
