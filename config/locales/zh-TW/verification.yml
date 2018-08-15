@@ -84,3 +84,28 @@ zh-TW:
         phone_note: 我們只使用您的手機向您發送代碼，絕不與您聯繫。
         phone_placeholder: "例如：612345678 或 +34612345678"
         submit_button: 發送
+        title: 發送確認代碼
+      update:
+        error: 確認代碼不正確
+        flash:
+          level_three:
+            success: 代碼正確。 您的帳戶現已被核實
+          level_two:
+            success: 代碼正確
+    step_1: 居住地
+    step_2: 確認代碼
+    step_3: 最終核實
+    user_permission_debates: 參與辯論
+    user_permission_info: 您的信息一經核實，您便能夠...
+    user_permission_proposal: 創建新建議
+    user_permission_support_proposal: 支持建議*
+    user_permission_votes: 參與最終投票*
+    verified_user:
+      form:
+        submit_button: 發送代碼
+      show:
+        email_title: 電郵
+        explanation: 我們目前在登記冊中有以下詳細信息；請選擇要發送確認代碼的方法。
+        phone_title: 電話號碼
+        title: 可用資訊
+        use_another_phone: 使用其他電話
