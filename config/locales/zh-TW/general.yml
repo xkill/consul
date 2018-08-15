@@ -193,7 +193,7 @@ zh-TW:
       ie: 我們檢測到您正在使用Internet Explorer來瀏覽。 為了增強體驗，我們建議您使用%{firefox} 或%{chrome}。
       ie_title: 此網站沒有為您的瀏覽器優化
     footer:
-      accessibility: 存取性
+      accessibility: 無障礙功能
       conditions: 使用條款及條件
       consul: CONSUL 應用程式
       consul_url: https://github.com/consul/consul
@@ -367,7 +367,7 @@ zh-TW:
       start_proposal: 創建一個建議
       title: 建議
       top: 每週熱門
-      top_link_proposals: 按類別，得支持最多的建議
+      top_link_proposals: 按類別，獲得支持最多的建議
       section_header:
         icon_alt: 建議圖標
         title: 建議
@@ -380,7 +380,7 @@ zh-TW:
         submit_button: 創建建議
       more_info: 公民建議是如何運作的？
       recommendation_one: 不要用大寫字母寫建議標題或整個句子。 在互聯網上，這是被當作為＂叫喊＂。沒有人喜歡被呼喝的。
-      recommendation_three: 享受這片空間和其中充滿的聲音。 這也你的空間。
+      recommendation_three: 享受這片空間和其中充滿的聲音。 這也是你的空間。
       recommendation_two: 任何暗示非法行為、和那些意圖破壞辯論空間的建議或評論都將被刪除。 其餘一切都是允許的。
       recommendations_title: 創建一個建議的推薦
       start_new: 創建新建議
@@ -421,7 +421,7 @@ zh-TW:
       flag: 此建議已被一些用戶標記為不適當。
       login_to_comment: 您必須%{signin} 或%{signup} 才能留下評論。
       notifications_tab: 通知
-      retired_warning: "作者認為此建議不應再得到支持"
+      retired_warning: "作者認為此建議不應再獲得到支持"
       retired_warning_link_to_explanation: 投票前請閱讀其說明。
       retired: 建議已被作者撤回
       share: 分享
@@ -450,7 +450,7 @@ zh-TW:
       participate_button_expired: "投票結束"
       no_geozone_restricted: "所有城市"
       geozone_restricted: "地區"
-      geozone_info: "人口普查的人可以參與： "
+      geozone_info: "參與人口普查的人可以： "
       already_answer: "您已參與此投票"
       section_header:
         icon_alt: 投票圖示
@@ -524,7 +524,7 @@ zh-TW:
       author_type: '按作者類別'
       author_type_blank: '選擇一個類別'
       date: '按日期'
-      date_placeholder: '日日/月月/年年年年'
+      date_placeholder: 'DD/MM/YYYY'
       date_range_blank: '選擇一個日期'
       date_1: '過去24小時'
       date_2: '上個星期'
