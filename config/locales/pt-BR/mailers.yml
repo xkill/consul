@@ -11,6 +11,7 @@ pt-BR:
     email_verification:
       click_here_to_verify: este link
       instructions_2_html: Este e-mail irá verificar sua conta com <b>%{document_type} %{document_number}</b>. Se isto não lhe pertence, por favor, não clique no link anterior e ignore este e-mail.
+      instructions_html: Para completar a verificação da sua conta de usuário, você deve clicar em %{verification_link}.
       subject: Confirme seu email
       thanks: Muito Obrigado.
       title: Confirme sua conta usando o seguinte link
@@ -43,6 +44,7 @@ pt-BR:
       title_html: "Você enviou uma nova mensagem particular para <strong>%{receiver}</strong> com o conteúdo:"
     user_invite:
       ignore: "Se você não solicitou este convite, não se preocupe, você pode ignorar este e-mail."
+      text: "Obrigado por se inscrever para participar do %{org}! Em segundos você pode começar a participar das decisões de sua cidade, basta preencher o formulário abaixo:"
       thanks: "Muito Obrigado."
       title: "Bem-vindo a %{org}"
       button: Completar registro
