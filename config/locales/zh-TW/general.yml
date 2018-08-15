@@ -712,3 +712,67 @@ zh-TW:
           other: "%{count} 個投資"
         follows:
           other: "%{count} 個跟隨中"
+      no_activity: 用戶沒有公開活動
+      no_private_messages: "此用戶不接受私人消息。"
+      private_activity: 此用戶決定把活動清單保密。
+      send_private_message: "發送私人消息"
+      delete_alert: "您確定要刪除您的投資項目嗎？ 此操作將無法撤消"
+    proposals:
+      send_notification: "發送通知"
+      retire: "撤回"
+      retired: "已撤回建議"
+      see: "查看建議"
+  votes:
+    agree: 我同意
+    anonymous: 太多的匿名投票，要允許投票%{verify_account}。
+    comment_unauthenticated: 您必須%{signin} 或%{signup} 才能投票。
+    disagree: 我不同意
+    organizations: 組織不允許投票
+    signin: 登錄
+    signup: 登記
+    supports: 支持
+    unauthenticated: 您必須%{signin} 或%{signup} 才能繼續。
+    verified_only: 只有已核實的用戶才能對建議投票；%{verify_account}。
+    verify_account: 核實您的帳戶
+    spending_proposals:
+      not_logged_in: 您必須%{signin} 或%{signup} 才能繼續。
+      not_verified: 只有已核實的用戶才能對建議投票；%{verify_account}。
+      organization: 組織不允許投票
+      unfeasible: 不可行的投資項目不能獲得支持
+      not_voting_allowed: 投票階段已結束
+    budget_investments:
+      not_logged_in: 您必須%{signin} 或%{signup} 才能繼續。
+      not_verified: 只有已核實的用戶才能對投資項目投票；%{verify_account}。
+      organization: 組織不允許投票
+      unfeasible: 不可行的投資項目不能獲得支持
+      not_voting_allowed: 投票階段已結束
+      different_heading_assigned:
+        other: "您只能支持%{count} 個地區的投資項目"
+  welcome:
+    feed:
+      most_active:
+        debates: "最活躍的辯論"
+        proposals: "最活躍的建議"
+        processes: "開放進程"
+      see_all_debates: 查看所有辯論
+      see_all_proposals: 查看所有建議
+      see_all_processes: 查看所有進程
+      process_label: 進程
+      see_process: 查看進程
+    cards:
+      title: 特色
+    recommended:
+      title: 您可能感興趣的推薦
+      help: "這些推薦是由您跟隨的辯論和建議的標籤生成的。"
+      debates:
+        title: 推薦的辯論
+        btn_text_link: 所有推薦的辯論
+      proposals:
+        title: 推薦的建議
+        btn_text_link: 所有推薦的建議
+      budget_investments:
+        title: 推薦的投資
+      slide: "查看%{title}"
+    verification:
+      i_dont_have_an_account: 我沒有帳戶
+      i_have_an_account: 我已經有帳戶
