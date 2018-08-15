@@ -1,10 +1,24 @@
 pt-BR:
   management:
     account:
+      menu:
+        reset_password_email: Redefinir senha via e-mail
+        reset_password_manually: Redefinir senha manualmente
       alert:
         unverified_user: Nenhum usuário verificado logado ainda
       show:
         title: Conta do usuário
+      edit:
+        title: 'Editar a conta de usuário: Redefinir a senha'
+        back: Voltar
+        password:
+          password: Senha
+          send_email: Enviar e-mail para redefinir senha
+          reset_email_send: E-mail enviado corretamente.
+          reseted: Senha redefinida com sucesso
+          random: Gerar senha aleatória
+          save: Salvar senha
+          print: Gravar senha
     account_info:
       change_user: Alterar usuário
       document_number_label: 'Número do documento:'
