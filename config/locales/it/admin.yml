@@ -169,6 +169,12 @@ it:
           min_total_supports: Sostegni minimi
           winners: Vincitori
           one_filter_html: "Filtri attualmente applicati: <b><em>%{filter}</em></b>"
+          two_filters_html: "Filtri attualmente applicati: <b><em>%{filter}, %{advanced_filters}</em></b>"
+        buttons:
+          filter: Filtra
+        download_current_selection: "Esegui il download della selezione attuale"
+        no_budget_investments: "Non esistono progetti d'investimento."
+        title: Progetti di investimento
         assigned_admin: Amministratore assegnato
         no_admin_assigned: Nessun amministratore assegnato
         feasibility:
