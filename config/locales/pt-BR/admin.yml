@@ -485,6 +485,7 @@ pt-BR:
           title: Questão
           title_placeholder: Adicionar pergunta
           value_placeholder: Adicionar resposta fechada
+          question_options: "Respostas possíveis (opcionais, por respostas abertas padrão)"
         index:
           back: Voltar
           title: Perguntas associadas a esse processo
@@ -516,17 +517,23 @@ pt-BR:
       activity: Atividade do moderador
       admin: Menu de admin
       banner: Gerenciar banners
+      poll_questions: Perguntas
       proposals_topics: Tópicos de propostas
       budgets: Orçamentos participativos
       geozones: Gerenciar geozonas
       hidden_comments: Comentários ocultos
       hidden_debates: Debates ocultos
       hidden_proposals: Propostas ocultas
+      hidden_budget_investments: Investimentos orçamentários ocultos
+      hidden_proposal_notifications: Notificações de proposta olcultas
       hidden_users: Usuários ocultos
       administrators: Administradores
       managers: Gerentes
       moderators: Moderadores
+      messaging_users: Mensagens para os usuários
       newsletters: Boletins informativos
+      admin_notifications: Notificações
+      system_emails: Sistema de E-mails
       emails_download: Download de emails
       valuators: Avaliadores
       poll_officers: Presidentes da votação
@@ -536,15 +543,35 @@ pt-BR:
       poll_shifts: Gerenciar turnos
       officials: Cargos públicos
       organizations: Organizações
+      settings: Configurações globais
       spending_proposals: Propostas de gastos
       stats: Estatísticas
       signature_sheets: Folhas de assinatura
       site_customization:
+        homepage: Página inicial
+        pages: Páginas personalizadas
+        images: Imagens personalizadas
         content_blocks: Blocos de conteúdo personalizados
+        information_texts: Textos de informações personalizadas
+        information_texts_menu:
+          debates: "Debates"
+          community: "Comunidade"
+          proposals: "Propostas"
+          polls: "Votações"
+          layouts: "Layouts"
+          mailers: "E-mails"
+          management: "Gerenciamento"
+          guides: "Guias"
+          welcome: "Bem-vindo"
+        buttons:
+          save: "Salvar"
       title_moderated_content: Conteúdo moderado
       title_budgets: Orçamentos
       title_polls: Votações
       title_profiles: Perfis
+      title_settings: Configurações
+      title_site_customization: Conteúdo do site
+      title_booths: Cabines de votação
       legislation: Legislação colaborativa
       users: Usuários
     administrators:
@@ -599,6 +626,7 @@ pt-BR:
         empty_newsletters: Não há nenhum boletins informativos para mostrar
       new:
         title: Novo boletim informativo
+        from: Endereço de e-mail para envio de boletim informativo
       edit:
         title: Editar boletim informativo
       show:
@@ -608,9 +636,37 @@ pt-BR:
         sent_at: Enviado em
         subject: Assunto
         segment_recipient: Destinatários
+        from: Endereço de e-mail para envio de boletim informativo
         body: Conteúdo do e-mail
         body_help_text: Os usuários visualizarão o email desta forma
         send_alert: Você tem certeza que quer enviar este boletim informativo para %{n} usuários?
+    admin_notifications:
+      create_success: Notificação criada com sucesso
+      update_success: Notificação atualizada com sucesso
+      send_success: Notificação enviada com sucesso
+      delete_success: Notificação, excluída com sucesso
+      index:
+        section_title: Notificações
+        new_notification: Nova notificação
+        title: Título
+        segment_recipient: Destinatários
+        sent: Enviado
+        actions: Ações
+        draft: Projecto de
+        edit: Editar
+        delete: Apagar
+        preview: Prévia
+        view: Modo de exibição
+        empty_notifications: Não há nenhuma notificação para mostrar
+      new:
+        section_title: Nova notificação
+      edit:
+        section_title: Editar a notificação
+      show:
+        section_title: Visualização de notificação
+        send: Enviar a notificação
+        will_get_notified: (%{n} usuários serão notificados)
+        got_notified: (%{n} usuários foram notificados)
     emails_download:
       index:
         title: Download de emails
