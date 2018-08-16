@@ -116,6 +116,7 @@ pt-BR:
         disable: "As recomendações de debates vão parar de ser mostradas se você descartá-las. Você pode habilitá-los novamente na página 'Minha conta'"
         actions:
           success: "Recomendações para os debates agora estão desativadas para esta conta"
+          error: "Ocorreu um erro. Por favor, vá à página 'Sua conta' para desativar manualmente recomendações para debates"
       search_form:
         button: Buscar
         placeholder: Buscar debates...
@@ -321,6 +322,7 @@ pt-BR:
       geozone: Escopo de operação
       proposal_external_url: Link para documentação adicional
       proposal_question: Questão proposta
+      proposal_question_example_html: "Deve ser resumido em uma pergunta com uma resposta de Sim ou não"
       proposal_responsible_name: Nome completo da pessoa que está submetendo a proposta
       proposal_responsible_name_note: "(indivudualmente ou como representante de um\ncoletivo; não será mostrado publicamente)"
       proposal_summary: Sumário da proposta
@@ -353,6 +355,10 @@ pt-BR:
       recommendations:
         without_results: Não há propostas relacionadas a seus interesses
         without_interests: Siga propostas para que possamos lhe dar recomendações
+        disable: "As recomendações de propostas vão parar de ser mostradas se você descartá-las. Você pode habilitá-las novamente na página 'Minha conta'"
+        actions:
+          success: "Recomendações de propostas agora estão desativadas para esta conta"
+          error: "Ocorreu um erro. Por favor, vá à página 'Sua conta' para desativar manualmente recomendações de propostas"
       retired_proposals: Propostas retiradas
       retired_proposals_link: "Propostas retiradas pelo autor"
       retired_links:
@@ -381,6 +387,7 @@ pt-BR:
         help: Ajuda sobre propostas
       section_footer:
         title: Ajuda sobre propostas
+        description: Propostas dos cidadãos são uma oportunidade para os vizinhos e coletivos para decidir diretamente como eles querem que seja sua cidade, após conseguir apoio suficiente e sujeitar à votação dos cidadãos.
     new:
       form:
         submit_button: Criar proposta
@@ -418,6 +425,7 @@ pt-BR:
       supports_necessary: "%{number} apoios necessários"
       total_percent: 100%
       archived: "Esta proposta foi arquivada e não é possível angariar suporte."
+      successful: "Esta proposta tem alcançado os suportes necessários."
     show:
       author_deleted: Usuário apagado
       code: 'Código da proposta:'
@@ -467,6 +475,8 @@ pt-BR:
         help: Ajuda sobre votação
       section_footer:
         title: Ajuda sobre votação
+        description: As pesquisas dos cidadãos são um mecanismo participativo através do qual os cidadãos com direito de voto podem tomar decisões diretas
+      no_polls: "Não há votações abertas."
     show:
       already_voted_in_booth: "Você já participou de uma urna física. Você não pode participar novamente."
       already_voted_in_web: "Você já participou desta votação. Se você votar novamente, este voto será sobrescrito ao voto anterior."
@@ -608,6 +618,14 @@ pt-BR:
       previous_slide: Imagem anterior
       next_slide: Próxima imagem
     documentation: Documentação adicional
+    view_mode:
+      title: Modo de visualização
+      cards: Cartões
+      list: Lista
+    recommended_index:
+      title: Recomendações
+      see_more: Ver mais recomendações
+      hide: Ocultar recomendações
   social:
     blog: "Blog"
     facebook: "Facebook"
