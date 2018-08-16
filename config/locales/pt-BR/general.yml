@@ -20,6 +20,9 @@ pt-BR:
       email_on_direct_message_label: Receber emails sobre mensagens diretas
       email_digest_label: Receber resumo de notificações sobre propostas
       official_position_badge_label: Mostrar etiqueta da posição oficial
+      recommendations: Recomendações
+      show_debates_recommendations: Mostrar recomendações de debates
+      show_proposals_recommendations: Mostrar as recomendações propostas
       title: Minha conta
       user_permission_debates: Participar de debates
       user_permission_info: Com a sua conta você pode...
@@ -110,6 +113,9 @@ pt-BR:
       recommendations:
         without_results: Não há debates relacionados a seus interesses
         without_interests: Siga propostas para que possamos lhe dar recomendações
+        disable: "As recomendações de debates vão parar de ser mostradas se você descartá-las. Você pode habilitá-los novamente na página 'Minha conta'"
+        actions:
+          success: "Recomendações para os debates agora estão desativadas para esta conta"
       search_form:
         button: Buscar
         placeholder: Buscar debates...
