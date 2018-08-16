@@ -777,8 +777,21 @@ pt-BR:
         one: "Você só pode apoiar projetos de investimento em %{count} distrito"
         other: "Você só pode apoiar projetos de investimento em %{count} distritos"
   welcome:
+    feed:
+      most_active:
+        debates: "Discussões com maior atividade"
+        proposals: "Propostas com maior atividade"
+        processes: "Processos abertos"
+      see_all_debates: Ver todas as discuções
+      see_all_proposals: Ver todas as propostas
+      see_all_processes: Ver todos os processos
+      process_label: Processo
+      see_process: Ver processo
+    cards:
+      title: Destaque
     recommended:
       title: Recomendações que podem ser de seu interesse
+      help: "Estas recomendações são geradas através da identificação dos debates e propostas que você está seguindo."
       debates:
         title: Debates recomendados
         btn_text_link: Todos os debates recomendados
@@ -787,6 +800,7 @@ pt-BR:
         btn_text_link: Todas as propostas recomendadas
       budget_investments:
         title: Investimentos recomendados
+      slide: "Ver %{title}"
     verification:
       i_dont_have_an_account: Não possuo uma conta
       i_have_an_account: Já possuo uma conta
