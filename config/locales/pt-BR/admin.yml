@@ -680,6 +680,13 @@ pt-BR:
         action: Pendente prévia
         preview_of: Prévia do %{name}
         pending_to_be_sent: Este é o conteúdo pendente para ser enviado
+        moderate_pending: Moderar notificação enviada
+        send_pending: Enviar pendente
+        send_pending_notification: Notificações pendentes enviadas com sucesso
+      proposal_notification_digest:
+        title: Resumo danotificação da proposta
+        description: Juntar todas as notificações de proposta para um usuário em uma mensagem para evitar muitos e-mails.
+        preview_detail: Usuários apenas vão receber notificações das rpopostas que eles estão seguindo
     emails_download:
       index:
         title: Download de emails
@@ -694,6 +701,9 @@ pt-BR:
         description: Descrição
         no_description: Não há descrição
         no_valuators: Não há avaliadores.
+        valuator_groups: "Grupos de avaliação"
+        group: "Grupo"
+        no_group: "Sem grupo"
       valuator:
         add: Adicionar aos avaliadores
         delete: Excluir
@@ -708,6 +718,30 @@ pt-BR:
         in_evaluation_count: Em avaliação
         total_count: Total
         cost: Custo
+      form:
+        edit_title: "Avaliadores: editar avaliador"
+        update: "Atualizar avaliador"
+        updated: "Avalaiador atualizado com sucesso"
+      show:
+        description: "Descrição"
+        email: "E-mail"
+        group: "Grupo"
+        no_description: "Sem descrição"
+        no_group: "Sem grupo"
+    valuator_groups:
+      index:
+        title: "Grupos de avaliação"
+        new: "Criar grupos de avaliação"
+        name: "Nome"
+        members: "Membros"
+        no_groups: "Não há grupos de avaliação"
+      show:
+        title: "Grupos de avaliação %{group}"
+        no_valuators: "Não há avaliadores atribuídos a esse grupo"
+      form:
+        name: "Nome do grupo"
+        new: "Criar grupos de avaliação"
+        edit: "Salvar grupos de avaliação"
     poll_officers:
       index:
         title: Presidentes da votação
@@ -748,6 +782,7 @@ pt-BR:
         search_officer_placeholder: Buscar presidente
         search_officer_text: Buscar presidente para atribuir a um novo turno
         select_date: "Selecionar data"
+        no_voting_days: "Dias de votação terminados"
         select_task: "Selecionar tarefa"
         table_shift: "Turno"
         table_email: "Email"
@@ -796,6 +831,8 @@ pt-BR:
         table_location: "Localização"
     polls:
       index:
+        title: "Lista de votações ativas"
+        no_polls: "Não há votações futuras."
         create: "Criar votação"
         name: "Nome"
         dates: "Datas"
@@ -907,6 +944,8 @@ pt-BR:
         title: "Resultados por urna"
     booths:
       index:
+        title: "Lista de cabines ativas"
+        no_booths: "Não jhá cabines ativas para nenhuma votação futura."
         add_booth: "Adicionar urna"
         name: "Nome"
         location: "Localização"
@@ -985,10 +1024,23 @@ pt-BR:
           without_confirmed_hide: Pendente
         title: Propostas ocultas
         no_hidden_proposals: Não há propostas ocultas.
+    proposal_notifications:
+      index:
+        filter: Filtro
+        filters:
+          all: Todos
+          with_confirmed_hide: Confirmado
+          without_confirmed_hide: Pendente
+        title: Notificações escondidas
+        no_hidden_proposals: Não há notificações escondidas.
     settings:
       flash:
         updated: Valor atualizado
       index:
+        banners: Estilos de banner
+        banner_imgs: Imagens de banner
+        no_banners_images: Sem imagens de banner
+        no_banners_styles: Sem estilos de banner
         title: Definições de configuração
         update_setting: Atualização
         feature_flags: Atributos
@@ -1004,6 +1056,12 @@ pt-BR:
             update: Configuração do mapa atualizada com sucesso.
           form:
             submit: Atualizar
+      setting: Caracteristica
+      setting_actions: Ações
+      setting_name: Configuração
+      setting_status: Status
+      setting_value: Valor
+      no_description: "Sem descrição"
     shared:
       booths_search:
         button: Buscar
@@ -1028,6 +1086,12 @@ pt-BR:
       actions: Ações
       title: Título
       description: Descrição
+      image: Imagem
+      show_image: Mostrar imagem
+      moderated_content: "Cheque o conteúdo moderado pelos moderadores, e confirme se a moderação foi feita corretamente."
+      view: Visão
+      proposal: Proposta
+      author: Autor
     spending_proposals:
       index:
         geozone_filter_all: Todas as zonas
