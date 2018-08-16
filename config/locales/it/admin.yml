@@ -354,10 +354,17 @@ it:
     valuators:
       index:
         title: Stimatori
+        name: Nome
+        email: Email
+        description: Descrizione
+        no_description: Nessuna descrizione
         no_valuators: Non ci sono stimatori.
         valuator_groups: "Gruppi di stimatori"
+        group: "Gruppo"
+        no_group: "Nessun gruppo"
       valuator:
         add: Aggiungere agli stimatori
+        delete: Eliminare
       search:
         title: 'Stimatori: Ricerca utente'
       summary:
@@ -367,18 +374,29 @@ it:
         finished_and_unfeasible_count: Concluso e irrealizzabile
         in_evaluation_count: Stima in corso
         total_count: Totale
+        cost: Costo
       form:
         edit_title: "Stimatori: Modificare stimatore"
         update: "Aggiorna stimatore"
         updated: "Stimatore aggiornato con successo"
+      show:
+        description: "Descrizione"
+        email: "Email"
+        group: "Gruppo"
+        no_description: "Senza descrizione"
+        no_group: "Senza gruppo"
     valuator_groups:
       index:
         title: "Gruppi di stimatori"
         new: "Creare gruppo di stimatori"
+        name: "Nome"
+        members: "Membri"
         no_groups: "Non risultano gruppi di stimatori"
       show:
         title: "Gruppo di stimatori: %{group}"
+        no_valuators: "Non risultano stimatori assegnati a questo gruppo"
       form:
+        name: "Nome del gruppo"
         new: "Creare gruppo di stimatori"
         edit: "Salvare il gruppo di stimatori"
     poll_officers:
@@ -489,11 +507,16 @@ it:
     spending_proposals:
       index:
         valuator_filter_all: Tutti gli stimatori
+        filters:
+          valuation_finished: Stima conclusa
         no_valuators_assigned: Nessuno stimatore assegnato
         summary_link: "Sintesi del progetto di investimento"
         valuator_summary_link: "Riepilogo dello stimatore"
       show:
+        assigned_valuators: Stimatori assegnati
         heading: "Progetto di investimento %{id}"
+      edit:
+        assigned_valuators: Stimatori
       summary:
         title: Riepilogo per progetti di investimento
         title_proposals_with_supports: Riepilogo per progetti di investimento che hanno superato la fase di 'appoggio'
