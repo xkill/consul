@@ -288,6 +288,23 @@ pt-BR:
     statuses:
       index:
         title: Status de investimento
+        empty_statuses: Ainda não há status de investimento definidos
+        new_status: Criar novo status de investimento
+        table_name: Nome
+        table_description: Descrição
+        table_actions: Ações
+        delete: Apagar
+        edit: Editar
+      edit:
+        title: Editar status de investimento
+      update:
+        notice: Situação de investimento atualizada com sucesso
+      new:
+        title: Criar status de investimento
+      create:
+        notice: Status de investimento criado com sucesso
+      delete:
+        notice: Status de investimento excluído com sucesso
     comments:
       index:
         filter: Filtro
@@ -328,6 +345,15 @@ pt-BR:
         hidden_at: 'Oculto em:'
         registered_at: 'Registrado em:'
         title: Atividade do usuário (%{user})
+    hidden_budget_investments:
+      index:
+        filter: Filtro
+        filters:
+          all: Todos
+          with_confirmed_hide: Confirmado
+          without_confirmed_hide: Pendente
+        title: Investimentos orçamentários ocultos
+        no_hidden_budget_investments: Não há investimentos orçamentários ocultos
     legislation:
       processes:
         create:
@@ -348,6 +374,7 @@ pt-BR:
           enabled: Habilitado
           process: Processo
           debate_phase: Fase de debate
+          allegations_phase: Fase de seleção
           proposals_phase: Fase de propostas
           start: Início
           end: Final
@@ -379,6 +406,7 @@ pt-BR:
           status_planned: Planejados
         subnav:
           info: Informação
+          draft_texts: Seleção
           questions: Debate
           proposals: Propostas
       proposals:
@@ -388,6 +416,7 @@ pt-BR:
         form:
           custom_categories: Categorias
           custom_categories_description: Categorias que os usuários podem selecionar criando a proposta.
+          custom_categories_placeholder: Insira as marcações que você deseja usar, separadas por vírgulas (,) e entre aspas ("")
       draft_versions:
         create:
           notice: 'Rascunho criado com sucesso. <a href="%{link}">Click to visit</a>'
@@ -453,6 +482,8 @@ pt-BR:
             error: Erro
         form:
           add_option: Adicionar opção
+          title: Questão
+          title_placeholder: Adicionar pergunta
           value_placeholder: Adicionar resposta fechada
         index:
           back: Voltar
