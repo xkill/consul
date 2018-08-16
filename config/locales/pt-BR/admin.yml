@@ -672,6 +672,14 @@ pt-BR:
         body: Texto
         link: Link
         segment_recipient: Destinatários
+        preview_guide: "Assim é como os usuários verão a informação:"
+        sent_guide: "Assim é como os usuários verão a notificação:"
+        send_alert: Você tem certeza que quer enviar essa notificação para %{n} usuários?
+    system_emails:
+      preview_pending:
+        action: Pendente prévia
+        preview_of: Prévia do %{name}
+        pending_to_be_sent: Este é o conteúdo pendente para ser enviado
     emails_download:
       index:
         title: Download de emails
