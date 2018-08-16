@@ -96,6 +96,7 @@ it:
         delete: Elimina budget
         phase: Fase
         dates: Date
+        edit_phase: Modificare la fase
       new:
         title: Nuovo bilancio partecipativo
       form:
