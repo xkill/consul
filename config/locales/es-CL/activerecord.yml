@@ -4,15 +4,24 @@ es-CL:
       activity:
         one: "actividad"
         other: "actividades"
+      budget:
+        one: "Presupuesto"
+        other: "Presupuesto"
       budget/investment:
         one: "Proyecto de inversión"
         other: "Proyectos de inversión"
       budget/investment/milestone:
         one: "hito"
         other: "hitos"
+      budget/investment/status:
+        one: "Estado de la inversión"
+        other: "Estados de las inversiones"
       comment:
         one: "Comentario"
         other: "Comentarios"
+      debate:
+        one: "Debate"
+        other: "Debates"
       tag:
         one: "Tema"
         other: "Temas"
@@ -25,9 +34,18 @@ es-CL:
       administrator:
         one: "Administrador"
         other: "Administradores"
+      valuator:
+        one: "Evaluador"
+        other: "Evaluadores"
+      valuator_group:
+        one: "Grupo de evaluadores"
+        other: "Grupos de evaluadores"
       manager:
         one: "Gestor"
         other: "Gestores"
+      newsletter:
+        one: "Boletín Informativo"
+        other: "Boletines Informativos"
       vote:
         one: "Voto"
         other: "Votos"
@@ -43,6 +61,9 @@ es-CL:
       proposal:
         one: "Propuesta ciudadana"
         other: "Propuestas ciudadanas"
+      spending_proposal:
+        one: "Proyecto de inversión"
+        other: "Proyectos de inversión"
       site_customization/page:
         one: Página
         other: Páginas
@@ -82,6 +103,9 @@ es-CL:
       poll:
         one: "Votación"
         other: "Votaciones"
+      proposal_notification:
+        one: "Notificación de propuesta"
+        other: "Notificaciónes de propuesta"
     attributes:
       budget:
         name: "Nombre"
@@ -105,8 +129,13 @@ es-CL:
         image: "Imagen descriptiva de la propuesta de inversión"
         image_title: "Título de la imagen"
       budget/investment/milestone:
+        status_id: "Estado actual de la inversión (opcional)"
         title: "Título"
+        description: "Descripción (opcional si hay una condición asignada)"
         publication_date: "Fecha de publicación"
+      budget/investment/status:
+        name: "Nombre"
+        description: "Descripción (opcional)"
       budget/heading:
         name: "Nombre de la partida"
         price: "Cantidad"
@@ -140,6 +169,7 @@ es-CL:
         name: "Nombre de organización"
         responsible_name: "Persona responsable del colectivo"
       spending_proposal:
+        administrator_id: "Administrador"
         association_name: "Nombre de la asociación"
         description: "Descripción"
         external_url: "Enlace a documentación adicional"
@@ -165,9 +195,11 @@ es-CL:
         content: Contenido
         created_at: Creada
         subtitle: Subtítulo
+        slug: Slug
         status: Estado
         title: Título
         updated_at: última actualización
+        more_info_flag: Mostrar en la página de ayuda
         print_content_flag: Botón de imprimir contenido
         locale: Idioma
       site_customization/image:
@@ -179,6 +211,7 @@ es-CL:
         body: Contenido
       legislation/process:
         title: Título del proceso
+        summary: Resumen
         description: En qué consiste
         additional_info: Información adicional
         start_date: Fecha de inicio del proceso
@@ -214,6 +247,19 @@ es-CL:
       poll/question/answer/video:
         title: Título
         url: Vídeo externo
+      newsletter:
+        segment_recipient: Destinatarios
+        subject: Asunto
+        from: Enviado por
+        body: Contenido del email
+      widget/card:
+        label: Etiqueta (opcional)
+        title: Título
+        description: Descripción
+        link_text: Texto del enlace
+        link_url: URL del enlace
+      widget/feed:
+        limit: Número de items
     errors:
       models:
         user:
@@ -233,6 +279,14 @@ es-CL:
             attachment:
               min_image_width: "La imagen debe tener al menos %{required_min_width}px de largo"
               min_image_height: "La imagen debe tener al menos %{required_min_height}px de alto"
+        newsletter:
+          attributes:
+            segment_recipient:
+              invalid: "El segmento de usuarios es inválido"
+        admin_notification:
+          attributes:
+            segment_recipient:
+              invalid: "El usuario del destinatario es inválido"
         map_location:
           attributes:
             map:
@@ -276,6 +330,10 @@ es-CL:
             image:
               image_width: "Debe tener %{required_width}px de ancho"
               image_height: "Debe tener %{required_height}px de alto"
+        comment:
+          attributes:
+            valuation:
+              cannot_comment_valuation: 'No puedes comentar una evaluación'
       messages:
         record_invalid: "Error de validación: %{errors}"
         restrict_dependent_destroy:
