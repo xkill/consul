@@ -155,10 +155,20 @@ it:
           placeholder: Ordina per
           id: ID
           title: Titolo
+          supports: Sostegni
         filters:
+          all: Tutti
           without_admin: Senza amministratore designato
+          without_valuator: Senza stimatore assegnato
+          under_valuation: In corso di stima
+          valuation_finished: Stima conclusa
+          feasible: Realizzabile
           selected: Selezionato
+          undecided: Nessuna decisione
+          unfeasible: Irrealizzabile
+          min_total_supports: Sostegni minimi
           winners: Vincitori
+          one_filter_html: "Filtri attualmente applicati: <b><em>%{filter}</em></b>"
         assigned_admin: Amministratore assegnato
         no_admin_assigned: Nessun amministratore assegnato
         feasibility:
