@@ -112,11 +112,12 @@ zh-TW:
         price_html: "價格 (%{currency})"
         price_first_year_html: "第一年的成本 (%{currency})"
         currency: "€"
-        price_explanation_html: 價格解釋
+        price_explanation_html: 價格說明
         feasibility: 可行性
         feasible: 可行
         not_feasible: 不可行
         undefined_feasible: 有待
+        feasible_explanation_html: 可行性的說明
         valuation_finished: 評估已完成
         time_scope_html: 時間範圍
         internal_comments_html: 內部評論
