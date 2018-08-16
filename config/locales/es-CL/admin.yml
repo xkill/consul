@@ -138,18 +138,39 @@ es-CL:
       edit:
         start_date: Fecha de Inicio
         end_date: Fecha de fin
+        summary: Resumen
+        summary_help_text: Este texto informará al usuario sobre la fase. Para mostrarlo aunque la fase no esté activa, seleccione la opción de más abajo
+        description: Descripción
+        description_help_text: Este texto aparecerá en la cabecera cuando la fase esté activa
+        enabled: Fase habilitada
+        enabled_help_text: Esta fase será pública en el calendario de fases del presupuesto y estará activa para otros propósitos
+        save_changes: Guardar cambios
     budget_investments:
       index:
         heading_filter_all: Todas las partidas
         administrator_filter_all: Todos los administradores
         valuator_filter_all: Todos los evaluadores
         tags_filter_all: Todas las etiquetas
+        advanced_filters: Filtros avanzados
+        placeholder: Buscar proyectos
+        sort_by:
+          placeholder: Ordenar por
+          id: ID
+          title: Título
+          supports: Apoyos
         filters:
           all: Todas
           without_admin: Sin administrador
+          without_valuator: Sin evaluador asignado
+          under_valuation: Bajo evaluación
           valuation_finished: Evaluación finalizada
+          feasible: Viable
           selected: Seleccionadas
+          undecided: Sin decidir
+          unfeasible: Inviable
+          min_total_supports: Soportes minimos
           winners: Ganadoras
+          one_filter_html: "Filtros en uso: <b><em>%{filter}</em></b>"
         download_current_selection: "Descargar selección actual"
         no_budget_investments: "No hay proyectos de inversión."
         title: Propuestas de inversión
@@ -260,9 +281,19 @@ es-CL:
         user: Usuario
         no_hidden_users: No hay uusarios bloqueados.
       show:
+        email: 'Email:'
         hidden_at: 'Bloqueado:'
         registered_at: 'Fecha de alta:'
         title: Actividad del usuario (%{user})
+    hidden_budget_investments:
+      index:
+        filter: Filtrar
+        filters:
+          all: Todo
+          with_confirmed_hide: Confirmado
+          without_confirmed_hide: Pendiente
+        title: Inversiones de los presupuestos ocultos
+        no_hidden_budget_investments: No hay ninguna inversión de presupuesto oculto
     legislation:
       processes:
         create:
@@ -276,10 +307,14 @@ es-CL:
         edit:
           back: Volver
           submit_button: Guardar cambios
+        errors:
+          form:
+            error: Error
         form:
           enabled: Habilitado
           process: Proceso
           debate_phase: Fase previa
+          allegations_phase: Fase de redacción
           proposals_phase: Fase de propuestas
           start: Inicio
           end: Fin
@@ -311,6 +346,8 @@ es-CL:
           status_planned: Próximamente
         subnav:
           info: Información
+          draft_texts: Redacción
+          questions: Debate
           proposals: Propuestas
       proposals:
         index:
@@ -319,6 +356,7 @@ es-CL:
         form:
           custom_categories: Categorías
           custom_categories_description: Categorías que el usuario puede seleccionar al crear la propuesta.
+          custom_categories_placeholder: Escribe las etiquetas que desees separadas por coma (,) y entre comillas ("")
       draft_versions:
         create:
           notice: 'Borrador creado correctamente. <a href="%{link}">Haz click para verlo</a>'
@@ -332,6 +370,9 @@ es-CL:
           back: Volver
           submit_button: Guardar cambios
           warning: Ojo, has editado el texto. Para conservar de forma permanente los cambios, no te olvides de hacer click en Guardar.
+        errors:
+          form:
+            error: Error
         form:
           title_html: 'Editando <span class="strong">%{draft_version_title}</span> del proceso <span class="strong">%{process_title}</span>'
           launch_text_editor: Lanzar editor de texto
@@ -376,9 +417,15 @@ es-CL:
           back: Volver
           title: "Editar “%{question_title}”"
           submit_button: Guardar cambios
+        errors:
+          form:
+            error: Error
         form:
           add_option: +Añadir respuesta cerrada
+          title: Pregunta
+          title_placeholder: Añadir pregunta
           value_placeholder: Escribe una respuesta cerrada
+          question_options: "Posibles respuestas (opcional, por defecto respuestas abiertas)"
         index:
           back: Volver
           title: Preguntas asociadas a este proceso
@@ -399,6 +446,7 @@ es-CL:
       index:
         title: Gestores
         name: Nombre
+        email: Correo electrónico
         no_managers: No hay gestores.
       manager:
         add: Añadir como Gestor
@@ -409,16 +457,24 @@ es-CL:
       activity: Actividad de moderadores
       admin: Menú de administración
       banner: Gestionar banners
+      poll_questions: Preguntas
       proposals_topics: Temas de propuestas
       budgets: Presupuestos participativos
       geozones: Gestionar distritos
       hidden_comments: Comentarios ocultos
       hidden_debates: Debates ocultos
       hidden_proposals: Propuestas ocultas
+      hidden_budget_investments: Inversiones de los presupuestos ocultos
+      hidden_proposal_notifications: Notificaciones de propuestas ocultas
       hidden_users: Usuarios bloqueados
       administrators: Administradores
       managers: Gestores
       moderators: Moderadores
+      messaging_users: Mensajes a los usuarios
+      newsletters: Boletines Informativos
+      admin_notifications: Notificaciones
+      system_emails: Correos electrónicos del sistema
+      emails_download: Descarga de emails
       valuators: Evaluadores
       poll_officers: Presidentes de mesa
       polls: Votaciones
@@ -427,21 +483,42 @@ es-CL:
       poll_shifts: Asignar turnos
       officials: Cargos públicos
       organizations: Organizaciones
+      settings: Configuración global
       spending_proposals: Propuestas de inversión
       stats: Estadísticas
       signature_sheets: Hojas de firmas
       site_customization:
+        homepage: Página de inicio
+        pages: Páginas personalizadas
+        images: Imágenes personalizadas
         content_blocks: Personalizar bloques
+        information_texts: Textos de información personalizados
+        information_texts_menu:
+          debates: "Debates"
+          community: "Comunidad"
+          proposals: "Propuestas"
+          polls: "Votaciones"
+          layouts: "Diseños"
+          mailers: "Correos electrónicos"
+          management: "Gestión"
+          guides: "Guías"
+          welcome: "Bienvenido/a"
+        buttons:
+          save: "Guardar"
       title_moderated_content: Contenido moderado
       title_budgets: Presupuestos
       title_polls: Votaciones
       title_profiles: Perfiles
+      title_settings: Configuraciones
+      title_site_customization: Contenido del sitio
+      title_booths: Cabinas de votación
       legislation: Legislación colaborativa
       users: Usuarios
     administrators:
       index:
         title: Administradores
         name: Nombre
+        email: Correo electrónico
         no_administrators: No hay administradores.
       administrator:
         add: Añadir como Administrador
@@ -453,12 +530,18 @@ es-CL:
       index:
         title: Moderadores
         name: Nombre
+        email: Correo electrónico
         no_moderators: No hay moderadores.
       moderator:
         add: Añadir como Moderador
         delete: Borrar
       search:
         title: 'Moderadores: Búsqueda de usuarios'
+    segment_recipient:
+      all_users: Todos los usuarios
+      administrators: Administradores
+      proposal_authors: Usuarios autores de propuestas
+      investment_authors: Usuarios autores de proyectos de gasto en los actuales presupuestos
     newsletters:
       index:
         title: Envío de newsletters
