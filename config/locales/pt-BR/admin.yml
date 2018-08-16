@@ -1092,6 +1092,8 @@ pt-BR:
       view: Visão
       proposal: Proposta
       author: Autor
+      content: Conteúdo
+      created_at: Criado em
     spending_proposals:
       index:
         geozone_filter_all: Todas as zonas
@@ -1254,6 +1256,7 @@ pt-BR:
         add_tag: Adicionar um novo tópico de proposta
         title: Tópicos da proposta
         topic: Tópico
+        help: "Quando um usuário criar uma proposta, os tópicos a seguir são sugeridos como etiquetas padrão."
       name:
         placeholder: Digite o nome do tópico
     users:
@@ -1276,6 +1279,11 @@ pt-BR:
         title: Verificações incompletas
     site_customization:
       content_blocks:
+        information: Infromação sobre os blocos de conteúdo
+        about: Voce pode criar blocos de conteúdo de HTML para serem inseridos no cabeçalho dou rodapé do seu CONSUL.
+        top_links_html: "<strong>blocos de cabeçalho(top_links)</strong> são blocos de links que precisam ter esse formato:"
+        footer_html: "<strong>blocos de rodapé</strong>podem ter qualquer formato e ser usados para inserir Javascript, CSS ou HTML personalizado."
+        no_blocks: "Não há blocos de conteúdo."
         create:
           notice: Bloco de conteúdo criado com sucesso
           error: Bloco de conteúdo não pôde ser criado
@@ -1341,3 +1349,31 @@ pt-BR:
           status_draft: Rascunho
           status_published: Publicado
           locale: Idioma
+    homepage:
+      title: Página inicial
+      description: Os módulos ativos aparecem na página inical na mesma ordem que aqui.
+      header_title: Cabeçalho
+      no_header: Não há cabeçalho.
+      create_header: Criar cabeçalho
+      cards_title: Cartões
+      create_card: Criar cartão
+      no_cards: Não há cartões.
+      cards:
+        title: Título
+        description: Descrição
+        link_text: Texto do link
+        link_url: Link da URL
+      feeds:
+        proposals: Propostas
+        debates: Debates
+        processes: Processos
+      new:
+        header_title: Novo cabeçalho
+        submit_header: Criar cabeçalho
+        card_title: Novo cartão
+        submit_card: Criar cartão
+      edit:
+        header_title: Editar cabeçalho
+        submit_header: Salvar cabeçalho
+        card_title: Editar cartão
+        submit_card: Salvar cartão
