@@ -199,6 +199,7 @@ it:
           author_username: Username dell’autore
           incompatible: Incompatibile
       show:
+        assigned_valuators: Stimatori assegnati
         info: "%{budget_name} - gruppo: %{group_name} - %{id} progetto di investimento"
         edit_classification: Modificare la classificazione
         by: Di
@@ -211,6 +212,7 @@ it:
           "false": Non selezionato
         winner:
           title: Vincitore
+        valuator_groups: "Gruppi di stimatori"
       edit:
         mark_as_incompatible: Contrassegnare come incompatibile
         mark_as_selected: Contrassegnare come selezionato
@@ -333,6 +335,7 @@ it:
       hidden_proposals: Proposte nascoste
       administrators: Amministratori
       moderators: Moderatori
+      valuators: Stimatori
       poll_officers: Presidenti del seggio di voto
       poll_booths: Ubicazione delle urne
       officials: Pubblici ufficiali
@@ -349,14 +352,35 @@ it:
       administrator:
         restricted_removal: "Non è possibile rimuovere se stessi dagli amministratori"
     valuators:
+      index:
+        title: Stimatori
+        no_valuators: Non ci sono stimatori.
+        valuator_groups: "Gruppi di stimatori"
       valuator:
         add: Aggiungere agli stimatori
+      search:
+        title: 'Stimatori: Ricerca utente'
       summary:
         title: Riepilogo della stima dei progetti di investimento
+        valuator_name: Stimatore
         finished_and_feasible_count: Concluso e realizzabile
         finished_and_unfeasible_count: Concluso e irrealizzabile
         in_evaluation_count: Stima in corso
         total_count: Totale
+      form:
+        edit_title: "Stimatori: Modificare stimatore"
+        update: "Aggiorna stimatore"
+        updated: "Stimatore aggiornato con successo"
+    valuator_groups:
+      index:
+        title: "Gruppi di stimatori"
+        new: "Creare gruppo di stimatori"
+        no_groups: "Non risultano gruppi di stimatori"
+      show:
+        title: "Gruppo di stimatori: %{group}"
+      form:
+        new: "Creare gruppo di stimatori"
+        edit: "Salvare il gruppo di stimatori"
     poll_officers:
       officer:
         delete: Eliminare la posizione
@@ -464,6 +488,8 @@ it:
       no_search_results: "Nessun risultato trovato."
     spending_proposals:
       index:
+        valuator_filter_all: Tutti gli stimatori
+        no_valuators_assigned: Nessuno stimatore assegnato
         summary_link: "Sintesi del progetto di investimento"
         valuator_summary_link: "Riepilogo dello stimatore"
       show:
