@@ -75,6 +75,10 @@ it:
       index:
         title: Bilanci partecipativi
         new_link: Creare un nuovo bilancio
+        filter: Filtra
+        filters:
+          open: Aperti
+          finished: Terminati
         budget_investments: Gestire i progetti
         table_name: Nome
         table_phase: Fase
