@@ -72,7 +72,7 @@ zh-TW:
         duration_html: 時間範圍
         save: 儲存更改
       notice:
-        valuate: "檔案更新"
+        valuate: "檔案已更新"
       valuation_comments: 評估的評論
       not_in_valuating_phase: 只有在預算處於評估階段，才能對投資進行評估
     spending_proposals:
@@ -122,4 +122,4 @@ zh-TW:
         internal_comments_html: 內部評論
         save: 儲存更改
       notice:
-        valuate: "檔案更新"
+        valuate: "檔案已更新"
