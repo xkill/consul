@@ -97,15 +97,27 @@ it:
         phase: Fase
         dates: Date
         edit_phase: Modificare la fase
+        blank_dates: Le date risultano vuote
+      destroy:
+        success_notice: Bilancio cancellato con successo
+        unable_notice: Non è consentito eliminare un bilancio cui risultano associati degli investimenti
       new:
         title: Nuovo bilancio partecipativo
+      show:
+        groups:
+          one: 1 Gruppo di voci di bilancio
+          other: "%{count} Gruppi di voci di bilancio"
       form:
         group: Nome del gruppo
         no_groups: Non è stato ancora creato nessun gruppo. Ogni utente sarà in grado di votare in un solo titolo per ogni gruppo.
         add_group: Aggiungi un nuovo gruppo
         create_group: Creare un gruppo
+        edit_group: Modificare gruppo
+        submit: Salvare gruppo
+        heading: Denominazione della voce di bilancio
         add_heading: Aggiungi intestazione
         amount: Importo
+        population: "Popolazione (facoltativo)"
         save_heading: Salvare l'intestazione
         no_heading: A questo gruppo non è stata ancora assegnata una intestazione.
       winners:
