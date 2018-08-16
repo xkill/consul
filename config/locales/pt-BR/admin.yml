@@ -667,6 +667,11 @@ pt-BR:
         send: Enviar a notificação
         will_get_notified: (%{n} usuários serão notificados)
         got_notified: (%{n} usuários foram notificados)
+        sent_at: Enviado em
+        title: Título
+        body: Texto
+        link: Link
+        segment_recipient: Destinatários
     emails_download:
       index:
         title: Download de emails
