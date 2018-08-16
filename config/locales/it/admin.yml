@@ -147,7 +147,7 @@ it:
       index:
         heading_filter_all: Tutte le voci
         administrator_filter_all: Tutti gli amministratori
-        valuator_filter_all: Tutti i valutatori
+        valuator_filter_all: Tutti gli stimatori
         tags_filter_all: Tutti i tag
         advanced_filters: Filtri avanzati
         placeholder: Cerca progetti
@@ -177,9 +177,27 @@ it:
         title: Progetti di investimento
         assigned_admin: Amministratore assegnato
         no_admin_assigned: Nessun amministratore assegnato
+        no_valuators_assigned: Nessuno stimatore assegnato
+        no_valuation_groups: Nessun gruppo di stima assegnato
         feasibility:
           feasible: "Fattibile (%{price})"
+          unfeasible: "Irrealizzabile"
           undecided: "Nessuna decisione"
+        selected: "Selezionato"
+        select: "Selezionare"
+        list:
+          id: ID
+          title: Titolo
+          supports: Sostegni
+          admin: Amministratore
+          valuator: Stimatore
+          valuation_group: Gruppo di Stima
+          geozone: Ambito dell’operazione
+          feasibility: Fattibilità
+          valuation_finished: Stim. Conc.
+          visible_to_valuators: Mostrare agli stimatori
+          author_username: Username dell’autore
+          incompatible: Incompatibile
       show:
         info: "%{budget_name} - gruppo: %{group_name} - %{id} progetto di investimento"
         edit_classification: Modificare la classificazione
@@ -196,7 +214,7 @@ it:
       edit:
         mark_as_incompatible: Contrassegnare come incompatibile
         mark_as_selected: Contrassegnare come selezionato
-        assigned_valuators: Valutatori
+        assigned_valuators: Stimatori
         select_heading: Selezionare intestazione
         tags_placeholder: "Scrivere i tag separati da virgole (,)"
       search_unfeasible: Ricerca irrealizzabile
@@ -332,12 +350,12 @@ it:
         restricted_removal: "Non è possibile rimuovere se stessi dagli amministratori"
     valuators:
       valuator:
-        add: Aggiungere ai valutatori
+        add: Aggiungere agli stimatori
       summary:
-        title: Riassunto della valutazione dei progetti di investimento
-        finished_and_feasible_count: Finito e fattibile
-        finished_and_unfeasible_count: Finito e non realizzabile
-        in_evaluation_count: Valutazione in corso
+        title: Riepilogo della stima dei progetti di investimento
+        finished_and_feasible_count: Concluso e realizzabile
+        finished_and_unfeasible_count: Concluso e irrealizzabile
+        in_evaluation_count: Stima in corso
         total_count: Totale
     poll_officers:
       officer:
@@ -447,7 +465,7 @@ it:
     spending_proposals:
       index:
         summary_link: "Sintesi del progetto di investimento"
-        valuator_summary_link: "Riepilogo del valutatore"
+        valuator_summary_link: "Riepilogo dello stimatore"
       show:
         heading: "Progetto di investimento %{id}"
       summary:
