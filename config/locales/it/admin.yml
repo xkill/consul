@@ -96,6 +96,7 @@ it:
         delete: Elimina budget
         phase: Fase
         dates: Date
+        actions: Azioni
         edit_phase: Modificare la fase
         blank_dates: Le date risultano vuote
       destroy:
@@ -140,11 +141,20 @@ it:
         description: Descrizione
         description_help_text: Questo paragrafo apparirà nell’intestazione quando la fase risulterà attiva
         enabled: Fase abilitata
+        enabled_help_text: Questa fase sarà visibile a tutti nella sequenza temporale delle fasi del bilancio e risulterà attiva ad ogni altro fine
+        save_changes: Salvare le modifiche
     budget_investments:
       index:
+        heading_filter_all: Tutte le voci
         administrator_filter_all: Tutti gli amministratori
         valuator_filter_all: Tutti i valutatori
         tags_filter_all: Tutti i tag
+        advanced_filters: Filtri avanzati
+        placeholder: Cerca progetti
+        sort_by:
+          placeholder: Ordina per
+          id: ID
+          title: Titolo
         filters:
           without_admin: Senza amministratore designato
           selected: Selezionato
