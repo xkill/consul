@@ -135,7 +135,7 @@ nl:
         title: Hulp bij discussies
         description: Start een discussie om je mening met anderen te delen over onderwerpen die jij belangrijk vindt.
         help_text_1: "Deze plek voor discussies is bedoeld voor het uiten en delen van meningen over alle onderwerpen, kansen of knelpunten die men belangrijk vindt in de gemeente."
-        help_text_2: '''Om een discussie te starten moet je inloggen op {org}. Deelnemers kunnen ook reageren op bestaande discussies en deze beoordelen met de knoppen ''Eens'' of ''Oneens'' die bij elke discussie staan.'
+        help_text_2: '''Om een discussie te starten moet je inloggen op %{org}. Deelnemers kunnen ook reageren op bestaande discussies en deze beoordelen met de knoppen ''Eens'' of ''Oneens'' die bij elke discussie staan.'
     new:
       form:
         submit_button: Start een discussie
