@@ -191,6 +191,18 @@ pt-BR:
           id: ID
           title: Título
           supports: Apoio
+          admin: Administrador
+          valuator: Avaliador
+          valuation_group: Grupo de avaliação
+          geozone: Escopo da operação
+          feasibility: Viabilidade
+          valuation_finished: Valor Final.
+          selected: Selecionado
+          visible_to_valuators: Apresentar aos avaliadores
+          author_username: Username do autor
+          incompatible: Incompatível
+        cannot_calculate_winners: O orçamento tem que ficar na fase "Projetos de votação", "Revendo votos" ou "Orçamento concluído" em ordem para calcular os projetos vencedores
+        see_results: "Exibir resultados"
       show:
         assigned_admin: Administrador designado
         assigned_valuators: Avaliadores designados
@@ -227,6 +239,7 @@ pt-BR:
         documents: "Documentos"
         see_documents: "Exibir documentos (%{count})"
         no_documents: "Sem documentos"
+        valuator_groups: "Grupos de avaliação"
       edit:
         classification: Classificação
         compatibility: Compatibilidade
@@ -240,6 +253,7 @@ pt-BR:
         tags: Marcações
         tags_placeholder: "Escreva as marcações que deseja separadas por vírgulas ()"
         undefined: Não definido
+        user_groups: "Grupos"
       search_unfeasible: Pesquisar inviáveis
     milestones:
       index:
@@ -247,15 +261,22 @@ pt-BR:
         table_title: "Título"
         table_description: "Descrição"
         table_publication_date: "Data de publicação"
+        table_status: Status
         table_actions: "Ações"
         delete: "Deletar marco"
         no_milestones: "Não há marcos definidos"
         image: "Imagem"
         show_image: "Exibir imagem"
         documents: "Documentos"
+      form:
+        add_language: Adicionar idioma
+        remove_language: Remover idioma
+        admin_statuses: Status dos investimentos para administrador
+        no_statuses_defined: Ainda não há status de investimento definidos
       new:
         creating: Criar marco
         date: Data
+        description: Descrição
       edit:
         title: Editar marco
       create:
@@ -264,6 +285,9 @@ pt-BR:
         notice: Marco atualizado com sucesso
       delete:
         notice: Marco excluído com sucesso
+    statuses:
+      index:
+        title: Status de investimento
     comments:
       index:
         filter: Filtro
