@@ -11,14 +11,14 @@ it:
       restore: Ripristino
       mark_featured: In primo piano
       unmark_featured: Deselezionare 'in primo piano'
-      edit: Modificare
+      edit: Modifica
       configure: Configurare
       delete: Eliminare
     banners:
       index:
         title: Banner
         create: Crea il banner
-        edit: Modifica il banner
+        edit: Modifica banner
         delete: Elimina il banner
         filters:
           all: Tutti
@@ -41,7 +41,7 @@ it:
         background_color: Colore sfondo
         font_color: Colore caratteri
       edit:
-        editing: Modificare il banner
+        editing: Modifica banner
         form:
           submit_button: Salvare le modifiche
       errors:
@@ -84,20 +84,20 @@ it:
         table_phase: Fase
         table_investments: Investimenti
         table_edit_groups: Gruppi di intestazioni
-        table_edit_budget: Modificare
+        table_edit_budget: Modifica
         edit_groups: Modificare i gruppi di intestazioni
-        edit_budget: Modifica il budget
+        edit_budget: Modifica bilancio
       create:
         notice: Nuovo bilancio partecipativo creato con successo!
       update:
         notice: Bilancio partecipativo aggiornato con successo
       edit:
-        title: Modificare il bilancio partecipativo
+        title: Modifica bilancio partecipativo
         delete: Elimina budget
         phase: Fase
         dates: Date
         actions: Azioni
-        edit_phase: Modificare la fase
+        edit_phase: Modifica fase
         blank_dates: Le date risultano vuote
       destroy:
         success_notice: Bilancio cancellato con successo
@@ -113,7 +113,7 @@ it:
         no_groups: Non è stato ancora creato nessun gruppo. Ogni utente sarà in grado di votare in un solo titolo per ogni gruppo.
         add_group: Aggiungi un nuovo gruppo
         create_group: Creare un gruppo
-        edit_group: Modificare gruppo
+        edit_group: Modifica gruppo
         submit: Salvare gruppo
         heading: Denominazione della voce di bilancio
         add_heading: Aggiungi intestazione
@@ -201,7 +201,7 @@ it:
       show:
         assigned_valuators: Stimatori assegnati
         info: "%{budget_name} - gruppo: %{group_name} - %{id} progetto di investimento"
-        edit_classification: Modificare la classificazione
+        edit_classification: Modifica classificazione
         by: Di
         sent: Inviato
         new_milestone: Crea un nuovo traguardo
@@ -351,6 +351,8 @@ it:
     administrators:
       administrator:
         restricted_removal: "Non è possibile rimuovere se stessi dagli amministratori"
+    segment_recipient:
+      feasible_and_undecided_investment_authors: "Autori di qualche investimento nel bilancio corrente che risulta non conforme a: [stima conclusa irrealizzabile]"
     valuators:
       index:
         title: Stimatori
@@ -508,6 +510,8 @@ it:
       index:
         valuator_filter_all: Tutti gli stimatori
         filters:
+          valuation_open: Aperta
+          valuating: In corso di stima
           valuation_finished: Stima conclusa
         no_valuators_assigned: Nessuno stimatore assegnato
         summary_link: "Sintesi del progetto di investimento"
