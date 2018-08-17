@@ -1,1 +1,33 @@
 zh-TW:
+  management:
+    account:
+      menu:
+        reset_password_email: 通過電郵重設密碼
+        reset_password_manually: 手動重設密碼
+      alert:
+        unverified_user: 尚未有已核實的用戶登錄
+      show:
+        title: 用戶帳戶
+      edit:
+        title: '編輯用戶帳戶：重設密碼'
+        back: 返回
+        password:
+          password: 密碼
+          send_email: 發送重設密碼電郵
+          reset_email_send: 電郵已正確發送。
+          reseted: 密碼已重設成功
+          random: 生成隨機密碼
+          save: 儲存密碼
+          print: 打印密碼
+          print_help: 您可以打印已儲存的密碼。
+    account_info:
+      change_user: 更改用戶
+      document_number_label: '文檔編號：'
+      document_type_label: '文檔類型：'
+      email_label: '電郵：'
+      identified_label: '確定為：'
+      username_label: '用戶名：'
+    check: 檢查文檔
+    dashboard:
+      index:
+        title: 管理
