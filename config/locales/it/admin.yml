@@ -83,9 +83,9 @@ it:
         table_name: Nome
         table_phase: Fase
         table_investments: Investimenti
-        table_edit_groups: Gruppi di intestazioni
+        table_edit_groups: Gruppi di voci di bilancio
         table_edit_budget: Modifica
-        edit_groups: Modificare i gruppi di intestazioni
+        edit_groups: Modifica gruppi di voci di bilancio
         edit_budget: Modifica bilancio
       create:
         notice: Nuovo bilancio partecipativo creato con successo!
@@ -112,7 +112,7 @@ it:
           other: "%{count} Gruppi di voci di bilancio"
       form:
         group: Nome del gruppo
-        no_groups: Non è stato ancora creato nessun gruppo. Ogni utente sarà in grado di votare in un solo titolo per ogni gruppo.
+        no_groups: Non è ancora stato creato alcun gruppo. Ciascun utente potrà votare per un’unica voce in ciascun gruppo.
         add_group: Aggiungi un nuovo gruppo
         create_group: Creare un gruppo
         edit_group: Modifica gruppo
@@ -123,7 +123,7 @@ it:
         population: "Popolazione (facoltativo)"
         population_help_text: "Questo dato è utilizzato esclusivamente per elaborare le statistiche relative alla partecipazione"
         save_heading: Salvare voce di bilancio
-        no_heading: A questo gruppo non è stata ancora assegnata una intestazione.
+        no_heading: Questo gruppo non ha voci di bilancio assegnate.
         table_heading: Voce di bilancio
         table_amount: Importo
         table_population: Popolazione
@@ -197,6 +197,7 @@ it:
           geozone: Ambito dell’operazione
           feasibility: Fattibilità
           valuation_finished: Stim. Conc.
+          selected: Selezionato
           visible_to_valuators: Mostrare agli stimatori
           author_username: Username dell’autore
           incompatible: Incompatibile
@@ -213,16 +214,31 @@ it:
         sent: Inviato
         group: Gruppo
         heading: Voce di bilancio
+        dossier: Fascicolo
         edit_dossier: Modifica fascicolo
+        tags: Etichette
+        user_tags: Etichette utente
+        undefined: Non definito
         milestone: Traguardo
         new_milestone: Crea un nuovo traguardo
         compatibility:
           title: Compatibilità
+          "true": Incompatibile
           "false": Compatibile
         selection:
+          title: Selezione
+          "true": Selezionato
           "false": Non selezionato
         winner:
           title: Vincitore
+          "true": "Sì"
+          "false": "No"
+        image: "Immagine"
+        see_image: "Vedi immagine"
+        no_image: "Senza immagine"
+        documents: "Documenti"
+        see_documents: "Vedi documenti (%{count})"
+        no_documents: "Senza documenti"
         valuator_groups: "Gruppi di stimatori"
       edit:
         classification: Classificazione
@@ -231,7 +247,7 @@ it:
         selection: Selezione
         mark_as_selected: Contrassegnare come selezionato
         assigned_valuators: Stimatori
-        select_heading: Selezionare intestazione
+        select_heading: Selezionare voce di bilancio
         submit_button: Aggiorna
         user_tags: Etichette assegnate dall’utente
         tags: Etichette
