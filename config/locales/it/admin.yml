@@ -118,11 +118,11 @@ it:
         edit_group: Modifica gruppo
         submit: Salvare gruppo
         heading: Denominazione della voce di bilancio
-        add_heading: Aggiungi intestazione
+        add_heading: Aggiungi voce di bilancio
         amount: Importo
         population: "Popolazione (facoltativo)"
         population_help_text: "Questo dato è utilizzato esclusivamente per elaborare le statistiche relative alla partecipazione"
-        save_heading: Salvare l'intestazione
+        save_heading: Salvare voce di bilancio
         no_heading: A questo gruppo non è stata ancora assegnata una intestazione.
         table_heading: Voce di bilancio
         table_amount: Importo
@@ -200,13 +200,19 @@ it:
           visible_to_valuators: Mostrare agli stimatori
           author_username: Username dell’autore
           incompatible: Incompatibile
+        cannot_calculate_winners: Il bilancio deve rimanere nella fase “Progetti in votazione”, “Revisione Scrutini” o “Bilancio concluso” percalcolare i progetti vincitori
+        see_results: "Visualizza i risultati"
       show:
+        assigned_admin: Amministratore assegnato
         assigned_valuators: Stimatori assegnati
+        classification: Classificazione
         info: "%{budget_name} - gruppo: %{group_name} - %{id} progetto di investimento"
         edit: Modifica
         edit_classification: Modifica classificazione
         by: Di
         sent: Inviato
+        group: Gruppo
+        heading: Voce di bilancio
         edit_dossier: Modifica fascicolo
         milestone: Traguardo
         new_milestone: Crea un nuovo traguardo
