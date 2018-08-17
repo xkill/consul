@@ -204,6 +204,7 @@ it:
         edit_classification: Modifica classificazione
         by: Di
         sent: Inviato
+        milestone: Traguardo
         new_milestone: Crea un nuovo traguardo
         compatibility:
           title: Compatibilità
@@ -222,7 +223,16 @@ it:
       search_unfeasible: Ricerca irrealizzabile
     milestones:
       index:
+        table_id: "ID"
+        table_title: "Titolo"
+        table_description: "Descrizione"
+        table_publication_date: "Data di pubblicazione"
+        table_status: Stato
+        table_actions: "Azioni"
         delete: "Cancellare il traguardo-milestone"
+        no_milestones: "Non risultano traguardi predefiniti"
+        image: "Immagine"
+        show_image: "Mostra immagine"
       new:
         creating: Crea traguardo-milestone
       edit:
