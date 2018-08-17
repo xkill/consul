@@ -520,6 +520,7 @@ it:
       summary:
         title: Riepilogo per progetti di investimento
         title_proposals_with_supports: Riepilogo per progetti di investimento che hanno superato la fase di 'appoggio'
+        in_evaluation_count: In corso di stima
     geozones:
       index:
         title: Geozona
