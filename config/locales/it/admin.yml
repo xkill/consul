@@ -475,6 +475,7 @@ it:
       poll_officers: Presidenti del seggio di voto
       polls: Sondaggi
       poll_booths: Ubicazione delle urne
+      poll_booth_assignments: Assegnazioni Cabine di Voto
       poll_shifts: Gestisci turni
       officials: Pubblici ufficiali
       organizations: Organizzazioni
@@ -506,10 +507,32 @@ it:
       title_profiles: Profili
       title_settings: Impostazioni
       title_site_customization: Contenuto del sito
+      title_booths: Cabine di voto
       legislation: Legislazione collaborativa
+      users: Utenti
     administrators:
+      index:
+        title: Amministratori
+        name: Nome
+        email: Email
+        no_administrators: Non ci sono amministratori.
       administrator:
+        add: Aggiungi
+        delete: Elimina
         restricted_removal: "Non è possibile rimuovere se stessi dagli amministratori"
+      search:
+        title: "Amministratori: Ricerca utenti"
+    moderators:
+      index:
+        title: Moderatori
+        name: Nome
+        email: Email
+        no_moderators: Non ci sono moderatori.
+      moderator:
+        add: Aggiungi
+        delete: Elimina
+      search:
+        title: 'Moderatori: Ricerca utenti'
     segment_recipient:
       feasible_and_undecided_investment_authors: "Autori di qualche investimento nel bilancio corrente che risulta non conforme a: [stima conclusa irrealizzabile]"
     newsletters:
@@ -537,7 +560,7 @@ it:
         add: Aggiungere agli stimatori
         delete: Eliminare
       search:
-        title: 'Stimatori: Ricerca utente'
+        title: 'Stimatori: Ricerca utenti'
       summary:
         title: Riepilogo della stima dei progetti di investimento
         valuator_name: Stimatore
@@ -659,7 +682,7 @@ it:
       search:
         edit_official: Modifica pubblico ufficiale
         make_official: Convertire in pubblico ufficiale
-        title: 'Pubblici ufficiali: ricerca utente'
+        title: 'Pubblici ufficiali: Ricerca utenti'
     organizations:
       index:
         filters:
