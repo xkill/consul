@@ -466,18 +466,47 @@ it:
       administrators: Amministratori
       managers: Gestori
       moderators: Moderatori
+      messaging_users: Messaggi agli utenti
+      newsletters: Newsletter
+      admin_notifications: Notifiche
+      system_emails: Email di sistema
+      emails_download: Scarica email
       valuators: Stimatori
       poll_officers: Presidenti del seggio di voto
+      polls: Sondaggi
       poll_booths: Ubicazione delle urne
+      poll_booth_assignments: Assegnazioni Seggi
+      poll_shifts: Gestisci turni
       officials: Pubblici ufficiali
       organizations: Organizzazioni
+      settings: Impostazioni globali
+      spending_proposals: Proposte di spesa
       stats: Statistiche
       signature_sheets: Fogli firma
       site_customization:
+        homepage: Homepage
+        pages: Pagine personalizzate
+        images: Immagini personalizzate
         content_blocks: Blocchi di contenuto personalizzato
+        information_texts: SMS informativi personalizzati
+        information_texts_menu:
+          debates: "Dibattiti"
+          community: "Comunità"
+          proposals: "Proposte"
+          polls: "Sondaggi"
+          layouts: "Impaginazione"
+          mailers: "Email"
+          management: "Gestione"
+          guides: "Guide"
+          welcome: "Benvenuto"
+        buttons:
+          save: "Salva"
       title_moderated_content: Contenuto moderato
       title_budgets: Bilanci
+      title_polls: Sondaggi
       title_profiles: Profili
+      title_settings: Impostazioni
+      title_site_customization: Contenuto del sito
       legislation: Legislazione collaborativa
     administrators:
       administrator:
