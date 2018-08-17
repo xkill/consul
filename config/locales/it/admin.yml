@@ -447,12 +447,24 @@ it:
       manager:
         add: Aggiungere
         delete: Elimina
+      search:
+        title: 'Dirigenti: Ricerca utenti'
     menu:
+      activity: Attività del moderatore
       admin: Menu admin
       banner: Gestire i banner
+      poll_questions: Domande
       proposals_topics: Argomenti delle proposte
+      budgets: Bilanci partecipativi
+      geozones: Gestisci distretti
+      hidden_comments: Commenti nascosti
+      hidden_debates: Dibattiti nascosti
       hidden_proposals: Proposte nascoste
+      hidden_budget_investments: Investimenti di bilancio nascosti
+      hidden_proposal_notifications: Notifiche di proposte nascoste
+      hidden_users: Utenti nascosti
       administrators: Amministratori
+      managers: Gestori
       moderators: Moderatori
       valuators: Stimatori
       poll_officers: Presidenti del seggio di voto
