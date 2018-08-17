@@ -233,6 +233,9 @@ it:
         no_milestones: "Non risultano traguardi predefiniti"
         image: "Immagine"
         show_image: "Mostra immagine"
+        documents: "Documenti"
+      form:
+        add_language: Aggiungi lingua
       new:
         creating: Crea traguardo-milestone
       edit:
