@@ -96,8 +96,10 @@ it:
         delete: Elimina budget
         phase: Fase
         dates: Date
+        enabled: Abilitata
         actions: Azioni
         edit_phase: Modifica fase
+        active: Attiva
         blank_dates: Le date risultano vuote
       destroy:
         success_notice: Bilancio cancellato con successo
@@ -201,9 +203,11 @@ it:
       show:
         assigned_valuators: Stimatori assegnati
         info: "%{budget_name} - gruppo: %{group_name} - %{id} progetto di investimento"
+        edit: Modifica
         edit_classification: Modifica classificazione
         by: Di
         sent: Inviato
+        edit_dossier: Modifica fascicolo
         milestone: Traguardo
         new_milestone: Crea un nuovo traguardo
         compatibility:
@@ -215,10 +219,14 @@ it:
           title: Vincitore
         valuator_groups: "Gruppi di stimatori"
       edit:
+        classification: Classificazione
+        compatibility: Compatibilità
         mark_as_incompatible: Contrassegnare come incompatibile
+        selection: Selezione
         mark_as_selected: Contrassegnare come selezionato
         assigned_valuators: Stimatori
         select_heading: Selezionare intestazione
+        submit_button: Aggiorna
         tags_placeholder: "Scrivere i tag separati da virgole (,)"
       search_unfeasible: Ricerca irrealizzabile
     milestones:
@@ -229,7 +237,7 @@ it:
         table_publication_date: "Data di pubblicazione"
         table_status: Stato
         table_actions: "Azioni"
-        delete: "Cancellare il traguardo-milestone"
+        delete: "Elimina traguardo"
         no_milestones: "Non risultano traguardi predefiniti"
         image: "Immagine"
         show_image: "Mostra immagine"
@@ -237,16 +245,24 @@ it:
       form:
         add_language: Aggiungi lingua
         remove_language: Rimuovi lingua
+        no_statuses_defined: Non ci sono ancora status d’investimento definiti
       new:
-        creating: Crea traguardo-milestone
+        creating: Crea traguardo
+        date: Data
+        description: Descrizione
       edit:
-        title: Modifica traguardo-milestone
+        title: Modifica traguardo
       create:
-        notice: Il nuovo traguardo-milestone è stato definito con successo!
+        notice: Nuovo traguardo creato con successo!
       update:
-        notice: Il traguardo-milestone è stato aggiornato con successo
+        notice: Traguardo aggiornato con successo
       delete:
-        notice: Il traguardo-milestone è stato cancellato con successo
+        notice: Traguardo cancellato con successo
+    statuses:
+      index:
+        edit: Modifica
+      edit:
+        title: Modifica status dell’investimento
     comments:
       index:
         filters:
@@ -367,6 +383,16 @@ it:
         restricted_removal: "Non è possibile rimuovere se stessi dagli amministratori"
     segment_recipient:
       feasible_and_undecided_investment_authors: "Autori di qualche investimento nel bilancio corrente che risulta non conforme a: [stima conclusa irrealizzabile]"
+    newsletters:
+      index:
+        edit: Modifica
+      edit:
+        title: Modifica newsletter
+    admin_notifications:
+      index:
+        edit: Modifica
+      edit:
+        section_title: Modifica notifica
     valuators:
       index:
         title: Stimatori
@@ -427,6 +453,9 @@ it:
         booth: "Seggio"
         assignments: "Turni come presidente di seggio per questo sondaggio"
         no_assignments: "Questo utente non ha turni come presidente di seggio in questo sondaggio."
+    poll_shifts:
+      new:
+        edit_shifts: Modifica turni
     poll_booth_assignments:
       flash:
         destroy: "Seggio non più assegnato"
@@ -457,7 +486,16 @@ it:
       new:
         title: "Creare la domanda"
       show:
+        edit_question: Modifica domanda
         valid_answers: Risposte valide
+    answers:
+      show:
+        edit: Modifica risposta
+      edit:
+        title: Modifica risposta
+      videos:
+        edit:
+          title: Modifica video
     recounts:
       index:
         no_recounts: "Non c'è nulla da scrutinare"
@@ -473,6 +511,8 @@ it:
       edit:
         title: "Modificare il seggio"
         submit_button: "Aggiornare il seggio"
+      booth:
+        edit: "Modifica seggio"
     officials:
       edit:
         destroy: Eliminare lo stato di pubblico ufficiale
@@ -533,6 +573,9 @@ it:
       show:
         assigned_valuators: Stimatori assegnati
         heading: "Progetto di investimento %{id}"
+        edit: Modifica
+        edit_classification: Modifica classificazione
+        edit_dossier: Modifica fascicolo
       edit:
         assigned_valuators: Stimatori
       summary:
@@ -543,9 +586,12 @@ it:
       index:
         title: Geozona
         create: Creare geozona
+        edit: Modifica
       geozone:
         external_code: Codice esterno
         coordinates: Coordinate
+      edit:
+        editing: Modifica del distretto
     signature_sheets:
       no_signature_sheets: "Non ci sono fogli di firma"
       index:
@@ -642,3 +688,7 @@ it:
           see_page: Vedere la pagina
         new:
           title: Creare la nuova pagina personalizzata
+    homepage:
+      edit:
+        header_title: Modifica intestazione
+        card_title: Modifica scheda
