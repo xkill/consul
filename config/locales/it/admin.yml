@@ -319,17 +319,38 @@ it:
       index:
         back: Torna a %{org}
         title: Amministrazione
+        description: Benvenuto nel pannello di amministrazione di %{org}.
     debates:
       index:
+        filter: Filtra
+        filters:
+          all: Tutti
+          with_confirmed_hide: Confermato
+          without_confirmed_hide: In sospeso
         title: Dibattiti nascosti
+        no_hidden_debates: Non ci sono dibattiti nascosti.
     hidden_users:
       index:
+        filter: Filtra
+        filters:
+          all: Tutti
+          with_confirmed_hide: Confermato
+          without_confirmed_hide: In sospeso
         title: Utenti nascosti
+        user: Utente
+        no_hidden_users: Non ci sono utenti nascosti.
       show:
         email: 'E-mail:'
         hidden_at: 'Nascosto:'
         registered_at: 'Data di registrazione:'
         title: Attività dell'utente (%{user})
+    hidden_budget_investments:
+      index:
+        filter: Filtra
+        filters:
+          all: Tutti
+          with_confirmed_hide: Confermato
+          without_confirmed_hide: In sospeso
     legislation:
       processes:
         edit:
@@ -401,9 +422,17 @@ it:
         form:
           add_option: Aggiungere l'opzione
           value_placeholder: Aggiungi una risposta chiusa
+        index:
+          back: Indietro
+          title: Domande associate a questo processo
+          create: Crea domanda
+          delete: Elimina
         new:
+          back: Indietro
           title: Creare una nuova domanda
+          submit_button: Crea domanda
         table:
+          title: Titolo
           question_options: Opzioni per la domanda
           answers_count: Risposte totali
           comments_count: Commenti totali
@@ -412,8 +441,12 @@ it:
     managers:
       index:
         title: Gestori
+        name: Nome
+        email: Email
+        no_managers: Non ci sono dirigenti.
       manager:
         add: Aggiungere
+        delete: Elimina
     menu:
       admin: Menu admin
       banner: Gestire i banner
