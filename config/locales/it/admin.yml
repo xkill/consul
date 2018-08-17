@@ -227,7 +227,11 @@ it:
         assigned_valuators: Stimatori
         select_heading: Selezionare intestazione
         submit_button: Aggiorna
+        user_tags: Etichette assegnate dall’utente
+        tags: Etichette
         tags_placeholder: "Scrivere i tag separati da virgole (,)"
+        undefined: Non definito
+        user_groups: "Gruppi"
       search_unfeasible: Ricerca irrealizzabile
     milestones:
       index:
@@ -283,6 +287,9 @@ it:
         title: Attività dell'utente (%{user})
     legislation:
       processes:
+        edit:
+          back: Indietro
+          submit_button: Salvare le modifiche
         errors:
           form:
             error: Errore
@@ -310,6 +317,8 @@ it:
         destroy:
           notice: Bozza cancellata con successo
         edit:
+          back: Indietro
+          submit_button: Salvare le modifiche
           warning: Hai modificato il testo, non dimenticare di cliccare su Salva per salvare le modifiche in modo permanente.
         form:
           title_html: 'Stai modificando <span class="strong">%{draft_version_title}</span> dal procedimento <span class="strong">%{process_title}</span>'
@@ -341,7 +350,9 @@ it:
         destroy:
           notice: Domanda cancellata con successo
         edit:
+          back: Indietro
           title: "Modificare \"%{question_title}\""
+          submit_button: Salvare le modifiche
         form:
           add_option: Aggiungere l'opzione
           value_placeholder: Aggiungi una risposta chiusa
@@ -470,6 +481,7 @@ it:
         title: "Nuovo sondaggio"
       edit:
         title: "Modificare il sondaggio"
+        submit_button: "Aggiorna sondaggio"
       show:
         questions_tab: Domande
         booths_tab: Urne
@@ -577,7 +589,12 @@ it:
         edit_classification: Modifica classificazione
         edit_dossier: Modifica fascicolo
       edit:
+        classification: Classificazione
         assigned_valuators: Stimatori
+        submit_button: Aggiornare
+        tags: Etichette
+        tags_placeholder: "Scrivi le etichette che vuoi separate da virgole (,)"
+        undefined: Non definito
       summary:
         title: Riepilogo per progetti di investimento
         title_proposals_with_supports: Riepilogo per progetti di investimento che hanno superato la fase di 'appoggio'
@@ -591,7 +608,10 @@ it:
         external_code: Codice esterno
         coordinates: Coordinate
       edit:
+        form:
+          submit_button: Salvare le modifiche
         editing: Modifica del distretto
+        back: Torna indietro
     signature_sheets:
       no_signature_sheets: "Non ci sono fogli di firma"
       index:
@@ -691,4 +711,6 @@ it:
     homepage:
       edit:
         header_title: Modifica intestazione
+        submit_header: Salva intestazione
         card_title: Modifica scheda
+        submit_card: Salva scheda
