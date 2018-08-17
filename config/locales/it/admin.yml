@@ -286,16 +286,39 @@ it:
         notice: Traguardo cancellato con successo
     statuses:
       index:
+        title: Status di investimento
+        empty_statuses: Non sono stati creati status di investimento
+        new_status: Crea nuovo status di investimento
+        table_name: Nome
+        table_description: Descrizione
+        table_actions: Azioni
+        delete: Elimina
         edit: Modifica
       edit:
         title: Modifica status dell’investimento
+      update:
+        notice: Status di investimento aggiornato con successo
+      new:
+        title: Crea status di investimento
+      create:
+        notice: Status di investimento creato con successo
+      delete:
+        notice: Status di investimento eliminato con successo
     comments:
       index:
+        filter: Filtra
         filters:
+          all: Tutti
           with_confirmed_hide: Confermato
+          without_confirmed_hide: In sospeso
         hidden_debate: Dibattito nascosto
         hidden_proposal: Proposta nascosta
         title: Commenti nascosti
+        no_hidden_comments: Non ci sono commenti nascosti.
+    dashboard:
+      index:
+        back: Torna a %{org}
+        title: Amministrazione
     debates:
       index:
         title: Dibattiti nascosti
