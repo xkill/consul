@@ -742,12 +742,15 @@ it:
         new: "Creare gruppo di stimatori"
         edit: "Salvare il gruppo di stimatori"
     poll_officers:
+      index:
+        title: Ufficiali di voto
       officer:
         delete: Eliminare la posizione
         entry_name: responsabile
     poll_officer_assignments:
       index:
         officers_title: "Elenco dei presidenti di seggio designati"
+        no_officers: "Non ci sono ufficiali assegnati a questa votazione."
       by_officer:
         date: "Data"
         booth: "Seggio"
@@ -756,16 +759,24 @@ it:
     poll_shifts:
       new:
         edit_shifts: Modifica turni
+      recount_scrutiny: Riconteggio & Scrutinio
     poll_booth_assignments:
       flash:
         destroy: "Seggio non più assegnato"
         create: "Seggio assegnato"
+        error_create: "Si è verificato un errore nell’assegnare una cabina alla votazione"
       show:
         officers: "Presidenti di seggio"
         officers_list: "Lista dei presidenti per questo seggio"
         no_officers: "Non ci sono presidenti per questo seggio"
         recounts: "Scrutinii"
+      index:
+        no_booths: "Non ci sono cabine assegnate a questa votazione."
     polls:
+      index:
+        title: "Lista di votazioni attive"
+        no_polls: "Non ci sono votazioni in programma."
+        create: "Crea votazione"
       new:
         title: "Nuovo sondaggio"
       edit:
