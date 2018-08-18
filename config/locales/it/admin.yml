@@ -408,6 +408,14 @@ it:
           draft_texts: Redazione
           questions: Dibattito
           proposals: Proposte
+      proposals:
+        index:
+          title: Proposte
+          back: Indietro
+        form:
+          custom_categories: Categorie
+          custom_categories_description: Categorie che gli utenti possono selezionare creando la proposta.
+          custom_categories_placeholder: Inserisci le etichette che desideri utilizzare, separate da virgole (,) e tra virgolette ("")
       draft_versions:
         create:
           notice: 'Bozza creata con successo. <a href="%{link}"> Clicca per consultarla</a>'
@@ -421,10 +429,14 @@ it:
           back: Indietro
           submit_button: Salvare le modifiche
           warning: Hai modificato il testo, non dimenticare di cliccare su Salva per salvare le modifiche in modo permanente.
+        errors:
+          form:
+            error: Errore
         form:
           title_html: 'Stai modificando <span class="strong">%{draft_version_title}</span> del procedimento <span class="strong">%{process_title}</span>'
           launch_text_editor: Avviare l'editor di testo
           close_text_editor: Chiudere l'editor di testo
+          use_markdown: Usa il Markdown per formattare il testo
           hints:
             final_version: Questa versione sarà pubblicata come Risultato Finale per questo procedimento. I commenti non saranno consentiti in questa versione.
             status:
@@ -436,11 +448,21 @@ it:
         index:
           title: Versioni in bozza
           create: Creare la versione
+          delete: Elimina
+          preview: Anteprima
         new:
+          back: Indietro
           title: Creare una nuova versione
+          submit_button: Crea versione
         statuses:
           draft: Bozza
           published: Pubblicato
+        table:
+          title: Titolo
+          created_at: Creata a
+          comments: Commenti
+          final_version: Versione finale
+          status: Status
       questions:
         create:
           notice: 'Domanda creata con successo. <a href="%{link}"> Clicca per consultarla</a>'
@@ -454,9 +476,15 @@ it:
           back: Indietro
           title: "Modificare \"%{question_title}\""
           submit_button: Salvare le modifiche
+        errors:
+          form:
+            error: Errore
         form:
           add_option: Aggiungere l'opzione
+          title: Domanda
+          title_placeholder: Aggiungi domanda
           value_placeholder: Aggiungi una risposta chiusa
+          question_options: "Possibile risposta (facoltativa, risposta aperta di default)"
         index:
           back: Indietro
           title: Domande associate a questo procedimento
@@ -569,7 +597,13 @@ it:
       search:
         title: 'Moderatori: Ricerca utenti'
     segment_recipient:
+      all_users: Tutti gli utenti
+      administrators: Amministratori
+      proposal_authors: Autori della proposta
+      investment_authors: Autori degli investimenti nel bilancio corrente
       feasible_and_undecided_investment_authors: "Autori di qualche investimento nel bilancio corrente che risulta non conforme a: [stima conclusa irrealizzabile]"
+      selected_investment_authors: Autori degli investimenti selezionati nel bilancio corrente
+      winner_investment_authors: Autori degli investimenti vincenti nel bilancio corrente
     newsletters:
       index:
         edit: Modifica
