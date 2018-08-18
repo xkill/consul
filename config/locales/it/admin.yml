@@ -604,11 +604,41 @@ it:
       feasible_and_undecided_investment_authors: "Autori di qualche investimento nel bilancio corrente che risulta non conforme a: [stima conclusa irrealizzabile]"
       selected_investment_authors: Autori degli investimenti selezionati nel bilancio corrente
       winner_investment_authors: Autori degli investimenti vincenti nel bilancio corrente
+      not_supported_on_current_budget: Utenti che non hanno sostenuto investimenti nel budget corrente
+      invalid_recipients_segment: "Il segmento utente destinatari è invalido"
     newsletters:
+      create_success: Newsletter creata con successo
+      update_success: Newsletter aggiornata con successo
+      send_success: Newsletter inviata con successo
+      delete_success: Newsletter eliminata con successo
       index:
+        title: Newsletter
+        new_newsletter: Nuova newsletter
+        subject: Oggetto
+        segment_recipient: Destinatari
+        sent: Inviata
+        actions: Azioni
+        draft: Bozza
         edit: Modifica
+        delete: Elimina
+        preview: Anteprima
+        empty_newsletters: Non ci sono newsletter da visualizzare
+      new:
+        title: Nuova newsletter
+        from: Indirizzo e-mail che comparirà come mittente della newsletter
       edit:
         title: Modifica newsletter
+      show:
+        title: Anteprima newsletter
+        send: Invia
+        affected_users: (%{n} utenti interessati)
+        sent_at: Inviato alle
+        subject: Oggetto
+        segment_recipient: Destinatari
+        from: Indirizzo e-mail che comparirà come mittente della newsletter
+        body: Contenuto dell’email
+        body_help_text: Così è come gli utenti vedranno l’email
+        send_alert: Sei sicuro di voler inviare questa newsletter a %{n} utenti?
     admin_notifications:
       index:
         edit: Modifica
