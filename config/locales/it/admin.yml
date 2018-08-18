@@ -679,6 +679,11 @@ it:
         action: Anteprima in sospeso
         preview_of: Anteprima di %{name}
         pending_to_be_sent: Questo è il contenuto in attesa di essere inviato
+        moderate_pending: Invio notifica moderata
+        send_pending: Invia sospesa
+        send_pending_notification: Notifiche in sospeso inviate con successo
+      proposal_notification_digest:
+        title: Riassunto Notifiche Proposta
     valuators:
       index:
         title: Stimatori
