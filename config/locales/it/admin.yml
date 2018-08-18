@@ -358,6 +358,11 @@ it:
         create:
           notice: 'Processo creato con successo. <a href="%{link}">Clicca per visitare</a>'
           error: Non è stato possibile creare il processo
+        update:
+          notice: 'Processo aggiornato con successo. <a href="%{link}">Clicca per visitare</a>'
+          error: Non è stato possibile aggiornare il processo
+        destroy:
+          notice: Processo eliminato con successo
         edit:
           back: Indietro
           submit_button: Salvare le modifiche
@@ -366,6 +371,7 @@ it:
             error: Errore
         form:
           enabled: Abilitato
+          process: Processo
           debate_phase: Fase di dibattito
           start: Inizio
           end: Fine
