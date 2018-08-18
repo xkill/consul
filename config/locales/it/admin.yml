@@ -689,6 +689,9 @@ it:
     emails_download:
       index:
         title: Scarica email
+        download_segment: Scarica indirizzi email
+        download_segment_help_text: Scarica in formato CSV
+        download_emails_button: Scarica lista email
     valuators:
       index:
         title: Stimatori
@@ -710,6 +713,7 @@ it:
         valuator_name: Stimatore
         finished_and_feasible_count: Concluso e realizzabile
         finished_and_unfeasible_count: Concluso e irrealizzabile
+        finished_count: Terminate
         in_evaluation_count: Stima in corso
         total_count: Totale
         cost: Costo
