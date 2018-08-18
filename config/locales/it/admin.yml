@@ -640,10 +640,45 @@ it:
         body_help_text: Così è come gli utenti vedranno l’email
         send_alert: Sei sicuro di voler inviare questa newsletter a %{n} utenti?
     admin_notifications:
+      create_success: Notifica creata con successo
+      update_success: Notifica aggiornata con successo
+      send_success: Notifica inviata con successo
+      delete_success: Notifica eliminata con successo
       index:
+        section_title: Notifiche
+        new_notification: Nuova notifica
+        title: Titolo
+        segment_recipient: Destinatari
+        sent: Inviata
+        actions: Azioni
+        draft: Bozza
         edit: Modifica
+        delete: Elimina
+        preview: Anteprima
+        view: Visualizza
+        empty_notifications: Non ci sono notifiche da visualizzare
+      new:
+        section_title: Nuova notifica
       edit:
         section_title: Modifica notifica
+      show:
+        section_title: Anteprima notifica
+        send: Invia notifica
+        will_get_notified: (%{n} utenti riceveranno una notifica)
+        got_notified: (%{n} utenti hanno ricevuto una notifica)
+        sent_at: Inviata alle
+        title: Titolo
+        body: Testo
+        link: Link
+        segment_recipient: Destinatari
+        preview_guide: "Così è come gli utenti vedranno la notifica:"
+        sent_guide: "Così è come gli utenti vedono la notifica:"
+        send_alert: Sei sicuro di voler inviare questa notifica a %{n} utenti?
+    system_emails:
+      preview_pending:
+        action: Anteprima in sospeso
+        preview_of: Anteprima di %{name}
+        pending_to_be_sent: Questo è il contenuto in attesa di essere inviato
     valuators:
       index:
         title: Stimatori
