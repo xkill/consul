@@ -351,8 +351,13 @@ it:
           all: Tutti
           with_confirmed_hide: Confermato
           without_confirmed_hide: In sospeso
+        title: Investimenti di bilancio nascosti
+        no_hidden_budget_investments: Non ci sono investimenti di bilancio nascosti
     legislation:
       processes:
+        create:
+          notice: 'Processo creato con successo. <a href="%{link}">Clicca per visitare</a>'
+          error: Non è stato possibile creare il processo
         edit:
           back: Indietro
           submit_button: Salvare le modifiche
