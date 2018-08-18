@@ -779,24 +779,29 @@ it:
         create: "Crea votazione"
       new:
         title: "Nuovo sondaggio"
+        results_and_stats_reminder: "Contrassegnando queste caselle i risultati e/o le statistiche di questa votazione verranno resi disponibili al pubblico e ogni utente li vedrà."
+        submit_button: "Crea votazione"
       edit:
         title: "Modificare il sondaggio"
         submit_button: "Aggiorna sondaggio"
       show:
         questions_tab: Domande
         booths_tab: Urne
+        no_questions: "Non ci sono domande assegnate a questa votazione."
       flash:
         question_added: "Domanda aggiunta a questo sondaggio"
         error_on_question_added: "La domanda non può essere assegnata a questo sondaggio"
     questions:
       index:
         no_questions: "Non ci sono domande."
+        filter_poll: Filtra in base alla Votazione
         select_poll: Seleziona sondaggio
         successful_proposals_tab: "La proposta ha superato la soglia minima"
       edit:
         title: "Modifica la domanda"
       new:
         title: "Creare la domanda"
+        poll_label: "Votazione"
       show:
         edit_question: Modifica domanda
         valid_answers: Risposte valide
