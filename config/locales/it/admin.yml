@@ -373,11 +373,18 @@ it:
           enabled: Abilitato
           process: Processo
           debate_phase: Fase di dibattito
+          allegations_phase: Fase di redazione
+          proposals_phase: Fase di proposte
           start: Inizio
           end: Fine
           use_markdown: Usa Markdown per formattare il testo
+          title_placeholder: Il titolo del processo
           summary_placeholder: Breve riassunto della descrizione
+          description_placeholder: Aggiungi una descrizione del processo
           additional_info_placeholder: Aggiungi ulteriori informazioni che ritieni utili
+        index:
+          create: Nuovo procedimento
+          title: Procedimenti legislativi
         process:
           creation_date: Data di creazione
           status_closed: Chiuso
@@ -435,7 +442,7 @@ it:
           value_placeholder: Aggiungi una risposta chiusa
         index:
           back: Indietro
-          title: Domande associate a questo processo
+          title: Domande associate a questo procedimento
           create: Crea domanda
           delete: Elimina
         new:
