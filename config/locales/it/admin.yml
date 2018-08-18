@@ -384,8 +384,21 @@ it:
           additional_info_placeholder: Aggiungi ulteriori informazioni che ritieni utili
         index:
           create: Nuovo procedimento
+          delete: Elimina
           title: Procedimenti legislativi
+          filters:
+            open: Aperti
+            next: Successivo
+            past: Precedente
+            all: Tutti
+        new:
+          back: Indietro
+          title: Crea nuovo procedimento collaborativo di legislazione
+          submit_button: Crea procedimento
         process:
+          title: Procedimento
+          comments: Commenti
+          status: Status
           creation_date: Data di creazione
           status_closed: Chiuso
           status_planned: Programmato
@@ -868,6 +881,8 @@ it:
         new:
           title: Creare la nuova pagina personalizzata
     homepage:
+      feeds:
+        processes: Procedimenti
       edit:
         header_title: Modifica intestazione
         submit_header: Salva intestazione
