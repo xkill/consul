@@ -356,13 +356,13 @@ it:
     legislation:
       processes:
         create:
-          notice: 'Processo creato con successo. <a href="%{link}">Clicca per visitare</a>'
-          error: Non è stato possibile creare il processo
+          notice: 'Procedimento creato con successo. <a href="%{link}">Clicca per visitare</a>'
+          error: Non è stato possibile creare il procedimento
         update:
-          notice: 'Processo aggiornato con successo. <a href="%{link}">Clicca per visitare</a>'
-          error: Non è stato possibile aggiornare il processo
+          notice: 'Procedimento aggiornato con successo. <a href="%{link}">Clicca per visitare</a>'
+          error: Non è stato possibile aggiornare il procedimento
         destroy:
-          notice: Processo eliminato con successo
+          notice: Procedimento eliminato con successo
         edit:
           back: Indietro
           submit_button: Salvare le modifiche
@@ -371,16 +371,16 @@ it:
             error: Errore
         form:
           enabled: Abilitato
-          process: Processo
+          process: Procedimento
           debate_phase: Fase di dibattito
           allegations_phase: Fase di redazione
           proposals_phase: Fase di proposte
           start: Inizio
           end: Fine
           use_markdown: Usa Markdown per formattare il testo
-          title_placeholder: Il titolo del processo
+          title_placeholder: Il titolo del procedimento
           summary_placeholder: Breve riassunto della descrizione
-          description_placeholder: Aggiungi una descrizione del processo
+          description_placeholder: Aggiungi una descrizione del procedimento
           additional_info_placeholder: Aggiungi ulteriori informazioni che ritieni utili
         index:
           create: Nuovo procedimento
@@ -400,10 +400,14 @@ it:
           comments: Commenti
           status: Status
           creation_date: Data di creazione
+          status_open: Aperto
           status_closed: Chiuso
           status_planned: Programmato
         subnav:
           info: Informazione
+          draft_texts: Redazione
+          questions: Dibattito
+          proposals: Proposte
       draft_versions:
         create:
           notice: 'Bozza creata con successo. <a href="%{link}"> Clicca per consultarla</a>'
@@ -418,11 +422,11 @@ it:
           submit_button: Salvare le modifiche
           warning: Hai modificato il testo, non dimenticare di cliccare su Salva per salvare le modifiche in modo permanente.
         form:
-          title_html: 'Stai modificando <span class="strong">%{draft_version_title}</span> dal procedimento <span class="strong">%{process_title}</span>'
+          title_html: 'Stai modificando <span class="strong">%{draft_version_title}</span> del procedimento <span class="strong">%{process_title}</span>'
           launch_text_editor: Avviare l'editor di testo
           close_text_editor: Chiudere l'editor di testo
           hints:
-            final_version: Questa versione sarà pubblicata come risultato finale per questo procedimento. I commenti non saranno consentiti in questa versione.
+            final_version: Questa versione sarà pubblicata come Risultato Finale per questo procedimento. I commenti non saranno consentiti in questa versione.
             status:
               draft: Puoi vedere l'anteprima come amministratore, nessun altro può vederla
               published: Visibile a tutti
