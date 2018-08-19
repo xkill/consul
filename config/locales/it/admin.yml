@@ -782,6 +782,9 @@ it:
         search_officer_text: Cerca uno scrutatore cui assegnare un nuovo turno
         select_date: "Seleziona giorno"
         no_voting_days: "Votazioni chiuse"
+        select_task: "Seleziona incarico"
+        table_shift: "Turno"
+        table_email: "Email"
       recount_scrutiny: Riconteggio & Scrutinio
     booth_assignments:
       manage_assignments: Gestisci le assegnazioni
