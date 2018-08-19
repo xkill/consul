@@ -12,12 +12,12 @@ it:
       mark_featured: In primo piano
       unmark_featured: Deseleziona 'in primo piano'
       edit: Modifica
-      configure: Configurare
-      delete: Eliminare
+      configure: Configura
+      delete: Elimina
     banners:
       index:
         title: Banner
-        create: Crea il banner
+        create: Crea banner
         edit: Modifica banner
         delete: Elimina il banner
         filters:
@@ -74,12 +74,12 @@ it:
     budgets:
       index:
         title: Bilanci partecipativi
-        new_link: Creare un nuovo bilancio
+        new_link: Crea nuovo bilancio
         filter: Filtra
         filters:
           open: Aperti
           finished: Terminati
-        budget_investments: Gestire i progetti
+        budget_investments: Gestisci i progetti
         table_name: Nome
         table_phase: Fase
         table_investments: Investimenti
@@ -92,7 +92,7 @@ it:
       update:
         notice: Bilancio partecipativo aggiornato con successo
       edit:
-        title: Modifica bilancio partecipativo
+        title: Modifica Bilancio partecipativo
         delete: Elimina budget
         phase: Fase
         dates: Date
@@ -103,7 +103,7 @@ it:
         blank_dates: Le date risultano vuote
       destroy:
         success_notice: Bilancio cancellato con successo
-        unable_notice: Non è consentito eliminare un bilancio cui risultano associati degli investimenti
+        unable_notice: Non è consentito eliminare un Bilancio cui risultano associati degli investimenti
       new:
         title: Nuovo bilancio partecipativo
       show:
@@ -113,10 +113,10 @@ it:
       form:
         group: Nome del gruppo
         no_groups: Non è ancora stato creato alcun gruppo. Ciascun utente potrà votare per un’unica voce in ciascun gruppo.
-        add_group: Aggiungi un nuovo gruppo
-        create_group: Creare un gruppo
+        add_group: Aggiungi nuovo gruppo
+        create_group: Crea gruppo
         edit_group: Modifica gruppo
-        submit: Salvare gruppo
+        submit: Salva gruppo
         heading: Denominazione della voce di bilancio
         add_heading: Aggiungi voce di bilancio
         amount: Importo
@@ -131,9 +131,9 @@ it:
         max_votable_headings: "Numero massimo di voci che un utente può votare"
         current_of_max_headings: "%{current} di %{max}"
       winners:
-        calculate: Calcolare gli investimenti del vincitore
-        calculated: Stiamo calcolando i vincitori, ciò potrebbe richiedere alcuni minuti.
-        recalculate: Ricalcolare Investimenti Vincenti
+        calculate: Calcola Investimenti Vincitori
+        calculated: Stiamo calcolando i vincitori, il che potrebbe richiedere un minuto.
+        recalculate: Ricalcolare Investimenti Vincitori
     budget_phases:
       edit:
         start_date: Data di inizio
@@ -144,13 +144,13 @@ it:
         description_help_text: Questo paragrafo apparirà nell’intestazione quando la fase risulterà attiva
         enabled: Fase abilitata
         enabled_help_text: Questa fase sarà visibile a tutti nella sequenza temporale delle fasi del bilancio e risulterà attiva ad ogni altro fine
-        save_changes: Salvare le modifiche
+        save_changes: Salva modifiche
     budget_investments:
       index:
         heading_filter_all: Tutte le voci
         administrator_filter_all: Tutti gli amministratori
         valuator_filter_all: Tutti gli stimatori
-        tags_filter_all: Tutti i tag
+        tags_filter_all: Tutte le etichette
         advanced_filters: Filtri avanzati
         placeholder: Cerca progetti
         sort_by:
@@ -182,11 +182,11 @@ it:
         no_valuators_assigned: Nessuno stimatore assegnato
         no_valuation_groups: Nessun gruppo di stima assegnato
         feasibility:
-          feasible: "Fattibile (%{price})"
+          feasible: "Realizzabile (%{price})"
           unfeasible: "Irrealizzabile"
           undecided: "Nessuna decisione"
         selected: "Selezionato"
-        select: "Selezionare"
+        select: "Seleziona"
         list:
           id: ID
           title: Titolo
@@ -201,13 +201,13 @@ it:
           visible_to_valuators: Mostrare agli stimatori
           author_username: Username dell’autore
           incompatible: Incompatibile
-        cannot_calculate_winners: Il bilancio deve rimanere nella fase “Progetti in votazione”, “Revisione Scrutini” o “Bilancio concluso” percalcolare i progetti vincitori
+        cannot_calculate_winners: Il bilancio deve rimanere nella fase “Progetti in votazione”, “Revisione Schede” o “Bilancio concluso” percalcolare i progetti vincitori
         see_results: "Visualizza i risultati"
       show:
         assigned_admin: Amministratore assegnato
         assigned_valuators: Stimatori assegnati
         classification: Classificazione
-        info: "%{budget_name} - gruppo: %{group_name} - %{id} progetto di investimento"
+        info: "%{budget_name} - Gruppo: %{group_name} - %{id} progetto di investimento"
         edit: Modifica
         edit_classification: Modifica classificazione
         by: Di
@@ -220,7 +220,7 @@ it:
         user_tags: Etichette utente
         undefined: Non definito
         milestone: Traguardo
-        new_milestone: Crea un nuovo traguardo
+        new_milestone: Crea nuovo traguardo
         compatibility:
           title: Compatibilità
           "true": Incompatibile
@@ -243,15 +243,15 @@ it:
       edit:
         classification: Classificazione
         compatibility: Compatibilità
-        mark_as_incompatible: Contrassegnare come incompatibile
+        mark_as_incompatible: Contrassegna come incompatibile
         selection: Selezione
-        mark_as_selected: Contrassegnare come selezionato
+        mark_as_selected: Contrassegna come selezionato
         assigned_valuators: Stimatori
         select_heading: Selezionare voce di bilancio
         submit_button: Aggiorna
         user_tags: Etichette assegnate dall’utente
         tags: Etichette
-        tags_placeholder: "Scrivere i tag separati da virgole (,)"
+        tags_placeholder: "Scrivi le etichette che vuoi separate da virgole (,)"
         undefined: Non definito
         user_groups: "Gruppi"
       search_unfeasible: Ricerca irrealizzabile
