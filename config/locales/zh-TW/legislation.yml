@@ -12,6 +12,12 @@ zh-TW:
         publish_comment: 發佈評論
       form:
         phase_not_open: 此階段未開啟
+        login_to_comment: 您必須%{signin} 或%{signup} 才能留下評論。
+        signin: 登錄
+        signup: 登記
       index:
+        title: 評論
+        comments_about: 評論關於
+        see_in_context: 在上下文中查看
         comments_count:
           other: "%{count} 個評論"
