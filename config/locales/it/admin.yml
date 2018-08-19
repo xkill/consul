@@ -537,8 +537,8 @@ it:
       valuators: Stimatori
       poll_officers: Scrutatori
       polls: Sondaggi
-      poll_booths: Ubicazione delle urne
-      poll_booth_assignments: Assegnazioni Cabine di Voto
+      poll_booths: Posizione dei seggi
+      poll_booth_assignments: Assegnazioni Seggi
       poll_shifts: Gestisci turni
       officials: Pubblici ufficiali
       organizations: Organizzazioni
@@ -570,7 +570,7 @@ it:
       title_profiles: Profili
       title_settings: Impostazioni
       title_site_customization: Contenuto del sito
-      title_booths: Cabine di voto
+      title_booths: Seggi
       legislation: Legislazione collaborativa
       users: Utenti
     administrators:
@@ -776,9 +776,11 @@ it:
         new_shift: "Nuovo turno"
         no_shifts: "Questa cabina non ha turni"
         officer: "Scrutatore"
+        remove_shift: "Rimuovi"
         search_officer_button: Cerca
         search_officer_placeholder: Cerca scrutatore
         search_officer_text: Cerca uno scrutatore cui assegnare un nuovo turno
+        select_date: "Seleziona giorno"
       recount_scrutiny: Riconteggio & Scrutinio
     booth_assignments:
       manage_assignments: Gestisci le assegnazioni
@@ -798,17 +800,24 @@ it:
         destroy: "Seggio non più assegnato"
         create: "Seggio assegnato"
         error_destroy: "Si è verificato un errore nella rimozione dell’assegnazione del seggio"
-        error_create: "Si è verificato un errore nell’assegnare una cabina alla votazione"
+        error_create: "Si è verificato un errore nell’assegnazione del seggio alla votazione"
       show:
+        location: "Posizione"
         officers: "Scrutatori"
         officers_list: "Lista degli scrutatori per questo seggio"
         no_officers: "Non ci sono scrutatori per questo seggio"
         recounts: "Scrutinii"
         recounts_list: "Elenco scrutatori per il riconteggio di questo seggio"
+        results: "Risultati"
+        date: "Data"
         count_final: "Conteggio finale (per scrutatore)"
+        count_by_system: "Voti (automatico)"
+        total_system: Totale voti (automatico)
       index:
         booths_title: "Elenco seggi"
-        no_booths: "Non ci sono cabine assegnate a questa votazione."
+        no_booths: "Non ci sono seggi assegnati a questa votazione."
+        table_name: "Nome"
+        table_location: "Posizione"
     polls:
       index:
         title: "Lista di votazioni attive"
@@ -823,7 +832,7 @@ it:
         submit_button: "Aggiorna sondaggio"
       show:
         questions_tab: Domande
-        booths_tab: Urne
+        booths_tab: Seggi
         officers_tab: Scrutatori
         no_questions: "Non ci sono quesiti assegnati a questa votazione."
         questions_title: "Elenco dei quesiti"
@@ -888,19 +897,29 @@ it:
         no_results: "Non ci sono risultati"
       results_by_booth:
         booth: Seggio
+        results: Risultati
+        see_results: Visualizza risultati
         title: "Risultati per seggio"
     booths:
       index:
         title: "Elenco dei seggi attivi"
         no_booths: "Non risultano seggi attivi per alcuna votazione imminente."
         add_booth: "Aggiungere seggio"
+        name: "Nome"
+        location: "Posizione"
+        no_location: "Nessuna Posizione"
       new:
         title: "Nuovo seggio"
-        submit_button: "Creare seggio"
+        name: "Nome"
+        location: "Posizione"
+        submit_button: "Crea seggio"
       edit:
-        title: "Modificare il seggio"
-        submit_button: "Aggiornare il seggio"
+        title: "Modifica seggio"
+        submit_button: "Aggiorna seggio"
+      show:
+        location: "Posizione"
       booth:
+        shifts: "Gestisci turni"
         edit: "Modifica seggio"
     officials:
       edit:
@@ -941,6 +960,7 @@ it:
           disable: "Disattivare"
     shared:
       booths_search:
+        button: Cerca
         placeholder: Ricercare seggio per nome
       poll_officers_search:
         button: Cerca
