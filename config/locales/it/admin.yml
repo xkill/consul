@@ -775,7 +775,6 @@ it:
         edit_shifts: Modifica turni
         new_shift: "Nuovo turno"
         no_shifts: "Questa cabina non ha turni"
-        officer: "Responsabile"
         search_officer_placeholder: Cerca responsabile
       recount_scrutiny: Riconteggio & Scrutinio
     poll_booth_assignments:
