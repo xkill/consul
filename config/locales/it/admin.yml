@@ -540,7 +540,7 @@ it:
       poll_booths: Posizione dei seggi
       poll_booth_assignments: Assegnazioni Seggi
       poll_shifts: Gestisci turni
-      officials: Scrutatori
+      officials: Funzionari
       organizations: Organizzazioni
       settings: Impostazioni globali
       spending_proposals: Proposte di spesa
@@ -964,28 +964,28 @@ it:
         edit: "Modifica seggio"
     officials:
       edit:
-        destroy: Eliminare lo stato di pubblico ufficiale
-        title: 'Pubblici ufficiali: modificare l''utente'
+        destroy: Elimina lo status di ‘Funzionario’
+        title: 'Funzionari: Modifica utente'
       flash:
-        official_destroyed: 'Dettagli salvati: l''utente non è più pubblico ufficiale'
-        official_updated: Dettagli del pubblico ufficiale salvati
+        official_destroyed: 'Dettagli salvati: l''utente non è più un funzionario'
+        official_updated: Dettagli funzionario salvati
       index:
-        title: Scrutatori
-        no_officials: Non ci sono scrutatori.
+        title: Funzionari
+        no_officials: Non ci sono funzionari.
         name: Nome
-        official_position: Incarico ufficiale
+        official_position: Incarico da funzionario
         official_level: Livello
-      level_0: Non è pubblico ufficiale
+      level_0: Non funzionario
       level_1: Livello 1
       level_2: Livello 2
       level_3: Livello 3
       level_4: Livello 4
       level_5: Livello 5
       search:
-        edit_official: Modifica pubblico ufficiale
-        make_official: Convertire in pubblico ufficiale
-        title: 'Pubblici ufficiali: Ricerca utenti'
-        no_results: Posizioni ufficiali non trovate.
+        edit_official: Modifica funzionario
+        make_official: Nomina funzionario
+        title: 'Funzionari: Ricerca utenti'
+        no_results: Incarichi da funzionario non trovati.
     organizations:
       index:
         filter: Filtra
@@ -1003,10 +1003,10 @@ it:
         responsible_name: Responsabile
         status: Status
         reject: Respingi
-        search_placeholder: Nominativo, numero di telefono o e-mail
-        verify: Verificare
+        search_placeholder: Nome, email o numero di telefono
+        verify: Verifica
       search:
-        title: Cerca organizzazioni
+        title: Cerca Organizzazioni
     settings:
       flash:
         updated: Valore aggiornato
@@ -1015,12 +1015,12 @@ it:
         features:
           enabled: "Funzionalità attivata"
           disabled: "Funzionalità disabilitata"
-          enable: "Attivare"
-          disable: "Disattivare"
+          enable: "Attiva"
+          disable: "Disattiva"
     shared:
       booths_search:
         button: Cerca
-        placeholder: Ricercare seggio per nome
+        placeholder: Cerca seggio per nome
       poll_officers_search:
         button: Cerca
         placeholder: Cerca scrutatori
@@ -1028,9 +1028,9 @@ it:
         button: Cerca
         placeholder: Cerca quesiti oggetto di votazione
       proposal_search:
-        placeholder: Ricercare le proposte per titolo, codice. descrizione o domanda
+        placeholder: Cerca le proposte per titolo, codice. descrizione o quesito
       spending_proposal_search:
-        placeholder: Ricercare le proposte di spesa per titolo o descrizione
+        placeholder: Cerca le proposte di spesa per titolo o descrizione
       no_search_results: "Nessun risultato trovato."
       content: Contenuto
       created_at: Creato a
@@ -1043,7 +1043,7 @@ it:
         filters:
           valuation_open: Aperta
           without_admin: Senza amministratore assegnato
-          managed: Gestito
+          managed: Gestita
           valuating: In corso di stima
           valuation_finished: Stima conclusa
           all: Tutti
@@ -1051,7 +1051,7 @@ it:
         assigned_admin: Amministratore assegnato
         no_admin_assigned: Nessun amministratore assegnato
         no_valuators_assigned: Nessuno stimatore assegnato
-        summary_link: "Sintesi del progetto di investimento"
+        summary_link: "Riepilogo del progetto di investimento"
         valuator_summary_link: "Riepilogo dello stimatore"
         feasibility:
           feasible: "Realizzabile (%{price})"
