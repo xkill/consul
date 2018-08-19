@@ -475,12 +475,12 @@ it:
         edit:
           back: Indietro
           title: "Modifica \"%{question_title}\""
-          submit_button: Salvare le modifiche
+          submit_button: Salva le modifiche
         errors:
           form:
             error: Errore
         form:
-          add_option: Aggiungere l'opzione
+          add_option: Aggiungi opzione
           title: Quesito
           title_placeholder: Aggiungi quesito
           value_placeholder: Aggiungi una risposta chiusa
@@ -497,10 +497,10 @@ it:
         table:
           title: Titolo
           question_options: Opzioni quesito
-          answers_count: Risposte totali
-          comments_count: Commenti totali
+          answers_count: Conteggio risposte
+          comments_count: Conteggio commenti
         question_option_fields:
-          remove_option: Rimuovere l'opzione
+          remove_option: Rimuovi opzione
     managers:
       index:
         title: Gestori
@@ -508,14 +508,14 @@ it:
         email: Email
         no_managers: Non ci sono dirigenti.
       manager:
-        add: Aggiungere
+        add: Aggiungi
         delete: Elimina
       search:
         title: 'Dirigenti: Ricerca utenti'
     menu:
       activity: Attività del moderatore
-      admin: Menu admin
-      banner: Gestire i banner
+      admin: Menù amministratore
+      banner: Gestisci banner
       poll_questions: Quesiti
       proposals_topics: Argomenti delle proposte
       budgets: Bilanci partecipativi
@@ -536,11 +536,11 @@ it:
       emails_download: Scarica email
       valuators: Stimatori
       poll_officers: Scrutatori
-      polls: Sondaggi
+      polls: Votazioni
       poll_booths: Posizione dei seggi
       poll_booth_assignments: Assegnazioni Seggi
       poll_shifts: Gestisci turni
-      officials: Pubblici ufficiali
+      officials: Scrutatori
       organizations: Organizzazioni
       settings: Impostazioni globali
       spending_proposals: Proposte di spesa
@@ -556,7 +556,7 @@ it:
           debates: "Dibattiti"
           community: "Comunità"
           proposals: "Proposte"
-          polls: "Sondaggi"
+          polls: "Votazioni"
           layouts: "Impaginazione"
           mailers: "Email"
           management: "Gestione"
@@ -566,12 +566,12 @@ it:
           save: "Salva"
       title_moderated_content: Contenuto moderato
       title_budgets: Bilanci
-      title_polls: Sondaggi
+      title_polls: Votazioni
       title_profiles: Profili
       title_settings: Impostazioni
       title_site_customization: Contenuto del sito
       title_booths: Seggi
-      legislation: Legislazione collaborativa
+      legislation: Legislazione Collaborativa
       users: Utenti
     administrators:
       index:
@@ -582,7 +582,7 @@ it:
       administrator:
         add: Aggiungi
         delete: Elimina
-        restricted_removal: "Non è possibile rimuovere se stessi dagli amministratori"
+        restricted_removal: "Spiacenti, non è possibile rimuovere se stessi dagli amministratori"
       search:
         title: "Amministratori: Ricerca utenti"
     moderators:
