@@ -816,8 +816,8 @@ it:
         officers: "Scrutatori"
         officers_list: "Lista degli scrutatori per questo seggio"
         no_officers: "Non ci sono scrutatori per questo seggio"
-        recounts: "Scrutinii"
-        recounts_list: "Elenco scrutatori per il riconteggio di questo seggio"
+        recounts: "Riconteggi"
+        recounts_list: "Elenco scrutatori per il riconteggio in questo seggio"
         results: "Risultati"
         date: "Data"
         count_final: "Conteggio finale (per scrutatore)"
@@ -837,15 +837,15 @@ it:
         dates: "Date"
         geozone_restricted: "Limitato ai distretti"
       new:
-        title: "Nuovo sondaggio"
+        title: "Nuova votazione"
         show_results_and_stats: "Visualizza risultati e statistiche"
         show_results: "Mostra risultati"
         show_stats: "Mostra statistiche"
         results_and_stats_reminder: "Contrassegnando queste caselle i risultati e/o le statistiche di questa votazione verranno resi disponibili al pubblico e ogni utente li vedrà."
         submit_button: "Crea votazione"
       edit:
-        title: "Modificare il sondaggio"
-        submit_button: "Aggiorna sondaggio"
+        title: "Modifica votazione"
+        submit_button: "Aggiorna votazione"
       show:
         questions_tab: Quesiti
         booths_tab: Seggi
@@ -864,9 +864,9 @@ it:
         create: "Crea quesito"
         no_questions: "Non ci sono quesiti."
         filter_poll: Filtra in base alla Votazione
-        select_poll: Seleziona sondaggio
+        select_poll: Soluziona Votazione
         questions_tab: "Quesiti"
-        successful_proposals_tab: "La proposta ha superato la soglia minima"
+        successful_proposals_tab: "Proposta che ha superato la soglia richiesta"
         create_question: "Crea quesito"
         table_proposal: "Proposta"
         table_question: "Quesito"
@@ -922,7 +922,7 @@ it:
     recounts:
       index:
         title: "Riconteggi"
-        no_recounts: "Non c'è nulla da scrutinare"
+        no_recounts: "Non c'è nulla da riconteggiare"
         table_booth_name: "Seggio"
         table_total_recount: "Conteggio complessivo (per scrutatore)"
         table_system_count: "Voti (automatico)"
