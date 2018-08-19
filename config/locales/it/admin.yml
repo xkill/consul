@@ -763,8 +763,8 @@ it:
       by_officer:
         date: "Data"
         booth: "Seggio"
-        assignments: "Turni come presidente di seggio per questo sondaggio"
-        no_assignments: "Questo utente non ha turni come presidente di seggio in questo sondaggio."
+        assignments: "Turni da scrutatore per questa votazione"
+        no_assignments: "Questo utente non ha turni da scrutatore in questa votazione."
     poll_shifts:
       new:
         add_shift: "Aggiungere turno"
@@ -780,7 +780,14 @@ it:
         search_officer_placeholder: Cerca scrutatore
         search_officer_text: Cerca uno scrutatore cui assegnare un nuovo turno
       recount_scrutiny: Riconteggio & Scrutinio
+    booth_assignments:
+      manage:
+        actions:
+          assign: Assegna seggio
+          unassign: Annulla assegnazione seggio
     poll_booth_assignments:
+      alert:
+        shifts: "A questo seggio risultano associati dei turni. Se rimuovi l’assegnazione del seggio, anche i turni verranno eliminati. Continuare?"
       flash:
         destroy: "Seggio non più assegnato"
         create: "Seggio assegnato"
