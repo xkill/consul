@@ -788,15 +788,21 @@ it:
         questions_tab: Domande
         booths_tab: Urne
         no_questions: "Non ci sono domande assegnate a questa votazione."
+        questions_title: "Elenco dei quesiti"
       flash:
         question_added: "Domanda aggiunta a questa votazione"
         error_on_question_added: "La domanda non può essere assegnata a questo sondaggio"
     questions:
       index:
+        title: "Quesiti"
+        create: "Crea quesito"
         no_questions: "Non ci sono domande."
         filter_poll: Filtra in base alla Votazione
         select_poll: Seleziona sondaggio
+        questions_tab: "Quesiti"
         successful_proposals_tab: "La proposta ha superato la soglia minima"
+        create_question: "Crea quesito"
+        table_question: "Quesito"
       edit:
         title: "Modifica la domanda"
       new:
