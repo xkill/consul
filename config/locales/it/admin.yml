@@ -850,8 +850,11 @@ it:
         questions_tab: Domande
         booths_tab: Seggi
         officers_tab: Scrutatori
+        recounts_tab: Riconteggio
+        results_tab: Risultati
         no_questions: "Non ci sono quesiti assegnati a questa votazione."
         questions_title: "Elenco dei quesiti"
+        table_title: "Titolo"
       flash:
         question_added: "Quesito aggiunto a questa votazione"
         error_on_question_added: "Non è stato possibile assegnare il quesito a questa votazione"
@@ -896,11 +899,21 @@ it:
           document_title: Titolo
           document_actions: Azioni
     answers:
+      new:
+        title: Nuova risposta
       show:
+        title: Titolo
+        description: Descrizione
+        images: Immagini
+        images_list: Elenco immagini
         edit: Modifica risposta
       edit:
         title: Modifica risposta
       videos:
+        index:
+          title: Video
+          add_video: Aggiungi video
+          video_title: Titolo
         edit:
           title: Modifica video
     recounts:
