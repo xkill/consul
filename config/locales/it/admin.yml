@@ -465,35 +465,35 @@ it:
           status: Status
       questions:
         create:
-          notice: 'Domanda creata con successo. <a href="%{link}"> Clicca per consultarla</a>'
-          error: La domanda non può essere creata
+          notice: 'Quesiti creato con successo. <a href="%{link}"> Clicca per consultarlo</a>'
+          error: Non è stato possibile creare il quesito
         update:
-          notice: 'Domanda aggiornata con successo. <a href="%{link}"> Clicca per consultarla</a>'
-          error: La domanda non può essere aggiornata
+          notice: 'Quesito aggiornato con successo. <a href="%{link}">Clicca per consultarlo</a>'
+          error: Non è stato possibile aggiornare il quesito
         destroy:
-          notice: Domanda cancellata con successo
+          notice: Quesito cancellato con successo
         edit:
           back: Indietro
-          title: "Modificare \"%{question_title}\""
+          title: "Modifica \"%{question_title}\""
           submit_button: Salvare le modifiche
         errors:
           form:
             error: Errore
         form:
           add_option: Aggiungere l'opzione
-          title: Domanda
-          title_placeholder: Aggiungi domanda
+          title: Quesito
+          title_placeholder: Aggiungi quesito
           value_placeholder: Aggiungi una risposta chiusa
           question_options: "Possibile risposta (facoltativa, risposta aperta di default)"
         index:
           back: Indietro
-          title: Domande associate a questo procedimento
-          create: Crea domanda
+          title: Quesiti associati a questo procedimento
+          create: Crea quesito
           delete: Elimina
         new:
           back: Indietro
-          title: Crea nuova domanda
-          submit_button: Crea domanda
+          title: Crea nuovo quesito
+          submit_button: Crea quesito
         table:
           title: Titolo
           question_options: Opzioni per la domanda
@@ -516,7 +516,7 @@ it:
       activity: Attività del moderatore
       admin: Menu admin
       banner: Gestire i banner
-      poll_questions: Domande
+      poll_questions: Quesiti
       proposals_topics: Argomenti delle proposte
       budgets: Bilanci partecipativi
       geozones: Gestisci distretti
@@ -787,30 +787,51 @@ it:
       show:
         questions_tab: Domande
         booths_tab: Urne
-        no_questions: "Non ci sono domande assegnate a questa votazione."
+        no_questions: "Non ci sono quesiti assegnati a questa votazione."
         questions_title: "Elenco dei quesiti"
       flash:
-        question_added: "Domanda aggiunta a questa votazione"
-        error_on_question_added: "La domanda non può essere assegnata a questo sondaggio"
+        question_added: "Quesito aggiunto a questa votazione"
+        error_on_question_added: "Non è stato possibile assegnare il quesito a questa votazione"
     questions:
       index:
         title: "Quesiti"
         create: "Crea quesito"
-        no_questions: "Non ci sono domande."
+        no_questions: "Non ci sono quesiti."
         filter_poll: Filtra in base alla Votazione
         select_poll: Seleziona sondaggio
         questions_tab: "Quesiti"
         successful_proposals_tab: "La proposta ha superato la soglia minima"
         create_question: "Crea quesito"
+        table_proposal: "Proposta"
         table_question: "Quesito"
       edit:
-        title: "Modifica la domanda"
+        title: "Modifica Quesito"
       new:
-        title: "Creare la domanda"
+        title: "Crea Quesito"
         poll_label: "Votazione"
+      answers:
+        images:
+          add_image: "Aggiungi immagine"
+          save_image: "Salva immagine"
       show:
-        edit_question: Modifica domanda
+        proposal: Proposta originaria
+        author: Autore
+        question: Quesito
+        edit_question: Modifica quesito
         valid_answers: Risposte valide
+        add_answer: Aggiungi risposta
+        video_url: Video esterno
+        answers:
+          title: Risposta
+          description: Descrizione
+          videos: Video
+          video_list: Elenco dei video
+          images: Immagini
+          images_list: Elenco immagini
+          documents: Documenti
+          documents_list: Elenco documenti
+          document_title: Titolo
+          document_actions: Azioni
     answers:
       show:
         edit: Modifica risposta
@@ -878,6 +899,9 @@ it:
         placeholder: Ricercare seggio per nome
       poll_officers_search:
         placeholder: Ricercare presidenti di seggio
+      poll_questions_search:
+        button: Cerca
+        placeholder: Cerca quesiti oggetto di votazione
       proposal_search:
         placeholder: Ricercare le proposte per titolo, codice. descrizione o domanda
       spending_proposal_search:
@@ -961,6 +985,10 @@ it:
         users_who_have_sent_message: Utenti che hanno inviato un messaggio privato
       proposal_notifications:
         proposals_with_notifications: Proposte con notifiche
+      polls:
+        poll_questions: "Quesiti oggetto di votazione: %{poll}"
+        table:
+          question_name: Quesito
     tags:
       index:
         add_tag: Aggiungi un nuovo tema di proposta
