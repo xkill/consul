@@ -1099,7 +1099,7 @@ it:
       geozone:
         name: Nome
         external_code: Codice esterno
-        census_code: Codice di censimento
+        census_code: Codice anagrafico
         coordinates: Coordinate
       errors:
         form:
@@ -1140,8 +1140,8 @@ it:
         unverified:
           one: "C’è %{count} firma non valida"
           other: "Ci sono %{count} firme non valide"
-        unverified_error: (Non verificato dall’Anagrafe)
-        loading: "Ci sono ancora le firme da verificare in anagrafe, attende e riaggiornare la pagina"
+        unverified_error: (Non verificata dall’Anagrafe)
+        loading: "La verifica di alcune firme da parte dell’Anagrafe è ancora in corso, per favore ricarica la pagina tra qualche momento"
     stats:
       show:
         stats_title: Statistiche
@@ -1156,8 +1156,8 @@ it:
           budget_investments: Progetti di investimento
           spending_proposals: Proposte di spesa
           unverified_users: Utenti non verificati
-          user_level_three: Utenti di livello 3
-          user_level_two: Utenti di livello 2
+          user_level_three: Utenti di livello tre
+          user_level_two: Utenti di livello due
           users: Utenti totali
           verified_users_who_didnt_vote_proposals: Utenti verificati che non hanno votato proposte
         direct_messages: Messaggi diretti
@@ -1182,25 +1182,25 @@ it:
         roles: Ruoli
         verification_level: Livello di verifica
       search:
-        placeholder: Ricerca utente per e-mail, nome o documento
+        placeholder: Ricerca utente per email, nome o numero del documento
     verifications:
       index:
         phone_not_given: Telefono non fornito
-        sms_code_not_confirmed: Non è stato confermato il codice inviato per Sms
+        sms_code_not_confirmed: Non è stato confermato il codice inviato per SMS
     site_customization:
       content_blocks:
         create:
           notice: Blocco di contenuto creato con successo
-          error: Il blocco di contenuto non può essere creato
+          error: Non è stato possibile creare il blocco di contenuto
         update:
           notice: Blocco di contenuto aggiornato con successo
-          error: Il blocco di contenuto non può essere aggiornato
+          error: Non è stato possibile aggiornare il blocco di contenuto
         destroy:
           notice: Blocco di contenuto eliminato con successo
         edit:
-          title: Modificare il blocco di contenuto
+          title: Modifica il blocco di contenuto
         index:
-          create: Creare un nuovo blocco di contenuto
+          create: Crea nuovo blocco di contenuto
           delete: Elimina blocco
           title: Blocchi di contenuto
       images:
@@ -1208,27 +1208,27 @@ it:
           title: Immagini personalizzate
         update:
           notice: Immagine aggiornata correttamente
-          error: L'immagine non può essere aggiornata
+          error: Non è stato possibile aggiornare l’immagine
         destroy:
           notice: Immagine cancellata con successo
-          error: L'immagine non può essere eliminata
+          error: Non è stato possibile cancellare l’immagine
       pages:
         create:
           notice: Pagina creata con successo
-          error: La pagina non può essere creata
+          error: Non è stato possibile creare la pagina
         update:
           notice: Pagina aggiornata con successo
-          error: La pagina non può essere aggiornata
+          error: Non è stato possibile aggiornare la pagina
         destroy:
           notice: Pagina cancellata con successo
         edit:
           title: Modifica %{page_title}
         index:
-          create: Crea una nuova pagina
-          delete: Eliminare pagina
-          see_page: Vedere la pagina
+          create: Crea nuova pagina
+          delete: Elimina pagina
+          see_page: Visualizza pagina
         new:
-          title: Creare la nuova pagina personalizzata
+          title: Crea nuova pagina personalizzata
         page:
           locale: Lingua
     homepage:
