@@ -914,16 +914,28 @@ it:
           title: Video
           add_video: Aggiungi video
           video_title: Titolo
+          video_url: Video esterno
+        new:
+          title: Nuovo video
         edit:
           title: Modifica video
     recounts:
       index:
+        title: "Riconteggi"
         no_recounts: "Non c'è nulla da scrutinare"
         table_booth_name: "Seggio"
         table_total_recount: "Conteggio complessivo (per scrutatore)"
+        table_system_count: "Voti (automatico)"
     results:
       index:
+        title: "Risultati"
         no_results: "Non ci sono risultati"
+      result:
+        table_whites: "Schede totalmente bianche"
+        table_nulls: "Schede invalidate"
+        table_total: "Totale schede"
+        table_answer: Risposta
+        table_votes: Voti
       results_by_booth:
         booth: Seggio
         results: Risultati
@@ -957,6 +969,12 @@ it:
       flash:
         official_destroyed: 'Dettagli salvati: l''utente non è più pubblico ufficiale'
         official_updated: Dettagli del pubblico ufficiale salvati
+      index:
+        title: Scrutatori
+        no_officials: Non ci sono scrutatori.
+        name: Nome
+        official_position: Incarico ufficiale
+        official_level: Livello
       level_0: Non è pubblico ufficiale
       level_1: Livello 1
       level_2: Livello 2
@@ -967,11 +985,20 @@ it:
         edit_official: Modifica pubblico ufficiale
         make_official: Convertire in pubblico ufficiale
         title: 'Pubblici ufficiali: Ricerca utenti'
+        no_results: Posizioni ufficiali non trovate.
     organizations:
       index:
+        filter: Filtra
         filters:
+          all: Tutti
+          pending: In sospeso
           rejected: Respinto
           verified: Verificato
+        name: Nome
+        email: Email
+        phone_number: Telefono
+        responsible_name: Responsabile
+        status: Status
         reject: Respingi
         search_placeholder: Nominativo, numero di telefono o e-mail
         verify: Verificare
@@ -1002,18 +1029,36 @@ it:
       spending_proposal_search:
         placeholder: Ricercare le proposte di spesa per titolo o descrizione
       no_search_results: "Nessun risultato trovato."
+      content: Contenuto
+      created_at: Creato a
     spending_proposals:
       index:
+        geozone_filter_all: Tutti i distretti
+        administrator_filter_all: Tutti gli amministratori
         valuator_filter_all: Tutti gli stimatori
+        tags_filter_all: Tutte le etichette
         filters:
           valuation_open: Aperta
+          without_admin: Senza amministratore assegnato
+          managed: Gestito
           valuating: In corso di stima
           valuation_finished: Stima conclusa
+          all: Tutti
+        title: Progetti di investimento per bilancio partecipativo
+        assigned_admin: Amministratore assegnato
+        no_admin_assigned: Nessun amministratore assegnato
         no_valuators_assigned: Nessuno stimatore assegnato
         summary_link: "Sintesi del progetto di investimento"
         valuator_summary_link: "Riepilogo dello stimatore"
+        feasibility:
+          feasible: "Realizzabile (%{price})"
+          not_feasible: "Non realizzabile"
+          undefined: "Non definito"
       show:
+        assigned_admin: Amministratore assegnato
         assigned_valuators: Stimatori assegnati
+        back: Indietro
+        classification: Classificazione
         heading: "Progetto di investimento %{id}"
         edit: Modifica
         edit_classification: Modifica classificazione
