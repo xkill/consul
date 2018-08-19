@@ -730,7 +730,7 @@ it:
     valuator_groups:
       index:
         title: "Gruppi di stimatori"
-        new: "Creare gruppo di stimatori"
+        new: "Crea gruppo di stimatori"
         name: "Nome"
         members: "Membri"
         no_groups: "Non risultano gruppi di stimatori"
@@ -769,12 +769,12 @@ it:
       new:
         add_shift: "Aggiungere turno"
         shift: "Assegnazione"
-        shifts: "Turni per questa cabina"
+        shifts: "Turni per questo seggio"
         date: "Data"
         task: "Attività"
         edit_shifts: Modifica turni
         new_shift: "Nuovo turno"
-        no_shifts: "Questa cabina non ha turni"
+        no_shifts: "Questo seggio non ha turni"
         officer: "Scrutatore"
         remove_shift: "Rimuovi"
         search_officer_button: Cerca
