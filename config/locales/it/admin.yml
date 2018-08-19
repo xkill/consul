@@ -7,10 +7,10 @@ it:
       confirm: Sei sicuro?
       confirm_hide: Confermare intervento di moderazione
       hide: Nascondi
-      hide_author: Nascondi l'autore
-      restore: Ripristino
+      hide_author: Nascondi autore
+      restore: Ripristina
       mark_featured: In primo piano
-      unmark_featured: Deselezionare 'in primo piano'
+      unmark_featured: Deseleziona 'in primo piano'
       edit: Modifica
       configure: Configurare
       delete: Eliminare
@@ -496,7 +496,7 @@ it:
           submit_button: Crea quesito
         table:
           title: Titolo
-          question_options: Opzioni per la domanda
+          question_options: Opzioni quesito
           answers_count: Risposte totali
           comments_count: Commenti totali
         question_option_fields:
@@ -847,7 +847,7 @@ it:
         title: "Modificare il sondaggio"
         submit_button: "Aggiorna sondaggio"
       show:
-        questions_tab: Domande
+        questions_tab: Quesiti
         booths_tab: Seggi
         officers_tab: Scrutatori
         recounts_tab: Riconteggio
@@ -945,7 +945,7 @@ it:
       index:
         title: "Elenco dei seggi attivi"
         no_booths: "Non risultano seggi attivi per alcuna votazione imminente."
-        add_booth: "Aggiungere seggio"
+        add_booth: "Aggiungi seggio"
         name: "Nome"
         location: "Posizione"
         no_location: "Nessuna Posizione"
@@ -994,6 +994,9 @@ it:
           pending: In sospeso
           rejected: Respinto
           verified: Verificato
+        hidden_count_html:
+          one: C'è anche <strong>una organizzazione</strong> senza utenti o con un utente nascosto.
+          other: Ci sono <strong>%{count} organizzazioni</strong> senza utenti o con un utente nascosto.
         name: Nome
         email: Email
         phone_number: Telefono
@@ -1062,7 +1065,14 @@ it:
         heading: "Progetto di investimento %{id}"
         edit: Modifica
         edit_classification: Modifica classificazione
+        association_name: Associazione
+        by: Di
+        sent: Inviata
+        geozone: Ambito
+        dossier: Fascicolo
         edit_dossier: Modifica fascicolo
+        tags: Etichette
+        undefined: Non definito
       edit:
         classification: Classificazione
         assigned_valuators: Stimatori
@@ -1073,30 +1083,56 @@ it:
       summary:
         title: Riepilogo per progetti di investimento
         title_proposals_with_supports: Riepilogo per progetti di investimento che hanno superato la fase di 'appoggio'
+        geozone_name: Ambito
+        finished_and_feasible_count: Concluso e realizzabile
+        finished_and_unfeasible_count: Concluso e irrealizzabile
+        finished_count: Terminato
         in_evaluation_count: In corso di stima
+        total_count: Totale
+        cost_for_geozone: Costo
     geozones:
       index:
         title: Geozona
         create: Creare geozona
         edit: Modifica
+        delete: Elimina
       geozone:
+        name: Nome
         external_code: Codice esterno
+        census_code: Codice di censimento
         coordinates: Coordinate
+      errors:
+        form:
+          error:
+            one: "errore ha impedito il salvataggio di questo distretto"
+            other: 'errori hanno impedito il salvataggio di questo distretto'
       edit:
         form:
           submit_button: Salvare le modifiche
         editing: Modifica del distretto
         back: Torna indietro
+      new:
+        back: Torna indietro
+        creating: Crea distretto
+      delete:
+        success: Distretto eliminato con successo
+        error: Questo distretto non può essere eliminato perché ci sono degli elementi ad esso collegati
     signature_sheets:
+      author: Autore
+      created_at: Data di creazione
+      name: Nome
       no_signature_sheets: "Non ci sono fogli di firma"
       index:
         title: Fogli firma
         new: Nuovi fogli di firma
       new:
+        title: Nuovi fogli firma
         document_numbers_note: "Con i numeri separati da virgole (,)"
         submit: Creare foglio di firma
       show:
         created_at: Creato
+        author: Autore
+        documents: Documenti
         document_count: "Numero di documenti:"
         verified:
           one: "C'è %{count} firme valide"
@@ -1111,9 +1147,15 @@ it:
         stats_title: Statistiche
         summary:
           comment_votes: Voti dei commenti
+          comments: Commenti
           debate_votes: Voti dei dibattiti
+          debates: Dibattiti
           proposal_votes: Voti delle proposte
+          proposals: Proposte
           budgets: Bilanci aperti
+          budget_investments: Progetti di investimento
+          spending_proposals: Proposte di spesa
+          unverified_users: Utenti non verificati
           user_level_three: Utenti di livello 3
           user_level_two: Utenti di livello 2
           users: Utenti totali
@@ -1187,9 +1229,31 @@ it:
           see_page: Vedere la pagina
         new:
           title: Creare la nuova pagina personalizzata
+        page:
+          locale: Lingua
     homepage:
+      title: Homepage
+      description: I moduli attivi vengono visualizzati nella homepage nello stesso ordine qui riportato.
+      header_title: Intestazione
+      no_header: Non c'è alcuna intestazione.
+      create_header: Crea intestazione
+      cards_title: Schede
+      create_card: Crea scheda
+      no_cards: Non c’è alcuna scheda.
+      cards:
+        title: Titolo
+        description: Descrizione
+        link_text: Testo del link
+        link_url: URL del link
       feeds:
+        proposals: Proposte
+        debates: Dibattiti
         processes: Procedimenti
+      new:
+        header_title: Nuova intestazione
+        submit_header: Crea intestazione
+        card_title: Nuova scheda
+        submit_card: Crea scheda
       edit:
         header_title: Modifica intestazione
         submit_header: Salva intestazione
