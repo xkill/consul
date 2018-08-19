@@ -1,1 +1,17 @@
 zh-TW:
+  legislation:
+    annotations:
+      comments:
+        see_all: 查看所有
+        see_complete: 查看完成
+        comments_count:
+          other: "%{count} 個評論"
+        replies_count:
+          other: "%{count} 個回覆"
+        cancel: 取消
+        publish_comment: 發佈評論
+      form:
+        phase_not_open: 此階段未開啟
+      index:
+        comments_count:
+          other: "%{count} 個評論"
