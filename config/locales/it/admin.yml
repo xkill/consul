@@ -1055,7 +1055,7 @@ it:
         valuator_summary_link: "Riepilogo dello stimatore"
         feasibility:
           feasible: "Realizzabile (%{price})"
-          not_feasible: "Non realizzabile"
+          not_feasible: "Irrealizzabile"
           undefined: "Non definito"
       show:
         assigned_admin: Amministratore assegnato
@@ -1082,7 +1082,7 @@ it:
         undefined: Non definito
       summary:
         title: Riepilogo per progetti di investimento
-        title_proposals_with_supports: Riepilogo per progetti di investimento che hanno superato la fase di 'appoggio'
+        title_proposals_with_supports: Riepilogo per progetti di investimento dotati di sostegni
         geozone_name: Ambito
         finished_and_feasible_count: Concluso e realizzabile
         finished_and_unfeasible_count: Concluso e irrealizzabile
@@ -1092,8 +1092,8 @@ it:
         cost_for_geozone: Costo
     geozones:
       index:
-        title: Geozona
-        create: Creare geozona
+        title: Distretto
+        create: Crea distretto
         edit: Modifica
         delete: Elimina
       geozone:
@@ -1108,8 +1108,8 @@ it:
             other: 'errori hanno impedito il salvataggio di questo distretto'
       edit:
         form:
-          submit_button: Salvare le modifiche
-        editing: Modifica del distretto
+          submit_button: Salva le modifiche
+        editing: Modifica distretto
         back: Torna indietro
       new:
         back: Torna indietro
@@ -1121,26 +1121,26 @@ it:
       author: Autore
       created_at: Data di creazione
       name: Nome
-      no_signature_sheets: "Non ci sono fogli di firma"
+      no_signature_sheets: "Non ci sono fogli firma"
       index:
         title: Fogli firma
-        new: Nuovi fogli di firma
+        new: Nuovi fogli firma
       new:
         title: Nuovi fogli firma
-        document_numbers_note: "Con i numeri separati da virgole (,)"
-        submit: Creare foglio di firma
+        document_numbers_note: "Scrivi i numeri separati da virgole (,)"
+        submit: Crea foglio firma
       show:
         created_at: Creato
         author: Autore
         documents: Documenti
         document_count: "Numero di documenti:"
         verified:
-          one: "C'è %{count} firme valide"
+          one: "C'è %{count} firma valida"
           other: "Ci sono %{count} firme valide"
         unverified:
-          one: "Ci sono %{count} firme non valide"
+          one: "C’è %{count} firma non valida"
           other: "Ci sono %{count} firme non valide"
-        unverified_error: (non verificato in anagrafe)
+        unverified_error: (Non verificato dall’Anagrafe)
         loading: "Ci sono ancora le firme da verificare in anagrafe, attende e riaggiornare la pagina"
     stats:
       show:
