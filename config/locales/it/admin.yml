@@ -781,7 +781,13 @@ it:
         search_officer_text: Cerca uno scrutatore cui assegnare un nuovo turno
       recount_scrutiny: Riconteggio & Scrutinio
     booth_assignments:
+      manage_assignments: Gestisci le assegnazioni
       manage:
+        assignments_list: "Assegnazioni per la votazione '%{poll}'"
+        status:
+          assign_status: Assegnazione
+          assigned: Assegnato
+          unassigned: Non assegnato
         actions:
           assign: Assegna seggio
           unassign: Annulla assegnazione seggio
@@ -791,14 +797,17 @@ it:
       flash:
         destroy: "Seggio non più assegnato"
         create: "Seggio assegnato"
+        error_destroy: "Si è verificato un errore nella rimozione dell’assegnazione del seggio"
         error_create: "Si è verificato un errore nell’assegnare una cabina alla votazione"
       show:
         officers: "Scrutatori"
         officers_list: "Lista degli scrutatori per questo seggio"
         no_officers: "Non ci sono scrutatori per questo seggio"
         recounts: "Scrutinii"
+        recounts_list: "Elenco scrutatori per il riconteggio di questo seggio"
         count_final: "Conteggio finale (per scrutatore)"
       index:
+        booths_title: "Elenco seggi"
         no_booths: "Non ci sono cabine assegnate a questa votazione."
     polls:
       index:
@@ -872,12 +881,18 @@ it:
     recounts:
       index:
         no_recounts: "Non c'è nulla da scrutinare"
+        table_booth_name: "Seggio"
         table_total_recount: "Conteggio complessivo (per scrutatore)"
     results:
       index:
         no_results: "Non ci sono risultati"
+      results_by_booth:
+        booth: Seggio
+        title: "Risultati per seggio"
     booths:
       index:
+        title: "Elenco dei seggi attivi"
+        no_booths: "Non risultano seggi attivi per alcuna votazione imminente."
         add_booth: "Aggiungere seggio"
       new:
         title: "Nuovo seggio"
