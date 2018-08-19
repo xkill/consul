@@ -535,7 +535,7 @@ it:
       system_emails: Email di sistema
       emails_download: Scarica email
       valuators: Stimatori
-      poll_officers: Presidenti del seggio di voto
+      poll_officers: Scrutatori
       polls: Sondaggi
       poll_booths: Ubicazione delle urne
       poll_booth_assignments: Assegnazioni Cabine di Voto
@@ -743,21 +743,21 @@ it:
         edit: "Salvare il gruppo di stimatori"
     poll_officers:
       index:
-        title: Ufficiali di voto
+        title: Scrutatori
       officer:
         add: Aggiungi
-        delete: Eliminare la posizione
+        delete: Elimina posizione
         name: Nome
         email: Email
-        entry_name: responsabile
+        entry_name: scrutatore
       search:
         email_placeholder: Cerca utente tramite email
         search: Cerca
         user_not_found: Utente non trovato
     poll_officer_assignments:
       index:
-        officers_title: "Elenco dei presidenti di seggio designati"
-        no_officers: "Non ci sono ufficiali assegnati a questa votazione."
+        officers_title: "Elenco degli scrutatori"
+        no_officers: "Non ci sono scrutatori assegnati a questa votazione."
         table_name: "Nome"
         table_email: "Email"
       by_officer:
@@ -775,7 +775,10 @@ it:
         edit_shifts: Modifica turni
         new_shift: "Nuovo turno"
         no_shifts: "Questa cabina non ha turni"
-        search_officer_placeholder: Cerca responsabile
+        officer: "Scrutatore"
+        search_officer_button: Cerca
+        search_officer_placeholder: Cerca scrutatore
+        search_officer_text: Cerca uno scrutatore cui assegnare un nuovo turno
       recount_scrutiny: Riconteggio & Scrutinio
     poll_booth_assignments:
       flash:
@@ -783,10 +786,11 @@ it:
         create: "Seggio assegnato"
         error_create: "Si è verificato un errore nell’assegnare una cabina alla votazione"
       show:
-        officers: "Presidenti di seggio"
-        officers_list: "Lista dei presidenti per questo seggio"
-        no_officers: "Non ci sono presidenti per questo seggio"
+        officers: "Scrutatori"
+        officers_list: "Lista degli scrutatori per questo seggio"
+        no_officers: "Non ci sono scrutatori per questo seggio"
         recounts: "Scrutinii"
+        count_final: "Conteggio finale (per scrutatore)"
       index:
         no_booths: "Non ci sono cabine assegnate a questa votazione."
     polls:
@@ -804,6 +808,7 @@ it:
       show:
         questions_tab: Domande
         booths_tab: Urne
+        officers_tab: Scrutatori
         no_questions: "Non ci sono quesiti assegnati a questa votazione."
         questions_title: "Elenco dei quesiti"
       flash:
@@ -860,6 +865,7 @@ it:
     recounts:
       index:
         no_recounts: "Non c'è nulla da scrutinare"
+        table_total_recount: "Conteggio complessivo (per scrutatore)"
     results:
       index:
         no_results: "Non ci sono risultati"
@@ -915,7 +921,8 @@ it:
       booths_search:
         placeholder: Ricercare seggio per nome
       poll_officers_search:
-        placeholder: Ricercare presidenti di seggio
+        button: Cerca
+        placeholder: Cerca scrutatori
       poll_questions_search:
         button: Cerca
         placeholder: Cerca quesiti oggetto di votazione
