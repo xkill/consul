@@ -261,7 +261,7 @@ it:
         table_title: "Titolo"
         table_description: "Descrizione"
         table_publication_date: "Data di pubblicazione"
-        table_status: Stato
+        table_status: Status
         table_actions: "Azioni"
         delete: "Elimina traguardo"
         no_milestones: "Non risultano traguardi predefiniti"
@@ -340,9 +340,9 @@ it:
         user: Utente
         no_hidden_users: Non ci sono utenti nascosti.
       show:
-        email: 'E-mail:'
+        email: 'Email:'
         hidden_at: 'Nascosto:'
-        registered_at: 'Data di registrazione:'
+        registered_at: 'Registrato:'
         title: Attività dell'utente (%{user})
     hidden_budget_investments:
       index:
@@ -418,11 +418,11 @@ it:
           custom_categories_placeholder: Inserisci le etichette che desideri utilizzare, separate da virgole (,) e tra virgolette ("")
       draft_versions:
         create:
-          notice: 'Bozza creata con successo. <a href="%{link}"> Clicca per consultarla</a>'
-          error: La bozza non può essere creata
+          notice: 'Bozza creata con successo. <a href="%{link}">Clicca per consultarla</a>'
+          error: Non è stato possibile creare la bozza
         update:
-          notice: 'Bozza aggiornata con successo. <a href="%{link}"> Clicca per consultarla</a>'
-          error: La bozza non può essere aggiornata
+          notice: 'Bozza aggiornata con successo. <a href="%{link}">Clicca per consultarla</a>'
+          error: Non è stato possibile aggiornare la bozza
         destroy:
           notice: Bozza cancellata con successo
         edit:
@@ -434,8 +434,8 @@ it:
             error: Errore
         form:
           title_html: 'Stai modificando <span class="strong">%{draft_version_title}</span> del procedimento <span class="strong">%{process_title}</span>'
-          launch_text_editor: Avviare l'editor di testo
-          close_text_editor: Chiudere l'editor di testo
+          launch_text_editor: Avvia l'editor di testo
+          close_text_editor: Chiudi l'editor di testo
           use_markdown: Usa il Markdown per formattare il testo
           hints:
             final_version: Questa versione sarà pubblicata come Risultato Finale per questo procedimento. I commenti non saranno consentiti in questa versione.
@@ -444,15 +444,15 @@ it:
               published: Visibile a tutti
           title_placeholder: Scrivi il titolo della bozza
           changelog_placeholder: Aggiungi i principali cambiamenti rispetto alla versione precedente
-          body_placeholder: Scrivi il testo in bozza
+          body_placeholder: Scrivi il testo della bozza
         index:
           title: Versioni in bozza
-          create: Creare la versione
+          create: Crea versione
           delete: Elimina
           preview: Anteprima
         new:
           back: Indietro
-          title: Creare una nuova versione
+          title: Crea nuova versione
           submit_button: Crea versione
         statuses:
           draft: Bozza
@@ -465,7 +465,7 @@ it:
           status: Status
       questions:
         create:
-          notice: 'Quesiti creato con successo. <a href="%{link}"> Clicca per consultarlo</a>'
+          notice: 'Quesito creato con successo. <a href="%{link}">Clicca per consultarlo</a>'
           error: Non è stato possibile creare il quesito
         update:
           notice: 'Quesito aggiornato con successo. <a href="%{link}">Clicca per consultarlo</a>'
