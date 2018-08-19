@@ -745,12 +745,21 @@ it:
       index:
         title: Ufficiali di voto
       officer:
+        add: Aggiungi
         delete: Eliminare la posizione
+        name: Nome
+        email: Email
         entry_name: responsabile
+      search:
+        email_placeholder: Cerca utente tramite email
+        search: Cerca
+        user_not_found: Utente non trovato
     poll_officer_assignments:
       index:
         officers_title: "Elenco dei presidenti di seggio designati"
         no_officers: "Non ci sono ufficiali assegnati a questa votazione."
+        table_name: "Nome"
+        table_email: "Email"
       by_officer:
         date: "Data"
         booth: "Seggio"
@@ -758,7 +767,16 @@ it:
         no_assignments: "Questo utente non ha turni come presidente di seggio in questo sondaggio."
     poll_shifts:
       new:
+        add_shift: "Aggiungere turno"
+        shift: "Assegnazione"
+        shifts: "Turni per questa cabina"
+        date: "Data"
+        task: "Attività"
         edit_shifts: Modifica turni
+        new_shift: "Nuovo turno"
+        no_shifts: "Questa cabina non ha turni"
+        officer: "Responsabile"
+        search_officer_placeholder: Cerca responsabile
       recount_scrutiny: Riconteggio & Scrutinio
     poll_booth_assignments:
       flash:
