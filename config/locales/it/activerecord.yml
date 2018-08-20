@@ -113,9 +113,9 @@ it:
         description_reviewing: "Descrizione durante la fase di Verifica"
         description_selecting: "Descrizione durante la fase di Selezione"
         description_valuating: "Descrizione durante la fase di Stima"
-        description_balloting: "Descrizione durante la fase del Voto"
-        description_reviewing_ballots: "Descrizione durante la fase della Verifica del voto"
-        description_finished: "Descrizione durante la fase della Approvazione del Bilancio / Risultati"
+        description_balloting: "Descrizione durante la fase di Voto"
+        description_reviewing_ballots: "Descrizione durante la fase di Verifica dei Voti"
+        description_finished: "Descrizione dopo la conclusione del bilancio"
         phase: "Fase"
         currency_symbol: "Valuta"
       budget/investment:
@@ -124,7 +124,7 @@ it:
         description: "Descrizione"
         external_url: "Link alla documentazione addizionale"
         administrator_id: "Amministratore"
-        location: "Posizione (facoltativo)"
+        location: "Posizione (facoltativa)"
         organization_name: "Se presenti una proposta a nome di un collettivo o di un’organizzazione, ovvero per conto di più persone, indicane il nome"
         image: "Immagine descrittiva della proposta"
         image_title: "Titolo dell’immagine"
@@ -151,7 +151,7 @@ it:
       proposal:
         author: "Autore"
         title: "Titolo"
-        question: "Domanda"
+        question: "Quesito"
         description: "Descrizione"
         terms_of_service: "Termini di servizio"
       user:
@@ -173,27 +173,27 @@ it:
         association_name: "Nome Associazione"
         description: "Descrizione"
         external_url: "Link alla documentazione integrativa"
-        geozone_id: "Zona di attuazione"
+        geozone_id: "Ambito operativo"
         title: "Titolo"
       poll:
         name: "Nome"
         starts_at: "Data inizio"
         ends_at: "Data chiusura"
-        geozone_restricted: "Ristretto alla zona geografica"
+        geozone_restricted: "Limitato al distretto"
         summary: "Riepilogo"
         description: "Descrizione"
       poll/question:
-        title: "Domanda"
+        title: "Quesito"
         summary: "Sommario"
         description: "Descrizione"
         external_url: "Link alla documentazione integrativa"
       signature_sheet:
-        signable_type: "Tipo Foglio firme"
-        signable_id: "ID Proposta"
+        signable_type: "Tipo firmabile"
+        signable_id: "ID firmabile"
         document_numbers: "Numero di documenti"
       site_customization/page:
         content: Contenuto
-        created_at: Creato a
+        created_at: Creato al
         subtitle: Sottotitolo
         slug: Slug
         status: Stato
