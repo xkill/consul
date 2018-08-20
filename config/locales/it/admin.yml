@@ -1220,35 +1220,66 @@ it:
           users: Utenti totali
           verified_users: Utenti verificati
           verified_users_who_didnt_vote_proposals: Utenti verificati che non hanno votato proposte
+          visits: Visite
+          votes: Voti totali
+        spending_proposals_title: Proposte di spesa
+        budgets_title: Bilancio partecipativo
+        visits_title: Visite
         direct_messages: Messaggi diretti
         proposal_notifications: Notifiche di proposta
         incomplete_verifications: Verifiche incomplete
+        polls: Votazioni
       direct_messages:
+        title: Messaggi diretti
+        total: Totale
         users_who_have_sent_message: Utenti che hanno inviato un messaggio privato
       proposal_notifications:
+        title: Notifiche di proposta
+        total: Totale
         proposals_with_notifications: Proposte con notifiche
       polls:
+        title: Statistiche di Voto
+        all: Votazioni
+        web_participants: Partecipanti via web
+        total_participants: Totale Partecipanti
         poll_questions: "Quesiti oggetto di votazione: %{poll}"
         table:
+          poll_name: Votazione
           question_name: Quesito
+          origin_web: Partecipanti via web
+          origin_total: Totale partecipanti
     tags:
+      create: Crea argomento
+      destroy: Distruggi argomento
       index:
         add_tag: Aggiungi un nuovo tema di proposta
         title: Temi di proposta
+        topic: Argomento
+        help: "Quando un utente crea una proposta, gli argomenti seguenti sono suggerito come etichette predefinite."
       name:
         placeholder: Digitare il nome del tema
     users:
       columns:
+        name: Nome
+        email: Email
+        document_number: Numero di documento
         roles: Ruoli
         verification_level: Livello di verifica
+      index:
+        title: Utente
+        no_users: Non ci sono utenti.
       search:
         placeholder: Ricerca utente per email, nome o numero del documento
+        search: Cerca
     verifications:
       index:
         phone_not_given: Telefono non fornito
         sms_code_not_confirmed: Non è stato confermato il codice inviato per SMS
+        title: Verifiche incomplete
     site_customization:
       content_blocks:
+        information: Informazioni sui blocchi di contenuto
+        about: Puoi creare blocchi di contenuto in HTML da inserire nell’intestazione o nel piè di pagina del tuo CONSUL.
         create:
           notice: Blocco di contenuto creato con successo
           error: Non è stato possibile creare il blocco di contenuto
