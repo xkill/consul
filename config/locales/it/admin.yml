@@ -1280,6 +1280,7 @@ it:
       content_blocks:
         information: Informazioni sui blocchi di contenuto
         about: Puoi creare blocchi di contenuto in HTML da inserire nell’intestazione o nel piè di pagina del tuo CONSUL.
+        top_links_html: "I <strong>blocchi intestazione (top_links)</strong> sono blocchi di link che devono avere questo formato:"
         create:
           notice: Blocco di contenuto creato con successo
           error: Non è stato possibile creare il blocco di contenuto
