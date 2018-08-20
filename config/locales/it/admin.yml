@@ -377,7 +377,7 @@ it:
           proposals_phase: Fase delle proposte
           start: Inizio
           end: Fine
-          use_markdown: Usa Markdown per formattare il testo
+          use_markdown: Usa il Markdown per formattare il testo
           title_placeholder: Il titolo del procedimento
           summary_placeholder: Breve riassunto della descrizione
           description_placeholder: Aggiungi una descrizione del procedimento
@@ -1019,16 +1019,48 @@ it:
         filter: Filtra
         filters:
           all: Tutti
+          with_confirmed_hide: Confermata
+          without_confirmed_hide: In sospeso
+        title: Proposte nascoste
+        no_hidden_proposals: Non ci sono proposte nascoste.
+    proposal_notifications:
+      index:
+        filter: Filtra
+        filters:
+          all: Tutti
+          with_confirmed_hide: Confermata
+          without_confirmed_hide: In sospeso
+        title: Notififiche nascoste
+        no_hidden_proposals: Non ci sono notifiche nascoste.
     settings:
       flash:
         updated: Valore aggiornato
       index:
+        banners: Stili banner
+        banner_imgs: Immagini banner
+        no_banners_images: Nessuna immagine banner
+        no_banners_styles: Nessuno stile banner
+        title: Impostazioni di configurazione
+        update_setting: Aggiorna
         feature_flags: Funzionalità
         features:
           enabled: "Funzionalità attivata"
           disabled: "Funzionalità disabilitata"
           enable: "Attiva"
           disable: "Disattiva"
+        map:
+          title: Configurazione della mappa
+          help: Qui puoi personalizzare come la mappa viene visualizzata dagli utenti. Trascina il segnaposto o clicca in qualunque punto della mappa, imposta lo zoom desiderato e clicca sul tasto “Aggiorna”.
+          flash:
+            update: Configurazione dela mappa aggiornata con successo.
+          form:
+            submit: Aggiorna
+      setting: Funzionalità
+      setting_actions: Azioni
+      setting_name: Impostazione
+      setting_status: Status
+      setting_value: Valore
+      no_description: "Nessuna descrizione"
     shared:
       booths_search:
         button: Cerca
@@ -1040,10 +1072,25 @@ it:
         button: Cerca
         placeholder: Cerca quesiti oggetto di votazione
       proposal_search:
+        button: Cerca
         placeholder: Cerca le proposte per titolo, codice. descrizione o quesito
       spending_proposal_search:
+        button: Cerca
         placeholder: Cerca le proposte di spesa per titolo o descrizione
+      user_search:
+        button: Cerca
+        placeholder: Cerca utente in base al nome o all’email
+      search_results: "Risultati della ricerca"
       no_search_results: "Nessun risultato trovato."
+      actions: Azioni
+      title: Titolo
+      description: Descrizione
+      image: Immagine
+      show_image: Mostra immagine
+      moderated_content: "Controlla il contenuto moderato dai moderatori e conferma se la moderazione è stata eseguita correttamente."
+      view: Visualizza
+      proposal: Proposta
+      author: Autore
       content: Contenuto
       created_at: Creato a
     spending_proposals:
@@ -1171,6 +1218,7 @@ it:
           user_level_three: Utenti di livello tre
           user_level_two: Utenti di livello due
           users: Utenti totali
+          verified_users: Utenti verificati
           verified_users_who_didnt_vote_proposals: Utenti verificati che non hanno votato proposte
         direct_messages: Messaggi diretti
         proposal_notifications: Notifiche di proposta
@@ -1242,6 +1290,7 @@ it:
         new:
           title: Crea nuova pagina personalizzata
         page:
+          status_published: Pubblicato
           locale: Lingua
     homepage:
       title: Homepage
