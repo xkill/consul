@@ -195,6 +195,7 @@ it:
         content: Contenuto
         created_at: Creato a
         subtitle: Sottotitolo
+        slug: Slug
         status: Stato
         title: Titolo
         updated_at: Aggiornato a
