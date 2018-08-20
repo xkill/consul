@@ -1002,11 +1002,23 @@ it:
         phone_number: Telefono
         responsible_name: Responsabile
         status: Status
+        no_organizations: Non ci sono organizzazioni.
         reject: Respingi
+        rejected: Respinta
+        search: Cerca
         search_placeholder: Nome, email o numero di telefono
+        title: Organizzazioni
+        verified: Verificata
         verify: Verifica
+        pending: In sospeso
       search:
         title: Cerca Organizzazioni
+        no_results: Nessuna organizzazione trovata.
+    proposals:
+      index:
+        filter: Filtra
+        filters:
+          all: Tutti
     settings:
       flash:
         updated: Valore aggiornato
