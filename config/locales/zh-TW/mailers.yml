@@ -4,7 +4,7 @@ zh-TW:
     comment:
       hi: 您好
       new_comment_by_html: <b>%{commenter}</b>發表了新評論
-      subject: 有人評論了你的%{commentable}
+      subject: 有人評論了您的%{commentable}
       title: 新評論
     config:
       manage_email_subscriptions: 要停止接收這些電子郵件，請更改您的設置在
@@ -18,7 +18,7 @@ zh-TW:
     reply:
       hi: 您好
       new_reply_by_html: <b>%{commenter}</b>對您的評論有新的回覆
-      subject: 有人回覆了你的評論
+      subject: 有人回覆了您的評論
       title: 對您的評論的新回覆
     unfeasible_spending_proposal:
       hi: "親愛的用戶，"
@@ -50,10 +50,10 @@ zh-TW:
       button: 完成註冊
       subject: "邀請訪問%{org_name}"
     budget_investment_created:
-      subject: "感謝您創建了一個投資項目！"
-      title: "感謝您創建了一個投資項目！"
+      subject: "感謝您創建了一個投資！"
+      title: "感謝您創建了一個投資！"
       intro_html: "您好<strong>%{author}</strong>，"
-      text_html: "感謝您為參與性預算<strong>%{budget}</strong>創建了您的投資項目<strong>%{investment}</strong>。"
+      text_html: "感謝您為參與性預算<strong>%{budget}</strong>創建了您的投資<strong>%{investment}</strong>。"
       follow_html: "我們會通知您流程的進展情況，您也可以在<strong>%{link}</strong>跟蹤查看。"
       follow_link: "參與性預算"
       sincerely: "真誠的，"
