@@ -21,3 +21,9 @@ zh-TW:
         see_in_context: 在上下文中查看
         comments_count:
           other: "%{count} 個評論"
+    processes:
+      header:
+        more_info: 更多資訊和上下文
+      index:
+        filters:
+          open: 開啟進程
