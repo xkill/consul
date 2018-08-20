@@ -311,16 +311,16 @@ it:
         proposal_notification:
           attributes:
             minimum_interval:
-              invalid: "Devi aspettare almeno %{interval} giorni dalle notifiche"
+              invalid: "Devi aspettare almeno %{interval} giorni tra una notifica e l’altra"
         signature:
           attributes:
             document_number:
-              not_in_census: 'Il documento non è stato verificato negli archivi istituzionali'
+              not_in_census: 'Non verificato in Anagrafe'
               already_voted: 'Proposta già votata'
         site_customization/page:
           attributes:
             slug:
-              slug_format: "devono essere lettere, numeri, caratteri come _ e -"
+              slug_format: "devono essere lettere, numeri, _ e -"
         site_customization/image:
           attributes:
             image:
@@ -329,9 +329,9 @@ it:
         comment:
           attributes:
             valuation:
-              cannot_comment_valuation: 'Non si può commentare una valutazione'
+              cannot_comment_valuation: 'Non si può commentare una stima'
       messages:
         record_invalid: "Convalida non riuscita: %{errors}"
         restrict_dependent_destroy:
           has_one: "Non è possibile eliminare il documento perché esiste un %{record} subordinato"
-          has_many: "Non è possibile eliminare il documento perché esiste il %{record} subordinato"
+          has_many: "Non è possibile eliminare il documento perché esistono %{record} subordinati"
