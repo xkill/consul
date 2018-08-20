@@ -196,35 +196,35 @@ it:
         created_at: Creato al
         subtitle: Sottotitolo
         slug: Slug
-        status: Stato
+        status: Status
         title: Titolo
-        updated_at: Aggiornato a
+        updated_at: Aggiornato al
         more_info_flag: Visualizza nella guida
-        print_content_flag: Bottone di stampa
+        print_content_flag: Pulsante di stampa
         locale: Lingua
       site_customization/image:
         name: Nome
         image: Immagine
       site_customization/content_block:
         name: Nome
-        locale: Lingua
-        body: Testo
+        locale: località
+        body: Corpo
       legislation/process:
-        title: Titolo del processo
+        title: Titolo del Procedimento
         summary: Riepilogo
         description: Descrizione
         additional_info: Ulteriori info
         start_date: Data di inizio
-        end_date: Data di fine
+        end_date: Data di conclusione
         debate_start_date: Data di inizio del dibattito
-        debate_end_date: Data di fine del dibattito
+        debate_end_date: Data di conclusione del dibattito
         draft_publication_date: Data di pubblicazione della bozza
         result_publication_date: Data di pubblicazione del risultato finale
       legislation/draft_version:
         title: Titolo della versione
         body: Testo
         changelog: Modifiche
-        status: Stato
+        status: Status
         final_version: Versione finale
       legislation/question:
         title: Titolo
@@ -267,7 +267,7 @@ it:
         debate:
           attributes:
             tag_list:
-              less_than_or_equal_to: "Le tags devono essere minori o uguali a %{count}"
+              less_than_or_equal_to: "le etichette devono essere minori o uguali a %{count}"
         direct_message:
           attributes:
             max_per_day:
@@ -292,22 +292,22 @@ it:
         poll/voter:
           attributes:
             document_number:
-              not_in_census: "Il documento non è presente negli archivi istituzionali"
+              not_in_census: "Il documento non è presente in anagrafe"
               has_voted: "L'utente ha già votato"
         legislation/process:
           attributes:
             end_date:
-              invalid_date_range: deve essere almeno dalla data di inizio
+              invalid_date_range: deve avere data uguale o successiva alla data d’inizio
             debate_end_date:
-              invalid_date_range: deve essere almeno dalla data di inizio del dibattio
+              invalid_date_range: deve avere data uguale o successiva alla data d’inizio del dibattito
         proposal:
           attributes:
             tag_list:
-              less_than_or_equal_to: "i tag devono essere meno di o uguali a %{count}"
+              less_than_or_equal_to: "le etichette devono essere minori o uguali a %{count}"
         budget/investment:
           attributes:
             tag_list:
-              less_than_or_equal_to: "i tag devono essere meno di o uguali a %{count}"
+              less_than_or_equal_to: "le etichette devono essere minori o uguali a %{count}"
         proposal_notification:
           attributes:
             minimum_interval:
