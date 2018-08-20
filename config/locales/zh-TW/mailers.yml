@@ -60,7 +60,7 @@ zh-TW:
       share: "分享您的項目"
     budget_investment_unfeasible:
       hi: "親愛的用戶，"
-      new_html: "謹此，我們邀請您詳細說明一個<strong>新投資</strong>，以符合此進程的條件。 您可以按照以下鏈接執行此操作：%{url}。"
+      new_html: "謹此，我們邀請您詳細說明一個<strong>新投資</strong>，以符合此進程的條件。 您可以按照以下鏈接：%{url} 執行此操作。"
       new_href: "新投資項目"
       sincerely: "真誠的"
       sorry: "很抱歉給您帶來不便，我們再次感謝您的寶貴參與。"
