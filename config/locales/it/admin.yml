@@ -1281,6 +1281,8 @@ it:
         information: Informazioni sui blocchi di contenuto
         about: Puoi creare blocchi di contenuto in HTML da inserire nell’intestazione o nel piè di pagina del tuo CONSUL.
         top_links_html: "I <strong>blocchi intestazione (top_links)</strong> sono blocchi di link che devono avere questo formato:"
+        footer_html: "I <strong>blocchi piè di pagina</strong> possono avere qualsiasi formato e possono essere usati per inserire Javascript, CSS o HTML personalizzato."
+        no_blocks: "Non ci sono blocchi di contenuto."
         create:
           notice: Blocco di contenuto creato con successo
           error: Non è stato possibile creare il blocco di contenuto
@@ -1291,13 +1293,24 @@ it:
           notice: Blocco di contenuto eliminato con successo
         edit:
           title: Modifica il blocco di contenuto
+        errors:
+          form:
+            error: Errore
         index:
           create: Crea nuovo blocco di contenuto
           delete: Elimina blocco
           title: Blocchi di contenuto
+        new:
+          title: Crea nuovo blocco di contenuto
+        content_block:
+          body: Corpo
+          name: Nome
       images:
         index:
           title: Immagini personalizzate
+          update: Aggiorna
+          delete: Elimina
+          image: Immagine
         update:
           notice: Immagine aggiornata correttamente
           error: Non è stato possibile aggiornare l’immagine
@@ -1315,6 +1328,11 @@ it:
           notice: Pagina cancellata con successo
         edit:
           title: Modifica %{page_title}
+        errors:
+          form:
+            error: Errore
+        form:
+          options: Opzioni
         index:
           create: Crea nuova pagina
           delete: Elimina pagina
