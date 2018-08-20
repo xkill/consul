@@ -1,1 +1,9 @@
 zh-TW:
+  guides:
+    title: "你對%{org} 有什麼想法嗎？"
+    subtitle: "選擇您想要創建的內容"
+    budget_investment:
+      title: "一個投資項目"
+      feature_1_html: "如何使用部分<strong>市政預算</strong>的想法"
+      feature_2_html: "投資項目在<strong>1月至3月之間</strong>被接受"
+      feature_3_html: "如果它獲得支持，且是可行的和符合市政能力，它能進入投票階段"
