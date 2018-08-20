@@ -1336,10 +1336,16 @@ it:
         index:
           create: Crea nuova pagina
           delete: Elimina pagina
+          title: Pagine personalizzate
           see_page: Visualizza pagina
         new:
           title: Crea nuova pagina personalizzata
         page:
+          created_at: Creata al
+          status: Status
+          title: Titolo
+          updated_at: Aggiornata al
+          status_draft: Bozza
           status_published: Pubblicato
           locale: Lingua
     homepage:
