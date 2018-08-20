@@ -14,8 +14,8 @@ it:
         one: "traguardo"
         other: "traguardi"
       budget/investment/status:
-        one: "Stato dell’investimento"
-        other: "Stato degli investimenti"
+        one: "Status dell’investimento"
+        other: "Status dell’investimento"
       comment:
         one: "Commento"
         other: "Commenti"
@@ -23,8 +23,8 @@ it:
         one: "Dibattito"
         other: "Dibattiti"
       tag:
-        one: "Tag"
-        other: "Tag"
+        one: "Etichetta"
+        other: "Etichette"
       user:
         one: "Utente"
         other: "Utenti"
@@ -35,14 +35,14 @@ it:
         one: "Amministratore"
         other: "Amministratori"
       valuator:
-        one: "Valutatore"
-        other: "Valutatori"
+        one: "Stimatore"
+        other: "Stimatori"
       valuator_group:
-        one: "Gruppo di valutazione"
-        other: "Gruppi di valutazione"
+        one: "Gruppo di stima"
+        other: "Gruppi di stima"
       manager:
         one: "Gestore"
-        other: "Gestori"
+        other: "Dirigenti"
       newsletter:
         one: "Newsletter"
         other: "Newsletter"
@@ -53,11 +53,11 @@ it:
         one: "Organizzazione"
         other: "Organizzazioni"
       poll/booth:
-        one: "area di voto"
-        other: "aree di voto"
+        one: "seggio"
+        other: "seggi"
       poll/officer:
-        one: "responsabile"
-        other: "responsabili"
+        one: "scrutatore"
+        other: "scrutatori"
       proposal:
         one: "Proposta cittadina"
         other: "Proposte cittadine"
@@ -72,22 +72,22 @@ it:
         other: Immagini personalizzate
       site_customization/content_block:
         one: Blocco di contenuto personalizzato
-        other: Blocchi di contenuto personalizzato
+        other: Blocchi di contenuto personalizzati
       legislation/process:
-        one: "Processo"
-        other: "Processi"
+        one: "Procedimento"
+        other: "Procedimenti"
       legislation/draft_versions:
-        one: "Versione in bozza"
-        other: "Versioni in bozza"
+        one: "Bozza"
+        other: "Bozze"
       legislation/draft_texts:
         one: "Bozza"
         other: "Bozze"
       legislation/questions:
-        one: "Domanda"
-        other: "Domanda"
+        one: "Quesito"
+        other: "Quesiti"
       legislation/question_options:
-        one: "Opzione della domanda"
-        other: "Opzione della domanda"
+        one: "Opzione quesito"
+        other: "Opzioni quesito"
       legislation/answers:
         one: "Risposta"
         other: "Risposte"
@@ -101,18 +101,18 @@ it:
         one: "Argomento"
         other: "Argomenti"
       poll:
-        one: "Sondaggio"
-        other: "Sondaggi"
+        one: "Votazione"
+        other: "Votazioni"
       proposal_notification:
         one: "Notifica di proposta"
         other: "Notifiche di proposta"
     attributes:
       budget:
         name: "Nome"
-        description_accepting: "Descrizione durante la fase della Accettazione"
-        description_reviewing: "Descrizione durante la fase della Verifica"
-        description_selecting: "Descrizione durante la fase della Ricerca di appoggi"
-        description_valuating: "Descrizione durante la fase della Valutazione"
+        description_accepting: "Descrizione durante la fase di Accettazione"
+        description_reviewing: "Descrizione durante la fase di Verifica"
+        description_selecting: "Descrizione durante la fase di Selezione"
+        description_valuating: "Descrizione durante la fase di Stima"
         description_balloting: "Descrizione durante la fase del Voto"
         description_reviewing_ballots: "Descrizione durante la fase della Verifica del voto"
         description_finished: "Descrizione durante la fase della Approvazione del Bilancio / Risultati"
