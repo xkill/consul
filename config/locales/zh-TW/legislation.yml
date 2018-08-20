@@ -74,5 +74,28 @@ zh-TW:
         empty: 還沒有發表任何內容
       process:
         see_latest_comments: 查看最新評論
+        see_latest_comments_title: 對此進程的評論
       shared:
+        key_dates: 關鍵日期
+        debate_dates: 辯論
         draft_publication_date: 發佈草稿
+        allegations_dates: 指控
+        result_publication_date: 最終結果發佈
+        proposals_dates: 建議
+    questions:
+      comments:
+        comment_button: 發佈答案
+        comments_title: 開啟答案
+        comments_closed: 已結束的階段
+        form:
+          leave_comment: 留下您的答案
+      question:
+        comments:
+          zero: 沒有評論
+          other: "%{count} 個評論"
+        debate: 辯論
+      show:
+        answer_question: 提交答案
+        next_question: 下一個問題
+        first_question: 第一個問題
+        share: 分享
