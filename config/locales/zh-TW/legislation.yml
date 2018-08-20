@@ -21,9 +21,36 @@ zh-TW:
         see_in_context: 在上下文中查看
         comments_count:
           other: "%{count} 個評論"
+      show:
+        title: 評論
+      version_chooser:
+        seeing_version: 版本的評論
+        see_text: 參閱文字草稿
+    draft_versions:
+      changes:
+        title: 更改
+        seeing_changelog_version: 修訂更改摘要
+        see_text: 參閱文字草稿
+      show:
+        loading_comments: 載入評論
+        seeing_version: 你正在參閱草稿版本
+        select_draft_version: 選擇草稿
+        select_version_submit: 參閱
+        updated_at: 已更新於%{date}
+        see_changes: 參閱更改摘要
+        see_comments: 參閱所有評論
+        text_toc: 目錄
+        text_body: 文本
+        text_comments: 評論
     processes:
       header:
+        additional_info: 額外資訊
+        description: 描述
         more_info: 更多資訊和上下文
+      proposals:
+        empty_proposals: 沒有建議
+      debate:
+        empty_questions: 沒有任何問題
       index:
         filters:
           open: 開啟進程
