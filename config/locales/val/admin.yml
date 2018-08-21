@@ -128,6 +128,8 @@ val:
         table_amount: Quantitat
         table_population: Població
         population_info: "El camp població de les partides pressupuestaries s'usa amb fins estadistics únicament, amb l'objectiu de mostrar el percentatge de vots en cada partida que represente un àrea amb població. Es un camp opciona, així que pots deixarlo en blanc si no s'aplica."
+        max_votable_headings: "Màxim número de partides en les que un usuari pot votar"
+        current_of_max_headings: "%{current} de %{max}"
       winners:
         calculate: Calcular propostes guanyadores
         calculated: Calculant guanyadores, pot tardar algún minut.
@@ -166,6 +168,7 @@ val:
           selected: Seleccionades
           undecided: Sense decidir
           unfeasible: Inviable
+          min_total_supports: Avals mínims
           winners: Guanyadores
           one_filter_html: "Filtres aplicats: <b><em>%{filter}</em></b>"
           two_filters_html: "Filtres aplicats: <b><em>%{filter}, %{advanced_filters}}</em></b>"
@@ -184,6 +187,15 @@ val:
           undecided: "Sense decidir"
         selected: "Seleccionada"
         select: "Seleccionar"
+        list:
+          id: ID
+          title: Títol
+          supports: Avals
+          admin: Administrador
+          valuator: Avaluador
+          valuation_group: Grup d'Avaluadors
+          geozone: Ámbit d'actuació
+          feasibility: Viabilitat
         cannot_calculate_winners: El pressupost ha d'estar en les fases "Votació final", "Votació finalitzada" o "Resultats" per a poder calcular les propostes guanyadores
         see_results: "Veure resultats"
       show:
