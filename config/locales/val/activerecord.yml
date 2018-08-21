@@ -283,6 +283,10 @@ val:
           attributes:
             segment_recipient:
               invalid: "El segment d'usuaris es invàlid"
+        admin_notification:
+          attributes:
+            segment_recipient:
+              invalid: "L'usuari del destinatari es invàlid"
         map_location:
           attributes:
             map:
