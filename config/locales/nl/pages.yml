@@ -36,7 +36,7 @@ nl:
         title: "Peilingen"
         description: "Het %{link} onderdeel wordt geactiveerd elke keer wanneer een voorstel 1% steun krijgt en tot stemming over gaat, of als de gemeente een vraagstuk en besluit aan de inwoners wil voorleggen."
         link: "peilingen"
-        feature_1: "Om te participeren in het stemmen moet je %{link} en je account verifieren."
+        feature_1: "Om te participeren bij de peilingen moet je %{link} en je account verifiëren."
         feature_1_link: "registreren in %{org_name}"
       processes:
         title: "Processen"
