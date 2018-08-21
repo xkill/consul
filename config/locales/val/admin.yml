@@ -196,6 +196,7 @@ val:
           valuation_group: Grup d'Avaluadors
           geozone: Ámbit d'actuació
           feasibility: Viabilitat
+          selected: Seleccionada
         cannot_calculate_winners: El pressupost ha d'estar en les fases "Votació final", "Votació finalitzada" o "Resultats" per a poder calcular les propostes guanyadores
         see_results: "Veure resultats"
       show:
@@ -340,6 +341,12 @@ val:
         hidden_at: 'Bloquejat:'
         registered_at: 'Data d''alta:'
         title: Activitat de l'usuari (%{user})
+    hidden_budget_investments:
+      index:
+        filter: Filtre
+        filters:
+          all: Totes
+          with_confirmed_hide: Confirmades
     legislation:
       processes:
         create:
@@ -531,6 +538,9 @@ val:
       site_customization:
         homepage: Pàgina principal
         content_blocks: Personalitzar blocs
+        information_texts_menu:
+          debates: "Debats"
+          community: "Comunitat"
       title_moderated_content: Contingut moderat
       title_budgets: Pressupostos
       title_polls: Votacions
