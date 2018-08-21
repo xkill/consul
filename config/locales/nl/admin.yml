@@ -1357,7 +1357,7 @@ nl:
       create_header: Koptekst maken
       cards_title: Kaarten
       create_card: Kaart aanmaken
-      no_cards: Er zijn geen kaarten.
+      no_cards: Er zijn geen tegels.
       cards:
         title: Titel
         description: Beschrijving
