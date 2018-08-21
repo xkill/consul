@@ -31,7 +31,7 @@ nl:
       user_permission_title: Deelname
       user_permission_verify: Verifi
       user_permission_verify_info: "* Only for users on Census."
-      user_permission_votes: Deelnemen aan laatste peilronde
+      user_permission_votes: Deelnemen aan laatste stemronde
       username_label: Gebruikersnaam
       verified_account: Account geverifieerd
       verify_my_account: Verifieer mijn account
@@ -231,7 +231,7 @@ nl:
       open: open
       open_gov: Open overheid
       proposals: Voorstellen
-      poll_questions: Peilingen
+      poll_questions: Stemmen
       budgets: Burgerbegrotingen
       spending_proposals: Bestedingsvoorstellen
       notification_item:
@@ -470,13 +470,13 @@ nl:
       geozone_info: "Open voor deelnemers uit: "
       already_answer: "Je hebt al deelgenomen aan deze ronde"
       section_header:
-        icon_alt: Peilingen icoon
-        title: Peilingen
+        icon_alt: Stemmen icoon
+        title: Stemmen
         help: Hulp bij peilingen
       section_footer:
-        title: Hulp bij peilingen
+        title: Hulp bij stemmen
         description: Burger opiniepeilingen zijn een participatieve mechanisme waarmee burgers met stemrecht direct beslissingen kunnen nemen
-      no_polls: "Er zijn geen openstaande peilingen."
+      no_polls: "Er zijn geen openstaande stemmingen."
     show:
       already_voted_in_booth: "Je hebt al gestemd in een stemhokje. Je kunt niet meer deelnemen."
       already_voted_in_web: "Je hebt al deelgenomen in deze stemronde. Als je nogmaals stemt, wordt je eerdere stemming overschreven."
@@ -816,7 +816,7 @@ nl:
       user_permission_verify: Om alle acties te kunnen uitvoeren, verifieer je account.
       user_permission_verify_info: "* Alleen voor gebruikers in de regio."
       user_permission_verify_my_account: Verifieer mijn account
-      user_permission_votes: Neem deel aan de definitieve peilronde
+      user_permission_votes: Neem deel aan de definitieve stemronde
   invisible_captcha:
     sentence_for_humans: "Negeer dit veld als u mens bent"
     timestamp_error_message: "Sorry, dat ging te snel! Probeer nog eens."
