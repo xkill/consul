@@ -386,7 +386,7 @@ nl:
         index:
           create: Nieuw proces
           delete: Verwijder
-          title: Reguleringsprocessen
+          title: Samenwerken aan beleid
           filters:
             open: Open
             next: Volgende
@@ -571,7 +571,7 @@ nl:
       title_profiles: Profielen
       title_settings: Instellingen
       title_site_customization: Aanpassing Site
-      title_booths: Stemhokjes
+      title_booths: Peilingen
       legislation: Collaboratieve regulering
       users: Deelnemers
     administrators:
