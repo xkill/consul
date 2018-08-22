@@ -60,8 +60,13 @@ pl:
           on_debates: Debaty
           on_proposals: Propozycje
           on_users: Użytkownicy
+          on_system_emails: E-maile systemowe
+        title: Aktywność moderatora
+        type: Typ
+        no_activity: Brak aktywności moderatorów.
     budgets:
       index:
+        title: Budżety partycypacyjne
         new_link: Utwórz nowy budżet
         filter: Filtr
         filters:
@@ -69,7 +74,11 @@ pl:
           finished: Zakończony
         budget_investments: Zarządzanie projektami
         table_name: Nazwa
+        table_phase: Etap
+        table_investments: Inwestycje
+        table_edit_groups: Grupy nagłówków
         table_edit_budget: Edytuj
+        edit_groups: Edytuj grupy nagłówków
         edit_budget: Edytuj budżet
       create:
         notice: Nowy budżet partycypacyjny został pomyślnie utworzony!
