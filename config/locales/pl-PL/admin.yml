@@ -1,6 +1,11 @@
 pl:
   admin:
     actions:
+      actions: Akcje
+      confirm: Jesteś pewny/a?
+      hide: Ukryj
+      hide_author: Ukryj autora
+      restore: Przywróć
       edit: Edytuj
       delete: Usuń
     banners:
@@ -10,6 +15,7 @@ pl:
         edit: Edytuj baner
         delete: Usuń baner
         filters:
+          all: Wszystko
           with_active: Aktywny
           with_inactive: Nieaktywny
         preview: Podgląd
@@ -18,24 +24,42 @@ pl:
         description: Opis
         target_url: Link
         sections:
+          homepage: Strona domowa
+          debates: Debaty
+          proposals: Propozycje
           budgets: Budżet partycypacyjny
+          help_page: Pomoc
+        background_color: Kolor tła
         font_color: Kolor czcionki
       edit:
         editing: Edytuj baner
         form:
           submit_button: Zapisz zmiany
+      errors:
+        form:
+          error:
+            one: "błąd uniemożliwił zapisanie się temu banerowi"
+            few: "błędy uniemożliwiły zapisanie się temu banerowi"
+            many: "błędów uniemożliwiło zapisanie się temu banerowi"
+            other: "błędów uniemożliwiło zapisanie się temu banerowi"
       new:
         creating: Utwórz baner
     activity:
       show:
+        action: Akcja
         actions:
           block: Zablokowany
           hide: Ukryty
+          restore: Przywrócono
         by: Moderowany przez
+        content: Zawartość
         filter: Pokaż
         filters:
           all: Wszystko
           on_comments: Komentarze
+          on_debates: Debaty
+          on_proposals: Propozycje
+          on_users: Użytkownicy
     budgets:
       index:
         new_link: Utwórz nowy budżet
