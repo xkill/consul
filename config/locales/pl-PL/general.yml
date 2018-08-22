@@ -117,6 +117,7 @@ pl:
   polls:
     index:
       title: "Ankiety"
+      participate_button_incoming: "Więcej informacji"
       no_geozone_restricted: "Wszystkie miasta"
       geozone_restricted: "Dzielnice"
     show:
@@ -124,6 +125,7 @@ pl:
       comments_tab: Komentarze
       verify_link: "zweryfikuj swoje konto"
       more_info_title: "Więcej informacji"
+      read_more: "Dowiedz się więcej o %{answer}"
   proposal_notifications:
     new:
       title_label: "Tytuł"
