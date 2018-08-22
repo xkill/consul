@@ -87,6 +87,10 @@ pl:
       edit:
         title: Edytuj budżet partycypacyjny
         delete: Usuń budżet
+        phase: Etap
+        dates: Daty
+        edit_phase: Edytuj etap
+        active: Aktywny
       form:
         group: Nazwa grupy
         add_group: Dodaj nową grupę
