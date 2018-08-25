@@ -35,3 +35,21 @@ zh-TW:
       polls:
         title: "投票"
         description: "每當提案達到1%支持並進入投票，或市議會提出問題供人們決定時，%{link} 部分就會啟動。"
+        link: "投票"
+        feature_1: "要參與投票，您必須%{link} 並核實您的帳戶。"
+        feature_1_link: "在%{org_name} 中註冊"
+      processes:
+        title: "過程"
+        description: "在%{link} 部分，公民參與起草和修改影響城市的法規，並可以在已有的辯論中就市政政策發表意見。"
+        link: "過程"
+      faq:
+        title: "技術問題？"
+        description: "請閱讀常見問題解答來解決您的問題。"
+        button: "查看常見問題解答"
+        page:
+          title: "常見問題解答"
+          description: "站點用戶可以使用此頁面解決一般常見問題。"
+          faq_1_title: "問題1"
+          faq_1_description: "這個例子是描述問題1的。"
+      other:
+        title: "其他感興趣的資訊"
