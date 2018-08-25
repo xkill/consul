@@ -99,3 +99,21 @@ zh-TW:
         next_question: 下一個問題
         first_question: 第一個問題
         share: 分享
+        title: 合作立法進程
+      participation:
+        phase_not_open: 此階段未開啟
+        organizations: 不允許組織參與辯論
+        signin: 登錄
+        signup: 登記
+        unauthenticated: 您必須%{signin} 或%{signup} 才能參與。
+        verified_only: 只有已核實的用戶才能參與，%{verify_account}。
+        verify_account: 核實您的帳戶
+        debate_phase_not_open: 辯論階段已經結束，不再接受答案
+    shared:
+      share: 分享
+      share_comment: 從進程草稿%{process_name} 中對%{version_name} 的評論
+    proposals:
+      form:
+        tags_label: "類別"
+      not_verified: "為投票建議%{verify_account}。"
+      closed: "此進程已關閉，無法接收投票。"
