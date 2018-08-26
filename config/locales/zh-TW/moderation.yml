@@ -2,7 +2,7 @@ zh-TW:
   moderation:
     comments:
       index:
-        block_authors: 阻止作者
+        block_authors: 封鎖作者
         confirm: 你確定？
         filter: 篩選器
         filters:
@@ -49,7 +49,7 @@ zh-TW:
       flagged_investments: 預算投資
       proposals: 建議
       proposal_notifications: 建議通知
-      users: 阻止用戶
+      users: 封鎖用戶
     proposals:
       index:
         block_authors: 阻止作者
@@ -71,7 +71,7 @@ zh-TW:
         title: 建議
     budget_investments:
       index:
-        block_authors: 禁止作者
+        block_authors: 封鎖作者
         confirm: 你確定？
         filter: 篩選器
         filters:
@@ -90,7 +90,7 @@ zh-TW:
         title: 預算投資
     proposal_notifications:
       index:
-        block_authors: 禁止作者
+        block_authors: 封鎖作者
         confirm: 你確定？
         filter: 篩選器
         filters:
@@ -109,9 +109,9 @@ zh-TW:
         title: 建議通知
     users:
       index:
-        hidden: 已被阻止
-        hide: 阻止
+        hidden: 已被封鎖
+        hide: 封鎖
         search: 搜尋
         search_placeholder: 電郵或用戶名
-        title: 阻止用戶
-      notice_hide: 用戶已被阻止。 此用戶所有的辯論和評論都被隱藏了。
+        title: 封鎖用戶
+      notice_hide: 用戶已被封鎖。 此用戶所有的辯論和評論都被隱藏了。
