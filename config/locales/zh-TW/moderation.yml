@@ -1,1 +1,44 @@
 zh-TW:
+  moderation:
+    comments:
+      index:
+        confirm: 你確定？
+        filter: 篩選器
+        filters:
+          all: 所有
+          pending_flag_review: 有待
+          with_ignored_flag: 標記為已查看
+        headers:
+          comment: 評論
+          moderate: 審核
+    budget_investments:
+      index:
+        block_authors: 阻止作者
+        confirm: 你確定？
+        filter: 篩選器
+        filters:
+          all: 所有
+          pending_flag_review: 有待
+          with_ignored_flag: 標記為已查看
+        headers:
+          moderate: 審核
+          budget_investment: 預算投資
+        hide_budget_investments: 隱藏預算投資
+        ignore_flags: 標記為已查看
+        order: 排序依據
+        orders:
+          created_at: 最新
+          flags: 最多標記
+        title: 預算投資
+    proposal_notifications:
+      index:
+        block_authors: 阻止作者
+        confirm: 你確定？
+        filter: 篩選器
+        filters:
+          all: 所有
+          pending_review: 有待審閱
+          ignored: 標記為已查看
+        headers:
+          moderate: 審核
+          proposal_notification: 建議通知
