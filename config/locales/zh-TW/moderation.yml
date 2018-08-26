@@ -52,7 +52,7 @@ zh-TW:
       users: 封鎖用戶
     proposals:
       index:
-        block_authors: 阻止作者
+        block_authors: 封鎖作者
         confirm: 你確定？
         filter: 篩選器
         filters:
