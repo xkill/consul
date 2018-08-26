@@ -24,7 +24,7 @@ zh-TW:
         title: 審核
     debates:
       index:
-        block_authors: 阻止作者
+        block_authors: 禁止作者
         confirm: 你確定？
         filter: 篩選器
         filters:
@@ -90,7 +90,7 @@ zh-TW:
         title: 預算投資
     proposal_notifications:
       index:
-        block_authors: 阻止作者
+        block_authors: 禁止作者
         confirm: 你確定？
         filter: 篩選器
         filters:
@@ -109,7 +109,7 @@ zh-TW:
         title: 建議通知
     users:
       index:
-        hidden: 禁止
+        hidden: 已被禁止
         hide: 禁止
         search: 搜尋
         search_placeholder: 電郵或用戶名
