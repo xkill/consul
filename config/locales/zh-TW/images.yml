@@ -6,7 +6,7 @@ zh-TW:
       title_placeholder: 為圖像添加描述性標題
       attachment_label: 選擇圖像
       delete_button: 刪除圖像
-      note: "您可以上傳以下內容類型：%{accepted_content_types} 的一張圖像，最多%{max_file_size} MB。"
+      note: "您可以上傳以下內容類型的一張圖像：%{accepted_content_types} ，最多%{max_file_size} MB。"
       add_new_image: 添加圖像
       admin_title: "圖像"
       admin_alt_text: "圖像的替代文本"
