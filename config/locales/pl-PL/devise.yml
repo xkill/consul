@@ -1,6 +1,8 @@
 pl:
   devise:
     password_expired:
+      expire_password: "Hasło wygasło"
+      change_required: "Twoje hasło wygasło"
       change_password: "Zmień hasło"
       new_password: "Nowe hasło"
       updated: "Hasło pomyślnie zaktualizowane"
