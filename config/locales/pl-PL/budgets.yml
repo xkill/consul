@@ -43,12 +43,17 @@ pl:
       investment_proyects: Lista wszystkich projektów inwestycyjnych
       unfeasible_investment_proyects: Lista wszystkich niewykonalnych projektów inwestycyjnych
       not_selected_investment_proyects: Lista wszystkich projektów inwestycyjnych nie wybranych do głosowania
+      finished_budgets: Ukończone budżety partycypacyjne
       see_results: Zobacz wyniki
       section_footer:
         title: Pomoc z budżetem partycypacyjnym
+        description: Przy pomocy budżetów partycypacyjnych obywatele decydują, którym projektom przeznaczona jest część budżetu gminnego.
     investments:
       form:
         tag_category_label: "Kategorie"
+        tags_instructions: "Otaguj tę propozycję. Możesz wybrać spośród proponowanych kategorii lub dodać własną"
+        tags_label: Tagi
+        tags_placeholder: "Wprowadź tagi, których chciałbyś użyć, rozdzielone przecinkami (',')"
       index:
         unfeasible_text: "Inwestycje muszą spełniać określone kryteria (legalność, konkretność, bycie odpowiedzialnością miasta, mieszczenie się w ramach budżetu), aby zostały zadeklarowane wykonalnymi i osiągnęły etap ostatecznego głosowania. Wszystkie inwestycje nie spełniające tych kryteriów są oznaczane jako nierealne i publikowane na następującej liście, wraz z raportem ich niewykonalności."
         sidebar:
