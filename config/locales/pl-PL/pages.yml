@@ -37,15 +37,19 @@ pl:
         description: "Sekcja %{link} jest aktywowana za każdym razem, gdy propozycja osiąga 1% poparcia i przechodzi do głosowania lub gdy Rada Miejska przedkłada kwestię, w której sprawie ludzie mają zadecydować."
         link: "ankiety"
         feature_1: "Aby uczestniczyć w głosowaniu, musisz %{link} i zweryfikować swoje konto."
+        feature_1_link: "zarejestruj się w %{org_name}"
       processes:
         title: "Procesy"
         description: "W sekcji %{link} obywatele uczestniczą w opracowywaniu i modyfikowaniu przepisów dotyczących miasta oraz mogą wyrażać własne opinie na temat polityk komunalnych w poprzednich debatach."
+        link: "procesy"
       faq:
         title: "Problemy techniczne?"
         description: "Przeczytaj FAQ, aby znaleźć odpowiedzi na swoje pytania."
         button: "Zobacz najczęściej zadawane pytania"
         page:
           title: "FAQ - najczęściej zadawane pytania"
+          description: "Użyj tej strony, aby odpowiadać na często zadawane pytania użytkownikom serwisu."
+          faq_1_title: "Pytanie 1"
           faq_1_description: "To jest przykład opisu pytania pierwszego."
       other:
         title: "Inne przydatne informacje"
@@ -61,9 +65,12 @@ pl:
         how_to_use: Użyj go w swoim lokalnym rządzie
     privacy: Polityka prywatności
     titles:
+      accessibility: Ułatwienia dostępu
       conditions: Warunki użytkowania
+      help: "Czym jest %{org}? - Uczestnictwem obywatelskim"
       privacy: Polityka prywatności
     verify:
+      code: Kod, który otrzymałeś w liście
       email: Adres e-mail
       info: 'Aby zweryfikować konto, wprowadź swoje dane dostępu:'
       info_code: 'Teraz wprowadź kod otrzymany w liście:'
