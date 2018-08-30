@@ -14,8 +14,12 @@ pl:
         not_selected: Niewybrane projekty inwestycyjne nie mogą być wspierane
         not_enough_money_html: "Już przypisałeś/łaś dostępny budżet.<br><small>Pamiętaj, że możesz %{change_ballot} w każdej chwili</small>"
         no_ballots_allowed: Faza wybierania jest zamknięta
+        change_ballot: zmieńcie swoje głosy
     groups:
       show:
+        title: Wybierz opcję
+        unfeasible_title: Niewykonalne inwestycje
+        unfeasible: Zobacz niewykonalne inwestycje
         unselected_title: Inwestycje niewybrane do fazy głosowania
         unselected: Zobacz inwestycje niewybrane do fazy głosowania
     phase:
@@ -25,10 +29,16 @@ pl:
       reviewing: Przeglądanie projektów
       selecting: Wybieranie projektów
       publishing_prices: Publikowanie cen projektów
+      balloting: Głosowanie za projektami
+      reviewing_ballots: Przegląd głosowania
+      finished: Ukończony budżet
     index:
+      title: Budżety partycypacyjne
       empty_budgets: Brak budżetów.
       section_header:
+        icon_alt: Ikona budżetów partycypacyjnych
         title: Budżety partycypacyjne
+        help: Pomoc z budżetem partycypacyjnym
         all_phases: Zobacz wszystkie fazy
       investment_proyects: Lista wszystkich projektów inwestycyjnych
       unfeasible_investment_proyects: Lista wszystkich niewykonalnych projektów inwestycyjnych
