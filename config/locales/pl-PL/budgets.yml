@@ -54,8 +54,16 @@ pl:
         tags_instructions: "Otaguj tę propozycję. Możesz wybrać spośród proponowanych kategorii lub dodać własną"
         tags_label: Tagi
         tags_placeholder: "Wprowadź tagi, których chciałbyś użyć, rozdzielone przecinkami (',')"
+        map_location_instructions: "Przejdź na mapie do lokalizacji i umieść znacznik."
+        map_remove_marker: "Usuń znacznik"
+        location: "Dodatkowe informacje o lokalizacji"
+        map_skip_checkbox: "Ta inwestycja nie posiada konkretnej lokalizacji lub nie jest mi ona znana."
       index:
+        unfeasible: Niewykonalne projekty inwestycyjne
         unfeasible_text: "Inwestycje muszą spełniać określone kryteria (legalność, konkretność, bycie odpowiedzialnością miasta, mieszczenie się w ramach budżetu), aby zostały zadeklarowane wykonalnymi i osiągnęły etap ostatecznego głosowania. Wszystkie inwestycje nie spełniające tych kryteriów są oznaczane jako nierealne i publikowane na następującej liście, wraz z raportem ich niewykonalności."
+        by_heading: "Projekty inwestycyjne z zakresu: %{heading}"
+        search_form:
+          button: Szukaj
         sidebar:
           voted_info: Możesz %{link} w każdej chwili aż do zamknięcia tej fazy. Nie ma potrzeby wydawania wszystkich dostępnych pieniędzy.
           voted_info_link: zmień swój głos
