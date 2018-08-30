@@ -64,9 +64,13 @@ pl:
         by_heading: "Projekty inwestycyjne z zakresu: %{heading}"
         search_form:
           button: Szukaj
+          placeholder: Przeszukaj projekty inwestycyjne...
+          title: Szukaj
         sidebar:
+          my_ballot: Moje głosowanie
           voted_info: Możesz %{link} w każdej chwili aż do zamknięcia tej fazy. Nie ma potrzeby wydawania wszystkich dostępnych pieniędzy.
           voted_info_link: zmień swój głos
+          different_heading_assigned_html: "Posiadasz aktywne głosy w innym nagłówku: %{heading_link}"
           change_ballot: "Jeśli zmienisz zdanie, możesz usunąć swoje głosy w %{check_ballot} i zacząć od nowa."
           check_ballot_link: "sprawdź moje głosowanie"
           zero: Nie zagłosowałeś na żaden z projektów inwestycyjnych w tej grupie.
@@ -86,6 +90,7 @@ pl:
         price_explanation: Wyjaśnienie ceny
         unfeasibility_explanation: Wyjaśnienie niewykonalności
         code_html: 'Kod projektu inwestycyjnego: <strong>%{code}</strong>'
+        share: Udostępnij
         price: Koszt
         comments_tab: Komentarze
         milestone_status_changed: Zmieniono stan inwestycji na
@@ -102,3 +107,6 @@ pl:
         give_support: Wsparcie
       header:
         check_ballot: Sprawdź moje głosowanie
+    phases:
+      errors:
+        dates_range_invalid: "Data rozpoczęcia nie może być taka sama lub późniejsza od daty zakończenia"
