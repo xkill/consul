@@ -1,6 +1,9 @@
 pl:
   devise_views:
     confirmations:
+      new:
+        email_label: E-mail
+        submit: Ponownie wyślij intrukcje
       show:
         instructions_html: Potwierdzanie konta za pomocą poczty e-mail %{email}
         new_password_confirmation_label: Powtórz hasło dostępu
