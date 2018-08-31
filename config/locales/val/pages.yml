@@ -25,6 +25,7 @@ val:
         description: "En la secció %{link} pots plantejar propostes per a que l'Ajuntament les duga a terme. Les propostes recaben avals, i si arriben als avals suficients es sotmeten a votació ciutadana. Les propostes aprovades en aquestes votacions ciutadanes son asumides per l'Ajuntament i es duen a terme."
         link: "propostes ciutadanes"
         image_alt: "Botó per a avalar una proposta"
+        figcaption_html: 'Botó per a "Avalar" una proposta.'
       budgets:
         title: "Pressupostos Participatius"
         description: "La secció de %{link} serveix per a que la gent decidisca de manera directa a qué es estina una part del pressupost municipal."
