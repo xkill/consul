@@ -634,6 +634,21 @@ val:
         body: Contingut del email
         body_help_text: Així es com veuran el email els usuaris
         send_alert: Estàs segur que vols enviar aquest butlletí informatiu a %{n} usuaris?
+    admin_notifications:
+      index:
+        title: Títol
+        segment_recipient: Destinataris
+        sent: Enviat
+        actions: Accions
+        draft: Esborrany
+        edit: Editar
+        delete: Eliminar
+        preview: Vista previa
+      show:
+        title: Títol
+        body: Text
+        link: Enllaç
+        segment_recipient: Destinataris
     emails_download:
       index:
         title: Descàrrega de emails
