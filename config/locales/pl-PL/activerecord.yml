@@ -139,6 +139,34 @@ pl:
         description_valuating: "Opis w fazie Wyceny"
         description_balloting: "Opis w fazie Głosowania"
         description_finished: "Opis po zakończeniu budżetu"
+      proposal:
+        question: "Pytanie"
+        description: "Opis"
+        terms_of_service: "Warunki użytkowania"
+      user:
+        login: "E-mail lub nazwa użytkownika"
+        email: "E-mail"
+        username: "Nazwa użytkownika"
+        password_confirmation: "Potwierdzenie hasła"
+        password: "Hasło"
+        current_password: "Obecne hasło"
+        phone_number: "Numer telefonu"
+        redeemable_code: "Kod weryfikacyjny otrzymany za pośrednictwem poczty e-mail"
+      organization:
+        name: "Nazwa organizacji"
+        responsible_name: "Osoba odpowiedzialna za grupę"
+      spending_proposal:
+        administrator_id: "Administrator"
+        association_name: "Nazwa stowarzyszenia"
+        description: "Opis"
+        external_url: "Link do dodatkowej dokumentacji"
+        geozone_id: "Zakres operacji"
+        title: "Tytuł"
+      poll:
+        name: "Nazwa"
+        starts_at: "Data Rozpoczęcia"
+        ends_at: "Data Zakończenia"
+        geozone_restricted: "Ograniczone przez geozone"
     errors:
       models:
         user:
