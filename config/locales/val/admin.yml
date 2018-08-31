@@ -1018,6 +1018,12 @@ val:
             update: La configuració del mapa s'ha guardat correctament.
           form:
             submit: Actualitzar
+      setting: Característica
+      setting_actions: Accions
+      setting_name: Configuració
+      setting_status: Estat
+      setting_value: Valor
+      no_description: "Sense descripció"
     shared:
       booths_search:
         button: Cercar
@@ -1045,6 +1051,11 @@ val:
       image: Imatge
       show_image: Mostrar imatge
       moderated_content: "Revisa el contigut moderat pels moderadors, i confirma si la moderació s'ha realitzat correctament."
+      view: Vista
+      proposal: Proposta
+      author: Autor
+      content: Contingut
+      created_at: Creat el
     spending_proposals:
       index:
         geozone_filter_all: Tots els àmbits d'actuació
