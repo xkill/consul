@@ -46,4 +46,14 @@ pl:
       subject: "Dziękujemy za stworzenie inwestycji!"
       title: "Dziękujemy za stworzenie inwestycji!"
       intro_html: "Cześć <strong>%{author}</strong>,"
+      text_html: "Dziękujemy za stworzenie Twojej inwestycji <strong>%{investment}</strong> dla Budżetów Partycypacyjnych <strong>%{budget}</strong>."
+      follow_html: "Będziemy Cię informowali o tym, jak postępuje proces, co możesz również śledzić na <strong>%{link}</strong>."
       follow_link: "Budżety partycypacyjne"
+      share: "Udostępnij swój projekt"
+    budget_investment_unfeasible:
+      hi: "Drogi Użytkowniku,"
+      new_html: "Dla tych wszystkich, zachęcamy do opracowania <strong>nowej inwestycji</strong>, która dostosowana jest do warunków tego procesu. Można to zrobić wchodząc w ten link: %{url}."
+      new_href: "nowy projekt inwestycyjny"
+      sorry: "Przepraszamy za niedogodności i ponownie dziękujemy Ci za Twoje nieocenione uczestnictwo."
+    budget_investment_selected:
+      subject: "Twój projekt inwestycyjny '%{code}' został wybrany"
