@@ -1,1 +1,9 @@
 pl:
+  legislation:
+    annotations:
+      comments:
+        publish_comment: Opublikuj Komentarz
+      form:
+        phase_not_open: Ta faza nie jest otwarta
+      index:
+        see_in_context: Zobacz w kontekście
