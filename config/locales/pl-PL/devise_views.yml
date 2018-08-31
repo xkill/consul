@@ -38,7 +38,14 @@ pl:
         signin_with_provider: Zaloguj się za pomocą %{provider}
     users:
       registrations:
+        edit:
+          need_current: Potrzebujemy Twojego obecnego hasła, aby potwierdzić zmiany
+          password_confirmation_label: Potwierdź nowe hasło
+          password_label: Nowe hasło
+          waiting_for: 'Oczekiwanie na potwierdzenie:'
         new:
+          cancel: Anuluj logowanie
+          email_label: E-mail
           organization_signup: Czy reprezentujesz organizację lub kolektyw? %{signup_link}
           organization_signup_link: Zarejestruj się tutaj
           password_confirmation_label: Potwierdź hasło
@@ -46,6 +53,7 @@ pl:
           redeemable_code: Kod weryfikacyjny otrzymany za pośrednictwem poczty e-mail (opcjonalnie)
           submit: Zarejestruj się
           terms: Rejestrując się, akceptujesz %{terms}
+          terms_link: warunki użytkowania
           terms_title: Rejestrując się, akceptujesz regulamin i warunki użytkowania
           username_is_available: Nazwa użytkownika dostępna
           username_is_not_available: Nazwa użytkownika jest już w użyciu
