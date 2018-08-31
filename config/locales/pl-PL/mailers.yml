@@ -36,6 +36,14 @@ pl:
       unsubscribe_account: Moje konto
     direct_message_for_sender:
       subject: "Wysłałeś nową wiadomość prywatną"
+      title_html: "Wysłałeś nową wiadomość prywatną do <strong>%{receiver}</strong> o następującej treści:"
+    user_invite:
+      ignore: "Jeżeli nie prosiłeś o to zaproszenie, nie martw się, możesz zignorować ten e-mail."
+      text: "Dziękujemy za wniosek o dołączenie do %{org}! Już za kilka sekund możesz rozpocząć uczestnictwo, wypełnij tylko poniższy formularz:"
+      thanks: "Dziękujemy bardzo."
+      subject: "Zaproszenie do %{org_name}"
     budget_investment_created:
+      subject: "Dziękujemy za stworzenie inwestycji!"
+      title: "Dziękujemy za stworzenie inwestycji!"
       intro_html: "Cześć <strong>%{author}</strong>,"
       follow_link: "Budżety partycypacyjne"
