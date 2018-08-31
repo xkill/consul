@@ -1,7 +1,17 @@
 pl:
   verification:
+    alert:
+      lock: Osiągnąłeś maksymalną liczbę prób. Proszę spróbować ponownie później.
+    back: Wróć do mojego konta
     email:
+      create:
+        alert:
+          failure: Wystąpił problem z wysłaniem wiadomości e-mail na Twoje konto
+        flash:
+          success: 'Wysłaliśmy e-mail z potwierdzeniem na Twoje konto: %{email}'
       show:
+        alert:
+          failure: Nieprawidłowy kod weryfikacyjny
         flash:
           success: Jesteś zweryfikowanym użytkownikiem.
     letter:
