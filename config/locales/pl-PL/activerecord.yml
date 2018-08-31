@@ -167,12 +167,19 @@ pl:
         starts_at: "Data Rozpoczęcia"
         ends_at: "Data Zakończenia"
         geozone_restricted: "Ograniczone przez geozone"
+        summary: "Podsumowanie"
+      widget/feed:
+        limit: Liczba elementów
     errors:
       models:
         user:
           attributes:
             email:
               password_already_set: "Ten użytkownik posiada już hasło"
+        debate:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "tagów może być najwyżej %{count}"
         direct_message:
           attributes:
             max_per_day:
@@ -191,6 +198,12 @@ pl:
             document_number:
               not_in_census: "Brak dokumentu w spisie"
               has_voted: "Użytkownik już zagłosował"
+        legislation/process:
+          attributes:
+            end_date:
+              invalid_date_range: musi być nie wcześniej niż data rozpoczęcia
+            debate_end_date:
+              invalid_date_range: musi być nie wcześniej niż data rozpoczęcia debaty
         proposal_notification:
           attributes:
             minimum_interval:
@@ -199,6 +212,11 @@ pl:
           attributes:
             document_number:
               not_in_census: 'Niezweryfikowane z rejestrem mieszkańców'
+              already_voted: 'Już zagłosowano na tę propozycję'
+        site_customization/page:
+          attributes:
+            slug:
+              slug_format: "muszą być literami, liczbami, _ oraz -"
         site_customization/image:
           attributes:
             image:
@@ -209,5 +227,7 @@ pl:
             valuation:
               cannot_comment_valuation: 'Nie możesz komentować wyceny'
       messages:
+        record_invalid: "Walidacja nie powiodła się: %{errors}"
         restrict_dependent_destroy:
           has_one: "Nie można usunąć zapisu, ponieważ istnieje zależny %{record}"
+          has_many: "Nie można usunąć zapisu, ponieważ istnieją zależne %{record}"
