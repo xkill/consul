@@ -10,8 +10,16 @@ pl:
       organization_responsible_name_placeholder: Reprezentant organizacji/kolektywu
       phone_number_label: Numer telefonu
       public_activity_label: Utrzymaj moją listę aktywności publiczną
+      public_interests_label: Utrzymaj etykiety elementów, które obserwuję, publicznymi
+      public_interests_my_title_list: Tagi elementów, które obserwuję
+      public_interests_user_title_list: Tagi elementów, które obserwuje ten użytkownik
       save_changes_submit: Zapisz zmiany
+      subscription_to_website_newsletter_label: Otrzymuj informacje dotyczące strony drogą mailową
+      email_on_direct_message_label: Otrzymuj e-maile o wiadomościach bezpośrednich
+      email_digest_label: Otrzymuj podsumowanie powiadomień dotyczących propozycji
+      recommendations: Rekomendacje
       title: Moje konto
+      user_permission_info: Z Twoim kontem możesz...
       username_label: Nazwa użytkownika/użytkowniczki
       verified_account: Konto zweryfikowane
       verify_my_account: Zweryfikuj swoje konto
