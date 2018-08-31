@@ -1,10 +1,15 @@
 pl:
   account:
     show:
+      change_credentials_link: Zmień moje referencje
+      email_on_comment_label: Powiadom mnie drogą mailową, gdy ktoś skomentuje moje propozycje lub debaty
+      email_on_comment_reply_label: Powiadom mnie drogą mailową, gdy ktoś odpowie na moje komentarze
       erase_account_link: Usuń moje konto
       notifications: Powiadomienia
       organization_name_label: Nazwa organizacji
+      organization_responsible_name_placeholder: Reprezentant organizacji/kolektywu
       phone_number_label: Numer telefonu
+      public_activity_label: Utrzymaj moją listę aktywności publiczną
       save_changes_submit: Zapisz zmiany
       title: Moje konto
       username_label: Nazwa użytkownika/użytkowniczki
