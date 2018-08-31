@@ -57,3 +57,8 @@ pl:
       sorry: "Przepraszamy za niedogodności i ponownie dziękujemy Ci za Twoje nieocenione uczestnictwo."
     budget_investment_selected:
       subject: "Twój projekt inwestycyjny '%{code}' został wybrany"
+      share: "Zacznij zdobywać głosy, udostępnij swój projekt inwestycyjny na portalach społecznościowych. Udostępnienie jest niezbędne do urzeczywistnienia."
+      share_button: "Udostępnij swój projekt inwestycyjny"
+      thanks: "Dziękujemy ponownie za uczestnictwo."
+    budget_investment_unselected:
+      subject: "Twój projekt inwestycyjny '%{code}' nie został wybrany"
