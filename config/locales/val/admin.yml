@@ -196,7 +196,11 @@ val:
           valuation_group: Grup d'Avaluadors
           geozone: Ámbit d'actuació
           feasibility: Viabilitat
+          valuation_finished: Avaluació finalitzada
           selected: Seleccionada
+          visible_to_valuators: Veure els evaluadors
+          author_username: Nom d'usuari de l'autor
+          incompatible: Incompatible
         cannot_calculate_winners: El pressupost ha d'estar en les fases "Votació final", "Votació finalitzada" o "Resultats" per a poder calcular les propostes guanyadores
         see_results: "Veure resultats"
       show:
@@ -347,6 +351,7 @@ val:
         filters:
           all: Totes
           with_confirmed_hide: Confirmades
+          without_confirmed_hide: Pendents
     legislation:
       processes:
         create:
@@ -522,6 +527,8 @@ val:
       managers: Gestors
       moderators: Moderadors
       newsletters: Butlletins informatius
+      admin_notifications: Notificacions
+      system_emails: Correus electònics del sistema
       emails_download: Descàrrega de emails
       valuators: Evaluadors
       poll_officers: Presidents de taula
@@ -537,10 +544,21 @@ val:
       signature_sheets: Fulls de signatures
       site_customization:
         homepage: Pàgina principal
+        pages: Pàgines personalitzades
+        images: Imatges personalitzades
         content_blocks: Personalitzar blocs
         information_texts_menu:
           debates: "Debats"
           community: "Comunitat"
+          proposals: "Propostes"
+          polls: "Votacions"
+          layouts: "Disenys"
+          mailers: "Correus electrònics"
+          management: "Gestió"
+          guides: "Guies"
+          welcome: "Benvingut/da"
+        buttons:
+          save: "Guardar"
       title_moderated_content: Contingut moderat
       title_budgets: Pressupostos
       title_polls: Votacions
