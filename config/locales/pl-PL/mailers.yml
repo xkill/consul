@@ -13,12 +13,15 @@ pl:
       instructions_2_html: Ten e-mail zweryfikuje Twoje konto z <b>%{document_type}%{document_number}</b>. Jeśli nie należą one do Ciebie, nie klikaj w powyższy link i zignoruj ten e-mail.
       instructions_html: Aby zakończyć weryfikację Twojego konta użytkownika, musisz kliknąć %{verification_link}.
       subject: Potwierdź swój adres e-mail
+      thanks: Dziękujemy bardzo.
       title: Potwierdź swoje konto za pomocą następującego linku
     reply:
       hi: Cześć
+      new_reply_by_html: Nowa odpowiedź od <b>%{commenter}</b> na Twój komentarz odnośnie
       subject: Ktoś odpowiedział na Twój komentarz
       title: Nowa odpowiedź na Twój komentarz
     unfeasible_spending_proposal:
+      hi: "Drogi Użytkowniku,"
       sorry: "Przepraszamy za niedogodności i ponownie dziękujemy Ci za Twoje nieocenione uczestnictwo."
       subject: "Twój projekt inwestycyjny '%{code}' został oznaczony jako niewykonalny"
     proposal_notification_digest:
