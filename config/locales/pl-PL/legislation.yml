@@ -7,3 +7,21 @@ pl:
         phase_not_open: Ta faza nie jest otwarta
       index:
         see_in_context: Zobacz w kontekście
+      show:
+        title: Komentarz
+    draft_versions:
+      changes:
+        seeing_changelog_version: Podsumowanie zmian rewizji
+        see_text: Zobacz projekt tekstu
+      show:
+        loading_comments: Ładowanie komentarzy
+        seeing_version: Patrzysz na wersję roboczą
+    questions:
+      participation:
+        organizations: Organizacje nie mogą uczestniczyć w debacie
+        verified_only: Tylko zweryfikowani użytkownicy mogą uczestniczyć, %{verify_account}.
+        debate_phase_not_open: Faza debaty została zakończona i odpowiedzi nie są już akceptowane
+    proposals:
+      form:
+        tags_label: "Kategorie"
+      closed: "Ten proces został zamknięty i nie może otrzymywać głosów."
