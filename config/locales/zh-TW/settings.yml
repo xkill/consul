@@ -43,4 +43,8 @@ zh-TW:
     org_name_description: "您的組織的名稱"
     place_name: "地點"
     place_name_description: "您所在城市的名稱"
+    related_content_score_threshold: "相關內容分數閾值"
     related_content_score_threshold_description: "隱藏用戶標記為無關的內容"
+    map_latitude: "緯度"
+    map_latitude_description: "顯示地圖位置的緯度"
+    map_longitude: "經度"
