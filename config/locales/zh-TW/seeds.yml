@@ -17,3 +17,20 @@ zh-TW:
       employment: 就業
       equity: 平等
       sustainability: 可持續發展
+      participation: 參與
+      mobility: 流動性
+      media: 傳播媒介
+      health: 健康
+      transparency: 透明度
+      security_emergencies: 安全和緊急情況
+      environment: 環境
+    budgets:
+      budget: 參與性預算
+      currency: '€'
+      groups:
+        all_city: 所有城市
+        districts: 地區
+      valuator_groups:
+        culture_and_sports: 文化與體育
+        gender_and_diversity: 性別與多元化政策
+        urban_development: 可持續城市發展
