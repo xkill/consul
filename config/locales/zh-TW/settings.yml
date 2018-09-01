@@ -37,8 +37,8 @@ zh-TW:
     youtube_handle_description: "如果填寫了，它將出現在頁尾中"
     telegram_handle_description: "如果填寫了，它將出現在頁尾中"
     instagram_handle_description: "如果填寫了，它將出現在頁尾中"
-    url: "主要網址（URL）"
-    url_description: "您網站的主要網址（URL）"
+    url: "主要 URL"
+    url_description: "您網站的主要 URL"
     org_name: "組織"
     org_name_description: "您的組織的名稱"
     place_name: "地點"
@@ -48,3 +48,28 @@ zh-TW:
     map_latitude: "緯度"
     map_latitude_description: "顯示地圖位置的緯度"
     map_longitude: "經度"
+    map_longitude_description: "顯示地圖位置的經度"
+    map_zoom: "縮放"
+    map_zoom_description: "縮放以顯示地圖位置"
+    mailer_from_name: "發件人電郵名稱"
+    mailer_from_name_description: "此名稱將顯示在從應用程式發送的電郵中"
+    mailer_from_address: "發件人電郵地址"
+    mailer_from_address_description: "此電郵地址將顯示在從應用程式發送的電郵中"
+    meta_title: "網站標題 (SEO)"
+    meta_title_description: "網站標題<title>，用於改善SEO"
+    meta_description: "網站描述 (SEO)"
+    meta_description_description: '網站描述<meta name="description">，用於改善SEO'
+    meta_keywords: "關鍵詞 (SEO)"
+    meta_keywords_description: '關鍵字<meta name="keywords">，用於改善SEO'
+    min_age_to_participate: 參與所需的最低年齡
+    min_age_to_participate_description: "超過此年齡的用戶可以參與所有進程"
+    analytics_url: "分析 URL"
+    blog_url: "博客 URL"
+    transparency_url: "透明度 URL"
+    opendata_url: "公開數據 URL"
+    verification_offices_url: 驗證辦公室 URL
+    proposal_improvement_path: 建議改進資訊內部鏈接
+    feature:
+      budgets: "參與式預算編制"
+      budgets_description: "通過參與性預算，公民決定其鄰居提交的哪些項目將獲得市政預算的一部分"
+      twitter_login: "Twitter 登錄"
