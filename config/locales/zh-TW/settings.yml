@@ -87,5 +87,14 @@ zh-TW:
       signature_sheets: "簽名表"
       signature_sheets_description: "這允許從現場收集的管理面板簽名加到參與預算的提案和投資項目"
       legislation: "立法"
+      legislation_description: "在參與進程中，公民有機會參與起草和修改影響城市的法規，並就計劃實施的某些行動發表意見。"
+      spending_proposals: "開支建議"
+      spending_proposals_description: "⚠️注意：此功能已被參與性預算取代，並將在新版本中消失"
+      spending_proposal_features:
+        voting_allowed: 投資項目投票 - 預選階段
+        voting_allowed_description: "⚠️注意：此功能已被參與性預算取代，並將在新版本中消失"
       user:
         recommendations: "推薦"
+        recommendations_description: "根據以下項目的標記，在主頁上顯示用戶推薦"
+        skip_verification: "跳過用戶核實"
+        skip_verification_description: "這將禁用用戶核實，所有註冊用戶將能夠參與所有進程"
