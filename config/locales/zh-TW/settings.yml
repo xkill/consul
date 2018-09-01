@@ -70,7 +70,7 @@ zh-TW:
     verification_offices_url: 驗證辦公室 URL
     proposal_improvement_path: 建議改進資訊內部鏈接
     feature:
-      budgets: "參與式預算編制"
+      budgets: "參與性預算編制"
       budgets_description: "通過參與性預算，公民決定其鄰居提交的哪些項目將獲得市政預算的一部分"
       twitter_login: "Twitter 登錄"
       twitter_login_description: "允許用戶使用他們的Twitter帳戶登記"
@@ -81,3 +81,11 @@ zh-TW:
       proposals: "建議"
       proposals_description: "在獲得足夠的支持並經由公民投票後，公民的建議是鄰居和集體直接決定他們希望自己的城市如何發展的機會"
       debates: "辯論"
+      debates_description: "公民的辯論空間的對像是任何能夠提出與他們有關的問題的人，並想與別人分享他們的觀點"
+      polls: "投票"
+      polls_description: "公民投票是一種參與機制，藉此擁有投票權的公民可以做出直接決定"
+      signature_sheets: "簽名表"
+      signature_sheets_description: "這允許從現場收集的管理面板簽名加到參與預算的提案和投資項目"
+      legislation: "立法"
+      user:
+        recommendations: "推薦"
