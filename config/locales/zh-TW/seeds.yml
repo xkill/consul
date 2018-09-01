@@ -1,1 +1,19 @@
 zh-TW:
+  seeds:
+    geozones:
+      north_district: 北區
+      west_district: 西區
+      east_district: 東區
+      central_district: 中區
+    organizations:
+      human_rights: 人權
+      neighborhood_association: 鄰里協會
+    categories:
+      associations: 協會
+      culture: 文化
+      sports: 體育
+      social_rights: 社會權利
+      economy: 經濟
+      employment: 就業
+      equity: 平等
+      sustainability: 可持續發展
