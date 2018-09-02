@@ -2,3 +2,14 @@ zh-TW:
   officing:
     header:
       title: 投票
+    dashboard:
+      index:
+        title: 投票辦公室當值
+        info: 您可以在此驗證用戶文檔和存儲投票結果
+        no_shifts: 你今天沒有辦公室輪班。
+    menu:
+      voters: 驗證文檔
+      total_recounts: 總計重新計票和結果
+    polls:
+      final:
+        title: 投票已準備好進行最終的重新計票
