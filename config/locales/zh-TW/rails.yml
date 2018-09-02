@@ -75,6 +75,44 @@ zh-TW:
         other: "%{count} 分鐘"
       x_months:
         other: "%{count} 個月"
+      x_years:
+        other: "%{count} 年"
+      x_seconds:
+        other: "%{count} 秒"
+    prompts:
+      day: 日
+      hour: 小時
+      minute: 分鐘
+      month: 月
+      second: 秒
+      year: 年
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      accepted: 必須被接受
+      blank: 不能空白
+      present: 必須是空白的
+      confirmation: 與%{attribute} 不匹配
+      empty: 不能為空
+      equal_to: 必須等於%{count}
+      even: 必須是偶數
+      exclusion: 被保留了
+      greater_than: 必須大於%{count}
+      greater_than_or_equal_to: 必須大於或等於%{count}
+      inclusion: 未列入清單
+      invalid: 是無效的
+      less_than: 必須小於%{count}
+      less_than_or_equal_to: 必須小於或等於%{count}
+      model_invalid: "驗證失敗：%{errors}"
+      not_a_number: 不是一個數字
+      not_an_integer: 必須是整數
+      odd: 必須是奇數
+      required: 必須存在
+      taken: 已經被取用了
+      too_long:
+        other: 太長了 (最多是%{count} 個字符)
+      too_short:
+        other: 太短了 (最少是%{count} 個字符)
   number:
     human:
       format:
