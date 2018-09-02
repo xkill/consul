@@ -65,6 +65,16 @@ zh-TW:
       half_a_minute: 半分鐘
       less_than_x_minutes:
         other: 少於%{count} 分鐘
+      less_than_x_seconds:
+        other: 少於%{count} 秒
+      over_x_years:
+        other: 多過%{count} 年
+      x_days:
+        other: "%{count} 日"
+      x_minutes:
+        other: "%{count} 分鐘"
+      x_months:
+        other: "%{count} 個月"
   number:
     human:
       format:
