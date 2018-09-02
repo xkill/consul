@@ -1,33 +1,70 @@
 zh-TW:
   date:
+    abbr_day_names:
+      - 星期日
+      - 星期一
+      - 星期二
+      - 星期三
+      - 星期四
+      - 星期五
+      - 星期六
     abbr_month_names:
       - 
-      - Jan
-      - Feb
-      - Mar
-      - Apr
-      - May
-      - Jun
-      - Jul
-      - Aug
-      - Sep
-      - Oct
-      - Nov
-      - Dec
+      - 一月
+      - 二月
+      - 三月
+      - 四月
+      - 五月
+      - 六月
+      - 七月
+      - 八月
+      - 九月
+      - 十月
+      - 十一月
+      - 十二月
+    day_names:
+      - 星期日
+      - 星期一
+      - 星期二
+      - 星期三
+      - 星期四
+      - 星期五
+      - 星期六
+    formats:
+      default: "%Y-%m-%d"
+      long: "%B %d, %Y"
+      short: "%b %d"
     month_names:
       - 
-      - January
-      - February
-      - March
-      - April
-      - May
-      - June
-      - July
-      - August
-      - September
-      - October
-      - November
-      - December
+      - 一月
+      - 二月
+      - 三月
+      - 四月
+      - 五月
+      - 六月
+      - 七月
+      - 八月
+      - 九月
+      - 十月
+      - 十一月
+      - 十二月
+    order:
+      - :year
+      - :month
+      - :day
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        other: 大約%{count} 個小時
+      about_x_months:
+        other: 大約%{count} 個月
+      about_x_years:
+        other: 大約%{count} 年
+      almost_x_years:
+        other: 差不多%{count} 年
+      half_a_minute: 半分鐘
+      less_than_x_minutes:
+        other: 少於%{count} 分鐘
   number:
     human:
       format:
