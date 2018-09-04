@@ -67,3 +67,13 @@ zh-CN:
           on_proposals: 建议
           on_users: 用户
           on_system_emails: 系统电子邮件
+    budgets:
+      winners:
+        calculate: 计算胜出者投资
+        calculated: 计算胜出者中，可能需要一分钟时间。
+        recalculate: 重新计算胜出者投资
+    budget_phases:
+      edit:
+        start_date: 开始日期
+        end_date: 结束日期
+        summary: 总结
