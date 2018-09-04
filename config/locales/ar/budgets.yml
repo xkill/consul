@@ -4,8 +4,10 @@ ar:
       show:
         title: الاقتراح الخاص بك
         amount_spent: المبلغ المنفق
+        remaining: "لا يزال لديك <span>%{amount}</span> للاستثمار."
         no_balloted_group_yet: "انت لم تقم بالتصويت على هذه المجموعة بعد، اذهب للتصويت!"
         remove: ازالة التصويت
+        voted_info_html: "يمكنك تغيير تصويتك في اي وقت حتى اغلاق هذه المرحلة.<br> لا حاجة لانفاق كل الاموال المتاحة."
         zero: أنت لم تصوت على أي مشروع استثماري.
       reasons_for_not_balloting:
         not_logged_in: تحتاج الى %{signin} او %{signup} للمتابعة.
@@ -30,3 +32,15 @@ ar:
       reviewing: استعراض المشاريع
       selecting: تحديد المشاريع
       valuating: تقييم المشاريع
+      publishing_prices: اسعار مشاريع النشر
+      balloting: تصويت المشاريع
+      reviewing_ballots: مراجعة عملية التصويت
+      finished: الميزانية النهائية
+    index:
+      title: الميزانيات المشاركة
+      empty_budgets: لا يوجد ميزانيات.
+      section_header:
+        icon_alt: رمز الميزانيات المشاركة
+        title: الميزانيات المشاركة
+        all_phases: انظر الى جميع المراحل
+      all_phases: مرحلة الميزانية الاستثمارية
