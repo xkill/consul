@@ -8,4 +8,25 @@ ar:
         remove: ازالة التصويت
         zero: أنت لم تصوت على أي مشروع استثماري.
       reasons_for_not_balloting:
+        not_logged_in: تحتاج الى %{signin} او %{signup} للمتابعة.
+        not_verified: يمكن للمستخدمين الذين تم التحقق منهم فقط التصويت على الاستثمارات; %{verify_account}.
+        organization: المنظمات لا يسمح لها بالتصويت
+        not_selected: لا يمكن دعم المشاريع الإستثمارية الغير محددة
+        not_enough_money_html: "لقد قمت بالفعل بتعيين الميزانية المتاحة.<br><small>تذكر يمكنك%{change_ballot} في أي وقت</small>"
+        no_ballots_allowed: مرحلة التحديد مغلقة
+        different_heading_assigned_html: "أنت بالفعل قمت بتصويت عنوان مختلف: %{heading_link}"
         change_ballot: تغيير الأصوات الخاصة بك
+    groups:
+      show:
+        title: قم بتحديد خيار
+        unfeasible_title: الإستثمارات غير مجدية
+        unfeasible: انظر الى الاستثمارات الغير مجدية
+        unselected_title: الإستثمارات غير محددة لمرحلة الإقتراع
+        unselected: انظر للاستثمارات الغير محددة لمرحلة الاقتراع
+    phase:
+      drafting: مسودة(غير مرئي للعامة)
+      informing: معلومات
+      accepting: قبول المشاريع
+      reviewing: استعراض المشاريع
+      selecting: تحديد المشاريع
+      valuating: تقييم المشاريع
