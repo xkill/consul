@@ -42,6 +42,7 @@ ar:
       section_header:
         icon_alt: رمز الميزانيات المشاركة
         title: الميزانيات المشاركة
+        help: ساعد في ميزانيات المشاركة
         all_phases: انظر الى جميع المراحل
       all_phases: مرحلة الميزانية الاستثمارية
       map: مقتراحات استثمارات الميزانية محددة جغرافيا
@@ -64,6 +65,11 @@ ar:
         map_remove_marker: "ازل علامة الخريطة"
         location: "موقع معلومات اضافية"
         map_skip_checkbox: "الاستثمار لا يملك موقع ملموس او لست على دراية به."
+      index:
+        search_form:
+          button: بحث
+          placeholder: البحث عن المشاريع الاستثمارية...
+          title: بحت
       wrong_price_format: الاعاد الصحيحة فقط
       investment:
         add: صوت
