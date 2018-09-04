@@ -6,3 +6,5 @@ ar:
         amount_spent: المبلغ المنفق
         no_balloted_group_yet: "انت لم تقم بالتصويت على هذه المجموعة بعد، اذهب للتصويت!"
         remove: ازالة التصويت
+      reasons_for_not_balloting:
+        change_ballot: تغيير الأصوات الخاصة بك
