@@ -60,3 +60,11 @@ ar:
         tags_label: علامات
         tags_placeholder: "ادخل العلامات التي ترغب في استخدامها، مفصولة بفواصل (',')"
         map_location: "موقع الخريطة"
+        map_location_instructions: "تنقل في الخريطة الى الموقع و ضع العلامة."
+        map_remove_marker: "ازل علامة الخريطة"
+        location: "موقع معلومات اضافية"
+        map_skip_checkbox: "الاستثمار لا يملك موقع ملموس او لست على دراية به."
+      wrong_price_format: الاعاد الصحيحة فقط
+      investment:
+        add: صوت
+        already_added: قمت بالفعل باضافة هذا المشروع الاستثماري
