@@ -66,6 +66,8 @@ ar:
         location: "موقع معلومات اضافية"
         map_skip_checkbox: "الاستثمار لا يملك موقع ملموس او لست على دراية به."
       index:
+        title: الميزانية التشاركية
+        unfeasible: الاستثمارات الغير مجدية
         search_form:
           button: بحث
           placeholder: البحث عن المشاريع الاستثمارية...
