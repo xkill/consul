@@ -44,3 +44,19 @@ ar:
         title: الميزانيات المشاركة
         all_phases: انظر الى جميع المراحل
       all_phases: مرحلة الميزانية الاستثمارية
+      map: مقتراحات استثمارات الميزانية محددة جغرافيا
+      investment_proyects: قائمة بجميع المشاريع الاستثمارية
+      unfeasible_investment_proyects: قائمة بجميع المشاريع الاستثمارية الغير مجدية
+      not_selected_investment_proyects: قائمة بجميع المشاريع الاستثمارية الغير مختارة للاقتراع
+      finished_budgets: ميزانيات المشاركة النهائية
+      see_results: انظر للنتائج
+      section_footer:
+        title: ساعد في ميزانيات المشاركة
+        description: مع ميزانيات المشاركة يقرر المواطنين اي المشاريع متجهة الى حزء من الميزانية.
+    investments:
+      form:
+        tag_category_label: "فئات"
+        tags_instructions: "علم على هذا الاقتراح. تستطيع الاختيار من بين الفئات المقترحة او اضافة الخاصة بك"
+        tags_label: علامات
+        tags_placeholder: "ادخل العلامات التي ترغب في استخدامها، مفصولة بفواصل (',')"
+        map_location: "موقع الخريطة"
