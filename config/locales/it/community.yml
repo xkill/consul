@@ -2,7 +2,16 @@ it:
   community:
     sidebar:
       title: Comunità
+      description:
+        proposal: Partecipa alla comunità di utenti per questa proposta.
+        investment: Partecipa alla comunità di utenti per questo investimento.
+      button_to_access: Accedi alla comunità
     show:
+      title:
+        proposal: Comunità della Proposta
+        investment: Comunità dell’Investimento di Bilancio
+      description:
+        proposal: Partecipa alla comunità di questa proposta. Una comunità attiva può aiutare a migliorare il contenuto della proposta e incrementare la sua diffusione per ottenere maggior supporto.
       topic:
         comments:
           one: 1 commento
