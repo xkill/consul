@@ -9,6 +9,8 @@ zh-CN:
         other: "投资"
       budget/investment/milestone:
         other: "里程碑"
+      budget/investment/status:
+        other: "投资状态"
       comment:
         other: "意见"
       debate:
@@ -39,6 +41,8 @@ zh-CN:
         other: "官员"
       proposal:
         other: "公民提议"
+      spending_proposal:
+        other: "投资项目"
       site_customization/page:
         other: 自定义页面
       site_customization/image:
@@ -65,6 +69,8 @@ zh-CN:
         other: "主题"
       poll:
         other: "民意调查"
+      proposal_notification:
+        other: "建议通知"
     attributes:
       budget:
         name: "名字"
@@ -85,3 +91,8 @@ zh-CN:
         administrator_id: "管理员"
         location: "位置(可选)"
         organization_name: "如果你是以集体/组织的名义或者代表更多的人提出建议，写下它的名字。"
+        image: "建议说明性图像"
+        image_title: "图像标题"
+      budget/investment/milestone:
+        status_id: "当前投资状况（可选）"
+        title: "标题"
