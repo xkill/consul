@@ -1,1 +1,22 @@
 zh-CN:
+  admin:
+    header:
+      title: 管理
+    actions:
+      actions: 行动
+      confirm: 是否确定？
+      confirm_hide: 确认审核
+      hide: 隐藏
+      hide_author: 隐藏作者
+      restore: 恢复
+      mark_featured: 特色
+      unmark_featured: 取消特色标记
+      edit: 编辑
+      configure: 配置
+      delete: 删除
+    banners:
+      index:
+        title: 横幅
+        create: 创建横幅
+        edit: 编辑横幅
+        delete: 删除横幅
