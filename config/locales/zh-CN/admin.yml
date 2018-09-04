@@ -90,3 +90,51 @@ zh-CN:
         valuator_filter_all: 所有评估员
         tags_filter_all: 所有标签
         advanced_filters: 高级过滤器
+        placeholder: 搜索项目
+        sort_by:
+          placeholder: 排序依据
+          id: ID
+          title: 标题
+          supports: 支持
+        filters:
+          all: 所有
+          without_admin: 没有指定的管理员
+          without_valuator: 没有指定的评估员
+          under_valuation: 评估中
+          valuation_finished: 评估已完成
+          feasible: 可行
+          selected: 选择
+          undecided: 未定
+          unfeasible: 不可行
+          min_total_supports: 最小支持
+          winners: 胜出者
+          one_filter_html: "当前应用的过滤器：<b><em>%{filter}</em></b>"
+          two_filters_html: "当前应用的过滤器： <b><em>%{filter}, %{advanced_filters}</em></b>"
+        buttons:
+          filter: 过滤器
+        download_current_selection: "下载当前选择"
+        no_budget_investments: "没有投资项目"
+        title: 投资项目
+        assigned_admin: 指定的管理员
+        no_admin_assigned: 没有指定管理员
+        no_valuators_assigned: 没有指定评估员
+        no_valuation_groups: 没有指定评估组
+        feasibility:
+          feasible: "可行 (%{price})"
+          unfeasible: "不可行"
+          undecided: "未定"
+        selected: "已选"
+        select: "选择"
+        list:
+          id: ID
+          title: 标题
+      edit:
+        mark_as_selected: 标记为已选
+        assigned_valuators: 评估者
+        select_heading: 选择标题
+        submit_button: 更新
+        user_tags: 用户指定的标签
+        tags: 标签
+        tags_placeholder: "编写您想要的标签，用逗号(,) 分隔"
+        undefined: 未定义
+        user_groups: "组"
