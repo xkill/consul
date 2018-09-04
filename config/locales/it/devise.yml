@@ -11,11 +11,11 @@ it:
       send_instructions: "Tra pochi minuti riceverai un'email contenente le istruzioni su come reimpostare la password."
       send_paranoid_instructions: "Se il tuo indirizzo email è nel nostro archivio, in pochi minuti riceverai un'email contenente le istruzioni su come reimpostare la password."
     failure:
-      already_authenticated: "Sei già iscritto."
+      already_authenticated: "Sei già collegato."
       inactive: "Il tuo account non è ancora stato attivato."
       invalid: "%{authentication_keys} o password non validi."
       locked: "Il tuo account è stato bloccato."
-      last_attempt: "Hai sono un altro tentativo prima che il tuo account sia bloccato."
+      last_attempt: "Hai un altro tentativo rimasto prima che il tuo account sia bloccato."
       not_found_in_database: "%{authentication_keys} o password errata."
       timeout: "La sessione è scaduta. Per favore accedi nuovamente per continuare."
       unauthenticated: "È necessario eseguire il log in o registrarsi per continuare."
