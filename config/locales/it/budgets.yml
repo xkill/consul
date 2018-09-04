@@ -111,14 +111,14 @@ it:
         code_html: 'Codice del progetto di investimento: <strong>%{code}</strong>'
         location_html: 'Ubicazione: <strong>%{location}</strong>'
         organization_name_html: 'Proposto per conto di: <strong>%{name}</strong>'
-        share: Condividere
+        share: Condividi
         title: Progetto di investimento
-        supports: Supporti
+        supports: Sostegni
         votes: Voti
         price: Costi
         comments_tab: Commenti
         milestones_tab: Traguardi
-        no_milestones: Non ci sono traguardi-milestone definiti
+        no_milestones: Non ci sono traguardi definiti
         milestone_publication_date: "Pubblicato il %{publication_date}"
         milestone_status_changed: Status dell’investimento cambiato in
         author: Autore
@@ -128,21 +128,21 @@ it:
         project_not_selected_html: 'Questo progetto di investimento <strong>non è stato selezionato</strong> per la fase di voto finale.'
       wrong_price_format: Solo numeri interi
       investment:
-        add: Votare
+        add: Vota
         already_added: Hai già aggiunto questo progetto di investimento
         already_supported: Hai già espresso il tuo sostegno per questo progetto di investimento. Condividilo!
-        support_title: Sostenere questo progetto
+        support_title: Sostieni questo progetto
         confirm_group:
           one: "Puoi dare il tuo sostegno agli investimenti solo in %{count} distretto. Se continui non potrai cambiare la scelta in merito al tuo distretto. Sei sicuro?"
           other: "Puoi dare il tuo sostegno agli investimenti solo in %{count} distretti. Se continui non potrai cambiare la scelta in merito al tuo distretto. Sei sicuro?"
         supports:
-          zero: Non supporta
-          one: 1 supporto
-          other: "supporta %{count}"
-        give_support: Sostenere
+          zero: Nessun sostegno
+          one: 1 sostegno
+          other: "%{count} sostegni"
+        give_support: Sostieni
       header:
-        check_ballot: Controllare il mio voto
-        different_heading_assigned_html: "Hai attivi voti in un'altra voce: %{heading_link}"
+        check_ballot: Controlla il mio voto
+        different_heading_assigned_html: "Hai voti attivi in un'altra voce: %{heading_link}"
         change_ballot: "Se cambi idea puoi rimuovere il tuo voto da %{check_ballot} e ricominciare."
         check_ballot_link: "controlla il mio voto"
         price: "Questa sezione dispone di un budget di"
@@ -156,17 +156,17 @@ it:
       unfeasible: Vedi investimenti irrealizzabili
       unselected_title: Investimenti non selezionati per la fase di voto finale
       unselected: Vedi gli investimenti non selezionati per la fase di voto finale
-      see_results: Vedere i risultati
+      see_results: Vedi i risultati
     results:
       link: Risultati
-      page_title: "%{budget} - risultati"
+      page_title: "%{budget} - Risultati"
       heading: "Risultati per il bilancio partecipativo"
       heading_selection_title: "Per distretto"
       spending_proposal: Titolo della proposta
       ballot_lines_count: Tempi selezionati
-      hide_discarded_link: Nascondere le scartate
-      show_all_link: Visualizzare tutti
-      price: Prezzo
+      hide_discarded_link: Nascondi scartati
+      show_all_link: Visualizza tutti
+      price: Costo
       amount_available: Budget disponibile
       accepted: "Proposta di spesa accettata: "
       discarded: "Proposta di spesa scartata: "
