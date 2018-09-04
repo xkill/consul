@@ -172,6 +172,46 @@ zh-CN:
         image: 图像
       site_customization/content_block:
         name: 名字
+        locale: 地区
+        body: 内容
+      legislation/process:
+        title: 进程标题
+        summary: 总结
+        description: 说明
+        additional_info: 其他信息
+        start_date: 开始日期
+        end_date: 结束日期
+        debate_start_date: 辩论开始日期
+        debate_end_date: 辩论结束日期
+        draft_publication_date: 草稿发布日期
+        allegations_start_date: 指控开始日期
+        allegations_end_date: 指控结束日期
+        result_publication_date: 最终结果发布日期
+      legislation/draft_version:
+        title: 版本标题
+        body: 文本
+        changelog: 变化
+        status: 状态
+        final_version: 最后版本
+      legislation/question:
+        title: 标题
+        question_options: 选项
+      legislation/question_option:
+        value: 价值
+      legislation/annotation:
+        text: 评论
+      document:
+        title: 标题
+        attachment: 附件
+      image:
+        title: 标题
+        attachment: 附件
+      poll/question/answer:
+        title: 回答
+        description: 说明
+      poll/question/answer/video:
+        title: 标题
+        url: 外部视频
       newsletter:
         segment_recipient: 收件人
         subject: 主题
