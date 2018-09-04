@@ -149,6 +149,29 @@ zh-CN:
         description: "说明"
       poll/question:
         title: "问题"
+        summary: "总结"
+        description: "说明"
+        external_url: "链接到其他文档"
+      signature_sheet:
+        signable_type: "可签名类型"
+        signable_id: "可签名ID"
+        document_numbers: "文档编号"
+      site_customization/page:
+        content: 内容
+        created_at: 创建于
+        subtitle: 字幕
+        slug: Slug
+        status: 状态
+        title: 标题
+        updated_at: 更新于
+        more_info_flag: 在帮助页面中显示
+        print_content_flag: 打印内容按钮
+        locale: 语言
+      site_customization/image:
+        name: 名字
+        image: 图像
+      site_customization/content_block:
+        name: 名字
       newsletter:
         segment_recipient: 收件人
         subject: 主题
@@ -210,3 +233,34 @@ zh-CN:
           attributes:
             tag_list:
               less_than_or_equal_to: "标签必须小于或等于%{count}"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "标签必须小于或等于%{count}"
+        proposal_notification:
+          attributes:
+            minimum_interval:
+              invalid: "在通知之间必须等待最少%{interval} 天"
+        signature:
+          attributes:
+            document_number:
+              not_in_census: '未通过人口普查核实'
+              already_voted: '这个提案已经被投票'
+        site_customization/page:
+          attributes:
+            slug:
+              slug_format: "必须是字母，数字，_ 和 -"
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "宽度必须是%{required_width}像素"
+              image_height: "高度必须是%{required_height}像素"
+        comment:
+          attributes:
+            valuation:
+              cannot_comment_valuation: '您不能对评估做评论'
+      messages:
+        record_invalid: "验证失败: %{errors}"
+        restrict_dependent_destroy:
+          has_one: "因为存在依赖项%{record}，无法删除记录"
+          has_many: "因为存在依赖项%{record}，无法删除记录"
