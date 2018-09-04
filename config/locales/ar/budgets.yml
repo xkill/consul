@@ -1,1 +1,7 @@
 ar:
+  budgets:
+    ballots:
+      show:
+        title: الاقتراح الخاص بك
+        amount_spent: المبلغ المنفق
+        remove: ازالة التصويت
