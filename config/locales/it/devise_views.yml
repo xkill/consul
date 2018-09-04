@@ -16,6 +16,7 @@ it:
       confirmation_instructions:
         confirm_link: Confermare il mio account
         text: 'È possibile confermare l’account di posta elettronica attraverso il seguente link:'
+        title: Benvenuto
         welcome: Benvenuti
       reset_password_instructions:
         change_link: Cambiare la password
@@ -62,6 +63,28 @@ it:
         title: Cambiare la password
       new:
         email_label: E-mail
+        send_submit: Invia istruzioni
+        title: Password dimenticata?
+    sessions:
+      new:
+        login_label: Email o nome utente
+        password_label: Password
+        remember_me: Ricordami
+        submit: Entra
+        title: Accedi
+    shared:
+      links:
+        login: Entra
+        new_confirmation: Non hai ricevuto le istruzioni per attivare il tuo account?
+        new_password: Dimenticato la password?
+        new_unlock: Non hai ricevuto istruzioni di sblocco?
+        signin_with_provider: Accedi con %{provider}
+        signup: Non hai un account? %{signup_link}
+        signup_link: Registrati
+    unlocks:
+      new:
+        email_label: Email
+        submit: Inviare nuovamente le istruzioni di sblocco
     users:
       registrations:
         new:
