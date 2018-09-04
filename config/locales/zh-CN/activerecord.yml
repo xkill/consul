@@ -152,3 +152,61 @@ zh-CN:
       newsletter:
         segment_recipient: 收件人
         subject: 主题
+        from: 从
+        body: 电子邮件内容
+      widget/card:
+        label: 标签（可选）
+        title: 标题
+        description: 说明
+        link_text: 链接文本
+        link_url: 链接URL
+      widget/feed:
+        limit: 项目数
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              password_already_set: "此用户已有密码"
+        debate:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "标签必须少于或等于%{count}"
+        direct_message:
+          attributes:
+            max_per_day:
+              invalid: "您已达到每日最大私人信息数"
+        image:
+          attributes:
+            attachment:
+              min_image_width: "图像宽度必须至少为 %{required_min_width}像素"
+              min_image_height: "图像高度必须至少为%{required_min_height}像素"
+        newsletter:
+          attributes:
+            segment_recipient:
+              invalid: "用户收件段无效"
+        admin_notification:
+          attributes:
+            segment_recipient:
+              invalid: "用户收件段无效"
+        map_location:
+          attributes:
+            map:
+              invalid: 地图位置不能为空。如果不需要地理定位，请放置标记或选中复选框
+        poll/voter:
+          attributes:
+            document_number:
+              not_in_census: "不在人口普查中的文档"
+              has_voted: "用户已经投票"
+        legislation/process:
+          attributes:
+            end_date:
+              invalid_date_range: 必须在开始日期或之后
+            debate_end_date:
+              invalid_date_range: 必须在辩论开始日期或之后
+            allegations_end_date:
+              invalid_date_range: 必须在指控开始日期或之后
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "标签必须小于或等于%{count}"
