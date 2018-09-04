@@ -77,3 +77,16 @@ zh-CN:
         start_date: 开始日期
         end_date: 结束日期
         summary: 总结
+        summary_help_text: 此文本将通知用户阶段情况。如果就算阶段未活跃也要显示，请选中以下复选框。
+        description: 说明
+        description_help_text: 当阶段处于活跃状态时，此文本将显示在页眉中
+        enabled: 启用阶段
+        enabled_help_text: 这一阶段将在预算的阶段时间内公开，并为其他目的保持活跃
+        save_changes: 保存更改
+    budget_investments:
+      index:
+        heading_filter_all: 所有标题
+        administrator_filter_all: 所有管理员
+        valuator_filter_all: 所有评估员
+        tags_filter_all: 所有标签
+        advanced_filters: 高级过滤器
