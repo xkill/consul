@@ -20,3 +20,50 @@ zh-CN:
         create: 创建横幅
         edit: 编辑横幅
         delete: 删除横幅
+        filters:
+          all: 所有
+          with_active: 活跃
+          with_inactive: 非活跃
+        preview: 预览
+      banner:
+        title: 标题
+        description: 说明
+        target_url: 链接
+        post_started_at: 公告开始于
+        post_ended_at: 公告结束于
+        sections_label: 它将出现的部分
+        sections:
+          homepage: 主页
+          debates: 辩论
+          proposals: 建议
+          budgets: 参与性预算编制
+          help_page: 帮助页面
+        background_color: 背景色
+        font_color: 字体颜色
+      edit:
+        editing: 编辑横幅
+        form:
+          submit_button: 保存更改
+      errors:
+        form:
+          error:
+            other: "阻止此横幅被保存的错误"
+      new:
+        creating: 创建横幅
+    activity:
+      show:
+        action: 行动
+        actions:
+          block: 禁用
+          hide: 隐藏
+          restore: 恢复
+        by: 审核者
+        content: 内容
+        filter: 显示
+        filters:
+          all: 所有
+          on_comments: 评论
+          on_debates: 辩论
+          on_proposals: 建议
+          on_users: 用户
+          on_system_emails: 系统电子邮件
