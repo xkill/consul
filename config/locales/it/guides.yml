@@ -12,3 +12,7 @@ it:
     proposal:
       title: "Una proposta cittadina"
       feature_1_html: "Idee in merito a iniziative che il Consiglio Comunale possa implementare"
+      feature_2_html: "È necessario <strong>un sostegno del %{votes}</strong> in %{org} per accedere alla fase di voto"
+      feature_3_html: "Attiva in qualsiasi momento, hai <strong>un anno</strong> per raccogliere sostegni"
+      feature_4_html: "Se approvata ai voti, il Consiglio Comunale accetta la proposta"
+      new_button: Voglio creare una proposta
