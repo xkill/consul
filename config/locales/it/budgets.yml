@@ -31,14 +31,14 @@ it:
     phase:
       drafting: Bozza (Non visibile al pubblico)
       informing: Informazioni
-      accepting: Presentazione dei progetti
-      reviewing: Revisione interna dei progetti
+      accepting: Accettazione dei progetti
+      reviewing: Revisione dei progetti
       selecting: Selezione dei progetti
-      valuating: Valutazione dei progetti
+      valuating: Stima dei progetti
       publishing_prices: Pubblicazione costi dei progetti
       balloting: Votazione dei progetti
       reviewing_ballots: Revisione voti
-      finished: Risultati
+      finished: Bilancio concluso
     index:
       title: Bilanci partecipativi
       empty_budgets: Non ci sono bilanci.
@@ -46,9 +46,9 @@ it:
         icon_alt: Icona dei bilanci partecipativi
         title: Bilanci partecipativi
         help: Aiuto con i bilanci partecipativi
-        all_phases: Vedere tutte le fasi
-      all_phases: Fasi dell'investimento economico
-      map: Proposte di investimenti economici geograficamente localizzate
+        all_phases: Vedi tutte le fasi
+      all_phases: Fasi dell'investimento di bilancio
+      map: Proposte di investimenti di bilancio geograficamente localizzate
       investment_proyects: Elenco di tutti i progetti di investimento
       unfeasible_investment_proyects: Elenco di tutti i progetti di investimento irrealizzabili
       not_selected_investment_proyects: Elenco di tutti i progetti di investimento non selezionati per il voto
@@ -75,7 +75,7 @@ it:
         by_heading: "Progetti di investimento con ambito di applicazione: %{heading}"
         search_form:
           button: Cerca
-          placeholder: Ricercare progetti di investimento...
+          placeholder: Cerca progetti di investimento...
           title: Cerca
         search_results_html:
           one: " contenente il termine <strong>'%{search_term}'</strong>"
@@ -86,28 +86,28 @@ it:
             one: "<strong>Hai votato una proposta con un costo di %{amount_spent}</strong>"
             other: "<strong>Hai votato %{count} proposte con un costo di %{amount_spent}</strong>"
           voted_info: È possibile %{link} in qualsiasi momento fino alla fine di questa fase. Non è necessario spendere tutti i fondi disponibili.
-          voted_info_link: cambiare il tuo voto
+          voted_info_link: cambia il tuo voto
           different_heading_assigned_html: "Hai voti attivi in un'altra voce: %{heading_link}"
           change_ballot: "Se cambi idea è possibile cancellare il tuo voto in %{check_ballot} e ricominciare da capo."
-          check_ballot_link: "controllare il mio voto"
+          check_ballot_link: "controlla il mio voto"
           zero: Non hai votato alcun progetto di investimento in questo gruppo.
           verified_only: "Per creare un nuovo budget d'investimento %{verify}."
-          verify_account: "verifica la tua utenza"
-          create: "Creare un progetto di investimento"
+          verify_account: "verifica il tuo account"
+          create: "Crea un investimento di bilancio"
           not_logged_in: "Per creare un nuovo investimento di bilancio è necessario %{sign_in} o %{sign_up}."
           sign_in: "accedere"
-          sign_up: "registrati"
+          sign_up: "registrarsi"
           by_feasibility: Per fattibilità
           feasible: Progetti realizzabili
-          unfeasible: Progetti non realizzabili
+          unfeasible: Progetti irrealizzabili
         orders:
           random: casuale
-          confidence_score: più apprezzate
-          price: per costi
+          confidence_score: più apprezzati
+          price: per costo
       show:
         author_deleted: Utente cancellato
-        price_explanation: Informazioni sui costi
-        unfeasibility_explanation: Informazioni sulla infattibilità
+        price_explanation: Spiegazione dei costi
+        unfeasibility_explanation: Spiegazione in merito alla irrealizzabilità
         code_html: 'Codice del progetto di investimento: <strong>%{code}</strong>'
         location_html: 'Ubicazione: <strong>%{location}</strong>'
         organization_name_html: 'Proposto per conto di: <strong>%{name}</strong>'
