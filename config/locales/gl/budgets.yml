@@ -14,7 +14,7 @@ gl:
         zero: Aínda non votaches ningunha proposta de investimento.
       reasons_for_not_balloting:
         not_logged_in: Precisas %{signin} ou %{signup} para continuar.
-        not_verified: As propostas de investimento só poden ser apoiadas por usuarias verificadas; %{verify_account}.
+        not_verified: As propostas de investimento só poden ser apoiadas por usuarios con contas verificadas; %{verify_account}.
         organization: As organizacións non poden votar
         not_selected: Non se poden votar propostas inviables
         not_enough_money_html: "Xa asignaches o orzamento dispoñible.<br><small>Lembra que podes %{change_ballot} cando quixeres</small>"
