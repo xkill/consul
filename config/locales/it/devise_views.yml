@@ -85,8 +85,11 @@ it:
       new:
         email_label: Email
         submit: Inviare nuovamente le istruzioni di sblocco
+        title: Inviate nuovamente le istruzioni di sblocco
     users:
       registrations:
+        delete_form:
+          erase_reason_label: Motivo
         new:
           username_note: Nome visualizzato accanto ai tuoi post
         success:
