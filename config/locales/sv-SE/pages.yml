@@ -1,6 +1,5 @@
 sv:
   pages:
-    conditions: Användarvillkor
     general_terms: Regler och villkor
     help:
       title: "%{org} är en plattform för medborgardeltagande"
@@ -63,7 +62,6 @@ sv:
           Om du är programmerare får du gärna hjälpa oss att förbättra koden på [CONSUL](https://github.com/consul/consul 'CONSUL på GitHub'), eller den svenska implementeringen på [Digidem Lab/CONSUL](https://github.com/digidemlab/consul 'CONSUL Sweden på GitHub').
       titles:
         how_to_use: Använd det i din kommun
-    privacy: Sekretesspolicy
     titles:
       accessibility: Tillgänglighet
       conditions: Användarvillkor
