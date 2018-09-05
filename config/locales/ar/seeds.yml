@@ -52,3 +52,4 @@ ar:
       incoming_poll: "الاقتراع الوارد"
       recounting_poll: "اعادة حساب الاستطلاع"
       expired_poll_without_stats: "انتهاء مدة صلاحية الاستطلاع دون احصائيات و النتائج"
+      expired_poll_with_stats: "انتهاء مدة صلاحية الاستطلاع مع الاحصائيات و النتائج"
