@@ -1,6 +1,5 @@
 nl:
   pages:
-    conditions: Gebruikersvoorwaarden
     general_terms: Algemene voorwaarden
     help:
       title: "%{org} is een platform voor burgerparticipatie"
@@ -63,7 +62,6 @@ nl:
           Als je programmeur bent kun je de code bekijken en ons helpen deze te verbeteren via [CONSUL app](https://github.com/consul/consul 'consul github').
       titles:
         how_to_use: Gebruik het in je gemeente
-    privacy: Privacy beleid
     titles:
       accessibility: Toegankelijkheid
       conditions: Gebruikersvoorwaarden
