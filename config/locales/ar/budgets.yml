@@ -76,6 +76,7 @@ ar:
           title: بحت
         sidebar:
           my_ballot: قرعتي
+          check_ballot_link: "تحقق من قرعتي"
           sign_in: "تسجيل الدخول"
           sign_up: "التسجيل"
       show:
@@ -86,3 +87,7 @@ ar:
       investment:
         add: صوت
         already_added: قمت بالفعل باضافة هذا المشروع الاستثماري
+    show:
+      group: مجموعة
+      phase: المرحلة الفعلية
+      unfeasible_title: الاستثمارات الغير مجدية
