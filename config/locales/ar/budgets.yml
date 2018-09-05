@@ -101,8 +101,17 @@ ar:
         unfeasibility_explanation: تفسير غير مجدي
         code_html: 'رمز مشروع الاستثمار: <strong>%{code}</strong>'
         location_html: 'المكان: <strong>%{location}</strong>'
+        organization_name_html: 'تم اقتراحه نيابة عن: <strong>%{name}</strong>'
         share: مشاركة
+        title: مشاريع استثمارية
+        supports: دعم
         votes: اصوات
+        price: سعر
+        comments_tab: تعليقات
+        milestones_tab: معالم
+        no_milestones: لا يوجد معالم محددة
+        milestone_publication_date: "تم نشرها %{publication_date}"
+        milestone_status_changed: تم تغيير حالة الستثمار الى
         author: كاتب
       wrong_price_format: الاعاد الصحيحة فقط
       investment:
