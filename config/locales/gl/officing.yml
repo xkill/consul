@@ -49,7 +49,7 @@ gl:
         title: Validar documento
         document_number: "Número de documento (con letra)"
         submit: Validar documento
-        error_verifying_census: "O padrón non puido verificar este documento."
+        error_verifying_census: "O Servizo de padrón non puido verificar este documento."
         form_errors: evitaron verificar este documento
         no_assignments: "Non tes quenda de presidente de mesa"
     voters:
