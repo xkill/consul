@@ -1,6 +1,5 @@
 zh-TW:
   pages:
-    conditions: 使用條款及條件
     general_terms: 條款及條件
     help:
       title: "%{org} 是公民參與的平台"
@@ -63,7 +62,6 @@ zh-TW:
           如果您是程序員，您可以在 [CONSUL app](https://github.com/consul/consul 'consul github')查看原始碼，並幫助我們改進它。
       titles:
         how_to_use: 在您本地政府中使用它
-    privacy: 隱私政策
     titles:
       accessibility: 無障礙功能
       conditions: 使用條款
