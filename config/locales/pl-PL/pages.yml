@@ -1,6 +1,5 @@
 pl:
   pages:
-    conditions: Warunki korzystania
     general_terms: Regulamin
     help:
       title: "%{org} jest platformą do udziału mieszkańców w miejskich politykach publicznych"
@@ -63,7 +62,6 @@ pl:
           Jeśli jesteś programistą, możesz przejrzeć kod i pomóc nam go poprawiać na [CONSUL app](https://github.com/consul/consul 'consul github').
       titles:
         how_to_use: Użyj go w swoim lokalnym rządzie
-    privacy: Polityka prywatności
     titles:
       accessibility: Ułatwienia dostępu
       conditions: Warunki użytkowania
