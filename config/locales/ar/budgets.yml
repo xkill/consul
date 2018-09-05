@@ -113,13 +113,22 @@ ar:
         milestone_publication_date: "تم نشرها %{publication_date}"
         milestone_status_changed: تم تغيير حالة الستثمار الى
         author: كاتب
+        project_unfeasible_html: 'مشروع الاستثمار هذا <strong> تم تعليمه كغير مجدي</strong> ولن يذهب الى مرحلة الاقتراع.'
+        project_selected_html: 'مشروع الاستثمار هذا<strong>تم اختياره</strong>لمرحلة الاقتراع.'
+        project_winner: 'مشروع الاستثمار الفائز'
+        project_not_selected_html: 'مشروع الاستثمار هذا <strong> لم يتم اختياره</strong>لمرحلة الاقتراع.'
       wrong_price_format: الاعاد الصحيحة فقط
       investment:
         add: صوت
         already_added: قمت بالفعل باضافة هذا المشروع الاستثماري
+        already_supported: لقد قمت بالفعل بدعم هذا المشروع الاستثماري. شاركه!
+        support_title: ادعم هذا المشروع
         supports:
           zero: لا يوجد دعم
         give_support: دعم
+      header:
+        check_ballot: تحقق من قرعتي
+        different_heading_assigned_html: "لديك تصويت فعال في عنوان مختلف: %{heading_link}"
     show:
       group: مجموعة
       phase: المرحلة الفعلية
