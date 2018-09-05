@@ -10,7 +10,7 @@ gl:
       manage_email_subscriptions: Podes deixar de recibir estes correos electrónicos cambiando a túa configuración en
     email_verification:
       click_here_to_verify: nesta ligazón
-      instructions_2_html: Este correo electrónico é para verificar a túa conta con <b>%{document_type} %{document_number}</b>. Se eses non son os teus datos, por favor non premas o enlace anterior e ignora este correo.
+      instructions_2_html: Este correo electrónico é para verificar a túa conta con <b>%{document_type} %{document_number}</b>. Se eses non son os teus datos, por favor non premas a ligazón anterior e ignora este correo.
       instructions_html: Para completar o proceso de verificación da túa conta, tes que premer en %{verification_link}
       subject: Verifica o teu correo electrónico
       thanks: Moitas grazas.
@@ -59,7 +59,7 @@ gl:
       sincerely: "Un cordial saúdo"
       share: "Comparte o teu proxecto"
     budget_investment_unfeasible:
-      hi: "Estimado/a usuario/a,"
+      hi: "Estimado usuario,"
       new_html: "Por todo isto, convidámoste a que elabores un <strong>novo proxecto de gasto</strong> que se axuste ás condicións deste proceso. Pódelo facer desde esta ligazón: %{url}."
       new_href: "nova proposta de investimento"
       sincerely: "Un cordial saúdo"
@@ -67,13 +67,13 @@ gl:
       subject: "A túa proposta de investimento '%{code}' foi marcada como inviable"
     budget_investment_selected:
       subject: "A túa proposta de investimento '%{code}' foi seleccionada"
-      hi: "Estimado/a usuario/a"
+      hi: "Estimado usuario"
       share: "Empeza xa a conseguir votos, comparte o teu proxecto de gasto nas redes sociais. A difusión é fundamental para conseguir que se faga realidade."
       share_button: "Comparte o teu proxecto"
       thanks: "Grazas de novo pola túa participación."
       sincerely: "Un saúdo cordial,"
     budget_investment_unselected:
       subject: "A túa proposta de investimento '%{code}' non foi seleccionada"
-      hi: "Estimado/a usuario/a"
+      hi: "Estimado usuario"
       thanks: "Grazas de novo pola túa participación."
       sincerely: "Un saúdo cordial"
