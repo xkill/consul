@@ -139,7 +139,7 @@ gl:
         start_date: Data de inicio
         end_date: Data de final
         summary: Resumo
-        summary_help_text: Este texto informará o/a usuario/a sobre a fase. Para amosalo aínda que a fase non estea activa, marca a opción inferior
+        summary_help_text: Este texto informará ao usuario sobre a fase. Para amosalo aínda que a fase non estea activa, marca a opción inferior
         description: Descrición
         description_help_text: Este texto aparecerá na cabeceira cando a fase estiver activa
         enabled: Fase habilitada
@@ -217,7 +217,7 @@ gl:
         dossier: Informe
         edit_dossier: Editar informe
         tags: Etiquetas
-        user_tags: Etiquetas do/a usuario/a
+        user_tags: Etiquetas do usuario
         undefined: Sen definir
         milestone: Seguimento
         new_milestone: Crear novo seguimento
@@ -249,7 +249,7 @@ gl:
         assigned_valuators: Avaliadores
         select_heading: Seleccionar partida
         submit_button: Actualizar
-        user_tags: Etiquetas asignadas polo/a usuario/a
+        user_tags: Etiquetas asignadas polo usuario
         tags: Etiquetas
         tags_placeholder: "Escribe as etiquetas que desexes separadas por comas (,)"
         undefined: Sen definir
@@ -337,7 +337,7 @@ gl:
           all: Todos
           with_confirmed_hide: Confirmados
           without_confirmed_hide: Pendentes
-        title: Usuarios bloqueados
+        title: Usuarios agochados
         user: Usuario
         no_hidden_users: No hay usarios bloqueados.
       show:
@@ -526,7 +526,7 @@ gl:
       hidden_proposals: Propostas agochadas
       hidden_budget_investments: Agochar proposta de investimento
       hidden_proposal_notifications: Agochar as notificacións de propostas
-      hidden_users: Usuarios bloqueados
+      hidden_users: Usuarios agochados
       administrators: Administradores
       managers: Xestores/as
       moderators: Moderadores
@@ -754,7 +754,7 @@ gl:
       search:
         email_placeholder: Buscar usuario por correo
         search: Buscar
-        user_not_found: O usuario non se atopou
+        user_not_found: Non se atopou o usuario
     poll_officer_assignments:
       index:
         officers_title: "Listaxe de presidentes/as asignados/as"
@@ -1215,11 +1215,11 @@ gl:
           budgets: Orzamentos abertos
           budget_investments: Propostas de investimento
           spending_proposals: Propostas de investimento
-          unverified_users: Usuarios sen verificar
+          unverified_users: Usuarios con contas sen verificar
           user_level_three: Usuarios de nivel tres
           user_level_two: Usuarios de nivel dous
-          users: Usuarios
-          verified_users: Usuarios confirmados
+          users: Usuarios totais
+          verified_users: Usuarios con contas verificadas
           verified_users_who_didnt_vote_proposals: Usuarios confirmados que non votaron propostas
           visits: Visitas
           votes: Votos totais
