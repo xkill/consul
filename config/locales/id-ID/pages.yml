@@ -1,6 +1,5 @@
 id:
   pages:
-    conditions: Syarat dan ketentuan penggunaan
     general_terms: Syarat dan ketentuan
     help:
       title: "%{org} adalah platform untuk partisipasi warga"
@@ -57,7 +56,6 @@ id:
           Jika Anda seorang programmer, Anda dapat melihat kode tersebut dan membantu kami memperbaikinya di [CONSUL app] (https://github.com/consul/consul 'consul github').
       titles:
         how_to_use: Gunakan di pemerintah daerah
-    privacy: Kebijakan Privasi
     titles:
       accessibility: Aksesibilitas
       conditions: Ketentuan penggunaan
