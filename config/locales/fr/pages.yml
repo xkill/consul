@@ -1,6 +1,5 @@
 fr:
   pages:
-    conditions: Conditions d'utilisation
     general_terms: Conditions générales
     help:
       title: "%{org} est une plate-forme pour la participation citoyenne"
@@ -63,7 +62,6 @@ fr:
           Si vous êtes un développeur, vous pouvez accéder au code et nous aider à l'améliorer à [CONSUL](https://github.com/consul/consul 'consul github').
       titles:
         how_to_use: Utilisez-le pour votre administration locale
-    privacy: Politique de confidentialité
     titles:
       accessibility: Accessibilité
       conditions: Conditions d'utilisations
