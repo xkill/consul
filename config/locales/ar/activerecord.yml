@@ -8,6 +8,20 @@ ar:
         few: "الأنشطة"
         many: "الأنشطة"
         other: "الأنشطة"
+      budget:
+        zero: "ميزانية"
+        one: "ميزانية"
+        two: "ميزانيات"
+        few: "ميزانيات"
+        many: "ميزانيات"
+        other: "ميزانيات"
+      budget/investment:
+        zero: "إستثمار"
+        one: "إستثمار"
+        two: "إستثمارات"
+        few: "إستثمارات"
+        many: "إستثمارات"
+        other: "إستثمارات"
       comment:
         zero: "تعليق"
         one: "تعليق"
