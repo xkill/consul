@@ -13,7 +13,7 @@ zh-TW:
     official_level_5_name: "五級公眾職員"
     official_level_5_name_description: "標記為五級職員職位的用戶之標籤"
     max_ratio_anon_votes_on_debates: "每次辯論的匿名投票的最大比率"
-    max_ratio_anon_votes_on_debates_description: "匿名投票是來自於未經核實的註冊用戶"
+    max_ratio_anon_votes_on_debates_description: "匿名投票是來自於未經核實帳戶的註冊用戶"
     max_votes_for_proposal_edit: "對無法再編輯建議的投票數"
     max_votes_for_proposal_edit_description: "得到這個數目的支持，建議的作者不能再編輯它"
     max_votes_for_debate_edit: "對無法再編輯辯論的投票數"
@@ -38,9 +38,9 @@ zh-TW:
     facebook_handle_description: "如果填寫了，它將出現在頁尾中"
     youtube_handle: "Youtube 設置"
     youtube_handle_description: "如果填寫了，它將出現在頁尾中"
-    telegram_handle: "Telegram 用户名"
+    telegram_handle: "Telegram 設置"
     telegram_handle_description: "如果填寫了，它將出現在頁尾中"
-    instagram_handle: "Instagram 用户名"
+    instagram_handle: "Instagram 設置"
     instagram_handle_description: "如果填寫了，它將出現在頁尾中"
     url: "主要 URL"
     url_description: "您網站的主要 URL"
@@ -64,7 +64,7 @@ zh-TW:
     meta_title_description: "網站標題<title>，用於改善SEO"
     meta_description: "網站描述 (SEO)"
     meta_description_description: '網站描述<meta name="description">，用於改善SEO'
-    meta_keywords: "關鍵詞 (SEO)"
+    meta_keywords: "關鍵字 (SEO)"
     meta_keywords_description: '關鍵字<meta name="keywords">，用於改善SEO'
     min_age_to_participate: 參與所需的最低年齡
     min_age_to_participate_description: "超過此年齡的用戶可以參與所有進程"
