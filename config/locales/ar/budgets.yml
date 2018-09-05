@@ -129,13 +129,37 @@ ar:
       header:
         check_ballot: تحقق من قرعتي
         different_heading_assigned_html: "لديك تصويت فعال في عنوان مختلف: %{heading_link}"
+        change_ballot: "اذا تريد تغيير رايك تسطيع ازالة التصويت الخاص بك في %{check_ballot} و البدء مرة اخرى."
+        check_ballot_link: "تحقق من قرعتي"
+        price: "هذا البند لديه ميزانية بقدر"
+    progress_bar:
+      assigned: "لقد قمت بتعيين: "
+      available: "الميزانية المتاحة: "
     show:
       group: مجموعة
       phase: المرحلة الفعلية
       unfeasible_title: الاستثمارات الغير مجدية
+      unfeasible: انظر الى الاستثمارات الغير مجدية
+      unselected_title: الاستثمارات الغير محددة لمرحلة الاقتراع
+      unselected: انظر للاستثمارات الغير مجدية لمرحلة الاقتراع
+      see_results: انظر للنتائج
     results:
       link: النتائج
       page_title: "%{budget} -النتائج"
+      heading: "نتائج الميزانيات المشاركة"
+      heading_selection_title: "جسب المنطقة"
+      spending_proposal: عنوان الاقتراح
+      ballot_lines_count: الاوقات المحددة
+      hide_discarded_link: اخفاء المهملة
       show_all_link: اظهار الكل
       price: السعر
       amount_available: الميزانية المتاحة
+      accepted: "اقرتاح الإنفاق المقبول: "
+      discarded: "اقرتاح الإنفاق الغير مقبولة: "
+      incompatibles: غير متوافق
+      investment_proyects: قائمة بجميع المشاريع الاستثمارية
+      unfeasible_investment_proyects: قائمة بجميع المشاريع الاستثمارية الغير مجدية
+      not_selected_investment_proyects: قائمة بالمشاريع الاستثمارية الغير محددة للاقرتاح
+    phases:
+      errors:
+        dates_range_invalid: "تاريخ البدأ لا يمكن ان يكون مساو او يتجاوز تاريخ الانتهاء"
