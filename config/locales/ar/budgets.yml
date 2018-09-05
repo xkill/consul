@@ -76,6 +76,7 @@ ar:
           title: بحت
         sidebar:
           my_ballot: قرعتي
+          voted_info: يمكنك %{link} في اي وقت حتى اغلاف هذه المرحلة. لا داعي لانفاق جميع الاموال المتاحة.
           check_ballot_link: "تحقق من قرعتي"
           sign_in: "تسجيل الدخول"
           sign_up: "التسجيل"
@@ -87,7 +88,16 @@ ar:
       investment:
         add: صوت
         already_added: قمت بالفعل باضافة هذا المشروع الاستثماري
+        supports:
+          zero: لا يوجد دعم
+        give_support: دعم
     show:
       group: مجموعة
       phase: المرحلة الفعلية
       unfeasible_title: الاستثمارات الغير مجدية
+    results:
+      link: النتائج
+      page_title: "%{budget} -النتائج"
+      show_all_link: اظهار الكل
+      price: السعر
+      amount_available: الميزانية المتاحة
