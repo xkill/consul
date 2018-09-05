@@ -163,3 +163,5 @@ ar:
     phases:
       errors:
         dates_range_invalid: "تاريخ البدأ لا يمكن ان يكون مساو او يتجاوز تاريخ الانتهاء"
+        prev_phase_dates_invalid: "تاريخ اليدء يجب ان يتجاوز تاريخ البدء لمرحلة سابقة ممكنة (%{phase_name})"
+        next_phase_dates_invalid: "يجب ان يكون تاريخ الانتهاء اقدم من تاريخ الانتهاء للمرحلة التالية الممكنة (%{phase_name})"
