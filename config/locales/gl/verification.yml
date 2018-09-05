@@ -29,7 +29,7 @@ gl:
       new:
         explanation: 'Para participar nas votacións finais podes:'
         go_to_index: Ver propostas
-        office: Verificarte presencialmente en calquera %{office}
+        office: Verificar a túa conta de xeito presencial en calquera %{office}
         offices: Oficina de Atención á Cidadanía
         send_letter: Solicitar unha carta por correo postal
         title: Parabéns!
@@ -60,14 +60,14 @@ gl:
         document_type_label: Tipo de documento
         error_not_allowed_age: Hai que ter polo menos 16 anos
         error_not_allowed_postal_code: Para verificarte debes estar empadroado no municipio de Madrid.
-        error_verifying_census: O Padrón de Madrid non puido verificar a túa información. Por favor, confirma que os teus datos de empadroamento sexan correctos chamando ao 010 (ou á súa versión gratuíta 915298210) ou visita calquera das %{offices}.
+        error_verifying_census: O Servizo de padrón non puido verificar a túa información. Por favor, confirma que os teus datos de empadroamento sexan correctos chamando ao Concello, ou visita calquera das %{offices}.
         error_verifying_census_offices: 26 Oficinas de Atención á Cidadanía
         form_errors: evitaron verificar a túa residencia
         postal_code: Código postal
-        postal_code_note: Para verificar os teus datos debes estar empadroado no municipio de Madrid
+        postal_code_note: Para verificar os teus datos debes estar empadroado no Concello
         terms: os termos de acceso
-        title: Verificar residencia
-        verify_residence: Verificar residencia
+        title: Verificar domicilio
+        verify_residence: Verificar domicilio
     sms:
       create:
         flash:
