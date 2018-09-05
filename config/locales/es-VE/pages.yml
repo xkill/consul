@@ -1,6 +1,5 @@
 es-VE:
   pages:
-    conditions: Condiciones de uso
     general_terms: Términos y Condiciones
     help:
       title: "%{org} es una plataforma para la participación ciudadana"
@@ -56,7 +55,6 @@ es-VE:
           Si usted es programador, puede ver el código y ayudarnos a mejorarlo en la [aplicación CONSUL](https://github.com/consul/consul 'cónsul github').
       titles:
         how_to_use: Úselo en su municipio
-    privacy: Política de privacidad
     titles:
       accessibility: Accesibilidad
       conditions: Condiciones de uso
