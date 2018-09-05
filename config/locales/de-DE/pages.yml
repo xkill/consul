@@ -1,6 +1,5 @@
 de:
   pages:
-    conditions: Allgemeine Nutzungsbedingungen
     general_terms: Allgemeine Nutzungsbedingungen
     help:
       title: "%{org} ist eine Plattform zur Bürgerbeteiligung"
@@ -62,7 +61,6 @@ de:
           Wenn Sie ein Programmierer sind, können Sie den Code betrachten und uns helfen diesen auf [CONSUL app](https://github.com/consul/consul 'consul github') zu verbessern.
       titles:
         how_to_use: Verwenden Sie diese in Ihrer lokalen Regierung
-    privacy: Datenschutzregelung
     titles:
       accessibility: Barrierefreiheit
       conditions: Nutzungsbedingungen
