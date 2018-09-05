@@ -155,9 +155,9 @@ gl:
         description: "Descrición"
         terms_of_service: "Termos de servizo"
       user:
-        login: "Enderezo de correo electrónico ou nome de usuario/a"
+        login: "Enderezo de correo electrónico ou nome de usuario"
         email: "Correo electrónico"
-        username: "Nome de usuario/a"
+        username: "Nome de usuario"
         password_confirmation: "Confirmación de contrasinal"
         password: "Contrasinal"
         current_password: "Contrasinal actual"
