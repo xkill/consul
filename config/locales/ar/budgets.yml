@@ -77,10 +77,30 @@ ar:
         sidebar:
           my_ballot: قرعتي
           voted_info: يمكنك %{link} في اي وقت حتى اغلاف هذه المرحلة. لا داعي لانفاق جميع الاموال المتاحة.
+          voted_info_link: غيير الصوت الخاص بك
+          different_heading_assigned_html: "انت بالفعل قمت تصويت عنوان مختلف: %{heading_link}"
+          change_ballot: "اذا تريد تغير رايك تستطيع ازالة تصويتك في %{check_ballot} والبدء مرة اخرى."
           check_ballot_link: "تحقق من قرعتي"
+          zero: انت لم تصوت على اي مشروع استثماري في هذه المحموعة.
+          verified_only: "لانشاء ميزانية استثمار جديدة %{verify}."
+          verify_account: "تحقق من حسابك"
+          create: "انشاء ميزانية استثمار"
+          not_logged_in: "لانشاء ميزانية استثمار جديدة يجب عليك %{sign_in} او %{sign_up}."
           sign_in: "تسجيل الدخول"
           sign_up: "التسجيل"
+          by_feasibility: حسب الجدوى
+          feasible: مشاريع مجدية
+          unfeasible: مشاريع غير مجدية
+        orders:
+          random: عشوائي
+          confidence_score: اعلى تقييم
+          price: حسب السعر
       show:
+        author_deleted: حذف المستخدم
+        price_explanation: توضيح الاسعار
+        unfeasibility_explanation: تفسير غير مجدي
+        code_html: 'رمز مشروع الاستثمار: <strong>%{code}</strong>'
+        location_html: 'المكان: <strong>%{location}</strong>'
         share: مشاركة
         votes: اصوات
         author: كاتب
