@@ -1,1 +1,6 @@
 ar:
+  guides:
+    title: "هل لديك فكرة عن %{org}؟"
+    subtitle: "اختر ما الذي تريد انشائه"
+    budget_investment:
+      title: "مشروع استثماري"
