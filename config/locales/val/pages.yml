@@ -1,6 +1,5 @@
 val:
   pages:
-    conditions: Condicions d'us
     general_terms: Condicions d'us
     help:
       title: "%{org} es una plataforma de participació ciutadana"
@@ -63,7 +62,6 @@ val:
           Si eres programador, pots vore el codi i ajudar-nos a millorar-lo en [aplicació CONSUL](https://github.com/consul/consul 'github consul').
       titles:
         how_to_use: Utilitza-ho en el teu municipi
-    privacy: Política de privacitat
     titles:
       accessibility: Accessibilitat
       conditions: Condicions d'us
