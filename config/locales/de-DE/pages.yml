@@ -89,6 +89,55 @@ de:
               description: FÜR DIE DATEI VERANTWORTLICHE INSTITUTION
         - 
         - 
+    accessibility:
+      keyboard_shortcuts:
+        navigation_table:
+          page_header: Seite
+          rows:
+            - 
+              key_column: 0
+              page_column: Start
+            - 
+              key_column: 1
+              page_column: Diskussionen
+            - 
+              key_column: 2
+              page_column: Vorschläge
+            - 
+              key_column: 3
+              page_column: Stimmen
+            - 
+              key_column: 4
+              page_column: Bürgerhaushalte
+            - 
+              key_column: 5
+        browser_table:
+          key_header: Tastenkombination
+          rows:
+            - 
+              browser_column: Internet Explorer
+              key_column: ALT + Tastenkombination dann ENTER
+            - 
+              browser_column: Firefox
+            - 
+              browser_column: Chrome
+            - 
+              browser_column: Safari
+            - 
+              browser_column: Opera
+      textsize:
+        title: Textgröße
+        browser_settings_table:
+          rows:
+            - 
+            - 
+              browser_column: Firefox
+            - 
+              browser_column: Chrome
+            - 
+              browser_column: Safari
+            - 
+              browser_column: Opera
     titles:
       accessibility: Barrierefreiheit
       conditions: Nutzungsbedingungen
