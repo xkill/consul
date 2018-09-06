@@ -75,7 +75,16 @@ de:
         - 
           text: Um die im Open Government Portal angebotenen Dienste nutzen zu können, muss sich der/die Benutzer*in registrieren und persönliche Daten bereitstellen.
         - 
+          text: 'Die bereitgestellten Daten werden von der lokalen Stadtverwaltung aufgenommen und verarbeitet. Dies folgt in Übereinstimmung mit den Bedingungen in der folgenden Datei:'
         - 
+          subitems:
+            - 
+              field: 'Dateiname:'
+              description: NAME DER DATEI
+            - 
+              field: 'Verwendung der Datei:'
+              description: Steuert Beteiligungsverfahren, um die Qualifikation der an ihnen beteiligten Personen sowie numerische und statistische Nachzählungen der Ergebnisse von Bürgerbeteiligungsprozessen zu kontrollieren.
+            - 
         - 
         - 
     titles:
