@@ -64,6 +64,7 @@ gl:
         how_to_use: Emprégao no teu concello
     privacy:
       title: Política de privacidade
+      subtitle: INFORMACIÓN RELACIONADA COA PRIVACIDADE DOS DATOS
       info_items:
         - 
           text: A navegación a través da información dispoñible no Portal de Goberno Aberto é anónima.
