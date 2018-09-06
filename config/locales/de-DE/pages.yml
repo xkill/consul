@@ -69,6 +69,15 @@ de:
     privacy:
       title: Datenschutzbestimmungen
       subtitle: INFORMATION ZU DEN DATENSCHUTZBESTIMMUNGEN
+      info_items:
+        - 
+          text: Die Navigation durch die Informationen auf dem Open Government Portal ist anonym.
+        - 
+          text: Um die im Open Government Portal angebotenen Dienste nutzen zu können, muss sich der/die Benutzer*in registrieren und persönliche Daten bereitstellen.
+        - 
+        - 
+        - 
+        - 
     titles:
       accessibility: Barrierefreiheit
       conditions: Nutzungsbedingungen
