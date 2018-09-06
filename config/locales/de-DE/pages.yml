@@ -85,6 +85,8 @@ de:
               field: 'Verwendung der Datei:'
               description: Steuert Beteiligungsverfahren, um die Qualifikation der an ihnen beteiligten Personen sowie numerische und statistische Nachzählungen der Ergebnisse von Bürgerbeteiligungsprozessen zu kontrollieren.
             - 
+              field: 'Für die Datei verantwortliche Institution:'
+              description: FÜR DIE DATEI VERANTWORTLICHE INSTITUTION
         - 
         - 
     titles:
