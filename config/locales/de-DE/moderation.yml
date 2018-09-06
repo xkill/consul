@@ -16,8 +16,8 @@ de:
         ignore_flags: Als gelesen markieren
         order: Bestellung
         orders:
-          flags: am meisten markiert
-          newest: Neuste
+          flags: Am meisten markiert
+          newest: Neueste
         title: Kommentare
     dashboard:
       index:
@@ -30,15 +30,15 @@ de:
         filters:
           all: Alle
           pending_flag_review: Ausstehend
-          with_ignored_flag: Als gesehen markieren
+          with_ignored_flag: Als gelesen markieren
         headers:
           debate: Diskussion
           moderate: Moderieren
         hide_debates: Diskussionen ausblenden
-        ignore_flags: Als gesehen markieren
+        ignore_flags: Als gelesen markieren
         order: Bestellung
         orders:
-          created_at: Neuste
+          created_at: Neueste
           flags: Am meisten markiert
         title: Diskussionen
     header:
