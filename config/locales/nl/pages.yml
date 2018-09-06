@@ -83,7 +83,10 @@ nl:
               description: NAAM VAN HET BESTAND
             - 
               field: 'Doel van het bestand:'
+              description: Het beheer van participatieve processen om te bepalen wat de kwalificatie van mensen die daaraan deelnemen is en numerieke hertelling van de resultaten van deelname aan participatieve processen.
             - 
+              field: 'Instelling die belast is met het bestand:'
+              description: INSTELLING DIE BELAST IS MET HET BESTAND
         - 
         - 
     titles:
