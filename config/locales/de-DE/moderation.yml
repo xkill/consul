@@ -8,12 +8,12 @@ de:
         filters:
           all: Alle
           pending_flag_review: Ausstehend
-          with_ignored_flag: Als gesehen markieren
+          with_ignored_flag: Als gelesen markieren
         headers:
           comment: Kommentar
           moderate: Moderieren
         hide_comments: Kommentare ausblenden
-        ignore_flags: als gesehen markieren
+        ignore_flags: Als gelesen markieren
         order: Bestellung
         orders:
           flags: am meisten markiert
