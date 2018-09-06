@@ -103,7 +103,7 @@ zh-CN:
           under_valuation: 评估中
           valuation_finished: 评估已完成
           feasible: 可行
-          selected: 选择
+          selected: 已选
           undecided: 未定
           unfeasible: 不可行
           min_total_supports: 最小支持
