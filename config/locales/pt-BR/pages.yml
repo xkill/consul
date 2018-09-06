@@ -93,6 +93,47 @@ pt-BR:
           text: Como princípio geral, este site não compartilha ou divulgar as informações obtidas, exceto quando tiver sido autorizado pelo usuário, ou quando as informações são exigidas pela autoridade judiciária, pelo escritório da promotoria, pela polícia, ou por qualquer dos casos regulados no artigo 11 da Lei Orgânica 15/1999, de 13 de dezembro, relativa à protecção dos dados pessoais.
     accessibility:
       title: Acessibilidade
+      description: |-
+        Acessibilidade Web refere-se à possibilidade de acesso à web e seu conteúdo por todas as pessoas, independentemente de deficiências (físicas, intelectuais ou técnicas), ou dificuldades que derivem do contexto de uso (tecnológico ou ambiental).
+        
+        Quando sites são projetados com acessibilidade em mente, todos os usuários podem acessar o conteúdo em igualdade de condições, por exemplo:
+      examples:
+        - Proporcionando um texto alternativo à imagens, para que usuários cegos ou com deficiências visuais usando leitores especiais possam acessar informações.
+        - Quando vídeos têm legendas, os utilizadores com dificuldades auditivas podem compreendê-los totalmente.
+        - If the contents are written in a simple and illustrated language, users with learning problems are better able to understand them.
+        - If the user has mobility problems and it is difficult to use the mouse, the alternatives with the keyboard help in navigation.
+      keyboard_shortcuts:
+        navigation_table:
+          key_header: Chave
+          page_header: Página
+          rows:
+            - 
+            - 
+              page_column: Debates
+            - 
+              key_column: 2
+              page_column: Propostas
+            - 
+              key_column: 3
+              page_column: Votos
+            - 
+              key_column: 4
+              page_column: Orçamentos participativos
+            - 
+              key_column: 5
+              page_column: Processos legislativos
+        browser_table:
+          description: 'Dependendo do sistema operacional e do navegador usado, a combinação de teclas será a seguinte:'
+          caption: Combinação de teclas, depende do sistema operacional e navegador
+          browser_header: Navegador
+          key_header: Combinação de teclas
+          rows:
+            - 
+              browser_column: Explorador
+            - 
+            - 
+            - 
+            - 
     titles:
       accessibility: Acessibilidade
       conditions: Termos de uso
