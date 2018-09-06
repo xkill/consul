@@ -1,5 +1,9 @@
 nl:
   pages:
+    conditions:
+      title: Gebruikersvoorwaarden
+      subtitle: JURIDISCHE KENNISGEVING OP DE GEBRUIKSVOORWAARDEN, PRIVACY EN BESCHERMING VAN PERSOONSGEGEVENS VAN DE OPEN OVERHEID PORTAL
+      description: Informatiepagina over de gebruiksvoorwaarden, privacy en bescherming van persoonsgegevens.
     general_terms: Algemene voorwaarden
     help:
       title: "%{org} is een platform voor burgerparticipatie"
@@ -62,6 +66,26 @@ nl:
           Als je programmeur bent kun je de code bekijken en ons helpen deze te verbeteren via [CONSUL app](https://github.com/consul/consul 'consul github').
       titles:
         how_to_use: Gebruik het in je gemeente
+    privacy:
+      title: Privacy Verklaring
+      subtitle: INFORMATIE OVER GEGEVENSBESCHERMING
+      info_items:
+        - 
+          text: De navigatie door de informatie beschikbaar in de Open Overheid Portal is anoniem.
+        - 
+          text: Voor het gebruik van de diensten van de Open Overheid Portal moet de gebruiker zich registreren en persoonlijke gegevens verstrekken volgens de specifieke informatie die bij de registratie nodig is.
+        - 
+          text: 'De verstrekte gegevens zullen worden opgenomen en verwerkt door de gemeenteraad overeenkomstig de omschrijving van het volgende bestand:'
+        - 
+          subitems:
+            - 
+              field: 'De naam van het bestand:'
+              description: NAAM VAN HET BESTAND
+            - 
+              field: 'Doel van het bestand:'
+            - 
+        - 
+        - 
     titles:
       accessibility: Toegankelijkheid
       conditions: Gebruikersvoorwaarden
