@@ -1309,6 +1309,8 @@ gl:
           names:
             top_links: Destacados
             footer: Rodapé
+            subnavigation_left: Esquerda Navegación Principal
+            subnavigation_right: Dereita Navegación Principal
       images:
         index:
           title: Personalizar imaxes
