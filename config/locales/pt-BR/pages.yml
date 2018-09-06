@@ -75,9 +75,24 @@ pt-BR:
         - 
           text: Para utilizar os serviços contidos no Portal do governo aberto, o usuário deve se registrar e fornecer dados pessoais de acordo com as informações pedidas em cada tipo de registro.
         - 
+          text: 'Os dados fornecidos serão incorporados e processados pelo Conselho da cidade, conforme a descrição no seguinte arquivo:'
         - 
+          subitems:
+            - 
+              field: 'Nome do arquivo:'
+              description: NOME DO ARQUIVO
+            - 
+              field: 'Finalidade do arquivo:'
+              description: Gerenciamento dos processos participativos para controlar a qualificação das pessoas participando deles e recontagem meramente numérica e estatística dos resultados derivados de processos de participação de cidadãos.
+            - 
+              field: 'Instituição responsável pelo arquivo:'
+              description: INSTITUIÇÃO RESPONSÁVEL PELO ARQUIVO
         - 
+          text: A parte interessada pode exercer os direitos de acesso, rectificação, cancelamento e oposição, antes que o organismo responsável indicado, sendo que tudo o que é relatado está em conformidade com o artigo 5º da Lei Orgânica 15/1999, de 13 de dezembro, sobre protecção de dados de Caráter pessoal.
         - 
+          text: Como princípio geral, este site não compartilha ou divulgar as informações obtidas, exceto quando tiver sido autorizado pelo usuário, ou quando as informações são exigidas pela autoridade judiciária, pelo escritório da promotoria, pela polícia, ou por qualquer dos casos regulados no artigo 11 da Lei Orgânica 15/1999, de 13 de dezembro, relativa à protecção dos dados pessoais.
+    accessibility:
+      title: Acessibilidade
     titles:
       accessibility: Acessibilidade
       conditions: Termos de uso
