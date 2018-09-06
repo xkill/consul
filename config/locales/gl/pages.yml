@@ -89,10 +89,11 @@ gl:
         - Proporcionando un texto alternativo a las imágenes, los usuarios invidentes o con problemas de visión pueden utilizar lectores especiales para acceder a la información.Providing alternative text to the images, blind or visually impaired users can use special readers to access the information.
         - Cando os vídeos inclúen subtítulos, os usuarios con problemas auditivos poden entendelos perfectamente.
         - Se os contidos se redactan nunha linguaxe sinxela e descritiva, os usuarios con problemas de aprendizaxe teñen máis facilidades para comprendelos.
-        - If the user has mobility problems and it is difficult to use the mouse, the alternatives with the keyboard help in navigation.
+        - Se o usuario ten problemas de mobilidade e de uso co rato, pode usar as axudas na navegación a través do teclado.
       keyboard_shortcuts:
         title: Atallos de teclado
         navigation_table:
+          description: Para facilitar a navegación por este sitio web dun xeito accesible, están dispoñibles unha serie de atallos de teclado naquelas seccións de interese xeral nas que se organiza o sitio.
           caption: Atallos de teclado para o menú de navegación
           key_header: Tecla
           page_header: Páxina
@@ -169,6 +170,7 @@ gl:
               description_column: Reduce o tamaño de letra
       compatibility:
         title: Compatibilidade cos estándares e o deseño visual
+        description_html: 'Todas as páxinas deste sitio web cumpren coa <strong> Guía de Accesibilidade </strong> ou os Principios Xerais do Deseño Accesible que son recomendados polo Grupo de Traballo <abbr title = "Web Accessibility Initiative" lang = "en"> WAI </ abbr> pertencente ao W3C.'
     titles:
       accessibility: Accesibilidade
       conditions: Condicións de uso
