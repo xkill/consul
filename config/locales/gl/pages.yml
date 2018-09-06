@@ -66,10 +66,43 @@ gl:
         - 
           text: A navegación a través da información dispoñible no Portal de Goberno Aberto é anónima.
         - 
+          text: Para poder usar os servizos ofrecidos no Portal de Goberno Aberto, o usuario debe rexistrarse e proporcionar datos de carácter persoal de acordo coas especificacións incluídas en cada tipo de rexistro.
+        - 
+          text: 'Os datos proporcionados serán incorporados e procesados pola entidade local de acordo coas condicións estabelecidas no seguinte ficheiro:'
+        - 
+          subitems:
+            - 
+              field: 'Nome de ficheiro:'
+              description: NOME DO FICHEIRO
+            - 
+              field: 'Uso do ficheiro:'
+            - 
+              field: 'Organismo responsable do ficheiro:'
+              description: ORGANISMO RESPONSABLE DO FICHEIRO
         - 
         - 
-        - 
-        - 
+    accessibility:
+      title: Accesibilidade
+      keyboard_shortcuts:
+        browser_table:
+          rows:
+            - 
+            - 
+            - 
+            - 
+              browser_column: Safari
+            - 
+      textsize:
+        browser_settings_table:
+          rows:
+            - 
+            - 
+            - 
+            - 
+              browser_column: Safari
+            - 
+              browser_column: Opera
+              action_column: Ver > escala
     titles:
       accessibility: Accesibilidade
       conditions: Condicións de uso
