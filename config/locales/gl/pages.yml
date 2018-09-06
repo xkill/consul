@@ -84,6 +84,27 @@ gl:
     accessibility:
       title: Accesibilidade
       keyboard_shortcuts:
+        navigation_table:
+          page_header: Páxina
+          rows:
+            - 
+              key_column: 0
+              page_column: Inicio
+            - 
+              key_column: 1
+              page_column: Debates
+            - 
+              key_column: 2
+              page_column: Propostas
+            - 
+              key_column: 3
+              page_column: Votos
+            - 
+              key_column: 4
+              page_column: Orzamentos participativos
+            - 
+              key_column: 5
+              page_column: Procesos lexislativos
         browser_table:
           browser_header: Navegador
           key_header: Atallo de teclado
@@ -112,8 +133,12 @@ gl:
           rows:
             - 
               browser_column: Explorer
+              action_column: Ver > Tamaño do texto
             - 
+              browser_column: Firefox
+              action_column: Ver > Tamaño
             - 
+              browser_column: Chrome
             - 
               browser_column: Safari
             - 
