@@ -1306,6 +1306,11 @@ pt-BR:
         content_block:
           body: Corpo
           name: Nome
+          names:
+            top_links: Top Links
+            footer: Rodapé
+            subnavigation_left: Navegação principal esquerda
+            subnavigation_right: Navegação principal direita
       images:
         index:
           title: Imagens personalizadas
