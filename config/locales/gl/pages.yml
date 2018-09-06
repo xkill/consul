@@ -1,5 +1,7 @@
 gl:
   pages:
+    conditions:
+      title: Termos e condicións de uso
     general_terms: Termos e condicións
     help:
       title: "%{org} é unha plataforma de participación cidadá"
@@ -58,6 +60,16 @@ gl:
           Emprégao no teu concello ou axúdanos a melloralo, é software libre. Este portal de goberno aberto emprega a [aplicación CONSUL app] (https://github.com/consul/consul 'consul github') que é software libre con [licenzaAGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), o que significa que calquera pode usar libremente o código, copialo, velo en detalle, modificalo e redistribuílo ao mundo coas notificacións que quixer (mantendo o que outros poidan facer á súa vez o mesmo). Porque xulgamos que a cultura é mellor e máis rica cando se libera. Se sabes programar, podes ver o código e axudáresnos a melloralo en [CONSUL app](https://github.com/consul/consul 'consul github').
       titles:
         how_to_use: Emprégao no teu concello
+    privacy:
+      title: Política de privacidade
+      info_items:
+        - 
+          text: A navegación a través da información dispoñible no Portal de Goberno Aberto é anónima.
+        - 
+        - 
+        - 
+        - 
+        - 
     titles:
       accessibility: Accesibilidade
       conditions: Condicións de uso
