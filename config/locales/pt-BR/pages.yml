@@ -100,15 +100,21 @@ pt-BR:
       examples:
         - Proporcionando um texto alternativo à imagens, para que usuários cegos ou com deficiências visuais usando leitores especiais possam acessar informações.
         - Quando vídeos têm legendas, os utilizadores com dificuldades auditivas podem compreendê-los totalmente.
-        - If the contents are written in a simple and illustrated language, users with learning problems are better able to understand them.
-        - If the user has mobility problems and it is difficult to use the mouse, the alternatives with the keyboard help in navigation.
+        - Se os conteúdos estiverem escritos em uma linguagem simples e ilustrada, os usuários com problemas de aprendizagem serão capazes de entendê-los com maior facilidade.
+        - Se o usuário tem problemas motores, sendo difícil de usar o mouse, as alternativas com o teclado ajudam na navegação.
       keyboard_shortcuts:
+        title: Atalhos de teclado
         navigation_table:
+          description: Para ser capaz de navegar através deste site de forma acessível, um grupo de teclas de acesso rápido que reúne as principais seções de interesse geral em que o site é organizado foi programado.
+          caption: Atalhos de teclado para o menu de navegação
           key_header: Chave
           page_header: Página
           rows:
             - 
+              key_column: 0
+              page_column: Início
             - 
+              key_column: 1
               page_column: Debates
             - 
               key_column: 2
@@ -129,11 +135,43 @@ pt-BR:
           key_header: Combinação de teclas
           rows:
             - 
-              browser_column: Explorador
+              browser_column: Explorer
+              key_column: ALT + atalho, em seguida, ENTER
+            - 
+              browser_column: Firefox
+              key_column: ALT + CAPS + atalho
+            - 
+              browser_column: Chrome
+              key_column: ALT + atalho (CTRL + ALT + atalhos para MAC)
+            - 
+              browser_column: Safari
+              key_column: ALT + atalho (CMD + atalho para MAC)
+            - 
+              browser_column: Opera
+              key_column: CAPS + ESC + atalho
+      textsize:
+        title: Tamanho do texto
+        browser_settings_table:
+          rows:
             - 
             - 
             - 
             - 
+              browser_column: Safari
+              action_column: Exibir > Aumentar Zoom / Diminuir Zoom
+            - 
+              browser_column: Opera
+              action_column: Exibir > escala
+        browser_shortcuts_table:
+          rows:
+            - 
+              shortcut_column: CTRL e + (CMD e + no MAC)
+              description_column: Aumenta o tamanho do texto
+            - 
+              shortcut_column: CTRL e - (CMD e - no MAC)
+              description_column: Diminui o tamanho do texto
+      compatibility:
+        title: Compatibilidade com padrões e design visual
     titles:
       accessibility: Acessibilidade
       conditions: Termos de uso
