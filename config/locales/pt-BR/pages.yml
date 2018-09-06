@@ -1,5 +1,9 @@
 pt-BR:
   pages:
+    conditions:
+      title: Termos e condições de uso
+      subtitle: AVISO LEGAL SOBRE AS CONDIÇÕES DE USO, PRIVACIDADE E PROTEÇÃO DE DADOS PESSOAIS DO PORTAL DO GOVERNO ABERTO
+      description: Página de informações sobre as condições de uso, privacidade e proteção de dados pessoais.
     general_terms: Termos e condições de uso
     help:
       title: "%{org} é uma plataforma de participação cidadã"
@@ -62,6 +66,18 @@ pt-BR:
           Se você é um programador, pode ver o código e nos ajudar a melhorá-lo no [CONSUL app](https://github.com/consul/consul 'consul github').
       titles:
         how_to_use: Use-o em seu governo local
+    privacy:
+      title: Política de privacidade
+      subtitle: INFORMAÇÕES SOBRE PRIVACIDADE DE DADOS
+      info_items:
+        - 
+          text: A navegação através das informações disponíveis no Portal do governo aberto é anônima.
+        - 
+          text: Para utilizar os serviços contidos no Portal do governo aberto, o usuário deve se registrar e fornecer dados pessoais de acordo com as informações pedidas em cada tipo de registro.
+        - 
+        - 
+        - 
+        - 
     titles:
       accessibility: Acessibilidade
       conditions: Termos de uso
