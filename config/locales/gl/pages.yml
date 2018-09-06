@@ -2,6 +2,8 @@ gl:
   pages:
     conditions:
       title: Termos e condicións de uso
+      subtitle: AVISO LEGAL DAS CONDICIÓNS DE USO, PRIVACIDADE E PROTECCIÓN DOS DATOS DE CARÁCTER PERSOAL DO PORTAL DE GOBERNO ABERTO
+      description: Páxina de información sobre as condicións de uso, privacidade e protección de datos de carácter persoal.
     general_terms: Termos e condicións
     help:
       title: "%{org} é unha plataforma de participación cidadá"
@@ -83,6 +85,11 @@ gl:
         - 
     accessibility:
       title: Accesibilidade
+      examples:
+        - Proporcionando un texto alternativo a las imágenes, los usuarios invidentes o con problemas de visión pueden utilizar lectores especiales para acceder a la información.Providing alternative text to the images, blind or visually impaired users can use special readers to access the information.
+        - Cando os vídeos inclúen subtítulos, os usuarios con problemas auditivos poden entendelos perfectamente.
+        - Se os contidos se redactan nunha linguaxe sinxela e descritiva, os usuarios con problemas de aprendizaxe teñen máis facilidades para comprendelos.
+        - If the user has mobility problems and it is difficult to use the mouse, the alternatives with the keyboard help in navigation.
       keyboard_shortcuts:
         title: Atallos de teclado
         navigation_table:
