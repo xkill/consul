@@ -152,10 +152,19 @@ pt-BR:
       textsize:
         title: Tamanho do texto
         browser_settings_table:
+          description: O design acessível deste site permite ao usuário escolher o tamanho do texto que lhe convém. Esta ação pode ser realizada de diferentes formas dependendo do navegador utilizado.
+          browser_header: Navegador
+          action_header: Ação a ser tomada
           rows:
             - 
+              browser_column: Explorer
+              action_column: Exibir > Tamanho do texto
             - 
+              browser_column: Firefox
+              action_column: Exibir > Tamanho
             - 
+              browser_column: Chrome
+              action_column: Configurações (ícone) > Opções > Avançado > Conteúdo Web > Tamanho do texto
             - 
               browser_column: Safari
               action_column: Exibir > Aumentar Zoom / Diminuir Zoom
@@ -163,6 +172,7 @@ pt-BR:
               browser_column: Opera
               action_column: Exibir > escala
         browser_shortcuts_table:
+          description: 'Outra maneira de modificar o tamanho do texto é utilizar os atalhos de teclado definidos em navegadores, em especial a combinação de teclas:'
           rows:
             - 
               shortcut_column: CTRL e + (CMD e + no MAC)
@@ -172,6 +182,7 @@ pt-BR:
               description_column: Diminui o tamanho do texto
       compatibility:
         title: Compatibilidade com padrões e design visual
+        description_html: 'Todas as páginas deste site estão de acordo com <strong> Diretrizes de Acessibilidade </strong> ou com os Princípios gerais de Design Acessível estabelecidos pelo grupo de trabalho <abbr title = "Web Accessibility Initiative" lang = "en"> WAI < / abbr > pertencentes a W3C.'
     titles:
       accessibility: Acessibilidade
       conditions: Termos de uso
