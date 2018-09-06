@@ -85,17 +85,33 @@ gl:
       title: Accesibilidade
       keyboard_shortcuts:
         browser_table:
+          browser_header: Navegador
+          key_header: Atallo de teclado
           rows:
             - 
+              browser_column: Explorer
+              key_column: ALT + atallo e INTRO
             - 
+              browser_column: Firefox
+              key_column: ALT + MAIÚS + atallo
             - 
+              browser_column: Chrome
+              key_column: ALT + atallo (CTRL + ALT + atallos en MAC)
             - 
               browser_column: Safari
+              key_column: ALT + atallo (CMD + atallo en MAC)
             - 
+              browser_column: Opera
+              key_column: MAIÚS + ESC + atallo
       textsize:
+        title: Tamaño do texto
         browser_settings_table:
+          description: O deseño accesible deste sitio web permite aos usuario escoller o tamaño do tipo de letra que mellor se lles adapte. Este axuste pode aplicarse de diferentes xeitos dependendo do navegador.
+          browser_header: Navegador
+          action_header: Acción a realizar
           rows:
             - 
+              browser_column: Explorer
             - 
             - 
             - 
