@@ -1306,6 +1306,9 @@ gl:
         content_block:
           body: Contido
           name: Nome
+          names:
+            top_links: Destacados
+            footer: Rodapé
       images:
         index:
           title: Personalizar imaxes
