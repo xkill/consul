@@ -88,6 +88,7 @@ de:
               field: 'Für die Datei verantwortliche Institution:'
               description: FÜR DIE DATEI VERANTWORTLICHE INSTITUTION
         - 
+          text: Die interessierte Partei kann die Rechte auf Zugang, Berichtigung, Löschung und Widerspruch vor der zuständigen Stelle ausüben, die alle gemäß Artikel 5 des Gesetzes 15/1999 vom 13. Dezember über den Schutz persönlicher Daten mitgeteilt wurden.
         - 
     accessibility:
       keyboard_shortcuts:
