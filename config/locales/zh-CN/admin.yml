@@ -447,3 +447,47 @@ zh-CN:
         send_pending_notification: 待发送通知已经成功发送
       proposal_notification_digest:
         title: 提议通知摘要
+        description: 在单个信息中收集给用户的所有提议通知，避免太多电子邮件。
+        preview_detail: 用户将只接收到他们跟随提议的通知
+    emails_download:
+      index:
+        title: 电子邮件下载
+        download_segment: 下载电子邮件地址
+        download_segment_help_text: 以CSV格式下载
+        download_emails_button: 下载电子邮件列表
+    valuators:
+      index:
+        title: 评估员
+        name: 名字
+        email: 电子邮件
+        description: 描述
+        no_description: 没有描述
+        no_valuators: 没有评估员。
+        valuator_groups: "评估员组"
+        group: "组"
+        no_group: "没有组"
+      valuator:
+        add: 添加到评估员
+        delete: 删除
+      search:
+        title: '评估员：用户搜索'
+      summary:
+        title: 投资项目的评估员总结
+        valuator_name: 评估员
+        finished_and_feasible_count: 已完成并可行
+        finished_and_unfeasible_count: 已完成和不可行
+        finished_count: 已完成
+        in_evaluation_count: 评估中
+        total_count: 总
+        cost: 成本
+      form:
+        edit_title: "评估员：编辑评估员"
+        update: "更新评估员"
+        updated: "评估员已成功更新"
+    poll_shifts:
+      new:
+        table_name: "名字"
+      flash:
+        create: "已添加轮班"
+        destroy: "轮班已删除"
+        date_missing: "必须选择日期"
