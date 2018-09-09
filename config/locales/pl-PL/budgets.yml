@@ -2,6 +2,7 @@ pl:
   budgets:
     ballots:
       show:
+        title: Twój tajny głos
         amount_spent: Łączna wartość wybranych projektów
         remaining: "Wciąż masz <span>%{amount}</span> do zainwestowania."
         no_balloted_group_yet: "Jeszcze nie zagłosowałeś na tej grupie, oddaj swój głos!"
