@@ -124,6 +124,9 @@ zh-CN:
         table_heading: 标题
         table_amount: 数量
         table_population: 人口
+        population_info: "预算标题人口字段用于统计目的，在预算结束后显示每个标题，代表一个地区与人口百分比投票率。此字段为可选，因此如果不适用，您可以将其留空。"
+        max_votable_headings: "用户可以投票的最大标题数"
+        current_of_max_headings: "%{max} 之%{current}"
       winners:
         calculate: 计算胜出者投资
         calculated: 计算胜出者中，可能需要一分钟时间。
@@ -185,6 +188,7 @@ zh-CN:
           id: ID
           title: 标题
       edit:
+        selection: 选择
         mark_as_selected: 标记为已选
         assigned_valuators: 评估者
         select_heading: 选择标题
@@ -204,3 +208,55 @@ zh-CN:
         table_status: 状态
         table_actions: "行动"
         delete: "删除里程碑"
+        no_milestones: "没有已定义的里程碑"
+        image: "图像"
+        show_image: "显示图像"
+        documents: "文件"
+      form:
+        add_language: 添加语音
+        remove_language: 删除语音
+        admin_statuses: 管理投资状态
+        no_statuses_defined: 尚未有已定义的投资状态
+      new:
+        creating: 创建里程碑
+        date: 日期
+        description: 描述
+      edit:
+        title: 编辑里程碑
+      create:
+        notice: 新的里程碑已成功创建！
+      update:
+        notice: 里程碑已成功更新
+      delete:
+        notice: 里程碑已成功删除
+    statuses:
+      index:
+        title: 投资状态
+        empty_statuses: 尚未创建投资状态
+        new_status: 创建新的投资状态
+        table_name: 名字
+        table_description: 描述
+        table_actions: 行动
+        delete: 删除
+        edit: 编辑
+      edit:
+        title: 编辑投资状态
+      update:
+        notice: 投资状态已成功更新
+      new:
+        title: 创建投资状态
+      create:
+        notice: 投资状态已成功创建
+      delete:
+        notice: 投资状态已成功删除
+    comments:
+      index:
+        filter: 过滤器
+        filters:
+          all: 所有
+          with_confirmed_hide: 确认
+          without_confirmed_hide: 有待
+        hidden_debate: 隐藏的辩论
+        hidden_proposal: 隐藏的提议
+        title: 隐藏的评论
+        no_hidden_comments: 没有隐藏的评论
