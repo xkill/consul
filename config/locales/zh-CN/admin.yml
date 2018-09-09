@@ -504,3 +504,32 @@ zh-CN:
         actions:
           assign: 分配投票亭
           unassign: 未分配投票亭
+    poll_booth_assignments:
+      alert:
+        shifts: "此投票亭有相关的轮班。如果您删除投票亭分配，此轮班也将被删除。是否继续？"
+      flash:
+        destroy: "投票亭不再被分配"
+        create: "已分配的投票亭"
+        error_destroy: "删除投票亭分配时出错"
+        error_create: "为投票项分配投票亭时出错"
+      show:
+        location: "位置"
+        officers: "官员"
+        officers_list: "此投票亭的官员列表"
+        no_officers: "此投票亭没有官员"
+        recounts: "重现计票"
+        recounts_list: "此投票亭的重现计票列表"
+        results: "结果"
+        date: "日期"
+        count_final: "最终的重现计票（由官员）"
+        count_by_system: "投票（自动）"
+        total_system: 总票数（自动）
+      index:
+        booths_title: "投票亭列表"
+        no_booths: "没有分配给此投票项的投票亭。"
+        table_name: "名字"
+        table_location: "位置"
+    polls:
+      index:
+        title: "活跃投票列表"
+        no_polls: "目前没有投票项。"
