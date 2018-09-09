@@ -359,3 +359,63 @@ zh-CN:
     menu:
       poll_booth_assignments: 投票亭分配
       poll_shifts: 管理轮班
+      officials: 官员
+      organizations: 组织
+      settings: 全局设置
+      spending_proposals: 支出提议
+      stats: 统计
+      signature_sheets: 签名表
+      site_customization:
+        homepage: 主页
+        pages: 定制页面
+        images: 定制图像
+        content_blocks: 定制内容块
+        information_texts: 定制信息文本
+        information_texts_menu:
+          debates: "辩论"
+          community: "社区"
+          proposals: "提议"
+          polls: "投票"
+          layouts: "布局"
+          mailers: "电子邮件"
+          management: "管理"
+          guides: "指南"
+          welcome: "欢迎"
+        buttons:
+          save: "保存"
+      title_moderated_content: 已审核的内容
+      title_budgets: 预算
+      title_polls: 投票
+      title_profiles: 配置档
+      title_settings: 设置
+      title_site_customization: 网页内容
+      title_booths: 投票亭
+      legislation: 合作立法
+      users: 用户
+    administrators:
+      index:
+        title: 管理员
+        name: 名字
+        email: 电子邮件
+        no_administrators: 没有管理员。
+      administrator:
+        add: 添加
+        delete: 删除
+        restricted_removal: "抱歉，您无法将自己从管理员中删除"
+      search:
+        title: "管理员：用户搜索"
+    moderators:
+      index:
+        title: 审核员
+        name: 名字
+        email: 电子邮件
+        no_moderators: 没有审核员。
+      moderator:
+        add: 添加
+        delete: 删除
+      search:
+        title: '审核员：用户搜索'
+    segment_recipient:
+      all_users: 所有用户
+      administrators: 管理员
+      proposal_authors: 提议作者
