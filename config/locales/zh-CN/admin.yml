@@ -533,3 +533,6 @@ zh-CN:
       index:
         title: "活跃投票列表"
         no_polls: "目前没有投票项。"
+        create: "创建投票项"
+        name: "名字"
+        dates: "日期"
