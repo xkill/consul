@@ -419,3 +419,31 @@ zh-CN:
       all_users: 所有用户
       administrators: 管理员
       proposal_authors: 提议作者
+    admin_notifications:
+      new:
+        section_title: 新通知
+      edit:
+        section_title: 编辑通知
+      show:
+        section_title: 通知预览
+        send: 发送通知
+        will_get_notified: '（将有%{n} 用户被通知）'
+        got_notified: '（%{n} 用户已被通知）'
+        sent_at: 发送于
+        title: 标题
+        body: 文本
+        link: 链接
+        segment_recipient: 收件人
+        preview_guide: "这是用户将看到通知的方式："
+        sent_guide: "这是用户将看到通知的方式："
+        send_alert: 您是否确定要发送此通知给%{n} 用户？
+    system_emails:
+      preview_pending:
+        action: 预览待定
+        preview_of: '%{name} 预览'
+        pending_to_be_sent: 这是待发送的内容
+        moderate_pending: 审核通知发送
+        send_pending: 有待发送
+        send_pending_notification: 待发送通知已经成功发送
+      proposal_notification_digest:
+        title: 提议通知摘要
