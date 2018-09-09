@@ -145,6 +145,42 @@ pl:
               browser_column: Safari
               key_column: ALT + skrót (CTRL + ALT + skróty dla MAC)
             - 
+              browser_column: Opera
+              key_column: CAPS + ESC + skrót
+      textsize:
+        title: Rozmiar tekstu
+        browser_settings_table:
+          description: Dostępny projekt tej strony pozwala użytkownikowi wybrać rozmiar tekstu, który mu odpowiada. Ta akcja może odbywać się w różny sposób w zależności od używanej przeglądarki.
+          browser_header: Przeglądarka
+          action_header: Działanie, które należy podjąć
+          rows:
+            - 
+              browser_column: Wyszukiwarka
+              action_column: Widok > rozmiar tekstu
+            - 
+              browser_column: Firefox
+              action_column: Widok > rozmiar
+            - 
+              browser_column: Chrome
+              action_column: Ustawienia (ikona) > Opcje > Zaawansowane > zawartość www > rozmiar tekstu
+            - 
+              browser_column: Safari
+              action_column: Widok > powiększenie / pomniejszenie
+            - 
+              browser_column: Opera
+              action_column: Widok > skala
+        browser_shortcuts_table:
+          description: 'Innym sposobem na modyfikację rozmiar tekstu jest użycie skrótów klawiaturowych zdefiniowanych w przeglądarkach, w szczególności kombinacji klawiszy:'
+          rows:
+            - 
+              shortcut_column: CTRL i + (CMD i + Mac)
+              description_column: Zwiększa rozmiar tekstu
+            - 
+              shortcut_column: CTRL i - (CMD - i na komputerze MAC)
+              description_column: Zmniejsza rozmiar tekstu
+      compatibility:
+        title: Zgodność z normami i projektowaniem wizualnym
+        description_html: 'Wszystkie strony witryny są zgodne z <strong> Wskazówki dotyczące dostępności </strong> lub ogólne zasady projektowania ustanowione przez Grupę Roboczą <abbr title = "Web Accessibility Initiative" lang = "en"> WAI < / abbr > należącą do W3C.'
     titles:
       accessibility: Ułatwienia dostępu
       conditions: Warunki użytkowania
