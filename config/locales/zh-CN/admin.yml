@@ -536,3 +536,45 @@ zh-CN:
         create: "创建投票项"
         name: "名字"
         dates: "日期"
+        geozone_restricted: "限于区内"
+      new:
+        title: "新的投票项"
+        show_results_and_stats: "显示结果和统计信息"
+        show_results: "显示结果"
+        show_stats: "显示统计信息"
+        results_and_stats_reminder: "标记这些复选框可以公开得到此投票项的结果和／或统计信息，每个用户都可以看到它们。"
+        submit_button: "创建投票项"
+      edit:
+        title: "编辑投票项"
+        submit_button: "更新投票项"
+      show:
+        questions_tab: 问题
+        booths_tab: 投票亭
+        officers_tab: 官员
+    answers:
+      videos:
+        new:
+          title: 新视频
+        edit:
+          title: 编辑视频
+    recounts:
+      index:
+        title: "重现计票"
+        no_recounts: "没有什么需要重现计票"
+        table_booth_name: "投票亭"
+        table_total_recount: "总的重新计票数（由官员）"
+        table_system_count: "投票（自动）"
+    results:
+      index:
+        title: "结果"
+        no_results: "没有结果"
+      result:
+        table_whites: "完全空白的选票"
+        table_nulls: "无效选票"
+        table_total: "总选票数"
+        table_answer: 回答
+        table_votes: 投票
+      results_by_booth:
+        booth: 投票亭
+        results: 结果
+        see_results: 查看结果
