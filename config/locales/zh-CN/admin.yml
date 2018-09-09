@@ -578,3 +578,70 @@ zh-CN:
         booth: 投票亭
         results: 结果
         see_results: 查看结果
+        title: "逐投票亭结果"
+    booths:
+      index:
+        title: "活跃投票亭列表"
+        no_booths: "任何即将进行的投票项没有活跃投票亭。"
+        add_booth: "添加投票亭"
+        name: "名字"
+        location: "位置"
+        no_location: "没有位置"
+      new:
+        title: "新投票亭"
+        name: "名字"
+        location: "位置"
+        submit_button: "创建投票亭"
+      edit:
+        title: "编辑投票亭"
+        submit_button: "更新投票亭"
+      show:
+        location: "位置"
+      booth:
+        shifts: "管理轮班"
+        edit: "编辑投票亭"
+    officials:
+      edit:
+        destroy: 删除‘官方’状态
+        title: '官员：编辑用户'
+      flash:
+        official_destroyed: '保存的详细信息：用户不再是官员'
+        official_updated: 官员详细信息已保存
+      index:
+        title: 官员
+        no_officials: 没有官员。
+        name: 名称
+        official_position: 正式职位
+        official_level: 级别
+      level_0: 非官员
+      level_1: 级别1
+      level_2: 级别2
+      level_3: 级别3
+      level_4: 级别4
+      level_5: 级别5
+      search:
+        edit_official: 编辑官员
+        make_official: 成为官员
+    settings:
+      index:
+        map:
+          flash:
+            update: 已成功更新地图配置。
+          form:
+            submit: 更新
+      setting: 特性
+      setting_actions: 行动
+      setting_name: 设置
+      setting_status: 状态
+      setting_value: 价值
+      no_description: "没有描述"
+    shared:
+      booths_search:
+        button: 搜索
+        placeholder: 按名字搜索投票亭
+      poll_officers_search:
+        button: 搜索
+        placeholder: 搜索投票站官员
+      poll_questions_search:
+        button: 搜索
+        placeholder: 搜索投票项问题
