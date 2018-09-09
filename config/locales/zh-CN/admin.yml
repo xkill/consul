@@ -67,7 +67,40 @@ zh-CN:
           on_proposals: 建议
           on_users: 用户
           on_system_emails: 系统电子邮件
+        title: 审核员活动
+        type: 类型
+        no_activity: 没有审核员活动。
     budgets:
+      index:
+        title: 参与性预算
+        new_link: 创建新预算
+        filter: 过滤器
+        filters:
+          finished: 已完成
+        budget_investments: 管理项目
+        table_name: 名字
+        table_phase: 阶段
+        table_investments: 投资
+        table_edit_groups: 标题组
+        table_edit_budget: 编辑
+        edit_groups: 编辑标题组
+        edit_budget: 编辑预算
+      create:
+        notice: 新的参与性预算创建成功！
+      update:
+        notice: 参与性预算更新成功
+      edit:
+        title: 编辑参与性预算
+        delete: 删除预算
+        phase: 阶段
+        dates: 日期
+        enabled: 启用
+        actions: 行动
+        edit_phase: 编辑阶段
+        active: 活跃
+        blank_dates: 日期为空
+      destroy:
+        success_notice: 预算已成功删除
       winners:
         calculate: 计算胜出者投资
         calculated: 计算胜出者中，可能需要一分钟时间。
