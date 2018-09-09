@@ -20,8 +20,12 @@ pl:
     organizations:
       registrations:
         new:
+          password_confirmation_label: Potwierdź hasło
+          password_label: Hasło
+          phone_number_label: Numer telefonu
           responsible_name_label: Imię i nazwisko osoby odpowiedzialnej za kolektyw
           responsible_name_note: Byłaby to osoba reprezentująca stowarzyszenie/kolektyw, w której imieniu przedstawiane są propozycje
+          submit: Zarejestruj się
           title: Zarejestruj się jako organizacja lub kolektyw
         success:
           back_to_index: Rozumiem; wróć do strony głównej
@@ -30,14 +34,42 @@ pl:
           instructions_3_html: Po potwierdzeniu możesz zacząć uczestniczyć jako niezweryfikowany kolektyw.
           thank_you_html: Dziękujemy za zarejestrowanie Twojego kolektywu na stronie. W tym momencie <b>oczekuje weryfikacji</b>.
           title: Rejestracja organizacji / kolektywu
+    passwords:
+      edit:
+        change_submit: Zmień hasło
+        password_confirmation_label: Potwierdź nowe hasło
+        password_label: Nowe hasło
+        title: Zmień hasło
+      new:
+        email_label: E-mail
+        send_submit: Wyślij instrukcje
+        title: Zapomniałeś hasło?
+    sessions:
+      new:
+        login_label: E-mail lub nazwa użytkownika
+        password_label: Hasło
+        remember_me: Zapamiętaj mnie
+        submit: Enter
+        title: Zaloguj się
     shared:
       links:
+        login: Enter
         new_confirmation: Nie zostałeś poinstruowany aby aktywować swoje konto?
         new_password: Zapomniałeś hasła?
         new_unlock: Nie otrzymałeś instrukcji odblokowania?
         signin_with_provider: Zaloguj się za pomocą %{provider}
+        signup: Nie masz konta? %{signup_link}
+        signup_link: Zarejestruj się
+    unlocks:
+      new:
+        email_label: E-mail
+        submit: Prześlij ponownie instrukcje odblokowania
+        title: Prześlij ponownie instrukcje odblokowania
     users:
       registrations:
+        delete_form:
+          erase_reason_label: Przyczyna
+          info: Tego działania nie można cofnąć. Upewnij się, że to jest to, czego chcesz.
         edit:
           need_current: Potrzebujemy Twojego obecnego hasła, aby potwierdzić zmiany
           password_confirmation_label: Potwierdź nowe hasło
