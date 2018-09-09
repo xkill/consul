@@ -58,4 +58,5 @@ pl:
       confirmation_period_expired: "Musisz zostać zweryfikowany/a w ciągu %{period}; proszę wysłać ponowny wniosek."
       expired: "utracił/a ważność; proszę wysłać ponowny wniosek."
       not_found: "nie znaleziono."
+      not_locked: "nie był zablokowany."
       equal_to_current_password: "musi być inne od obecnego hasła."
