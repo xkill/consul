@@ -1,5 +1,9 @@
 pl:
   pages:
+    conditions:
+      title: Regulamin
+      subtitle: INFORMACJA PRAWNA DOTYCZĄCA WARUNKÓW UŻYTKOWANIA, PRYWATNOŚCI I OCHRONY DANYCH OSOBOWYCH OTWARTEGO PORTALU RZĄDOWEGO
+      description: Strona informacyjna na temat warunków korzystania, prywatności i ochrony danych osobowych.
     general_terms: Regulamin
     help:
       title: "%{org} jest platformą do udziału mieszkańców w miejskich politykach publicznych"
@@ -62,6 +66,30 @@ pl:
           Jeśli jesteś programistą, możesz przejrzeć kod i pomóc nam go poprawiać na [CONSUL app](https://github.com/consul/consul 'consul github').
       titles:
         how_to_use: Użyj go w swoim lokalnym rządzie
+    privacy:
+      title: Polityka prywatności
+      subtitle: INFORMACJA DOTYCZĄCA PRYWATNOŚCI DANYCH
+      info_items:
+        - 
+          text: Nawigacja poprzez informacje dostępne w Otwartym Portalu Rządowym jest anonimowa.
+        - 
+          text: Aby skorzystać z usług zawartych w Portalu Otwartego Rządu, użytkownik musi się zarejestrować i wcześniej podać dane osobowe zgodnie z konkretnymi informacjami zawartymi w każdym typie rejestracji.
+        - 
+          text: 'Dostarczone dane zostaną włączone i przetworzone przez Radę Miejską zgodnie z opisem poniższego pliku:'
+        - 
+          subitems:
+            - 
+              field: 'Nazwa pliku:'
+              description: NAZWA PLIKU
+            - 
+              field: 'Przeznaczenie pliku:'
+              description: Zarządzanie procesami uczestniczącymi w celu kontrolowania kwalifikacji uczestniczących w nich osób oraz jedynie numeryczne i statystyczne przeliczanie wyników uzyskanych w wyniku procesów uczestnictwa obywateli.
+            - 
+              field: 'Instytucja odpowiedzialna za plik:'
+              description: INSTYTUCJA ODPOWIEDZIALNA ZA PLIK
+        - 
+          text: Zainteresowana strona może skorzystać z prawa dostępu, sprostowania, anulowania i sprzeciwu, zanim organ odpowiedzialny wskazał, z których wszystkie są zgłaszane zgodnie z art. 5 Ustawy Ekologicznej 15/1999 z 13 grudnia o Ochronie Danych Osobowych.
+        - 
     titles:
       accessibility: Ułatwienia dostępu
       conditions: Warunki użytkowania
