@@ -491,3 +491,16 @@ zh-CN:
         create: "已添加轮班"
         destroy: "轮班已删除"
         date_missing: "必须选择日期"
+      vote_collection: 收集选票
+      recount_scrutiny: 重现记票 & 审查
+    booth_assignments:
+      manage_assignments: 管理分配
+      manage:
+        assignments_list: "投票 '%{poll}'的分配"
+        status:
+          assign_status: 分配
+          assigned: 已分配
+          unassigned: 未分配
+        actions:
+          assign: 分配投票亭
+          unassign: 未分配投票亭
