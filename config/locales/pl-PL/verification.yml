@@ -15,6 +15,11 @@ pl:
         flash:
           success: Jesteś zweryfikowanym użytkownikiem.
     letter:
+      alert:
+        unconfirmed_code: Nie podałeś jeszcze kodu potwierdzenia
+      create:
+        flash:
+          offices: Biura wsparcia obywatelskiego
       errors:
         incorrect_code: Nieprawidłowy kod weryfikacyjny
       update:
@@ -29,6 +34,7 @@ pl:
         document_type:
           passport: Paszport
         document_type_label: Typ dokumentu
+        error_not_allowed_age: Nie masz wymaganego wieku, aby wziąć udział
         error_verifying_census: Spis statystyczny nie był w stanie zweryfikować podanych przez Ciebie informacji. Upewnij się, że Twoje dane w spisie są poprawne, dzwoniąc do Urzędu Miejskiego lub odwiedzając go %{offices}.
         postal_code_note: Aby zweryfikować swoje konto, musisz być zarejestrowany
     sms:
