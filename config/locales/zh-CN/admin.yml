@@ -312,3 +312,50 @@ zh-CN:
         errors:
           form:
             error: 错误
+        form:
+          title_html: '从进程<span class="strong">%{process_title}</span>编辑<span class="strong">%{draft_version_title}</span>'
+          launch_text_editor: 启动文本编辑器
+          close_text_editor: 关闭文本编辑器
+          use_markdown: 使用Markdown 来格式化文本
+          hints:
+            final_version: 此版本将作为此进程的最终结果发布。此版本中将不允许有评论。
+            status:
+              draft: 您作为管理员可以预览，其它人不能看到它
+              published: 人人可见
+          title_placeholder: 编写草稿版本的标题
+          changelog_placeholder: 添加早期版本中的主要更改
+          body_placeholder: 写下草稿文本
+        index:
+          title: 草稿版本
+          create: 创建版本
+          delete: 删除
+          preview: 预览
+        new:
+          back: 返回
+          title: 创建新版本
+          submit_button: 创建版本
+        statuses:
+          draft: 草稿
+          published: 发表
+        table:
+          title: 标题
+          created_at: 创建于
+          comments: 评论
+          final_version: 最后版本
+          status: 状态
+      questions:
+        create:
+          notice: '问题已成功创建。<a href="%{link}">点击访问</a>'
+          error: 问题无法创建
+        update:
+          notice: '问题已成功更新。<a href="%{link}">点击访问</a>'
+          error: 问题无法更新
+        destroy:
+          notice: 问题已成功删除
+        edit:
+          back: 返回
+          title: "编辑“%{question_title}”"
+          submit_button: 保存更改
+    menu:
+      poll_booth_assignments: 投票亭分配
+      poll_shifts: 管理轮班
