@@ -260,3 +260,55 @@ zh-CN:
         hidden_proposal: 隐藏的提议
         title: 隐藏的评论
         no_hidden_comments: 没有隐藏的评论
+    dashboard:
+      index:
+        back: 返回%{org}
+        title: 管理
+        description: 欢迎使用%{org} 管理面板。
+    debates:
+      index:
+        filter: 过滤器
+        filters:
+          all: 所有
+          with_confirmed_hide: 确认
+          without_confirmed_hide: 有待
+        title: 隐藏的辩论
+        no_hidden_debates: 没有隐藏的辩论。
+    hidden_users:
+      index:
+        filter: 过滤器
+        filters:
+          all: 所有
+          with_confirmed_hide: 确认
+          without_confirmed_hide: 有待
+    legislation:
+      processes:
+        subnav:
+          info: 信息
+          draft_texts: 起草
+          questions: 辩论
+          proposals: 提议
+      proposals:
+        index:
+          title: 提议
+          back: 返回
+        form:
+          custom_categories: 类别
+          custom_categories_description: 用户可以选择创建提议的类别。
+          custom_categories_placeholder: 输入您希望使用的标签，用逗号(,) 分割，并放在引号("") 中间
+      draft_versions:
+        create:
+          notice: '草稿已成功创建，<a href="%{link}">点击访问</a>'
+          error: 草稿无法创建
+        update:
+          notice: '草稿已成功更新，<a href="%{link}">点击访问</a>'
+          error: 草稿无法更新
+        destroy:
+          notice: 草稿已成功删除
+        edit:
+          back: 返回
+          submit_button: 保存更改
+          warning: 您已经编辑文本，请不要忘了点击保存来永久保存所做的更改。
+        errors:
+          form:
+            error: 错误
