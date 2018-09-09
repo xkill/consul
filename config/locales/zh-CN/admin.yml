@@ -101,6 +101,29 @@ zh-CN:
         blank_dates: 日期为空
       destroy:
         success_notice: 预算已成功删除
+        unable_notice: 您不能销毁具有相关投资的预算
+      new:
+        title: 新的参与性预算
+      show:
+        groups:
+          other: "1组预算标题\n%{count} 组预算标题"
+      form:
+        group: 组名
+        no_groups: 尚未创建任何组。每位用户只能在每个组的一个标题中投票。
+        add_group: 添加新组
+        create_group: 创建新组
+        edit_group: 编辑新组
+        submit: 保存组
+        heading: 标题名称
+        add_heading: 添加标题
+        amount: 数量
+        population: "人口（可选）"
+        population_help_text: "此数据仅用于计算参与统计信息"
+        save_heading: 保存标题
+        no_heading: 此组没有指定的标题。
+        table_heading: 标题
+        table_amount: 数量
+        table_population: 人口
       winners:
         calculate: 计算胜出者投资
         calculated: 计算胜出者中，可能需要一分钟时间。
