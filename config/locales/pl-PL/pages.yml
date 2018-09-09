@@ -102,6 +102,49 @@ pl:
         - Jeśli użytkownik ma problemy z poruszaniem się i trudności z używaniem myszy, alternatywą pomocną w nawigacji jest klawiatura.
       keyboard_shortcuts:
         title: Skróty klawiaturowe
+        navigation_table:
+          description: Aby móc poruszać się po tej stronie w przystępny sposób, zaprogramowano grupę kluczy szybkiego dostępu, które spinają główne sekcje ogólnego zainteresowania, wedle których strona jest zorganizowana.
+          caption: Skróty klawiaturowe dla menu nawigacji
+          key_header: Klucz
+          page_header: Strona
+          rows:
+            - 
+              key_column: 0
+              page_column: Strona Główna
+            - 
+              key_column: 1
+              page_column: Debaty
+            - 
+              key_column: 2
+              page_column: Wnioski
+            - 
+              key_column: 3
+              page_column: Głosy
+            - 
+              key_column: 4
+              page_column: Budżety partycypacyjne
+            - 
+              key_column: 5
+              page_column: Procesy legislacyjne
+        browser_table:
+          description: 'W zależności od używanego systemu operacyjnego i przeglądarki, kombinacja klawiszy będzie następująca:'
+          caption: Kombinacja klawiszy w zależności od systemu operacyjnego i przeglądarki
+          browser_header: Przeglądarka
+          key_header: Kombinacje kluczy
+          rows:
+            - 
+              browser_column: Wyszukiwarka
+              key_column: ALT + skrót, a następnie ENTER
+            - 
+              browser_column: Firefox
+              key_column: ALT + CAPS + skrót
+            - 
+              browser_column: Chrome
+              key_column: ALT + skrót (CTRL + ALT + skróty dla MAC)
+            - 
+              browser_column: Safari
+              key_column: ALT + skrót (CTRL + ALT + skróty dla MAC)
+            - 
     titles:
       accessibility: Ułatwienia dostępu
       conditions: Warunki użytkowania
