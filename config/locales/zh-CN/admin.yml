@@ -334,7 +334,7 @@ zh-CN:
           submit_button: 创建版本
         statuses:
           draft: 草稿
-          published: 发表
+          published: 已发表
         table:
           title: 标题
           created_at: 创建于
@@ -434,7 +434,7 @@ zh-CN:
         segment_recipient: 收件人
         preview_guide: "这是用户将看到通知的方式："
         sent_guide: "这是用户将看到通知的方式："
-        send_alert: 您是否确定要发送此通知给%{n} 用户？
+        send_alert: 您是否确定要发送此通知给%{n} 个用户？
     system_emails:
       preview_pending:
         action: 预览待定
