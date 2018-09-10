@@ -269,8 +269,6 @@ pt-BR:
         show_image: "Exibir imagem"
         documents: "Documentos"
       form:
-        add_language: Adicionar idioma
-        remove_language: Remover idioma
         admin_statuses: Status dos investimentos para administrador
         no_statuses_defined: Ainda não há status de investimento definidos
       new:
