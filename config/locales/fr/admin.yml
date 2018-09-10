@@ -268,8 +268,6 @@ fr:
         show_image: "Afficher l'image"
         documents: "Documents"
       form:
-        add_language: Ajouter une langue
-        remove_language: Supprimer une langue
         admin_statuses: Administrer les statuts d'investissement
         no_statuses_defined: Il n'y a pas encore de statuts d'investissement définis
       new:
