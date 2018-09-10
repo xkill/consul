@@ -104,6 +104,7 @@ val:
             - 
               browser_column: Safari
             - 
+              browser_column: Opera
       textsize:
         title: Tamany del text
         browser_settings_table:
