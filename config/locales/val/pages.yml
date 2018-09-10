@@ -1,5 +1,8 @@
 val:
   pages:
+    conditions:
+      title: Termes i condicions d'us
+      description: Pàgina d'informació sobre les condicions d'us, privacitat i protecció de dades personals.
     general_terms: Condicions d'us
     help:
       title: "%{org} es una plataforma de participació ciutadana"
@@ -62,6 +65,63 @@ val:
           Si eres programador, pots vore el codi i ajudar-nos a millorar-lo en [aplicació CONSUL](https://github.com/consul/consul 'github consul').
       titles:
         how_to_use: Utilitza-ho en el teu municipi
+    privacy:
+      title: Política de privacitat
+      subtitle: INFORMACIÓ RELACIONADA AMB LA PRIVACITAT DE LES DADES
+    accessibility:
+      title: Accessibilitat
+      keyboard_shortcuts:
+        navigation_table:
+          rows:
+            - 
+              key_column: 0
+              page_column: Inici
+            - 
+              key_column: 1
+              page_column: Debats
+            - 
+              key_column: 2
+              page_column: Propostes
+            - 
+              key_column: 3
+              page_column: Vots
+            - 
+              key_column: 4
+              page_column: Pressupostos participatius
+            - 
+              key_column: 5
+              page_column: Processos legislatius
+        browser_table:
+          browser_header: Navegador
+          key_header: Combinació de tecles
+          rows:
+            - 
+              browser_column: Explorer
+            - 
+              browser_column: Firefox
+            - 
+              browser_column: Chrome
+            - 
+              browser_column: Safari
+            - 
+      textsize:
+        title: Tamany del text
+        browser_settings_table:
+          browser_header: Navegador
+          rows:
+            - 
+              browser_column: Explorer
+              action_column: Veure > Tamany del text
+            - 
+              browser_column: Firefox
+              action_column: Veure > Tamany
+            - 
+              browser_column: Chrome
+            - 
+              browser_column: Safari
+            - 
+              browser_column: Opera
+              action_column: Veure > escala
     titles:
       accessibility: Accessibilitat
       conditions: Condicions d'us
