@@ -242,8 +242,6 @@ es-AR:
         show_image: "Mostrar imagen"
         documents: "Documentos"
       form:
-        add_language: Agregar lenguaje
-        remove_language: Remover lenguaje
         admin_statuses: Administrar estados de inversión
         no_statuses_defined: No hay estados de inversión definidos aún
       new:
