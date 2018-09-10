@@ -269,8 +269,6 @@ gl:
         show_image: "Amosar imaxe"
         documents: "Documentos"
       form:
-        add_language: Engadir idioma
-        remove_language: Eliminar idioma
         admin_statuses: Administrar estados de investimento
         no_statuses_defined: Aínda non se definirion os estados dos investimentos
       new:
