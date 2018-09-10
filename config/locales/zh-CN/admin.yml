@@ -112,7 +112,7 @@ zh-CN:
         no_groups: 尚未创建任何组。每位用户只能在每个组的一个标题中投票。
         add_group: 添加新组
         create_group: 创建新组
-        edit_group: 编辑新组
+        edit_group: 编辑组
         submit: 保存组
         heading: 标题名称
         add_heading: 添加标题
@@ -386,7 +386,7 @@ zh-CN:
       title_polls: 投票
       title_profiles: 个人资料
       title_settings: 设置
-      title_site_customization: 网点内容
+      title_site_customization: 站点内容
       title_booths: 投票亭
       legislation: 合作立法
       users: 用户
@@ -515,11 +515,11 @@ zh-CN:
         officers: "官员"
         officers_list: "此投票亭的官员列表"
         no_officers: "此投票亭没有官员"
-        recounts: "重现计票"
+        recounts: "重新计票"
         recounts_list: "此投票亭的重新计票列表"
         results: "结果"
         date: "日期"
-        count_final: "最终的重现计票（由官员）"
+        count_final: "最终的重新计票（由官员）"
         count_by_system: "投票（自动）"
         total_system: 总票数（自动）
       index:
@@ -558,7 +558,7 @@ zh-CN:
     recounts:
       index:
         title: "重现计票"
-        no_recounts: "没有什么需要重现计票"
+        no_recounts: "没有什么需要重新计票"
         table_booth_name: "投票亭"
         table_total_recount: "总的重新计票数（由官员）"
         table_system_count: "投票（自动）"
