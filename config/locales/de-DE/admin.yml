@@ -269,8 +269,6 @@ de:
         show_image: "Bild anzeigen"
         documents: "Dokumente"
       form:
-        add_language: Sprache hinzufügen
-        remove_language: Sprache entfernen
         admin_statuses: Status des Ausgabenvorschlags verwalten
         no_statuses_defined: Es wurde noch kein Status für diese Ausgabenvorschläge definiert
       new:
