@@ -269,8 +269,6 @@ nl:
         show_image: "Toon afbeelding"
         documents: "Documenten"
       form:
-        add_language: Taal toevoegen
-        remove_language: Verwijder taal
         admin_statuses: Beheerderstatussen
         no_statuses_defined: Er zijn nog geen gedefinieerde investeringsstatussen
       new:
