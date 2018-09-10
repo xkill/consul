@@ -269,8 +269,6 @@ sv:
         show_image: "Visa bild"
         documents: "Dokument"
       form:
-        add_language: Lägg till språk
-        remove_language: Ta bort språk
         admin_statuses: Administrativ status för budgetförslag
         no_statuses_defined: Det finns ingen definierad status för budgetförslag än
       new:
