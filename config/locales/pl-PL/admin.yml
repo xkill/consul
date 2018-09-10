@@ -135,9 +135,6 @@ pl:
       index:
         show_image: "Pokaż obraz"
         documents: "Dokumenty"
-      form:
-        add_language: Dodaj język
-        remove_language: Usuń język
       new:
         description: Opis
     statuses:
