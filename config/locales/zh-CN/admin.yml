@@ -94,7 +94,7 @@ zh-CN:
         delete: 删除预算
         phase: 阶段
         dates: 日期
-        enabled: 启用
+        enabled: 已启用
         actions: 行动
         edit_phase: 编辑阶段
         active: 活跃
@@ -139,7 +139,7 @@ zh-CN:
         summary_help_text: 此文本将通知用户阶段情况。如果就算阶段未活跃也要显示，请选中以下复选框。
         description: 说明
         description_help_text: 当阶段处于活跃状态时，此文本将显示在页眉中
-        enabled: 启用阶段
+        enabled: 阶段已启用
         enabled_help_text: 这一阶段将在预算的阶段时间内公开，并为其他目的保持活跃
         save_changes: 保存更改
     budget_investments:
@@ -252,7 +252,7 @@ zh-CN:
         filter: 过滤器
         filters:
           all: 所有
-          with_confirmed_hide: 确认
+          with_confirmed_hide: 已确认
           without_confirmed_hide: 有待
         hidden_debate: 隐藏的辩论
         hidden_proposal: 隐藏的提议
@@ -268,7 +268,7 @@ zh-CN:
         filter: 过滤器
         filters:
           all: 所有
-          with_confirmed_hide: 确认
+          with_confirmed_hide: 已确认
           without_confirmed_hide: 有待
         title: 隐藏的辩论
         no_hidden_debates: 没有隐藏的辩论。
@@ -277,7 +277,7 @@ zh-CN:
         filter: 过滤器
         filters:
           all: 所有
-          with_confirmed_hide: 确认
+          with_confirmed_hide: 已确认
           without_confirmed_hide: 有待
     legislation:
       processes:
@@ -384,7 +384,7 @@ zh-CN:
       title_moderated_content: 已审核的内容
       title_budgets: 预算
       title_polls: 投票
-      title_profiles: 配置档
+      title_profiles: 个人资料
       title_settings: 设置
       title_site_customization: 网点内容
       title_booths: 投票亭
@@ -425,8 +425,8 @@ zh-CN:
       show:
         section_title: 通知预览
         send: 发送通知
-        will_get_notified: '（将有%{n} 用户被通知）'
-        got_notified: '（%{n} 用户已被通知）'
+        will_get_notified: '（将有%{n} 个用户被通知）'
+        got_notified: '（%{n} 个用户已被通知）'
         sent_at: 发送于
         title: 标题
         body: 文本
@@ -476,7 +476,7 @@ zh-CN:
         finished_and_unfeasible_count: 已完成和不可行
         finished_count: 已完成
         in_evaluation_count: 评估中
-        total_count: 总
+        total_count: 总计
         cost: 成本
       form:
         edit_title: "评估员：编辑评估员"
