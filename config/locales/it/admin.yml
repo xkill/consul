@@ -269,8 +269,6 @@ it:
         show_image: "Mostra immagine"
         documents: "Documenti"
       form:
-        add_language: Aggiungi lingua
-        remove_language: Rimuovi lingua
         no_statuses_defined: Non ci sono ancora status d’investimento definiti
       new:
         creating: Crea traguardo
