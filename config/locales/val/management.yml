@@ -103,6 +103,7 @@ val:
         unverified_user: Usuari no verificat
       create: Crear nou projecte
       filters:
+        heading: Concepte
         unfeasible: Projectes no factibles
       print:
         print_button: Imprimir
