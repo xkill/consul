@@ -339,7 +339,7 @@ zh-CN:
           title: 标题
           created_at: 创建于
           comments: 评论
-          final_version: 最后版本
+          final_version: 最终版本
           status: 状态
       questions:
         create:
@@ -386,7 +386,7 @@ zh-CN:
       title_polls: 投票
       title_profiles: 配置档
       title_settings: 设置
-      title_site_customization: 网页内容
+      title_site_customization: 网点内容
       title_booths: 投票亭
       legislation: 合作立法
       users: 用户
@@ -516,7 +516,7 @@ zh-CN:
         officers_list: "此投票亭的官员列表"
         no_officers: "此投票亭没有官员"
         recounts: "重现计票"
-        recounts_list: "此投票亭的重现计票列表"
+        recounts_list: "此投票亭的重新计票列表"
         results: "结果"
         date: "日期"
         count_final: "最终的重现计票（由官员）"
