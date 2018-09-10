@@ -236,9 +236,6 @@ fa:
         image: "تصویر"
         show_image: "نمایش تصویر"
         documents: "اسناد"
-      form:
-        add_language: اضافه کردن زبان
-        remove_language: حذف زبان
       new:
         creating: ایجاد نقطه عطف جدید
         date: تاریخ
