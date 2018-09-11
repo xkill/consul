@@ -79,6 +79,7 @@ gl:
               description: NOME DO FICHEIRO
             - 
               field: 'Uso do ficheiro:'
+              description: A xestión dos procesos participativos para controlar a cualificación das persoas que participan nel, basease en fontes numéricas e en recontos estatísticos dos resultados que se derivan dos procesos participativos.
             - 
               field: 'Organismo responsable do ficheiro:'
               description: ORGANISMO RESPONSABLE DO FICHEIRO
@@ -88,8 +89,12 @@ gl:
           text: Como principio xeral, este sitio web non comparte nin divulga a información obtida, agás cando sexa autorizada polo usuario, ou a información fose requirida pola autoridade xudicial, fiscal, policía xudicial, ou calquera dos casos regulados no Artigo 11 da Lei Orgánica 15/1999, do 13 de decembro, de protección de datos de carácter persoal.
     accessibility:
       title: Accesibilidade
+      description: |-
+        A accesibilidade web refírese á posibilidade de acceso a Internet e os seus contidos por parte de todas as persoas, independentemente das discapacidades (físicas, intelectuais ou técnicas) que poidan xurdir, ou das derivadas do contexto de uso (tecnolóxico ou ambiental). 
+        
+        Cando os sitios web son deseñados coa accesibilidade en mente, todos os usuarios poden acceder ao contido en condicións iguais, por exemplo:
       examples:
-        - Proporcionando un texto alternativo a las imágenes, los usuarios invidentes o con problemas de visión pueden utilizar lectores especiales para acceder a la información.Providing alternative text to the images, blind or visually impaired users can use special readers to access the information.
+        - Proporcionando un texto alternativo ás imaxes, os usuarios invidentes ou con problemas de visión, poden utilizar lectores especiais para acceder á información.
         - Cando os vídeos inclúen subtítulos, os usuarios con problemas auditivos poden entendelos perfectamente.
         - Se os contidos se redactan nunha linguaxe sinxela e descritiva, os usuarios con problemas de aprendizaxe teñen máis facilidades para comprendelos.
         - Se o usuario ten problemas de mobilidade e de uso co rato, pode usar as axudas na navegación a través do teclado.
