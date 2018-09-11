@@ -24,7 +24,7 @@ it:
         ignore_text: Se non hai richiesto una modifica della password, ignora questa email.
         info_text: La password non verrà cambiata a meno che non si acceda al link e la si modifichi.
         text: 'Abbiamo ricevuto una richiesta di modifica della password. È possibile farlo attraverso il seguente link:'
-        title: Cambiare la password
+        title: Cambia la password
       unlock_instructions:
         hello: Ciao
         info_text: Il tuo account è stato bloccato a causa di un numero eccessivo di tentativi di accesso non riusciti.
@@ -126,4 +126,4 @@ it:
           instructions_1_html: Si prega di <b>controllare l’e-mail</b> - abbiamo inviato <b>un link di per confermare l’account</b>.
           instructions_2_html: Una volta confermati, si può iniziare a partecipare.
           thank_you_html: Grazie per esserti registrato/a. Ora è necessario <b>confermare il tuo indirizzo e-mail</b>.
-          title: Modificare il tuo indirizzo e-mail
+          title: Modifica il tuo indirizzo email
