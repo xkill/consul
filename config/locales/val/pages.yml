@@ -2,6 +2,7 @@ val:
   pages:
     conditions:
       title: Termes i condicions d'us
+      subtitle: AVIS LEGAL SOBRE LES CONDICIONS D'US, PRIVACITAT I PROTECCIÓ DE LES DADES PERSONALS DEL PORTAL DE GOVERN OBERT
       description: Pàgina d'informació sobre les condicions d'us, privacitat i protecció de dades personals.
     general_terms: Condicions d'us
     help:
@@ -68,10 +69,28 @@ val:
     privacy:
       title: Política de privacitat
       subtitle: INFORMACIÓ RELACIONADA AMB LA PRIVACITAT DE LES DADES
+      info_items:
+        - 
+          text: La navegació per la informació disponible en el Portal de Govern Obert es anònima.
+        - 
+          text: Per tal de poder utilitzar els serveis del Portal de Govern Obert, l'usuari ha de registrarse i proporcionar dades de caràcter personal d'acord amb les especificacions incloses en cada tipus de registre.
+        - 
+        - 
+          subitems:
+            - 
+              field: 'Nom d''arxiu:'
+              description: NOM DE L'ARXIU
+            - 
+              field: 'Propòsit de l''arxiu:'
+            - 
+        - 
+        - 
     accessibility:
       title: Accessibilitat
       keyboard_shortcuts:
         navigation_table:
+          key_header: Clau
+          page_header: Pàgina
           rows:
             - 
               key_column: 0
