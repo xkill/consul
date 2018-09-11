@@ -2,6 +2,8 @@ it:
   legislation:
     annotations:
       comments:
+        see_all: Vedi tutti
+        see_complete: Vedi completi
         comments_count:
           one: "%{count} commento"
           other: "%{count} commento"
@@ -12,7 +14,11 @@ it:
         publish_comment: Pubblica commento
       form:
         phase_not_open: Questa fase non è aperta
+        login_to_comment: È necessario %{signin} o %{signup} per lasciare un commento.
+        signin: Accedere
+        signup: Registrarsi
       index:
+        title: Commenti
         comments_about: Commenti su
       version_chooser:
         seeing_version: Commmenti per la versione
