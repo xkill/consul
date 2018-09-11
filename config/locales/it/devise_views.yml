@@ -10,16 +10,16 @@ it:
         new_password_confirmation_label: Reintrodurre la password
         new_password_label: Nuova password
         please_set_password: Si prega di scegliere la nuova pasword (che permetterà di accedere con l'email di cui sopra)
-        submit: Confermare
-        title: Confermare il mio account
+        submit: Conferma
+        title: Conferma il mio account
     mailer:
       confirmation_instructions:
-        confirm_link: Confermare il mio account
+        confirm_link: Conferma il mio account
         text: 'È possibile confermare l’account di posta elettronica attraverso il seguente link:'
         title: Benvenuto
-        welcome: Benvenuti
+        welcome: Benvenuto
       reset_password_instructions:
-        change_link: Cambiare la password
+        change_link: Cambia la password
         hello: Ciao
         ignore_text: Se non hai richiesto una modifica della password, ignora questa email.
         info_text: La password non verrà cambiata a meno che non si acceda al link e la si modifichi.
