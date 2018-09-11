@@ -20,12 +20,20 @@ it:
       index:
         title: Commenti
         comments_about: Commenti su
+        see_in_context: Vedi nel contesto
+        comments_count:
+          one: "%{count} commento"
+          other: "%{count} commenti"
+      show:
+        title: Commenta
       version_chooser:
         seeing_version: Commmenti per la versione
         see_text: Vedere la bozza di testo
     draft_versions:
       changes:
+        title: Modifiche
         seeing_changelog_version: Riepilogo delle modifiche
+        see_text: Vedi la bozza di testo
       show:
         loading_comments: Caricamento dei commenti
         seeing_version: Stai vedendo la versione in bozza
@@ -35,23 +43,41 @@ it:
         see_changes: vedere il riepilogo delle modifiche
         see_comments: Vedere tutti i commenti
         text_toc: Sommario
+        text_body: Testo
+        text_comments: Commenti
     processes:
+      header:
+        additional_info: Ulteriori informazioni
+        description: Descrizione
+        more_info: Ulteriori informazioni e contesto
+      proposals:
+        empty_proposals: Non ci sono proposte
       debate:
         empty_questions: Non ci sono domande
         participate: Partecipare al dibattito
       index:
+        filter: Filtra
         filters:
           open: Processi aperti
+          next: Successivo
           past: Passato
         no_open_processes: Non ci sono processi aperti
         no_next_processes: Non ci sono processi pianificati
         no_past_processes: Non ci sono processi precedenti
+        section_header:
+          icon_alt: Icona dei procedimenti legislativi
+          title: Procedimenti legislativi
+          help: Guida sui processi di legislazione
+        section_footer:
+          title: Guida sui processi di legislazione
+          description: Partecipa ai dibattiti e ai procedimenti precedenti all’approvazione di un’ordinanza o di un’iniziativa comunale. La tua opinione verrà presa in considerazione dal Consiglio Comunale.
       phase_not_open:
         not_open: Questa fase non è ancora aperta
       phase_empty:
         empty: Nulla è stato pubblicato al momento
       process:
         see_latest_comments: Vedere i commenti più recenti
+        see_latest_comments_title: Commenta questo procedimento
       shared:
         draft_publication_date: Pubblicazione in bozza
         result_publication_date: Pubblicazione del risultato finale
