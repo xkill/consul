@@ -14,3 +14,8 @@ it:
       destroy:
         notice: Immagine cancellata con successo.
         alert: Non è possibile distruggere l’immagine.
+        confirm: Sei sicuro di voler cancellare l’immagine? Questa azione non può essere annullata!
+    errors:
+      messages:
+        in_between: deve essere tra %{min} e %{max}
+        wrong_content_type: il contenuto %{content_type} non corrisponde ad alcuna delle tipologie accettate %{accepted_content_types}
