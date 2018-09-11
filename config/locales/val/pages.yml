@@ -75,6 +75,7 @@ val:
         - 
           text: Per tal de poder utilitzar els serveis del Portal de Govern Obert, l'usuari ha de registrarse i proporcionar dades de caràcter personal d'acord amb les especificacions incloses en cada tipus de registre.
         - 
+          text: 'Les dades oferides seran incorporades i processades per l''entitat local d''acord a les condicions establides en el següent arxiu:'
         - 
           subitems:
             - 
@@ -83,6 +84,8 @@ val:
             - 
               field: 'Propòsit de l''arxiu:'
             - 
+              field: 'Organització responsable de l''arxiu:'
+              description: ORGANITZACIÓ RESPONSABLE DE L'ARXIU
         - 
         - 
     accessibility:
@@ -128,6 +131,7 @@ val:
         title: Tamany del text
         browser_settings_table:
           browser_header: Navegador
+          action_header: Acció a realitzar
           rows:
             - 
               browser_column: Explorer
@@ -142,6 +146,12 @@ val:
             - 
               browser_column: Opera
               action_column: Veure > escala
+        browser_shortcuts_table:
+          rows:
+            - 
+              description_column: Incrementa el tamany del text
+            - 
+              description_column: Reduïx el tamany del text
     titles:
       accessibility: Accessibilitat
       conditions: Condicions d'us
