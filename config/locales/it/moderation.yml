@@ -17,16 +17,16 @@ it:
         order: Ordina
         orders:
           flags: Più segnalati
-          newest: Più recente
+          newest: Più recenti
         title: Commenti
     dashboard:
       index:
-        title: Moderare
+        title: Moderazione
     debates:
       index:
-        block_authors: Blocca gli autori
+        block_authors: Blocca autori
         confirm: Sei sicuro?
-        filter: Filtro
+        filter: Filtra
         filters:
           all: Tutti
           pending_flag_review: In sospeso
@@ -110,8 +110,8 @@ it:
     users:
       index:
         hidden: Bloccato
-        hide: Blocco
-        search: Ricerca
-        search_placeholder: e-mail o nome utente
-        title: Bloccare utenti
-      notice_hide: Utente bloccato. Tutti i dibattiti e commenti di questo utente sono state nascostie.
+        hide: Blocca
+        search: Cerca
+        search_placeholder: email o nome utente
+        title: Blocca utenti
+      notice_hide: Utente bloccato. Tutti i dibattiti e commenti di questo utente sono stati nascosti.
