@@ -91,6 +91,7 @@ val:
     accessibility:
       title: Accessibilitat
       keyboard_shortcuts:
+        title: Atalls de teclat
         navigation_table:
           key_header: Clau
           page_header: Pàgina
@@ -119,10 +120,13 @@ val:
           rows:
             - 
               browser_column: Explorer
+              key_column: ALT + Atall i ENTER
             - 
               browser_column: Firefox
+              key_column: ALT + Mayús + Atall
             - 
               browser_column: Chrome
+              key_column: ALT + atall (CTRL + ALT + atalls per a MAC)
             - 
               browser_column: Safari
             - 
