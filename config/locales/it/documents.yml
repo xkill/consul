@@ -1,11 +1,13 @@
 it:
   documents:
+    title: Documenti
     max_documents_allowed_reached_html: Raggiunto il numero massimo di documenti ammessi! <strong> Si deve eliminare uno prima di poter caricare un altro. </ strong>
     form:
       title: Documenti
       title_placeholder: Aggiungere un titolo descrittivo per il documento
       attachment_label: Scegliere documento
       delete_button: Rimuovere documento
+      cancel_button: Cancella
       note: "È possibile caricare fino ad un massimo di %{max_documents_allowed} documenti con i seguenti tipi di contenuto: %{accepted_content_types}, fino a %{max_file_size} MB per ogni file."
       add_new_document: Aggiungi nuovo documento
     actions:
