@@ -79,8 +79,12 @@ it:
         see_latest_comments: Vedere i commenti più recenti
         see_latest_comments_title: Commenta questo procedimento
       shared:
+        key_dates: Date chiave
+        debate_dates: Dibattito
         draft_publication_date: Pubblicazione in bozza
+        allegations_dates: Asserzioni
         result_publication_date: Pubblicazione del risultato finale
+        proposals_dates: Proposte
     questions:
       comments:
         comment_button: Pubblica la risposta
@@ -88,10 +92,26 @@ it:
         comments_closed: Fase chiusa
         form:
           leave_comment: Lascia la tua risposta
+      question:
+        comments:
+          zero: Nessun commento
+          one: "%{count} commento"
+          other: "%{count} commenti"
+        debate: Dibattito
       show:
         answer_question: Invia la risposta
         next_question: Prossima domanda
         first_question: Prima domanda
+        share: Condividi
+        title: Procedimento legislativo collaborativo
       participation:
+        phase_not_open: Questa fase non è ancora aperta
         organizations: Le organizzazioni non sono ammesse a partecipare al dibattito
+        signin: Accedere
+        signup: Registrarsi
+        unauthenticated: È necessario %{signin} o %{signup} per partecipare.
         verified_only: Possono partecipare solo gli utenti verificati, %{verify_account}.
+        verify_account: verifica il tuo account
+        debate_phase_not_open: La fase di dibattito è conclusa e non è più possibile accettare risposte
+    shared:
+      share: Condividi
