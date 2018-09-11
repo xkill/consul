@@ -90,6 +90,7 @@ it:
       registrations:
         delete_form:
           erase_reason_label: Motivo
+          info: Questa azione non può essere annullata. Si prega di essere sicuri che sia ciò che si vuole fare.
         new:
           username_note: Nome visualizzato accanto ai tuoi post
         success:
