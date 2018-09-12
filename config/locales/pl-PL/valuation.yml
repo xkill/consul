@@ -1,5 +1,11 @@
 pl:
   valuation:
+    header:
+      title: Wycena
+    menu:
+      title: Wycena
+      budgets: Budżety partycypacyjne
+      spending_proposals: Wnioski wydatkowe
     budgets:
       index:
         title: Budżety partycypacyjne
@@ -27,3 +33,19 @@ pl:
         valuation_finished_alert: "Czy na pewno chcesz oznaczyć ten raport jako ukończony? Jeśli to zrobisz, nie może on być dalej modyfikowany."
         not_feasible_alert: "E-mail zostanie wysłany niezwłocznie do autora projektu wraz z raportem niewykonalności."
       not_in_valuating_phase: Inwestycje mogą być wyceniane tylko wtedy, gdy Budżet jest w fazie wyceny
+    spending_proposals:
+      show:
+        heading: Projekt inwestycyjny
+        info: Informacje o autorze
+        association_name: Stowarzyszenie
+        by: Wysłane przez
+        sent: Wysłane na
+        geozone: Zakres
+        dossier: Dokumentacja
+        edit_dossier: Edytuj dokumentację
+        price: Koszt
+        price_first_year: Kosztów w pierwszym roku
+        currency: "€"
+        feasibility: Wykonalność
+        feasible: Wykonalne
+        not_feasible: Niewykonalne
