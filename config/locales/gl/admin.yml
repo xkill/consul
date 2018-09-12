@@ -433,7 +433,7 @@ gl:
             error: Erro
         form:
           title_html: 'Editar <span class="strong">%{draft_version_title}</span> do proceso <span class="strong">%{process_title}</span>'
-          launch_text_editor: Lanzar editor de texto
+          launch_text_editor: Abrir editor de texto
           close_text_editor: Pechar editor de texto
           use_markdown: Usar Markdown para formatear o texto
           hints:
