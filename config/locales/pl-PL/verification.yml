@@ -65,8 +65,8 @@ pl:
         postal_code: Kod pocztowy
         postal_code_note: Aby zweryfikować swoje konto, musisz być zarejestrowany
         terms: regulamin dostępu
-        title: Sprawdź rezydencję
-        verify_residence: Sprawdź rezydencję
+        title: Sprawdź adres
+        verify_residence: Sprawdź adres
     sms:
       create:
         flash:
@@ -84,8 +84,27 @@ pl:
         phone_placeholder: "Przykład: 612345678 lub +34612345678"
         submit_button: Wyślij
         title: Wyślij kod potwierdzenia
+      update:
+        error: Niepoprawny kod potwierdzający
+        flash:
+          level_three:
+            success: Kod poprawny. Twoje konto zostało zweryfikowane
+          level_two:
+            success: Kod poprawny
+    step_1: Adres
+    step_2: Kod potwierdzający
+    step_3: Ostateczna weryfikacja
+    user_permission_debates: Uczestniczyć w debatach
+    user_permission_info: Weryfikując swoje dane, będziesz w stanie...
+    user_permission_proposal: Tworzyć nowe wnioski
     user_permission_support_proposal: Popieraj propozycje*
+    user_permission_votes: Uczestniczyć w głosowaniu końcowym*
     verified_user:
+      form:
+        submit_button: Wyślij kod
       show:
+        email_title: E-maile
+        explanation: Obecnie posiadamy następujące dane w Rejestrze; proszę wybrać metodę wysłania twojego kodu potwierdzenia.
+        phone_title: Numery telefonów
         title: Dostępne informacje
         use_another_phone: Użyj innego telefonu
