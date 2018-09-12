@@ -112,6 +112,9 @@ it:
         without_results: Non ci sono dibattiti legati ai tuoi interessi
         without_interests: Seguire proposte così possiamo darvi consigli
         disable: "Le raccomandazioni per i dibattiti smetteranno di apparire se scegli di ignorarle. Puoi riattivarle dalla pagina “Il mio account”"
+        actions:
+          success: "Le raccomandazioni per i dibattiti risultano ora disabilitate per questo account"
+          error: "Si è verificato un errore. Si prega di andare alla pagina “Il mio account” per disabilitare manualmente le raccomandazioni per i dibattiti"
       search_form:
         button: Ricercare
         placeholder: Ricerca dibattiti...
@@ -132,6 +135,9 @@ it:
         help_text_1: "Lo spazio per i dibattiti dei cittadini è rivolto a chiunque sia in grado di esporre questioni relative alla propria preoccupazione e a coloro che desiderano condividere opinioni con altre persone."
         help_text_2: 'Per aprire un dibattito devi registrarti su %{org}. Gli utenti possono anche commentare i dibattiti aperti e valutarli con i pulsanti "Accetto" o "Non sono d''accordo" in ognuno di essi.'
     new:
+      form:
+        submit_button: Avvia un dibattito
+      info: Se vuoi presentare una proposta, questa è la sezione sbagliata, seleziona %{info_link}.
       info_link: creare una nuova proposta
       more_info: Ulteriori informazioni
     show:
