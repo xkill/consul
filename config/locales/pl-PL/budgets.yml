@@ -98,6 +98,8 @@ pl:
         price_explanation: Wyjaśnienie ceny
         unfeasibility_explanation: Wyjaśnienie niewykonalności
         code_html: 'Kod projektu inwestycyjnego: <strong>%{code}</strong>'
+        location_html: 'Lokalizacja <strong>%{location}</strong>'
+        organization_name_html: 'Zawnioskowano w imieniu: <strong>%{name}</strong>'
         share: Udostępnij
         title: Projekt inwestycyjny
         supports: Wspiera
