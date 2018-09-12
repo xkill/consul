@@ -160,7 +160,27 @@ pl:
         image_title: "Tytuł obrazu"
       budget/investment/milestone:
         status_id: "Bieżący stan inwestycji (opcjonalnie)"
+        title: "Tytuł"
+        description: "Opis (opcjonalnie, jeśli istnieje przydzielony stan)"
+        publication_date: "Data publikacji"
+      budget/investment/status:
+        name: "Nazwa"
+        description: "Opis (opcjonalnie)"
+      budget/heading:
+        name: "Nazwa nagłówka"
+        price: "Koszt"
+        population: "Populacja"
+      comment:
+        body: "Komentarz"
+        user: "Użytkownik"
+      debate:
+        author: "Autor"
+        description: "Opinia"
+        terms_of_service: "Regulamin"
+        title: "Tytuł"
       proposal:
+        author: "Autor"
+        title: "Tytuł"
         question: "Pytanie"
         description: "Opis"
         terms_of_service: "Warunki użytkowania"
@@ -172,6 +192,8 @@ pl:
         password: "Hasło"
         current_password: "Obecne hasło"
         phone_number: "Numer telefonu"
+        official_position: "Oficjalne stanowisko"
+        official_level: "Oficjalny poziom"
         redeemable_code: "Kod weryfikacyjny otrzymany za pośrednictwem poczty e-mail"
       organization:
         name: "Nazwa organizacji"
@@ -189,7 +211,20 @@ pl:
         ends_at: "Data Zakończenia"
         geozone_restricted: "Ograniczone przez geozone"
         summary: "Podsumowanie"
+        description: "Opis"
+      poll/question:
+        title: "Pytanie"
+        summary: "Podsumowanie"
+        description: "Opis"
+        external_url: "Link do dodatkowej dokumentacji"
+      signature_sheet:
+        signable_type: "Rodzaj podpisywalny"
+        signable_id: "Podpisywalny identyfikator"
+        document_numbers: "Numery dokumentów"
       site_customization/page:
+        content: Zawartość
+        created_at: Utworzony w
+        subtitle: Napis
         more_info_flag: Pokaż na stronie pomocy
         print_content_flag: Przycisk Drukuj zawartość
         locale: Język
