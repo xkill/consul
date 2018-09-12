@@ -104,6 +104,7 @@ pl:
         comments_tab: Komentarze
         milestones_tab: Kamienie milowe
         no_milestones: Nie ma zdefiniowanych kamieni milowych
+        milestone_publication_date: "Opublikowane %{publication_date}"
         milestone_status_changed: Zmieniono stan inwestycji na
         author: Autor
         project_unfeasible_html: 'Ten projekt inwestycyjny <strong>został oznaczony jako niewykonalny</strong> i nie przejdzie do fazy głosowania.'
@@ -121,6 +122,7 @@ pl:
         give_support: Wsparcie
       header:
         check_ballot: Sprawdź moje głosowanie
+        different_heading_assigned_html: "Posiadasz aktywne głosy w innym nagłówku: %{heading_link}"
         change_ballot: "Jeśli zmienisz zdanie, możesz usunąć swoje głosy w %{check_ballot} i zacząć od nowa."
         check_ballot_link: "sprawdź moje głosowanie"
         price: "Ten dział ma budżet w wysokości"
