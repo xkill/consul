@@ -140,11 +140,33 @@ it:
       info: Se vuoi presentare una proposta, questa è la sezione sbagliata, seleziona %{info_link}.
       info_link: creare una nuova proposta
       more_info: Ulteriori informazioni
+      recommendation_four: Goditi questo spazio e le voci che lo riempiono. Appartiene anche a te.
+      recommendation_one: Non utilizzare lettere maiuscole per il titolo del dibattito o per frasi intere. Su internet, questo è considerato gridare. E a nessuno piace che gli si urli contro.
+      recommendation_three: La critica spietata è benvenuta. Questo è uno spazio di riflessione. Ma si consiglia di attenersi a criteri di eleganza e intelligenza. Il mondo è un luogo migliore in presenza di tali virtù.
+      recommendation_two: Qualsiasi dibattito o commento che suggerisca azioni illegali sarà cancellato, così come coloro che intendano sabotare gli spazi del dibattito. Tutto il resto è permesso.
+      recommendations_title: Raccomandazioni per la creazione di un dibattito
+      start_new: Avvia un dibattito
     show:
+      author_deleted: Utente cancellato
+      comments:
+        zero: Nessun commento
+        one: 1 commento
+        other: "%{count} commenti"
+      comments_title: Commenti
+      edit_debate_link: Modifica
       flag: Questo dibattito è stato contrassegnato come inappropriato da diversi utenti.
+      login_to_comment: È necessario %{signin} o %{signup} per lasciare un commento.
+      share: Condividi
+      author: Autore
+    update:
+      form:
+        submit_button: Salva le modifiche
   errors:
     messages:
       user_not_found: Utente non trovato
+      invalid_date_range: "Intervallo di date non valido"
+  form:
+    accept_terms: Acconsento alle %{policy} e alle %{conditions}
   layouts:
     footer:
       consul_url: https://github.com/consul/consul
