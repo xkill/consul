@@ -22,6 +22,7 @@ it:
       official_position_badge_label: Visualizza l'etichetta (badge) del tipo di utente
       recommendations: Raccomandazioni
       show_debates_recommendations: Visualizza le raccomandazioni per i dibattiti
+      show_proposals_recommendations: Visualizza le raccomandazioni per le proposte
       title: Il mio account
       user_permission_debates: Partecipare ai dibattiti
       user_permission_info: Con il tuo account puoi...
@@ -110,6 +111,7 @@ it:
       recommendations:
         without_results: Non ci sono dibattiti legati ai tuoi interessi
         without_interests: Seguire proposte così possiamo darvi consigli
+        disable: "Le raccomandazioni per i dibattiti smetteranno di apparire se scegli di ignorarle. Puoi riattivarle dalla pagina “Il mio account”"
       search_form:
         button: Ricercare
         placeholder: Ricerca dibattiti...
