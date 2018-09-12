@@ -27,6 +27,12 @@ pl:
         assigned_to: "Przypisane do %{valuator}"
         title: Projekty inwestycyjne
         edit: Edytuj dokumentację
+        valuators_assigned:
+          one: Przypisany wyceniający
+          few: "%{count} przypisani wyceniający"
+          many: "%{count} przypisani wyceniający"
+          other: "%{count} przypisani wyceniający"
+        no_valuators_assigned: Brak przypisanych wyceniających
       edit:
         price_first_year_html: "Koszt w pierwszym roku (%{currency}) <small>(opcjonalnie, dane nie są publiczne)</small>"
         price_explanation_html: Wyjaśnienie ceny
