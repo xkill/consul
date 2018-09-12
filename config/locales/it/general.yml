@@ -167,6 +167,12 @@ it:
       invalid_date_range: "Intervallo di date non valido"
   form:
     accept_terms: Acconsento alle %{policy} e alle %{conditions}
+    accept_terms_title: Acconsento all’Informativa sulla Privacy e ai Termini e condizioni d’uso
+    conditions: Termini e condizioni d'uso
+    debate: Dibattito
+    direct_message: messaggio privato
+    error: errore
+    errors: errori
   layouts:
     footer:
       consul_url: https://github.com/consul/consul
