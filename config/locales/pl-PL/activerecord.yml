@@ -131,14 +131,25 @@ pl:
         few: "Tematy"
         many: "Tematów"
         other: "Tematów"
+      proposal_notification:
+        one: "Powiadomienie o wniosku"
+        few: "Powiadomienie o wnioskach"
+        many: "Powiadomienie o wnioskach"
+        other: "Powiadomienie o wnioskach"
     attributes:
       budget:
+        name: "Nazwa"
         description_accepting: "Opis w fazie Akceptowania"
         description_reviewing: "Opis w fazie Przeglądania"
         description_selecting: "Opis w fazie Wybierania"
         description_valuating: "Opis w fazie Wyceny"
         description_balloting: "Opis w fazie Głosowania"
+        description_reviewing_ballots: "Opis na etapie Przeglądu Głosów"
         description_finished: "Opis po zakończeniu budżetu"
+        phase: "Etap"
+        currency_symbol: "Waluta"
+      budget/investment:
+        heading_id: "Nagłówek"
       proposal:
         question: "Pytanie"
         description: "Opis"
@@ -168,6 +179,19 @@ pl:
         ends_at: "Data Zakończenia"
         geozone_restricted: "Ograniczone przez geozone"
         summary: "Podsumowanie"
+      site_customization/page:
+        more_info_flag: Pokaż na stronie pomocy
+        print_content_flag: Przycisk Drukuj zawartość
+        locale: Język
+      site_customization/image:
+        name: Nazwa
+        image: Obraz
+      site_customization/content_block:
+        name: Nazwa
+        locale: ustawienia regionalne
+        body: Ciało
+      legislation/process:
+        title: Tytuł procesu
       widget/feed:
         limit: Liczba elementów
     errors:
