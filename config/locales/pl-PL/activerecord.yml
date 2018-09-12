@@ -313,6 +313,10 @@ pl:
           attributes:
             segment_recipient:
               invalid: "Segment odbiorców użytkownika jest nieprawidłowy"
+        admin_notification:
+          attributes:
+            segment_recipient:
+              invalid: "Segment odbiorców użytkownika jest nieprawidłowy"
         map_location:
           attributes:
             map:
@@ -328,6 +332,16 @@ pl:
               invalid_date_range: musi być nie wcześniej niż data rozpoczęcia
             debate_end_date:
               invalid_date_range: musi być nie wcześniej niż data rozpoczęcia debaty
+            allegations_end_date:
+              invalid_date_range: musi być w dniu lub po dacie rozpoczęcia zarzutów
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "liczba tagów musi być mniejsza lub równa %{count}"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "liczba tagów musi być mniejsza lub równa %{count}"
         proposal_notification:
           attributes:
             minimum_interval:
