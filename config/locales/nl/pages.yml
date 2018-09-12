@@ -152,7 +152,16 @@ nl:
               action_column: Instellingen (pictogram) > Opties > Geavanceerd > Web Content > tekstgrootte
             - 
               browser_column: Safari
+              action_column: Weergave > zoom in/zoom uit
             - 
+              browser_column: Opera
+              action_column: Weergave > schaal
+        browser_shortcuts_table:
+          rows:
+            - 
+              description_column: Vergroot de tekstgrootte
+            - 
+              description_column: Vermindert de tekstgrootte
     titles:
       accessibility: Toegankelijkheid
       conditions: Gebruikersvoorwaarden
