@@ -37,7 +37,57 @@ pl:
         empty_proposals: Brak wniosków
       debate:
         empty_questions: Brak pytań
+        participate: Uczestniczyć w debacie
+      index:
+        filter: Filtr
+        filters:
+          open: Otwarte procesy
+          next: Następny
+          past: Ubiegły
+        no_open_processes: Nie ma otwartych procesów
+        no_next_processes: Nie ma zaplanowanych procesów
+        no_past_processes: Brak ubiegłych procesów
+        section_header:
+          icon_alt: Ikona procesów legislacyjnych
+          title: Procesy legislacyjne
+          help: Pomoc odnośnie procesów prawodawczych
+        section_footer:
+          title: Pomoc odnośnie procesów prawodawczych
+          description: Weź udział w debatach i procesach przed zatwierdzeniem zarządzenia lub akcji gminnej. Twoja opinia zostanie rozpatrzona przez Radę Miejską.
+      phase_not_open:
+        not_open: Ten etap nie jest jeszcze otwarty
+      phase_empty:
+        empty: Nic nie jest jeszcze publikowane
+      process:
+        see_latest_comments: Zobacz ostatnie komentarze
+        see_latest_comments_title: Wypowiedz się na temat tego procesu
+      shared:
+        key_dates: Najważniejsze daty
+        debate_dates: Debata
+        draft_publication_date: Projekt publikacji
+        allegations_dates: Zarzuty
+        result_publication_date: Publikacja wyniku końcowego
+        proposals_dates: Wnioski
     questions:
+      comments:
+        comment_button: Opublikuj odpowiedź
+        comments_title: Otwórz odpowiedzi
+        comments_closed: Faza zamknięta
+        form:
+          leave_comment: Zostaw swoją odpowiedź
+      question:
+        comments:
+          zero: Brak komentarzy
+          one: "%{count} komentarz"
+          few: "%{count} komentarze"
+          many: "%{count} komentarze"
+          other: "%{count} komentarze"
+        debate: Debata
+      show:
+        answer_question: Zatwierdź odpowiedź
+        next_question: Następne pytanie
+        first_question: Pierwsze pytanie
+        share: Udostępnij
       participation:
         organizations: Organizacje nie mogą uczestniczyć w debacie
         verified_only: Tylko zweryfikowani użytkownicy mogą uczestniczyć, %{verify_account}.
