@@ -54,12 +54,27 @@ pl:
       form:
         submit_button: Zapisz zmiany
     form:
+      tags_instructions: Oznacz tę debatę.
       tags_label: Tematy
+      tags_placeholder: "Wprowadź oznaczenia, których chciałbyś użyć, rozdzielone przecinkami (',')"
     index:
+      featured_debates: Opisany
+      filter_topic:
+        one: " z tematem '%{topic}'"
+        few: " z tematem '%{topic}'"
+        many: " z tematem '%{topic}'"
+        other: " z tematem '%{topic}'"
       orders:
+        confidence_score: najwyżej oceniane
         created_at: najnowsze
+        hot_score: najbardziej aktywne
         most_commented: najczęściej komentowane
+        relevance: stosowność
         recommendations: rekomendacje
+      recommendations:
+        without_results: Brak debat związanych z Twoimi zainteresowaniami
+        without_interests: Śledź propozycje, abyśmy mogli przedstawić Ci rekomendacje
+        disable: "Rekomendacje debat zostaną powstrzymane, jeśli je odrzucisz. Możesz je ponownie włączyć na stronie \"Moje konto\""
       search_form:
         button: Szukaj
         title: Szukaj
