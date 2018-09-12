@@ -241,6 +241,53 @@ pl:
         body: Ciało
       legislation/process:
         title: Tytuł procesu
+        summary: Podsumowanie
+        description: Opis
+        additional_info: Informacje dodatkowe
+        start_date: Data rozpoczęcia
+        end_date: Data zakończenia
+        debate_start_date: Data rozpoczęcia debaty
+        debate_end_date: Data zakończenia debaty
+        draft_publication_date: Data publikacji projektu
+        allegations_start_date: Data rozpoczęcia zarzutów
+        allegations_end_date: Data zakończenia zarzutów
+        result_publication_date: Data publikacji wyniku końcowego
+      legislation/draft_version:
+        title: Tytuł w wersji
+        body: Tekst
+        changelog: Zmiany
+        status: Stan
+        final_version: Wersja ostateczna
+      legislation/question:
+        title: Tytuł
+        question_options: Opcje
+      legislation/question_option:
+        value: Wartość
+      legislation/annotation:
+        text: Komentarz
+      document:
+        title: Tytuł
+        attachment: Załącznik
+      image:
+        title: Tytuł
+        attachment: Załącznik
+      poll/question/answer:
+        title: Odpowiedź
+        description: Opis
+      poll/question/answer/video:
+        title: Tytuł
+        url: Zewnętrzne video
+      newsletter:
+        segment_recipient: Adresaci
+        subject: Temat
+        from: Od
+        body: Treść wiadomości e-mail
+      widget/card:
+        label: Etykieta (opcjonalnie)
+        title: Tytuł
+        description: Opis
+        link_text: Tekst łącza
+        link_url: Łącze URL
       widget/feed:
         limit: Liczba elementów
     errors:
@@ -262,6 +309,10 @@ pl:
             attachment:
               min_image_width: "Szerokość obrazu musi wynosić co najmniej %{required_min_width}px"
               min_image_height: "Wysokość obrazu musi wynosić co najmniej %{required_min_height}px"
+        newsletter:
+          attributes:
+            segment_recipient:
+              invalid: "Segment odbiorców użytkownika jest nieprawidłowy"
         map_location:
           attributes:
             map:
