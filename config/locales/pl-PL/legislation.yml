@@ -9,13 +9,18 @@ pl:
         see_in_context: Zobacz w kontekście
       show:
         title: Komentarz
+      version_chooser:
+        seeing_version: Komentarze dla wersji
+        see_text: Zobacz projekt tekstu
     draft_versions:
       changes:
+        title: Zmiany
         seeing_changelog_version: Podsumowanie zmian rewizji
         see_text: Zobacz projekt tekstu
       show:
         loading_comments: Ładowanie komentarzy
         seeing_version: Patrzysz na wersję roboczą
+        select_draft_version: Zobacz projekt
         select_version_submit: zobacz
         updated_at: zaktualizowane dnia %{date}
         see_changes: zobacz podsumowanie zmian
@@ -30,6 +35,8 @@ pl:
         more_info: Więcej informacji i kontekst
       proposals:
         empty_proposals: Brak wniosków
+      debate:
+        empty_questions: Brak pytań
     questions:
       participation:
         organizations: Organizacje nie mogą uczestniczyć w debacie
