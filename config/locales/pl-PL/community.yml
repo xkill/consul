@@ -1,6 +1,7 @@
 pl:
   community:
     sidebar:
+      title: Społeczność
       description:
         proposal: Weź udział w społeczności użytkowników tej propozycji.
         investment: Weź udział w społeczności użytkowników tej inwestycji.
@@ -8,8 +9,10 @@ pl:
     show:
       title:
         proposal: Społeczność propozycji
+        investment: Społeczność inwestycji budżetowych
       description:
         proposal: Weź udział w społeczności tej propozycji. Aktywna społeczność może pomóc w poprawie treści propozycji oraz zwiększyć jej rozpowszechnienie, zapewniając większe poparcie.
+        investment: Weź udział we wspólnocie tej inwestycji budżetowej. Aktywna społeczność może pomóc w ulepszeniu zakresu inwestycji budżetowych i zwiększyć ich rozpowszechnianie w celu uzyskania większego wsparcia.
       create_first_community_topic:
         first_theme_not_logged_in: Brak dostępnych spraw, uczestnicz tworząc pierwszą.
         first_theme: Utwórz pierwszy temat społeczności
