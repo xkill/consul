@@ -55,3 +55,18 @@ pl:
         internal_comments: Wewnętrzne Komentarze
         responsibles: Odpowiedzialni
         assigned_admin: Przypisany administrator
+        assigned_valuators: Przypisani wyceniający
+      edit:
+        dossier: Dokumentacja
+        price_html: "Koszt (%{currency})"
+        price_first_year_html: "Koszt w pierwszym roku (%{currency})"
+        currency: "€"
+        price_explanation_html: Wyjaśnienie ceny
+        feasibility: Wykonalność
+        feasible: Wykonalne
+        not_feasible: Niewykonalne
+        undefined_feasible: Oczekujące
+        feasible_explanation_html: Wyjaśnienie wykonalności
+        valuation_finished: Wycena zakończona
+        time_scope_html: Zakres czasu
+        internal_comments_html: Komentarze Wewnętrzne
