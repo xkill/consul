@@ -49,3 +49,9 @@ pl:
         feasibility: Wykonalność
         feasible: Wykonalne
         not_feasible: Niewykonalne
+        undefined: Niezdefiniowany
+        valuation_finished: Wycena zakończona
+        time_scope: Zakres czasu
+        internal_comments: Wewnętrzne Komentarze
+        responsibles: Odpowiedzialni
+        assigned_admin: Przypisany administrator
