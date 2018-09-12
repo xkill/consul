@@ -16,6 +16,8 @@ pl:
       show:
         loading_comments: Ładowanie komentarzy
         seeing_version: Patrzysz na wersję roboczą
+        select_version_submit: zobacz
+        updated_at: zaktualizowane dnia %{date}
     questions:
       participation:
         organizations: Organizacje nie mogą uczestniczyć w debacie
