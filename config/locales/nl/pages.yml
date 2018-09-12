@@ -89,6 +89,70 @@ nl:
               description: INSTELLING DIE BELAST IS MET HET BESTAND
         - 
         - 
+    accessibility:
+      title: Toegankelijkheid
+      keyboard_shortcuts:
+        title: Sneltoetsen
+        navigation_table:
+          caption: Sneltoetsen voor het navigatiemenu
+          key_header: Toets
+          page_header: Pagina
+          rows:
+            - 
+              key_column: 0
+              page_column: Homepagina
+            - 
+              key_column: 1
+              page_column: Discussies
+            - 
+              key_column: 2
+              page_column: Voorstellen
+            - 
+              key_column: 3
+              page_column: Stemmen
+            - 
+              key_column: 4
+              page_column: Burgerbegrotingen
+            - 
+              key_column: 5
+              page_column: Wetgevingsprocessen
+        browser_table:
+          browser_header: Browser
+          key_header: Toetsencombinatie
+          rows:
+            - 
+              browser_column: Explorer
+              key_column: ALT + sneltoets en ENTER
+            - 
+              browser_column: Firefox
+              key_column: ALT + CAPS + sneltoets
+            - 
+              browser_column: Chrome
+              key_column: ALT + sneltoets (CTRL + ALT + sneltoets voor MAC)
+            - 
+              browser_column: Safari
+              key_column: ALT + sneltoets (CMD + sneltoets voor MAC)
+            - 
+              browser_column: Opera
+              key_column: CAPS + ESC + sneltoets
+      textsize:
+        title: Tekstgrootte
+        browser_settings_table:
+          browser_header: Browser
+          action_header: Te ondernemen actie
+          rows:
+            - 
+              browser_column: Explorer
+              action_column: Weergave > tekstgrootte
+            - 
+              browser_column: Firefox
+              action_column: Weergave > grootte
+            - 
+              browser_column: Chrome
+              action_column: Instellingen (pictogram) > Opties > Geavanceerd > Web Content > tekstgrootte
+            - 
+              browser_column: Safari
+            - 
     titles:
       accessibility: Toegankelijkheid
       conditions: Gebruikersvoorwaarden
