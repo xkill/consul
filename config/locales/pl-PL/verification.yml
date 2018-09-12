@@ -65,6 +65,8 @@ pl:
         postal_code: Kod pocztowy
         postal_code_note: Aby zweryfikować swoje konto, musisz być zarejestrowany
         terms: regulamin dostępu
+        title: Sprawdź rezydencję
+        verify_residence: Sprawdź rezydencję
     sms:
       create:
         flash:
@@ -74,9 +76,14 @@ pl:
         resend_sms_link: Kliknij tutaj, aby wysłać go ponownie
         resend_sms_text: Nie otrzymałeś wiadomości z kodem potwierdzającym?
         submit_button: Wyślij
+        title: Potwierdzenie kodu zabezpieczień
       new:
         phone: Wprowadź swój numer telefonu komórkowego, aby otrzymać kod
+        phone_format_html: "<strong><em>(przykład: 612345678 lub +34612345678)</em></strong>"
         phone_note: Używamy Twojego telefonu tylko do wysłania kodu, nigdy aby się z Tobą skontaktować.
+        phone_placeholder: "Przykład: 612345678 lub +34612345678"
+        submit_button: Wyślij
+        title: Wyślij kod potwierdzenia
     user_permission_support_proposal: Popieraj propozycje*
     verified_user:
       show:
