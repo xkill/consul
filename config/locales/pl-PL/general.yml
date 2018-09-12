@@ -115,24 +115,52 @@ pl:
     errors: błędy
     not_saved_html: "uniemożliwił zapisanie tego %{resource} <br> Sprawdź zaznaczone pola, aby dowiedzieć się, jak je poprawić:"
     policy: Polityka prywatności
+    proposal: Wniosek
+    proposal_notification: "Powiadomienie"
+    spending_proposal: Wniosek wydatkowy
+    budget/investment: Inwestycja
+    budget/heading: Nagłówek budżetu
+    poll/shift: Zmiana
+    poll/question/answer: Odpowiedź
+    user: Konto
     verification/sms: telefon
+    signature_sheet: Arkusz podpisu
     document: Dokument
     topic: Temat
     image: Obraz
+  geozones:
+    none: Całe miasto
+    all: Wszystkie zakresy
   layouts:
     application:
       chrome: Google Chrome
       firefox: Firefox
+      ie_title: Ta strona internetowa nie jest zoptymalizowana pod kątem Twojej przeglądarki
     footer:
+      accessibility: Dostępność
+      conditions: Regulamin
       consul: Aplikacja CONSUL
       consul_url: https://github.com/consul/consul
+      contact_us: Do centrów pomocy technicznej
       copyright: CONSUL, %{year}
+      open_source: oprogramowanie open-source
+      open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
+      participation_text: Decyduj, jak kształtować miasto, w którym chcesz mieszkać.
       participation_title: Partycypacja
       privacy: Polityka prywatności
     header:
+      administration_menu: Administrator
+      administration: Administracja
       available_locales: Dostępne wersje językowe
       collaborative_legislation: Procesy legislacyjne
+      debates: Debaty
       external_link_blog: Blog
+      locale: 'Język:'
+      logo: Logo CONSUL
+      management: Zarząd
+      moderation: Moderacja
+      valuation: Wycena
+      officing: Urzędnicy głosujący
   locale: angielski
   notifications:
     index:
