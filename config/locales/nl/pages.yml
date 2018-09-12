@@ -105,6 +105,7 @@ nl:
       keyboard_shortcuts:
         title: Sneltoetsen
         navigation_table:
+          description: Om te kunnen navigeren via deze website op een toegankelijke manier is een groep van sneltoetsen geprogrammeerd. Deze combinaties van sneltoetsen organiseren de belangrijkste onderdelen van de website op een heldere manier.
           caption: Sneltoetsen voor het navigatiemenu
           key_header: Toets
           page_header: Pagina
@@ -128,6 +129,8 @@ nl:
               key_column: 5
               page_column: Wetgevingsprocessen
         browser_table:
+          description: 'Afhankelijk van het besturingssysteem en de browser die je gebruikt, zullen de toetsencombinaties als volgt zijn:'
+          caption: Toetsencombinatie afhankelijk van het besturingssysteem en browser
           browser_header: Browser
           key_header: Toetsencombinatie
           rows:
@@ -149,6 +152,7 @@ nl:
       textsize:
         title: Tekstgrootte
         browser_settings_table:
+          description: Het toegankelijke ontwerp van de website zorgt ervoor dat de deelnemer de tekstgrootte zelf kan bepalen. Dit kan op verschillende manieren worden aangepast, afhankelijk van de browser die gebruikt wordt.
           browser_header: Browser
           action_header: Te ondernemen actie
           rows:
