@@ -26,6 +26,7 @@ pl:
           valuation_finished: Wycena zakończona
         assigned_to: "Przypisane do %{valuator}"
         title: Projekty inwestycyjne
+        edit: Edytuj dokumentację
       edit:
         price_first_year_html: "Koszt w pierwszym roku (%{currency}) <small>(opcjonalnie, dane nie są publiczne)</small>"
         price_explanation_html: Wyjaśnienie ceny
