@@ -80,8 +80,10 @@ pl:
           change_ballot: "Jeśli zmienisz zdanie, możesz usunąć swoje głosy w %{check_ballot} i zacząć od nowa."
           check_ballot_link: "sprawdź moje głosowanie"
           zero: Nie zagłosowałeś na żaden z projektów inwestycyjnych w tej grupie.
+          verified_only: "By stworzyć nową inwestycję budżetową %{verify}."
           verify_account: "zweryfikuj swoje konto"
           create: "Utwórz nowy projekt"
+          not_logged_in: "By stworzyć nową inwestycję budżetową musisz %{sign_in} lub %{sign_up}."
           sign_in: "zaloguj się"
           sign_up: "zarejestruj się"
           by_feasibility: Według wykonalności
