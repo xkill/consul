@@ -225,6 +225,10 @@ pl:
         content: Zawartość
         created_at: Utworzony w
         subtitle: Napis
+        slug: Ścieżka
+        status: Stan
+        title: Tytuł
+        updated_at: Aktualizacja w
         more_info_flag: Pokaż na stronie pomocy
         print_content_flag: Przycisk Drukuj zawartość
         locale: Język
