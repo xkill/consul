@@ -150,6 +150,16 @@ pl:
         currency_symbol: "Waluta"
       budget/investment:
         heading_id: "Nagłówek"
+        title: "Tytuł"
+        description: "Opis"
+        external_url: "Link do dodatkowej dokumentacji"
+        administrator_id: "Administrator"
+        location: "Lokalizacja (opcjonalnie)"
+        organization_name: "Jeśli wnioskujesz w imieniu zespołu/organizacji, lub w imieniu większej liczby osób, wpisz ich nazwę"
+        image: "Opisowy obraz wniosku"
+        image_title: "Tytuł obrazu"
+      budget/investment/milestone:
+        status_id: "Bieżący stan inwestycji (opcjonalnie)"
       proposal:
         question: "Pytanie"
         description: "Opis"
