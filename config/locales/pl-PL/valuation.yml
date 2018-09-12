@@ -1,6 +1,22 @@
 pl:
   valuation:
+    budgets:
+      index:
+        title: Budżety partycypacyjne
+        filters:
+          current: Otwarte
+          finished: Zakończone
+        table_name: Nazwa
+        table_phase: Etap
+        table_assigned_investments_valuation_open: Projekty inwestycyjne powiązane z wyceną otwarte
+        table_actions: Akcje
+        evaluate: Oceń
     budget_investments:
+      index:
+        headings_filter_all: Wszystkie nagłówki
+        filters:
+          valuation_open: Otwarte
+          valuating: W trakcie wyceny
       edit:
         price_first_year_html: "Koszt w pierwszym roku (%{currency}) <small>(opcjonalnie, dane nie są publiczne)</small>"
         price_explanation_html: Wyjaśnienie ceny
