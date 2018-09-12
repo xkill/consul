@@ -860,7 +860,7 @@ gl:
     questions:
       index:
         title: "Preguntas"
-        create: "Crear pregunta cidadá"
+        create: "Crear pregunta"
         no_questions: "Non hai preguntas cidadás."
         filter_poll: Filtrar por votación
         select_poll: Escoller votación
@@ -872,7 +872,7 @@ gl:
       edit:
         title: "Editar pregunta cidadá"
       new:
-        title: "Crear pregunta cidadá"
+        title: "Crear pregunta"
         poll_label: "Votación"
       answers:
         images:
