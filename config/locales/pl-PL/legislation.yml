@@ -88,11 +88,21 @@ pl:
         next_question: Następne pytanie
         first_question: Pierwsze pytanie
         share: Udostępnij
+        title: Wspólny proces legislacyjny
       participation:
+        phase_not_open: Ten etap nie jest otwarty
         organizations: Organizacje nie mogą uczestniczyć w debacie
+        signin: Zaloguj się
+        signup: Zarejestruj się
+        unauthenticated: Muszą być %{signin} lub %{signup} do udziału.
         verified_only: Tylko zweryfikowani użytkownicy mogą uczestniczyć, %{verify_account}.
+        verify_account: zweryfikuj swoje konto
         debate_phase_not_open: Faza debaty została zakończona i odpowiedzi nie są już akceptowane
+    shared:
+      share: Udostępnij
+      share_comment: Komentarz odnośnie %{version_name} z projektu procesu %{process_name}
     proposals:
       form:
         tags_label: "Kategorie"
+      not_verified: "W przypadku propozycji głosowania %{verify_account}."
       closed: "Ten proces został zamknięty i nie może otrzymywać głosów."
