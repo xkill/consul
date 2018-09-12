@@ -18,6 +18,18 @@ pl:
         seeing_version: Patrzysz na wersję roboczą
         select_version_submit: zobacz
         updated_at: zaktualizowane dnia %{date}
+        see_changes: zobacz podsumowanie zmian
+        see_comments: Zobacz wszystkie komentarze
+        text_toc: Spis treści
+        text_body: Tekst
+        text_comments: Komentarze
+    processes:
+      header:
+        additional_info: Dodatkowe informacje
+        description: Opis
+        more_info: Więcej informacji i kontekst
+      proposals:
+        empty_proposals: Brak wniosków
     questions:
       participation:
         organizations: Organizacje nie mogą uczestniczyć w debacie
