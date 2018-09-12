@@ -71,3 +71,5 @@ pl:
         time_scope_html: Zakres czasu
         internal_comments_html: Komentarze Wewnętrzne
         save: Zapisz zmiany
+      notice:
+        valuate: "Dokumentacja zaktualizowana"
