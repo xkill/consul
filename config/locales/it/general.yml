@@ -461,15 +461,77 @@ it:
     show:
       vote_answer: "Voto %{answer}"
       voted: "Hai votato %{answer}"
+      voted_token: "Puoi appuntarti questo identificativo di voto, per controllare il tuo voto nei risultati finali:"
+  proposal_notifications:
+    new:
+      title: "Invia messaggio"
+      title_label: "Titolo"
+      body_label: "Messaggio"
+      submit_button: "Invia messaggio"
+      info_about_receivers_html: "Questo messaggio sarà inviato a <strong>%{count} persone</strong> e sarà visibile sulla %{proposal_page}.<br> I messaggi non vengono inviati immediatamente, gli utenti riceveranno periodicamente una email con tutte le notifiche di proposta."
+      proposal_page: "pagina della proposta"
+    show:
+      back: "Torna alle mie attività"
   shared:
+    edit: 'Modifica'
+    save: 'Salva'
     delete: Eliminare
     "yes": "Sì"
     "no": "No"
     search_results: "Risultati della ricerca"
+    advanced_search:
+      author_type: 'Per categoria di autore'
+      author_type_blank: 'Seleziona una categoria'
+      date: 'Per data'
+      date_placeholder: 'GG/MM/AAAA'
+      date_range_blank: 'Scegli una data'
+      date_1: 'Ultime 24 ore'
+      date_2: 'Settimana scorsa'
+      date_3: 'Mese scorso'
+      date_4: 'Anno scorso'
+      date_5: 'Personalizzata'
+      from: 'Da'
+      general: 'Con il testo'
+      general_placeholder: 'Scrivi il testo'
+      search: 'Filtra'
+      title: 'Ricerca avanzata'
+      to: 'A'
+    author_info:
+      author_deleted: Utente cancellato
     back: Indietro
     check: Selezionare
+    check_all: Tutti
+    check_none: Nessuno
+    collective: Associazione
+    flag: Contrassegna come inappropriato
+    follow: "Segui"
+    following: "Seguendo"
     hide: Nascondi
     show: Mostra
+  spending_proposals:
+    form:
+      submit_buttons:
+        new: Crea
+      title: Titolo della proposta di spesa
+    index:
+      title: Bilancio partecipativo
+      unfeasible: Progetti di investimento irrealizzabili
+      by_geozone: "Progetti di investimento con ambito di applicazione: %{geozone}"
+      search_form:
+        button: Cerca
+        placeholder: Progetti di investimento...
+        title: Cerca
+      search_results:
+        one: " contenente il termine '%{search_term}'"
+        other: " contenenti il termine '%{search_term}'"
+      sidebar:
+        geozones: Ambito operativo
+        feasibility: Fattibilità
+        unfeasible: Irrealizzabile
+      start_spending_proposal: Crea un progetto di investimento
+    new:
+      more_info: Come funziona il bilancio partecipativo?
+      recommendation_one: È obbligatorio che la proposta faccia riferimento a un’attività inseribile a bilancio.
   stats:
     index:
       visits: Visite
