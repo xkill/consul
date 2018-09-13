@@ -90,7 +90,9 @@ de:
         - 
           text: Die interessierte Partei kann die Rechte auf Zugang, Berichtigung, Löschung und Widerspruch vor der zuständigen Stelle ausüben, die alle gemäß Artikel 5 des Gesetzes 15/1999 vom 13. Dezember über den Schutz persönlicher Daten mitgeteilt wurden.
         - 
+          text: Als allgemeiner Grundsatz, teilt oder veröffentlicht diese Webseite keine erhaltenen Informationen, außer dies wird vom Nutzer autorisiert, oder die Information wird von der Justizbehörde, der Staatsanwaltschaft, der Gerichtspolizei, oder anderen Fällen, die in Artikel 11 des Organic Law 15/1999 vom 13ten Dezember bezüglich des Schutzes persönlicher Daten festgelegt sind, benötigt.
     accessibility:
+      title: Zugänglichkeit
       keyboard_shortcuts:
         navigation_table:
           page_header: Seite
