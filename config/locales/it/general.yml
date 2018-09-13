@@ -308,8 +308,35 @@ it:
       retired_reason_label: Motivo del ritiro della proposta
       retired_reason_blank: Scegli un'opzione
       retired_explanation_label: Spiegazione
+      retired_explanation_placeholder: Spiega brevemente perché ritieni che questa proposta non debba ricevere ulteriori sostegni
+      submit_button: Ritira proposta
     retire_options:
+      duplicated: Duplicazione
+      started: Già in corso
+      unfeasible: Irrealizzabile
       done: Fatto
+      other: Altro
+    form:
+      geozone: Ambito operativo
+      proposal_external_url: Link alla documentazione integrativa
+      proposal_question: Quesito della proposta
+      proposal_question_example_html: "Dev’essere riassunto in un’unico quesito con risposta Sì o No"
+      proposal_responsible_name: Nome e cognome della persona che presenta la proposta
+      proposal_responsible_name_note: "(individualmente o come rappresentante di un’associazione; non sarà reso pubblico)"
+      proposal_summary: Riepilogo della proposta
+      proposal_summary_note: "(massimo 200 caratteri)"
+      proposal_text: Testo della proposta
+      proposal_title: Titolo della proposta
+      proposal_video_url: Link a video esterno
+      proposal_video_url_note: È possibile aggiungere un link a YouTube o Vimeo
+      tag_category_label: "Categorie"
+      tags_instructions: "Aggiungi etichette a questa proposta. Puoi scegliere tra le categorie proposte a aggiungerne di tue"
+      tags_label: Etichette
+      tags_placeholder: "Inserisci le etichette che vorresti usare, separate da virgole (',')"
+      map_location: "Posizione sulla mappa"
+      map_location_instructions: "Scorri la mappa sino a individuare il luogo giusto e posiziona il segnaposto."
+      map_remove_marker: "Rimuovi segnaposto"
+      map_skip_checkbox: "Questo investimento non ha una precisa collocazione geografica ovvero io non ne sono a conoscenza."
     index:
       featured_proposals: In primo piano
       filter_topic:
@@ -326,6 +353,10 @@ it:
       recommendations:
         without_results: Non ci sono dibattiti legati ai tuoi interessi
         without_interests: Seguire proposte così possiamo darvi consigli
+        disable: "Le raccomandazioni per le proposte smetteranno di apparire se scegli di ignorarle. Puoi riattivarle dalla pagina “Il mio account”"
+        actions:
+          success: "Le raccomandazioni per le proposte risultano ora disabilitate per questo account"
+          error: "Si è verificato un errore. Si prega di andare alla pagina “Il mio account” per disabilitare manualmente le raccomandazioni per le proposte"
       retired_proposals: Proposte ritirate
       retired_proposals_link: "Proposte ritirate dall'autore"
       retired_links:
