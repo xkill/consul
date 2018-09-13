@@ -236,6 +236,8 @@ it:
         new_notifications:
           one: Hai una nuova notifica
           other: Hai %{count} nuove notifiche
+        notifications: Notifiche
+        no_notifications: "Non hai nuove notifiche"
     admin:
       watch_form_message: 'Non sono state salvate le modifiche. Confermate per uscire dalla pagina?'
   legacy_legislation:
@@ -250,7 +252,9 @@ it:
     index:
       empty_notifications: Non hai nuove notifiche.
       mark_all_as_read: Contrassegnare tutti come letti
+      read: Letto
       title: Notifiche
+      unread: Da leggere
   map:
     title: "Distretti"
     proposal_for_district: "Avviare una proposta per il vostro distretto"
