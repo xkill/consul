@@ -169,7 +169,7 @@ gl:
           undecided: Sen decidir
           unfeasible: Inviable
           min_total_supports: Soportes mínimos
-          winners: Gañadoras
+          winners: Gañadores
           one_filter_html: "Filtros aplicados actualmente: <b><em>%{filter}</em></b>"
           two_filters_html: "Filtros de uso aplicados actualmente: <b><em>%{filter}, %{advanced_filters}</em></b>"
         buttons:
