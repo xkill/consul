@@ -370,21 +370,21 @@ nl:
             error: Fout
         form:
           enabled: Actief
-          process: Proces
+          process: Plan
           debate_phase: Debatfase
           allegations_phase: Beschuldiginsfase
           proposals_phase: Voorstelfase
           start: Start
           end: Eind
           use_markdown: Gebruik Markdown voor vormgeving
-          title_placeholder: De titel van het proces
+          title_placeholder: De titel van het plan
           summary_placeholder: Korte samenvatting van de beschrijving
-          description_placeholder: Voeg een beschrijving van het proces toe
+          description_placeholder: Voeg een beschrijving van het plan toe
           additional_info_placeholder: Voeg een aanvullende informatie toe
         index:
-          create: Nieuw proces
+          create: Nieuw plan
           delete: Verwijder
-          title: Samenwerken aan beleid
+          title: Plannen
           filters:
             open: Open
             next: Volgende
@@ -392,10 +392,10 @@ nl:
             all: Alle
         new:
           back: Terug
-          title: Nieuw proces van collaboratieve regulering
-          submit_button: Nieuw Proces
+          title: Nieuw plan creëren
+          submit_button: Nieuw plan
         process:
-          title: Proces
+          title: Plan
           comments: Commentaar
           status: Status
           creation_date: Aanmaakdatum
@@ -486,7 +486,7 @@ nl:
           question_options: "Mogelijke antwoorden (optioneel, standaard open antwoorden)"
         index:
           back: Terug
-          title: Vragen bij dit proces
+          title: Vragen bij dit plan
           create: Maak vraag aan
           delete: Verwijder
         new:
@@ -570,7 +570,7 @@ nl:
       title_settings: Instellingen
       title_site_customization: Aanpassing Site
       title_booths: Stemhokjes
-      legislation: Collaboratieve regulering
+      legislation: Plannen
       users: Deelnemers
     administrators:
       index:
@@ -1304,6 +1304,11 @@ nl:
         content_block:
           body: Tekst
           name: Naam
+          names:
+            top_links: Top links
+            footer: Voettekst
+            subnavigation_left: Hoofd navigatie links
+            subnavigation_right: Hoofd navigatie rechts
       images:
         index:
           title: Foto's en Beeld
@@ -1375,3 +1380,6 @@ nl:
         submit_header: Bewaar koptekst
         card_title: Kaart bewerken
         submit_card: Kaart opslaan
+    translations:
+      remove_language: Verwijder taal
+      add_language: Taal toevoegen
