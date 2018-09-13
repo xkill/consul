@@ -76,6 +76,7 @@ zh-CN:
         new_link: 创建新预算
         filter: 过滤器
         filters:
+          open: 打开
           finished: 已完成
         budget_investments: 管理项目
         table_name: 名字
@@ -187,6 +188,21 @@ zh-CN:
         list:
           id: ID
           title: 标题
+          supports: 支持
+          admin: 管理员
+          valuator: 评估员
+          valuation_group: 评估组
+          geozone: 经营范围
+          feasibility: 可行性
+          selected: 已选择
+          visible_to_valuators: 显示给评估员
+          author_username: 作者用户名
+          incompatible: 不兼容
+        cannot_calculate_winners: 预算必须留在“投票项目”，“审查选票”或者“完成预算”阶段以便计算优胜者项目
+        see_results: "查看结果"
+      show:
+        assigned_admin: 指定的管理员
+        assigned_valuators: 指定的评估员
       edit:
         selection: 选择
         mark_as_selected: 标记为已选
