@@ -124,7 +124,7 @@ pl:
         already_supported: Już wsparłeś ten projekt inwestycyjny. Udostępnij go!
         support_title: Wesprzyj ten projekt
         supports:
-          zero: Brak wsparć
+          zero: Brak wsparcia
         give_support: Wsparcie
       header:
         check_ballot: Sprawdź moje głosowanie
