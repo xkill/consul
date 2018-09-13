@@ -304,6 +304,10 @@ it:
       show_link: Visualizza proposta
     retire_form:
       title: Ritira proposta
+      warning: "Anche se ritirata la proposta potrà ricevere comunque sostegni, ma sarà rimossa dall’elenco principale e tutti gli utenti visualizzeranno il messaggio che l’autore ritiene che la proposta non debba più essere sostenuta"
+      retired_reason_label: Motivo del ritiro della proposta
+      retired_reason_blank: Scegli un'opzione
+      retired_explanation_label: Spiegazione
     retire_options:
       done: Fatto
     index:
