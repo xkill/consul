@@ -54,23 +54,23 @@ nl:
         empty_proposals: Er zijn geen voorstellen
       debate:
         empty_questions: Er zijn geen vragen
-        participate: Neem deel aan de discussie
+        participate: Neem deel aan discussies
       index:
         filter: Filter
         filters:
           open: Open processen
-          next: Volgende
+          next: Toekomstige
           past: Vorige
         no_open_processes: Er zijn geen open processen
-        no_next_processes: Er zijn geen geplande processen
-        no_past_processes: Er zijn geen afgesloten processen
+        no_next_processes: Er zijn geen toekomstige plannen
+        no_past_processes: Er zijn geen afgesloten plannen
         section_header:
           icon_alt: Plannen icoon
           title: Plannen
           help: Hulp bij plannen
         section_footer:
           title: Hulp bij plannen
-          description: Neem deel aan discussies en processen voorafgaand aan de totstandkoming van verordeningen, beleid en uitvoering vanuit de gemeente. Jouw mening wordt meegenomen door je gemeente.
+          description: Neem deel aan discussies en plannen voorafgaand aan de totstandkoming van verordeningen, beleid en uitvoering vanuit de gemeente. Jouw mening wordt meegenomen door je gemeente.
       phase_not_open:
         not_open: Deze fase is nog niet gestart.
       phase_empty:
@@ -103,7 +103,7 @@ nl:
         next_question: Volgende vraag
         first_question: Eerste vraag
         share: Deel
-        title: Samenwerking in wetgevingsproces
+        title: Samenwerken in plannen
       participation:
         phase_not_open: Deze fase is nog niet gestart
         organizations: Deelname van organisaties in discussies is niet toegestaan
