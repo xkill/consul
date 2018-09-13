@@ -370,6 +370,9 @@ it:
         button: Ricercare
         placeholder: Cerca proposte...
         title: Ricercare
+      search_results_html:
+        one: " contenente il termine <strong>'%{search_term}'</strong>"
+        other: " contenenti il termine <strong>'%{search_term}'</strong>"
       select_order: Ordinare per
       select_order_long: 'Stai visualizzando le proposte in base a:'
       start_proposal: Creare una proposta
@@ -382,6 +385,7 @@ it:
         help: Aiuto sulle proposte
       section_footer:
         title: Aiuto sulle proposte
+        description: Le proposte dei cittadini sono un’opportunità per gli abitanti e le associazioni locali di decidere di persona come vogliono che sia la propria città, dopo aver raccolto sufficiente sostegno e aver passato il vaglio del voto cittadino.
     new:
       form:
         submit_button: Creare una proposta
@@ -400,6 +404,25 @@ it:
         edit: "Prima che venga condiviso, potrai modificare il testo come preferisci."
         view_proposal: Non ora, vai alla mia proposta
       improve_info: "Migliora la tua campagna e ottieni più supporti"
+      improve_info_link: "Visualizza ulteriori informazioni"
+      already_supported: Hai già sostenuto questa proposta. Condividila!
+      comments:
+        zero: Nessun commento
+        one: 1 commento
+        other: "%{count} commenti"
+      support: Sostieni
+      support_title: Appoggia questa proposta
+      supports:
+        zero: Nessun appoggio
+        one: 1 appoggio
+        other: "%{count} appoggi"
+      votes:
+        zero: Nessun voto
+        one: 1 voto
+        other: "%{count} voti"
+      supports_necessary: "%{number} appoggi necessari"
+      total_percent: 100%
+      archived: "Questa proposta è stata archiviata e non può raccogliere appoggi."
   polls:
     index:
       geozone_info: "Possono partecipare persone nel censimento di: "
@@ -416,8 +439,28 @@ it:
       back: Ritorno al voto
       cant_answer_not_logged_in: "È necessario %{signin} o %{signup} per partecipare."
       comments_tab: Commenti
+      info_menu: "Informazioni"
+      stats_menu: "Statistiche di partecipazione"
+      results_menu: "Risultati di voto"
+      stats:
+        title: "Dati di partecipazione"
+        total_participation: "Totale partecipazione"
+        total_votes: "Totale complessivo di voti dati"
+        votes: "VOTI"
+        web: "WEB"
+        booth: "SEGGIO"
+        total: "TOTALE"
+        valid: "Validi"
+        white: "Schede bianche"
+        null_votes: "Non validi"
+      results:
+        title: "Quesiti"
+        most_voted_answer: "Risposta più votata: "
   poll_questions:
     create_question: "Creare la domanda"
+    show:
+      vote_answer: "Voto %{answer}"
+      voted: "Hai votato %{answer}"
   shared:
     delete: Eliminare
     "yes": "Sì"
