@@ -255,10 +255,43 @@ it:
       read: Letto
       title: Notifiche
       unread: Da leggere
+    notification:
+      action:
+        comments_on:
+          one: Qualcuno ha commentato
+          other: Ci sono %{count} nuovi commenti su
+        proposal_notification:
+          one: C’è una nuova notifica per
+          other: Ci sono %{count} nuove notifiche per
+        replies_to:
+          one: Qualcuno ha risposto al tuo commento su
+          other: Ci sono %{count} nuove risposte al tuo commento su
+      mark_as_read: Contrassegna come leggo
+      mark_as_unread: Contrassegna come da leggere
+      notifiable_hidden: Questa risorsa non è più disponibile.
   map:
     title: "Distretti"
     proposal_for_district: "Avviare una proposta per il vostro distretto"
     select_district: Ambito operativo
+    start_proposal: Crea una proposta
+  omniauth:
+    facebook:
+      sign_in: Accedi con Facebook
+      sign_up: Registrati con Facebook
+      name: Facebook
+    finish_signup:
+      title: "Ulteriori dettagli"
+      username_warning: "A causa di un cambiamento nel modo in cui interagiamo con i social network, è possibile che il tuo nome utente venga ora visualizzato come 'già in uso'. Se capita, si prega di scegliere un nome utente diverso."
+    google_oauth2:
+      sign_in: Accedi con Google
+      sign_up: Registrati con Google
+      name: Google
+    twitter:
+      sign_in: Accedi con Twitter
+      sign_up: Registrati con Twitter
+      name: Twitter
+    info_sign_in: "Accedi con:"
+    info_sign_up: "Registrati con:"
   proposals:
     retire_options:
       done: Fatto
