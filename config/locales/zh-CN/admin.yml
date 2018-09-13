@@ -203,7 +203,44 @@ zh-CN:
       show:
         assigned_admin: 指定的管理员
         assigned_valuators: 指定的评估员
+        classification: 分类
+        info: "%{budget_name}-组：%{group_name}-投资项目%{id}"
+        edit: 编辑
+        edit_classification: 编辑分类
+        by: 由
+        sent: 已发送
+        group: 组
+        heading: 标题
+        dossier: 档案
+        edit_dossier: 编辑档案
+        tags: 标签
+        user_tags: 用户标签
+        undefined: 未定义
+        milestone: 里程碑
+        new_milestone: 创建新的里程碑
+        compatibility:
+          title: 兼容性
+          "true": 不兼容
+          "false": 兼容
+        selection:
+          title: 选择
+          "true": 已选择
+          "false": 未被选择
+        winner:
+          title: 胜出者
+          "true": "是"
+          "false": "不是"
+        image: "图像"
+        see_image: "参阅图像"
+        no_image: "没有图像"
+        documents: "文档"
+        see_documents: "参阅文档 (%{count})"
+        no_documents: "没有文档"
+        valuator_groups: "评估员组"
       edit:
+        classification: 分类
+        compatibility: 兼容性
+        mark_as_incompatible: 标记为不兼容
         selection: 选择
         mark_as_selected: 标记为已选
         assigned_valuators: 评估者
@@ -297,6 +334,8 @@ zh-CN:
           without_confirmed_hide: 有待
     legislation:
       processes:
+        process:
+          status_planned: 计划
         subnav:
           info: 信息
           draft_texts: 起草
@@ -370,6 +409,40 @@ zh-CN:
           back: 返回
           title: "编辑“%{question_title}”"
           submit_button: 保存更改
+        errors:
+          form:
+            error: 错误
+        form:
+          add_option: 添加选项
+          title: 问题
+          title_placeholder: 添加问题
+          value_placeholder: 添加已关闭的答案
+          question_options: "可能的答案（可选，默认情况下打开答案）"
+        index:
+          back: 返回
+          title: 与此过程相关的问题
+          create: 创建问题
+          delete: 删除
+        new:
+          back: 返回
+          title: 创建新问题
+          submit_button: 创建问题
+        table:
+          title: 标题
+          question_options: 问题选项
+          answers_count: 回答数
+          comments_count: 评论数
+        question_option_fields:
+          remove_option: 删除选项
+    managers:
+      index:
+        title: 经理
+        name: 名字
+        email: 电子邮件
+        no_managers: 没有经理。
+      manager:
+        add: 添加
+        delete: 删除
     menu:
       poll_booth_assignments: 投票亭分配
       poll_shifts: 管理轮班
