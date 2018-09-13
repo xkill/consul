@@ -297,6 +297,10 @@ it:
     create:
       form:
         submit_button: Crea proposta
+    edit:
+      editing: Modifica proposta
+      form:
+        submit_button: Salva modifiche
     retire_options:
       done: Fatto
     index:
