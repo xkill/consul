@@ -423,8 +423,48 @@ it:
       supports_necessary: "%{number} appoggi necessari"
       total_percent: 100%
       archived: "Questa proposta è stata archiviata e non può raccogliere appoggi."
+      successful: "Questa proposta ha raggiunto gli appoggi richiesti."
+    show:
+      author_deleted: Utente cancellato
+      code: 'Codice proposta:'
+      comments:
+        zero: Nessun commento
+        one: 1 commento
+        other: "%{count} commenti"
+      comments_tab: Commenti
+      edit_proposal_link: Modifica
+      flag: Questa proposta è stata contrassegnata come inappropriata da diversi utenti.
+      login_to_comment: È necessario %{signin} o %{signup} per lasciare un commento.
+      notifications_tab: Notifiche
+      retired_warning: "L'autore ritiene che questa proposta non debba ricevere ulteriori appoggi."
+      retired_warning_link_to_explanation: Leggi la spiegazione prima di votarla.
+      retired: Proposta ritirata dall'autore
+      share: Condividi
+      send_notification: Invia notifica
+      no_notifications: "Questa proposta non ha notifiche."
+      embed_video_title: "Video su %{proposal}"
+      title_external_url: "Documentazione aggiuntiva"
+      title_video_url: "Video esterno"
+      author: Autore
+    update:
+      form:
+        submit_button: Salva modifiche
   polls:
+    all: "Tutti"
+    no_dates: "nessuna data assegnata"
+    dates: "Dal %{open_at} al %{closed_at}"
+    final_date: "Scrutinio finale/Risultati"
     index:
+      filters:
+        current: "Aperte"
+        incoming: "In arrivo"
+        expired: "Scadute"
+      title: "Votazioni"
+      participate_button: "Partecipa a questa votazione"
+      participate_button_incoming: "Più informazioni"
+      participate_button_expired: "Votazione conclusa"
+      no_geozone_restricted: "Tutta la città"
+      geozone_restricted: "Distretti"
       geozone_info: "Possono partecipare persone nel censimento di: "
       already_answer: "Hai già partecipato a questa votazione"
       section_header:
@@ -433,12 +473,18 @@ it:
         help: Aiuto sul voto
       section_footer:
         title: Aiuto sul voto
+        description: Le votazioni cittadine sono un meccanismo partecipativo attraverso il quale i cittadini con diritto di voto possono prendere decisioni in maniera diretta
+      no_polls: "Non ci sono votazioni aperte."
     show:
       already_voted_in_booth: "Hai già partecipato a una votazione. Non puoi partecipare di nuovo."
       already_voted_in_web: "Hai già partecipato a questo sondaggio. Se si vota di nuovo, verrà sovrascritto."
       back: Ritorno al voto
       cant_answer_not_logged_in: "È necessario %{signin} o %{signup} per partecipare."
       comments_tab: Commenti
+      login_to_comment: È necessario %{signin} o %{signup} per lasciare un commento.
+      signin: Accedi
+      signup: Registrati
+      cant_answer_verify_html: "È necessario %{verify_link} per rispondere."
       info_menu: "Informazioni"
       stats_menu: "Statistiche di partecipazione"
       results_menu: "Risultati di voto"
