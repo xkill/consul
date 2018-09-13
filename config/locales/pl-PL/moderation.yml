@@ -81,7 +81,7 @@ pl:
         headers:
           moderate: Moderuj
           budget_investment: Inwestycje budżetowe
-        hide_budget_investments: Ukryj nwestycje budżetowe
+        hide_budget_investments: Ukryj inwestycje budżetowe
         ignore_flags: Oznacz jako wyświetlone
         order: Uporządkuj według
         orders:
