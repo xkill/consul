@@ -127,7 +127,7 @@ nl:
               page_column: Burgerbegrotingen
             - 
               key_column: 5
-              page_column: Wetgevingsprocessen
+              page_column: Plannen
         browser_table:
           description: 'Afhankelijk van het besturingssysteem en de browser die je gebruikt, zullen de toetsencombinaties als volgt zijn:'
           caption: Toetsencombinatie afhankelijk van het besturingssysteem en browser
