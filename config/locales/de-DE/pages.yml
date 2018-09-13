@@ -93,7 +93,17 @@ de:
           text: Als allgemeiner Grundsatz, teilt oder veröffentlicht diese Webseite keine erhaltenen Informationen, außer dies wird vom Nutzer autorisiert, oder die Information wird von der Justizbehörde, der Staatsanwaltschaft, der Gerichtspolizei, oder anderen Fällen, die in Artikel 11 des Organic Law 15/1999 vom 13ten Dezember bezüglich des Schutzes persönlicher Daten festgelegt sind, benötigt.
     accessibility:
       title: Zugänglichkeit
+      description: |-
+        Web-Zugänglichkeit bezieht sich auf die Möglichkeit des Zugriffs auf das Internet und seine Inhalte bei allen Menschen, unabhängig von den Behinderungen (körperlicher, geistiger oder technischer), die entstehen können, oder die sich Kontext der Nutzung ergeben (technologisch oder ökologisch).
+        
+        Wenn Webseiten mit Zugänglichkeit im Sinn entwickelt werden, können alle Nutzer auf Inhalte unter gleichen Bedingungen zugreifen, zum Beispiel:
+      examples:
+        - Proporcionando un texto alternativo a las imágenes, los usuarios invidentes o con problemas de visión pueden utilizar lectores especiales para acceder a la información.Providing alternative text to the images, blind or visually impaired users can use special readers to access the information.
+        - Wenn Videos Untertitel haben, können Nutzer mit Hörproblemen diese voll und ganz verstehen.
+        - Wenn der Inhalt in einer einfachen und anschaulichen Sprache geschrieben sind, können Nutzer mit Lernproblemen diese besser verstehen.
+        - Wenn der Nutzer Mobilitätsprobleme hat und es schwierig ist die Maus zu bedienen, helfen Tastatur-Alternativen mit der Navigation.
       keyboard_shortcuts:
+        title: Tastaturkürzel
         navigation_table:
           page_header: Seite
           rows:
