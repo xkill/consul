@@ -10,11 +10,13 @@ pl:
         voted_info_html: "Możesz zmienić swój głos w każdej chwili aż do końca tej fazy.<br> Nie ma potrzeby wydawania wszystkich dostępnych pieniędzy."
         zero: Nie wybrałeś/aś jeszcze żadnego projektu.
       reasons_for_not_balloting:
+        not_logged_in: Muszą być %{signin} lub %{signup} do udziału.
         not_verified: W głosowaniu mogą wziąć udział tylko zweryfikowani użytkownicy. %{verify_account}.
         organization: Organizacje nie mogą głosować
         not_selected: Niewybrane projekty inwestycyjne nie mogą być wspierane
         not_enough_money_html: "Już przypisałeś/łaś dostępny budżet.<br><small>Pamiętaj, że możesz %{change_ballot} w każdej chwili</small>"
         no_ballots_allowed: Faza wybierania jest zamknięta
+        different_heading_assigned_html: "Już głosowałeś na inny nagłówek: %{heading_link}"
         change_ballot: zmieńcie swoje głosy
     groups:
       show:
