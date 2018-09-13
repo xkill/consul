@@ -37,6 +37,7 @@ de:
       updated: "Ihr Passwort wurde erfolgreich geändert. Authentifizierung erfolgreich."
       updated_not_active: "Ihr Passwort wurde erfolgreich geändert."
     registrations:
+      destroyed: "Auf Wiedersehen! Ihr Konto wurde gelöscht. Wir hoffen, Sie bald wieder zu sehen."
       signed_up: "Willkommen! Sie wurden authentifiziert."
       signed_up_but_inactive: "Ihre Registrierung war erfolgreich, aber Sie konnten nicht angemeldet werden, da Ihr Benutzerkonto nicht aktiviert wurde."
       signed_up_but_locked: "Ihre Registrierung war erfolgreich, aber Sie konnten nicht angemeldet werden, weil Ihr Benutzerkonto gesperrt ist."
