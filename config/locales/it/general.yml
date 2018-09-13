@@ -301,6 +301,9 @@ it:
       editing: Modifica proposta
       form:
         submit_button: Salva modifiche
+      show_link: Visualizza proposta
+    retire_form:
+      title: Ritira proposta
     retire_options:
       done: Fatto
     index:
