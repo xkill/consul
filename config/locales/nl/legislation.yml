@@ -65,11 +65,11 @@ nl:
         no_next_processes: Er zijn geen geplande processen
         no_past_processes: Er zijn geen afgesloten processen
         section_header:
-          icon_alt: Wetgevingsprocessen icoon
-          title: Wetgevingsprocessen
-          help: Hulp bij wetgevingsprocessen
+          icon_alt: Plannen icoon
+          title: Plannen
+          help: Hulp bij plannen
         section_footer:
-          title: Hulp bij wetgevingsprocessen
+          title: Hulp bij plannen
           description: Neem deel aan discussies en processen voorafgaand aan de totstandkoming van verordeningen, beleid en uitvoering vanuit de gemeente. Jouw mening wordt meegenomen door je gemeente.
       phase_not_open:
         not_open: Deze fase is nog niet gestart.
