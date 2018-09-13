@@ -105,6 +105,9 @@ de:
       keyboard_shortcuts:
         title: Tastaturkürzel
         navigation_table:
+          description: Um auf verständliche Weise durch die Webseite zu navigieren, wurde eine Gruppe von Schnellzugriff-Tasten einprogrammiert, die die allgemeinen Hauptbereiche erfassen, in denen die Seite organisiert ist.
+          caption: Tastaturkürzel für das Navigationsmenü
+          key_header: Schlüssel
           page_header: Seite
           rows:
             - 
@@ -124,7 +127,11 @@ de:
               page_column: Bürgerhaushalte
             - 
               key_column: 5
+              page_column: Gesetzgebungsverfahren
         browser_table:
+          description: 'Je nach dem Betriebssystem und den verwendeten Browser wird die Tastenkombination wie folgt aussehen:'
+          caption: Tastenkombination je nach Betriebssystem und Browser
+          browser_header: Browser
           key_header: Tastenkombination
           rows:
             - 
@@ -132,12 +139,16 @@ de:
               key_column: ALT + Tastenkombination dann ENTER
             - 
               browser_column: Firefox
+              key_column: ALT + CAPS + Kürzel
             - 
               browser_column: Chrome
+              key_column: ALT + Kürzel (STRG + ALT + Kürzel für MAC)
             - 
               browser_column: Safari
+              key_column: ALT + Kürzel (CMD + ALT + Kürzel für MAC)
             - 
               browser_column: Opera
+              key_column: CAPS + ESC + Kürzel
       textsize:
         title: Textgröße
         browser_settings_table:
