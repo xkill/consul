@@ -173,8 +173,34 @@ it:
     direct_message: messaggio privato
     error: errore
     errors: errori
+    not_saved_html: "hanno impedito il salvataggio di quest* %{resource}. <br>Si prega di verificare i campi evidenziati per sapere come correggerli:"
+    policy: Informativa sulla privacy
+    proposal: Proposta
+    proposal_notification: "Notifica"
+    spending_proposal: Proposta di spesa
+    budget/investment: Investimento
+    budget/heading: Voce di bilancio
+    poll/shift: Turno
+    poll/question/answer: Risposta
+    user: Account
+    verification/sms: telefono
+    signature_sheet: Foglio firme
+    document: Documento
+    topic: Argomento
+    image: Immagine
+  geozones:
+    none: Tutta la città
+    all: Tutti gli ambiti
   layouts:
+    application:
+      chrome: Google Chrome
+      firefox: Firefox
+      ie: Abbiamo rilevato che stai navigando con Internet Explorer. Per una migliore esperienza, raccomandiamo di usare %{firefox} o %{chrome}.
+      ie_title: Questo sito non è ottimizzato per il tuo browser
     footer:
+      accessibility: Accessibilità
+      conditions: Termini e condizioni d'uso
+      consul: app CONSUL
       consul_url: https://github.com/consul/consul
       contact_us: Per assistenza tecnica entra
       copyright: CONSOLE, %{year}
@@ -206,6 +232,10 @@ it:
       poll_questions: Voto
       budgets: Bilancio partecipativo
       spending_proposals: Proposte di spesa
+      notification_item:
+        new_notifications:
+          one: Hai una nuova notifica
+          other: Hai %{count} nuove notifiche
     admin:
       watch_form_message: 'Non sono state salvate le modifiche. Confermate per uscire dalla pagina?'
   legacy_legislation:
