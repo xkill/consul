@@ -115,6 +115,21 @@ sq:
         description: "Përshkrimi"
         external_url: "Lidhje me dokumentacionin shtesë"
         administrator_id: "Administrator"
+        location: "Vendndodhja (opsionale)"
+        organization_name: "Nëse propozoni në emër të një kolektivi / organizate, ose në emër të më shumë njerëzve, shkruani emrin e tij"
+        image: "Imazhi përshkrues i propozimit"
+        image_title: "Titulli i imazhit"
+      budget/investment/milestone:
+        status_id: "Statusi aktual i investimit (opsional)"
+        title: "Titull"
+        description: "Përshkrimi (opsional nëse ka status të caktuar)"
+        publication_date: "Data e publikimit"
+      budget/investment/status:
+        name: "Emri"
+        description: "Përshkrimi (opsional)"
+      budget/heading:
+        name: "Emri i kreut"
+        price: "Çmim"
       poll:
         description: "Përshkrimi"
       poll/question:
@@ -152,3 +167,29 @@ sq:
         end_date: Data e përfundimit
         debate_start_date: Data e fillimit të debatit
         debate_end_date: Data e mbarimit të debatit
+        draft_publication_date: Data e publikimit të draftit
+        allegations_start_date: Data e fillimit të akuzave
+        allegations_end_date: Data e përfundimit të akuzave
+        result_publication_date: Data e publikimit të rezultatit përfundimtar
+      legislation/draft_version:
+        title: Titulli i versionit
+        body: Tekst
+        changelog: Ndryshimet
+        status: Statusi
+        final_version: Versioni final
+      legislation/question:
+        title: Titull
+        question_options: Opsionet
+      legislation/question_option:
+        value: Vlerë
+      legislation/annotation:
+        text: Koment
+      document:
+        title: Titull
+        attachment: Bashkëngjitur
+      image:
+        title: Titull
+        attachment: Bashkëngjitur
+      poll/question/answer:
+        title: Përgjigjet
+        description: Përshkrimi
