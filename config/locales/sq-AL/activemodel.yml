@@ -3,3 +3,8 @@ sq:
     models:
       verification:
         residence: "Rezident"
+        sms: "SMS"
+    attributes:
+      verification:
+        residence:
+          document_type: "Tipi i dokumentit"
