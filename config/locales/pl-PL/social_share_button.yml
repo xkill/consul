@@ -1,8 +1,10 @@
 pl:
   social_share_button:
     share_to: "Udostępnij na %{name}"
+    weibo: "Sina Weibo"
     twitter: "Twitter"
     facebook: "Facebook"
+    douban: "Douban"
     google_plus: "Google +"
     tumblr: "Tumblr"
     pinterest: "Pinterest"
