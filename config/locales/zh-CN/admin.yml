@@ -816,9 +816,55 @@ zh-CN:
         email: 电子邮件
         phone_number: 电话
         responsible_name: 负责
-    settings:
+        status: 状态
+        no_organizations: 没有组织。
+        reject: 拒绝
+        rejected: 已拒绝
+        search: 搜索
+        search_placeholder: 名字，电子邮件或者电话号码
+        title: 组织
+        verified: 已验证
+        verify: 验证
+        pending: 有待
+      search:
+        title: 搜索组织
+        no_results: 未找到任何组织。
+    proposals:
       index:
+        filter: 过滤器
+        filters:
+          all: 所有
+          with_confirmed_hide: 已确认
+          without_confirmed_hide: 有待
+        title: 隐藏的提议
+        no_hidden_proposals: 没有隐藏的提议。
+    proposal_notifications:
+      index:
+        filter: 过滤器
+        filters:
+          all: 所有
+          with_confirmed_hide: 已确认
+          without_confirmed_hide: 有待
+        title: 隐藏的通知
+        no_hidden_proposals: 没有隐藏的通知。
+    settings:
+      flash:
+        updated: 价值已更新
+      index:
+        banners: 横幅样式
+        banner_imgs: 横幅图像
+        no_banners_images: 没有横幅图像
+        no_banners_styles: 没有横幅样式
+        title: 配置设置
+        update_setting: 更新
+        feature_flags: 功能
+        features:
+          enabled: "功能已启用"
+          disabled: "功能已禁用"
+          enable: "启用"
+          disable: "禁用"
         map:
+          title: 地图配置
           flash:
             update: 已成功更新地图配置。
           form:
@@ -839,3 +885,18 @@ zh-CN:
       poll_questions_search:
         button: 搜索
         placeholder: 搜索投票项问题
+    spending_proposals:
+      show:
+        dossier: 档案
+        edit_dossier: 编辑档案
+        tags: 标签
+        undefined: 未定义
+      edit:
+        classification: 分类
+        assigned_valuators: 评估员
+        submit_button: 更新
+        tags: 标签
+        tags_placeholder: "编写想要的标签，用逗号 (,) 分割"
+        undefined: 未定义
+      summary:
+        title: 投资项目总结
