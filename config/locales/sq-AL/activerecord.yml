@@ -254,10 +254,19 @@ sq:
           attributes:
             email:
               password_already_set: "Ky përdorues tashmë ka një fjalëkalim"
+        debate:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "etiketat duhet të jenë më pak ose të barabartë me%{count}"
         direct_message:
           attributes:
             max_per_day:
               invalid: "Ju keni arritur numrin maksimal të mesazheve private në ditë"
+        image:
+          attributes:
+            attachment:
+              min_image_width: "Gjerësia e imazhit duhet të jetë së paku%{required_min_width}px"
+              min_image_height: "Gjatësia e imazhit duhet të jetë së paku%{required_min_height}px"
         newsletter:
           attributes:
             segment_recipient:
@@ -275,3 +284,43 @@ sq:
             document_number:
               not_in_census: "Dokumenti nuk është në regjistrim"
               has_voted: "Përdoruesi ka votuar tashmë"
+        legislation/process:
+          attributes:
+            end_date:
+              invalid_date_range: duhet të jetë në ose pas datës së fillimit
+            debate_end_date:
+              invalid_date_range: duhet të jetë në ose pas datës së fillimit të debatit
+            allegations_end_date:
+              invalid_date_range: duhet të jetë në ose pas datës së fillimit të pretendimeve
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "etiketat duhet të jenë më pak ose të barabartë me%{count}"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "etiketat duhet të jenë më pak ose të barabartë me%{count}"
+        proposal_notification:
+          attributes:
+            minimum_interval:
+              invalid: "Ju duhet të prisni një minimum prej %{interval} ditë mes njoftimeve"
+        signature:
+          attributes:
+            document_number:
+              not_in_census: 'Nuk vërtetohet nga Regjistrimi'
+              already_voted: 'Ka votuar tashmë këtë propozim'
+        site_customization/page:
+          attributes:
+            slug:
+              slug_format: "duhet të jenë letra, numra, _ dhe -"
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "Gjerësia duhet të jetë%{required_width}px"
+              image_height: "Lartësia duhet të jetë%{required_height}px"
+        comment:
+          attributes:
+            valuation:
+              cannot_comment_valuation: 'Ju nuk mund të komentoni një vlerësim'
+      messages:
+        record_invalid: "Vlefshmëria dështoi:%{errors}"
