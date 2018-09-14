@@ -225,7 +225,24 @@ pl:
         edit:
           back: Wstecz
           submit_button: Zapisz zmiany
+        errors:
+          form:
+            error: Błąd
+        form:
+          enabled: Włączone
+          process: Proces
+          title_placeholder: Tytuł procesu
+          summary_placeholder: Krótkie podsumowanie opisu
+          description_placeholder: Dodaj opis procesu
+      proposals:
+        form:
+          custom_categories_description: Kategorie, które użytkownicy mogą wybrać, tworząc propozycję.
+          custom_categories_placeholder: Wpisz tagi, których chcesz użyć, oddzielając je przecinkami (,) i między cudzysłowami ("")
       draft_versions:
+        create:
+          error: Nie można utworzyć wersji roboczej
+        update:
+          notice: 'Wersja robocza zaktualizowana pomyślnie.<a href="%{link}">Kliknij, aby odwiedzić</a>'
         index:
           title: Wersje robocze
           create: Wróć
