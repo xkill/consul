@@ -2,10 +2,28 @@ pl:
   legislation:
     annotations:
       comments:
+        see_all: Zobacz wszystkie
+        see_complete: Zobacz pełne
+        comments_count:
+          one: "%{count} komentarz"
+          few: "%{count} komentarze"
+          many: "%{count} komentarze"
+          other: "%{count} komentarze"
+        replies_count:
+          one: "%{count} odpowiedz"
+          few: "%{count} odpowiedzi"
+          many: "%{count} odpowiedzi"
+          other: "%{count} odpowiedzi"
+        cancel: Anuluj
         publish_comment: Opublikuj Komentarz
       form:
         phase_not_open: Ta faza nie jest otwarta
+        login_to_comment: Musisz się %{signin} lub %{signup} by zostawić komentarz.
+        signin: Zaloguj się
+        signup: Zarejestruj się
       index:
+        title: Komentarze
+        comments_about: Komentarze na temat
         see_in_context: Zobacz w kontekście
       show:
         title: Komentarz
