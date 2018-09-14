@@ -427,17 +427,49 @@ pl:
     suggest:
       debate:
         found:
-          one: "Już istnieje debata z określeniem %{query}, możesz wziąć udział w niej zamiast otwierać nową."
-          few: "Już istnieją debaty z określeniem %{query}, możesz wziąć udział w nich zamiast otwierać nową."
-          many: "Już istnieją debaty z określeniem %{query}, możesz wziąć udział w nich zamiast otwierać nową."
-          other: "Już istnieją debaty z określeniem %{query}, możesz wziąć udział w nich zamiast otwierać nową."
+          one: "Już istnieje debata z terminem %{query}, możesz wziąć udział w niej zamiast otwierać nową."
+          few: "Już istnieją debaty z terminem %{query}, możesz wziąć udział w nich zamiast otwierać now."
+          many: "Już istnieją debaty z terminem %{query}, możesz wziąć udział w nich zamiast otwierać now."
+          other: "Już istnieją debaty z terminem %{query}, możesz wziąć udział w nich zamiast otwierać now."
+        message: "Widzisz %{limit} z %{count} debat zawierających termin %{query}"
+        see_all: "Zobacz wszystkie"
+      budget_investment:
+        found:
+          one: "Już istnieje debata z terminem %{query}, możesz wziąć udział w niej zamiast otwierać nową."
+          few: "Już istnieją debaty z terminem %{query}, możesz wziąć udział w nich zamiast otwierać now."
+          many: "Już istnieją debaty z terminem %{query}, możesz wziąć udział w nich zamiast otwierać now."
+          other: "Już istnieją debaty z terminem %{query}, możesz wziąć udział w nich zamiast otwierać now."
+        message: "Widzisz %{limit} z %{count} debat zawierających termin %{query}"
+        see_all: "Zobacz wszystkie"
+      proposal:
+        found:
+          one: "Już istnieje wniosek z terminem %{query}, możesz go poprzeć zamiast tworzyć nowy"
+          few: "Już istnieją wnioski z terminem %{query}, możesz je poprzeć zamiast tworzyć nowe"
+          many: "Już istnieją wnioski z terminem %{query}, możesz je poprzeć zamiast tworzyć nowe"
+          other: "Już istnieją wnioski z terminem %{query}, możesz je poprzeć zamiast tworzyć nowe"
+        message: "Widzisz %{limit} z %{count} wniosków zawierających termin %{query}"
+        see_all: "Zobacz wszystkie"
     tags_cloud:
+      tags: Dążenie
       districts: "Dzielnice"
       districts_list: "Lista dzielnic"
       categories: "Kategorie"
+    target_blank_html: " (link otwiera się w nowym oknie)"
     you_are_in: "Jesteś w"
+    unflag: Odznacz
+    unfollow_entity: "Nie obserwuj %{entity}"
     outline:
       budget: Budżet partycypacyjny
+      searcher: Wyszukiwarka
+    go_to_page: "Wejdź na stronę "
+    share: Udostępnij
+    orbit:
+      previous_slide: Poprzedni slajd
+      next_slide: Następny slajd
+    documentation: Dodatkowa dokumentacja
+    view_mode:
+      title: Tryb podglądu
+      cards: Karty
   spending_proposals:
     form:
       description: Opis
@@ -453,6 +485,9 @@ pl:
   stats:
     index:
       comments: Komentarze
+  unauthorized:
+    manage:
+      all: "Nie masz uprawnień do wykonania akcji %{action} odnośnie %{subject}."
   users:
     direct_messages:
       new:
