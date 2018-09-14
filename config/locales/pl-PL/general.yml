@@ -422,16 +422,48 @@ pl:
         incoming: "Przychodzące"
         expired: "Przedawnione"
       title: "Ankiety"
-      participate_button: "Weź udział w tej ankiecie"
+      participate_button: "Weź udział w tej sondzie"
       participate_button_incoming: "Więcej informacji"
+      participate_button_expired: "Sonda zakończyła się"
       no_geozone_restricted: "Wszystkie miasta"
       geozone_restricted: "Dzielnice"
+      geozone_info: "Mogą brać udział osoby w Census: "
+      already_answer: "Brałeś już udział w tej sondzie"
+      section_header:
+        icon_alt: Ikona głosowania
+        title: Głosowanie
+      section_footer:
+        description: Sondaże obywatelskie są mechanizmem opartym na uczestnictwie, dzięki któremu obywatele z prawem głosu mogą podejmować bezpośrednie decyzje
+      no_polls: "Nie ma otwartych głosowań."
     show:
+      already_voted_in_web: "Brałeś już udział w tej sondzie. Jeśli zagłosujesz ponownie, zostanie to nadpisane."
       back: Wróć do głosowania
+      cant_answer_not_logged_in: "Aby wziąć udział, musisz %{signin} lub %{signup}."
       comments_tab: Komentarze
+      login_to_comment: Aby dodać komentarz, musisz %{signin} lub %{signup}.
+      signin: Zaloguj się
+      signup: Zarejestruj się
+      cant_answer_verify_html: "Aby odpowiedzieć, musisz %{verify_link}."
       verify_link: "zweryfikuj swoje konto"
+      cant_answer_incoming: "Ta sonda jeszcze się nie rozpoczęła."
+      cant_answer_expired: "Ta sonda została zakończona."
+      cant_answer_wrong_geozone: "To pytanie nie jest dostępne w Twojej strefie geograficznej."
       more_info_title: "Więcej informacji"
+      documents: Dokumenty
+      zoom_plus: Rozwiń obraz
       read_more: "Dowiedz się więcej o %{answer}"
+      read_less: "Czytaj mniej na temat %{answer}"
+      info_menu: "Informacje"
+      stats_menu: "Statystyki uczestnictwa"
+      results_menu: "Wyniki sondy"
+      stats:
+        title: "Dane uczestnictwa"
+        total_participation: "Całkowity udział"
+        total_votes: "Łączna liczba oddanych głosów"
+        votes: "GŁOSY"
+        total: "ŁĄCZNIE"
+      results:
+        title: "Pytania"
   proposal_notifications:
     new:
       title_label: "Tytuł"
@@ -549,6 +581,14 @@ pl:
         title: Szukaj
     show:
       share: Udostępnij
+    wrong_price_format: Tylko liczby całkowite
+    spending_proposal:
+      spending_proposal: Projekt inwestycyjny
+      already_supported: Już to poparłeś. Udostępnij to!
+      support: Wsparcie
+      support_title: Wesprzyj ten projekt
+      supports:
+        zero: Brak wsparcia
   stats:
     index:
       comments: Komentarze
