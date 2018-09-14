@@ -443,7 +443,33 @@ zh-CN:
       manager:
         add: 添加
         delete: 删除
+      search:
+        title: '经理：用户搜索'
     menu:
+      activity: 审核员活动
+      admin: 管理菜单
+      banner: 管理横幅
+      poll_questions: 问题
+      proposals_topics: 提议主题
+      budgets: 参与性预算
+      geozones: 管理地理区域
+      hidden_comments: 隐藏的评论
+      hidden_debates: 隐藏的辩论
+      hidden_proposals: 隐藏的提议
+      hidden_budget_investments: 隐藏的预算投资
+      hidden_proposal_notifications: 隐藏的提议通知
+      hidden_users: 隐藏的用户
+      administrators: 管理员
+      managers: 经理
+      moderators: 审核员
+      messaging_users: 给用户的信息
+      newsletters: 时事通讯
+      admin_notifications: 通知
+      system_emails: 系统电子邮件
+      emails_download: 电子邮件下载
+      valuators: 评估员
+      poll_officers: 投票站官员
+      polls: 投票
       poll_booth_assignments: 投票亭分配
       poll_shifts: 管理轮班
       officials: 官员
@@ -507,6 +533,8 @@ zh-CN:
       administrators: 管理员
       proposal_authors: 提议作者
     admin_notifications:
+      index:
+        empty_notifications: 没有要显示的通知
       new:
         section_title: 新通知
       edit:
@@ -571,6 +599,26 @@ zh-CN:
         edit_title: "评估员：编辑评估员"
         update: "更新评估员"
         updated: "评估员已成功更新"
+      show:
+        description: "描述"
+        email: "电子邮件"
+        group: "组"
+        no_description: "没有描述"
+        no_group: "没有组"
+    valuator_groups:
+      index:
+        title: "评估员组"
+        new: "创建评估员组"
+        name: "名字"
+        members: "成员"
+        no_groups: "没有评估员组"
+      show:
+        title: "评估员组：%{group}"
+        no_valuators: "没有评估员被分配给此组"
+      form:
+        name: "组名"
+        new: "创建评估员组"
+        edit: "保存评估员组"
     poll_shifts:
       new:
         table_name: "名字"
