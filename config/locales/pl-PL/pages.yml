@@ -180,7 +180,7 @@ pl:
               description_column: Zmniejsza rozmiar tekstu
       compatibility:
         title: Zgodność z normami i projektowaniem wizualnym
-        description_html: 'Wszystkie strony witryny są zgodne z <strong> Wskazówki dotyczące dostępności </strong> lub ogólne zasady projektowania ustanowione przez Grupę Roboczą <abbr title = "Web Accessibility Initiative" lang = "en"> WAI < / abbr > należącą do W3C.'
+        description_html: 'Wszystkie strony witryny są zgodne z <strong> Wskazówki dotyczące dostępności </strong> lub ogólne zasady projektowania ustanowione przez Grupę Roboczą <abbr title = "Web Accessibility Initiative" lang = "en"> WAI </ abbr> należącą do W3C.'
     titles:
       accessibility: Ułatwienia dostępu
       conditions: Warunki użytkowania
