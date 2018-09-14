@@ -27,8 +27,26 @@ pl:
       topic:
         edit: Edytuj temat
         destroy: Zniszcz tematu
+        comments:
+          zero: Brak komentarzy
+          one: 1 komentarz
+          few: "%{count} komentarze"
+          many: "%{count} komentarze"
+          other: "%{count} komentarze"
+      author: Autor
+      back: Powrót do %{community} %{proposal}
     topic:
+      create: Stwórz temat
+      edit: Edytuj temat
       form:
+        topic_title: Tytuł
+        topic_text: Tekst początkowy
+        new:
+          submit_button: Stwórz temat
+        edit:
+          submit_button: Edytuj temat
+        create:
+          submit_button: Stwórz temat
         update:
           submit_button: Uaktualnij temat
       show:
@@ -39,3 +57,6 @@ pl:
         recommendation_one: Nie zapisuj tytułu tematu lub całych zdań wielkimi literami. W internecie jest to uważane za krzyk. A nikt nie lubi, gdy się na niego krzyczy.
         recommendation_two: Każdy temat lub komentarz sugerujący nielegalne działania zostanie wyeliminowany, jak i te mające na celu sabotaż przestrzeni przedmiotu, wszystko inne jest dozwolone.
         recommendation_three: Ciesz się tą przestrzenią oraz głosami, które ją wypełniają, jest także twoja.
+  topics:
+    show:
+      login_to_comment: Musisz się %{signin} lub %{signup} by zostawić komentarz.
