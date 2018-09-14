@@ -906,7 +906,7 @@ zh-CN:
         finished_and_unfeasible_count: 已完成和不可行
         finished_count: 已完成
         in_evaluation_count: 评估中
-        total_count: 总
+        total_count: 总计
         cost_for_geozone: 成本
     geozones:
       index:
