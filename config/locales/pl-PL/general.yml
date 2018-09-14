@@ -381,12 +381,24 @@ pl:
     "no": "Nie"
     search_results: "Szukaj wyników"
     advanced_search:
+      author_type: 'Wg kategorii autora'
+      author_type_blank: 'Wybierz kategorię'
+      date: 'Według daty'
       date_placeholder: 'DD/MM/RRRR'
       date_range_blank: 'Wybierz datę'
       date_1: 'Ostatnie 24 godziny'
       date_2: 'Ostatni tydzień'
       date_3: 'Ostatni miesiąc'
       date_4: 'Ostatni rok'
+      date_5: 'Dostosowane'
+      from: 'Od'
+      general: 'Z tekstem'
+      general_placeholder: 'Pisz tekst'
+      search: 'Filtr'
+      title: 'Wyszukiwanie zaawansowane'
+      to: 'Do'
+    author_info:
+      author_deleted: Użytkownik usunięty
     back: Wróć
     check: Wybierz
     check_all: Wszystko
