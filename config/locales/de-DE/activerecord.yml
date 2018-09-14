@@ -162,7 +162,7 @@ de:
         password: "Passwort"
         current_password: "Aktuelles Passwort"
         phone_number: "Telefonnummer"
-        official_position: "Öffentliches Amt"
+        official_position: "Beamter/Beamtin"
         official_level: "Amtsebene"
         redeemable_code: "Bestätigungscode per Post (optional)"
       organization:
