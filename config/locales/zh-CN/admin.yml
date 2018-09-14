@@ -619,6 +619,29 @@ zh-CN:
         name: "组名"
         new: "创建评估员组"
         edit: "保存评估员组"
+    poll_officers:
+      index:
+        title: 投票站官员
+      officer:
+        add: 添加
+        delete: 删除职位
+        name: 名字
+        email: 电子邮件
+        entry_name: 官员
+      search:
+        email_placeholder: 通过电子邮件搜索用户
+        search: 搜索
+        user_not_found: 未找到用户
+    poll_officer_assignments:
+      index:
+        officers_title: "官员列表"
+        no_officers: "没有官员被分配给此投票站。"
+        table_name: "名字"
+        table_email: "电子邮件"
+      by_officer:
+        date: "日期"
+        booth: "投票亭"
+        assignments: "此投票项的官员轮班"
     poll_shifts:
       new:
         table_name: "名字"
