@@ -109,3 +109,46 @@ sq:
         description_finished: "Përshkrimi kur buxheti përfundon"
         phase: "Fazë"
         currency_symbol: "Monedhë"
+      budget/investment:
+        heading_id: "Kreu"
+        title: "Titull"
+        description: "Përshkrimi"
+        external_url: "Lidhje me dokumentacionin shtesë"
+        administrator_id: "Administrator"
+      poll:
+        description: "Përshkrimi"
+      poll/question:
+        title: "Pyetje"
+        summary: "Përmbledhje"
+        description: "Përshkrimi"
+        external_url: "Lidhje me dokumentacionin shtesë"
+      signature_sheet:
+        signable_type: "Lloji i nënshkrimit"
+        signable_id: "Identifikimi i nënshkrimit"
+        document_numbers: "Numrat e dokumenteve"
+      site_customization/page:
+        content: Përmbajtje
+        created_at: Krijuar në
+        subtitle: Nëntitull
+        status: Statusi
+        title: Titull
+        updated_at: Përditësuar në
+        more_info_flag: Trego në faqen ndihmëse
+        print_content_flag: Butoni për shtypjen e përmbajtjes
+        locale: Gjuha
+      site_customization/image:
+        name: Emri
+        image: Imazh
+      site_customization/content_block:
+        name: Emri
+        locale: vendndodhje
+        body: Trupi
+      legislation/process:
+        title: Titulli i procesit
+        summary: Përmbledhje
+        description: Përshkrimi
+        additional_info: Informacion shtesë
+        start_date: Data e fillimit
+        end_date: Data e përfundimit
+        debate_start_date: Data e fillimit të debatit
+        debate_end_date: Data e mbarimit të debatit
