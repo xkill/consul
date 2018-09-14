@@ -64,6 +64,15 @@ sq:
       spending_proposal:
         one: "Projekt investimi"
         other: "Projekt investimi"
+      site_customization/page:
+        one: Faqe e personalizuar
+        other: Faqe e personalizuar
+      site_customization/image:
+        one: Imazhi personalizuar
+        other: Imazhe personalizuara
+      site_customization/content_block:
+        one: Personalizimi i bllokut të përmbatjes
+        other: Personalizimi i blloqeve të përmbatjeve
       legislation/process:
         one: "Proçes"
         other: "Proçes"
@@ -186,6 +195,7 @@ sq:
         content: Përmbajtje
         created_at: Krijuar në
         subtitle: Nëntitull
+        slug: Slug
         status: Statusi
         title: Titull
         updated_at: Përditësuar në
@@ -246,6 +256,8 @@ sq:
         label: Etiketa (opsionale)
         title: Titull
         description: Përshkrimi
+        link_text: Linku tekstit
+        link_url: Linku URL
       widget/feed:
         limit: Numri i artikujve
     errors:
@@ -324,3 +336,6 @@ sq:
               cannot_comment_valuation: 'Ju nuk mund të komentoni një vlerësim'
       messages:
         record_invalid: "Vlefshmëria dështoi:%{errors}"
+        restrict_dependent_destroy:
+          has_one: "Nuk mund të fshihet regjistrimi për shkak se ekziston një%{record} i varur"
+          has_many: "Nuk mund të fshihet regjistrimi për shkak se ekziston një%{record} i varur"
