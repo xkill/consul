@@ -488,6 +488,13 @@ it:
       verify_link: "verifica il tuo account"
       cant_answer_incoming: "Questa votazione non è ancora iniziata."
       cant_answer_expired: "Questa votazione è conclusa."
+      cant_answer_wrong_geozone: "Questo quesito non è disponibile nella tua zona."
+      more_info_title: "Più informazioni"
+      documents: Documenti
+      zoom_plus: Espandi immagine
+      read_more: "Leggi di più in merito a %{answer}"
+      read_less: "Leggi di meno in merito a %{answer}"
+      videos: "Video esterno"
       info_menu: "Informazioni"
       stats_menu: "Statistiche di partecipazione"
       results_menu: "Risultati di voto"
@@ -555,6 +562,11 @@ it:
     flag: Contrassegna come inappropriato
     follow: "Segui"
     following: "Seguendo"
+    follow_entity: "Segui %{entity}"
+    followable:
+      budget_investment:
+        create:
+          notice_html: "Ora segui questo progetto di investimento! </br> Ti notificheremo i cambiamenti man mano che si realizzano così che tu possa rimanere aggiornato."
     hide: Nascondi
     show: Mostra
   spending_proposals:
