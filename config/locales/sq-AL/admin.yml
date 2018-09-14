@@ -44,3 +44,64 @@ sq:
         editing: Redakto banderol
         form:
           submit_button: Ruaj ndryshimet
+      errors:
+        form:
+          error:
+            one: "gabimi nuk lejonte që ky banderol të ruhej"
+            other: "gabimet nuk lejonin që ky banderol të ruhej"
+      new:
+        creating: Krijo banderol
+    activity:
+      show:
+        action: Veprimet
+        actions:
+          block: Bllokuar
+          hide: Të fshehura
+          restore: Kthyera
+        by: Moderuar nga
+        content: Përmbajtje
+        filter: Shfaq
+        filters:
+          all: Të gjithë
+          on_comments: Komente
+          on_debates: Debate
+          on_proposals: Propozime
+          on_users: Përdorues
+          on_system_emails: Emailet e sistemit
+    budgets:
+      winners:
+        calculate: Llogaritni investimet e fituesit
+        calculated: Fituesit duke u llogaritur, mund të marrë një minutë.
+        recalculate: Rivlerësoni Investimet e Fituesit
+    budget_phases:
+      edit:
+        start_date: Data e fillimit
+        end_date: Data e përfundimit
+        summary: Përmbledhje
+        summary_help_text: Ky tekst do të informojë përdoruesit për fazën. Për ta treguar atë edhe nëse faza nuk është aktive, zgjidhni kutinë e mëposhtme
+        description: Përshkrimi
+        description_help_text: Ky tekst do të shfaqet në kokë kur faza është aktive
+        enabled: Faza e aktivizuar
+        enabled_help_text: Kjo fazë do të jetë publike në afatet kohore të buxhetit, si dhe aktivë për çdo qëllim tjetër
+        save_changes: Ruaj ndryshimet
+    budget_investments:
+      index:
+        heading_filter_all: Të gjitha krerët
+        administrator_filter_all: Administrator
+        valuator_filter_all: Të gjithë vlerësuesit
+        tags_filter_all: Të gjitha etiketat
+        advanced_filters: Filtra të avancuar
+        placeholder: Kërko projekte
+        sort_by:
+          placeholder: Ndaj sipas
+          id: ID
+          title: Titull
+          supports: Suporti
+        filters:
+          all: Të gjithë
+          without_admin: Pa caktuar administratorin
+          without_valuator: Pa vlerësues të caktuar
+          under_valuation: Nën vlerësimin
+          valuation_finished: Vlerësimi përfundoi
+          feasible: I mundshëm
+          selected: I zgjedhur
