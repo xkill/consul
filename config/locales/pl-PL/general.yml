@@ -113,7 +113,7 @@ pl:
     direct_message: prywatna wiadomość
     error: błąd
     errors: błędy
-    not_saved_html: "uniemożliwił zapisanie tego %{resource} <br> Sprawdź zaznaczone pola, aby dowiedzieć się, jak je poprawić:"
+    not_saved_html: "uniemożliwił zapisanie tego %{resource}. <br>Sprawdź zaznaczone pola, aby dowiedzieć się, jak je poprawić:"
     policy: Polityka prywatności
     proposal: Wniosek
     proposal_notification: "Powiadomienie"
