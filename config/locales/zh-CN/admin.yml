@@ -900,3 +900,19 @@ zh-CN:
         undefined: 未定义
       summary:
         title: 投资项目总结
+        title_proposals_with_supports: 得到支持的投资项目总结
+        geozone_name: 范围
+        finished_and_feasible_count: 已完成并可行
+        finished_and_unfeasible_count: 已完成和不可行
+        finished_count: 已完成
+        in_evaluation_count: 评估中
+        total_count: 总
+        cost_for_geozone: 成本
+    geozones:
+      index:
+        title: 地理区域
+        create: 创建地理区域
+        edit: 编辑
+        delete: 删除
+      geozone:
+        name: 名字
