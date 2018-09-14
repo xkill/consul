@@ -130,6 +130,42 @@ sq:
       budget/heading:
         name: "Emri i kreut"
         price: "Çmim"
+        population: "Popullsi"
+      comment:
+        body: "Koment"
+        user: "Përdorues"
+      debate:
+        author: "Autor"
+        description: "Opinion"
+        terms_of_service: "Kushtet e shërbimit"
+        title: "Titull"
+      proposal:
+        author: "Autor"
+        title: "Titull"
+        question: "Pyetje"
+        description: "Përshkrimi"
+        terms_of_service: "Kushtet e shërbimit"
+      user:
+        login: "Email ose emer përdoruesi"
+        email: "Email"
+        username: "Emer përdoruesi"
+        password_confirmation: "Konfirmimi i fjalëkalimit"
+        password: "Fjalëkalim"
+        current_password: "Fjalëkalimi aktual"
+        phone_number: "Numri i telefonit"
+        official_position: "Pozicioni zyrtar"
+        official_level: "Niveli zyrtar"
+        redeemable_code: "Kodi i verifikimit është pranuar përmes postës elektronike"
+      organization:
+        name: "Emri i organizatës"
+        responsible_name: "Personi përgjegjës për grupin"
+      spending_proposal:
+        administrator_id: "Administrator"
+        association_name: "Emri i shoqatës"
+        description: "Përshkrimi"
+        external_url: "Lidhje me dokumentacionin shtesë"
+        geozone_id: "Fusha e veprimit"
+        title: "Titull"
       poll:
         description: "Përshkrimi"
       poll/question:
