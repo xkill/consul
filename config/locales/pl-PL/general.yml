@@ -188,17 +188,49 @@ pl:
     help:
       alt: Zaznacz tekst, który chcesz skomentować i naciśnij przycisk z ołówkiem.
       text: Aby skomentować ten dokument musisz się %{sign_in} lub %{sign_up}. Zaznacz tekst, który chcesz skomentować i naciśnij przycisk z ołówkiem.
+      text_sign_in: zaloguj się
+      text_sign_up: zarejestruj się
+      title: Jak mogę skomentować ten dokument?
   locale: angielski
   notifications:
     index:
       empty_notifications: Nie masz nowych powiadomień.
       mark_all_as_read: Zaznacz wszystkie jako przeczytane.
+      read: Czytaj
       title: Powiadomienia
+      unread: Nieprzeczytane
     notification:
+      action:
+        comments_on:
+          one: Ktoś smonektował
+          few: Są %{count} nowe komentarze odnośnie
+          many: Są %{count} nowe komentarze odnośnie
+          other: Są %{count} nowe komentarze odnośnie
+        proposal_notification:
+          one: Dostępne jest nowe powiadomienie odnośnie
+          few: Dostępne są %{count} nowe powiadomienia odnośnie
+          many: Dostępne są %{count} nowe powiadomienia odnośnie
+          other: Dostępne są %{count} nowe powiadomienia odnośnie
+        replies_to:
+          one: Ktoś odpowiedział na Twój komentarz odnośnie
+          few: Dostępne są %{count} nowe odpowiedzi na Twój komentarz odnośnie
+          many: Dostępne są %{count} nowe odpowiedzi na Twój komentarz odnośnie
+          other: Dostępne są %{count} nowe odpowiedzi na Twój komentarz odnośnie
       mark_as_read: Zaznacz wszystkie jako przeczytane.
+      mark_as_unread: Oznacz jako nieprzeczytane
+      notifiable_hidden: Ten zasób nie jest już dostępny.
+  map:
+    title: "Dzielnice"
+    proposal_for_district: "Zacznij wniosek dla Twojej dzielnicy"
+    select_district: Zakres operacji
+    start_proposal: Stwórz wniosek
   omniauth:
     facebook:
+      sign_in: Zaloguj się przez Facebook
+      sign_up: Zarejestruj się przez Facebook
       name: Facebook
+    finish_signup:
+      title: "Dodatkowe szczegóły"
     google_oauth2:
       name: Google
     twitter:
