@@ -128,6 +128,7 @@ pl:
       winners:
         calculate: Oblicz Inwestycje Zwycięzców
         calculated: Liczenie zwycięzców może potrwać minutę.
+        recalculate: Przelicz inwestycje na zwycięzcę
     budget_phases:
       edit:
         start_date: Data rozpoczęcia
@@ -146,9 +147,24 @@ pl:
           unfeasible: "Niemożliwy do realizacji"
         selected: "Wybrany"
         select: "Wybierz"
+        list:
+          author_username: Nazwa użytkownika autora
+        cannot_calculate_winners: Budżet musi pozostać w fazie "Projekty głosowania", "Przegląd głosów" lub "Gotowy budżet" w celu obliczenia zwycięzców projektów
+        see_results: "Zobacz wyniki"
       show:
+        assigned_admin: Przypisany administrator
+        assigned_valuators: Przypisani wyceniający
+        classification: Klasyfikacja
         edit: Edytuj
+        by: Przez
+        sent: Wysłane
+        group: Grupa
+        heading: Nagłówek
+        dossier: Dokumentacja
+        edit_dossier: Edytuj dokumentację
         tags: Tagi
+        user_tags: Tagi użytkownika
+        undefined: Niezdefiniowany
         winner:
           "true": "Tak"
           "false": "Nie"
@@ -159,19 +175,56 @@ pl:
         see_documents: "Zobacz dokumenty (%{count})"
         no_documents: "Bez dokumentów"
       edit:
+        mark_as_incompatible: Oznacz jako niezgodne
+        mark_as_selected: Oznacz jako wybrane
+        select_heading: Wybierz nagłówek
         submit_button: Zaktualizuj
+        user_tags: Użytkownik przypisał tagi
         tags: Tagi
+        tags_placeholder: "Napisz tagi, które chcesz oddzielić przecinkami (,)"
     milestones:
       index:
         show_image: "Pokaż obraz"
         documents: "Dokumenty"
+      form:
+        no_statuses_defined: Nie ma jeszcze zdefiniowanych statusów inwestycyjnych
       new:
         description: Opis
     statuses:
       index:
         delete: Usuń
         edit: Edytuj
+    comments:
+      index:
+        no_hidden_comments: Nie ma żadnych ukrytych komentarzy.
+    dashboard:
+      index:
+        back: Wróć do %{org}
+        description: Witamy w panelu administracyjnym %{org}.
+    debates:
+      index:
+        no_hidden_debates: Nie ma ukrytych debat.
+    hidden_users:
+      index:
+        no_hidden_users: Nie ma żadnych ukrytych użytkowników.
+      show:
+        title: Aktywność użytkownika (%{user})
+    hidden_budget_investments:
+      index:
+        no_hidden_budget_investments: Nie ma ukrytych inwestycji budżetowych
     legislation:
+      processes:
+        create:
+          notice: 'Proces utworzony pomyślnie. <a href="%{link}"> Kliknij, aby odwiedzić </a>'
+          error: Nie można utworzyć procesu
+        update:
+          notice: 'Proces zaktualizowany pomyślnie. <a href="%{link}">Kliknij, aby odwiedzić</a>'
+          error: Proces nie mógł być zaktualizowany
+        destroy:
+          notice: Proces został pomyślnie usunięty
+        edit:
+          back: Wstecz
+          submit_button: Zapisz zmiany
       draft_versions:
         index:
           title: Wersje robocze
