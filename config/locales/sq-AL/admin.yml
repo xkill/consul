@@ -6,3 +6,41 @@ sq:
       actions: Veprimet
       confirm: A je i sigurt?
       confirm_hide: Konfirmo moderimin
+      hide: Fsheh
+      hide_author: Fshih autorin
+      restore: Kthej
+      mark_featured: Karakteristika
+      unmark_featured: Çaktivizo karakteristikat
+      edit: Redaktoj
+      configure: Konfiguro
+      delete: Fshi
+    banners:
+      index:
+        title: Banderol
+        create: Krijo banderol
+        edit: Redakto banderol
+        delete: Fshi banderol
+        filters:
+          all: Të gjithë
+          with_active: Aktiv
+          with_inactive: Inaktiv
+        preview: Parapamje
+      banner:
+        title: Titull
+        description: Përshkrimi
+        target_url: Link
+        post_started_at: Post filloi në
+        post_ended_at: Post përfundoi në
+        sections_label: Seksionet ku do të shfaqet
+        sections:
+          homepage: Kryefaqja
+          debates: Debate
+          proposals: Propozime
+          budgets: Buxhetimi me pjesëmarrje
+          help_page: Faqja ndihmëse
+        background_color: Ngjyra e sfondit
+        font_color: Ngjyra e shkronjave
+      edit:
+        editing: Redakto banderol
+        form:
+          submit_button: Ruaj ndryshimet
