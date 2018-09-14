@@ -215,3 +215,22 @@ sq:
           comments: Komente
           status: Statusi
           creation_date: Data e krijimit
+          status_open: Hapur
+          status_closed: Mbyllur
+          status_planned: Planifikuar
+        subnav:
+          info: Informacion
+          draft_texts: Hartimi
+          questions: Debate
+          proposals: Propozime
+      proposals:
+        index:
+          title: Propozime
+          back: Pas
+        form:
+          custom_categories: Kategoritë
+          custom_categories_description: Kategoritë që përdoruesit mund të zgjedhin duke krijuar propozimin.
+          custom_categories_placeholder: Futni etiketat që dëshironi të përdorni, të ndara me presje (,) dhe midis kuotave ("")
+      draft_versions:
+        create:
+          notice: 'Draft u krijua me sukses. <a href="%{link}">Kliko për të vizituar</a>'
