@@ -20,13 +20,13 @@ pl:
         welcome: Witaj
       reset_password_instructions:
         change_link: Zmień moje hasło
-        hello: Halo
+        hello: Witaj
         ignore_text: Jeżeli nie zażądałeś zmiany hasła, możesz zignorować ten e-mail.
         info_text: Twoje hasło nie zostanie zmienione dopóki nie wejdziesz w link i nie dokonasz jego edycji.
         text: 'Otrzymaliśmy prośbę o zmianę Twojego hasła. Możesz jej dokonać pod następującym linkiem:'
         title: Zmień hasło
       unlock_instructions:
-        hello: Halo
+        hello: Witaj
         info_text: Twoje konto zostało zablokowane z powodu nadmiernej liczby nieudanych prób zalogowania.
         instructions_text: 'Kliknij w ten link, aby odblokować swoje konto:'
         title: Twoje konto zostało zablokowane
