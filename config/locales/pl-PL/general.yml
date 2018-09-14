@@ -658,7 +658,27 @@ pl:
     timestamp_error_message: "Wybacz, to było zbyt szybkie! Prześlij ponownie."
   related_content:
     title: "Powiązana zawartość"
+    add: "Dodaj powiązane treści"
+    label: "Link do powiązanych treści"
     placeholder: "%{url}"
+    help: "Możesz dodać linki %{models} wewnątrz %{org}."
     submit: "Dodaj"
+    error: "Link jest nieprawidłowy. Pamiętaj, aby zacząć z %{url}."
+    error_itself: "Link nie jest prawidłowy. Nie możesz powiązać treści z samą sobą."
+    success: "Dodałeś nową powiązaną treść"
     score_positive: "Tak"
     score_negative: "Nie"
+    content_title:
+      proposal: "Propozycja"
+      debate: "Debata"
+      budget_investment: "Inwestycje budżetowe"
+  admin/widget:
+    header:
+      title: Administracja
+  annotator:
+    help:
+      alt: Zaznacz tekst, który chcesz skomentować i naciśnij przycisk z ołówkiem.
+      text: Aby skomentować ten dokument musisz się %{sign_in} lub %{sign_up}. Zaznacz tekst, który chcesz skomentować i naciśnij przycisk z ołówkiem.
+      text_sign_in: zaloguj się
+      text_sign_up: zarejestruj się
+      title: Jak mogę skomentować ten dokument?
