@@ -294,20 +294,32 @@ pl:
     proposal:
       created: "Stworzyłeś wniosek!"
       share:
-        guide: "Teraz możesz go udostępnić, aby inni mogli zacząć wspierać."
+        guide: "Teraz możesz go udostępnić, aby inni mogli zacząć popierać."
         edit: "Zanim zostanie udostępniony, będziesz mógł zmieniać tekst według własnego uznania."
         view_proposal: Nie teraz, idź do mojego wniosku
-      improve_info: "Ulepsz swoją kampanię i uzyskaj więcej wsparcia"
+      improve_info: "Ulepsz swoją kampanię i uzyskaj więcej poparcia"
       improve_info_link: "Zobacz więcej informacji"
-      already_supported: Już wsparłeś ten wniosek. Udostępnij go!
+      already_supported: Już poparłeś ten wniosek. Udostępnij go!
       comments:
         zero: Brak komentarzy
         one: 1 komentarz
         few: "%{count} komentarzy"
         many: "%{count} komentarzy"
         other: "%{count} komentarzy"
-      support: Wsparcie
-      support_title: Wesprzyj ten wniosek
+      support: Poparcie
+      support_title: Poprzyj ten wniosek
+      supports:
+        zero: Brak poparcia
+        one: 1 popierający
+        few: "%{count} popierających"
+        many: "%{count} popierających"
+        other: "%{count} popierających"
+      votes:
+        zero: Brak głosów
+        one: 1 głos
+        few: "%{count} głosów"
+        many: "%{count} głosów"
+        other: "%{count} głosów"
     show:
       comments:
         zero: Brak komentarzy
