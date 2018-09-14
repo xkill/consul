@@ -231,15 +231,35 @@ pl:
       name: Facebook
     finish_signup:
       title: "Dodatkowe szczegóły"
+      username_warning: "Ze względu na zmiany w sposób interakcji z sieciami społecznymi, jest możliwe że Twoja nazwa użytkownika wyświetla się jako \"już w użyciu\". Jeśli jest to Twój przypadek, wybierz inną nazwę użytkownika."
     google_oauth2:
+      sign_in: Zaloguj się przez Google
+      sign_up: Zarejestruj się przez Google
       name: Google
     twitter:
+      sign_in: Zaloguj się przez Twitter
+      sign_up: Zarejestruj się przez Twitter
       name: Twitter
+    info_sign_in: "Zaloguj się przez:"
+    info_sign_up: "Zarejestruj się przez:"
     or_fill: "Lub wypełnij formularz:"
   proposals:
+    create:
+      form:
+        submit_button: Stwórz wniosek
     edit:
+      editing: Edytuj wniosek
       form:
         submit_button: Zapisz zmiany
+      show_link: Zobacz wniosek
+    retire_form:
+      title: Wycofaj wniosek
+      warning: "Jeśli wycofasz wniosek, nadal będzie on otrzymywał wsparcie, ale zostanie usunięty z głównej listy, a wiadomość będzie widoczna dla wszystkich użytkowników, oświadczając, że zdaniem autora wniosek nie powinien już być obsługiwany"
+      retired_reason_label: Powód do wycofania wniosku
+      retired_reason_blank: Wybierz opcję
+      retired_explanation_label: Wyjaśnienie
+      retired_explanation_placeholder: Wyjaśnij krótko, dlaczego Twoim zdaniem ten wniosek nie powinien otrzymać więcej wsparcia
+      submit_button: Wycofaj wniosek
     retire_options:
       other: Inne
     form:
@@ -253,6 +273,41 @@ pl:
       search_form:
         button: Szukaj
         title: Szukaj
+      section_header:
+        icon_alt: Ikona wniosków
+        title: Wnioski
+        help: Pomoc na temat wniosków
+      section_footer:
+        title: Pomoc na temat wniosków
+        description: Wnioski obywatelskie są okazją dla sąsiadów i grup do bezpośredniego decydowania, w jaki sposób chcą, by wyglądało ich miasto, po uzyskaniu wystarczającego wsparcia i poddaniu się głosowaniu obywateli.
+    new:
+      form:
+        submit_button: Stwórz wniosek
+      more_info: Jak działają wnioski obywatelskie?
+      recommendation_one: Nie należy używać wielkich liter dla tytuł wniosku lub całych zdań. W Internecie uznawane jest to za krzyk. I nikt nie lubi jak się na niego krzyczy.
+      recommendation_three: Ciesz się tą przestrzenią oraz głosami, które ją wypełniają. To należy również do Ciebie.
+      recommendation_two: Wszelkie wnioski lub komentarze sugerujące nielegalne działania zostaną usunięte, a także te, które zamierzają sabotować przestrzenie debaty. Wszystko inne jest dozwolone.
+      recommendations_title: Rekomendacje do utworzenia wniosku
+      start_new: Stwórz nowy wniosek
+    notice:
+      retired: Wniosek wycofany
+    proposal:
+      created: "Stworzyłeś wniosek!"
+      share:
+        guide: "Teraz możesz go udostępnić, aby inni mogli zacząć wspierać."
+        edit: "Zanim zostanie udostępniony, będziesz mógł zmieniać tekst według własnego uznania."
+        view_proposal: Nie teraz, idź do mojego wniosku
+      improve_info: "Ulepsz swoją kampanię i uzyskaj więcej wsparcia"
+      improve_info_link: "Zobacz więcej informacji"
+      already_supported: Już wsparłeś ten wniosek. Udostępnij go!
+      comments:
+        zero: Brak komentarzy
+        one: 1 komentarz
+        few: "%{count} komentarzy"
+        many: "%{count} komentarzy"
+        other: "%{count} komentarzy"
+      support: Wsparcie
+      support_title: Wesprzyj ten wniosek
     show:
       comments:
         zero: Brak komentarzy
