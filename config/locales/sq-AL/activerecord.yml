@@ -1,1 +1,24 @@
 sq:
+  activerecord:
+    models:
+      activity:
+        one: "aktivitet"
+        other: "aktivitet"
+      budget:
+        one: "Buxhet"
+        other: "Buxhet"
+      budget/investment:
+        one: "Investim"
+        other: "Investim"
+      budget/investment/milestone:
+        one: "moment historik"
+        other: "milestone"
+      budget/investment/status:
+        one: "Statusi investimeve"
+        other: "Statusi investimeve"
+      comment:
+        one: "Komente"
+        other: "Komente"
+      debate:
+        one: "Debate"
+        other: "Debate"
