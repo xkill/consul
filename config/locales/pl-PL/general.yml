@@ -5,6 +5,7 @@ pl:
       email_on_comment_label: Powiadom mnie drogą mailową, gdy ktoś skomentuje moje propozycje lub debaty
       email_on_comment_reply_label: Powiadom mnie drogą mailową, gdy ktoś odpowie na moje komentarze
       erase_account_link: Usuń moje konto
+      finish_verification: Zakończ weryfikację
       notifications: Powiadomienia
       organization_name_label: Nazwa organizacji
       organization_responsible_name_placeholder: Reprezentant organizacji/kolektywu
