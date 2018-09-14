@@ -64,3 +64,48 @@ sq:
       spending_proposal:
         one: "Projekt investimi"
         other: "Projekt investimi"
+      legislation/process:
+        one: "Proçes"
+        other: "Proçes"
+      legislation/draft_versions:
+        one: "Version drafti"
+        other: "Version drafti"
+      legislation/draft_texts:
+        one: "Drafti"
+        other: "Drafti"
+      legislation/questions:
+        one: "Pyetje"
+        other: "Pyetje"
+      legislation/question_options:
+        one: "Opsioni i pyetjeve"
+        other: "Opsioni i pyetjeve"
+      legislation/answers:
+        one: "Përgjigjet"
+        other: "Përgjigjet"
+      documents:
+        one: "Dokument"
+        other: "Dokument"
+      images:
+        one: "Imazh"
+        other: "Imazh"
+      topic:
+        one: "Temë"
+        other: "Temë"
+      poll:
+        one: "Sondazh"
+        other: "Sondazh"
+      proposal_notification:
+        one: "Notifikimi i propozimeve"
+        other: "Notifikimi i propozimeve"
+    attributes:
+      budget:
+        name: "Emri"
+        description_accepting: "Përshkrimi gjatë fazës së pranimit"
+        description_reviewing: "Përshkrimi gjatë fazës së shqyrtimit"
+        description_selecting: "Përshkrimi gjatë fazës së zgjedhjes"
+        description_valuating: "Përshkrimi gjatë fazës së vlerësimit"
+        description_balloting: "Përshkrimi gjatë fazës së votimit"
+        description_reviewing_ballots: "Përshkrimi gjatë shqyrtimit të fazës së votimit"
+        description_finished: "Përshkrimi kur buxheti përfundon"
+        phase: "Fazë"
+        currency_symbol: "Monedhë"
