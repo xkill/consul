@@ -22,3 +22,45 @@ sq:
       debate:
         one: "Debate"
         other: "Debate"
+      tag:
+        one: "Etiketë"
+        other: "Etiketë - Tag"
+      user:
+        one: "Përdorues"
+        other: "Përdorues"
+      moderator:
+        one: "Moderator"
+        other: "Moderator"
+      administrator:
+        one: "Administrator"
+        other: "Administrator"
+      valuator:
+        one: "Vlerësues"
+        other: "Vlerësues"
+      valuator_group:
+        one: "Grup vlerësuesish"
+        other: "Grup vlerësuesish"
+      manager:
+        one: "Manaxher"
+        other: "Manaxher"
+      newsletter:
+        one: "Buletin informativ"
+        other: "Buletin informativ"
+      vote:
+        one: "Votim"
+        other: "Votim"
+      organization:
+        one: "Organizim"
+        other: "Organizim"
+      poll/booth:
+        one: "kabinë"
+        other: "kabinë"
+      poll/officer:
+        one: "oficer"
+        other: "oficer"
+      proposal:
+        one: "Propozimi qytetar"
+        other: "Propozimi qytetar"
+      spending_proposal:
+        one: "Projekt investimi"
+        other: "Projekt investimi"
