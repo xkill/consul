@@ -591,8 +591,18 @@ pl:
         zero: Brak wsparcia
   stats:
     index:
+      visits: Odwiedziny
+      debates: Debaty
+      proposals: Propozycje
       comments: Komentarze
+      proposal_votes: Głosy na propozycje
+      debate_votes: Głosy na debaty
+      comment_votes: Głosy na komentarze
+      votes: Liczba głosów
+      verified_users: Zweryfikowani użytkownicy
+      unverified_users: Niezweryfikowani użytkownicy
   unauthorized:
+    default: Nie masz uprawnień dostępu do tej strony.
     manage:
       all: "Nie masz uprawnień do wykonania akcji %{action} odnośnie %{subject}."
   users:
@@ -605,18 +615,49 @@ pl:
         title_label: Tytuł
         verified_only: Aby wysłać prywatną wiadomość %{verify_account}
         verify_account: zweryfikuj swoje konto
+        authenticate: Aby kontynuować, musisz %{signin} lub %{signup}.
+        signin: zaloguj się
+        signup: zarejestruj się
+      show:
+        receiver: Wiadomość wysłana do %{receiver}
     show:
+      deleted: Usunięte
+      deleted_debate: Ta debata została usunięta
+      deleted_proposal: Ta propozycja została usunięta
+      deleted_budget_investment: Ten projekt inwestycyjny został usunięty
+      proposals: Propozycje
+      debates: Debaty
+      budget_investments: Inwestycje budżetowe
       comments: Komentarze
+      actions: Akcje
+      no_activity: Użytkownik nie ma publicznej aktywności
+      no_private_messages: "Ten użytkownik nie przyjmuje wiadomości prywatnych."
+      private_activity: Ten użytkownik postanowił zachować listę aktywności jako prywatną.
+      send_private_message: "Wyślij prywatną wiadomość"
+      delete_alert: "Czy na pewno chcesz usunąć swój projekt inwestycyjny? Tego działania nie można cofnąć"
+    proposals:
+      send_notification: "Wyślij powiadomienie"
   votes:
     agree: Zgadzam się
+    anonymous: Zbyt wiele anonimowych głosów, by móc głosować %{verify_account}.
+    comment_unauthenticated: Aby zagłosować, musisz %{signin} lub %{signup}.
     disagree: Nie zgadzam się
+    organizations: Organizacje nie mogą głosować
+    signin: Zaloguj się
+    signup: Zarejestruj się
+    supports: Wsparcie
+    unauthenticated: Aby kontynuować, musisz %{signin} lub %{signup}.
     verify_account: zweryfikuj swoje konto
   welcome:
     verification:
       title: Weryfikacja konta
     welcome:
       user_permission_verify_my_account: Zweryfikuj moje konto
+  invisible_captcha:
+    sentence_for_humans: "Jeśli jesteś człowiekiem, zignoruj to pole"
+    timestamp_error_message: "Wybacz, to było zbyt szybkie! Prześlij ponownie."
   related_content:
+    title: "Powiązana zawartość"
     placeholder: "%{url}"
     submit: "Dodaj"
     score_positive: "Tak"
