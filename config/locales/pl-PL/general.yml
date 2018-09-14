@@ -9,6 +9,7 @@ pl:
       notifications: Powiadomienia
       organization_name_label: Nazwa organizacji
       organization_responsible_name_placeholder: Reprezentant organizacji/kolektywu
+      personal: Dane osobowe
       phone_number_label: Numer telefonu
       public_activity_label: Utrzymaj moją listę aktywności publiczną
       public_interests_label: Utrzymaj etykiety elementów, które obserwuję, publicznymi
@@ -18,6 +19,7 @@ pl:
       subscription_to_website_newsletter_label: Otrzymuj informacje dotyczące strony drogą mailową
       email_on_direct_message_label: Otrzymuj e-maile o wiadomościach bezpośrednich
       email_digest_label: Otrzymuj podsumowanie powiadomień dotyczących propozycji
+      official_position_badge_label: Pokaż odznakę oficjalnej pozycji
       recommendations: Rekomendacje
       title: Moje konto
       user_permission_info: Z Twoim kontem możesz...
@@ -144,6 +146,7 @@ pl:
       consul_url: https://github.com/consul/consul
       contact_us: Do centrów pomocy technicznej
       copyright: CONSUL, %{year}
+      description: Ten portal używa %{consul}, który jest %{open_source}.
       open_source: oprogramowanie open-source
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: Decyduj, jak kształtować miasto, w którym chcesz mieszkać.
@@ -162,6 +165,29 @@ pl:
       moderation: Moderacja
       valuation: Wycena
       officing: Urzędnicy głosujący
+      help: Pomoc
+      my_account_link: Moje konto
+      my_activity_link: Moja aktywność
+      open: otwórz
+      open_gov: Otwarty rząd
+      proposals: Wnioski
+      poll_questions: Głosowanie
+      budgets: Budżetowanie partycypacyjne
+      spending_proposals: Wnioski wydatkowe
+      notification_item:
+        new_notifications:
+          one: Masz nowe powiadomienie
+          few: Masz %{count} nowe powiadomienia
+          many: Masz %{count} nowe powiadomienia
+          other: Masz %{count} nowe powiadomienia
+        notifications: Powiadomienia
+        no_notifications: "Nie masz nowych powiadomień"
+    admin:
+      watch_form_message: 'Posiadasz niezapisane zmiany. Czy potwierdzasz opuszczenie strony?'
+  legacy_legislation:
+    help:
+      alt: Zaznacz tekst, który chcesz skomentować i naciśnij przycisk z ołówkiem.
+      text: Aby skomentować ten dokument musisz się %{sign_in} lub %{sign_up}. Zaznacz tekst, który chcesz skomentować i naciśnij przycisk z ołówkiem.
   locale: angielski
   notifications:
     index:
