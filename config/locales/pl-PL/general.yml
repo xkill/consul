@@ -320,13 +320,40 @@ pl:
         few: "%{count} głosów"
         many: "%{count} głosów"
         other: "%{count} głosów"
+      supports_necessary: "%{number} wymaganych popierających"
+      total_percent: 100%
+      archived: "Niniejszy wniosek został zarchiwizowany i nie może zbierać poparcia."
+      successful: "Ten wniosek osiągnął wymagane poparcie."
     show:
+      author_deleted: Użytkownik usunięty
+      code: 'Kod wniosku:'
       comments:
         zero: Brak komentarzy
+        one: 1 komentarz
+        few: "%{count} komentarze"
+        many: "%{count} komentarzy"
+        other: "%{count} komentarzy"
       comments_tab: Komentarze
       edit_proposal_link: Edytuj
+      flag: Ten wniosek został oznaczona jako nieodpowiedni przez kilku użytkowników.
+      login_to_comment: Muszą się %{signin} lub %{signup} by zostawić komentarz.
+      notifications_tab: Powiadomienia
+      retired_warning: "Autor uważa, że niniejszy wniosek nie powinien otrzymywać więcej poparcia."
+      retired_warning_link_to_explanation: Przed głosowaniem przeczytaj wyjaśnienie.
+      retired: Wniosek wycofany przez autora
       share: Udostępnij
+      send_notification: Wyślij powiadomienie
+      no_notifications: "Niniejszy wniosek ma żadnych powiadomień."
+      embed_video_title: "Wideo na %{proposal}"
+      title_external_url: "Dodatkowa dokumentacja"
+      title_video_url: "Zewnętrzne video"
+      author: Autor
+    update:
+      form:
+        submit_button: Zapisz zmiany
   polls:
+    all: "Wszystkie"
+    no_dates: "brak przypisanej daty"
     index:
       title: "Ankiety"
       participate_button_incoming: "Więcej informacji"
@@ -343,8 +370,16 @@ pl:
       title_label: "Tytuł"
       body_label: "Wiadomość"
       submit_button: "Wyślij wiadomość"
+      proposal_page: "strona wniosku"
+    show:
+      back: "Wróć do mojej aktywności"
   shared:
     edit: 'Edytuj'
+    save: 'Zapisz'
+    delete: Usuń
+    "yes": "Tak"
+    "no": "Nie"
+    search_results: "Szukaj wyników"
     advanced_search:
       date_placeholder: 'DD/MM/RRRR'
       date_range_blank: 'Wybierz datę'
