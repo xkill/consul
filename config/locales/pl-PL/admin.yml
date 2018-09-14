@@ -1,12 +1,16 @@
 pl:
   admin:
+    header:
+      title: Administracja
     actions:
       actions: Akcje
       confirm: Jesteś pewny/a?
+      confirm_hide: Potwierdź moderację
       hide: Ukryj
       hide_author: Ukryj autora
       restore: Przywróć
       edit: Edytuj
+      configure: Skonfiguruj
       delete: Usuń
     banners:
       index:
@@ -23,6 +27,9 @@ pl:
         title: Tytuł
         description: Opis
         target_url: Link
+        post_started_at: Post zaczął się o
+        post_ended_at: Post zakończył się o
+        sections_label: Sekcje, w których się pojawią
         sections:
           homepage: Strona domowa
           debates: Debaty
@@ -89,15 +96,38 @@ pl:
         delete: Usuń budżet
         phase: Etap
         dates: Daty
+        enabled: Włączone
+        actions: Akcje
         edit_phase: Edytuj etap
         active: Aktywny
+        blank_dates: Daty są puste
+      destroy:
+        success_notice: Budżet został pomyślnie usunięty
+        unable_notice: Nie możesz zniszczyć budżetu, który wiąże powiązane inwestycje
+      new:
+        title: Nowy budżet partycypacyjny
       form:
         group: Nazwa grupy
+        no_groups: Nie utworzono jeszcze żadnych grup. Każdy użytkownik będzie mógł głosować tylko w jednym nagłówku na grupę.
         add_group: Dodaj nową grupę
         create_group: Utwórz grupę
         edit_group: Edytuj grupę
         submit: Zapisz grupę
+        heading: Nazwa nagłówka
+        add_heading: Dodaj nagłówek
+        amount: Ilość
+        population: "Populacja (opcjonalnie)"
+        population_help_text: "Dane te są wykorzystywane wyłącznie do obliczania statystyk uczestnictwa"
+        save_heading: Zapisz nagłówek
+        no_heading: Ta grupa nie ma przypisanego nagłówka.
+        table_heading: Nagłówek
+        table_amount: Ilość
         table_population: Populacja
+        population_info: "Pole nagłówka budżetu jest używane do celów statystycznych na końcu budżetu, aby pokazać dla każdego nagłówka, który reprezentuje obszar z liczbą ludności, jaki odsetek głosował. To pole jest opcjonalne, więc możesz zostawić je puste, jeśli nie ma ono zastosowania."
+        max_votable_headings: "Maksymalna liczba nagłówków, w których użytkownik może głosować"
+      winners:
+        calculate: Oblicz Inwestycje Zwycięzców
+        calculated: Liczenie zwycięzców może potrwać minutę.
     budget_phases:
       edit:
         start_date: Data rozpoczęcia
