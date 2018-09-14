@@ -532,7 +532,7 @@ gl:
       newsletters: Boletíns informativos
       admin_notifications: Notificacións
       system_emails: Correos electrónicos do sistema
-      emails_download: Descarga de correos electrónicos
+      emails_download: Descarga de enderezos de correo
       valuators: Avaliadores/as
       poll_officers: Presidentes de mesa
       polls: Votacións
@@ -687,10 +687,10 @@ gl:
         preview_detail: Os usuarios só recibirán as notificacións das propostas que están a seguir
     emails_download:
       index:
-        title: Descarga de correos electrónicos
+        title: Descarga de enderezos de correo
         download_segment: Descargar enderezos de correo electrónico
         download_segment_help_text: Descargar en formato CSV
-        download_emails_button: Descargar lista de correos electrónicos
+        download_emails_button: Descargar lista de enderezos
     valuators:
       index:
         title: Avaliadores/as
