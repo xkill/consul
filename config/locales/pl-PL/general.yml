@@ -492,9 +492,12 @@ pl:
     direct_messages:
       new:
         body_label: Wiadomość
+        direct_messages_bloqued: "Ten użytkownik postanowił nie otrzymywać wiadomości bezpośrednich"
         submit_button: Wyślij wiadomość
         title: Wyślij prywatną wiadomość do %{receiver}
         title_label: Tytuł
+        verified_only: Aby wysłać prywatną wiadomość %{verify_account}
+        verify_account: zweryfikuj swoje konto
     show:
       comments: Komentarze
   votes:
