@@ -129,3 +129,89 @@ sq:
         list:
           id: ID
           title: Titull
+      edit:
+        mark_as_selected: Shëno si të zgjedhur
+        assigned_valuators: Vlerësues
+        select_heading: Zgjidh shkrimin
+        submit_button: Përditëso
+        user_tags: Etiketat e caktuara të përdoruesit
+        tags: Etiketë
+        tags_placeholder: "Shkruani etiketat që dëshironi të ndahen me presje (,)"
+        undefined: E padefinuar
+        user_groups: "Grupet"
+      search_unfeasible: Kërkoni të papërshtatshëm
+    milestones:
+      index:
+        table_id: "ID"
+        table_title: "Titull"
+        table_description: "Përshkrimi"
+        table_publication_date: "Data e publikimit"
+        table_status: Statusi
+        table_actions: "Veprimet"
+        delete: "Fshi momentet historik"
+        no_milestones: "Mos keni afate të përcaktuara"
+        image: "Imazh"
+        show_image: "Trego imazhin"
+        documents: "Dokumentet"
+      form:
+        admin_statuses: Statusi i investimeve të administratorit
+        no_statuses_defined: Ende nuk ka statuse të përcaktuara për investime
+      new:
+        creating: Krijo momentet historik
+        date: Data
+        description: Përshkrimi
+      edit:
+        title: Modifiko momentet historike
+      create:
+        notice: Momentet historike te reja u krijuan me sukses!
+      update:
+        notice: Momentet historike te reja u përditësuan me sukses
+      delete:
+        notice: Momentet historike te reja u fshinë me sukses
+    statuses:
+      index:
+        title: Statusi investimeve
+        empty_statuses: Nuk ka statuse investimi të krijuara
+        new_status: Krijo status të ri investimi
+        table_name: Emri
+        table_description: Përshkrimi
+        table_actions: Veprimet
+        delete: Fshi
+        edit: Redaktoj
+      edit:
+        title: Ndrysho statusin e investimeve
+      update:
+        notice: Statusi i investimeve rifreskohet me sukses
+      new:
+        title: Krijo statusin e investimeve
+      create:
+        notice: Statusi i investimeve krijua me sukses
+      delete:
+        notice: Statusi i investimeve u fshi me sukses
+    comments:
+      index:
+        filter: Filtër
+        filters:
+          all: Të gjithë
+          with_confirmed_hide: Konfirmuar
+          without_confirmed_hide: Në pritje
+        hidden_debate: Debati i fshehtë
+        hidden_proposal: Propozimi i fshehur
+        title: Komentet e fshehura
+    legislation:
+      processes:
+        index:
+          filters:
+            open: Hapur
+            next: Tjetër
+            past: E kaluara
+            all: Të gjithë
+        new:
+          back: Pas
+          title: Krijo një proces të ri bashkëpunues të legjislacionit
+          submit_button: Krijo procesin
+        process:
+          title: Proçes
+          comments: Komente
+          status: Statusi
+          creation_date: Data e krijimit
