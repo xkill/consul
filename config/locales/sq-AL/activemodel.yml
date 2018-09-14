@@ -1,0 +1,5 @@
+sq:
+  activemodel:
+    models:
+      verification:
+        residence: "Rezident"
