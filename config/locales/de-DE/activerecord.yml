@@ -68,14 +68,14 @@ de:
         one: Meine Seite
         other: Meine Seiten
       site_customization/image:
-        one: Benutzer*innenbild
-        other: Benutzer*innenbilder
+        one: Bild
+        other: Bilder
       site_customization/content_block:
-        one: Benutzer*spezifischer Inhaltsdatenblock
-        other: Benutzer*spezifische Inhaltsdatenblöcke
+        one: Benutzerspezifischer Inhaltsdatenblock
+        other: Benutzerspezifische Inhaltsdatenblöcke
       legislation/process:
         one: "Verfahren"
-        other: "Verfahren"
+        other: "Beteiligungsverfahren"
       legislation/draft_versions:
         one: "Entwurfsfassung"
         other: "Entwurfsfassungen"
@@ -114,8 +114,8 @@ de:
         description_selecting: "Beschreibung während der Auswahlphase"
         description_valuating: "Beschreibung während der Begutachtungsphase"
         description_balloting: "Beschreibung während der Abstimmungsphase"
-        description_reviewing_ballots: "Beschreibung während der Auswertungsphase der Abstimmungen"
-        description_finished: "Beschreibung, wenn endgültige Ergebnisse vorliegen/der Bürgerhaushalt beschlossen ist"
+        description_reviewing_ballots: "Beschreibung während der Überprüfungsphase der Abstimmungen"
+        description_finished: "Beschreibung, wenn der Bürgerhaushalt beschlossen ist"
         phase: "Phase"
         currency_symbol: "Währung"
       budget/investment:
