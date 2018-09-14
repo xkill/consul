@@ -1,1 +1,8 @@
 sq:
+  admin:
+    header:
+      title: Administrator
+    actions:
+      actions: Veprimet
+      confirm: A je i sigurt?
+      confirm_hide: Konfirmo moderimin
