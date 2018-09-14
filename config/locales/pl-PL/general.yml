@@ -402,9 +402,35 @@ pl:
     back: Wróć
     check: Wybierz
     check_all: Wszystko
+    check_none: Żaden
+    collective: Zbiorowy
+    flag: Oznacz jako nieodpowiednie
+    follow: "Obserwuj"
+    following: "Obserwowane"
+    follow_entity: "Obserwuj %{entity}"
+    followable:
+      budget_investment:
+        create:
+          notice_html: "Obserwujesz teraz ten projekt inwestycyjny! </br> Powiadomimy Cię o zaistniałych zmianach, abyś był na bieżąco."
+        destroy:
+          notice_html: "Przestałeś obserwować ten projekt inwestycyjny! </br> Nie będziesz już otrzymywać powiadomień związanych z tym projektem."
+      proposal:
+        create:
+          notice_html: "Obserwujesz teraz ten wniosek obywatelski! </br> Powiadomimy Cię o zaistniałych zmianach, abyś był na bieżąco."
+        destroy:
+          notice_html: "Przestałeś obserwować ten projekt inwestycyjny! </br> Nie będziesz już otrzymywać powiadomień związanych z tym projektem."
     hide: Ukryj
+    print:
+      print_button: Wydrukuj tę informację
     search: Szukaj
     show: Pokaż
+    suggest:
+      debate:
+        found:
+          one: "Już istnieje debata z określeniem %{query}, możesz wziąć udział w niej zamiast otwierać nową."
+          few: "Już istnieją debaty z określeniem %{query}, możesz wziąć udział w nich zamiast otwierać nową."
+          many: "Już istnieją debaty z określeniem %{query}, możesz wziąć udział w nich zamiast otwierać nową."
+          other: "Już istnieją debaty z określeniem %{query}, możesz wziąć udział w nich zamiast otwierać nową."
     tags_cloud:
       districts: "Dzielnice"
       districts_list: "Lista dzielnic"
