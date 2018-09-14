@@ -77,7 +77,7 @@ gl:
         new_link: Crear un novo orzamento
         filter: Filtro
         filters:
-          open: Abrir
+          open: Abertos
           finished: Rematados
         budget_investments: Xestionar proxectos
         table_name: Nome
@@ -386,7 +386,7 @@ gl:
           delete: Borrar
           title: Proceso de lexislación colaborativa
           filters:
-            open: Abiertos
+            open: Abertos
             next: Proximamente
             past: Pasados
             all: Todos
@@ -399,7 +399,7 @@ gl:
           comments: Comentarios
           status: Estado
           creation_date: Data de creación
-          status_open: Aberto
+          status_open: Abertos
           status_closed: Pechado
           status_planned: Planificado
         subnav:
