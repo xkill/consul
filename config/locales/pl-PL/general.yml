@@ -720,6 +720,23 @@ pl:
         processes: "Otwarte procesy"
       see_all_debates: Zobacz wszystkie debaty
       see_all_proposals: Zobacz wszystkie propozycje
+      see_all_processes: Zobacz wszystkie procesy
+      process_label: Proces
+      see_process: Zobacz proces
+    cards:
+      title: Opisany
+    recommended:
+      title: Rekomendacje, które mogą Cię zainteresować
+      help: "Zalecenia te są generowane przez tagi debat i propozycji, które obserwujesz."
+      debates:
+        title: Rekomendowane debaty
+        btn_text_link: Wszystkie rekomendowane debaty
+      proposals:
+        title: Rekomendowane propozycje
+        btn_text_link: Wszystkie rekomendowane propozycje
+      budget_investments:
+        title: Rekomendowane inwestycje
+      slide: "Zobacz %{title}"
     verification:
       i_dont_have_an_account: Nie mam konta
       i_have_an_account: Mam już konto
