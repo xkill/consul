@@ -332,8 +332,18 @@ zh-CN:
           all: 所有
           with_confirmed_hide: 已确认
           without_confirmed_hide: 有待
+    hidden_budget_investments:
+      index:
+        no_hidden_budget_investments: 没有隐藏的预算投资
     legislation:
       processes:
+        create:
+          notice: '进程已经成功创建。<a href="%{link}">点击访问</a>'
+        form:
+          use_markdown: 使用Markdown 来格式化文本
+          additional_info_placeholder: 添加您认为有用的其他信息
+        new:
+          title: 创建新的合作立法过程
         process:
           status_planned: 计划
         subnav:
@@ -532,6 +542,10 @@ zh-CN:
       all_users: 所有用户
       administrators: 管理员
       proposal_authors: 提议作者
+      not_supported_on_current_budget: 还没有支持当前预算投资的用户
+    newsletters:
+      show:
+        send_alert: 您是否确定要发送此时事通讯给%{n} 个用户？
     admin_notifications:
       index:
         empty_notifications: 没有要显示的通知
@@ -727,6 +741,7 @@ zh-CN:
         questions_tab: 问题
         booths_tab: 投票亭
         officers_tab: 官员
+        no_questions: "没有分配给此投票项的问题。"
     answers:
       videos:
         index:
