@@ -900,7 +900,10 @@ zh-CN:
       poll_questions_search:
         button: 搜索
         placeholder: 搜索投票项问题
+      moderated_content: "检查审核员审核过的内容，并确认审核是否已正确完成。"
     spending_proposals:
+      index:
+        title: 参与性预算的投资项目
       show:
         dossier: 档案
         edit_dossier: 编辑档案
@@ -931,3 +934,28 @@ zh-CN:
         delete: 删除
       geozone:
         name: 名字
+      errors:
+        form:
+          error:
+            other: '阻止这个地理区域被保存的错误'
+    signature_sheets:
+      new:
+        document_numbers_note: "写下数字，用逗号 (,) 分割"
+      show:
+        loading: "仍有签名正被人口普查核实中，请稍后刷新此页面"
+    stats:
+      show:
+        summary:
+          verified_users_who_didnt_vote_proposals: 没有投票提议的已验证用户
+      direct_messages:
+        users_who_have_sent_message: 已经发送私人信息的用户
+    tags:
+      index:
+        help: "当用户创建提议，建议使用以下主题作为默认标签。"
+    users:
+      search:
+        placeholder: 通过电子邮件，名字或者文档编号搜索用户
+    site_customization:
+      content_blocks:
+        about: 您可以创建要插入到CONSUL的页眉或页脚中的HTML 内容块。
+        top_links_html: "<strong>页眉块(top_links)</strong>是必须具有此格式的链接块："
