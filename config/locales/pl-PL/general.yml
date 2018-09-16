@@ -582,17 +582,52 @@ pl:
       title: Rekomendacje
       see_more: Zobacz więcej rekomendacji
       hide: Ukryj rekomendacje
+  social:
+    blog: "%{org} Blog"
+    facebook: "%{org} Facebook"
+    twitter: "%{org} Twitter"
+    youtube: "%{org} Youtube"
+    whatsapp: WhatsApp
+    telegram: "%{org} Telegram"
+    instagram: "%{org} Instagram"
   spending_proposals:
     form:
+      association_name_label: 'Jeśli proponujesz nazwę stowarzyszenia lub zespołu, dodaj tutaj tę nazwę'
+      association_name: 'Nazwa stowarzyszenia'
       description: Opis
+      external_url: Link do dodatkowej dokumentacji
+      geozone: Zakres operacji
       submit_buttons:
         create: Utwórz
         new: Utwórz
     index:
+      title: Budżetowanie partycypacyjne
+      unfeasible: Niewykonalne projekty inwestycyjne
+      by_geozone: "Projekty inwestycyjne z zakresu: %{geozone}"
       search_form:
         button: Szukaj
+        placeholder: Projekty inwestycyjne...
         title: Szukaj
+      search_results:
+        one: " zawierające termin '%{search_term}'"
+        few: " zawierające termin '%{search_term}'"
+        many: " zawierające terminy '%{search_term}'"
+        other: " zawierające terminy '%{search_term}'"
+      sidebar:
+        geozones: Zakres operacji
+        feasibility: Wykonalność
+        unfeasible: Niewykonalne
+      start_spending_proposal: Utwórz projekt inwestycyjny
+    new:
+      more_info: Jak działa budżetowanie partycypacyjne?
+      recommendation_one: Obowiązkowe jest, aby wniosek odwoływał się do działania podlegającego procedurze budżetowej.
+      recommendation_three: Spróbuj opisać swoją propozycję wydatków, aby zespół oceniający zrozumiał Twoje myślenie.
+      recommendation_two: Wszelkie propozycje lub komentarze sugerujące nielegalne działania zostaną usunięte.
+      recommendations_title: Jak utworzyć propozycję wydatków
+      start_new: Utwórz propozycję wydatków
     show:
+      author_deleted: Użytkownik usunięty
+      code: 'Kod wniosku:'
       share: Udostępnij
     wrong_price_format: Tylko liczby całkowite
     spending_proposal:
@@ -663,8 +698,14 @@ pl:
     verify_account: zweryfikuj swoje konto
   welcome:
     verification:
+      i_dont_have_an_account: Nie mam konta
+      i_have_an_account: Mam już konto
+      question: Czy masz już konto w %{org_name}?
       title: Weryfikacja konta
     welcome:
+      go_to_index: Zobacz propozycje i debaty
+      title: Weź udział
+      user_permission_debates: Uczestnicz w debatach
       user_permission_verify_my_account: Zweryfikuj moje konto
   invisible_captcha:
     sentence_for_humans: "Jeśli jesteś człowiekiem, zignoruj to pole"
