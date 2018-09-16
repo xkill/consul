@@ -279,14 +279,31 @@ pl:
           all: Wszystko
           with_confirmed_hide: Potwierdzone
           without_confirmed_hide: Oczekujące
+        title: Ukryte debaty
         no_hidden_debates: Nie ma ukrytych debat.
     hidden_users:
       index:
+        filter: Filtr
+        filters:
+          all: Wszystko
+          with_confirmed_hide: Potwierdzone
+          without_confirmed_hide: Oczekujące
+        title: Ukryci użytkownicy
+        user: Użytkownik
         no_hidden_users: Nie ma żadnych ukrytych użytkowników.
       show:
+        email: 'E-mail:'
+        hidden_at: 'Ukryte w:'
+        registered_at: 'Zarejestrowany:'
         title: Aktywność użytkownika (%{user})
     hidden_budget_investments:
       index:
+        filter: Filtr
+        filters:
+          all: Wszystko
+          with_confirmed_hide: Potwierdzone
+          without_confirmed_hide: Oczekujące
+        title: Ukryte inwestycje budżetowe
         no_hidden_budget_investments: Nie ma ukrytych inwestycji budżetowych
     legislation:
       processes:
@@ -307,9 +324,16 @@ pl:
         form:
           enabled: Włączone
           process: Proces
+          debate_phase: Faza debaty
+          allegations_phase: Faza rysunkowa
+          start: Początek
+          end: Koniec
           title_placeholder: Tytuł procesu
           summary_placeholder: Krótkie podsumowanie opisu
           description_placeholder: Dodaj opis procesu
+          additional_info_placeholder: Dodaj dodatkowe informacje, które uważasz za przydatne
+        index:
+          create: Nowy proces
       proposals:
         form:
           custom_categories_description: Kategorie, które użytkownicy mogą wybrać, tworząc propozycję.
@@ -326,14 +350,41 @@ pl:
           preview: Podgląd
         table:
           title: Tytuł
+          status: Status
       questions:
+        create:
+          notice: 'Pytanie utworzone pomyślnie. <a href="%{link}">Kliknij, aby odwiedzić</a>'
+          error: Pytanie nie mogło zostać utworzone
+        update:
+          notice: 'Pytanie zaktualizowane pomyślnie. <a href="%{link}">Kliknij, aby odwiedzić</a>'
+          error: Pytanie nie mogło zostać zaktualizowane
+        destroy:
+          notice: Pytanie zostało usunięte pomyślnie
         edit:
           back: Wróć
+          title: "Edytuj \"%{question_title}\""
           submit_button: Zapisz zmiany
+        errors:
+          form:
+            error: Błąd
+        form:
+          add_option: Dodaj opcję
+          title: Pytanie
+          title_placeholder: Dodaj pytanie
         index:
+          back: Wróć
+          title: Pytania związane z tym procesem
+          create: Utwórz pytanie
           delete: Usuń
         new:
           back: Wróć
+          title: Utwórz nowe pytanie
+          submit_button: Utwórz pytanie
+        table:
+          title: Tytuł
+          question_options: Opcje pytania
+          answers_count: Liczba odpowiedzi
+          comments_count: Liczba komentarzy
     menu:
       users: Użytkownicy
     administrators:
