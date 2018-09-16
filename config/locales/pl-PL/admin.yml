@@ -368,9 +368,20 @@ pl:
           custom_categories_placeholder: Wpisz tagi, których chcesz użyć, oddzielając je przecinkami (,) i między cudzysłowami ("")
       draft_versions:
         create:
+          notice: 'Wersja robocza utworzona pomyślnie. <a href="%{link}">Kliknij, aby odwiedzić</a>'
           error: Nie można utworzyć wersji roboczej
         update:
           notice: 'Wersja robocza zaktualizowana pomyślnie.<a href="%{link}">Kliknij, aby odwiedzić</a>'
+          error: Nie można zaktualizować wersji roboczej
+        destroy:
+          notice: Wersja robocza została pomyślnie usunięta
+        edit:
+          back: Wróć
+          submit_button: Zapisz zmiany
+          warning: Edytowałeś tekst, nie zapomnij kliknąć Zapisz, aby trwale zapisać zmiany.
+        errors:
+          form:
+            error: Błąd
         index:
           title: Wersje robocze
           create: Wróć
@@ -414,6 +425,21 @@ pl:
           answers_count: Liczba odpowiedzi
           comments_count: Liczba komentarzy
     menu:
+      poll_questions: Pytania
+      proposals_topics: Tematy propozycji
+      budgets: Budżety partycypacyjne
+      hidden_comments: Ukryte komentarze
+      hidden_debates: Ukryte debaty
+      hidden_proposals: Ukryte propozycje
+      hidden_budget_investments: Ukryty budżet inwestycyjny
+      hidden_proposal_notifications: Ukryte powiadomienia o propozycjach
+      hidden_users: Ukryci użytkownicy
+      administrators: Administratorzy
+      managers: Menedżerowie
+      moderators: Moderatorzy
+      messaging_users: Wiadomości do użytkowników
+      admin_notifications: Powiadomienia
+      emails_download: Pobieranie e-mail
       users: Użytkownicy
     administrators:
       index:
@@ -422,7 +448,24 @@ pl:
       administrator:
         add: Dodaj
         delete: Usuń
+    segment_recipient:
+      investment_authors: Autorzy inwestycji w bieżącym budżecie
+      feasible_and_undecided_investment_authors: "Autorzy niektórych inwestycji w obecnym budżecie, którzy nie są zgodni z: [wycena zakończona niemożliwa]"
+      selected_investment_authors: Autorzy wybranych inwestycji w obecnym budżecie
+      winner_investment_authors: Autorzy zwycięzców inwestycji w obecnym budżecie
+      not_supported_on_current_budget: Użytkownicy, którzy nie wspierają inwestycji przy bieżącym budżecie
     newsletters:
+      create_success: Biuletyn utworzony pomyślnie
+      update_success: Biuletyn zaktualizowano pomyślnie
+      send_success: Biuletyn wysłany pomyślnie
+      delete_success: Biuletyn został usunięty
+      index:
+        title: Biuletyny
+        new_newsletter: Nowy biuletyn
+        subject: Temat
+        segment_recipient: Adresaci
+        sent: Wysłane
+        actions: Akcje
       show:
         send: Wyślij
     valuators:
