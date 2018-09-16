@@ -9,6 +9,8 @@ pl:
       hide: Ukryj
       hide_author: Ukryj autora
       restore: Przywróć
+      mark_featured: Opisany
+      unmark_featured: Odznaczono funkcję
       edit: Edytuj
       configure: Skonfiguruj
       delete: Usuń
@@ -106,6 +108,12 @@ pl:
         unable_notice: Nie możesz zniszczyć budżetu, który wiąże powiązane inwestycje
       new:
         title: Nowy budżet partycypacyjny
+      show:
+        groups:
+          one: 1 Grupa nagłówków budżetowych
+          few: "%{count} Grupy nagłówków budżetu"
+          many: "%{count} Grupy nagłówków budżetu"
+          other: "%{count} Grupy nagłówków budżetu"
       form:
         group: Nazwa grupy
         no_groups: Nie utworzono jeszcze żadnych grup. Każdy użytkownik będzie mógł głosować tylko w jednym nagłówku na grupę.
@@ -125,6 +133,7 @@ pl:
         table_population: Populacja
         population_info: "Pole nagłówka budżetu jest używane do celów statystycznych na końcu budżetu, aby pokazać dla każdego nagłówka, który reprezentuje obszar z liczbą ludności, jaki odsetek głosował. To pole jest opcjonalne, więc możesz zostawić je puste, jeśli nie ma ono zastosowania."
         max_votable_headings: "Maksymalna liczba nagłówków, w których użytkownik może głosować"
+        current_of_max_headings: "%{current} z %{max}"
       winners:
         calculate: Oblicz Inwestycje Zwycięzców
         calculated: Liczenie zwycięzców może potrwać minutę.
@@ -134,13 +143,35 @@ pl:
         start_date: Data rozpoczęcia
         end_date: Data zakończenia
         summary: Podsumowanie
+        summary_help_text: Ten tekst będzie informował użytkownika o fazie. Aby wyświetlić go, nawet jeśli faza nie jest aktywna, zaznacz pole wyboru poniżej
         description: Opis
+        description_help_text: Ten tekst pojawi się w nagłówku, gdy faza jest aktywna
+        enabled: Włączona faza
+        enabled_help_text: Faza ta będzie publiczna na osi czasu fazy budżetowej, a także będzie aktywna do jakichkolwiek innych celów
         save_changes: Zapisz zmiany
     budget_investments:
       index:
+        heading_filter_all: Wszystkie nagłówki
+        administrator_filter_all: Wszyscy administratorzy
+        tags_filter_all: Wszystkie tagi
+        advanced_filters: Zaawansowane filtry
+        placeholder: Wyszukaj projekty
         sort_by:
+          placeholder: Sortuj według
           id: Numer ID
           title: Tytuł
+          supports: Wsparcie
+        filters:
+          all: Wszystko
+          without_admin: Bez przypisanego administratora
+          valuation_finished: Wycena zakończona
+          feasible: Wykonalne
+          selected: Wybrany
+          undecided: Niezdecydowany
+          unfeasible: Niewykonalne
+          winners: Zwycięzcy
+          one_filter_html: "Bieżące zastosowane filtry: <b><em>%{filter}</em></b>"
+          two_filters_html: "Bieżące zastosowane filtry: <b><em>%{filter}, %{advanced_filters}</em></b>"
         buttons:
           filter: Filtr
         feasibility:
