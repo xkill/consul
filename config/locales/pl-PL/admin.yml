@@ -466,8 +466,41 @@ pl:
         segment_recipient: Adresaci
         sent: Wysłane
         actions: Akcje
+        edit: Edytuj
+        delete: Usuń
+        preview: Podgląd
+        empty_newsletters: Nie ma żadnych biuletynów do pokazania
+      new:
+        title: Nowy biuletyn
+        from: Adres e-mail, który pojawi się jako wysłanie biuletynu
+      edit:
+        title: Edytuj biuletyn
       show:
+        title: Podgląd biuletynu
         send: Wyślij
+        sent_at: Wysłane na
+        subject: Temat
+        segment_recipient: Adresaci
+        from: Adres e-mail, który pojawi się jako wysłanie biuletynu
+        body: Treść wiadomości e-mail
+        body_help_text: W ten sposób użytkownicy zobaczą wiadomość e-mail
+        send_alert: Czy na pewno chcesz wysłać ten biuletyn do %{n} użytkowników?
+    admin_notifications:
+      create_success: Powiadomienie zostało utworzone pomyślnie
+      update_success: Powiadomienie zaktualizowane pomyślnie
+      send_success: Powiadomienie wysłane pomyślnie
+      delete_success: Powiadomienie zostało usunięte
+      index:
+        section_title: Powiadomienia
+        new_notification: Nowe powiadomienie
+        title: Tytuł
+        segment_recipient: Adresaci
+        sent: Wysłane
+        actions: Akcje
+        edit: Edytuj
+        delete: Usuń
+        preview: Podgląd
+        view: Widok
     valuators:
       index:
         email: E-mail
@@ -475,6 +508,7 @@ pl:
         email: "E-mail"
     valuator_groups:
       index:
+        name: "Nazwa"
         members: "Członkowie"
       form:
         name: "Nazwa grupy"
@@ -484,6 +518,7 @@ pl:
         email: E-mail
     poll_officer_assignments:
       index:
+        no_officers: "Nie ma przydzielonych dowódców do tej ankiety."
         table_email: "E-mail"
       by_officer:
         date: "Data"
@@ -493,6 +528,8 @@ pl:
         task: "Zadanie"
         table_email: "E-mail"
     poll_booth_assignments:
+      alert:
+        shifts: "Z tym stoiskiem wiążą się zmiany. Jeśli usuniesz przypisanie stoiska, przesunięcia zostaną również usunięte. Dalej?"
       show:
         location: "Lokalizacja"
     polls:
