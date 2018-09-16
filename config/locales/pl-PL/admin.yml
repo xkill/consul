@@ -213,15 +213,24 @@ pl:
         see_documents: "Zobacz dokumenty (%{count})"
         no_documents: "Bez dokumentów"
       edit:
+        compatibility: Zgodność
         mark_as_incompatible: Oznacz jako niezgodne
+        selection: Wybór
         mark_as_selected: Oznacz jako wybrane
         select_heading: Wybierz nagłówek
         submit_button: Zaktualizuj
         user_tags: Użytkownik przypisał tagi
         tags: Tagi
         tags_placeholder: "Napisz tagi, które chcesz oddzielić przecinkami (,)"
+        undefined: Niezdefiniowany
+        user_groups: "Grupy"
     milestones:
       index:
+        table_title: "Tytuł"
+        table_description: "Opis"
+        table_publication_date: "Data publikacji"
+        table_status: Status
+        table_actions: "Akcje"
         show_image: "Pokaż obraz"
         documents: "Dokumenty"
       form:
@@ -334,6 +343,25 @@ pl:
           additional_info_placeholder: Dodaj dodatkowe informacje, które uważasz za przydatne
         index:
           create: Nowy proces
+          delete: Usuń
+          filters:
+            open: Otwórz
+            next: Następny
+            past: Ubiegły
+            all: Wszystko
+        new:
+          back: Wstecz
+          submit_button: Proces tworzenia
+        process:
+          title: Proces
+          comments: Komentarze
+          status: Status
+          creation_date: Data utworzenia
+          status_open: Otwórz
+          status_closed: Zamknięty
+          status_planned: Zaplanowany
+        subnav:
+          info: Informacje
       proposals:
         form:
           custom_categories_description: Kategorie, które użytkownicy mogą wybrać, tworząc propozycję.
