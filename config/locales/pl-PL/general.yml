@@ -706,7 +706,13 @@ pl:
       go_to_index: Zobacz propozycje i debaty
       title: Weź udział
       user_permission_debates: Uczestnicz w debatach
+      user_permission_info: Z Twoim kontem możesz...
+      user_permission_proposal: Stwórz nowe propozycje
+      user_permission_support_proposal: Popieraj propozycje*
+      user_permission_verify: Aby wykonać wszystkie czynności, zweryfikuj swoje konto.
+      user_permission_verify_info: "* Tylko dla użytkowników Census."
       user_permission_verify_my_account: Zweryfikuj moje konto
+      user_permission_votes: Uczestnicz w głosowaniu końcowym
   invisible_captcha:
     sentence_for_humans: "Jeśli jesteś człowiekiem, zignoruj to pole"
     timestamp_error_message: "Wybacz, to było zbyt szybkie! Prześlij ponownie."
