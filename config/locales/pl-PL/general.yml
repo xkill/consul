@@ -464,11 +464,20 @@ pl:
         total: "ŁĄCZNIE"
       results:
         title: "Pytania"
+        most_voted_answer: "Najczęściej wybierana odpowiedź: "
+  poll_questions:
+    create_question: "Utwórz pytanie"
+    show:
+      vote_answer: "Głosuj %{answer}"
+      voted: "Głosowałeś %{answer}"
+      voted_token: "Możesz zapisać ten identyfikator głosowania, aby sprawdzić swój głos na temat ostatecznych wyników:"
   proposal_notifications:
     new:
+      title: "Wyślij wiadomość"
       title_label: "Tytuł"
       body_label: "Wiadomość"
       submit_button: "Wyślij wiadomość"
+      info_about_receivers_html: "Ta wiadomość zostanie wysłana do <strong>%{count} osób </strong> i będzie widoczna w %{proposal_page}. <br> Wiadomość nie zostanie wysłana natychmiast, użytkownicy będą otrzymywać okresowo e-mail ze wszystkimi powiadomieniami dotyczącymi propozycji."
       proposal_page: "strona wniosku"
     show:
       back: "Wróć do mojej aktywności"
@@ -569,6 +578,10 @@ pl:
     view_mode:
       title: Tryb podglądu
       cards: Karty
+    recommended_index:
+      title: Rekomendacje
+      see_more: Zobacz więcej rekomendacji
+      hide: Ukryj rekomendacje
   spending_proposals:
     form:
       description: Opis
