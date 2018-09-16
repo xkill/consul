@@ -432,7 +432,9 @@ pl:
       section_header:
         icon_alt: Ikona głosowania
         title: Głosowanie
+        help: Pomóż w głosowaniu
       section_footer:
+        title: Pomóż w głosowaniu
         description: Sondaże obywatelskie są mechanizmem opartym na uczestnictwie, dzięki któremu obywatele z prawem głosu mogą podejmować bezpośrednie decyzje
       no_polls: "Nie ma otwartych głosowań."
     show:
@@ -453,6 +455,7 @@ pl:
       zoom_plus: Rozwiń obraz
       read_more: "Dowiedz się więcej o %{answer}"
       read_less: "Czytaj mniej na temat %{answer}"
+      videos: "Zewnętrzne video"
       info_menu: "Informacje"
       stats_menu: "Statystyki uczestnictwa"
       results_menu: "Wyniki sondy"
@@ -695,7 +698,14 @@ pl:
     signup: Zarejestruj się
     supports: Wsparcie
     unauthenticated: Aby kontynuować, musisz %{signin} lub %{signup}.
+    verified_only: Tylko zweryfikowani użytkownicy mogą głosować na propozycje; %{verify_account}.
     verify_account: zweryfikuj swoje konto
+    spending_proposals:
+      not_logged_in: Aby kontynuować, musisz %{signin} lub %{signup}.
+      not_verified: Tylko zweryfikowani użytkownicy mogą głosować na propozycje; %{verify_account}.
+      organization: Organizacje nie mogą głosować
+      unfeasible: Nie można zrealizować niemożliwych do zrealizowania projektów inwestycyjnych
+      not_voting_allowed: Faza głosowania jest zamknięta
   welcome:
     verification:
       i_dont_have_an_account: Nie mam konta
