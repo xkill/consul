@@ -706,7 +706,20 @@ pl:
       organization: Organizacje nie mogą głosować
       unfeasible: Nie można zrealizować niemożliwych do zrealizowania projektów inwestycyjnych
       not_voting_allowed: Faza głosowania jest zamknięta
+    budget_investments:
+      not_logged_in: Aby kontynuować, musisz %{signin} lub %{signup}.
+      not_verified: Tylko zweryfikowani użytkownicy mogą głosować na projekty inwestycyjne; %{verify_account}.
+      organization: Organizacje nie mogą głosować
+      unfeasible: Nie można zrealizować niemożliwych do zrealizowania projektów inwestycyjnych
+      not_voting_allowed: Faza głosowania jest zamknięta
   welcome:
+    feed:
+      most_active:
+        debates: "Najbardziej aktywne debaty"
+        proposals: "Najbardziej aktywne propozycje"
+        processes: "Otwarte procesy"
+      see_all_debates: Zobacz wszystkie debaty
+      see_all_proposals: Zobacz wszystkie propozycje
     verification:
       i_dont_have_an_account: Nie mam konta
       i_have_an_account: Mam już konto
