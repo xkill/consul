@@ -959,3 +959,4 @@ zh-CN:
       content_blocks:
         about: 您可以创建要插入到CONSUL的页眉或页脚中的HTML 内容块。
         top_links_html: "<strong>页眉块(top_links)</strong>是必须具有此格式的链接块："
+        footer_html: "<strong>页脚块</strong>可以有任何格式，并且可以用于插入Javascript, CSS 或自定义HTML。"
