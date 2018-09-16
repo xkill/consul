@@ -174,7 +174,14 @@ pl:
           two_filters_html: "Bieżące zastosowane filtry: <b><em>%{filter}, %{advanced_filters}</em></b>"
         buttons:
           filter: Filtr
+        download_current_selection: "Pobierz bieżący wybór"
+        no_budget_investments: "Nie ma projektów inwestycyjnych."
+        title: Projekty inwestycyjne
+        assigned_admin: Przypisany administrator
+        no_admin_assigned: Nie przypisano administratora
+        no_valuation_groups: Nie przypisano żadnych grup wyceny
         feasibility:
+          feasible: "Wykonalne (%{price})"
           unfeasible: "Niemożliwy do realizacji"
         selected: "Wybrany"
         select: "Wybierz"
@@ -221,19 +228,57 @@ pl:
         no_statuses_defined: Nie ma jeszcze zdefiniowanych statusów inwestycyjnych
       new:
         description: Opis
+      edit:
+        title: Edytuj kamień milowy
+      create:
+        notice: Pomyślnie utworzono nowy kamień milowy!
+      update:
+        notice: Kamień milowy został pomyślnie zaktualizowany
+      delete:
+        notice: Pomyślnie usunięto kamień milowy
     statuses:
       index:
+        title: Statusy inwestycyjne
+        empty_statuses: Nie ma utworzonych statusów inwestycyjnych
+        new_status: Utwórz nowy status inwestycji
+        table_name: Nazwa
+        table_description: Opis
+        table_actions: Akcje
         delete: Usuń
         edit: Edytuj
+      edit:
+        title: Edytuj status inwestycji
+      update:
+        notice: Status inwestycji został pomyślnie zaktualizowany
+      new:
+        title: Utwórz status inwestycji
+      create:
+        notice: Stan inwestycji został pomyślnie utworzony
+      delete:
+        notice: Status inwestycji został pomyślnie usunięty
     comments:
       index:
+        filter: Filtr
+        filters:
+          all: Wszystko
+          with_confirmed_hide: Potwierdzone
+          without_confirmed_hide: Oczekujące
+        hidden_debate: Ukryta debata
+        hidden_proposal: Ukryta propozycja
+        title: Ukryte komentarze
         no_hidden_comments: Nie ma żadnych ukrytych komentarzy.
     dashboard:
       index:
         back: Wróć do %{org}
+        title: Administracja
         description: Witamy w panelu administracyjnym %{org}.
     debates:
       index:
+        filter: Filtr
+        filters:
+          all: Wszystko
+          with_confirmed_hide: Potwierdzone
+          without_confirmed_hide: Oczekujące
         no_hidden_debates: Nie ma ukrytych debat.
     hidden_users:
       index:
