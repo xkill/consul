@@ -24,14 +24,14 @@ pl:
       show_debates_recommendations: Pokaż zalecenia debat
       show_proposals_recommendations: Pokaż wnioski rekomendacji
       title: Moje konto
-      user_permission_debates: Uczestniczyć w debatach
+      user_permission_debates: Uczestnicz w debatach
       user_permission_info: Z Twoim kontem możesz...
       user_permission_proposal: Stwórz nowe wnioski
       user_permission_support_proposal: Popieraj propozycje
       user_permission_title: Udział
       user_permission_verify: Aby wykonać wszystkie czynności, zweryfikuj swoje konto.
       user_permission_verify_info: "* Tylko dla użytkowników Census."
-      user_permission_votes: Uczestniczyć w głosowaniu końcowym
+      user_permission_votes: Uczestnicz w głosowaniu końcowym
       username_label: Nazwa użytkownika/użytkowniczki
       verified_account: Konto zweryfikowane
       verify_my_account: Zweryfikuj swoje konto
@@ -332,7 +332,7 @@ pl:
       select_order_long: 'Przeglądasz wnioski według:'
       start_proposal: Stwórz wniosek
       title: Wnioski
-      top_link_proposals: Najbardziej obsługiwane propozycje według kategorii
+      top_link_proposals: Najbardziej wspierane propozycje według kategorii
       section_header:
         icon_alt: Ikona wniosków
         title: Wnioski
