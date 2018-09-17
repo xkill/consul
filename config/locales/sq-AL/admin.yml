@@ -68,7 +68,41 @@ sq:
           on_proposals: Propozime
           on_users: Përdorues
           on_system_emails: Emailet e sistemit
+        title: Aktiviteti i moderatorit
+        type: Tipi
+        no_activity: Nuk ka aktivitet të moderatorëve.
     budgets:
+      index:
+        title: Buxhetet me pjesëmarrje
+        new_link: Krijo buxhet të ri
+        filter: Filtër
+        filters:
+          open: Hapur
+          finished: Përfunduar
+        budget_investments: Menaxho projektet
+        table_name: Emri
+        table_phase: Fazë
+        table_investments: Investimet
+        table_edit_groups: Grupet e titujve
+        table_edit_budget: Ndrysho
+        edit_groups: Ndrysho grupet e titujve
+        edit_budget: Ndrysho buxhetin
+      create:
+        notice: Buxheti i ri pjesëmarrës u krijua me sukses!
+      update:
+        notice: Buxheti me pjesëmarrje është përditësuar me sukses
+      edit:
+        title: Ndrysho buxhetin pjesëmarrës
+        delete: Fshi buxhetin
+        phase: Fazë
+        dates: Datat
+        enabled: Aktivizuar
+        actions: Veprimet
+        edit_phase: Ndrysho Fazën
+        active: Aktiv
+        blank_dates: Datat janë bosh
+      destroy:
+        success_notice: Buxheti u fshi me sukses
       winners:
         calculate: Llogaritni investimet e fituesit
         calculated: Fituesit duke u llogaritur, mund të marrë një minutë.
@@ -244,3 +278,6 @@ sq:
           back: Pas
           submit_button: Ruaj ndryshimet
           warning: Ju keni redaktuar tekstin, mos harroni të klikoni mbi Ruaj për të ruajtur përgjithmonë ndryshimet.
+        errors:
+          form:
+            error: Gabim
