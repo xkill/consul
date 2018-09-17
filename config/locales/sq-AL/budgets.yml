@@ -71,3 +71,24 @@ sq:
         already_added: Ju e keni shtuar tashmë këtë projekt investimi
         already_supported: Ju e keni mbështetur tashmë këtë projekt investimi. Shperndaje!
         support_title: Mbështetni këtë projekt
+        confirm_group:
+          one: "Ju mund të mbështesni vetëm investimet në %{count} rrethe .Nëse vazhdoni ju nuk mund të ndryshoni zgjedhjen e rrethit tuaj. A je i sigurt?"
+          other: "Ju mund të mbështesni vetëm investimet në %{count} rrethe .Nëse vazhdoni ju nuk mund të ndryshoni zgjedhjen e rrethit tuaj. A je i sigurt?"
+        supports:
+          zero: Asnjë mbështetje
+          one: 1  mbështetje
+          other: "%{count} mbështetje"
+        give_support: Suporti
+      header:
+        check_ballot: Kontrolloni votimin tim
+        different_heading_assigned_html: "Ju keni votuar tashmë një titull tjetër: %{heading_link}"
+        change_ballot: "Nëse ndryshoni mendjen tuaj, ju mund të hiqni votat tuaja në %{check_ballot} dhe të filloni përsëri."
+        check_ballot_link: "Kontrolloni votimin tim"
+        price: "Ky titull ka një buxhet prej"
+    progress_bar:
+      assigned: "Ju keni caktuar:"
+      available: "Buxheti në dispozicion:"
+    show:
+      group: Grupet
+      phase: Faza aktuale
+      unfeasible_title: Investimet e papranueshme
