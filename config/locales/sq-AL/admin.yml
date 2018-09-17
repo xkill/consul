@@ -745,6 +745,31 @@ sq:
         create: "Kabinë e caktuar"
         error_destroy: "Ndodhi një gabim gjatë heqjes së caktimit të kabinës"
         error_create: "Ndodhi një gabim kur caktohet kabina në sondazh"
+      show:
+        location: "Vendndodhja"
+        officers: "Oficeret"
+        officers_list: "Lista e zyrtarëve për këtë kabinë"
+        no_officers: "Nuk ka zyrtarë për këtë kabinë"
+        recounts: "Rinumërimet"
+        recounts_list: "Lista e rinumërimit për këtë kabinë"
+        results: "Rezultatet"
+        date: "Data"
+        count_final: "Rinumërimi përfundimtar (nga oficer)"
+        count_by_system: "Votat (automatik)"
+        total_system: Totali i votave (automatike)
+      index:
+        booths_title: "Lista e kabinave"
+        no_booths: "Nuk ka kabinë të caktuar për këtë sondazh."
+        table_name: "Emri"
+        table_location: "Vendndodhja"
+    polls:
+      index:
+        title: "Lista e sondazheve aktive"
+        no_polls: "Nuk ka sondazhe që vijnë."
+        create: "Krijo sondazhin"
+        name: "Emri"
+        dates: "Datat"
+        geozone_restricted: "E kufizuar në rrethe"
     questions:
       new:
         title: "Krijo pyetje"
