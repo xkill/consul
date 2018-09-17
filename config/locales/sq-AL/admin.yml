@@ -770,7 +770,33 @@ sq:
         name: "Emri"
         dates: "Datat"
         geozone_restricted: "E kufizuar në rrethe"
+      new:
+        title: "Sondazhi i ri"
+        show_results_and_stats: "Trego rezultatet dhe statistikat"
+        show_results: "Shfaq rezultatet"
+        show_stats: "Shfaq statistikat"
+        results_and_stats_reminder: "Duke shënuar këto kuti kontrolli rezultatet dhe / ose statistikat e këtij sondazhi do të jenë në dispozicion të publikut dhe çdo përdorues do t'i shohë ato."
+        submit_button: "Krijo sondazhin"
+      edit:
+        title: "Ndrysho sondazhin"
+        submit_button: "Përditëso sondazhin"
+      show:
+        questions_tab: Pyetjet
+        booths_tab: Kabinat
+        officers_tab: Oficeret
+        recounts_tab: Rinumërimet
+        results_tab: Rezultatet
+        no_questions: "Nuk ka pyetje për këtë sondazh."
+        questions_title: "Lista e pyetjeve"
+        table_title: "Titull"
+      flash:
+        question_added: "Pyetje shtuar në këtë sondazh"
+        error_on_question_added: "Pyetja nuk mund të caktohet në këtë sondazh"
     questions:
+      index:
+        title: "Pyetjet"
+        create: "Krijo pyetje"
+        no_questions: "Nuk ka pyetje."
       new:
         title: "Krijo pyetje"
         poll_label: "Sondazh"
