@@ -18,3 +18,26 @@ sq:
       last_attempt: "Ju keni dhe një mundësi tjetër  para se bllokohet llogaria juaj."
       not_found_in_database: "%{authentication_keys}i  gabuar ose fjalëkalim."
       timeout: "Sesioni yt ka skaduar. Identifikohu përsëri për të vazhduar."
+      unauthenticated: "Duhet të identifikohesh ose të regjistrohesh për të vazhduar."
+      unconfirmed: "Për të vazhduar, ju lutemi klikoni në lidhjen e konfirmimit që ne ju kemi dërguar përmes emailit."
+    mailer:
+      confirmation_instructions:
+        subject: "Udhëzimet e konfirmimit"
+      reset_password_instructions:
+        subject: "Udhëzime për rivendosjen e fjalëkalimit tuaj"
+      unlock_instructions:
+        subject: "Udhëzimet e Zhbllokimit"
+    omniauth_callbacks:
+      failure: "Nuk ka qenë e mundur të ju  autorizojmë si %{kind} sepse \"%{reason}\"."
+      success: "Identifikuar me sukses si %{kind}."
+    passwords:
+      no_token: "Ju nuk mund të hyni në këtë faqe përveçse përmes një lidhje të rivendosjes së fjalëkalimit. Nëse e keni vizituar atë përmes një lidhje të rivendosjes së fjalëkalimit, kontrolloni nëse URL është e plotë."
+      send_instructions: "Në pak minuta do të merrni një email që përmban udhëzime se si të rivendosni fjalëkalimin tuaj."
+      send_paranoid_instructions: "Nëse adresa juaj e e-mail është në bazën tonë të të dhënave, brenda pak minutash do të merrni një email që përmban udhëzime se si të rivendosni fjalëkalimin tuaj."
+      updated: "Fjalëkalimi juaj është ndryshuar me sukses. Autentifikimi është i suksesshëm."
+      updated_not_active: "Fjalëkalimi juaj është ndryshuar me sukses."
+    registrations:
+      destroyed: "Mirupafshim! Llogaria jote është anuluar. Shpresojmë t'ju shohim së shpejti."
+      signed_up: "Mirë se vini! Ju jeni autorizuar."
+      signed_up_but_inactive: "Regjistrimi juaj ishte i suksesshëm, por nuk mund të identifikohesh, sepse llogaria jote nuk është aktivizuar."
+      signed_up_but_locked: "Regjistrimi juaj ishte i suksesshëm, por nuk mund të identifikohesh, sepse llogaria jote është e kycur."
