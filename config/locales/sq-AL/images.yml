@@ -1,1 +1,8 @@
 sq:
+  images:
+    remove_image: Hiq imazhin
+    form:
+      title: Imazhi përshkrues
+      title_placeholder: Shto një titull përshkrues për imazhin
+      attachment_label: Zgjidh imazhin
+      delete_button: Hiq imazhin
