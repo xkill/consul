@@ -330,6 +330,7 @@ sq:
         index:
           create: Proces i ri
           delete: Fshi
+          title: Proceset legjislative
           filters:
             open: Hapur
             next: Tjetër
@@ -376,3 +377,65 @@ sq:
         errors:
           form:
             error: Gabim
+    managers:
+      index:
+        title: Menaxherët
+        name: Emri
+        email: Email
+        no_managers: Nuk ka menaxherë.
+      manager:
+        add: Shto
+        delete: Fshi
+      search:
+        title: 'Menaxherët: Kërkimi i përdoruesit'
+    menu:
+      activity: Aktiviteti i moderatorit
+      admin: Menuja e Administratorit
+      banner: Menaxhoni banderolat
+      poll_questions: Pyetjet
+      proposals_topics: Temat e propozimeve
+      budgets: Buxhetet me pjesëmarrje
+      geozones: Menaxho gjeozonat
+      hidden_comments: Komentet e fshehura
+      hidden_debates: Debate të fshehta
+      hidden_proposals: Propozime të fshehura
+      hidden_budget_investments: Investimet e buxheteve të fshehura
+      hidden_proposal_notifications: Njoftimet e propozuara të fshehura
+      hidden_users: Përdoruesit e fshehur
+      administrators: Administrator
+      managers: Menaxherët
+      moderators: Moderator
+      messaging_users: Mesazhe për përdoruesit
+      newsletters: Buletin informativ
+      admin_notifications: Njoftime
+      system_emails: Emailet e sistemit
+      emails_download: Shkarkimi i emaileve
+      valuators: Vlerësuesit
+      poll_officers: Oficerët e anketës
+      polls: Sondazh
+      poll_booths: Vendndodhja e kabinave
+      poll_booth_assignments: Detyrat e kabinave
+      poll_shifts: Menaxho ndërrimet
+      officials: Zyrtarët
+      organizations: Organizatat
+      settings: Parametrat globale
+      spending_proposals: Shpenzimet e propozimeve
+      stats: Të dhëna statistikore
+      signature_sheets: Nënshkrimi i fletëve
+      site_customization:
+        homepage: Kryefaqja
+        pages: Faqet e personalizuara
+        images: Imazhe personalizuara
+        content_blocks: Personalizimi i blloqeve të përmbatjeve
+        information_texts: Tekste informacioni të personalizuara
+        information_texts_menu:
+          debates: "Debate"
+          community: "Komunitet"
+          proposals: "Propozime"
+          polls: "Sondazh"
+          layouts: "Layouts"
+    newsletters:
+      index:
+        delete: Fshi
+        preview: Parapamje
+        empty_newsletters: Nuk ka buletin për të treguar
