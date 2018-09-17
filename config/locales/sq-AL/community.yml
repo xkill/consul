@@ -32,3 +32,26 @@ sq:
           one: '%{count} komente'
           other: "%{count} komente"
       author: Autor
+      back: Kthehu mbrapsht te %{community}%{proposal}
+    topic:
+      create: Krijo një temë
+      edit: Ndryshoni temën
+      form:
+        topic_title: Titull
+        topic_text: Teksti fillestar
+        new:
+          submit_button: Krijo një temë
+        edit:
+          submit_button: Ndryshoni temën
+        create:
+          submit_button: Krijo një temë
+        update:
+          submit_button: Përditëso temën
+      show:
+        tab:
+          comments_tab: Komentet
+      sidebar:
+        recommendations_title: Rekomandime për të krijuar një temë
+        recommendation_one: Mos shkruaj titullin e temës ose fjalitë e plota në shkronja të mëdha. Në internet kjo konsiderohet "e  bërtitur" . Dhe askush nuk i pëlqen kjo gjë.
+        recommendation_two: Çdo temë ose koment që nënkupton një veprim të paligjshëm do të eliminohet, gjithashtu ata që synojnë të sabotojnë hapësirat e subjektit, gjithçka tjetër lejohet.
+        recommendation_three: Gëzoni këtë hapësirë, zërat që e mbushin atë, është edhe juaji.
