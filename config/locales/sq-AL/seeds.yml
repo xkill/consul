@@ -1,1 +1,18 @@
 sq:
+  seeds:
+    settings:
+      official_level_1_name: Pozicioni zyrtar 1
+      official_level_2_name: Pozicioni zyrtar 2
+      official_level_3_name: Pozicioni zyrtar 3
+      official_level_4_name: Pozicioni zyrtar 4
+      official_level_5_name: Pozicioni zyrtar 5
+    geozones:
+      north_district: Qarku i Veriut
+      west_district: Qarku Perëndimor
+      east_district: Qarku i lindjes
+      central_district: Qarku qëndror
+    organizations:
+      human_rights: Të drejtat e njeriut
+      neighborhood_association: Shoqata e Lagjes
+    categories:
+      associations: Shoqatë
