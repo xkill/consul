@@ -1,1 +1,20 @@
 sq:
+  devise:
+    password_expired:
+      expire_password: "Fjalëkalimi ka skaduar"
+      change_required: "Fjalëkalimi juaj ka skaduar"
+      change_password: "Ndrysho fjalëkalimin tënd"
+      new_password: "Fjalëkalim i ri"
+      updated: "Fjalëkalimi u përditësua"
+    confirmations:
+      confirmed: "Llogaria jote është konfirmuar."
+      send_instructions: "Në pak minuta do të merrni një email që përmban udhëzime se si të rivendosni fjalëkalimin tuaj."
+      send_paranoid_instructions: "Nëse adresa juaj e e-mail është në bazën tonë të të dhënave, brenda pak minutash do të merrni një email që përmban udhëzime se si të rivendosni fjalëkalimin tuaj."
+    failure:
+      already_authenticated: "Ju tashmë jeni të regjistruar."
+      inactive: "Llogaria jote ende nuk është aktivizuar."
+      invalid: "%{authentication_keys}i  gabuar ose fjalëkalim."
+      locked: "Llogaria juaj është bllokuar."
+      last_attempt: "Ju keni dhe një mundësi tjetër  para se bllokohet llogaria juaj."
+      not_found_in_database: "%{authentication_keys}i  gabuar ose fjalëkalim."
+      timeout: "Sesioni yt ka skaduar. Identifikohu përsëri për të vazhduar."
