@@ -1,1 +1,8 @@
 sq:
+  account:
+    show:
+      change_credentials_link: Ndrysho kredencialet e mia
+      email_on_comment_label: Më njoftoni me email kur dikush komenton mbi propozimet ose debatet e mia
+      email_on_comment_reply_label: Më njoftoni me email kur dikush përgjigjet në komentet e mia
+      erase_account_link: Fshi llogarinë time
+      finish_verification: Verifikime të plota
