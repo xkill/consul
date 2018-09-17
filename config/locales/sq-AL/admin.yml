@@ -1254,8 +1254,18 @@ sq:
         add_tag: Shto një temë të re propozimi
         title: Temat e propozimeve
         topic: Temë
+        help: "Kur një përdorues krijon një propozim, temat e mëposhtme sugjerohen si etiketa default."
+      name:
+        placeholder: Shkruani emrin e temës
     users:
+      columns:
+        name: Emri
+        email: Email
+        document_number: Numri i dokumentit
+        roles: Rolet
+        verification_level: Niveli i verfikimit
       index:
+        title: Përdorues
         no_users: Nuk ka përdorues.
       search:
         placeholder: Kërko përdoruesin sipas email, emrin ose numrin e dokumentit
@@ -1267,6 +1277,8 @@ sq:
         title: Verifikime jo të plota
     site_customization:
       content_blocks:
+        information: Informacion rreth blloqeve të përmbajtjes
+        about: Mund të krijoni blloqe të përmbajtjes HTML që duhet të futni në kokë ose në fund të CONSUL-it tuaj.
         top_links_html: "<strong>Header blocks(lidhjet kryesore)</strong>janë blloqe të lidhjeve që duhet të kenë këtë format:"
         footer_html: "<strong>Footer blocks</strong>mund të ketë ndonjë format dhe mund të përdoret për të futur Javascript, CSS ose HTML."
         no_blocks: "Nuk ka blloqe përmbajtjeje."
@@ -1342,6 +1354,7 @@ sq:
           locale: Gjuha
     homepage:
       title: Kryefaqja
+      description: Modulet aktive shfaqen në faqen kryesore në të njëjtën mënyrë si këtu.
       header_title: Header
       no_header: Nuk ka header.
       create_header: Krijo header
