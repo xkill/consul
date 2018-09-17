@@ -679,9 +679,18 @@ sq:
         preview_of: Parapamja e %{name}
         pending_to_be_sent: Kjo është përmbajtja në pritje për t'u dërguar
         moderate_pending: Dërgimi i mesazheve të moderuara
+        send_pending: Dërgo në pritje
+        send_pending_notification: Njoftimet në pritje janë dërguar me sukses
+      proposal_notification_digest:
+        title: Përfundimi i njoftimeve të propozimeve
+        description: Mblidh të gjitha njoftimet e propozimeve për një përdorues në një mesazh të vetëm, për të shmangur shumë e-mail.
+        preview_detail: Përdoruesit do të marrin njoftime vetëm nga propozimet që po ndjekin
     emails_download:
       index:
         title: Shkarkimi i emaileve
+        download_segment: Shkarko adresat e postës elektronike
+        download_segment_help_text: Shkarko në formatin CSV
+        download_emails_button: Shkarko listën e postës elektronike
     valuators:
       index:
         title: Vlerësues
@@ -707,18 +716,36 @@ sq:
         in_evaluation_count: Në vlerësim
         total_count: Totali
         cost: Kosto
+      form:
+        edit_title: "Vlerësuesit: Ndrysho vlerësuesin"
+        update: "Përditëso vlerësuesin"
+        updated: "Vlerësuesi u përditësua me sukses"
       show:
         description: "Përshkrimi"
         email: "Email"
         group: "Grupet"
+        no_description: "Pa përshkrim"
+        no_group: "Pa grup"
     valuator_groups:
       index:
+        title: "Grup vlerësuesish"
+        new: "Krijo grupin e vlerësuesve"
         name: "Emri"
+        members: "Anëtarët"
+        no_groups: "Nuk ka grupe vlerësuese"
+      show:
+        title: "Grupi i vlerësuesve:%{group}"
+        no_valuators: "Nuk ka ndonjë vlerësues të caktuar për këtë grup"
       form:
         name: "Emri grupit"
+        new: "Krijo grupin e vlerësuesve"
+        edit: "Ruaj grupin e vlerësuesve"
     poll_officers:
+      index:
+        title: Oficerët e anketës
       officer:
         add: Shto
+        delete: Fshi pozicionin
         name: Emri
         email: Email
         entry_name: oficer
@@ -915,13 +942,25 @@ sq:
         title: "Rezultatet nga kabina"
     booths:
       index:
+        title: "Lista e kabinave aktive"
+        no_booths: "Nuk ka kabina aktive për ndonjë sondazh të ardhshëm."
+        add_booth: "Shtoni kabinën"
         name: "Emri"
         location: "Vendndodhja"
+        no_location: "Asnjë vendndodhje"
       new:
+        title: "Kabinë e re"
         name: "Emri"
         location: "Vendndodhja"
+        submit_button: "Krijo Kabinën"
+      edit:
+        title: "Ndrysho kabinën"
+        submit_button: "Përditëso Kabinën"
       show:
         location: "Vendndodhja"
+      booth:
+        shifts: "Menaxho ndërrimet"
+        edit: "Ndrysho kabinën"
     officials:
       index:
         official_level: Nivel
@@ -1145,6 +1184,12 @@ sq:
         polls: Sondazhet
       direct_messages:
         total: Totali
+      proposal_notifications:
+        total: Totali
+      polls:
+        table:
+          poll_name: Sondazh
+          question_name: Pyetje
     users:
       index:
         no_users: Nuk ka përdorues.
@@ -1158,6 +1203,9 @@ sq:
         title: Verifikime jo të plota
     site_customization:
       content_blocks:
+        errors:
+          form:
+            error: Gabim
         content_block:
           body: Trupi
           name: Emri
@@ -1168,12 +1216,23 @@ sq:
           delete: Fshi
           image: Imazh
       pages:
+        errors:
+          form:
+            error: Gabim
+        form:
+          options: Opsionet
+        index:
+          create: Krijo faqe të re
+          title: Faqet e personalizuara
+          see_page: Shiko faqen
         page:
           created_at: Krijuar në
           status: Statusi
           title: Titull
           updated_at: Përditësuar në
           status_draft: Drafti
+          status_published: Publikuar
+          locale: Gjuha
     homepage:
       title: Kryefaqja
       cards:
