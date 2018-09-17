@@ -95,7 +95,33 @@ sq:
           verify_account: "verifikoni llogarinë tuaj"
           create: "Krijo një investim buxhetor"
           not_logged_in: "Për të krijuar një investim të ri buxhetor ju duhet %{sign_in} ose %{sign_up}."
+          sign_in: "Kycu"
+          sign_up: "Rregjistrohu"
+          by_feasibility: Fizibilitetit
+          feasible: Projektet e realizueshme
+          unfeasible: Projektet e parealizueshme
+        orders:
+          random: "\ni rastësishëm\n"
+          confidence_score: më të vlerësuarat
+          price: nga çmimi
       show:
+        author_deleted: Përdoruesi u fshi
+        price_explanation: Shpjegimi i çmimit
+        unfeasibility_explanation: Shpjegim i parealizuar
+        code_html: 'Kodi i projekteve të investimeve: <strong>%{code}</strong>'
+        location_html: 'Vendodhja:<strong>%{location}</strong>'
+        organization_name_html: 'Propozuar në emër të: <strong>%{name}</strong>'
+        share: Shpërndaj
+        title: Projekt investimi
+        supports: Suporti
+        votes: Vota
+        price: Çmim
+        comments_tab: Komentet
+        milestones_tab: Pikëarritje
+        no_milestones: Nuk  keni pikëarritje të përcaktuara
+        milestone_publication_date: "Publikuar %{publication_date}"
+        milestone_status_changed: Statusi i investimeve u ndryshua
+        author: Autori
         project_unfeasible_html: 'Ky projekt investimi <strong> është shënuar si jo e realizueshme </strong> dhe nuk do të shkojë në fazën e votimit.'
         project_selected_html: 'Ky projekt investimi <strong> është përzgjedhur</strong>  për fazën e votimit.'
         project_winner: 'Projekti fitues i investimeve'
