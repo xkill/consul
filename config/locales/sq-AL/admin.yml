@@ -1001,7 +1001,11 @@ sq:
         phone_number: Telefoni
         responsible_name: Përgjegjës
         status: Statusi
+        no_organizations: Nuk ka organizata.
+        reject: Refuzuar
+        rejected: Refuzuar
         search: Kërko
+        search_placeholder: Emri, emaili ose numri i telefonit
         title: Organizatat
         verified: Verifikuar
         verify: Verifiko
@@ -1202,17 +1206,54 @@ sq:
         summary:
           comment_votes: Komento votat
           comments: Komentet
+          debate_votes: Vota e debatit
           debates: Debate
+          proposal_votes: Vota e Propozimit
           proposals: Propozime
+          budgets: Hap buxhetin
+          budget_investments: Projekt investimi
+          spending_proposals: Shpenzimet e propozimeve
+          unverified_users: Përdoruesit e paverifikuar
+          user_level_three: Përdoruesit e nivelit të tretë
+          user_level_two: Përdoruesit e nivelit të dytë
+          users: Totali i përdoruesve
+          verified_users: Përdoruesit e verifikuar
+          verified_users_who_didnt_vote_proposals: Përdoruesit e verifikuar që nuk votuan propozime
+          visits: Vizitat
+          votes: Totali i votimeve
+        spending_proposals_title: Shpenzimet e propozimeve
+        budgets_title: Buxhetimi me pjesëmarrje
+        visits_title: Vizitat
+        direct_messages: Mesazhe direkte
+        proposal_notifications: Notifikimi i propozimeve
+        incomplete_verifications: Verifikime jo të plota
         polls: Sondazhet
       direct_messages:
+        title: Mesazhe direkte
         total: Totali
+        users_who_have_sent_message: Përdoruesit që kanë dërguar një mesazh privat
       proposal_notifications:
+        title: Notifikimi i propozimeve
         total: Totali
+        proposals_with_notifications: Propozimet me njoftime
       polls:
+        title: Statistika të sondazhit
+        all: Sondazhet
+        web_participants: Pjesëmarrësit në web
+        total_participants: Totali i Pjesëmarrësve
+        poll_questions: "Pyetje nga sondazhi: %{poll}"
         table:
           poll_name: Sondazh
           question_name: Pyetje
+          origin_web: Pjesëmarrësit në web
+          origin_total: Totali i Pjesëmarrësve
+    tags:
+      create: Krijo një temë
+      destroy: Fshi temën
+      index:
+        add_tag: Shto një temë të re propozimi
+        title: Temat e propozimeve
+        topic: Temë
     users:
       index:
         no_users: Nuk ka përdorues.
