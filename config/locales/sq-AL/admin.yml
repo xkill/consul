@@ -234,3 +234,13 @@ sq:
       draft_versions:
         create:
           notice: 'Draft u krijua me sukses. <a href="%{link}">Kliko për të vizituar</a>'
+          error: Drafti nuk mund të krijohet
+        update:
+          notice: 'Drafti u rifreskua me sukses. <a href="%{link}">Kliko për të vizituar</a>'
+          error: Drafti nuk mund të përditësohet
+        destroy:
+          notice: Drafti u fshi me sukses
+        edit:
+          back: Pas
+          submit_button: Ruaj ndryshimet
+          warning: Ju keni redaktuar tekstin, mos harroni të klikoni mbi Ruaj për të ruajtur përgjithmonë ndryshimet.
