@@ -228,7 +228,23 @@ sq:
         selection:
           title: Përzgjedhje
           "true": I zgjedhur
+          "false": Jo të zgjedhur
+        winner:
+          title: Fitues
+          "true": "Po"
+          "false": "Jo"
+        image: "Imazh"
+        see_image: "Shiko imazhin"
+        no_image: "Pa imazh"
+        documents: "Dokumentet"
+        see_documents: "Shiko dokumentet (%{count})"
+        no_documents: "Pa dokumentet"
+        valuator_groups: "Grup vlerësuesish"
       edit:
+        classification: Klasifikim
+        compatibility: Pajtueshmëri
+        mark_as_incompatible: Zgjidh si i papajtueshëm
+        selection: Përzgjedhje
         mark_as_selected: Shëno si të zgjedhur
         assigned_valuators: Vlerësues
         select_heading: Zgjidh shkrimin
@@ -472,6 +488,19 @@ sq:
           proposals: "Propozime"
           polls: "Sondazh"
           layouts: "Layouts"
+          mailers: "Emailet"
+          management: "Drejtuesit"
+          guides: "Guidat"
+          welcome: "Mirësevini"
+        buttons:
+          save: "Ruaj"
+      title_moderated_content: Përmbajtja e moderuar
+      title_budgets: Buxhet
+      title_polls: Sondazh
+      title_profiles: Profilet
+      title_settings: Opsione
+      title_site_customization: Përmbajtja e faqes
+      title_booths: Kabinat e votimit
     newsletters:
       index:
         delete: Fshi
