@@ -523,7 +523,7 @@ gl:
       hidden_debates: Debates agochados
       hidden_proposals: Propostas agochadas
       hidden_budget_investments: Agochar proposta de investimento
-      hidden_proposal_notifications: Agochar as notificacións de propostas
+      hidden_proposal_notifications: Notificacións de propostas agochadas
       hidden_users: Usuarios agochados
       administrators: Administradores
       managers: Xestores/as
@@ -1029,7 +1029,7 @@ gl:
           all: Todo
           with_confirmed_hide: Confirmado
           without_confirmed_hide: Pendente
-        title: Agochar notificacións
+        title: Notificacións agochadas
         no_hidden_proposals: Non hai notificacións agochadas.
     settings:
       flash:
