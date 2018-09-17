@@ -36,3 +36,27 @@ sq:
       balloting: Projektet e votimit
       reviewing_ballots: Rishikimi i votimit
       finished: Buxheti i përfunduar
+    index:
+      title: Buxhetet  pjesëmarrës
+      empty_budgets: Nuk ka buxhet.
+      section_header:
+        icon_alt: Ikona e buxheteve  pjesëmarrëse
+        title: Buxhetet  pjesëmarrës
+        help: Ndihmoni me buxhetet pjesëmarrëse
+        all_phases: Shihni të gjitha fazat
+      all_phases: Fazat e investimeve buxhetore
+      map: Propozimet e investimeve buxhetore të vendosura gjeografikisht
+      investment_proyects: Lista e të gjitha projekteve të investimeve 
+      unfeasible_investment_proyects: Lista e të gjitha projekteve të investimeve të papranueshme
+      not_selected_investment_proyects: Lista e të gjitha projekteve të investimeve të pa zgjedhur për votim
+      finished_budgets: Përfunduan buxhetet pjesëmarrëse.
+      see_results: Shiko rezultatet
+      section_footer:
+        title: Ndihmoni me buxhetet pjesëmarrëse
+        description: Me buxhetet pjesëmarrëse qytetarët vendosin se në cilat projekte janë të destinuara një pjesë e buxhetit.
+    investments:
+      form:
+        tag_category_label: "Kategoritë"
+        tags_instructions: "Etiketoni këtë propozim. Ju mund të zgjidhni nga kategoritë e propozuara ose të shtoni tuajën"
+        tags_label: Etiketimet
+        tags_placeholder: "Futni etiketimet që dëshironi të përdorni, të ndara me presje (',')"
