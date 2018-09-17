@@ -542,3 +542,20 @@ sq:
         destroy: "Ndryshimi u hoq"
         date_missing: "Duhet të zgjidhet një datë"
       vote_collection: Mblidhni Votat
+      recount_scrutiny: Rinumërimi dhe shqyrtimi
+    booth_assignments:
+      manage_assignments: Menaxho detyrat
+      manage:
+        assignments_list: "Detyra për sondazhin '%{poll}'"
+        status:
+          assign_status: Caktim
+          assigned: Caktuar
+          unassigned: Pacaktuar
+        actions:
+          assign: Vendosni kabinë
+          unassign: Mos vendosni kabinë
+    poll_booth_assignments:
+      alert:
+        shifts: "Ka ndërrime të lidhura me këtë kabinë. Nëse hiqni caktimin e kabinës, ndërrimet do të fshihen gjithashtu. Vazhdo?"
+      flash:
+        destroy: "Kabina nuk është caktuar më"
