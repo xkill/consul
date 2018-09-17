@@ -69,3 +69,52 @@ sq:
       new:
         login_label: Email ose emer përdoruesi
         password_label: Fjalëkalim
+        remember_me: Me mbaj mënd
+        submit: Hyr
+        title: Kycu
+    shared:
+      links:
+        login: Hyr
+        new_confirmation: Nuk keni marrë udhëzime për të aktivizuar llogarinë tuaj?
+        new_password: Harrruat fjalëkalimin?
+        new_unlock: Nuk keni marrë udhëzime për zhbllokimin?
+        signin_with_provider: Kycu në me %{provider}
+        signup: Nuk keni llogari? %{signup_link}
+        signup_link: Rregjistrohu
+    unlocks:
+      new:
+        email_label: Email
+        submit: Ridergo udhëzimet e zhbllokimit
+        title: Udhëzimet e dërguara të zhbllokimit
+    users:
+      registrations:
+        delete_form:
+          erase_reason_label: Arsye
+          info: Ky veprim nuk mund të zhbëhet. Ju lutemi sigurohuni që kjo është ajo që ju dëshironi.
+          info_reason: Nëse dëshironi, na lini një arsye (opsionale)
+          submit: Fshi llogarinë time
+          title: Fshi llogarinë 
+        edit:
+          current_password_label: Fjalëkalimi aktual
+          edit: Ndrysho
+          email_label: Email
+          leave_blank: Lëreni bosh nëse nuk dëshironi ta modifikoni
+          need_current: Ne kemi nevojë për fjalëkalimin tuaj të tanishëm për të konfirmuar ndryshimet
+          password_confirmation_label: Konfirmo fjalëkalimin
+          password_label: Fjalëkalim i ri
+          update_submit: Përditëso
+          waiting_for: 'Duke pritur konfirmimin e:'
+        new:
+          cancel: Anulo hyrjen
+          email_label: Email
+          organization_signup: A përfaqësoni një organizatë ose kolektiv? %{signup_link}
+          organization_signup_link: Rregjistrohu këtu
+          password_confirmation_label: Konfirmo fjalëkalimin
+          password_label: Fjalëkalim
+          redeemable_code: Kodi i verifikimit është mar përmes postës elektronike
+          submit: Rregjistrohu
+          terms: Duke u regjistruar ju pranoni %{terms}
+          terms_link: termat dhe kushtet e përdorimit
+          terms_title: Duke regjistruar ju pranoni afatet dhe kushtet e përdorimit
+          title: Rregjistrohu
+          username_is_available: Emri  përdoruesit në dispozicion
