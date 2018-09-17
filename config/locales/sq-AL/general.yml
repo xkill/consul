@@ -113,3 +113,65 @@ sq:
     poll/shift: Ndryshim
     poll/question/answer: Përgjigjet
     user: Llogari
+    verification/sms: telefoni
+    signature_sheet: Nënshkrimi i fletëve
+    document: Dokument
+    topic: Temë
+    image: Imazh
+  geozones:
+    none: I gjithë qyteti
+    all: Të gjitha qëllimet
+  layouts:
+    application:
+      chrome: Google Chrome
+      firefox: Firefox
+  notifications:
+    notification:
+      action:
+        comments_on:
+          one: Dikush komentoi
+          other: Janë %{count} komente të reja
+        proposal_notification:
+          one: Ka një njoftim të ri
+          other: Ka %{count} njoftime të reja
+        replies_to:
+          one: Dikush iu përgjigj komentit tuaj
+          other: Janë %{count} përgjigje të reja për komentin tuaj
+      mark_as_read: Shëno si të lexuar
+      mark_as_unread: Shëno si të palexuar
+      notifiable_hidden: Ky burim nuk është më i disponueshëm.
+  map:
+    title: "Zonë"
+    proposal_for_district: "Filloni një propozim për zonën tuaj"
+    select_district: Fusha e veprimit
+    start_proposal: Krijo propozim
+  omniauth:
+    facebook:
+      sign_in: Identifikohu me Facebook
+      sign_up: Regjistrohuni me Facebook
+      name: Facebook
+    finish_signup:
+      title: "Detaje shtese"
+      username_warning: "Për shkak të ndryshimit të mënyrës sesi ndërveprojmë me rrjetet sociale, është e mundur që emri i përdoruesit të shfaqet tashmë si \"tashmë në përdorim\". Nëse ky është rasti juaj, ju lutemi zgjidhni një emër përdoruesi tjetër."
+    google_oauth2:
+      sign_in: Identifikohu me Google
+      sign_up: Regjistrohuni me Google
+      name: Google
+    twitter:
+      sign_in: Identifikohu me Twitter
+      sign_up: Regjistrohuni me Twitter
+      name: Twitter
+    info_sign_in: "Identifikohu me:"
+    info_sign_up: "Regjistrohuni me:"
+    or_fill: "Ose plotësoni formularin e mëposhtëm:"
+  proposals:
+    create:
+      form:
+        submit_button: Krijo propozim
+    edit:
+      editing: Ndrysho propozimin
+      form:
+        submit_button: Ruaj ndryshimet
+      show_link: Shikoni propozimin
+    retire_form:
+      title: Heq dorë nga propozimi
