@@ -482,6 +482,24 @@ sq:
           add_option: Shtoni opsionin
           title: Pyetje
           title_placeholder: Shto pyetjet
+          value_placeholder: Shto një përgjigje të përafërt
+          question_options: "Përgjigjet e mundshme (opsionale, sipas përgjigjeve të hapura)"
+        index:
+          back: Pas
+          title: Pyetje të lidhura me këtë proces
+          create: Krijo pyetje
+          delete: Fshi
+        new:
+          back: Pas
+          title: Krijo pyetje të re
+          submit_button: Krijo pyetje
+        table:
+          title: Titull
+          question_options: Opsioni i pyetjeve
+          answers_count: Numërimi i përgjigjeve
+          comments_count: Numërimi i komenteve
+        question_option_fields:
+          remove_option: Hiq opsinon
     managers:
       index:
         title: Menaxherët
