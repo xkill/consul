@@ -7,6 +7,9 @@ sq:
         remaining: "Ju keni ende <span>%{amount}</span> për të investuar."
         no_balloted_group_yet: "Ju nuk keni votuar ende për këtë grup, shkoni të votoni!"
         remove: Hiq voten
+        voted_html:
+          one: "Ju keni votuar <span>%{count}</span> investime."
+          other: "Ju keni votuar <span>%{count}</span> investimet."
         voted_info_html: "Ju mund ta ndryshoni votën tuaj në çdo kohë deri në fund të kësaj faze. <br> Nuk ka nevojë të shpenzoni të gjitha paratë në dispozicion."
         zero: Ju nuk keni votuar në asnjë projekt investimi.
       reasons_for_not_balloting:
@@ -60,6 +63,14 @@ sq:
         tags_instructions: "Etiketoni këtë propozim. Ju mund të zgjidhni nga kategoritë e propozuara ose të shtoni tuajën"
         tags_label: Etiketimet
         tags_placeholder: "Futni etiketimet që dëshironi të përdorni, të ndara me presje (',')"
+        map_location: "Vendndodhja në hartë"
+        map_location_instructions: "Lundroni në hartë në vendndodhje dhe vendosni shënuesin."
+        map_remove_marker: "Hiq shënuesin e hartës"
+        location: "informacion shtesë i vendodhjes"
+        map_skip_checkbox: "Ky investim nuk ka një vend konkret ose nuk jam i vetëdijshëm për të."
+      index:
+        title: Buxhetet  pjesëmarrës
+        unfeasible: Investimet e papranueshme
       show:
         project_unfeasible_html: 'Ky projekt investimi <strong> është shënuar si jo e realizueshme </strong> dhe nuk do të shkojë në fazën e votimit.'
         project_selected_html: 'Ky projekt investimi <strong> është përzgjedhur</strong>  për fazën e votimit.'
@@ -92,3 +103,29 @@ sq:
       group: Grupet
       phase: Faza aktuale
       unfeasible_title: Investimet e papranueshme
+      unfeasible: Shih Investimet e papranueshme
+      unselected_title: Investimet që nuk janë përzgjedhur për fazën e votimit
+      unselected: Shih investimet që nuk janë përzgjedhur për fazën e votimit
+      see_results: Shiko rezultatet
+    results:
+      link: Rezultatet
+      page_title: "%{budget}- Rezultatet"
+      heading: "Rezultatet e buxhetit pjesëmarrjës"
+      heading_selection_title: "Nga rrethi"
+      spending_proposal: Titulli i Propozimit
+      ballot_lines_count: Kohë të zgjedhura
+      hide_discarded_link: Hiq të fshehurat
+      show_all_link: Shfaqi të gjitha
+      price: Çmim
+      amount_available: Buxheti në dispozicion
+      accepted: "Propozimi i pranuar i shpenzimeve:"
+      discarded: "Propozimi i hedhur poshtë i shpenzimeve:"
+      incompatibles: I papajtueshëm
+      investment_proyects: Lista e të gjitha projekteve të investimeve 
+      unfeasible_investment_proyects: Lista e të gjitha projekteve të investimeve të papranueshme
+      not_selected_investment_proyects: Lista e të gjitha projekteve të investimeve të pa zgjedhur për votim
+    phases:
+      errors:
+        dates_range_invalid: "Data e fillimit nuk mund të jetë e barabartë ose më vonë se data e përfundimit"
+        prev_phase_dates_invalid: "Data e fillimit duhet të jetë më e vonshme se data e fillimit të fazës së aktivizuar më parë (%{phase_name})"
+        next_phase_dates_invalid: "Data e përfundimit duhet të jetë më e hershme se data përfundimtare e fazës tjetër të aktivizuar (%{phase_name})"
