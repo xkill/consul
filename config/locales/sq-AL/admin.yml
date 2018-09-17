@@ -465,3 +465,26 @@ sq:
         new_notification: Njoftim i ri
         title: Titull
         segment_recipient: Marrësit
+        sent: Dërguar
+        actions: Veprimet
+        draft: Drafti
+        edit: Ndrysho
+        delete: Fshi
+        preview: Parapamje
+        view: Pamje
+        empty_notifications: Nuk ka njoftim për të treguar
+      new:
+        section_title: Njoftim i ri
+      edit:
+        section_title: Ndrysho njoftimin
+      show:
+        section_title: Parapamje e njoftimit
+        send: Dërgo njoftimin
+        will_get_notified: (%{n} përdoruesit do të njoftohen)
+        got_notified: (%{n} përdoruesit u njoftuan)
+        sent_at: Dërguar në
+        title: Titull
+        body: Tekst
+        link: Link
+        segment_recipient: Marrësit
+        preview_guide: "Kështu përdoruesit do të shohin njoftimin:"
