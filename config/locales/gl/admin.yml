@@ -70,7 +70,7 @@ gl:
           on_system_emails: Correos electrónicos do sistema
         title: Actividade dos moderadores
         type: Tipo
-        no_activity: Non hai actividade de moderadores.
+        no_activity: Non hai actividade dos moderadores.
     budgets:
       index:
         title: Orzamentos participativos
@@ -512,7 +512,7 @@ gl:
       search:
         title: 'Xestores: busca de usuarios'
     menu:
-      activity: Actividade de moderadores
+      activity: Actividade dos moderadores
       admin: Menú de administración
       banner: Xestionar banners
       poll_questions: Preguntas
@@ -526,14 +526,14 @@ gl:
       hidden_proposal_notifications: Notificacións de propostas agochadas
       hidden_users: Usuarios agochados
       administrators: Administradores
-      managers: Xestores/as
+      managers: Xestores
       moderators: Moderadores
       messaging_users: Mensaxes aos usuarios
       newsletters: Boletíns informativos
       admin_notifications: Notificacións
       system_emails: Correos electrónicos do sistema
       emails_download: Descarga de enderezos de correo
-      valuators: Avaliadores/as
+      valuators: Avaliadores
       poll_officers: Presidentes de mesa
       polls: Votacións
       poll_booths: Localización das urnas
@@ -693,12 +693,12 @@ gl:
         download_emails_button: Descargar lista de enderezos
     valuators:
       index:
-        title: Avaliadores/as
+        title: Avaliadores
         name: Nome
         email: Correo electrónico
         description: Descrición
         no_description: Sen descrición
-        no_valuators: Non hai avaliadores/as.
+        no_valuators: Non hai avaliadores.
         valuator_groups: "Grupos de avaliadores"
         group: "Grupo"
         no_group: "Sen grupo"
