@@ -439,3 +439,29 @@ sq:
         delete: Fshi
         preview: Parapamje
         empty_newsletters: Nuk ka buletin për të treguar
+      new:
+        title: Buletin informativ të ri
+        from: Adresa e emailit që do të shfaqet si dërgimi i buletinit
+      edit:
+        title: Ndrysho Buletinin informativ
+      show:
+        title: Parapamje e buletinit
+        send: Dërgo
+        affected_users: (%{n} përdoruesit e prekur)
+        sent_at: Dërguar në
+        subject: Subjekt
+        segment_recipient: Marrësit
+        from: Adresa e emailit që do të shfaqet si dërgimi i buletinit
+        body: Përmbajtja e postës elektronike
+        body_help_text: Kështu përdoruesit do të shohin emailin
+        send_alert: Je i sigurt që dëshiron ta dërgosh këtë buletin në %{n} përdoruesit?
+    admin_notifications:
+      create_success: Njoftimi u krijua me sukses
+      update_success: Njoftimi u rifreskua me sukses
+      send_success: Njoftimi u dërgua me sukses
+      delete_success: Njoftimi u fshi me sukses
+      index:
+        section_title: Njoftime
+        new_notification: Njoftim i ri
+        title: Titull
+        segment_recipient: Marrësit
