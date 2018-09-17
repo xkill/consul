@@ -35,3 +35,37 @@ sq:
       login_items:
         login: Kycu
         logout: C'kycu
+        signup: Rregjistrohu
+    organizations:
+      registrations:
+        new:
+          email_label: Email
+          organization_name_label: Emri i organizatës
+          password_confirmation_label: Konfirmo fjalëkalimin
+          password_label: Fjalëkalim
+          phone_number_label: Numri i telefonit
+          responsible_name_label: Emri i plotë i personit përgjegjës për kolektivin.
+          responsible_name_note: Ky do të ishte personi që përfaqëson shoqatën / kolektivin në emër të të cilit paraqiten propozimet
+          submit: Rregjistrohu
+          title: Regjistrohuni si një organizatë ose kolektiv
+        success:
+          back_to_index: E kuptoj; kthehu në faqen kryesore
+          instructions_1_html: "<b> Do t'ju kontaktojmë së shpejti</b> për të verifikuar që ju në fakt e përfaqësoni këtë kolektiv."
+          instructions_2_html: Ndërsa <b> emaili juaj është rishikuar </b>, ne ju kemi dërguar një <b> lidhje për të konfirmuar llogarinë tuaj</b>.
+          instructions_3_html: Sapo të konfirmohet, mund të filloni të merrni pjesë si kolektiv i paverifikuar.
+          thank_you_html: Faleminderit që regjistruat kolektivin tuaj në faqen e internetit. Tani është <b> në pritje të verifikimit</b>.
+          title: Regjistrimi i organizatës / kolektivit
+    passwords:
+      edit:
+        change_submit: Ndrysho fjalëkalimin tim
+        password_confirmation_label: Konfirmo fjalëkalimin
+        password_label: Fjalëkalim i ri
+        title: Ndrysho fjalëkalimin tënd
+      new:
+        email_label: Email
+        send_submit: Dërgo instruksionet 
+        title: Harrruat fjalëkalimin?
+    sessions:
+      new:
+        login_label: Email ose emer përdoruesi
+        password_label: Fjalëkalim
