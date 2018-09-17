@@ -570,3 +570,48 @@ sq:
         images:
           add_image: "Shto imazhin"
           save_image: "Ruaj imazhin"
+      show:
+        proposal: Propozimi origjinal
+        author: Autor
+        question: Pyetje
+        edit_question: Ndrysho pyetjet
+        valid_answers: Përgjigje të vlefshme
+        add_answer: Shto përgjigje
+        video_url: Video e jashtme
+        answers:
+          title: Përgjigjet
+          description: Përshkrimi
+          videos: Videot
+          video_list: Lista e videove
+          images: Imazhet
+          images_list: Lista e imazheve
+          documents: Dokumentet
+          documents_list: Lista e dokumentave
+          document_title: Titull
+          document_actions: Veprimet
+    answers:
+      new:
+        title: Përgjigje e re
+      show:
+        title: Titull
+        description: Përshkrimi
+        images: Imazhet
+        images_list: Lista e imazheve
+        edit: Ndrysho përgjigjet
+      edit:
+        title: Ndrysho përgjigjet
+      videos:
+        index:
+          title: Videot
+          add_video: Shto video
+          video_title: Titull
+          video_url: Video e jashtme
+        new:
+          title: Video e re
+        edit:
+          title: Ndrysho videon
+    recounts:
+      index:
+        title: "Rinumërimet"
+        no_recounts: "Nuk ka asgjë për t'u rinumëruar"
+        table_booth_name: "Kabinë"
