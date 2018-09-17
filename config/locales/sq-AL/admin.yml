@@ -962,7 +962,17 @@ sq:
         shifts: "Menaxho ndërrimet"
         edit: "Ndrysho kabinën"
     officials:
+      edit:
+        destroy: Hiq statusin 'Zyrtar'
+        title: 'Zyrtarët: Ndryshoni përdoruesin'
+      flash:
+        official_destroyed: 'Detajet e ruajtura: përdoruesi nuk është më zyrtar'
+        official_updated: Detajet e zyrtarëve të ruajtur
       index:
+        title: Zyrtarët
+        no_officials: Nuk ka zyrtarë.
+        name: Emër
+        official_position: Pozicioni zyrtar
         official_level: Nivel
       level_0: Jo zyrtare
       level_1: Nivel 1
@@ -970,10 +980,22 @@ sq:
       level_3: Nivel 3
       level_4: Nivel 4
       level_5: Nivel 5
+      search:
+        edit_official: Ndrysho zyrtar
+        make_official: Bëni zyrtar
+        title: 'Pozicionet zyrtare: Kërkimi i përdoruesit'
+        no_results: Pozitat zyrtare nuk u gjetën.
     organizations:
       index:
+        filter: Filtër
         filters:
           all: Të gjithë
+          pending: Në pritje
+          rejected: Refuzuar
+          verified: Verifikuar
+        hidden_count_html:
+          one: Ka gjithashtu<strong>një organizatë</strong>me asnjë përdorues ose me një përdorues të fshehur.
+          other: Janë gjithashtu<strong> %{count} organizatat</strong>me asnjë përdorues ose me një përdorues të fshehur.
         name: Emri
         email: Email
         phone_number: Telefoni
@@ -1203,6 +1225,14 @@ sq:
         title: Verifikime jo të plota
     site_customization:
       content_blocks:
+        top_links_html: "<strong>Header blocks(lidhjet kryesore)</strong>janë blloqe të lidhjeve që duhet të kenë këtë format:"
+        footer_html: "<strong>Footer blocks</strong>mund të ketë ndonjë format dhe mund të përdoret për të futur Javascript, CSS ose HTML."
+        no_blocks: "Nuk ka blloqe përmbajtjeje."
+        create:
+          notice: Blloku i përmbajtjes është krijuar me sukses
+          error: Blloku i përmbajtjes nuk mund të krijohet
+        update:
+          notice: Blloku i përmbajtjes u përditësua me sukses
         errors:
           form:
             error: Gabim
