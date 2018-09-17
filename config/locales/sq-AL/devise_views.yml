@@ -1,1 +1,37 @@
 sq:
+  devise_views:
+    confirmations:
+      new:
+        email_label: Email
+        submit: Ridergo instruksionet 
+        title: Ridërgo udhëzimet e konfirmimit
+      show:
+        instructions_html: Konfirmimi i llogarisë me email %{email}
+        new_password_confirmation_label: Përsëritni fjalëkalimin e qasjes
+        new_password_label: Fjalëkalimi i ri i qasjes
+        please_set_password: Ju lutemi zgjidhni fjalëkalimin tuaj të ri (kjo do t'ju lejojë të identifikoheni me emailin e mësipërm)
+        submit: Konfirmo
+        title: Konfirmo llogarinë time
+    mailer:
+      confirmation_instructions:
+        confirm_link: Konfirmo llogarinë time
+        text: 'Ju mund të konfirmoni llogarinë tuaj të postës elektronike në lidhjen e mëposhtme:'
+        title: Mirësevini
+        welcome: Mirësevini
+      reset_password_instructions:
+        change_link: Ndrysho fjalëkalimin tim
+        hello: Përshëndetje
+        ignore_text: Nëse nuk keni kërkuar ndryshim të fjalëkalimit, mund ta injoroni këtë email.
+        info_text: Fjalëkalimi juaj nuk do të ndryshohet nëse nuk e përdorni lidhjen dhe ta redaktoni.
+        text: 'Ne kemi marrë një kërkesë për të ndryshuar fjalëkalimin tuaj. Këtë mund ta bëni në lidhjen e mëposhtme:'
+        title: Ndrysho fjalëkalimin tënd
+      unlock_instructions:
+        hello: Përshëndetje
+        info_text: Llogaria juaj është bllokuar për shkak të një numri të tepërt të përpjekjeve të dështuara identifikimi.
+        instructions_text: 'Ju lutemi klikoni në këtë link për të zhbllokuar llogarinë tuaj:'
+        title: Llogaria juaj është bllokuar.
+        unlock_link: Zhblloko llogarinë time
+    menu:
+      login_items:
+        login: Kycu
+        logout: C'kycu
