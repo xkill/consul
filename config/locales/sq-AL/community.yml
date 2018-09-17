@@ -26,3 +26,9 @@ sq:
         new_topic: Krijo një temë
       topic:
         edit: Ndryshoni temën
+        destroy: Fshi temën
+        comments:
+          zero: Nuk ka komente
+          one: '%{count} komente'
+          other: "%{count} komente"
+      author: Autor
