@@ -679,8 +679,46 @@ sq:
         preview_of: Parapamja e %{name}
         pending_to_be_sent: Kjo është përmbajtja në pritje për t'u dërguar
         moderate_pending: Dërgimi i mesazheve të moderuara
+    emails_download:
+      index:
+        title: Shkarkimi i emaileve
+    valuators:
+      index:
+        title: Vlerësues
+        name: Emri
+        email: Email
+        description: Përshkrimi
+        no_description: Jo Përshkrim
+        no_valuators: Nuk ka vlerësues.
+        valuator_groups: "Grup vlerësuesish"
+        group: "Grupet"
+        no_group: "Asnjë grup"
+      valuator:
+        add: Shto tek vlerësuesit
+        delete: Fshi
+      search:
+        title: 'Vlerësuesit: Kërkimi i përdoruesit'
+      summary:
+        title: Përmbledhja e vlerësuesit për projektet e investimeve
+        valuator_name: Vlerësues
+        finished_and_feasible_count: Përfunduar dhe e realizueshme
+        finished_and_unfeasible_count: Përfunduar dhe e parealizueshme
+        finished_count: Përfunduar
+        in_evaluation_count: Në vlerësim
+        total_count: Totali
+        cost: Kosto
+      show:
+        description: "Përshkrimi"
+        email: "Email"
+        group: "Grupet"
+    valuator_groups:
+      index:
+        name: "Emri"
+      form:
+        name: "Emri grupit"
     poll_officers:
       officer:
+        add: Shto
         name: Emri
         email: Email
         entry_name: oficer
@@ -875,8 +913,33 @@ sq:
         results: Rezultatet
         see_results: Shiko rezultatet
         title: "Rezultatet nga kabina"
+    booths:
+      index:
+        name: "Emri"
+        location: "Vendndodhja"
+      new:
+        name: "Emri"
+        location: "Vendndodhja"
+      show:
+        location: "Vendndodhja"
+    officials:
+      index:
+        official_level: Nivel
+      level_0: Jo zyrtare
+      level_1: Nivel 1
+      level_2: Nivel 2
+      level_3: Nivel 3
+      level_4: Nivel 4
+      level_5: Nivel 5
     organizations:
       index:
+        filters:
+          all: Të gjithë
+        name: Emri
+        email: Email
+        phone_number: Telefoni
+        status: Statusi
+        search: Kërko
         title: Organizatat
         verified: Verifikuar
         verify: Verifiko
@@ -988,7 +1051,22 @@ sq:
           undefined: "E padefinuar"
       show:
         assigned_admin: Administrator i caktuar
+        assigned_valuators: Vlerësuesit e caktuar
+        back: Pas
+        classification: Klasifikim
+        heading: "Projekt investimi%{id}"
+        edit: Ndrysho
+        edit_classification: Ndrysho klasifikimin
+        association_name: Asociacion
+        by: Nga
+        sent: Dërguar
+        geozone: Qëllim
+        dossier: Dosje
+        edit_dossier: Ndrysho dosjen
+        tags: Etiketimet
+        undefined: E padefinuar
       edit:
+        classification: Klasifikim
         assigned_valuators: Vlerësuesit
         submit_button: Përditëso
         tags: Etiketë
@@ -1062,6 +1140,11 @@ sq:
         summary:
           comment_votes: Komento votat
           comments: Komentet
+          debates: Debate
+          proposals: Propozime
+        polls: Sondazhet
+      direct_messages:
+        total: Totali
     users:
       index:
         no_users: Nuk ka përdorues.
@@ -1073,3 +1156,34 @@ sq:
         phone_not_given: Telefon nuk është dhënë
         sms_code_not_confirmed: Nuk e është konfirmuar kodi sms
         title: Verifikime jo të plota
+    site_customization:
+      content_blocks:
+        content_block:
+          body: Trupi
+          name: Emri
+      images:
+        index:
+          title: Imazhe personalizuara
+          update: Përditëso
+          delete: Fshi
+          image: Imazh
+      pages:
+        page:
+          created_at: Krijuar në
+          status: Statusi
+          title: Titull
+          updated_at: Përditësuar në
+          status_draft: Drafti
+    homepage:
+      title: Kryefaqja
+      cards:
+        title: Titull
+        description: Përshkrimi
+        link_text: Linku tekstit
+        link_url: Linku URL
+      feeds:
+        proposals: Propozime
+        debates: Debate
+        processes: Proçese
+      edit:
+        submit_header: Ruaj titullin
