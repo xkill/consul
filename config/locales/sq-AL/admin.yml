@@ -300,7 +300,36 @@ sq:
         no_hidden_budget_investments: Nuk ka investime të fshehura buxhetore
     legislation:
       processes:
+        create:
+          notice: 'Procesi është krijuar me sukses.<a href="%{link}">Kliko për të vizituar</a>'
+          error: Procesi nuk mund të krijohet
+        update:
+          notice: 'Procesi është përditësuar me sukses.<a href="%{link}">Kliko për të vizituar</a>'
+          error: Procesi nuk mund të përditësohet
+        destroy:
+          notice: Procesi u fshi me sukses
+        edit:
+          back: Pas
+          submit_button: Ruaj ndryshimet
+        errors:
+          form:
+            error: Gabim
+        form:
+          enabled: Aktivizuar
+          process: Proçes
+          debate_phase: Faza e debatit
+          allegations_phase: Faza e draftit
+          proposals_phase: Faza e propozimit
+          start: Fillo
+          end: Fund
+          use_markdown: Përdorni Markdown për të formatuar tekstin
+          title_placeholder: Titulli i procesit
+          summary_placeholder: Përmbledhje e shkurtër e përshkrimit
+          description_placeholder: Shto një përshkrim të procesit
+          additional_info_placeholder: Shto një informacion shtesë që e konsideron të dobishme
         index:
+          create: Proces i ri
+          delete: Fshi
           filters:
             open: Hapur
             next: Tjetër
