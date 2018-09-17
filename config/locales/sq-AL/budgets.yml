@@ -60,3 +60,14 @@ sq:
         tags_instructions: "Etiketoni këtë propozim. Ju mund të zgjidhni nga kategoritë e propozuara ose të shtoni tuajën"
         tags_label: Etiketimet
         tags_placeholder: "Futni etiketimet që dëshironi të përdorni, të ndara me presje (',')"
+      show:
+        project_unfeasible_html: 'Ky projekt investimi <strong> është shënuar si jo e realizueshme </strong> dhe nuk do të shkojë në fazën e votimit.'
+        project_selected_html: 'Ky projekt investimi <strong> është përzgjedhur</strong>  për fazën e votimit.'
+        project_winner: 'Projekti fitues i investimeve'
+        project_not_selected_html: 'Ky projekt investimi <strong>  nuk eshte selektuar </strong> për fazën e votimit.'
+      wrong_price_format: Vetëm numra të plotë
+      investment:
+        add: Votë
+        already_added: Ju e keni shtuar tashmë këtë projekt investimi
+        already_supported: Ju e keni mbështetur tashmë këtë projekt investimi. Shperndaje!
+        support_title: Mbështetni këtë projekt
