@@ -72,3 +72,44 @@ sq:
       more_info: Më shumë informacion
       recommendation_four: Gëzoni këtë hapësirë dhe zërat që e mbushin atë. Ajo ju takon edhe juve.
       recommendation_one: Mos përdorni shkronja kapitale për titullin e debatit ose për dënime të plota. Në internet, kjo konsiderohet ofenduese. Dhe askush nuk i pëlqen të ofendoj.
+      recommendation_three: Kritika e pamëshirshme është shumë e mirëpritur. Ky është një hapësirë për reflektim. Por ne ju rekomandojmë që të jeni në hijeshi dhe inteligjentë. Bota është një vend më i mirë me këto virtytet në të.
+      recommendation_two: Çdo debat ose koment që sugjeron veprime të paligjshme do të fshihen, si dhe ata që synojnë të sabotojnë hapsirat e debatit. Çdo gjë tjetër lejohet.
+      recommendations_title: Rekomandime për krijimin e një debati
+      start_new: Filloni një debat
+    show:
+      author_deleted: Përdoruesi u fshi
+      comments:
+        zero: Nuk ka komente
+        one: 1 koment
+        other: "%{count} komente"
+      comments_title: Komentet
+      edit_debate_link: Ndrysho
+      flag: Ky debat është shënuar si i papërshtatshëm nga disa përdorues.
+      login_to_comment: Ju duhet %{signin} ose %{signup} për të lënë koment.
+      share: Shpërndaj
+      author: Autor
+    update:
+      form:
+        submit_button: Ruaj ndryshimet
+  errors:
+    messages:
+      user_not_found: Përdoruesi nuk u gjet
+      invalid_date_range: "Rangu i të dhënave është jo korrekt"
+  form:
+    accept_terms: Unë pajtohem me%{policy} dhe me %{conditions}
+    accept_terms_title: Pajtohem me Politikën e Privatësisë dhe me Termat dhe kushtet e përdorimit
+    conditions: Termat dhe kushtet e përdorimit
+    debate: Debate
+    direct_message: mesazh privat
+    error: gabim
+    errors: gabime
+    not_saved_html: "e penguan këtë%{resource} nga të ruajturit.<br>Ju lutemi kontrolloni fushat e shënuara për të ditur se si t'i korrigjoni ato:"
+    policy: Politika e privatësisë
+    proposal: Propozime
+    proposal_notification: "Njoftimet"
+    spending_proposal: Shpenzimet e propozimeve
+    budget/investment: Investim
+    budget/heading: Titulli i buxhetit
+    poll/shift: Ndryshim
+    poll/question/answer: Përgjigjet
+    user: Llogari
