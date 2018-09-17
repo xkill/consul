@@ -488,3 +488,57 @@ sq:
         link: Link
         segment_recipient: Marrësit
         preview_guide: "Kështu përdoruesit do të shohin njoftimin:"
+        sent_guide: "Kështu përdoruesit shohin njoftimin:"
+        send_alert: Je i sigurt që dëshiron ta dërgosh këtë njoftim në %{n} përdoruesit?
+    system_emails:
+      preview_pending:
+        action: Parapamje në pritje
+        preview_of: Parapamja e %{name}
+        pending_to_be_sent: Kjo është përmbajtja në pritje për t'u dërguar
+        moderate_pending: Dërgimi i mesazheve të moderuara
+    poll_officers:
+      officer:
+        name: Emri
+        email: Email
+        entry_name: oficer
+      search:
+        email_placeholder: Kërko përdoruesin me email
+        search: Kërko
+        user_not_found: Përdoruesi nuk u gjet
+    poll_officer_assignments:
+      index:
+        officers_title: "Lista e oficerëve"
+        no_officers: "Nuk ka zyrtarë të caktuar për këtë sondazh."
+        table_name: "Emri"
+        table_email: "Email"
+      by_officer:
+        date: "Data"
+        booth: "Kabinë"
+        assignments: "Zhvendosjen e ndërrimeve në këtë sondazh"
+        no_assignments: "Ky përdorues nuk ka ndërrime zyrtare në këtë sondazh."
+    poll_shifts:
+      new:
+        add_shift: "Shto ndryshim"
+        shift: "Caktim"
+        shifts: "Ndërrime në këtë kabinë"
+        date: "Data"
+        task: "Task"
+        edit_shifts: Ndrysho ndërrimet
+        new_shift: "Ndërrim i ri"
+        no_shifts: "Kjo kabinë nuk ka ndërrime"
+        officer: "Oficer"
+        remove_shift: "Hiq"
+        search_officer_button: Kërko
+        search_officer_placeholder: Kërko oficerin
+        search_officer_text: Kërkoni një oficer për të caktuar një ndryshim të ri
+        select_date: "Zgjidh ditën"
+        no_voting_days: "Ditët e votimit përfunduan"
+        select_task: "Zgjidh task"
+        table_shift: "Ndryshim"
+        table_email: "Email"
+        table_name: "Emri"
+      flash:
+        create: "Ndryshimi u shtua"
+        destroy: "Ndryshimi u hoq"
+        date_missing: "Duhet të zgjidhet një datë"
+      vote_collection: Mblidhni Votat
