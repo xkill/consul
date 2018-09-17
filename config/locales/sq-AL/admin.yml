@@ -664,3 +664,42 @@ sq:
         updated: Vlera e përditësuar
       index:
         banners: Stili i banderolës
+        banner_imgs: Imazhet banderol
+        no_banners_images: Jo Imazhet banderol
+        no_banners_styles: Jo Stil i banderolës
+        title: Cilësimet e konfigurimit
+        update_setting: Përditëso
+        feature_flags: Karakteristikat
+        features:
+          enabled: "Funksioni i aktivizuar"
+          disabled: "Funksioni i caktivizuar"
+          enable: "Aktivizuar"
+          disable: "Caktivizo"
+        map:
+          title: Konfigurimi i hartës
+          help: Këtu mund të personalizoni mënyrën se si hartë shfaqet tek përdoruesit. Zvarrit shënuesin e hartës ose kliko kudo mbi hartën, vendosni zmadhimin e dëshiruar dhe klikoni butonin "Përditëso".
+          flash:
+            update: Konfigurimi i hartave u rifreskua me sukses.
+          form:
+            submit: Përditëso
+      setting: Karakteristikat
+      setting_actions: Veprimet
+      setting_name: Opsione
+      setting_status: Statusi
+      setting_value: Vlerë
+      no_description: "Jo Përshkrim"
+    shared:
+      booths_search:
+        button: Kërko
+        placeholder: Kërko kabinat sipas emrit
+      poll_officers_search:
+        button: Kërko
+        placeholder: Kërko ofruesit e sondazhit
+      poll_questions_search:
+        button: Kërko
+        placeholder: Kërkoni pyetjet e sondazhit
+      proposal_search:
+        button: Kërko
+        placeholder: Kërkoni propozime sipas titullit, kodit, përshkrimit ose pyetjes
+      spending_proposal_search:
+        button: Kërko
