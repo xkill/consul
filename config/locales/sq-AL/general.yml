@@ -40,3 +40,35 @@ sq:
     menu: Menu
   comments:
     comments_closed: Komentet janë të mbyllura
+    verified_only: "Për të marrë pjesë\n%{verify_account}"
+    verify_account: verifikoni llogarinë tuaj
+    comment:
+      admin: Administrator
+      author: Autor
+      deleted: Ky koment është fshirë
+      moderator: Moderator
+      responses:
+        zero: Nuk ka përgjigje
+        one: 1 përgjigje
+        other: "%{count} përgjigje"
+      user_deleted: Përdoruesi u fshi
+      votes:
+        zero: Asnjë votë
+        one: 1 Votë
+        other: "%{count} Vota"
+    form:
+      comment_as_admin: Komentoni si admin
+      comment_as_moderator: Komentoni si moderator
+  debates:
+    index:
+      section_footer:
+        help_text_1: "Hapësira për debatet e qytetarëve synon të gjithë ata që mund të ekspozojnë çështje të shqetësimit të tyre dhe atyre që duan të ndajnë mendime me njerëzit e tjerë."
+        help_text_2: 'Për të hapur një debat duhet të regjistroheni%{org}. Përdoruesit gjithashtu mund të komentojnë mbi debatet e hapura dhe t''i vlerësojnë ato me butonat "Unë pajtohem" ose "Unë nuk pajtohem" që gjendet në secilën prej tyre.'
+    new:
+      form:
+        submit_button: Filloni një debat
+      info: Nëse doni të bëni një propozim, kjo është seksioni i gabuar, hyni %{info_link}.
+      info_link: krijoni propozim të ri
+      more_info: Më shumë informacion
+      recommendation_four: Gëzoni këtë hapësirë dhe zërat që e mbushin atë. Ajo ju takon edhe juve.
+      recommendation_one: Mos përdorni shkronja kapitale për titullin e debatit ose për dënime të plota. Në internet, kjo konsiderohet ofenduese. Dhe askush nuk i pëlqen të ofendoj.
