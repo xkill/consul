@@ -264,6 +264,40 @@ sq:
       index:
         back: Shko pas tek %{org}
         title: Administrim
+        description: Mirë se erdhët në panelin %{org} të admin.
+    debates:
+      index:
+        filter: Filtër
+        filters:
+          all: Të gjithë
+          with_confirmed_hide: Konfirmuar
+          without_confirmed_hide: Në pritje
+        title: Debate të fshehta
+        no_hidden_debates: Nuk ka debate të fshehura.
+    hidden_users:
+      index:
+        filter: Filtër
+        filters:
+          all: Të gjithë
+          with_confirmed_hide: Konfirmuar
+          without_confirmed_hide: Në pritje
+        title: Përdoruesit e fshehur
+        user: Përdorues
+        no_hidden_users: Nuk ka përdorues të fshehura.
+      show:
+        email: 'Email:'
+        hidden_at: 'Fshehur në:'
+        registered_at: 'Regjistruar në:'
+        title: Aktiviteti i përdoruesit (%{user})
+    hidden_budget_investments:
+      index:
+        filter: Filtër
+        filters:
+          all: Të gjithë
+          with_confirmed_hide: Konfirmuar
+          without_confirmed_hide: Në pritje
+        title: Investimet e buxheteve të fshehura
+        no_hidden_budget_investments: Nuk ka investime të fshehura buxhetore
     legislation:
       processes:
         index:
