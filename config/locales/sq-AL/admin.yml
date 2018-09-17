@@ -615,3 +615,52 @@ sq:
         title: "Rinumërimet"
         no_recounts: "Nuk ka asgjë për t'u rinumëruar"
         table_booth_name: "Kabinë"
+        table_total_recount: "Totali i rinumërimeve (nga oficer)"
+        table_system_count: "Votat (automatik)"
+    results:
+      index:
+        title: "Rezultatet"
+        no_results: "Nuk ka rezultat"
+      result:
+        table_whites: "Vota të plota"
+        table_nulls: "Votat e pavlefshme"
+        table_total: "Totali i fletëvotimeve"
+        table_answer: Përgjigjet
+        table_votes: Votim
+      results_by_booth:
+        booth: Kabinë
+        results: Rezultatet
+        see_results: Shiko rezultatet
+        title: "Rezultatet nga kabina"
+    organizations:
+      index:
+        title: Organizatat
+        verified: Verifikuar
+        verify: Verifiko
+        pending: Në pritje
+      search:
+        title: Kërko Organizatat
+        no_results: Asnjë organizatë nuk u gjet.
+    proposals:
+      index:
+        filter: Filtër
+        filters:
+          all: Të gjithë
+          with_confirmed_hide: Konfirmuar
+          without_confirmed_hide: Në pritje
+        title: Propozime të fshehura
+        no_hidden_proposals: Nuk ka propozime të fshehura.
+    proposal_notifications:
+      index:
+        filter: Filtër
+        filters:
+          all: Të gjithë
+          with_confirmed_hide: Konfirmuar
+          without_confirmed_hide: Në pritje
+        title: Njoftime të fshehura
+        no_hidden_proposals: Nuk ka njoftime të fshehura.
+    settings:
+      flash:
+        updated: Vlera e përditësuar
+      index:
+        banners: Stili i banderolës
