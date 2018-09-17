@@ -703,3 +703,72 @@ sq:
         placeholder: Kërkoni propozime sipas titullit, kodit, përshkrimit ose pyetjes
       spending_proposal_search:
         button: Kërko
+        placeholder: Kërko shpenzimet e propozimeve sipas titullit ose përshkrimit
+    spending_proposals:
+      edit:
+        assigned_valuators: Vlerësuesit
+        submit_button: Përditëso
+        tags: Etiketë
+        tags_placeholder: "Shkruani etiketat që dëshironi të ndahen me presje (,)"
+        undefined: E padefinuar
+      summary:
+        title: Përmbledhje për projektet e investimeve
+        title_proposals_with_supports: Përmbledhje për projektet e investimeve me mbështetje
+        geozone_name: Qëllim
+        finished_and_feasible_count: Përfunduar dhe e realizueshme
+        finished_and_unfeasible_count: Përfunduar dhe e parealizueshme
+        finished_count: Përfunduar
+        in_evaluation_count: Në vlerësim
+        total_count: Totali
+        cost_for_geozone: Kosto
+    geozones:
+      index:
+        title: Gjeozona
+        create: Krijo gjeozonë
+        edit: Ndrysho
+        delete: Fshi
+      geozone:
+        name: Emri
+        external_code: Kodi i jashtëm
+        census_code: Kodi i regjistrimit
+        coordinates: Koordinatat
+      errors:
+        form:
+          error:
+            one: "gabimi e pengoi këtë gjeozonë të ruhej"
+            other: 'gabimet e penguan këtë gjeozonë të ruhej'
+      edit:
+        form:
+          submit_button: Ruaj ndryshimet
+        editing: Ndrysho gjeozonën
+        back: Kthehu pas
+      new:
+        back: Kthehu pas
+        creating: Krijo rrethin
+      delete:
+        success: Gjeozona u fshi me sukses
+        error: Kjo gjeozone nuk mund të fshihet pasi që ka elemente të bashkëngjitura
+    signature_sheets:
+      author: Autor
+      created_at: Data e krijimit
+      name: Emri
+      no_signature_sheets: "Nuk ka fletë_nënshkrimi"
+      index:
+        title: Nënshkrimi i fletëve
+        new: Fletë të reja nënshkrimi
+      new:
+        title: Fletë të reja nënshkrimi
+        document_numbers_note: "Shkruani numrat që dëshironi të ndahen me presje (,)"
+        submit: Krijo Fletë nënshkrimi
+      show:
+        created_at: Krijuar
+        author: Autor
+        documents: Dokumentet
+        document_count: "Numri i dokumenteve:"
+        verified:
+          one: "Ky është %{count} nënshkrim i vlefshëm"
+          other: "Këto janë %{count} nënshkrime të vlefshme"
+        unverified:
+          one: "Ky është %{count} nënshkrim i pavlefshëm"
+          other: "Këto janë %{count} nënshkrime të pavlefshme"
+        unverified_error: Nuk vërtetohet nga Regjistrimi
