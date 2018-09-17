@@ -13,3 +13,26 @@ sq:
         not_logged_in: Ju duhet %{signin} ose %{signup} për të vazhduar.
         not_verified: Vetëm përdoruesit e verifikuar mund të votojnë për investimet; %{verify_account}.
         organization: Organizatat nuk lejohen të votojnë
+        not_selected: Projektet e investimeve të pazgjedhura nuk mund të mbështeten.
+        not_enough_money_html: "Ju tashmë keni caktuar buxhetin në dispozicion. <small> Mos harroni që ju mund të %{change_ballot} në cdo kohë </small>"
+        no_ballots_allowed: Faza e zgjedhjes është e mbyllur
+        different_heading_assigned_html: "Ju keni votuar tashmë një titull tjetër: %{heading_link}"
+        change_ballot: Ndryshoni votat tuaja
+    groups:
+      show:
+        title: Zgjidh një opsion
+        unfeasible_title: Investimet e papranueshme
+        unfeasible: Shih Investimet e papranueshme
+        unselected_title: Investimet nuk janë përzgjedhur për fazën e votimit
+        unselected: Shih investimet që nuk janë përzgjedhur për fazën e votimit
+    phase:
+      drafting: Draft (jo i dukshëm për publikun)
+      informing: Informacion
+      accepting: Projektet e pranuara
+      reviewing: Rishikimi i projekteve
+      selecting: Përzgjedhja e projekteve
+      valuating: Projekte vlerësimi
+      publishing_prices: Publikimi i çmimeve të projekteve
+      balloting: Projektet e votimit
+      reviewing_ballots: Rishikimi i votimit
+      finished: Buxheti i përfunduar
