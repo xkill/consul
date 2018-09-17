@@ -772,3 +772,21 @@ sq:
           one: "Ky është %{count} nënshkrim i pavlefshëm"
           other: "Këto janë %{count} nënshkrime të pavlefshme"
         unverified_error: Nuk vërtetohet nga Regjistrimi
+        loading: "Ka ende firma që janë duke u verifikuar nga Regjistrimi, ju lutem rifreskoni faqen në pak çaste"
+    stats:
+      show:
+        stats_title: Statusi
+        summary:
+          comment_votes: Komento votat
+          comments: Komentet
+    users:
+      index:
+        no_users: Nuk ka përdorues.
+      search:
+        placeholder: Kërko përdoruesin sipas email, emrin ose numrin e dokumentit
+        search: Kërko
+    verifications:
+      index:
+        phone_not_given: Telefon nuk është dhënë
+        sms_code_not_confirmed: Nuk e është konfirmuar kodi sms
+        title: Verifikime jo të plota
