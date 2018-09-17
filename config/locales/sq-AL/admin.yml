@@ -431,6 +431,57 @@ sq:
         errors:
           form:
             error: Gabim
+        form:
+          title_html: 'Ndrysho <span class="strong">%{draft_version_title}</span> nga procesi <span class="strong">%{process_title}</span>'
+          launch_text_editor: Nis versionin e tekstit
+          close_text_editor: Mbyll tekst editor
+          use_markdown: Përdorni Markdown për të formatuar tekstin
+          hints:
+            final_version: Ky version do të publikohet si rezultat përfundimtar për këtë proces. Komentet nuk do të lejohen në këtë version.
+            status:
+              draft: Ju mund të shikoni paraprakisht si admin, askush tjetër nuk mund ta shohë atë
+              published: E dukshme për të gjithë
+          title_placeholder: Shkruani titullin e versionit të draftit
+          changelog_placeholder: Shto ndryshimet kryesore nga versioni i mëparshëm
+          body_placeholder: Shkruani tekstin e draftit
+        index:
+          title: Version drafti
+          create: Krijo versionin
+          delete: Fshi
+          preview: Parapamje
+        new:
+          back: Pas
+          title: Krijo version të ri
+          submit_button: Krijo versionin
+        statuses:
+          draft: Drafti
+          published: Publikuar
+        table:
+          title: Titull
+          created_at: Krijuar në
+          comments: Komentet
+          final_version: Versioni final
+          status: Statusi
+      questions:
+        create:
+          notice: 'Pyetja u krijua me sukses. <a href="%{link}">Kliko për të vizituar</a>'
+          error: Pyetja nuk mund të krijohet
+        update:
+          notice: 'Pyetja u rifreskua me sukses. <a href="%{link}">Kliko për të vizituar</a>'
+          error: Pyetja nuk mund të përditësohet
+        destroy:
+          notice: Pyetja u fshi me sukses
+        edit:
+          back: Pas
+          title: "Ndrysho \"%{question_title}\""
+          submit_button: Ruaj ndryshimet
+        errors:
+          form:
+            error: Gabim
+        form:
+          add_option: Shtoni opsionin
+          title: Pyetje
+          title_placeholder: Shto pyetjet
     managers:
       index:
         title: Menaxherët
@@ -501,8 +552,55 @@ sq:
       title_settings: Opsione
       title_site_customization: Përmbajtja e faqes
       title_booths: Kabinat e votimit
-    newsletters:
+      legislation: Legjislacioni Bashkëpunues
+      users: Përdoruesit
+    administrators:
       index:
+        title: Administrator
+        name: Emri
+        email: Email
+        no_administrators: Nuk ka administratorë.
+      administrator:
+        add: Shto
+        delete: Fshi
+        restricted_removal: "Na vjen keq, nuk mund ta heqësh veten nga administratorët"
+      search:
+        title: "Administratorët: Kërkimi i përdoruesit"
+    moderators:
+      index:
+        title: Moderatorët
+        name: Emri
+        email: Email
+        no_moderators: Nuk ka moderator.
+      moderator:
+        add: Shto
+        delete: Fshi
+      search:
+        title: 'Moderatorët: Kërkimi i përdoruesit'
+    segment_recipient:
+      all_users: Te gjithe perdoruesit
+      administrators: Administrator
+      proposal_authors: Autorët e propozimeve
+      investment_authors: Autorët e investimeve në buxhetin aktual
+      feasible_and_undecided_investment_authors: "Autorët e disa investimeve në buxhetin aktual që nuk përputhen me: [vlerësimi përfundoi i pamundshëm]"
+      selected_investment_authors: Autorët e investimeve të përzgjedhura në buxhetin aktual
+      winner_investment_authors: Autorët e investimeve fitues në buxhetin aktual
+      not_supported_on_current_budget: Përdoruesit që nuk kanë mbështetur investimet në buxhetin aktual
+      invalid_recipients_segment: "Segmenti i përdoruesit të përfituesve është i pavlefshëm"
+    newsletters:
+      create_success: Buletini u krijua me sukses
+      update_success: Buletini u përditësua me sukses
+      send_success: Buletini u dërgua me sukses
+      delete_success: Buletini u fshi me sukses
+      index:
+        title: Buletin informativ
+        new_newsletter: Buletin informativ të ri
+        subject: Subjekt
+        segment_recipient: Marrësit
+        sent: Dërguar
+        actions: Veprimet
+        draft: Drafti
+        edit: Ndrysho
         delete: Fshi
         preview: Parapamje
         empty_newsletters: Nuk ka buletin për të treguar
