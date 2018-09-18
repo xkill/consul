@@ -345,12 +345,12 @@ gl:
         one: " co tema '%{topic}'"
         other: " cos temas '%{topic}'"
       orders:
-        confidence_score: máis apoiadas
-        created_at: novas
-        hot_score: máis activas
+        confidence_score: Máis apoiadas
+        created_at: Novas
+        hot_score: Máis activas
         most_commented: máis comentadas
         relevance: máis relevantes
-        archival_date: arquivadas
+        archival_date: Arquivadas
         recommendations: recomendacións
       recommendations:
         without_results: Non hai propostas relacionadas cos teus intereses
