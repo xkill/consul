@@ -118,7 +118,19 @@ sq:
         button: Kërko
         placeholder: Kërko debate...
         title: Kërko
+      search_results_html:
+        one: " që përmbajnë termin <strong>'%{search_term}'</strong>"
+        other: " që përmbajnë termin <strong>'%{search_term}'</strong>"
+      select_order: Renditur nga
+      start_debate: Filloni një debat
+      title: Debate
+      section_header:
+        icon_alt: Ikona e debateve
+        title: Debate
+        help: Ndihmë për debatet
       section_footer:
+        title: Ndihmë për debatet
+        description: Filloni një debat për të ndarë mendimet me të tjerët rreth temave për të cilat ju shqetëson.
         help_text_1: "Hapësira për debatet e qytetarëve synon të gjithë ata që mund të ekspozojnë çështje të shqetësimit të tyre dhe atyre që duan të ndajnë mendime me njerëzit e tjerë."
         help_text_2: 'Për të hapur një debat duhet të regjistroheni%{org}. Përdoruesit gjithashtu mund të komentojnë mbi debatet e hapura dhe t''i vlerësojnë ato me butonat "Unë pajtohem" ose "Unë nuk pajtohem" që gjendet në secilën prej tyre.'
     new:
@@ -183,6 +195,8 @@ sq:
       chrome: Google Chrome
       firefox: Firefox
   notifications:
+    index:
+      unread: Palexuar
     notification:
       action:
         comments_on:
@@ -253,4 +267,31 @@ sq:
       proposal_responsible_name_note: "(individualisht ose si përfaqësues i një kolektivi, nuk do të shfaqet publikisht)"
       proposal_summary: Përmbledhje e propozimit
       proposal_summary_note: "(maksimumi 200 karaktere)"
+      proposal_text: Tekst i propozimit
       proposal_title: Titulli i Propozimit
+      proposal_video_url: Linku për video të jashtme
+      proposal_video_url_note: Ju mund të shtoni një link në YouTube ose Vimeo
+      tag_category_label: "Kategoritë"
+      tags_instructions: "Etiketoni këtë propozim. Ju mund të zgjidhni nga kategoritë e propozuara ose të shtoni tuajën"
+      tags_label: Etiketë
+      tags_placeholder: "Futni etiketimet që dëshironi të përdorni, të ndara me presje (',')"
+      map_location: "Vendndodhja në hartë"
+      map_location_instructions: "Lundroni në hartë në vendndodhje dhe vendosni shënuesin."
+      map_remove_marker: "Hiq shënuesin e hartës"
+      map_skip_checkbox: "Ky propozim nuk ka një vend konkret ose nuk jam i vetëdijshëm për të."
+    index:
+      featured_proposals: Karakteristika
+      filter_topic:
+        one: " me temë '%{topic}'"
+        other: " me tema '%{topic}'"
+      orders:
+        confidence_score: më të vlerësuarat
+        created_at: më të rejat
+        hot_score: më aktive
+        most_commented: më të komentuarit
+        relevance: lidhja
+        archival_date: arkivuar
+        recommendations: rekomandimet
+      recommendations:
+        without_results: Nuk ka propozime lidhur me interesat tuaja
+        without_interests: Ndiqni propozimet kështu që ne mund t'ju japim rekomandime
