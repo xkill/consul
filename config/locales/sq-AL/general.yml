@@ -64,8 +64,47 @@ sq:
       most_voted: Më të votuarat
       newest: Më e reja në fillim
       oldest: Më i vjetri në fillim
+      most_commented: Më të komentuarit
+    select_order: Ndaj sipas
+    show:
+      return_to_commentable: 'Shko prapa ne '
+  comments_helper:
+    comment_button: Publiko komentin
+    comment_link: Koment
+    comments_title: Komentet
+    reply_button: Publiko përgjigjen
+    reply_link: Përgjigju
   debates:
+    create:
+      form:
+        submit_button: Filloni një debat
+    debate:
+      comments:
+        zero: Nuk ka komente
+        one: 1 koment
+        other: "%{count} komente"
+      votes:
+        zero: Asnjë votë
+        one: 1 Votë
+        other: "%{count} Vota"
+    edit:
+      editing: Ndrysho debatin
+      form:
+        submit_button: Ruaj ndryshimet
+      show_link: Shiko debatin
+    form:
+      debate_text: Teksti i debatit fillestar
+      debate_title: Titulli i Debatit
+      tags_instructions: Etiketoni këtë debat.
+      tags_label: Temë
+      tags_placeholder: "Futni etiketimet që dëshironi të përdorni, të ndara me presje (',')"
     index:
+      featured_debates: Karakteristika
+      orders:
+        confidence_score: më të vlerësuarat
+        created_at: më të rejat
+        hot_score: më aktive
+        most_commented: më të komentuarit
       section_footer:
         help_text_1: "Hapësira për debatet e qytetarëve synon të gjithë ata që mund të ekspozojnë çështje të shqetësimit të tyre dhe atyre që duan të ndajnë mendime me njerëzit e tjerë."
         help_text_2: 'Për të hapur një debat duhet të regjistroheni%{org}. Përdoruesit gjithashtu mund të komentojnë mbi debatet e hapura dhe t''i vlerësojnë ato me butonat "Unë pajtohem" ose "Unë nuk pajtohem" që gjendet në secilën prej tyre.'
