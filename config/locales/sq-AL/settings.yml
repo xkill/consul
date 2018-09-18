@@ -44,3 +44,14 @@ sq:
       legislation_description: "Në proceset pjesëmarrëse, qytetarëve u ofrohet mundësia për të marrë pjesë në hartimin dhe modifikimin e rregulloreve që ndikojnë në qytet dhe për të dhënë mendimin e tyre për veprime të caktuara që planifikohen të kryhen"
       spending_proposals: "Shpenzimet e propozimeve"
       spending_proposals_description: "Shënim: Ky funksionalitet është zëvendësuar nga Buxheti pjesmarrës dhe do të zhduket në versione të reja"
+      spending_proposal_features:
+        voting_allowed: Votimi në projektet e investimeve - Faza e zgjedhjes
+        voting_allowed_description: "Shënim: Ky funksionalitet është zëvendësuar nga Buxheti pjesmarrës dhe do të zhduket në versione të reja"
+      user:
+        recommendations: "Rekomandimet"
+        recommendations_description: "Tregon rekomandimet e përdoruesve në faqen kryesore bazuar në etiketat e artikujve në vijim"
+        skip_verification: "Tejkalo verifikimin e përdoruesit"
+        skip_verification_description: "Kjo do të çaktivizojë verifikimin e përdoruesit dhe të gjithë përdoruesit e regjistruar do të jenë në gjendje të marrin pjesë në të gjitha proceset"
+        recommendations_on_debates: "Rekomandime për debatet"
+        recommendations_on_debates_description: "Shfaq rekomandimet e përdoruesve për përdoruesit në faqen e debateve bazuar në etiketat e artikujve të ndjekur"
+        recommendations_on_proposals: "Rekomandime për debatet"
