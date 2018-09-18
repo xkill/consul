@@ -105,6 +105,19 @@ sq:
         created_at: më të rejat
         hot_score: më aktive
         most_commented: më të komentuarit
+        relevance: lidhja
+        recommendations: rekomandimet
+      recommendations:
+        without_results: Nuk ka debate lidhur me interesat tuaja
+        without_interests: Ndiqni propozimet kështu që ne mund t'ju japim rekomandime
+        disable: "Debatet e rekomandimeve do të ndalojnë të tregojnë nëse i shkarkoni ato. Mund t'i aktivizosh përsëri në faqen 'Llogaria ime'"
+        actions:
+          success: "Rekomandimet për debatet tani janë të caktivizuar për këtë llogari"
+          error: "Nje gabim ka ndodhur. Ju lutemi të shkoni te faqja \"Llogaria juaj\" për të çaktivizuar manualisht rekomandimet për debatet"
+      search_form:
+        button: Kërko
+        placeholder: Kërko debate...
+        title: Kërko
       section_footer:
         help_text_1: "Hapësira për debatet e qytetarëve synon të gjithë ata që mund të ekspozojnë çështje të shqetësimit të tyre dhe atyre që duan të ndajnë mendime me njerëzit e tjerë."
         help_text_2: 'Për të hapur një debat duhet të regjistroheni%{org}. Përdoruesit gjithashtu mund të komentojnë mbi debatet e hapura dhe t''i vlerësojnë ato me butonat "Unë pajtohem" ose "Unë nuk pajtohem" që gjendet në secilën prej tyre.'
