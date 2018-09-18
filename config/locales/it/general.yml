@@ -467,6 +467,8 @@ it:
       geozone_restricted: "Distretti"
       geozone_info: "Possono partecipare persone nel censimento di: "
       already_answer: "Hai già partecipato a questa votazione"
+      not_logged_in: "È necessario accedere o registrarsi per partecipare"
+      unverified: "È necessario verificare il tuo account per partecipare"
       section_header:
         icon_alt: Icona di voto
         title: Voto
