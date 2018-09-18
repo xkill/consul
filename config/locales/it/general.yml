@@ -567,6 +567,8 @@ it:
       budget_investment:
         create:
           notice_html: "Ora segui questo progetto di investimento! </br> Ti notificheremo i cambiamenti man mano che si realizzano così che tu possa rimanere aggiornato."
+        destroy:
+          notice_html: "Hai smesso di seguire questo progetto di investimento! </br> Non riceverai più notifiche relative a questo progetto."
     hide: Nascondi
     show: Mostra
   spending_proposals:
