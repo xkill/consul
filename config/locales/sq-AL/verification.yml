@@ -1,1 +1,14 @@
 sq:
+  verification:
+    alert:
+      lock: Ju keni arritur numrin maksimal të përpjekjeve për tu kycur. Ju lutem provoni përsëri më vonë.
+    back: Kthehu tek llogaria ime
+    email:
+      create:
+        alert:
+          failure: Kishte një problem me dërgimin e një email-i në llogarinë tënde
+        flash:
+          success: 'Ne kemi dërguar një email konfirmimi në llogarinë tuaj: %{email}'
+      show:
+        alert:
+          failure: Kodi i verifikimit është i pasaktë
