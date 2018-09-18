@@ -16,10 +16,10 @@ gl:
       delete: Borrar
     banners:
       index:
-        title: Banners
-        create: Crear banner
-        edit: Editar banner
-        delete: Borrar banner
+        title: Anuncios
+        create: Crear anuncio
+        edit: Editar anuncio
+        delete: Borrar anuncio
         filters:
           all: Todo
           with_active: Activos
@@ -41,16 +41,16 @@ gl:
         background_color: Cor de fondo
         font_color: Cor da fonte
       edit:
-        editing: Editar banner
+        editing: Editar anuncio
         form:
           submit_button: Gardar os cambios
       errors:
         form:
           error:
-            one: "un erro impediu gardar este banner"
-            other: "uns erros impediron gardar este banner"
+            one: "un erro impediu gardar este anuncio"
+            other: "un erro impediu gardar este anuncio"
       new:
-        creating: Crear banner
+        creating: Crear anuncio
     activity:
       show:
         action: Acción
@@ -514,7 +514,7 @@ gl:
     menu:
       activity: Actividade dos moderadores
       admin: Menú de administración
-      banner: Xestionar banners
+      banner: Xestionar anuncios
       poll_questions: Preguntas
       proposals_topics: Temas das propostas
       budgets: Orzamentos participativos
