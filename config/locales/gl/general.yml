@@ -576,7 +576,7 @@ gl:
           notice_html: "Agora estás seguindo esta proposta cidadá! </br>Notificarémosche as mudanzas a medida que se produciren para que estes ao tanto."
         destroy:
           notice_html: "Deixaches de seguir esta proposta cidadá! </br> Xa non recibirás máis notificacións relacionadas coa proposta."
-    hide: Ocultar
+    hide: Agochar
     print:
       print_button: Imprimir esta información
     search: Buscar
