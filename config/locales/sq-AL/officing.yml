@@ -1,1 +1,21 @@
 sq:
+  officing:
+    header:
+      title: Votim
+    dashboard:
+      index:
+        title: Vlerësimi i sondazhit
+        info: "\nKëtu mund të verifikoni dokumentet e përdoruesit dhe të ruani rezultatet e votimit"
+        no_shifts: Ju nuk keni ndërrime zyrtare sot.
+    menu:
+      voters: Validoni dokumentin
+      total_recounts: Rinumerime dhe rezultate totale
+    polls:
+      final:
+        title: "\nSondazhet janë gati për rinumërim përfundimtar"
+        no_polls: Ju nuk po ofroni  rinumërim përfundimtar në çdo sondazh aktiv
+        select_poll: Zgjidh sondazhin
+        add_results: Shto rezultatet
+    results:
+      flash:
+        create: "\nRezultatet u ruajtën"
