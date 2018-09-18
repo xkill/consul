@@ -1,1 +1,17 @@
 sq:
+  flash:
+    actions:
+      create:
+        notice: "%{resource_name}krijuar me sukses."
+        debate: "Debati u krijua me sukses"
+        direct_message: "Mesazhi është dërguar me sukses."
+        poll: "Sondazhi u krijua me sukses"
+        poll_booth: "Kabina u krijua me sukses."
+        poll_question_answer: "Përgjigja është krijuar me sukses"
+        poll_question_answer_video: "VIdeo u krijua me sukses"
+        poll_question_answer_image: "Imazhi u ngarkua me sukses"
+        proposal: "Propozimi u krijua me sukses"
+        proposal_notification: "Mesazhi është dërguar me sukses."
+        spending_proposal: "\nPropozimi për shpenzime u krijua me sukses. Ju mund ta përdorni atë nga%{activity}"
+        budget_investment: "\nInvestimet Buxhetore janë krijuar me sukses."
+        signature_sheet: "Tabela e nënshkrimeve u krijua me sukses"
