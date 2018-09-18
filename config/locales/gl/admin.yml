@@ -37,9 +37,9 @@ gl:
           debates: Debates
           proposals: Propostas
           budgets: Orzamentos participativos
-          help_page: Páxina de inicio
+          help_page: Páxina de axuda
         background_color: Cor de fondo
-        font_color: Cor da fonte
+        font_color: Cor da letra
       edit:
         editing: Editar anuncio
         form:
