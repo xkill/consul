@@ -12,3 +12,29 @@ sq:
       show:
         alert:
           failure: Kodi i verifikimit është i pasaktë
+        flash:
+          success: Ju jeni një përdorues i verifikuar
+    letter:
+      alert:
+        unconfirmed_code: Ju nuk keni futur ende kodin e konfirmimit
+      create:
+        flash:
+          offices: Zyrat e suportit për qytetarët
+          success_html: Faleminderit që kërkuat<b>kodin maksimal të sigurisë (kërkohet vetëm për votat përfundimtare</b>.Pas disa ditësh ne do ta dërgojmë atë në adresën që shfaqet në të dhënat që kemi në dosje. Ju lutem mbani mend se, nëse preferoni, ju mund ta merni kodin tuaj nga ndonjë prej %{offices} 
+      edit:
+        see_all: Shiko propozimet
+      errors:
+        incorrect_code: Kodi i verifikimit është i pasaktë
+      new:
+        explanation: 'Për të marrë pjesë në votimin përfundimtar ju mund të:'
+        go_to_index: Shiko propozimet
+        office: Verifiko në çdo %{office}
+        offices: Zyrat e suportit për qytetarët
+        send_letter: Më dërgoni një letër me kodin
+        title: Urime!
+        user_permission_info: Me llogarinë tuaj ju mund të ...
+      update:
+        flash:
+          success: Kodi është i saktë. Llogaria juaj tani është verifikuar
+    redirect_notices:
+      already_verified: Llogaria juaj është verifikuar tashmë
