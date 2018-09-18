@@ -58,7 +58,22 @@ sq:
     map_zoom_description: "Zmadho për të treguar pozicionin e hartës"
     mailer_from_name: "Emri i dërguesit të emailit"
     mailer_from_name_description: "Ky emër do të shfaqet në emailet e dërguara nga aplikacioni"
+    mailer_from_address: "Adresa e emailit e dërguesit"
+    mailer_from_address_description: "Kjo adres emaili do të shfaqet në emailet e dërguara nga aplikacioni"
+    meta_title: "Titulli i faqes (SEO)"
+    meta_title_description: "Titulli per faqen<title>, përdoret për të përmirësuar SEO"
+    meta_description: "Përshkrimi i faqes (SEO)\n"
+    meta_description_description: 'Përshkrimi i faqes <meta name="description">, përdoret për të përmirësuar SEO'
+    meta_keywords: "\nFjalë kyçe (SEO)"
+    meta_keywords_description: "\nFjalë kyçe <meta name=\"keywords\">,përdoret për të përmirësuar SEO"
+    min_age_to_participate: Mosha minimale e nevojshme për të marrë pjesë
+    min_age_to_participate_description: "Përdoruesit e kësaj moshe mund të marrin pjesë në të gjitha proceset"
+    blog_url: "URL e blogut"
+    transparency_url: "\nURL e Transparencës"
+    opendata_url: "URL E Open Data"
+    verification_offices_url: URL e Zyrave te verifikimit
     feature:
+      budgets: "Buxhetet  pjesëmarrës"
       legislation: "Legjislacion"
       legislation_description: "Në proceset pjesëmarrëse, qytetarëve u ofrohet mundësia për të marrë pjesë në hartimin dhe modifikimin e rregulloreve që ndikojnë në qytet dhe për të dhënë mendimin e tyre për veprime të caktuara që planifikohen të kryhen"
       spending_proposals: "Shpenzimet e propozimeve"
