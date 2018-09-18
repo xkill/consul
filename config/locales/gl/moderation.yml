@@ -8,7 +8,7 @@ gl:
         filters:
           all: Todo
           pending_flag_review: Pendentes
-          with_ignored_flag: Marcado como visto
+          with_ignored_flag: Marcados como revisados
         headers:
           comment: Comentario
           moderate: Moderar
@@ -30,12 +30,12 @@ gl:
         filters:
           all: Todo
           pending_flag_review: Pendente
-          with_ignored_flag: Marcado como visto
+          with_ignored_flag: Marcados como revisados
         headers:
           debate: Debate
           moderate: Moderar
         hide_debates: Ocultar debates
-        ignore_flags: Marcar como revisadas
+        ignore_flags: Marcar como revisado
         order: Orde
         orders:
           created_at: Máis novos
@@ -56,7 +56,7 @@ gl:
         confirm: Queres continuar?
         filter: Filtro
         filters:
-          all: Todas
+          all: Todo
           pending_flag_review: Pendentes de revisión
           with_ignored_flag: Marcadas como revisadas
         headers:
@@ -77,7 +77,7 @@ gl:
         filters:
           all: Todo
           pending_flag_review: Pendente
-          with_ignored_flag: Marcado como visto
+          with_ignored_flag: Marcados como revisados
         headers:
           moderate: Moderar
           budget_investment: Investimento orzamentario
@@ -95,7 +95,7 @@ gl:
         filter: Filtro
         filters:
           all: Todo
-          pending_review: Revisión pendente
+          pending_review: Pendentes de revisión
           ignored: Marcado como visto
         headers:
           moderate: Moderar
