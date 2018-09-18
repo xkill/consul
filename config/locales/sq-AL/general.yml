@@ -295,3 +295,42 @@ sq:
       recommendations:
         without_results: Nuk ka propozime lidhur me interesat tuaja
         without_interests: Ndiqni propozimet kështu që ne mund t'ju japim rekomandime
+        disable: "Propozimet e rekomandimeve do të ndalojnë të tregojnë nëse i shkarkoni ato. Mund t'i aktivizosh përsëri në faqen 'Llogaria ime'"
+        actions:
+          success: "Rekomandimet për propozimet tani janë caktivizuar për këtë llogari"
+          error: "Nje gabim ka ndodhur. Ju lutemi të shkoni te faqja \"Llogaria juaj\" për të çaktivizuar manualisht rekomandimet për propozimet"
+      retired_proposals: Propozimet e vecuara
+      retired_proposals_link: "Propozimet e vecuara nga autori"
+      retired_links:
+        all: Të gjithë
+        duplicated: Dublikuar
+        started: Duke u zhvilluar
+        unfeasible: Parealizueshme
+        done: E bërë
+        other: Tjetër
+      search_form:
+        button: Kërko
+        placeholder: Kërko propozimet...
+        title: Kërko
+      search_results_html:
+        one: " që përmbajnë termin <strong>'%{search_term}'</strong>"
+        other: " që përmbajnë termin <strong>'%{search_term}'</strong>"
+      select_order: Renditur nga
+      select_order_long: 'Ju shikoni propozime sipas:'
+      start_proposal: Krijo propozim
+      title: Propozime
+      top_link_proposals: Propozimet më të mbështetura sipas kategorisë
+      section_header:
+        title: Propozime
+        help: Ndihmë në lidhje me propozimet
+      section_footer:
+        title: Ndihmë në lidhje me propozimet
+        description: Propozimet e qytetarëve janë një mundësi për fqinjët dhe kolektivët për të vendosur drejtpërdrejt se si ata duan që qyteti i tyre të jetë, pasi të ketë mbështetje të mjaftueshme dhe t'i nënshtrohet votimit të qytetarëve.
+    new:
+      form:
+        submit_button: Krijo propozim
+  polls:
+    index:
+      filters:
+        current: "Hapur"
+      title: "Sondazhet"
