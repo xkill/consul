@@ -8,12 +8,12 @@ gl:
         filters:
           all: Todo
           pending_flag_review: Pendentes
-          with_ignored_flag: Marcados como revisados
+          with_ignored_flag: Marcado como revisado
         headers:
           comment: Comentario
           moderate: Moderar
         hide_comments: Agochar comentarios
-        ignore_flags: Marcado como vistos
+        ignore_flags: Marcar como revisado
         order: Orde
         orders:
           flags: Máis denunciados
@@ -30,7 +30,7 @@ gl:
         filters:
           all: Todo
           pending_flag_review: Pendente
-          with_ignored_flag: Marcados como revisados
+          with_ignored_flag: Marcado como revisado
         headers:
           debate: Debate
           moderate: Moderar
@@ -58,12 +58,12 @@ gl:
         filters:
           all: Todo
           pending_flag_review: Pendentes de revisión
-          with_ignored_flag: Marcadas como revisadas
+          with_ignored_flag: Marcar como revisado
         headers:
           moderate: Moderar
           proposal: Proposta
         hide_proposals: Ocultar propostas
-        ignore_flags: Marcadas como revisadas
+        ignore_flags: Marcar como revisado
         order: Ordenar por
         orders:
           created_at: Máis recentes
@@ -77,12 +77,12 @@ gl:
         filters:
           all: Todo
           pending_flag_review: Pendente
-          with_ignored_flag: Marcados como revisados
+          with_ignored_flag: Marcado como revisado
         headers:
           moderate: Moderar
           budget_investment: Investimento orzamentario
         hide_budget_investments: Agochar investimentos orzamentarios
-        ignore_flags: Marcado como visto
+        ignore_flags: Marcar como revisado
         order: Ordeado por
         orders:
           created_at: Máis recente
@@ -96,12 +96,12 @@ gl:
         filters:
           all: Todo
           pending_review: Pendentes de revisión
-          ignored: Marcado como visto
+          ignored: Marcar como revisado
         headers:
           moderate: Moderar
           proposal_notification: Notificación de proposta
         hide_proposal_notifications: Agochar propostas
-        ignore_flags: Marcado como visto
+        ignore_flags: Marcar como revisado
         order: Ordeado por
         orders:
           created_at: Máis recente
