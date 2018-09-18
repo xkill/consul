@@ -191,3 +191,9 @@ sq:
       geozone: Fusha e veprimit
       proposal_external_url: Lidhje me dokumentacionin shtesë
       proposal_question: Pyetje për propozim
+      proposal_question_example_html: "Duhet të përmblidhet në një pyetje me një përgjigje Po ose Jo"
+      proposal_responsible_name: Emri i plotë i personit që dorëzon propozimin
+      proposal_responsible_name_note: "(individualisht ose si përfaqësues i një kolektivi, nuk do të shfaqet publikisht)"
+      proposal_summary: Përmbledhje e propozimit
+      proposal_summary_note: "(maksimumi 200 karaktere)"
+      proposal_title: Titulli i Propozimit
