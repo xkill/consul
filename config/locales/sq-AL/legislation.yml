@@ -106,3 +106,18 @@ sq:
         title: Procesi i Legjislacionit bashkëpunues
       participation:
         phase_not_open: Kjo fazë nuk është e hapur
+        organizations: Organizatat nuk lejohen të marrin pjesë në debat
+        signin: Kycu
+        signup: Rregjistrohu
+        unauthenticated: Ju duhet %{signin} ose %{signup} për të marë pjesë .
+        verified_only: Vetëm përdoruesit e verifikuar mund të marin pjesë; %{verify_account}.
+        verify_account: verifikoni llogarinë tuaj
+        debate_phase_not_open: "\nFaza e debatit ka përfunduar dhe përgjigjet nuk pranohen më"
+    shared:
+      share: Shpërndaj
+      share_comment: Komento mbi %{version_name} nga drafti i procesit%{process_name}
+    proposals:
+      form:
+        tags_label: "Kategoritë"
+      not_verified: "Për propozimet e votimit %{verify_account}"
+      closed: "\nKy proces është mbyllur dhe nuk mund të marrë vota."
