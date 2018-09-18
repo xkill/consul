@@ -59,6 +59,11 @@ sq:
     form:
       comment_as_admin: Komentoni si admin
       comment_as_moderator: Komentoni si moderator
+      leave_comment: Lëreni komentin tuaj
+    orders:
+      most_voted: Më të votuarat
+      newest: Më e reja në fillim
+      oldest: Më i vjetri në fillim
   debates:
     index:
       section_footer:
