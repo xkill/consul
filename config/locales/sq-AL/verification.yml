@@ -38,3 +38,19 @@ sq:
           success: Kodi është i saktë. Llogaria juaj tani është verifikuar
     redirect_notices:
       already_verified: Llogaria juaj është verifikuar tashmë
+      email_already_sent: Ne tashmë kemi dërguar një email me një lidhje konfirmimi. Nëse nuk mund ta gjeni emailin, mund të kërkoni një ridërgim këtu
+    residence:
+      alert:
+        unconfirmed_residency: Nuk e keni konfirmuar ende qëndrimin tuaj
+      new:
+        accept_terms_text: Unë pranoj %{terms_url} e regjistrimit
+        accept_terms_text_title: Unë pranoj afatet dhe kushtet e qasjes së regjistrimit
+        date_of_birth: Ditëlindja
+        document_number: Numri i dokumentit
+        document_number_help_title: Ndihmë
+        document_number_help_text_html: '<strong>Dni</strong>: 12345678A<br><strong>Pashaport</strong>: AAA000001<br><strong>Residence card</strong>: X1234567P'
+        document_type:
+          passport: Pashaport
+        document_type_label: Tipi i dokumentit
+        error_not_allowed_age: Ju nuk keni moshën e kërkuar për të marrë pjesë
+        error_not_allowed_postal_code: Që të verifikoheni, duhet të jeni i regjistruar.
