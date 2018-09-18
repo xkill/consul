@@ -34,7 +34,7 @@ gl:
         headers:
           debate: Debate
           moderate: Moderar
-        hide_debates: Ocultar debates
+        hide_debates: Agochar debates
         ignore_flags: Marcar como revisado
         order: Orde
         orders:
@@ -62,7 +62,7 @@ gl:
         headers:
           moderate: Moderar
           proposal: Proposta
-        hide_proposals: Ocultar propostas
+        hide_proposals: Agochar propostas
         ignore_flags: Marcar como revisado
         order: Ordenar por
         orders:
