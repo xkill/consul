@@ -39,3 +39,8 @@ sq:
     place_name_description: "Emri i qytetit tuaj"
     related_content_score_threshold: "Pragu i vlerësimit të përmbajtjes përkatëse"
     related_content_score_threshold_description: "Fsheh përmbajtjen që përdoruesit e shënojnë si të palidhur"
+    feature:
+      legislation: "Legjislacion"
+      legislation_description: "Në proceset pjesëmarrëse, qytetarëve u ofrohet mundësia për të marrë pjesë në hartimin dhe modifikimin e rregulloreve që ndikojnë në qytet dhe për të dhënë mendimin e tyre për veprime të caktuara që planifikohen të kryhen"
+      spending_proposals: "Shpenzimet e propozimeve"
+      spending_proposals_description: "Shënim: Ky funksionalitet është zëvendësuar nga Buxheti pjesmarrës dhe do të zhduket në versione të reja"
