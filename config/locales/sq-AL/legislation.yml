@@ -1,1 +1,54 @@
 sq:
+  legislation:
+    annotations:
+      comments:
+        see_all: Shiko të gjitha
+        see_complete: "\nShih të plotë"
+        comments_count:
+          one: "%{count} komente"
+          other: "%{count} komente"
+        replies_count:
+          one: "%{count} përgjigje"
+          other: "%{count} përgjigje"
+        cancel: Anullo
+        publish_comment: Publiko komentin
+      form:
+        phase_not_open: Kjo fazë nuk është e hapur
+        login_to_comment: Ju duhet %{signin} ose %{signup} për të lënë koment.
+        signin: Kycu
+        signup: Rregjistrohu
+      index:
+        title: Komente
+        comments_about: "\nKomentet rreth"
+        see_in_context: Shiko në kontekst
+        comments_count:
+          one: "%{count} komente"
+          other: "%{count} komente"
+      show:
+        title: Koment
+      version_chooser:
+        seeing_version: Komente për versionin
+        see_text: Shiko draftin e tekstit
+    draft_versions:
+      changes:
+        title: Ndryshimet
+        seeing_changelog_version: Përmbledhje e ndryshimeve të rishikimit
+        see_text: Shiko draftin e tekstit
+      show:
+        loading_comments: Duke ngarkuar komentet
+        seeing_version: "\nJu po shihni  versionin draft"
+        select_draft_version: Zgjidh draftin
+        select_version_submit: Shiko
+        updated_at: përditësuar në %{date}
+        see_changes: "\nshih përmbledhjen e ndryshimeve"
+        see_comments: Shiko të gjitha komentet
+        text_toc: "\nTabela e përmbajtjes"
+        text_body: Tekst
+        text_comments: Komente
+    processes:
+      header:
+        additional_info: "\nInformacion shtese"
+        description: Përshkrimi
+        more_info: Më shumë informacion dhe kontekst
+      proposals:
+        empty_proposals: Nuk ka rezultat
