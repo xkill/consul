@@ -480,7 +480,7 @@ pl:
       title_label: "Tytuł"
       body_label: "Wiadomość"
       submit_button: "Wyślij wiadomość"
-      info_about_receivers_html: "Ta wiadomość zostanie wysłana do <strong>%{count} osób </strong> i będzie widoczna w %{proposal_page}. <br> Wiadomość nie zostanie wysłana natychmiast, użytkownicy będą otrzymywać okresowo e-mail ze wszystkimi powiadomieniami dotyczącymi propozycji."
+      info_about_receivers_html: "Ta wiadomość zostanie wysłana do <strong>%{count} osób</strong> i będzie widoczna w %{proposal_page}.<br> Wiadomość nie zostanie wysłana natychmiast, użytkownicy będą otrzymywać okresowo e-mail ze wszystkimi powiadomieniami dotyczącymi propozycji."
       proposal_page: "strona wniosku"
     show:
       back: "Wróć do mojej aktywności"
@@ -589,7 +589,7 @@ pl:
     blog: "%{org} Blog"
     facebook: "%{org} Facebook"
     twitter: "%{org} Twitter"
-    youtube: "%{org} Youtube"
+    youtube: "%{org} YouTube"
     whatsapp: WhatsApp
     telegram: "%{org} Telegram"
     instagram: "%{org} Instagram"
