@@ -598,3 +598,40 @@ pl:
         heading: "Projekt inwestycyjny %{id}"
         edit: Edytuj
         edit_classification: Edytuj klasyfikację
+    signature_sheets:
+      new:
+        title: Nowe arkusze podpisów
+        document_numbers_note: "Napisz liczby oddzielone przecinkami (,)"
+        submit: Utwórz arkusz podpisu
+      show:
+        created_at: Stworzony
+        author: Autor
+        documents: Dokumenty
+        document_count: "Liczba dokumentów:"
+        unverified_error: (Nie zweryfikowany przez Census)
+        loading: "Nadal istnieją podpisy, które są weryfikowane przez Census, proszę odświeżyć stronę za kilka chwil"
+    stats:
+      show:
+        stats_title: Statystyki
+        summary:
+          comment_votes: Komentuj głosy
+          comments: Komentarze
+          debate_votes: Głosy debat
+          debates: Debaty
+          proposal_votes: Głosy wniosku
+          proposals: Wnioski
+          budgets: Otwarte budżety
+          budget_investments: Projekty inwestycyjne
+          spending_proposals: Wnioski wydatkowe
+          unverified_users: Niezweryfikowani użytkownicy
+          user_level_three: Użytkownicy trzeciego poziomu
+          user_level_two: Użytkownicy drugiego poziomu
+          users: Wszystkich użytkowników
+          verified_users: Zweryfikowani użytkownicy
+          verified_users_who_didnt_vote_proposals: Zweryfikowani użytkownicy, którzy nie głosowali na wnioski
+          visits: Odwiedziny
+          votes: Liczba głosów
+        spending_proposals_title: Wnioski wydatkowe
+        budgets_title: Budżetowanie Partycypacyjne
+        visits_title: Odwiedziny
+        direct_messages: Bezpośrednie wiadomości
