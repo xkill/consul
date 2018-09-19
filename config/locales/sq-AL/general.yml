@@ -207,6 +207,27 @@ sq:
       contact_us: Për ndihmë teknike hyni në
       copyright: Tiranë, %{year}
       description: Ky portal përdor %{consul} i cili është %{open_source}.
+      open_source: programet open-source
+      open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
+      participation_text: Vendosni se si të formoni qytetin në të cilin dëshironi të jetoni.
+      participation_title: Pjesëmarrje
+      privacy: Politika e privatësisë
+    header:
+      administration_menu: Admin
+      administration: Administrim
+      available_locales: Gjuhët në dispozicion
+      collaborative_legislation: Proceset e legjislacionit
+      debates: Debate
+      external_link_blog: Blog
+      locale: 'Gjuha:'
+      logo: Logoja
+      management: Drejtuesit
+      moderation: Moderim
+      valuation: Vlerësim
+      help: Ndihmë
+      my_account_link: Llogaria ime
+      my_activity_link: Aktivitetet e mia
+      open: hapur
   notifications:
     index:
       unread: Palexuar
