@@ -1,3 +1,17 @@
 sq:
   mailers:
     no_reply: "Ky mesazh u dërgua nga një adresë e-mail që nuk pranon përgjigje."
+    comment:
+      hi: Hi
+      new_comment_by_html: Ka një koment të ri nga<b>%{commenter}</b>
+      subject: Dikush ka komentuar mbi %{commentable} tuaj
+      title: Komenti i ri
+    config:
+      manage_email_subscriptions: Për të ndaluar marrjen e këtyre emaileve, ndryshoni opsionet tuaja në
+    email_verification:
+      click_here_to_verify: kjo lidhje
+      instructions_2_html: Ky email do të verifikojë llogarinë tuaj me <b>%{document_type}%{document_number}. Nëse këto nuk ju përkasin juve, mos klikoni në lidhjen e mëparshme dhe injorojeni këtë email.
+      instructions_html: Për të përfunduar verifikimin e llogarisë suaj të përdoruesit ju duhet të klikoni %{verification_link}
+      subject: Konfirmo emailin tënd
+      thanks: "Shumë Faleminderit \n"
+      title: Konfirmo llogarinë tënd duke përdorur lidhjen e mëposhtme
