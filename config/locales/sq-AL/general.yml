@@ -401,6 +401,13 @@ sq:
       retired: Propozimi ka mbaruar
     proposal:
       created: "Ju keni krijuar një propozim!"
+      share:
+        guide: "Tani mund ta shpërndani atë në mënyrë që njerëzit të fillojnë mbështetjen."
+        edit: "Para se të shpërndahet, do të jeni në gjendje ta ndryshoni tekstin si ju pëlqen."
+        view_proposal: Jo tani, shko tek propozimi im
+      improve_info: "Përmirësoni fushatën tuaj dhe merrni më shumë mbështetje"
+      improve_info_link: "Shiko më shumë informacion"
+      already_supported: Ju e keni mbështetur tashmë këtë propozim. Shperndaje!
       comments:
         zero: Nuk ka komente
         one: 1 koment
@@ -415,7 +422,10 @@ sq:
         zero: Asnjë votë
         one: 1 Votë
         other: "%{count} Vota"
+      supports_necessary: "%{number} mbështetje nevojiten"
       total_percent: 100%
+      archived: "Ky propozim është arkivuar dhe nuk mund të mbledhë mbështetje. "
+      successful: "Ky propozim ka arritur mbështetjen e kërkuar."
     show:
       author_deleted: Përdoruesi u fshi
       code: 'Kodi Propozimit'
@@ -428,21 +438,39 @@ sq:
       flag: Ky propozim është shënuar si i papërshtatshëm nga disa përdorues.
       login_to_comment: Ju duhet %{signin} ose %{signup} për të lënë koment.
       notifications_tab: Njoftime
+      retired_warning: "Autori  konsideron që ky propozim nuk duhet të marrë më shumë mbështetje."
+      retired_warning_link_to_explanation: Lexoni shpjegimin para se të votoni për të.
       retired: Propozimet e vecuara nga autori
       share: Shpërndaj
       send_notification: Dërgo njoftimin
       no_notifications: "Ky propozim ka  njoftime."
       embed_video_title: "Video në %{proposal}"
+      title_external_url: "Dokumentacion shtesë"
+      title_video_url: "Video e jashtme"
       author: Autor
     update:
       form:
         submit_button: Ruaj ndryshimet
   polls:
     all: "Të gjithë"
+    no_dates: "Asnjë datë e caktuar"
+    dates: "Nga %{open_at} tek %{closed_at}"
+    final_date: "Raportet përfundimtare / rezultatet"
     index:
       filters:
         current: "Hapur"
+        incoming: "Hyrës"
+        expired: "Ka skaduar"
       title: "Sondazhet"
+      participate_button: "Merrni pjesë në këtë sondazh"
+      participate_button_incoming: "Më shumë informacion"
+      participate_button_expired: "Sondazhi përfundoi"
+      no_geozone_restricted: "I gjithë qyteti"
+      geozone_restricted: "Zonë"
+      geozone_info: "Mund të marrin pjesë personat në regjistrimin e:"
+      already_answer: "\nKe marrë pjesë tashmë në këtë sondazh"
       not_logged_in: "Duhet të identifikohesh ose të regjistrohesh për të marrë pjesë"
       unverified: "Ju duhet të verifikoni llogarinë tuaj për të marrë pjesë"
       cant_answer: "Ky sondazh nuk është i disponueshëm në gjeozonën tuaj"
+      section_header:
+        icon_alt: Ikona e votimit
