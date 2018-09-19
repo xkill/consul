@@ -1013,6 +1013,14 @@ zh-CN:
         placeholder: 搜索投票项问题
       proposal_search:
         button: 搜索
+        placeholder: 按标题，代码，描述或问题搜索提议
+      spending_proposal_search:
+        button: 搜索
+        placeholder: 按标题或描述搜索支出提议
+      user_search:
+        button: 搜索
+        placeholder: 按名字或电子邮件搜索用户
+      search_results: "搜索结果"
       moderated_content: "检查审核员审核过的内容，并确认审核是否已正确完成。"
     spending_proposals:
       index:
