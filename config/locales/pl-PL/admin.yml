@@ -635,3 +635,36 @@ pl:
         budgets_title: Budżetowanie Partycypacyjne
         visits_title: Odwiedziny
         direct_messages: Bezpośrednie wiadomości
+        proposal_notifications: Powiadomienie o wnioskach
+        incomplete_verifications: Niekompletne weryfikacje
+        polls: Ankiety
+      direct_messages:
+        title: Bezpośrednie wiadomości
+        total: Łącznie
+        users_who_have_sent_message: Użytkownicy, którzy wysłali prywatną wiadomość
+      proposal_notifications:
+        title: Powiadomienie o wnioskach
+        total: Łącznie
+        proposals_with_notifications: Wnioski z powiadomieniami
+      polls:
+        title: Statystyki ankiet
+        all: Ankiety
+        web_participants: Uczestnicy sieci
+        total_participants: Wszystkich uczestników
+        poll_questions: "Pytania z ankiety: %{poll}"
+        table:
+          poll_name: Ankieta
+          question_name: Pytanie
+          origin_web: Uczestnicy sieci
+    site_customization:
+      pages:
+        create:
+          notice: Strona utworzona pomyślnie
+          error: Nie można utworzyć strony
+        update:
+          notice: Strona pomyślnie zaktualizowana
+          error: Nie można zaktualizować strony
+        destroy:
+          notice: Strona została pomyślnie usunięta
+        edit:
+          title: Edytowanie %{page_title}
