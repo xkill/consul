@@ -1154,10 +1154,23 @@ zh-CN:
       geozone:
         name: 名字
         external_code: 外部代码
+        census_code: 人口普查代码
+        coordinates: 协调
       errors:
         form:
           error:
             other: '阻止这个地理区域被保存的错误'
+      edit:
+        form:
+          submit_button: 保存更改
+        editing: 正在编辑地理区域
+        back: 返回
+      new:
+        back: 返回
+        creating: 创建区
+      delete:
+        success: 地理区域已成功删除
+        error: 此地理区域无法删除，因为它附加了元素
     signature_sheets:
       new:
         document_numbers_note: "写下数字，用逗号 (,) 分割"
@@ -1282,6 +1295,11 @@ zh-CN:
           locale: 语言
     homepage:
       title: 主页
+      description: 有效模块以与此处相同的顺序显示在主页中。
+      header_title: 页眉
+      no_header: 没有页眉。
+      create_header: 创建页眉
+      cards_title: 卡
       create_card: 创建卡
       no_cards: 没有卡。
       cards:
