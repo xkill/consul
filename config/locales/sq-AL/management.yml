@@ -110,6 +110,20 @@ sq:
       search_results:
         one: "që përmbajnë termin %{search_term}"
         other: "që përmbajnë termin %{search_term}"
+    spending_proposals:
+      alert:
+        unverified_user: Përdoruesi nuk është verifikuar
+      create: Krijo propozimin e shpenzimeve
+      filters:
+        unfeasible: Projektet investuese të papërshtatshme 
+        by_geozone: "Projektet e investimeve me qëllim: %{geozone}"
+      print:
+        print_button: Printo
+      search_results:
+        one: "që përmbajnë termin %{search_term}"
+        other: "që përmbajnë termin %{search_term}"
+    sessions:
+      signed_out: U c'kycët me sukses.
     users:
       erased_notice: Llogaria e përdoruesit u fshi.
       erased_by_manager: "E fshirë nga menaxheri: %{manager}"
