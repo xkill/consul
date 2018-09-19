@@ -224,12 +224,38 @@ sq:
       management: Drejtuesit
       moderation: Moderim
       valuation: Vlerësim
+      officing: Oficerët e votimit
       help: Ndihmë
       my_account_link: Llogaria ime
       my_activity_link: Aktivitetet e mia
       open: hapur
+      open_gov: Qeveri e hapur
+      proposals: Propozime
+      poll_questions: votim
+      budgets: Buxhetet  pjesëmarrës
+      spending_proposals: Propozimet e shpenzimeve
+      notification_item:
+        new_notifications:
+          one: Ju keni një njoftim të ri
+          other: Ju keni %{count} njoftim të reja
+        notifications: Njoftime
+        no_notifications: "Ju nuk keni njoftime të reja"
+    admin:
+      watch_form_message: 'Ju keni ndryshime të paruajtura. A konfirmoni të dilni nga faqja?'
+  legacy_legislation:
+    help:
+      alt: Zgjidhni tekstin që dëshironi të komentoni dhe shtypni butonin me laps.
+      text: Për të komentuar këtë dokument duhet të %{sign_in} ose %{sign_up}. Pastaj zgjidhni tekstin që dëshironi të komentoni dhe shtypni butonin me laps.
+      text_sign_in: Kycu
+      text_sign_up: Rregjistrohu
+      title: Si mund ta komentoj këtë dokument?
+  locale: Anglisht
   notifications:
     index:
+      empty_notifications: Ju nuk keni njoftime të reja
+      mark_all_as_read: Shëno të gjitha si të lexuara
+      read: Lexo
+      title: Njoftime
       unread: Palexuar
     notification:
       action:
@@ -353,8 +379,10 @@ sq:
       select_order_long: 'Ju shikoni propozime sipas:'
       start_proposal: Krijo propozim
       title: Propozime
+      top: Top javore
       top_link_proposals: Propozimet më të mbështetura sipas kategorisë
       section_header:
+        icon_alt: Ikona propozimeve
         title: Propozime
         help: Ndihmë në lidhje me propozimet
       section_footer:
@@ -363,6 +391,10 @@ sq:
     new:
       form:
         submit_button: Krijo propozim
+      more_info: Si funksionojnë propozimet e qytetarëve?
+      recommendation_one: Mos përdorni gërma të mëdha për titullin e propozimit ose për fjali të plota. Në internet, kjo konsiderohet ofenduese. Dhe askush nuk i pëlqen ofendimet
+      recommendation_three: Gëzoni këtë hapësirë dhe zërat që e mbushin atë. Ajo ju takon edhe juve.
+      start_new: krijoni propozim të ri
   polls:
     index:
       filters:
