@@ -10,6 +10,12 @@ pl:
         title: Konto użytkownika
       edit:
         title: 'Edytuj konto użytkownika: Zresetuj hasło'
+        password:
+          reseted: Hasło pomyślnie zresetowano
+          random: Wygeneruj losowe hasło
+          save: Zapisz hasło
+          print: Wydrukuj hasło
+          print_help: Będziesz mógł wydrukować hasło po zapisaniu.
     menu:
       support_budget_investments: Wspieraj inwestycje budżetowe
       users: Zarządzanie użytkownikami
