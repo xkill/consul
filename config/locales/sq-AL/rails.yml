@@ -85,6 +85,54 @@ sq:
       x_months:
         one: 1 muaj
         other: "%{count} muaj"
+      x_years:
+        one: 1 vit
+        other: "%{count} vite"
+      x_seconds:
+        one: 1 sekond
+        other: "%{count} sekonda"
+    prompts:
+      day: DItë
+      hour: Orë
+      minute: MInutë
+      month: Muaj
+      second: Sekonda
+      year: vit
+  errors:
+    format: "%{attribute}%{message}"
+    messages:
+      accepted: duhet të pranohen
+      blank: "\nnuk mund të jetë bosh"
+      present: "\n mund të jetë bosh"
+      confirmation: nuk përputhet %{attribute}
+      empty: nuk mund të jetë bosh
+      equal_to: duhet të jetë e barabartë me %{count}
+      even: duhet të jetë madje
+      exclusion: është e rezervuar
+      greater_than: duhet të jetë më i madh se %{count}
+      greater_than_or_equal_to: duhet të jetë më i madh se  ose i barabartë  me %{count}
+      inclusion: nuk është përfshirë në listë
+      invalid: "\nështë i pavlefshëm"
+      less_than: duhet të jetë më i vogel se %{count}
+      less_than_or_equal_to: etiketat duhet të jenë më pak ose të barabartë me%{count}
+      model_invalid: "Vlefshmëria dështoi: %{errors}"
+      not_a_number: nuk është një numër
+      not_an_integer: "\nduhet të jetë një numër i plotë"
+      odd: duhet të jetë i rastësishëm
+      required: "\nduhet të ekzistojë"
+      taken: është marrë tashmë
+      too_long:
+        one: "\nështë shumë e gjatë (maksimumi është 1 karakter)"
+        other: "\nështë shumë e gjatë (maksimumi është %{count} karaktere)"
+      too_short:
+        one: është shumë e shkurtër (minimumi është 1 karakter)
+        other: është shumë e shkurtër (minimumi është %{count} karaktere)
+      wrong_length:
+        one: "është gjatësia e gabuar (duhet të jetë 1 karakter)\n"
+        other: "është gjatësia e gabuar (duhet të jetë %{count} karaktere)\n"
+      other_than: "\nduhet të jetë ndryshe nga %{count}"
+    template:
+      body: 'Kishte probleme me fushat e mëposhtme:'
   number:
     format:
       precision: 3
