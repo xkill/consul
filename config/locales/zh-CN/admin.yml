@@ -1105,7 +1105,25 @@ zh-CN:
         title: 参与性预算的投资项目
         assigned_admin: 指定的管理员
         no_admin_assigned: 没有指定管理员
+        no_valuators_assigned: 没有指定的评估员
+        summary_link: "投资项目总结"
+        valuator_summary_link: "评估员总结"
+        feasibility:
+          feasible: "可行 (%{price})"
+          not_feasible: "不可行"
+          undefined: "未定义"
       show:
+        assigned_admin: 指定的管理员
+        assigned_valuators: 指定的评估员
+        back: 返回
+        classification: 分类
+        heading: "投资项目%{id}"
+        edit: 编辑
+        edit_classification: 编辑分类
+        association_name: 协会
+        by: 由
+        sent: 已发送
+        geozone: 范围
         dossier: 档案
         edit_dossier: 编辑档案
         tags: 标签
@@ -1135,6 +1153,7 @@ zh-CN:
         delete: 删除
       geozone:
         name: 名字
+        external_code: 外部代码
       errors:
         form:
           error:
@@ -1220,7 +1239,49 @@ zh-CN:
         no_blocks: "没有内容块。"
         create:
           notice: 内容块已成功创建
+      images:
+        index:
+          delete: 删除
+          image: 图像
+        update:
+          notice: 图像已成功更新
+          error: 图像无法被更新
+        destroy:
+          notice: 图像成功删除
+          error: 图像无法被删除
+      pages:
+        create:
+          notice: 页面成功创建
+          error: 页面无法被创建
+        update:
+          notice: 页面成功更新
+          error: 页面无法被更新
+        destroy:
+          notice: 页面成功删除
+        edit:
+          title: 正在编辑%{page_title}
+        errors:
+          form:
+            error: 错误
+        form:
+          options: 选项
+        index:
+          create: 创建新页面
+          delete: 删除页面
+          title: 自定义页面
+          see_page: 参阅页面
+        new:
+          title: 创建新的自定义页面
+        page:
+          created_at: 创建于
+          status: 状态
+          title: 标题
+          updated_at: 更新于
+          status_draft: 起草
+          status_published: 已发表
+          locale: 语言
     homepage:
+      title: 主页
       create_card: 创建卡
       no_cards: 没有卡。
       cards:
