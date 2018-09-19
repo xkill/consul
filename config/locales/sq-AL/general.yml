@@ -394,8 +394,51 @@ sq:
       more_info: Si funksionojnë propozimet e qytetarëve?
       recommendation_one: Mos përdorni gërma të mëdha për titullin e propozimit ose për fjali të plota. Në internet, kjo konsiderohet ofenduese. Dhe askush nuk i pëlqen ofendimet
       recommendation_three: Gëzoni këtë hapësirë dhe zërat që e mbushin atë. Ajo ju takon edhe juve.
+      recommendation_two: Çdo propozim ose koment që sugjeron veprime të paligjshme do të fshihet, si dhe ata që synojnë të sabotojnë hapsirat e debatit. Çdo gjë tjetër lejohet.
+      recommendations_title: Rekomandime për krijimin e një propozimi
       start_new: krijoni propozim të ri
+    notice:
+      retired: Propozimi ka mbaruar
+    proposal:
+      created: "Ju keni krijuar një propozim!"
+      comments:
+        zero: Nuk ka komente
+        one: 1 koment
+        other: "%{count} komente"
+      support: Suporti
+      support_title: Mbështetni këtë projekt
+      supports:
+        zero: Asnjë mbështetje
+        one: 1  mbështetje
+        other: "1%{count} mbështetje"
+      votes:
+        zero: Asnjë votë
+        one: 1 Votë
+        other: "%{count} Vota"
+      total_percent: 100%
+    show:
+      author_deleted: Përdoruesi u fshi
+      code: 'Kodi Propozimit'
+      comments:
+        zero: Nuk ka komente
+        one: 1 koment
+        other: "%{count} komente"
+      comments_tab: Komente
+      edit_proposal_link: Ndrysho
+      flag: Ky propozim është shënuar si i papërshtatshëm nga disa përdorues.
+      login_to_comment: Ju duhet %{signin} ose %{signup} për të lënë koment.
+      notifications_tab: Njoftime
+      retired: Propozimet e vecuara nga autori
+      share: Shpërndaj
+      send_notification: Dërgo njoftimin
+      no_notifications: "Ky propozim ka  njoftime."
+      embed_video_title: "Video në %{proposal}"
+      author: Autor
+    update:
+      form:
+        submit_button: Ruaj ndryshimet
   polls:
+    all: "Të gjithë"
     index:
       filters:
         current: "Hapur"
