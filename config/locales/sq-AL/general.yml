@@ -474,3 +474,61 @@ sq:
       cant_answer: "Ky sondazh nuk është i disponueshëm në gjeozonën tuaj"
       section_header:
         icon_alt: Ikona e votimit
+        title: votim
+        help: Ndihmë për votimin
+      section_footer:
+        title: Ndihmë për votimin
+        description: Sondazhet e qytetarëve janë një mekanizëm pjesëmarrës përmes të cilit qytetarët me të drejtë vote mund të marrin vendime të drejtpërdrejta
+      no_polls: "Nuk ka votime të hapura"
+    show:
+      already_voted_in_booth: "Ju keni marrë pjesë tashmë në një kabinë fizike. Nuk mund të marrësh pjesë përsëri."
+      already_voted_in_web: "Ju keni marrë pjesë tashmë në këtë sondazh. Nëse votoni përsëri ajo do të mbishkruhet."
+      back: Kthehu tek votimi
+      cant_answer_not_logged_in: "Ju duhet %{signin} ose %{signup} për të marë pjesë ."
+      comments_tab: Komente
+      login_to_comment: Ju duhet %{signin} ose %{signup} për të lënë koment.
+      signin: Kycu
+      signup: Rregjistrohu
+      cant_answer_verify_html: "Ju duhet të %{verify_link}për t'u përgjigjur."
+      verify_link: "verifikoni llogarinë tuaj"
+      cant_answer_incoming: "Ky sondazh ende nuk ka filluar."
+      cant_answer_expired: "Ky sondazh ka përfunduar."
+      cant_answer_wrong_geozone: "Kjo pyetje nuk është e disponueshme në gjeozonën tuaj"
+      more_info_title: "Më shumë informacion"
+      documents: Dokumentet
+      zoom_plus: Zgjero imazhin
+      read_more: "Lexoni më shumë rreth %{answer}"
+      read_less: "Lexoni më pak rreth%{answer}"
+      videos: "Video e jashtme"
+  shared:
+    check: Zgjidh
+    check_all: Të gjithë
+    check_none: Asnjë
+    collective: Kolektiv
+    flag: Shënjo si e papërshtatshme
+    follow: "Ndiq"
+    following: "Duke ndjekur"
+    follow_entity: "Ndiq %{entity}"
+    followable:
+      budget_investment:
+        create:
+          notice_html: "Tani po e ndiqni këtë projekt investimi! </br> Ne do t'ju njoftojmë për ndryshimet që ndodhin në mënyrë që ju të jeni i azhornuar."
+        destroy:
+          notice_html: "Ti nuk e ndjek më projekt investimi! </br> Ju nuk do të merrni më njoftime lidhur me këtë projekt."
+      proposal:
+        create:
+          notice_html: "Tani ju po  ndiqni këtë projekt investimi! </br> Ne do t'ju njoftojmë për ndryshimet që ndodhin në mënyrë që ju të jeni i azhornuar."
+        destroy:
+          notice_html: "Ti nuk e ndjek më këtë propozim qytetar! </br> Ju nuk do të merrni më njoftime lidhur me këtë projekt."
+    hide: Fshih
+    print:
+      print_button: Printoni këtë informacion
+    search: Kërko
+    show: Shfaq
+    suggest:
+      debate:
+        found:
+          one: "Ka një debat me termin '%{query}', mund të merrni pjesë në të, në vend që të hapni një të re."
+          other: "Ka një debat me termin '%{query}', mund të merrni pjesë në të, në vend që të hapni një të re."
+        message: "Po shihni %{limit} të %{count} debateve që përmbajnë termin '%{query}'"
+        see_all: "Shiko të gjitha"
