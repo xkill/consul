@@ -1021,10 +1021,34 @@ zh-CN:
         button: 搜索
         placeholder: 按名字或电子邮件搜索用户
       search_results: "搜索结果"
+      no_search_results: "未找到结果。"
+      actions: 行动
+      title: 标题
+      description: 描述
+      image: 图像
+      show_image: 显示图像
       moderated_content: "检查审核员审核过的内容，并确认审核是否已正确完成。"
+      view: 查看
+      proposal: 提议
+      author: 作者
+      content: 内容
+      created_at: 创建于
     spending_proposals:
       index:
+        geozone_filter_all: 所有区域
+        administrator_filter_all: 所有管理员
+        valuator_filter_all: 所有评估员
+        tags_filter_all: 所有标签
+        filters:
+          valuation_open: 打开
+          without_admin: 没有指定的管理员
+          managed: 管理
+          valuating: 评估中
+          valuation_finished: 评估已完成
+          all: 所有
         title: 参与性预算的投资项目
+        assigned_admin: 指定的管理员
+        no_admin_assigned: 没有指定管理员
       show:
         dossier: 档案
         edit_dossier: 编辑档案
@@ -1067,17 +1091,82 @@ zh-CN:
     stats:
       show:
         summary:
+          budget_investments: 投资项目
+          spending_proposals: 支出提议
+          unverified_users: 未验证的用户
+          user_level_three: 三级用户
+          user_level_two: 二级用户
+          users: 总用户
+          verified_users: 已验证的用户
           verified_users_who_didnt_vote_proposals: 没有投票提议的已验证用户
+          visits: 访问
+          votes: 总投票数
+        spending_proposals_title: 支出提议
+        budgets_title: 参与性预算
+        visits_title: 访问
+        direct_messages: 直接信息
+        proposal_notifications: 提议通知
+        incomplete_verifications: 不完全验证
+        polls: 投票
       direct_messages:
+        title: 直接信息
+        total: 总计
         users_who_have_sent_message: 已经发送私人信息的用户
+      proposal_notifications:
+        title: 提议通知
+        total: 总计
+        proposals_with_notifications: 有通知的提议
+      polls:
+        title: 投票统计
+        all: 投票
+        web_participants: 网络参与者
+        total_participants: 总参与人数
+        poll_questions: "投票中的问题：%{poll}"
+        table:
+          poll_name: 投票
+          question_name: 问题
+          origin_web: 网络参与者
+          origin_total: 总参与人数
     tags:
+      create: 创建主题
+      destroy: 销毁主题
       index:
+        add_tag: 添加新的提议主题
+        title: 提议主题
+        topic: 主题
         help: "当用户创建提议，建议使用以下主题作为默认标签。"
+      name:
+        placeholder: 输入主题名字
     users:
+      columns:
+        name: 名字
+        email: 电子邮件
+        document_number: 文档编号
+        roles: 角色
+        verification_level: 验证级别
+      index:
+        title: 用户
+        no_users: 没有用户。
       search:
         placeholder: 通过电子邮件，名字或者文档编号搜索用户
+        search: 搜索
+    verifications:
+      index:
+        phone_not_given: 未提供电话号码
+        sms_code_not_confirmed: 未确认sms 码
+        title: 不完全验证
     site_customization:
       content_blocks:
+        information: 有关内容块的信息
         about: 您可以创建要插入到CONSUL的页眉或页脚中的HTML 内容块。
         top_links_html: "<strong>页眉块(top_links)</strong>是必须具有此格式的链接块："
         footer_html: "<strong>页脚块</strong>可以有任何格式，并且可以用于插入Javascript, CSS 或自定义HTML。"
+        no_blocks: "没有内容块。"
+        create:
+          notice: 内容块已成功创建
+    homepage:
+      create_card: 创建卡
+      no_cards: 没有卡。
+      cards:
+        title: 标题
+        description: 描述
