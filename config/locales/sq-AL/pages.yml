@@ -100,10 +100,14 @@ sq:
       keyboard_shortcuts:
         title: Shkurtoret e tastierës
         navigation_table:
+          description: Për të qenë në gjendje për të lundruar nëpër këtë faqe në një mënyrë të arritshme, është programuar një grup çelësash të shpejtë për të mbledhur pjesët kryesore të interesit të përgjithshëm në të cilin është organizuar faqja.
+          caption: Shkurtoret e tastierës për menunë e lundrimit
           key_header: Celës
           page_header: Faqja
           rows:
             - 
+              key_column: 0
+              page_column: Faqja kryesore
             - 
               key_column: 1
               page_column: Debate
@@ -120,6 +124,8 @@ sq:
               key_column: 5
               page_column: Proceset legjislative
         browser_table:
+          description: 'Në varësi të sistemit operativ dhe shfletuesit të përdorur, kombinimi kyç do të jetë si vijon:'
+          caption: Kombinimi kyç në varësi të sistemit operativ dhe shfletuesit
           browser_header: Shfletues
           key_header: Kombinim i celsave
           rows:
@@ -141,6 +147,7 @@ sq:
       textsize:
         title: Madhësia e tekstit
         browser_settings_table:
+          description: Dizajni i aksesueshëm i kësaj faqeje lejon përdoruesin të zgjedhë madhësinë e tekstit që i përshtatet atij. Ky veprim mund të kryhet në mënyra të ndryshme në varësi të shfletuesit të përdorur.
           browser_header: Shfletues
           action_header: Veprimi që duhet marrë
           rows:
