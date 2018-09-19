@@ -500,6 +500,18 @@ sq:
       read_more: "Lexoni më shumë rreth %{answer}"
       read_less: "Lexoni më pak rreth%{answer}"
       videos: "Video e jashtme"
+      info_menu: "Informacion"
+      stats_menu: "Statistikat e pjesëmarrjes"
+      results_menu: "Rezultatet e sondazhit"
+      stats:
+        title: "Të dhënat pjesëmarrëse"
+        total_participation: "Totali i Pjesëmarrësve"
+        total_votes: "Shuma totale e votave të dhëna"
+        votes: "Votat"
+        web: "WEB"
+        booth: "KABIN"
+        total: "TOTAL"
+        valid: "E vlefshme"
   shared:
     check: Zgjidh
     check_all: Të gjithë
@@ -569,3 +581,85 @@ sq:
     recommended_index:
       title: Rekomandimet
       see_more: Shiko më shumë rekomandime
+      hide: Fshih rekomandimet
+  social:
+    blog: "Blogu %{org}"
+    facebook: "Facebook %{org}"
+    twitter: "Twitter %{org}"
+    youtube: "YouTube %{org}"
+  users:
+    direct_messages:
+      new:
+        body_label: Mesazh
+        direct_messages_bloqued: "Ky përdorues ka vendosur të mos marrë mesazhe të drejtpërdrejta"
+        submit_button: Dërgoni mesazh
+        title: Dërgo mesazh privat tek %{receiver}
+        title_label: Titull
+        verified_only: Për të dërguar një mesazh privat %{verify_account}
+        verify_account: verifikoni llogarinë tuaj
+        authenticate: Ju duhet %{signin} ose %{signup} për të vazhduar.
+        signin: Kycu
+        signup: Rregjistrohu
+      show:
+        receiver: Mesazhi u dërgua në %{receiver}
+    show:
+      deleted: U fshi
+      deleted_debate: Ky debat është fshirë
+      deleted_proposal: Ky propozim është fshirë
+      deleted_budget_investment: Ky projekt investimesh është fshirë
+      proposals: Propozime
+      debates: Debate
+      budget_investments: Investime buxhetor
+      comments: Komente
+      actions: Veprimet
+      filters:
+        comments:
+          one: 1 koment
+          other: "%{count} koment"
+        debates:
+          one: 1 Debat
+          other: "%{count} Debate"
+        proposals:
+          one: 1 Propozim
+          other: "%{count} Propozime"
+        budget_investments:
+          one: 1 Investim
+          other: "%{count} Investime"
+        follows:
+          one: Duke ndjekur 1
+          other: "Duke ndjekur %{count}"
+      no_activity: Përdoruesi nuk ka aktivitet publik
+  votes:
+    signin: Kycu
+    signup: Rregjistrohu
+    supports: Suporti
+    unauthenticated: Ju duhet %{signin} ose %{signup} për të vazhduar.
+    verified_only: Vetëm përdoruesit e verifikuar mund të votojnë për propozimet; %{verify_account}.
+    verify_account: verifikoni llogarinë tuaj
+    spending_proposals:
+      not_logged_in: Ju duhet %{signin} ose %{signup} për të vazhduar.
+      not_verified: Vetëm përdoruesit e verifikuar mund të votojnë për propozimet; %{verify_account}.
+      organization: Organizatat nuk lejohen të votojnë
+      not_voting_allowed: Faza e zgjedhjes është e mbyllur
+  related_content:
+    title: "Përmbajtja e ngjashme"
+    add: "Shto përmbajtje të ngjashme"
+    label: "Lidhja te përmbajta përkatëse"
+    placeholder: "%{url}"
+    help: "Ju mund të shtoni lidhjet e %{models} brenda %{org}."
+    submit: "Shto"
+    error: "Lidhja nuk është e vlefshme. Mos harroni të filloni me %{url}."
+    score_positive: "Po"
+    score_negative: "Jo"
+    content_title:
+      proposal: "Propozim"
+      debate: "Debate"
+      budget_investment: "Investim buxhetor"
+  admin/widget:
+    header:
+      title: Administrim
+  annotator:
+    help:
+      text_sign_in: Kycu
+      text_sign_up: Rregjistrohu
+      title: Si mund ta komentoj këtë dokument?
