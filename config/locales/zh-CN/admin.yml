@@ -1192,10 +1192,19 @@ zh-CN:
           other: "有%{count} 个有效签名"
         unverified:
           other: "有%{count} 个无效签名"
+        unverified_error: '（未经人口普查核实）'
         loading: "仍有签名正被人口普查核实中，请稍后刷新此页面"
     stats:
       show:
+        stats_title: 统计
         summary:
+          comment_votes: 评论投票数
+          comments: 评论
+          debate_votes: 辩论投票数
+          debates: 辩论
+          proposal_votes: 提议投票数
+          proposals: 提议
+          budgets: 开发式预算
           budget_investments: 投资项目
           spending_proposals: 支出提议
           unverified_users: 未验证的用户
@@ -1269,8 +1278,35 @@ zh-CN:
         no_blocks: "没有内容块。"
         create:
           notice: 内容块已成功创建
+          error: 内容块无法被创建
+        update:
+          notice: 内容块已成功更新
+          error: 内容块无法被更新
+        destroy:
+          notice: 内容块已成功删除
+        edit:
+          title: 正在编辑内容块
+        errors:
+          form:
+            error: 错误
+        index:
+          create: 创建新内容块
+          delete: 删除块
+          title: 内容块
+        new:
+          title: 创建新的内容块
+        content_block:
+          body: 正文
+          name: 名字
+          names:
+            top_links: 顶级链接
+            footer: 页脚
+            subnavigation_left: 左主导航
+            subnavigation_right: 右主导航
       images:
         index:
+          title: 自定义图像
+          update: 更新
           delete: 删除
           image: 图像
         update:
