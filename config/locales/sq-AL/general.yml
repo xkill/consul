@@ -512,7 +512,41 @@ sq:
         booth: "KABIN"
         total: "TOTAL"
         valid: "E vlefshme"
+        white: "VotaT e bardha"
+        null_votes: "E pavlefshme"
+      results:
+        title: "Pyetje"
+        most_voted_answer: "Përgjigja më e votuar:"
+  poll_questions:
+    create_question: "Krijo pyetje"
+    show:
+      vote_answer: "Votim %{answer}"
+      voted: "Ju keni votuar %{answer}"
+      voted_token: "Ju mund të shkruani një identifikues vote, për të kontrolluar votën tuaj në rezultatet përfundimtare:"
+  proposal_notifications:
+    new:
+      title: "Dërgoni mesazh"
+      title_label: "Titull"
+      body_label: "Mesazh"
+      submit_button: "Dërgoni mesazh"
+      info_about_receivers_html: "Ky mesazh do të dërgohet tek <strong>%{count} njerëz </ strong> dhe do të jetë i dukshëm në %{proposal_page}.<br> Mesazhi nuk dërgohet menjëherë, përdoruesit do të marrin periodikisht një email me të gjitha njoftimet e propozimeve."
+      proposal_page: "faqja e propozimit"
+    show:
+      back: "Kthehu te aktiviteti im"
   shared:
+    edit: 'Ndrysho'
+    save: 'Ruaj'
+    delete: Fshi
+    "yes": "Po"
+    "no": "Jo"
+    search_results: "Kërko rezultatet"
+    advanced_search:
+      author_type: 'Nga kategoria e autorit'
+      author_type_blank: 'Zgjidh nje kategori'
+      date: 'Nga data'
+      date_placeholder: 'DD/MM/YYYY'
+      date_range_blank: 'Zgjidhni një datë'
+      date_1: 'Zgjidhni një datë'
     check: Zgjidh
     check_all: Të gjithë
     check_none: Asnjë
