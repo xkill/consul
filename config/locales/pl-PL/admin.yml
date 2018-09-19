@@ -708,6 +708,9 @@ pl:
         help: "Gdy użytkownik tworzy wniosek, sugerowane są następujące tematy jako tagi domyślne."
       name:
         placeholder: Wpisz nazwę tematu
+    users:
+      search:
+        placeholder: Wyszukaj użytkownika za pomocą adresu e-mail, nazwiska lub numeru dokumentu
     site_customization:
       pages:
         create:
