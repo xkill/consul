@@ -10,3 +10,54 @@ pl:
         title: Konto użytkownika
       edit:
         title: 'Edytuj konto użytkownika: Zresetuj hasło'
+    menu:
+      support_budget_investments: Wspieraj inwestycje budżetowe
+      users: Zarządzanie użytkownikami
+      user_invites: Wysyłać zaproszenia
+      select_user: Wybierz użytkownika
+    permissions:
+      create_proposals: Stwórz wnioski
+      debates: Angażuj się w debaty
+      support_proposals: Popieraj wnioski
+      vote_proposals: Oceń wnioski
+    print:
+      proposals_title: 'Wnioski:'
+      spending_proposals_info: Weź udział w http://url.consul
+      budget_investments_info: Weź udział w http://url.consul
+    print_info: Wydrukuj tę informację
+    proposals:
+      alert:
+        unverified_user: Użytkownik nie jest zweryfikowany
+      create_proposal: Stwórz wniosek
+      print:
+        print_button: Drukuj
+      index:
+        title: Popieraj wnioski
+    budgets:
+      create_new_investment: Utwórz inwestycję budżetową
+      print_investments: Wydrukuj inwestycje budżetowe
+      support_investments: Wspieraj inwestycje budżetowe
+      table_name: Nazwa
+      table_phase: Etap
+      table_actions: Akcje
+      no_budgets: Brak aktywnych budżetów partycypacyjnych.
+    budget_investments:
+      alert:
+        unverified_user: Użytkownik nie jest zweryfikowany
+      create: Utwórz inwestycję budżetową
+      filters:
+        heading: Koncepcja
+        unfeasible: Niewykonalna inwestycja
+      print:
+        print_button: Drukuj
+    spending_proposals:
+      alert:
+        unverified_user: Użytkownik nie jest zweryfikowany
+      create: Utwórz propozycję wydatków
+      filters:
+        unfeasible: Niewykonalne projekty inwestycyjne
+        by_geozone: "Projekty inwestycyjne o zakresie: %{geozone}"
+      print:
+        print_button: Drukuj
+    sessions:
+      signed_out: Wylogowano pomyślnie.
