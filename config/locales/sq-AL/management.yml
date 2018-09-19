@@ -1,1 +1,43 @@
 sq:
+  management:
+    account:
+      menu:
+        reset_password_email: Rivendos fjalëkalimin përmes emailit
+        reset_password_manually: Rivendosni fjalëkalimin manualisht
+      alert:
+        unverified_user: Ende nuk ka përdorues të verifikuar të kycur
+      show:
+        title: Llogaria e përdoruesit
+      edit:
+        title: 'Ndrysho llogarinë e përdoruesit: Rivendos fjalëkalimin'
+        back: Pas
+        password:
+          password: Fjalëkalim
+          send_email: Dërgo një email të riaktivizimit të fjalëkalimit
+          reset_email_send: Email-i u dërgua me sukses.
+          reseted: Fjalëkalimi u rivendos me sukses
+          random: Gjeneroni një fjalëkalim të rastësishëm
+          save: Ruaj fjalëkalimin
+          print: Printoni fjalëkalimin
+          print_help: Ju do të jeni në gjendje të printoni fjalëkalimin kur të jetë ruajtur.
+    account_info:
+      change_user: Ndrysho përdoruesin
+      document_number_label: 'Numri i dokumentit'
+      document_type_label: 'Tipi i dokumentit'
+      email_label: 'Email:'
+      identified_label: 'Identifikuar si:'
+      username_label: 'Emer përdoruesi:'
+    check: Kontrrollo dokumentin
+    dashboard:
+      index:
+        title: Menaxhimi
+        info: Këtu ju mund të menaxhoni përdoruesit përmes të gjitha veprimeve të renditura në menunë e majtë.
+    document_number: Numri i dokumentit
+    document_type_label: Tipi i dokumentit
+    document_verifications:
+      already_verified: Kjo llogari përdoruesi është verifikuar tashmë
+      has_no_account_html: Për të krijuar një llogari, shkoni te %{link} dhe klikoni në <b> 'Regjistrohu' </ b> në pjesën e sipërme të majtë të ekranit.
+      link: KONSUL
+      in_census_has_following_permissions: 'Ky përdorues mund të marrë pjesë në faqe me lejet e mëposhtme:'
+      not_in_census: Ky dokument nuk është i regjistruar.
+      not_in_census_info: 'Qytetarët që nuk janë rregjistruar mund të marrin pjesë në faqen me lejet e mëposhtme:'
