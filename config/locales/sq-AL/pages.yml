@@ -66,7 +66,32 @@ sq:
     privacy:
       title: Politika e privatësisë
       subtitle: INFORMACIONE NË LIDHJE ME PRIVATËSIN E TË DHËNAVE
+      info_items:
+        - 
+          text: Navigimi përmes informacionit që gjendet në Portalin e hapur të Qeverisë  është anonime.
+        - 
+          text: Për të përdorur shërbimet e përmbajtura në Portalin e hapur të Qeverisë përdoruesi duhet të regjistrohet më parë dhe të ofrojë të dhëna personale sipas informatave specifike të përfshira në çdo lloj regjistrimi.
+        - 
+          text: 'Të dhënat e siguruara do të përfshihen dhe përpunohen nga Këshilli i Qytetit në përputhje me përshkrimin e dokumentit të mëposhtëm:'
+        - 
+          subitems:
+            - 
+              field: 'Emri i skedarit:'
+              description: EMRI I DOKUMENTAVE
+            - 
+              field: 'Qëllimi i dokumentit:'
+              description: Menaxhimi i proceseve pjesëmarrëse për të kontrolluar kualifikimin e njerëzve që marrin pjesë në to dhe thjesht numërimin numerik dhe statistikor të rezultateve të nxjerra nga proceset e pjesëmarrjes qytetare.
+            - 
+              field: 'Institucioni përgjegjës për dokumentin:'
+              description: 'Institucioni përgjegjës për dosjen:'
+        - 
+          text: Pala e interesuar mund të ushtrojë të drejtat e qasjes, korrigjimit, anulimit dhe kundërshtimit, përpara se të tregohet organi përgjegjës, i cili raportohet në përputhje me nenin 5 të Ligjit Organik 15/1999, të datës 13 dhjetor, për Mbrojtjen e të Dhënave të Karakterit personal.
+        - 
+          text: Si parim i përgjithshëm, kjo uebfaqe nuk ndan ose zbulon informacionin e marrë, përveç kur është autorizuar nga përdoruesi ose informacioni kërkohet nga autoriteti gjyqësor, prokuroria ose policia gjyqësore, ose në ndonjë nga rastet e rregulluara në Neni 11 i Ligjit Organik 15/1999, datë 13 dhjetor, mbi Mbrojtjen e të Dhënave Personale.
     accessibility:
+      title: Aksesueshmëria
+      description: |-
+        Aksesi në ueb ka të bëjë me mundësinë e qasjes në ueb dhe përmbajtjen e tij nga të gjithë njerëzit, pavarësisht nga aftësitë e kufizuara (fizike, intelektuale ose teknike) që mund të lindin ose nga ato që rrjedhin nga konteksti i përdorimit (teknologjik ose mjedisor).
       textsize:
         browser_settings_table:
           browser_header: Shfletues
@@ -99,3 +124,16 @@ sq:
       compatibility:
         title: Pajtueshmëria me standardet dhe dizajni vizual
         description_html: 'Të gjitha faqet nê këtë website përputhen me <strong>Udhëzimet e aksesueshmërisë</strong>ose Parimet e Përgjithshme të Dizajnit të Aksesueshëm të krijuara nga Grupi i Punës <abbr title = "Iniciativa e Web Accessibility" lang = "en"> WAI </ abbr> W3C.'
+    titles:
+      accessibility: Dispnueshmësia
+      conditions: Kushtet e përdorimit
+      help: "Çfarë është %{org} ? - Pjesëmarrja e qytetarëve"
+      privacy: Politika e privatësisë
+    verify:
+      code: Kodi që keni marrë në letër
+      email: Email
+      info: 'Për të verifikuar llogarinë tënde, futni të dhënat e aksesit tuaj:'
+      info_code: 'Tani futni kodin që keni marrë në letër:'
+      password: Fjalëkalim
+      submit: Verifikoni llogarinë time
+      title: verifikoni llogarinë tuaj
