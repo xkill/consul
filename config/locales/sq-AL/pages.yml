@@ -92,7 +92,54 @@ sq:
       title: Aksesueshmëria
       description: |-
         Aksesi në ueb ka të bëjë me mundësinë e qasjes në ueb dhe përmbajtjen e tij nga të gjithë njerëzit, pavarësisht nga aftësitë e kufizuara (fizike, intelektuale ose teknike) që mund të lindin ose nga ato që rrjedhin nga konteksti i përdorimit (teknologjik ose mjedisor).
+      examples:
+        - Sigurimi i tekstit alternativë për imazhet, përdoruesit e verbër ose të dëmtuar nga shikimet mund të përdorin lexues të veçantë për të hyrë në informacion.
+        - Kur videot kanë titra, përdoruesit me vështirësi dëgjimi mund t'i kuptojnë plotësisht ato.
+        - Nëse përmbajtja është e shkruar në një gjuhë të thjeshtë dhe të ilustruar, përdoruesit me probleme të të mësuarit janë më të aftë t'i kuptojnë ato.
+        - Nëse përdoruesi ka probleme të lëvizshmërisë dhe është e vështirë të përdorësh mausin, alternativat me ndihmën e tastierës ndihmojnë në navigacion.
+      keyboard_shortcuts:
+        title: Shkurtoret e tastierës
+        navigation_table:
+          key_header: Celës
+          page_header: Faqja
+          rows:
+            - 
+            - 
+              key_column: 1
+              page_column: Debate
+            - 
+              key_column: 2
+              page_column: Propozime
+            - 
+              key_column: 3
+              page_column: Vota
+            - 
+              key_column: 4
+              page_column: Buxhetet  pjesëmarrës
+            - 
+              key_column: 5
+              page_column: Proceset legjislative
+        browser_table:
+          browser_header: Shfletues
+          key_header: Kombinim i celsave
+          rows:
+            - 
+              browser_column: Explorer
+              key_column: ALT + shkurtore pastaj ENTER
+            - 
+              browser_column: Firefox
+              key_column: ALT + CAPS + shkurtore
+            - 
+              browser_column: Chrome
+              key_column: ALT + shkurtore (CTRL + ALT + shkurtore për MAC
+            - 
+              browser_column: Safari
+              key_column: ALT + shkurtore (CTRL + shkurtore për MAC)
+            - 
+              browser_column: Opera
+              key_column: CAPS + ESC + shkurtore
       textsize:
+        title: Madhësia e tekstit
         browser_settings_table:
           browser_header: Shfletues
           action_header: Veprimi që duhet marrë
