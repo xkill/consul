@@ -532,3 +532,40 @@ sq:
           other: "Ka një debat me termin '%{query}', mund të merrni pjesë në të, në vend që të hapni një të re."
         message: "Po shihni %{limit} të %{count} debateve që përmbajnë termin '%{query}'"
         see_all: "Shiko të gjitha"
+      budget_investment:
+        found:
+          one: "Ka një investim me termin '%{query}', mund të merrni pjesë në të, në vend që të hapni një të re."
+          other: "Ka një investim me termin '%{query}', mund të merrni pjesë në të, në vend që të hapni një të re."
+        message: "Po shihni  %{limit} të %{count} investimeve që përmbajnë termin '%{query}'"
+        see_all: "Shiko të gjitha"
+      proposal:
+        found:
+          one: "Ka një propozim me termin '%{query}', mund të merrni pjesë në të, në vend që të hapni një të re."
+          other: "Ka një propozim me termin '%{query}', mund të merrni pjesë në të, në vend që të hapni një të re."
+        message: "Po shihni %{limit} të %{count} propozimeve që përmbajnë termin '%{query}'"
+        see_all: "Shiko të gjitha"
+    tags_cloud:
+      tags: Tendenca
+      districts: "Zonë"
+      districts_list: "Lista zonave"
+      categories: "Kategoritë"
+    target_blank_html: "(lidhja hapet në dritare të re)"
+    you_are_in: "Ju jeni kycur"
+    unflag: I pa shënjuar
+    unfollow_entity: "Mos Ndiq %{entity}"
+    outline:
+      budget: Buxhetet  pjesëmarrës
+      searcher: Kërkues
+    go_to_page: "Shkoni në faqen e"
+    share: Shpërndaj
+    orbit:
+      previous_slide: Slide-i i mëparshëm
+      next_slide: Slide-i tjetër
+    documentation: Dokumentacion shtesë
+    view_mode:
+      title: Mënyra e shikimit
+      cards: Kartat
+      list: Listë
+    recommended_index:
+      title: Rekomandimet
+      see_more: Shiko më shumë rekomandime
