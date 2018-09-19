@@ -57,3 +57,45 @@ sq:
       other:
         title: "Informacione të tjera me interes"
         how_to_use: "Përdorni %{org_name} në qytetin tuaj"
+      how_to_use:
+        text: |-
+          Ky Portal i hapur i  Qeverisë  përdor [aplikacionin CONSUL] (https://github.com/consul/consul 'consul github') që është softuer i lirë, me [licencë AGPLv3] (http://www.gnu.org/licenses/ agpl-3.0.html 'AGPLv3 gnu'), që do të thotë me fjalë të thjeshta se kushdo mund ta përdorë kodin lirisht, ta kopjojë atë, ta shohë atë në detaje, ta modifikojë atë dhe ta rishpërndajë atë  me modifikimet që dëshiron (duke lejuar të tjerët të bëjnë të njëjtën gjë). Sepse ne mendojmë se kultura është më e mirë dhe më e pasur kur lirohet.
+          Nëse jeni programues, mund të shihni kodin dhe të na ndihmoni për ta përmirësuar atë në [aplikacionin CONSUL] (https://github.com/consul/consul 'consul github').
+      titles:
+        how_to_use: Përdoreni atë në qeverinë tuaj lokale
+    privacy:
+      title: Politika e privatësisë
+      subtitle: INFORMACIONE NË LIDHJE ME PRIVATËSIN E TË DHËNAVE
+    accessibility:
+      textsize:
+        browser_settings_table:
+          browser_header: Shfletues
+          action_header: Veprimi që duhet marrë
+          rows:
+            - 
+              browser_column: Eksploro
+              action_column: Shiko> Madhësia e tekstit
+            - 
+              browser_column: Firefox
+              action_column: Shiko> Madhësia
+            - 
+              browser_column: Chrome
+              action_column: Opsionet (ikona)> Opsionet> Të avancuara> Përmbajtja e uebit> Madhësia e tekstit
+            - 
+              browser_column: Safari
+              action_column: Pamja> Zmadho / Zvogëlo
+            - 
+              browser_column: Opera
+              action_column: Shiko> masë
+        browser_shortcuts_table:
+          description: 'Një mënyrë tjetër për të ndryshuar madhësinë e tekstit është të përdorni shkurtoret e tastierës të përcaktuara në shfletues, në veçanti kombinimin kyç:'
+          rows:
+            - 
+              shortcut_column: CTRL dhe + (CMD dhe + në MAC)
+              description_column: Rrit madhësinë e tekstit
+            - 
+              shortcut_column: CTRL dhe - (CMD dhe - në MAC)
+              description_column: Zvogëlo madhësinë e tekstit
+      compatibility:
+        title: Pajtueshmëria me standardet dhe dizajni vizual
+        description_html: 'Të gjitha faqet nê këtë website përputhen me <strong>Udhëzimet e aksesueshmërisë</strong>ose Parimet e Përgjithshme të Dizajnit të Aksesueshëm të krijuara nga Grupi i Punës <abbr title = "Iniciativa e Web Accessibility" lang = "en"> WAI </ abbr> W3C.'
