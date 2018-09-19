@@ -541,3 +541,28 @@ pl:
         title: "Nowe głosowanie"
         show_results: "Pokaż wyniki"
         show_stats: "Pokaż statystyki"
+    shared:
+      booths_search:
+        placeholder: Wyszukaj stoisko według nazwy
+      poll_officers_search:
+        button: Szukaj
+      poll_questions_search:
+        button: Szukaj
+      proposal_search:
+        button: Szukaj
+        placeholder: Szukaj propozycji według tytułu, kodu, opisu lub pytania
+      spending_proposal_search:
+        button: Szukaj
+        placeholder: Szukaj propozycji wydatków według tytułu lub opisu
+      user_search:
+        button: Szukaj
+        placeholder: Wyszukaj użytkownika według nazwy lub adresu e-mail
+      search_results: "Szukaj wyników"
+      no_search_results: "Nie znaleziono wyników."
+      actions: Akcje
+      title: Tytuł
+      description: Opis
+      image: Obraz
+      show_image: Pokaż obraz
+      moderated_content: "Sprawdź treści moderowane przez moderatorów i sprawdź czy moderacja została wykonana poprawnie."
+      view: Widok
