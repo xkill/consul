@@ -469,6 +469,9 @@ gl:
       geozone_restricted: "Zonas"
       geozone_info: "Poden participar as persoas empadroadas en: "
       already_answer: "Xa participaches nesta votación"
+      not_logged_in: "Precisas iniciar sesión ou rexistrarte para participares"
+      unverified: "Precisas verificar a túa conta para participares"
+      cant_answer: "Esta votación non está dispoñible na túa zona"
       section_header:
         icon_alt: Icona das votacións
         title: Votacións
