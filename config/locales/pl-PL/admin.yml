@@ -668,3 +668,54 @@ pl:
           notice: Strona została pomyślnie usunięta
         edit:
           title: Edytowanie %{page_title}
+        errors:
+          form:
+            error: Błąd
+        form:
+          options: Opcje
+        index:
+          create: Utwórz nową stronę
+          delete: Usuń stronę
+          title: Strony niestandardowe
+          see_page: Zobacz stronę
+        new:
+          title: Utwórz nową niestandardową stronę
+        page:
+          created_at: Utworzony w
+          status: Status
+          title: Tytuł
+          updated_at: Aktualizacja w
+          status_draft: Projekt
+          status_published: Opublikowany
+          locale: Język
+    homepage:
+      title: Strona główna
+      description: Aktywne moduły pojawiają się na stronie głównej w tej samej kolejności co tutaj.
+      header_title: Nagłówek
+      no_header: Nie ma nagłówka.
+      create_header: Utwórz nagłówek
+      cards_title: Karty
+      create_card: Utwórz kartę
+      no_cards: Nie ma kart.
+      cards:
+        title: Tytuł
+        description: Opis
+        link_text: Tekst łącza
+        link_url: Łącze URL
+      feeds:
+        proposals: Wnioski
+        debates: Debaty
+        processes: Procesy
+      new:
+        header_title: Nowy nagłówek
+        submit_header: Utwórz nagłówek
+        card_title: Nowa karta
+        submit_card: Utwórz kartę
+      edit:
+        header_title: Edytuj nagłówek
+        submit_header: Zapisz nagłówek
+        card_title: Edytuj kartę
+        submit_card: Zapisz kartę
+    translations:
+      remove_language: Usuń język
+      add_language: Dodaj język
