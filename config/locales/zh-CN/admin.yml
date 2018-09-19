@@ -623,7 +623,13 @@ zh-CN:
       new:
         title: 新时事通讯
         from: 将显示为发送时事通讯的电子邮件地址
+      edit:
+        title: 编辑时事通讯
       show:
+        title: 时事通讯预览
+        send: 发送
+        affected_users: (%{n} 个受影响的用户)
+        sent_at: 发送于
         send_alert: 您是否确定要发送此时事通讯给%{n} 个用户？
     admin_notifications:
       index:
@@ -821,9 +827,34 @@ zh-CN:
         booths_tab: 投票亭
         officers_tab: 官员
         no_questions: "没有分配给此投票项的问题。"
+    questions:
+      show:
+        answers:
+          description: 描述
+          videos: 视频
+          video_list: 视频列表
+          images: 图像
+          images_list: 图像列表
+          documents: 文档
+          documents_list: 文档列表
+          document_title: 标题
+          document_actions: 行动
     answers:
+      new:
+        title: 新答案
+      show:
+        title: 标题
+        description: 描述
+        images: 图像
+        images_list: 图像列表
+        edit: 编辑答案
+      edit:
+        title: 编辑答案
       videos:
         index:
+          title: 视频
+          add_video: 添加视频
+          video_title: 标题
           video_url: 外部视频
         new:
           title: 新视频
@@ -959,6 +990,7 @@ zh-CN:
           disable: "禁用"
         map:
           title: 地图配置
+          help: 在这里您可以自定义地图显示给用户的方式。拖动地图标记或者点击地图上的任意位置，设置所需的缩放，并点击“更新”按钮“。
           flash:
             update: 已成功更新地图配置。
           form:
@@ -979,6 +1011,8 @@ zh-CN:
       poll_questions_search:
         button: 搜索
         placeholder: 搜索投票项问题
+      proposal_search:
+        button: 搜索
       moderated_content: "检查审核员审核过的内容，并确认审核是否已正确完成。"
     spending_proposals:
       index:
