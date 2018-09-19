@@ -62,7 +62,67 @@ sq:
       create_proposal: Krijo propozim
       print_proposals: Printo propozimin
       support_proposals: Përkrahni propozimet
+      create_spending_proposal: Krijo propozimin e shpenzimeve
+      print_spending_proposals: Printo propozimin e shpenzimeve
+      support_spending_proposals: Mbështet propozimin e shpenzimeve
+      create_budget_investment: Krijo  investimin buxhetor
+      print_budget_investments: Printo investimin buxhetor
+      support_budget_investments: Mbështet investimin buxhetor
+      users: Menaxhimi i përdoruesve
+      user_invites: Dërgo ftesat
+      select_user: Zgjidh përdoruesin
+    permissions:
+      create_proposals: Krijo propozimin
+      debates: Angazhohu në debate
+      support_proposals: Përkrahni propozimet
+      vote_proposals: Voto propozimet
+    print:
+      proposals_info: 'Krijo propozimin tuaj në http: //url.consul'
+      proposals_title: 'Propozime'
+      spending_proposals_info: 'Merrni pjesë në http: //url.consul'
+      budget_investments_info: 'Merrni pjesë në http: //url.consul'
+    print_info: Printoni këtë informacion
+    proposals:
+      alert:
+        unverified_user: Përdoruesi nuk verifikohet
+      create_proposal: Krijo propozim
+      print:
+        print_button: Printo
+      index:
+        title: Përkrahni propozimet
+    budgets:
+      create_new_investment: Krijo  investimin buxhetor
+      print_investments: Printo investimin buxhetor
+      support_investments: Mbështet investimin buxhetor
+      table_name: Emri
+      table_phase: Fazë
+      table_actions: Veprimet
+      no_budgets: Nuk ka buxhet pjesmarrës aktiv.
+    budget_investments:
+      alert:
+        unverified_user: Përdoruesi nuk është verifikuar
+      create: Krijo një investim buxhetor
+      filters:
+        heading: Koncept
+        unfeasible: Investim i papërshtatshëm
+      print:
+        print_button: Printo
+      search_results:
+        one: "që përmbajnë termin %{search_term}"
+        other: "që përmbajnë termin %{search_term}"
     users:
       erased_notice: Llogaria e përdoruesit u fshi.
       erased_by_manager: "E fshirë nga menaxheri: %{manager}"
       erase_account_link: Fshi përdoruesin
+      erase_account_confirm: Je i sigurt që dëshiron ta fshish llogarinë? Ky veprim nuk mund të zhbëhet
+      erase_warning: Ky veprim nuk mund të zhbëhet. Ju lutemi sigurohuni që dëshironi ta fshini këtë llogari.
+      erase_submit: Fshij llogarine
+    user_invites:
+      new:
+        label: Emailet
+        info: "Shkruani emailet të ndara me presje (',')"
+        submit: Dërgo ftesa
+        title: Dërgo ftesa
+      create:
+        success_html: <strong>%{count}ftesat</strong>janë dërguar.
+        title: Dërgo ftesat
