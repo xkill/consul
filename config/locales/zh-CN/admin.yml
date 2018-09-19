@@ -1172,9 +1172,26 @@ zh-CN:
         success: 地理区域已成功删除
         error: 此地理区域无法删除，因为它附加了元素
     signature_sheets:
+      author: 作者
+      created_at: 创建日期
+      name: 名字
+      no_signature_sheets: "没有signature_sheets"
+      index:
+        title: 签名表
+        new: 新的签名表
       new:
+        title: 新的签名表
         document_numbers_note: "写下数字，用逗号 (,) 分割"
+        submit: 创建签名表
       show:
+        created_at: 已创建
+        author: 作者
+        documents: 文档
+        document_count: "文档编号："
+        verified:
+          other: "有%{count} 个有效签名"
+        unverified:
+          other: "有%{count} 个无效签名"
         loading: "仍有签名正被人口普查核实中，请稍后刷新此页面"
     stats:
       show:
