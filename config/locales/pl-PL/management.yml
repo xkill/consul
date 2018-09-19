@@ -16,6 +16,34 @@ pl:
           save: Zapisz hasło
           print: Wydrukuj hasło
           print_help: Będziesz mógł wydrukować hasło po zapisaniu.
+    account_info:
+      change_user: Zmień użytkownika
+      document_number_label: 'Numer dokumentu:'
+      document_type_label: 'Rodzaj dokumentu:'
+      email_label: 'Email:'
+      identified_label: 'Zidentyfikowany jako:'
+      username_label: 'Nazwa użytkownika:'
+    check: Sprawdź dokument
+    dashboard:
+      index:
+        title: Zarządzanie
+        info: Tutaj możesz zarządzać użytkownikami poprzez wszystkie czynności wymienione w lewym menu.
+    document_number: Numer dokumentu
+    document_type_label: Rodzaj dokumentu
+    document_verifications:
+      already_verified: To konto użytkownika jest już zweryfikowane.
+      has_no_account_html: Aby założyć konto, przejdź do %{link} i kliknij <b>"Zarejestruj się"</b> w lewej górnej części ekranu.
+      in_census_has_following_permissions: 'Ten użytkownik może uczestniczyć w witrynie z następującymi uprawnieniami:'
+      not_in_census: Ten dokument nie jest zarejestrowany.
+      not_in_census_info: 'Obywatele spoza Census mogą w nim uczestniczyć z następującymi uprawnieniami:'
+      please_check_account_data: Sprawdź, czy powyższe dane konta są poprawne.
+      title: Zarządzanie użytkownikami
+      under_age: "Nie masz wymaganego wieku, aby zweryfikować swoje konto."
+    email_verifications:
+      already_verified: To konto użytkownika jest już zweryfikowane.
+      choose_options: 'Wybierz jedną z następujących opcji:'
+      document_found_in_census: Ten dokument został znaleziony w census, ale nie ma powiązania z nim konta użytkownika.
+      document_mismatch: 'Ten adres e-mail należy do użytkownika, który ma już powiązany identyfikator: %{document_number}(%{document_type})'
     menu:
       support_budget_investments: Wspieraj inwestycje budżetowe
       users: Zarządzanie użytkownikami
