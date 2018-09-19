@@ -1,1 +1,21 @@
 sq:
+  pages:
+    conditions:
+      title: Termat dhe kushtet e përdorimit
+      subtitle: NJOFTIM LIGJOR PËR KUSHTET E PËRDORIMIT, PRIVATIZIMIT DHE MBROJTJEN E TË DHËNAVE PERSONALE TË PORTALIT TË QEVERISË SË HAPUR
+      description: Faqe informuese mbi kushtet e përdorimit, privatësinë dhe mbrojtjen e të dhënave personale.
+    general_terms: Termat dhe kushtet 
+    help:
+      title: "%{org}është një platformë për pjesëmarrjen e qytetarëve"
+      guide: "Ky udhëzues shpjegon se çfarë janë secila nga seksionet e %{org} dhe se si funksionojnë."
+      menu:
+        debates: "Debate"
+        proposals: "Propozime"
+        budgets: "Buxhetet  pjesëmarrës"
+        polls: "Sondazhet"
+        other: "Informacione të tjera me interes"
+        processes: "Proçese"
+      debates:
+        title: "Debate"
+        description: "Në seksionin %{link} ju mund të paraqisni dhe të ndani mendimin tuaj me njerëzit e tjerë për çështjet që kanë lidhje me ju në lidhje me qytetin. Është gjithashtu një vend për të krijuar ide që përmes seksioneve të tjera të %{org} të çojnë në veprime konkrete nga Këshilli i Qytetit."
+        link: "debate qytetare"
