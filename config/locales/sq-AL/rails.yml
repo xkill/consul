@@ -1,5 +1,13 @@
 sq:
   date:
+    abbr_day_names:
+      - E diel
+      - E hënë
+      - E martë
+      - E mërkurë
+      - E enjte
+      - E premte
+      - E shtunë
     abbr_month_names:
       - 
       - Jan
