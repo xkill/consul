@@ -598,8 +598,31 @@ zh-CN:
       administrators: 管理员
       proposal_authors: 提议作者
       investment_authors: 目前预算中的投资作者
+      feasible_and_undecided_investment_authors: "在目前预算中不符合以下的部分投资的作者： [评估已完成并不可行]"
+      selected_investment_authors: 在目前预算中已选投资的作者
+      winner_investment_authors: 在目前预算中投资胜出者的作者
       not_supported_on_current_budget: 还没有支持当前预算投资的用户
+      invalid_recipients_segment: "收件人用户段无效"
     newsletters:
+      create_success: 时事通讯已成功创建
+      update_success: 时事通讯已成功更新
+      send_success: 时事通讯已成功发送
+      delete_success: 时事通讯已成功删除
+      index:
+        title: 时事通讯
+        new_newsletter: 新时事通讯
+        subject: 主题
+        segment_recipient: 收件人
+        sent: 已发送
+        actions: 行动
+        draft: 起草
+        edit: 编辑
+        delete: 删除
+        preview: 预览
+        empty_newsletters: 没有要显示的时事通讯
+      new:
+        title: 新时事通讯
+        from: 将显示为发送时事通讯的电子邮件地址
       show:
         send_alert: 您是否确定要发送此时事通讯给%{n} 个用户？
     admin_notifications:
