@@ -1,1 +1,49 @@
 sq:
+  moderation:
+    comments:
+      index:
+        block_authors: Blloko autorët
+        confirm: A je i sigurt?
+        filter: Filtër
+        filters:
+          all: Të gjithë
+          pending_flag_review: Në pritje
+          with_ignored_flag: Shënuar si të shikuara
+        headers:
+          comment: Koment
+          moderate: Mesatar
+        hide_comments: Fshih komentet
+        ignore_flags: Shëno si të shikuara
+        order: Porosi
+        orders:
+          newest: Më të rejat
+        title: Komente
+    dashboard:
+      index:
+        title: Moderim
+    debates:
+      index:
+        block_authors: Blloko autorët
+        confirm: A je i sigurt?
+        filter: Filtër
+        filters:
+          all: Të gjithë
+          pending_flag_review: Në pritje
+          with_ignored_flag: Shënuar si të shikuara
+        headers:
+          debate: Debate
+          moderate: Mesatar
+        hide_debates: Fshih debatet
+        ignore_flags: Shëno si të shikuara
+        order: Porosi
+        orders:
+          created_at: Më të rejat
+        title: Debatet
+    header:
+      title: Moderim
+    menu:
+      flagged_comments: Komentet
+      flagged_debates: Debatet
+      flagged_investments: Investime buxhetor
+      proposals: Propozime
+      proposal_notifications: Njoftimet e propozimeve
