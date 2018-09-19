@@ -541,6 +541,53 @@ pl:
         title: "Nowe głosowanie"
         show_results: "Pokaż wyniki"
         show_stats: "Pokaż statystyki"
+    questions:
+      index:
+        no_questions: "Nie ma pytań."
+        filter_poll: Filtruj według ankiety
+        select_poll: Wybierz ankietę
+        questions_tab: "Pytania"
+    booths:
+      index:
+        no_booths: "Nie ma aktywnych kabin dla nadchodzącej ankiety."
+    officials:
+      flash:
+        official_destroyed: 'Szczegóły zapisane: użytkownik nie jest już oficjalny'
+    organizations:
+      index:
+        name: Nazwa
+        email: E-mail
+        phone_number: Telefon
+        responsible_name: Odpowiedzialny
+        status: Status
+        pending: Oczekujące
+      search:
+        title: Szukaj organizacji
+        no_results: Nie znaleziono organizacji.
+    proposals:
+      index:
+        filter: Filtr
+        filters:
+          all: Wszystko
+          with_confirmed_hide: Potwierdzone
+          without_confirmed_hide: Oczekujące
+    proposal_notifications:
+      index:
+        filter: Filtr
+        filters:
+          all: Wszystko
+          with_confirmed_hide: Potwierdzone
+          without_confirmed_hide: Oczekujące
+        title: Ukryte powiadomienia
+        no_hidden_proposals: Nie ma ukrytych powiadomień.
+    settings:
+      flash:
+        updated: Wartość zaktualizowana
+      index:
+        map:
+          help: Tutaj możesz dostosować sposób wyświetlania mapy użytkownikom. Przeciągnij znacznik mapy lub kliknij w dowolnym miejscu na mapie, ustaw żądane przybliżenie i kliknij przycisk "Aktualizuj".
+          flash:
+            update: Aktualizacja mapy została pomyślnie zaktualizowana.
     shared:
       booths_search:
         placeholder: Wyszukaj stoisko według nazwy
@@ -656,6 +703,11 @@ pl:
           poll_name: Ankieta
           question_name: Pytanie
           origin_web: Uczestnicy sieci
+    tags:
+      index:
+        help: "Gdy użytkownik tworzy wniosek, sugerowane są następujące tematy jako tagi domyślne."
+      name:
+        placeholder: Wpisz nazwę tematu
     site_customization:
       pages:
         create:
