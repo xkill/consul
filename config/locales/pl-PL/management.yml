@@ -1,1 +1,12 @@
 pl:
+  management:
+    account:
+      menu:
+        reset_password_email: Zresetuj hasło przez email
+        reset_password_manually: Zresetuj hasło ręcznie
+      alert:
+        unverified_user: Nie zweryfikowano jeszcze żadnego zalogowanego użytkownika
+      show:
+        title: Konto użytkownika
+      edit:
+        title: 'Edytuj konto użytkownika: Zresetuj hasło'
