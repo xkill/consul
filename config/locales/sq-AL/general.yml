@@ -100,6 +100,9 @@ sq:
       tags_placeholder: "Futni etiketimet që dëshironi të përdorni, të ndara me presje (',')"
     index:
       featured_debates: Karakteristika
+      filter_topic:
+        one: " me tema '%{topic}'"
+        other: " me tema '%{topic}'"
       orders:
         confidence_score: më të vlerësuarat
         created_at: më të rejat
@@ -194,6 +197,16 @@ sq:
     application:
       chrome: Google Chrome
       firefox: Firefox
+      ie: Ne kemi zbuluar se po shfletoni me Internet Explorer. Për një eksperiencë të zgjeruar, ne rekomandojmë përdorimin %{firefox} ose %{chrome}.
+      ie_title: Kjo faqe interneti nuk është optimizuar për shfletuesin tuaj
+    footer:
+      accessibility: Aksesueshmëria
+      conditions: Termat dhe kushtet e përdorimit
+      consul: Consul Tirana
+      consul_url: https://github.com/consul/consul
+      contact_us: Për ndihmë teknike hyni në
+      copyright: Tiranë, %{year}
+      description: Ky portal përdor %{consul} i cili është %{open_source}.
   notifications:
     index:
       unread: Palexuar
@@ -334,3 +347,6 @@ sq:
       filters:
         current: "Hapur"
       title: "Sondazhet"
+      not_logged_in: "Duhet të identifikohesh ose të regjistrohesh për të marrë pjesë"
+      unverified: "Ju duhet të verifikoni llogarinë tuaj për të marrë pjesë"
+      cant_answer: "Ky sondazh nuk është i disponueshëm në gjeozonën tuaj"
