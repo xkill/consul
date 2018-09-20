@@ -482,6 +482,9 @@ pl:
         no_managers: Brak kierowników.
       manager:
         add: Dodaj
+        delete: Usuń
+      search:
+        title: 'Menedżerowie: wyszukiwanie użytkowników'
     menu:
       poll_questions: Pytania
       proposals_topics: Tematy propozycji
@@ -504,6 +507,18 @@ pl:
         title: Administrator
         email: E-mail
       administrator:
+        add: Dodaj
+        delete: Usuń
+        restricted_removal: "Przepraszamy, nie możesz usunąć siebie z administratorów"
+      search:
+        title: "Administratorzy: wyszukiwanie użytkowników"
+    moderators:
+      index:
+        title: Moderatorzy
+        name: Nazwisko
+        email: E-mail
+        no_moderators: Brak moderatorów.
+      moderator:
         add: Dodaj
         delete: Usuń
     segment_recipient:
@@ -555,10 +570,36 @@ pl:
         segment_recipient: Adresaci
         sent: Wysłane
         actions: Akcje
+        draft: Projekt
         edit: Edytuj
         delete: Usuń
         preview: Podgląd
         view: Widok
+        empty_notifications: Brak powiadomień do wyświetlenia
+      new:
+        section_title: Nowe powiadomienie
+        submit_button: Utwórz powiadomienie
+      edit:
+        section_title: Edytuj powiadomienie
+        submit_button: Zaktualizuj powiadomienie
+      show:
+        section_title: Podgląd powiadomienia
+        send: Wyślij powiadomienie
+        will_get_notified: (%{n} użytkownicy zostaną powiadomieni)
+        got_notified: (%{n} użytkownicy zostali powiadomieni)
+        sent_at: Wysłane
+        title: Tytuł
+        body: Tekst
+        link: Link
+        segment_recipient: Adresaci
+        preview_guide: "W ten sposób użytkownicy zobaczą powiadomienie:"
+        sent_guide: "W ten sposób użytkownicy widzą powiadomienie:"
+        send_alert: Czy na pewno chcesz wysłać to powiadomienie do %{n} użytkowników?
+    system_emails:
+      preview_pending:
+        action: Podgląd Oczekujący
+        preview_of: Podgląd %{name}
+        pending_to_be_sent: To jest zawartość oczekująca na wysłanie
     valuators:
       index:
         email: E-mail
