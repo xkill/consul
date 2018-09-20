@@ -658,8 +658,10 @@ sq:
         empty_notifications: Nuk ka njoftim për të treguar
       new:
         section_title: Njoftim i ri
+        submit_button: Krijo njoftim
       edit:
         section_title: Ndrysho njoftimin
+        submit_button: Përditëso njoftimin
       show:
         section_title: Parapamje e njoftimit
         send: Dërgo njoftimin
