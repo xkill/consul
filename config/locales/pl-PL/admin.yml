@@ -366,6 +366,7 @@ pl:
             all: Wszystko
         new:
           back: Wstecz
+          title: Stwórz nowy zbiorowy proces prawodawczy
           submit_button: Proces tworzenia
         process:
           title: Proces
@@ -377,8 +378,15 @@ pl:
           status_planned: Zaplanowany
         subnav:
           info: Informacje
+          draft_texts: Opracowanie
+          questions: Debata
+          proposals: Wnioski
       proposals:
+        index:
+          title: Wnioski
+          back: Wstecz
         form:
+          custom_categories: Kategorie
           custom_categories_description: Kategorie, które użytkownicy mogą wybrać, tworząc propozycję.
           custom_categories_placeholder: Wpisz tagi, których chcesz użyć, oddzielając je przecinkami (,) i między cudzysłowami ("")
       draft_versions:
@@ -397,13 +405,36 @@ pl:
         errors:
           form:
             error: Błąd
+        form:
+          title_html: 'Edytowanie <span class="strong">%{draft_version_title}</span> procesu <span class="strong">%{process_title}</span>'
+          launch_text_editor: Uruchom edytor tekstu
+          close_text_editor: Zamknij edytor tekstu
+          use_markdown: Sformatuj tekst za pomocą Markdown
+          hints:
+            final_version: Ta wersja zostanie opublikowana jako Wynik Końcowy dla tego procesu. Komentarze nie będą dozwolone w tej wersji.
+            status:
+              draft: Możesz podglądać jako administrator, nikt inny nie może tego zobaczyć
+              published: Widoczny dla każdego
+          title_placeholder: Napisz tytuł wersji roboczej
+          changelog_placeholder: Dodaj najważniejsze zmiany z poprzedniej wersji
+          body_placeholder: Zapisz projekt tekstu
         index:
           title: Wersje robocze
           create: Wróć
           delete: Usuń
           preview: Podgląd
+        new:
+          back: Wstecz
+          title: Utwórz nową wersję
+          submit_button: Utwórz wersję
+        statuses:
+          draft: Projekt
+          published: Opublikowany
         table:
           title: Tytuł
+          created_at: Utworzony
+          comments: Komentarze
+          final_version: Wersja ostateczna
           status: Status
       questions:
         create:
@@ -425,6 +456,8 @@ pl:
           add_option: Dodaj opcję
           title: Pytanie
           title_placeholder: Dodaj pytanie
+          value_placeholder: Dodaj zamkniętą odpowiedź
+          question_options: "Możliwe odpowiedzi (opcjonalne, domyślnie otwarte odpowiedzi)"
         index:
           back: Wróć
           title: Pytania związane z tym procesem
@@ -439,6 +472,16 @@ pl:
           question_options: Opcje pytania
           answers_count: Liczba odpowiedzi
           comments_count: Liczba komentarzy
+        question_option_fields:
+          remove_option: Usuń opcję
+    managers:
+      index:
+        title: Kierownicy
+        name: Nazwisko
+        email: E-mail
+        no_managers: Brak kierowników.
+      manager:
+        add: Dodaj
     menu:
       poll_questions: Pytania
       proposals_topics: Tematy propozycji
