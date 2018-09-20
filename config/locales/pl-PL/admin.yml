@@ -600,9 +600,35 @@ pl:
         action: Podgląd Oczekujący
         preview_of: Podgląd %{name}
         pending_to_be_sent: To jest zawartość oczekująca na wysłanie
+        moderate_pending: Powiadomiene odnośnie moderowania wysłane
+        send_pending: Wyślij oczekujące
+        send_pending_notification: Oczekujące powiadomienia wysłane pomyślnie
+      proposal_notification_digest:
+        title: Przegląd powiadomień o wnioskach
+        description: Zbiera wszystkie powiadomienia o wnioskach dla użytkownika w pojedynczej wiadomości, aby uniknąć zbyt wielu wiadomości e-mail.
+        preview_detail: Użytkownicy otrzymają jedynie powiadomienia odnośnie wniosków, które obserwują
+    emails_download:
+      index:
+        title: Pobieranie e-maili
+        download_segment: Pobierz adresy e-mail
+        download_segment_help_text: Pobierz w formacie CSV
+        download_emails_button: Pobierz listę adresów e-mail
     valuators:
       index:
+        title: Wyceniający
+        name: Nazwisko
         email: E-mail
+        description: Opis
+        no_description: Brak opisu
+        no_valuators: Brak wyceniających.
+        valuator_groups: "Grupy Wyceniające"
+        group: "Grupa"
+        no_group: "Brak grupy"
+      valuator:
+        add: Dodaj do wyceniających
+        delete: Usuń
+      search:
+        title: 'Wyceniający: wyszukiwanie użytkowników'
       show:
         email: "E-mail"
     valuator_groups:
