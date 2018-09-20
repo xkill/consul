@@ -547,6 +547,18 @@ sq:
       date_placeholder: 'DD/MM/YYYY'
       date_range_blank: 'Zgjidhni një datë'
       date_1: 'Zgjidhni një datë'
+      date_2: 'Javën e shkuar'
+      date_3: 'Muajin e kaluar'
+      date_4: 'Vitin e kaluar'
+      from: 'Nga'
+      general: 'Me tekstin'
+      general_placeholder: 'Shkruani tekstin'
+      search: 'Filtër'
+      title: 'Kërkim i avancuar'
+      to: 'Në'
+    author_info:
+      author_deleted: Përdoruesi u fshi
+    back: Kthehu pas
     check: Zgjidh
     check_all: Të gjithë
     check_none: Asnjë
@@ -621,6 +633,28 @@ sq:
     facebook: "Facebook %{org}"
     twitter: "Twitter %{org}"
     youtube: "YouTube %{org}"
+    whatsapp: WhatsApp
+    telegram: "Telegram %{org}"
+    instagram: " Instagram %{org}"
+  spending_proposals:
+    form:
+      association_name_label: 'Nëse propozoni në emër të një shoqate apo kolektivi shtoni emrin këtu'
+      association_name: 'Emri i shoqatës'
+      description: Përshkrimi
+      external_url: Lidhje me dokumentacionin shtesë
+      geozone: Fusha e veprimit
+      submit_buttons:
+        create: Krijo
+        new: Krijo
+      title: Titulli i Shpenzimeve të propozimeve
+    index:
+      title: Buxhetet  pjesëmarrës
+      unfeasible: Investimet e papranueshme
+      by_geozone: "Projektet e investimeve me qëllim: %{geozone}"
+      search_form:
+        button: Kërko
+        placeholder: Projekte investimi...
+        title: Kërko
   users:
     direct_messages:
       new:
