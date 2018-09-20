@@ -62,6 +62,8 @@ pl:
       leave_comment: Zostaw swój komentarz
     orders:
       most_voted: Najbardziej oceniane
+      newest: Najpierw najnowsze
+      oldest: Najpierw najstarsze
       most_commented: Najczęściej komentowane
     select_order: Sortuj według
     show:
@@ -79,8 +81,16 @@ pl:
     debate:
       comments:
         zero: Brak komentarzy
+        one: 1 komentarz
+        few: "%{count} komentarze"
+        many: "%{count} komentarzy"
+        other: "%{count} komentarzy"
       votes:
         zero: Brak głosów
+        one: 1 głos
+        few: "%{count} głosy"
+        many: "%{count} głosów"
+        other: "%{count} głosów"
     edit:
       editing: Edytuj debatę
       form:
