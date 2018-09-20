@@ -629,6 +629,15 @@ pl:
         delete: Usuń
       search:
         title: 'Wyceniający: wyszukiwanie użytkowników'
+      summary:
+        title: Podsumowanie Wyceniającego dla projektów inwestycyjnych
+        valuator_name: Wyceniający
+        finished_and_feasible_count: Zakończone i wykonalne
+        finished_and_unfeasible_count: Zakończone i niewykonalne
+        finished_count: Zakończone
+        in_evaluation_count: W ocenie
+        total_count: Łączny
+        cost: Koszt
       show:
         email: "E-mail"
     valuator_groups:
@@ -652,11 +661,28 @@ pl:
         date: "Data"
         task: "Zadanie"
         table_email: "E-mail"
+    booth_assignments:
+      manage:
+        status:
+          assigned: Przypisany
+          unassigned: Nieprzypisany
+        actions:
+          assign: Przydziel stanowisko
+          unassign: Usuń przydział stanowiska
     poll_booth_assignments:
       alert:
         shifts: "Z tym stoiskiem wiążą się zmiany. Jeśli usuniesz przypisanie stoiska, przesunięcia zostaną również usunięte. Dalej?"
+      flash:
+        destroy: "Stanowisko nie jest już przydzielone"
+        create: "Stanowisko przydzielone"
+        error_destroy: "Wystąpił błąd podczas usuwania przydziału stanowiska"
+        error_create: "Wystąpił błąd podczas przydzielania stanowiska do głosowania"
       show:
         location: "Lokalizacja"
+        officers: "Urzędnicy"
+        officers_list: "Lista urzędników dla tego stanowiska"
+        no_officers: "Brak urzędników dla tego stanowiska"
+        recounts: "Przeliczenia"
     polls:
       index:
         create: "Utwórz głosowanie"
