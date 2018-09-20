@@ -658,8 +658,10 @@ gl:
         empty_notifications: Non hai notificacións para amosar
       new:
         section_title: Novo notificación
+        submit_button: Crear notificación
       edit:
         section_title: Editar notificación
+        submit_button: Actualizar notificación
       show:
         section_title: Vista previa da notificación
         send: Enviar notificación
