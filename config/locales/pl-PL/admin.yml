@@ -213,11 +213,14 @@ pl:
         documents: "Dokumenty"
         see_documents: "Zobacz dokumenty (%{count})"
         no_documents: "Bez dokumentów"
+        valuator_groups: "Grupy Wyceniające"
       edit:
+        classification: Klasyfikacja
         compatibility: Zgodność
         mark_as_incompatible: Oznacz jako niezgodne
         selection: Wybór
         mark_as_selected: Oznacz jako wybrane
+        assigned_valuators: Wyceniający
         select_heading: Wybierz nagłówek
         submit_button: Zaktualizuj
         user_tags: Użytkownik przypisał tagi
@@ -225,18 +228,26 @@ pl:
         tags_placeholder: "Napisz tagi, które chcesz oddzielić przecinkami (,)"
         undefined: Niezdefiniowany
         user_groups: "Grupy"
+      search_unfeasible: Szukaj niewykonalne
     milestones:
       index:
+        table_id: "IDENTYFIKATOR"
         table_title: "Tytuł"
         table_description: "Opis"
         table_publication_date: "Data publikacji"
         table_status: Status
         table_actions: "Akcje"
+        delete: "Usuń wydarzenie"
+        no_milestones: "Nie ma zdefiniowanych wydarzeń"
+        image: "Obraz"
         show_image: "Pokaż obraz"
         documents: "Dokumenty"
       form:
+        admin_statuses: Zarządzaj statusami inwestycyjnymi
         no_statuses_defined: Nie ma jeszcze zdefiniowanych statusów inwestycyjnych
       new:
+        creating: Utwórz wydarzenie
+        date: Data
         description: Opis
       edit:
         title: Edytuj kamień milowy
@@ -336,8 +347,10 @@ pl:
           process: Proces
           debate_phase: Faza debaty
           allegations_phase: Faza rysunkowa
+          proposals_phase: Etap składania wniosków
           start: Początek
           end: Koniec
+          use_markdown: Sformatuj tekst za pomocą Markdown
           title_placeholder: Tytuł procesu
           summary_placeholder: Krótkie podsumowanie opisu
           description_placeholder: Dodaj opis procesu
@@ -345,6 +358,7 @@ pl:
         index:
           create: Nowy proces
           delete: Usuń
+          title: Procesy legislacyjne
           filters:
             open: Otwórz
             next: Następny
