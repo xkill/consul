@@ -349,14 +349,44 @@ pl:
       tags_instructions: "Otaguj ten wniosek. Możesz wybrać spośród proponowanych kategorii lub dodać własną"
       tags_label: Tagi
       tags_placeholder: "Wprowadź oznaczenia, których chciałbyś użyć, rozdzielone przecinkami (',')"
+      map_location: "Lokalizacja na mapie"
+      map_location_instructions: "Nakieruj mapę na lokalizację i umieść znacznik."
+      map_remove_marker: "Usuń znacznik mapy"
+      map_skip_checkbox: "Niniejszy wniosek nie ma konkretnej lokalizacji lub o niej nie wiem."
     index:
+      featured_proposals: Opisany
+      filter_topic:
+        one: " z tematem %{topic}"
+        few: " z tematami %{topic}"
+        many: " z tematami %{topic}"
+        other: " z tematami %{topic}"
       orders:
+        confidence_score: najwyżej oceniane
         created_at: najnowsze
+        hot_score: najbardziej aktywne
         most_commented: najczęściej komentowane
+        relevance: stosowność
+        archival_date: zarchiwizowane
+        recommendations: rekomendacje
+      recommendations:
+        without_results: Brak wniosków związanych z Twoimi zainteresowaniami
+        without_interests: Śledź wnioski, abyśmy mogli przedstawić Ci rekomendacje
+        disable: "Rekomendacje wniosków przestaną się wyświetlać, jeśli je odrzucisz. Możesz je ponownie włączyć na stronie \"Moje konto\""
+        actions:
+          success: "Rekomendacje wniosków są teraz wyłączone dla tego konta"
+          error: "Wystąpił błąd. Przejdź na stronę \"Twoje konto\", aby ręcznie wyłączyć rekomendacje wniosków"
+      retired_proposals: Wnioski wycofane
+      retired_proposals_link: "Wnioski wycofane przez autora"
       retired_links:
+        all: Wszystkie
+        duplicated: Zduplikowane
+        started: W toku
+        unfeasible: Niewykonalne
+        done: Gotowe
         other: Inne
       search_form:
         button: Szukaj
+        placeholder: Szukaj wniosków...
         title: Szukaj
       search_results_html:
         one: " zawierające termin <strong>'%{search_term}'</strong>"
