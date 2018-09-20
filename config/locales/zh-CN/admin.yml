@@ -1105,7 +1105,7 @@ zh-CN:
         title: 参与性预算的投资项目
         assigned_admin: 指定的管理员
         no_admin_assigned: 没有指定管理员
-        no_valuators_assigned: 没有指定的评估员
+        no_valuators_assigned: 没有指定评估员
         summary_link: "投资项目总结"
         valuator_summary_link: "评估员总结"
         feasibility:
@@ -1155,7 +1155,7 @@ zh-CN:
         name: 名字
         external_code: 外部代码
         census_code: 人口普查代码
-        coordinates: 协调
+        coordinates: 坐标
       errors:
         form:
           error:
@@ -1204,13 +1204,13 @@ zh-CN:
           debates: 辩论
           proposal_votes: 提议投票数
           proposals: 提议
-          budgets: 开发式预算
+          budgets: 开放式预算
           budget_investments: 投资项目
           spending_proposals: 支出提议
           unverified_users: 未验证的用户
           user_level_three: 三级用户
           user_level_two: 二级用户
-          users: 总用户
+          users: 总用户数
           verified_users: 已验证的用户
           verified_users_who_didnt_vote_proposals: 没有投票提议的已验证用户
           visits: 访问
@@ -1218,7 +1218,7 @@ zh-CN:
         spending_proposals_title: 支出提议
         budgets_title: 参与性预算
         visits_title: 访问
-        direct_messages: 直接信息
+        direct_messages: 直接消息
         proposal_notifications: 提议通知
         incomplete_verifications: 不完全验证
         polls: 投票
