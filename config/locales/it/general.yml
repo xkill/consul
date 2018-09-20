@@ -595,9 +595,55 @@ it:
           other: "Esistono già altri investimenti col termine '%{query}', puoi partecipare a quelli invece che aprirne un altro."
         message: "Stai visualizzando %{limit} di %{count} investimenti contenenti il termine '%{query}'"
         see_all: "Vedi tutti"
+      proposal:
+        found:
+          one: "Esiste già una proposta col termine '%{query}', puoi partecipare a quella invece che crearne un’altra"
+          other: "Esistono già altre proposte col termine '%{query}', puoi partecipare a quelle invece che crearne un’altra"
+        message: "Stai visualizzando %{limit} di %{count} proposte contenenti il termine '%{query}'"
+        see_all: "Vedi tutte"
+    tags_cloud:
+      tags: Di tendenza
+      districts: "Distretti"
+      districts_list: "Lista dei distretti"
+      categories: "Categorie"
+    target_blank_html: " (il link si apre in una nuova finestra)"
+    you_are_in: "Sei entrato"
+    unflag: Rimuovi il flag
+    unfollow_entity: "Non seguire più %{entity}"
+    outline:
+      budget: Bilancio partecipativo
+      searcher: Motore di ricerca
+    go_to_page: "Vai alla pagina di "
+    share: Condividi
+    orbit:
+      previous_slide: Diapositiva Precedente
+      next_slide: Diapositiva Successiva
+    documentation: Documentazione aggiuntiva
+    view_mode:
+      title: Modalità di visualizzazione
+      cards: Schede
+      list: Elenco
+    recommended_index:
+      title: Raccomandazioni
+      see_more: Visualizza ulteriori raccomandazioni
+      hide: Nascondi raccomandazioni
+  social:
+    blog: "Blog di %{org}"
+    facebook: "Facebook di %{org}"
+    twitter: "Twitter di %{org}"
+    youtube: "YouTube di %{org}"
+    whatsapp: WhatsApp
+    telegram: "Telegram di %{org}"
+    instagram: "Instagram di %{org}"
   spending_proposals:
     form:
+      association_name_label: 'Se proponete in nome di un''associazione o altro gruppo aggiungete qui il nome'
+      association_name: 'Nome Associazione'
+      description: Descrizione
+      external_url: Link alla documentazione integrativa
+      geozone: Ambito operativo
       submit_buttons:
+        create: Crea
         new: Crea
       title: Titolo della proposta di spesa
     index:
@@ -620,9 +666,16 @@ it:
       more_info: Come funziona il bilancio partecipativo?
       recommendation_one: È obbligatorio che la proposta faccia riferimento a un’attività inseribile a bilancio.
       recommendation_three: Cerca di entrare molto nel dettaglio descrivendo la tua proposta di spesa così che il gruppo dei revisori capisca le tue argomentazioni.
+      recommendation_two: Qualsiasi proposta o commento che suggerisca azioni illegali verrà eliminato.
+      recommendations_title: Come creare una proposta di spesa
   stats:
     index:
       visits: Visite
       votes: Voti totali
       verified_users: Utenti verificati
       unverified_users: Utenti non verificati
+  users:
+    proposals:
+      retire: "Ritira"
+      retired: "Ritira proposta"
+      see: "Visualizza proposta"
