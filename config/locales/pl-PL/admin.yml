@@ -204,6 +204,7 @@ pl:
         user_tags: Tagi użytkownika
         undefined: Niezdefiniowany
         winner:
+          title: Zwycięzca
           "true": "Tak"
           "false": "Nie"
         image: "Obraz"
