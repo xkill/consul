@@ -105,7 +105,7 @@ gl:
         other: " co tema '%{topic}'"
       orders:
         confidence_score: Máis apoiados
-        created_at: novos
+        created_at: Novos
         hot_score: Máis activos
         most_commented: Máis comentados
         relevance: Máis relevantes
@@ -260,7 +260,7 @@ gl:
     notification:
       action:
         comments_on:
-          one: Hai un novo comentario en
+          one: Hai un comentario novo en
           other: Hai %{count} comentarios novos en
         proposal_notification:
           one: Hai unha notificación nova en
