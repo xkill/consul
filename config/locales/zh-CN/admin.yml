@@ -1098,7 +1098,7 @@ zh-CN:
         filters:
           valuation_open: 打开
           without_admin: 没有指定的管理员
-          managed: 管理
+          managed: 已管理
           valuating: 评估中
           valuation_finished: 评估已完成
           all: 所有
