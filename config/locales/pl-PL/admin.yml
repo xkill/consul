@@ -833,7 +833,12 @@ pl:
       flash:
         updated: Wartość zaktualizowana
       index:
-        banners: Style banerowe
+        banners: Style banerów
+        banner_imgs: Obrazy banerów
+        no_banners_images: Brak obrazów banerów
+        no_banners_styles: Brak styli banerów
+        title: Ustawienia konfiguracji
+        update_setting: Zaktualizuj
         map:
           help: Tutaj możesz dostosować sposób wyświetlania mapy użytkownikom. Przeciągnij znacznik mapy lub kliknij w dowolnym miejscu na mapie, ustaw żądane przybliżenie i kliknij przycisk "Aktualizuj".
           flash:
@@ -895,7 +900,33 @@ pl:
         heading: "Projekt inwestycyjny %{id}"
         edit: Edytuj
         edit_classification: Edytuj klasyfikację
+    geozones:
+      errors:
+        form:
+          error:
+            one: "błąd uniemożliwił zapisanie tej geostrefy"
+            few: 'błędy uniemożliwiły zapisanie tej geostrefy'
+            many: 'błędy uniemożliwiły zapisanie tej geostrefy'
+            other: 'błędy uniemożliwiły zapisanie tej geostrefy'
+      edit:
+        form:
+          submit_button: Zapisz zmiany
+        editing: Edytowanie geostrefy
+        back: Wróć
+      new:
+        back: Wróć
+        creating: Utwórz dzielnicę
+      delete:
+        success: Geostrefa pomyślnie usunięta
+        error: Ta geostrefa nie może zostać usunięta, ponieważ istnieją elementy dołączone do niej
     signature_sheets:
+      author: Autor
+      created_at: Data utworzenia
+      name: Nazwisko
+      no_signature_sheets: "Brak arkuszy_podpisu"
+      index:
+        title: Arkusze podpisu
+        new: Nowe arkusze podpisów
       new:
         title: Nowe arkusze podpisów
         document_numbers_note: "Napisz liczby oddzielone przecinkami (,)"
@@ -953,14 +984,35 @@ pl:
           poll_name: Ankieta
           question_name: Pytanie
           origin_web: Uczestnicy sieci
+          origin_total: Całkowity udział
     tags:
+      create: Stwórz temat
+      destroy: Zniszcz temat
       index:
+        add_tag: Dodaj nowy temat wniosku
+        title: Tematy wniosków
+        topic: Temat
         help: "Gdy użytkownik tworzy wniosek, sugerowane są następujące tematy jako tagi domyślne."
       name:
         placeholder: Wpisz nazwę tematu
     users:
+      columns:
+        name: Nazwisko
+        email: E-mail
+        document_number: Numer dokumentu
+        roles: Role
+        verification_level: Poziom weryfikacji
+      index:
+        title: Użytkownik
+        no_users: Brak użytkowników.
       search:
         placeholder: Wyszukaj użytkownika za pomocą adresu e-mail, nazwiska lub numeru dokumentu
+        search: Szukaj
+    verifications:
+      index:
+        phone_not_given: Telefon nie został podany
+        sms_code_not_confirmed: Nie potwierdził kodu sms
+        title: Niekompletne weryfikacje
     site_customization:
       content_blocks:
         about: Możesz tworzyć bloki zawartości HTML, które będą wstawiane do nagłówka lub stopki twojego CONSUL.
