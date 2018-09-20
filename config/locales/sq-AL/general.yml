@@ -655,6 +655,49 @@ sq:
         button: Kërko
         placeholder: Projekte investimi...
         title: Kërko
+      search_results:
+        one: "që përmbajnë termin '%{search_term}'"
+        other: "që përmbajnë termin '%{search_term}'"
+      sidebar:
+        geozones: Fusha e veprimit
+        feasibility: Fizibiliteti
+        unfeasible: Parealizueshme
+      start_spending_proposal: Krijo një projekt investimi
+    new:
+      more_info: Si funksionon buxheti  pjesëmarrjës?
+      recommendation_one: Është e detyrueshme që propozimi t'i referohet një veprimi buxhetor.
+      recommendation_three: Mundohuni të hyni në detaje kur përshkruani propozimin tuaj të shpenzimeve, që ekipi shqyrtues ti kuptojë pikat tuaja.
+      recommendation_two: Çdo propozim ose koment që sugjeron veprime të paligjshme do të fshihet.
+      recommendations_title: Si të krijoni një propozim shpenzimi
+      start_new: Krijo propozimin e shpenzimeve
+    show:
+      author_deleted: Përdoruesi u fshi
+      code: 'Kodi Propozimit'
+      share: Shpërndaj
+    wrong_price_format: Vetëm numra të plotë
+    spending_proposal:
+      spending_proposal: Projekt investimi
+      already_supported: Ju e keni mbështetur tashmë këtë propozim. Shperndaje!
+      support: Suporti
+      support_title: Mbështetni këtë projekt
+      supports:
+        zero: Asnjë mbështetje
+        one: 1  mbështetje
+        other: "%{count} mbështetje"
+  stats:
+    index:
+      visits: Vizitat
+      debates: Debatet
+      proposals: Propozime
+      comments: Komente
+      proposal_votes: Voto propozimet
+      debate_votes: Voto debatet
+      comment_votes: Voto komentet
+      votes: Totali i votimeve
+      verified_users: Përdoruesit e verifikuar
+      unverified_users: Përdoruesit e paverifikuar
+  unauthorized:
+    default: Nuk ke leje për të hyrë në këtë faqe.
   users:
     direct_messages:
       new:
@@ -709,6 +752,26 @@ sq:
       not_verified: Vetëm përdoruesit e verifikuar mund të votojnë për propozimet; %{verify_account}.
       organization: Organizatat nuk lejohen të votojnë
       not_voting_allowed: Faza e zgjedhjes është e mbyllur
+  welcome:
+    verification:
+      i_dont_have_an_account: Unë nuk kam një llogari
+      i_have_an_account: Unë  kam tashmë një llogari
+      question: A keni një llogari në %{org_name} ?
+      title: Verifikimi llogarisë
+    welcome:
+      go_to_index: Shiko propozimet dhe debatet
+      title: Mer pjesë
+      user_permission_debates: Merrni pjesë në debate
+      user_permission_info: Me llogarinë tuaj ju mund të...
+      user_permission_proposal: Krijo propozime të reja
+      user_permission_support_proposal: Përkrahni propozimet
+      user_permission_verify: Për të kryer të gjitha veprimet verifikoni llogarinë tuaj.
+      user_permission_verify_info: "* Vetëm për përdoruesit e regjistruar."
+      user_permission_verify_my_account: Verifikoni llogarinë time
+      user_permission_votes: Merrni pjesë në votimin përfundimtar
+  invisible_captcha:
+    sentence_for_humans: "Nëse jeni njerëzor, injoroni këtë fushë"
+    timestamp_error_message: "Na vjen keq, kjo ishte shumë e shpejtë! Ju lutemi ri-dërgoni."
   related_content:
     title: "Përmbajtja e ngjashme"
     add: "Shto përmbajtje të ngjashme"
@@ -717,6 +780,9 @@ sq:
     help: "Ju mund të shtoni lidhjet e %{models} brenda %{org}."
     submit: "Shto"
     error: "Lidhja nuk është e vlefshme. Mos harroni të filloni me %{url}."
+    error_itself: "Lidhja nuk është e vlefshme. Ju nuk mund të krijoni një lidhje me veten."
+    success: "Ju keni shtuar një përmbajtje të re të ngjashme"
+    is_related: "¿A është përmbajtja e afërt?"
     score_positive: "Po"
     score_negative: "Jo"
     content_title:
@@ -728,6 +794,8 @@ sq:
       title: Administrim
   annotator:
     help:
+      alt: Zgjidhni tekstin që dëshironi të komentoni dhe shtypni butonin me laps.
+      text: Për të komentuar këtë dokument duhet të %{sign_in} ose %{sign_up}. Pastaj zgjidhni tekstin që dëshironi të komentoni dhe shtypni butonin me laps.
       text_sign_in: Kycu
       text_sign_up: Rregjistrohu
       title: Si mund ta komentoj këtë dokument?
