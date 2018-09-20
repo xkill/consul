@@ -469,6 +469,7 @@ it:
       already_answer: "Hai già partecipato a questa votazione"
       not_logged_in: "È necessario accedere o registrarsi per partecipare"
       unverified: "È necessario verificare il tuo account per partecipare"
+      cant_answer: "Questa votazione non è disponibile nella tua zona"
       section_header:
         icon_alt: Icona di voto
         title: Voto
@@ -571,8 +572,29 @@ it:
           notice_html: "Ora segui questo progetto di investimento! </br> Ti notificheremo i cambiamenti man mano che si realizzano così che tu possa rimanere aggiornato."
         destroy:
           notice_html: "Hai smesso di seguire questo progetto di investimento! </br> Non riceverai più notifiche relative a questo progetto."
+      proposal:
+        create:
+          notice_html: "Ora segui questa proposta cittadina! </br> Ti notificheremo i cambiamenti man mano che si realizzano così che tu possa rimanere aggiornato."
+        destroy:
+          notice_html: "Hai smesso di seguire questa proposta cittadina! </br> Non riceverai più notifiche relative a questa proposta."
     hide: Nascondi
+    print:
+      print_button: Stampa queste informazioni
+    search: Cerca
     show: Mostra
+    suggest:
+      debate:
+        found:
+          one: "Esiste già un dibattito col termine '%{query}', puoi partecipare a quello invece che aprirne un altro."
+          other: "Esistono già altri dibattiti col termine '%{query}', puoi partecipare a quelli invece che aprirne un altro."
+        message: "Stai visualizzando %{limit} di %{count} dibattiti contenenti il termine '%{query}'"
+        see_all: "Vedi tutti"
+      budget_investment:
+        found:
+          one: "Esiste già un investimento col termine '%{query}', puoi partecipare a quello invece che aprirne un altro."
+          other: "Esistono già altri investimenti col termine '%{query}', puoi partecipare a quelli invece che aprirne un altro."
+        message: "Stai visualizzando %{limit} di %{count} investimenti contenenti il termine '%{query}'"
+        see_all: "Vedi tutti"
   spending_proposals:
     form:
       submit_buttons:
