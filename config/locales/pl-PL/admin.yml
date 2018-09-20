@@ -683,24 +683,76 @@ pl:
         officers_list: "Lista urzędników dla tego stanowiska"
         no_officers: "Brak urzędników dla tego stanowiska"
         recounts: "Przeliczenia"
+        recounts_list: "Ponownie przelicz listę dla tego stanowiska"
+        results: "Wyniki"
+        date: "Data"
+        count_final: "Ostateczne przeliczenie (przez urzędnika)"
+        count_by_system: "Głosy (automatyczne)"
+        total_system: Całkowita liczba głosów (automatyczne)
+      index:
+        booths_title: "Lista stanowisk"
+        no_booths: "Brak stanowisk przydzielonych do tego głosowania."
+        table_name: "Nazwisko"
+        table_location: "Lokalizacja"
     polls:
       index:
+        title: "Lista aktywnych głosowań"
+        no_polls: "Brak nadchodzących głosowań."
         create: "Utwórz głosowanie"
         name: "Nazwa"
         dates: "Daty"
+        geozone_restricted: "Ograniczone do dzielnic"
       new:
         title: "Nowe głosowanie"
+        show_results_and_stats: "Pokaż wyniki i statystyki"
         show_results: "Pokaż wyniki"
         show_stats: "Pokaż statystyki"
+        results_and_stats_reminder: "Zaznaczenie tych pól wyboru wyników i / lub statystyk tego głosowania udostępni je publicznie i każdy użytkownik je zobaczy."
+        submit_button: "Utwórz głosowanie"
+      edit:
+        title: "Edytuj głosowanie"
+        submit_button: "Aktualizuj głosowanie"
+      show:
+        questions_tab: Pytania
+        booths_tab: Stanowiska
+        officers_tab: Urzędnicy
+        recounts_tab: Przeliczanie
+        results_tab: Wyniki
+        no_questions: "Brak pytań przydzielonych do tego głosowania."
+        questions_title: "Lista pytań"
+        table_title: "Tytuł"
+      flash:
+        question_added: "Pytanie dodane do tego głosowania"
+        error_on_question_added: "Pytanie nie mogło zostać przypisane do tego głosowania"
     questions:
       index:
+        title: "Pytania"
+        create: "Utwórz pytanie"
         no_questions: "Nie ma pytań."
         filter_poll: Filtruj według ankiety
         select_poll: Wybierz ankietę
         questions_tab: "Pytania"
+        successful_proposals_tab: "Udane wnioski"
+        create_question: "Utwórz pytanie"
+        table_proposal: "Wniosek"
+        table_question: "Pytanie"
+      edit:
+        title: "Edytuj Pytanie"
+      new:
+        title: "Utwórz Pytanie"
+        poll_label: "Głosowanie"
+      answers:
+        images:
+          add_image: "Dodaj obraz"
     booths:
       index:
         no_booths: "Nie ma aktywnych kabin dla nadchodzącej ankiety."
+        location: "Lokalizacja"
+        no_location: "Brak Lokalizacji"
+      new:
+        title: "Nowe stanowisko"
+        name: "Nazwisko"
+        location: "Lokalizacja"
     officials:
       flash:
         official_destroyed: 'Szczegóły zapisane: użytkownik nie jest już oficjalny'
