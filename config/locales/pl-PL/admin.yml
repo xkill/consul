@@ -753,16 +753,60 @@ pl:
         title: "Nowe stanowisko"
         name: "Nazwisko"
         location: "Lokalizacja"
+        submit_button: "Utwórz stanowisko"
+      edit:
+        title: "Edytuj stanowisko"
+        submit_button: "Zaktualizuj stanowisko"
+      show:
+        location: "Lokalizacja"
+      booth:
+        shifts: "Zarządzaj zmianami"
+        edit: "Edytuj stanowisko"
     officials:
+      edit:
+        destroy: Usuń status 'Oficjalny'
+        title: 'Urzędnicy: Edytuj użytkownika'
       flash:
         official_destroyed: 'Szczegóły zapisane: użytkownik nie jest już oficjalny'
+        official_updated: Szczegóły o urzędniku zapisane
+      index:
+        title: Urzędnicy
+        no_officials: Brak urzędników.
+        name: Nombre
+        official_position: Oficjalne stanowisko
+        official_level: Poziom
+      level_0: Nieurzędowe
+      level_1: Poziom 1
+      level_2: Poziom 2
+      level_3: Poziom 3
+      level_4: Poziom 4
+      level_5: Poziom 5
+      search:
+        edit_official: Edytuj urzędnika
+        make_official: Uczyń urzędowym
+        title: 'Oficjalne stanowiska: Szukaj użytkownika'
+        no_results: Oficjalne stanowiska nie znalezione.
     organizations:
       index:
+        filter: Filtr
+        filters:
+          all: Wszystkie
+          pending: Oczekujące
+          rejected: Odrzucone
+          verified: Zweryfikowane
         name: Nazwa
         email: E-mail
         phone_number: Telefon
         responsible_name: Odpowiedzialny
         status: Status
+        no_organizations: Brak organizacji.
+        reject: Odrzuć
+        rejected: Odrzucone
+        search: Szukaj
+        search_placeholder: Nazwisko, adres e-mail lub numer telefonu
+        title: Organizacje
+        verified: Zweryfikowane
+        verify: Weryfikuj
         pending: Oczekujące
       search:
         title: Szukaj organizacji
@@ -774,6 +818,8 @@ pl:
           all: Wszystko
           with_confirmed_hide: Potwierdzone
           without_confirmed_hide: Oczekujące
+        title: Ukryte wnioski
+        no_hidden_proposals: Brak ukrytych wniosków.
     proposal_notifications:
       index:
         filter: Filtr
@@ -787,6 +833,7 @@ pl:
       flash:
         updated: Wartość zaktualizowana
       index:
+        banners: Style banerowe
         map:
           help: Tutaj możesz dostosować sposób wyświetlania mapy użytkownikom. Przeciągnij znacznik mapy lub kliknij w dowolnym miejscu na mapie, ustaw żądane przybliżenie i kliknij przycisk "Aktualizuj".
           flash:
