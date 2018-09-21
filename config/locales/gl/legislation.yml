@@ -82,7 +82,6 @@ gl:
         key_dates: Datas chave
         debate_dates: Debate
         draft_publication_date: Publicación do borrador
-        allegations_dates: Alegaciós
         result_publication_date: Publicación do resultado final
         proposals_dates: Propostas
     questions:
