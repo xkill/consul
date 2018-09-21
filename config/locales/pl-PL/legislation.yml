@@ -83,7 +83,6 @@ pl:
         key_dates: Najważniejsze daty
         debate_dates: Debata
         draft_publication_date: Projekt publikacji
-        allegations_dates: Zarzuty
         result_publication_date: Publikacja wyniku końcowego
         proposals_dates: Wnioski
     questions:
