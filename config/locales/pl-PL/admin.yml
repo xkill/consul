@@ -581,6 +581,7 @@ pl:
         title: Administrator
         name: Nazwisko
         email: E-mail
+        no_administrators: Brak administratorów.
       administrator:
         add: Dodaj
         delete: Usuń
@@ -596,12 +597,18 @@ pl:
       moderator:
         add: Dodaj
         delete: Usuń
+      search:
+        title: 'Moderatorzy: Wyszukiwanie użytkownika'
     segment_recipient:
+      all_users: Wszyscy użytkownicy
+      administrators: Administratorzy
+      proposal_authors: Autorzy wniosku
       investment_authors: Autorzy inwestycji w bieżącym budżecie
       feasible_and_undecided_investment_authors: "Autorzy niektórych inwestycji w obecnym budżecie, którzy nie są zgodni z: [wycena zakończona niemożliwa]"
       selected_investment_authors: Autorzy wybranych inwestycji w obecnym budżecie
       winner_investment_authors: Autorzy zwycięzców inwestycji w obecnym budżecie
       not_supported_on_current_budget: Użytkownicy, którzy nie wspierają inwestycji przy bieżącym budżecie
+      invalid_recipients_segment: "Segment użytkowników odbiorców jest nieprawidłowy"
     newsletters:
       create_success: Biuletyn utworzony pomyślnie
       update_success: Biuletyn zaktualizowano pomyślnie
@@ -829,9 +836,68 @@ pl:
       answers:
         images:
           add_image: "Dodaj obraz"
+      show:
+        video_url: Zewnętrzne video
+        answers:
+          title: Odpowiedź
+          description: Opis
+          videos: Filmy
+          video_list: Lista filmów
+          images: Obrazy
+          images_list: Lista obrazów
+          documents: Dokumenty
+          documents_list: Lista dokumentów
+          document_title: Tytuł
+          document_actions: Akcje
+    answers:
+      new:
+        title: Nowa odpowiedź
+      show:
+        title: Tytuł
+        description: Opis
+        images: Obrazy
+        images_list: Lista obrazów
+        edit: Edytuj odpowiedź
+      edit:
+        title: Edytuj odpowiedź
+      videos:
+        index:
+          title: Filmy
+          add_video: Dodaj film
+          video_title: Tytuł
+          video_url: Zewnętrzne video
+        new:
+          title: Nowe wideo
+        edit:
+          title: Edytuj film
+    recounts:
+      index:
+        title: "Przeliczenia"
+        no_recounts: "Nie ma nic do przeliczenia"
+        table_booth_name: "Kabina wyborcza"
+        table_total_recount: "Całkowite przeliczenie (przez urzędnika)"
+        table_system_count: "Głosy (automatyczne)"
+    results:
+      index:
+        title: "Wyniki"
+        no_results: "Brak wyników"
+      result:
+        table_whites: "Całkowicie puste karty do głosowania"
+        table_nulls: "Nieprawidłowe karty do głosowania"
+        table_total: "Całkowita liczba kart do głosowania"
+        table_answer: Odpowiedź
+        table_votes: Głosy
+      results_by_booth:
+        booth: Kabina wyborcza
+        results: Wyniki
+        see_results: Zobacz wyniki
+        title: "Wyniki według kabiny wyborczej"
     booths:
       index:
+        title: "Lista aktywnych kabin wyborczych"
         no_booths: "Nie ma aktywnych kabin dla nadchodzącej ankiety."
+        add_booth: "Dodaj kabinę wyborczą"
+        name: "Nazwisko"
         location: "Lokalizacja"
         no_location: "Brak Lokalizacji"
       new:
@@ -924,6 +990,10 @@ pl:
         no_banners_styles: Brak styli banerów
         title: Ustawienia konfiguracji
         update_setting: Zaktualizuj
+        feature_flags: Funkcje
+        features:
+          enabled: "Funkcja jest włączona"
+          disabled: "Funkcja wyłączona"
         map:
           help: Tutaj możesz dostosować sposób wyświetlania mapy użytkownikom. Przeciągnij znacznik mapy lub kliknij w dowolnym miejscu na mapie, ustaw żądane przybliżenie i kliknij przycisk "Aktualizuj".
           flash:
