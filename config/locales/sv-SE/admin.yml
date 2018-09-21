@@ -372,7 +372,6 @@ sv:
           enabled: Aktiverad
           process: Process
           debate_phase: Diskussionsfas
-          allegations_phase: Utkastsfas
           proposals_phase: Förslagsfas
           start: Start
           end: Slut
