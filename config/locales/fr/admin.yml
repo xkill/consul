@@ -371,7 +371,6 @@ fr:
           enabled: Activé
           process: Processus
           debate_phase: Phase de débat
-          allegations_phase: Phase de brouillon
           proposals_phase: Phase de propositions
           start: Début
           end: Fin
