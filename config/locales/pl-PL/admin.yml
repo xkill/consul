@@ -346,7 +346,6 @@ pl:
           enabled: Włączone
           process: Proces
           debate_phase: Faza debaty
-          allegations_phase: Faza rysunkowa
           proposals_phase: Etap składania wniosków
           start: Początek
           end: Koniec
