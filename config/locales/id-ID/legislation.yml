@@ -73,7 +73,6 @@ id:
         key_dates: Tanggal kunci
         debate_dates: Perdebatan
         draft_publication_date: Konsep publikasi
-        allegations_dates: Tuduhan
         result_publication_date: Hasil akhir publikasi
         proposals_dates: Proposal
     questions:
