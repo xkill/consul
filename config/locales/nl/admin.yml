@@ -372,7 +372,6 @@ nl:
           enabled: Actief
           process: Plan
           debate_phase: Debatfase
-          allegations_phase: Beschuldiginsfase
           proposals_phase: Voorstelfase
           start: Start
           end: Eind
