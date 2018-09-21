@@ -76,7 +76,6 @@ es-BO:
         key_dates: Fechas clave
         debate_dates: Debate previo
         draft_publication_date: Publicación borrador
-        allegations_dates: Alegaciones
         result_publication_date: Publicación resultados
         proposals_dates: Propuestas
     questions:
