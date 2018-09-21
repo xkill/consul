@@ -82,7 +82,6 @@ val:
         key_dates: Dates clau
         debate_dates: Debat
         draft_publication_date: Data de publicació de l'esborrany
-        allegations_dates: Alegacions
         result_publication_date: Publicació de resultats
         proposals_dates: Propostes
     questions:
