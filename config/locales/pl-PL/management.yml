@@ -10,7 +10,11 @@ pl:
         title: Konto użytkownika
       edit:
         title: 'Edytuj konto użytkownika: Zresetuj hasło'
+        back: Wstecz
         password:
+          password: Hasło
+          send_email: Wyślij wiadomość e-mail dotyczącą resetowania hasła
+          reset_email_send: Wiadomość e-mail wysłana prawidłowo.
           reseted: Hasło pomyślnie zresetowano
           random: Wygeneruj losowe hasło
           save: Zapisz hasło
@@ -33,17 +37,23 @@ pl:
     document_verifications:
       already_verified: To konto użytkownika jest już zweryfikowane.
       has_no_account_html: Aby założyć konto, przejdź do %{link} i kliknij <b>"Zarejestruj się"</b> w lewej górnej części ekranu.
+      link: KONSUL
       in_census_has_following_permissions: 'Ten użytkownik może uczestniczyć w witrynie z następującymi uprawnieniami:'
       not_in_census: Ten dokument nie jest zarejestrowany.
       not_in_census_info: 'Obywatele spoza Census mogą w nim uczestniczyć z następującymi uprawnieniami:'
       please_check_account_data: Sprawdź, czy powyższe dane konta są poprawne.
       title: Zarządzanie użytkownikami
       under_age: "Nie masz wymaganego wieku, aby zweryfikować swoje konto."
+      verify: Weryfikuj
+    email_label: E-mail
+    date_of_birth: Data urodzenia
     email_verifications:
       already_verified: To konto użytkownika jest już zweryfikowane.
       choose_options: 'Wybierz jedną z następujących opcji:'
       document_found_in_census: Ten dokument został znaleziony w census, ale nie ma powiązania z nim konta użytkownika.
       document_mismatch: 'Ten adres e-mail należy do użytkownika, który ma już powiązany identyfikator: %{document_number}(%{document_type})'
+      email_placeholder: Napisz wiadomość e-mail, której ta osoba użyła do utworzenia swojego konta
+      email_sent_instructions: Aby całkowicie zweryfikować tego użytkownika, konieczne jest, aby użytkownik kliknął link, który wysłaliśmy na powyższy adres e-mail. Ten krok jest potrzebny, aby potwierdzić, że adres należy do niego.
     menu:
       support_budget_investments: Wspieraj inwestycje budżetowe
       users: Zarządzanie użytkownikami
