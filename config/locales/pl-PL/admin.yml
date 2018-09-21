@@ -992,12 +992,17 @@ pl:
         update_setting: Zaktualizuj
         feature_flags: Funkcje
         features:
-          enabled: "Funkcja jest włączona"
+          enabled: "Funkcja włączona"
           disabled: "Funkcja wyłączona"
+          enable: "Włącz"
+          disable: "Wyłącz"
         map:
+          title: Konfiguracja mapy
           help: Tutaj możesz dostosować sposób wyświetlania mapy użytkownikom. Przeciągnij znacznik mapy lub kliknij w dowolnym miejscu na mapie, ustaw żądane przybliżenie i kliknij przycisk "Aktualizuj".
           flash:
             update: Aktualizacja mapy została pomyślnie zaktualizowana.
+          form:
+            submit: Zaktualizuj
     shared:
       booths_search:
         placeholder: Wyszukaj stoisko według nazwy
@@ -1200,6 +1205,12 @@ pl:
           names:
             top_links: Najważniejsze Łącza
             footer: Stopka
+      images:
+        update:
+          error: Nie można zaktualizować obrazu
+        destroy:
+          notice: Obraz został pomyślnie usunięty
+          error: Nie można usunąć obrazu
       pages:
         create:
           notice: Strona utworzona pomyślnie
