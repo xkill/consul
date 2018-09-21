@@ -370,7 +370,6 @@ zh-TW:
           enabled: 啟用
           process: 進程
           debate_phase: 辯論階段
-          allegations_phase: 起草階段
           proposals_phase: 建議階段
           start: 開始
           end: 結束
