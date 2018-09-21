@@ -372,7 +372,6 @@ sq:
           enabled: Aktivizuar
           process: Proçes
           debate_phase: Faza e debatit
-          allegations_phase: Faza e draftit
           proposals_phase: Faza e propozimit
           start: Fillo
           end: Fund
