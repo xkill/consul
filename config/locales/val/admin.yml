@@ -370,7 +370,6 @@ val:
           enabled: Activa
           process: Procés
           debate_phase: Fase prèvia
-          allegations_phase: Fase d'al·legacions
           proposals_phase: Fase de propostes
           start: Inici
           end: Fi
