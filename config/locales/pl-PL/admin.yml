@@ -232,6 +232,7 @@ pl:
         selection:
           title: Wybór
           "true": Wybrany
+          "false": Nie zaznaczone
         winner:
           title: Zwycięzca
           "true": "Tak"
@@ -375,6 +376,7 @@ pl:
           enabled: Włączone
           process: Proces
           debate_phase: Faza debaty
+          allegations_phase: Faza Komentarzy
           proposals_phase: Etap składania wniosków
           start: Początek
           end: Koniec
@@ -514,9 +516,13 @@ pl:
       search:
         title: 'Menedżerowie: wyszukiwanie użytkowników'
     menu:
+      activity: Aktywność moderatora
+      admin: Menu admina
+      banner: Zarządzaj banerami
       poll_questions: Pytania
       proposals_topics: Tematy propozycji
       budgets: Budżety partycypacyjne
+      geozones: Zarządzaj geostrefami
       hidden_comments: Ukryte komentarze
       hidden_debates: Ukryte debaty
       hidden_proposals: Ukryte propozycje
@@ -527,12 +533,53 @@ pl:
       managers: Menedżerowie
       moderators: Moderatorzy
       messaging_users: Wiadomości do użytkowników
+      newsletters: Biuletyny
       admin_notifications: Powiadomienia
+      system_emails: E-maile systemowe
       emails_download: Pobieranie e-mail
+      valuators: Wyceniający
+      poll_officers: Urzędnicy sondujący
+      polls: Głosowania
+      poll_booths: Lokalizacja kabin
+      poll_booth_assignments: Przeznaczenia Kabin
+      poll_shifts: Zarządzaj zmianami
+      officials: Urzędnicy
+      organizations: Organizacje
+      settings: Ustawienia globalne
+      spending_proposals: Wnioski wydatkowe
+      stats: Statystyki
+      signature_sheets: Arkusze podpisu
+      site_customization:
+        homepage: Strona główna
+        pages: Strony niestandardowe
+        images: Niestandardowe obrazy
+        content_blocks: Niestandardowe bloki zawartości
+        information_texts: Niestandardowe teksty informacyjne
+        information_texts_menu:
+          debates: "Debaty"
+          community: "Społeczność"
+          proposals: "Wnioski"
+          polls: "Głosowania"
+          layouts: "Układy"
+          mailers: "E-maile"
+          management: "Zarząd"
+          guides: "Przewodniki"
+          welcome: "Witaj"
+        buttons:
+          save: "Zapisz"
+      title_moderated_content: Zawartość moderowana
+      title_budgets: Budżety
+      title_polls: Głosowania
+      title_profiles: Profile
+      title_settings: Ustawienia
+      title_site_customization: Zawartość witryny
+      title_booths: Kabiny wyborcze
+      legislation: Grupowy proces prawodawczy
       users: Użytkownicy
     administrators:
       index:
         title: Administrator
+        name: Nazwisko
         email: E-mail
       administrator:
         add: Dodaj
@@ -676,6 +723,8 @@ pl:
         description: "Opis"
         email: "E-mail"
         group: "Grupa"
+        no_description: "Bez opisu"
+        no_group: "Bez grupy"
     valuator_groups:
       index:
         name: "Nazwa"
