@@ -336,7 +336,6 @@ es-AR:
           enabled: Habilitado
           process: Proceso
           debate_phase: Fase previa
-          allegations_phase: Fase de redacción
           proposals_phase: Fase de propuestas
           start: Inicio
           end: Fin
