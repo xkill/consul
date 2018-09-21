@@ -717,6 +717,10 @@ pl:
       support_title: Wesprzyj ten projekt
       supports:
         zero: Brak wsparcia
+        one: 1 popierający
+        few: "%{count} popierające"
+        many: "%{count} popierających"
+        other: "%{count} popierających"
   stats:
     index:
       visits: Odwiedziny
@@ -758,6 +762,32 @@ pl:
       budget_investments: Inwestycje budżetowe
       comments: Komentarze
       actions: Akcje
+      filters:
+        comments:
+          one: 1 komentarz
+          few: "%{count} komentarze"
+          many: "%{count} komentarzy"
+          other: "%{count} komentarzy"
+        debates:
+          one: 1 Debata
+          few: "%{count} Debaty"
+          many: "%{count} Debat"
+          other: "%{count} Debat"
+        proposals:
+          one: 1 Wniosek
+          few: "%{count} Wnioski"
+          many: "%{count} Wniosków"
+          other: "%{count} Wniosków"
+        budget_investments:
+          one: 1 Inwestycja
+          few: "%{count} Inwestycje"
+          many: "%{count} Inwestycji"
+          other: "%{count} Inwestycji"
+        follows:
+          one: 1 Obserwujący
+          few: "%{count} Obserwujących"
+          many: "%{count} Obserwujących"
+          other: "%{count} Obserwujących"
       no_activity: Użytkownik nie ma publicznej aktywności
       no_private_messages: "Ten użytkownik nie przyjmuje wiadomości prywatnych."
       private_activity: Ten użytkownik postanowił zachować listę aktywności jako prywatną.
@@ -765,6 +795,9 @@ pl:
       delete_alert: "Czy na pewno chcesz usunąć swój projekt inwestycyjny? Tego działania nie można cofnąć"
     proposals:
       send_notification: "Wyślij powiadomienie"
+      retire: "Wycofać"
+      retired: "Wniosek wycofany"
+      see: "Zobacz wniosek"
   votes:
     agree: Zgadzam się
     anonymous: Zbyt wiele anonimowych głosów, by móc głosować %{verify_account}.
@@ -843,6 +876,7 @@ pl:
     error: "Link jest nieprawidłowy. Pamiętaj, aby zacząć z %{url}."
     error_itself: "Link nie jest prawidłowy. Nie możesz powiązać treści z samą sobą."
     success: "Dodałeś nową powiązaną treść"
+    is_related: "Czy to treść powiązana?"
     score_positive: "Tak"
     score_negative: "Nie"
     content_title:
