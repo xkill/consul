@@ -397,6 +397,7 @@ pl:
       select_order_long: 'Przeglądasz wnioski według:'
       start_proposal: Stwórz wniosek
       title: Wnioski
+      top: Najwyższe tygodniowo
       top_link_proposals: Najbardziej wspierane propozycje według kategorii
       section_header:
         icon_alt: Ikona wniosków
@@ -494,6 +495,9 @@ pl:
       geozone_restricted: "Dzielnice"
       geozone_info: "Mogą brać udział osoby w Census: "
       already_answer: "Brałeś już udział w tej sondzie"
+      not_logged_in: "Musisz się zalogować lub zarejestrować, by wziąć udział"
+      unverified: "Musisz zweryfikować swoje konto, by by wziąć udział"
+      cant_answer: "To głosowanie nie jest dostępne w Twojej geostrefie"
       section_header:
         icon_alt: Ikona głosowania
         title: Głosowanie
@@ -503,6 +507,7 @@ pl:
         description: Sondaże obywatelskie są mechanizmem opartym na uczestnictwie, dzięki któremu obywatele z prawem głosu mogą podejmować bezpośrednie decyzje
       no_polls: "Nie ma otwartych głosowań."
     show:
+      already_voted_in_booth: "Wziąłeś już udział w fizycznym stanowisku. Nie możesz wziąć udziału ponownie."
       already_voted_in_web: "Brałeś już udział w tej sondzie. Jeśli zagłosujesz ponownie, zostanie to nadpisane."
       back: Wróć do głosowania
       cant_answer_not_logged_in: "Aby wziąć udział, musisz %{signin} lub %{signup}."
@@ -529,7 +534,12 @@ pl:
         total_participation: "Całkowity udział"
         total_votes: "Łączna liczba oddanych głosów"
         votes: "GŁOSY"
+        web: "SIEĆ"
+        booth: "STANOWISKO"
         total: "ŁĄCZNIE"
+        valid: "Ważny"
+        white: "Białe głosy"
+        null_votes: "Nieważny"
       results:
         title: "Pytania"
         most_voted_answer: "Najczęściej wybierana odpowiedź: "
@@ -646,6 +656,7 @@ pl:
     view_mode:
       title: Tryb podglądu
       cards: Karty
+      list: Lista
     recommended_index:
       title: Rekomendacje
       see_more: Zobacz więcej rekomendacji
@@ -668,6 +679,7 @@ pl:
       submit_buttons:
         create: Utwórz
         new: Utwórz
+      title: Tytuł wniosku dotyczącego wydatków
     index:
       title: Budżetowanie partycypacyjne
       unfeasible: Niewykonalne projekty inwestycyjne
