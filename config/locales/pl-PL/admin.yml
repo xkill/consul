@@ -153,6 +153,7 @@ pl:
       index:
         heading_filter_all: Wszystkie nagłówki
         administrator_filter_all: Wszyscy administratorzy
+        valuator_filter_all: Wszyscy wyceniający
         tags_filter_all: Wszystkie tagi
         advanced_filters: Zaawansowane filtry
         placeholder: Wyszukaj projekty
@@ -164,11 +165,14 @@ pl:
         filters:
           all: Wszystko
           without_admin: Bez przypisanego administratora
+          without_valuator: Bez przypisanego wyceniającego
+          under_valuation: W trakcie wyceny
           valuation_finished: Wycena zakończona
           feasible: Wykonalne
           selected: Wybrany
           undecided: Niezdecydowany
           unfeasible: Niewykonalne
+          min_total_supports: Minimalne poparcie
           winners: Zwycięzcy
           one_filter_html: "Bieżące zastosowane filtry: <b><em>%{filter}</em></b>"
           two_filters_html: "Bieżące zastosowane filtry: <b><em>%{filter}, %{advanced_filters}</em></b>"
@@ -179,21 +183,37 @@ pl:
         title: Projekty inwestycyjne
         assigned_admin: Przypisany administrator
         no_admin_assigned: Nie przypisano administratora
+        no_valuators_assigned: Brak przypisanych wyceniających
         no_valuation_groups: Nie przypisano żadnych grup wyceny
         feasibility:
           feasible: "Wykonalne (%{price})"
           unfeasible: "Niemożliwy do realizacji"
+          undecided: "Niezdecydowany"
         selected: "Wybrany"
         select: "Wybierz"
         list:
+          id: IDENTYFIKATOR
+          title: Tytuł
+          supports: Poparcia
+          admin: Administrator
+          valuator: Wyceniający
+          valuation_group: Grupa Wyceniająca
+          geozone: Zakres operacji
+          feasibility: Wykonalność
+          valuation_finished: Val. Fin.
+          selected: Wybrany
+          visible_to_valuators: Pokaż wyceniającym
           author_username: Nazwa użytkownika autora
+          incompatible: Niezgodne
         cannot_calculate_winners: Budżet musi pozostać w fazie "Projekty głosowania", "Przegląd głosów" lub "Gotowy budżet" w celu obliczenia zwycięzców projektów
         see_results: "Zobacz wyniki"
       show:
         assigned_admin: Przypisany administrator
         assigned_valuators: Przypisani wyceniający
         classification: Klasyfikacja
+        info: "%{budget_name} - Grupa: %{group_name} - Projekt inwestycyjny %{id}"
         edit: Edytuj
+        edit_classification: Edytuj klasyfikację
         by: Przez
         sent: Wysłane
         group: Grupa
@@ -203,6 +223,15 @@ pl:
         tags: Tagi
         user_tags: Tagi użytkownika
         undefined: Niezdefiniowany
+        milestone: Wydarzenie
+        new_milestone: Utwórz wydarzenie
+        compatibility:
+          title: Zgodność
+          "true": Niezgodne
+          "false": Zgodne
+        selection:
+          title: Wybór
+          "true": Wybrany
         winner:
           title: Zwycięzca
           "true": "Tak"
@@ -538,6 +567,7 @@ pl:
         segment_recipient: Adresaci
         sent: Wysłane
         actions: Akcje
+        draft: Projekt
         edit: Edytuj
         delete: Usuń
         preview: Podgląd
@@ -550,6 +580,7 @@ pl:
       show:
         title: Podgląd biuletynu
         send: Wyślij
+        affected_users: (%{n} dotknięci użytkownicy)
         sent_at: Wysłane na
         subject: Temat
         segment_recipient: Adresaci
@@ -637,8 +668,14 @@ pl:
         in_evaluation_count: W ocenie
         total_count: Łączny
         cost: Koszt
+      form:
+        edit_title: "Wyceniający: Edytuj wyceniającego"
+        update: "Aktualizuj wyceniającego"
+        updated: "Wyceniający zaktualizowany pomyślnie"
       show:
+        description: "Opis"
         email: "E-mail"
+        group: "Grupa"
     valuator_groups:
       index:
         name: "Nazwa"
