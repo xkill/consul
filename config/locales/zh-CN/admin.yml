@@ -370,7 +370,6 @@ zh-CN:
           enabled: 已启用
           process: 进程
           debate_phase: 辩论阶段
-          allegations_phase: 起草阶段
           proposals_phase: 提议阶段
           start: 开始
           end: 结束
