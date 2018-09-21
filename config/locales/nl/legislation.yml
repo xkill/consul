@@ -82,7 +82,6 @@ nl:
         key_dates: Data
         debate_dates: Discussie
         draft_publication_date: Concept publicatie
-        allegations_dates: Bijdragen
         result_publication_date: Eindversie publicatie
         proposals_dates: Voorstellen
     questions:
