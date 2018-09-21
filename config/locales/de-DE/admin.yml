@@ -372,7 +372,6 @@ de:
           enabled: Aktiviert
           process: Verfahren
           debate_phase: Diskussionsphase
-          allegations_phase: Entwurfsphase
           proposals_phase: Vorschlagsphase
           start: Beginn
           end: Ende
