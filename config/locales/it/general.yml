@@ -668,6 +668,17 @@ it:
       recommendation_three: Cerca di entrare molto nel dettaglio descrivendo la tua proposta di spesa così che il gruppo dei revisori capisca le tue argomentazioni.
       recommendation_two: Qualsiasi proposta o commento che suggerisca azioni illegali verrà eliminato.
       recommendations_title: Come creare una proposta di spesa
+      start_new: Crea proposta di spesa
+    show:
+      author_deleted: Utente cancellato
+      code: 'Codice proposta:'
+      share: Condividi
+    wrong_price_format: Solo numeri interi
+    spending_proposal:
+      spending_proposal: Progetto di investimento
+      already_supported: Hai già sostenuto questa proposta. Condividila!
+      support: Sostieni
+      support_title: Sostieni questo progetto
   stats:
     index:
       visits: Visite
