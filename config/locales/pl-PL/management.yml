@@ -65,6 +65,8 @@ pl:
       create_spending_proposal: Utwórz wniosek wydatkowy
       print_spending_proposals: Drukuj wniosek wydatkowy
       support_spending_proposals: Poprzyj wniosek wydatkowy
+      create_budget_investment: Utwórz inwestycję budżetową
+      print_budget_investments: Wydrukuj inwestycje budżetowe
       support_budget_investments: Wspieraj inwestycje budżetowe
       users: Zarządzanie użytkownikami
       user_invites: Wysyłać zaproszenia
@@ -75,6 +77,7 @@ pl:
       support_proposals: Popieraj wnioski
       vote_proposals: Oceń wnioski
     print:
+      proposals_info: Utwórz Twój wniosek na http://url.consul
       proposals_title: 'Wnioski:'
       spending_proposals_info: Weź udział w http://url.consul
       budget_investments_info: Weź udział w http://url.consul
@@ -129,3 +132,13 @@ pl:
       erase_account_link: Usuń użytkownika
       erase_account_confirm: Czy na pewno chcesz usunąć konto? Tego działania nie można cofnąć
       erase_warning: Tego działania nie można cofnąć. Upewnij się, że chcesz usunąć to konto.
+      erase_submit: Usuń konto
+    user_invites:
+      new:
+        label: E-maile
+        info: "Wprowadź adrey e-mailowe oddzielone przecinkami (',')"
+        submit: Wyślij zaproszenia
+        title: Wyślij zaproszenia
+      create:
+        success_html: <strong>%{count} zaproszenia </strong> zostały wysłane.
+        title: Wysyłać zaproszenia
