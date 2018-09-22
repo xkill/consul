@@ -768,11 +768,32 @@ pl:
       by_officer:
         date: "Data"
         booth: "Kabina wyborcza"
+        assignments: "Uoficjalnianie zmian w tym głosowaniu"
+        no_assignments: "Ten użytkownik ma nie uoficjalnionych zmian w tym głowoaniu."
     poll_shifts:
       new:
+        add_shift: "Dodaj zmianę"
+        shift: "Przypisanie"
+        shifts: "Zmiany w tej budce wyborczej"
         date: "Data"
         task: "Zadanie"
+        edit_shifts: Edytuj zmiany
+        new_shift: "Nowa zmiana"
+        no_shifts: "Ta kabina wyborcza nie ma zmian"
+        officer: "Urzędnik"
+        remove_shift: "Usuń"
+        search_officer_button: Szukaj
+        search_officer_placeholder: Szukaj urzędnika
+        search_officer_text: Szukaj urzędnika, by przypisać nową zmianę
+        select_date: "Wybierz dzień"
+        no_voting_days: "Dni głosowania dobiegły końca"
+        select_task: "Wybierz zadanie"
+        table_shift: "Zmiana"
         table_email: "E-mail"
+        table_name: "Nazwisko"
+      flash:
+        create: "Zmiana dodana"
+        destroy: "Zmiana usunięta"
     booth_assignments:
       manage:
         status:
