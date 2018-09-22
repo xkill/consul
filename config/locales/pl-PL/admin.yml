@@ -773,7 +773,7 @@ pl:
     poll_shifts:
       new:
         add_shift: "Dodaj zmianę"
-        shift: "Przypisanie"
+        shift: "Przydział"
         shifts: "Zmiany w tej budce wyborczej"
         date: "Data"
         task: "Zadanie"
@@ -784,7 +784,7 @@ pl:
         remove_shift: "Usuń"
         search_officer_button: Szukaj
         search_officer_placeholder: Szukaj urzędnika
-        search_officer_text: Szukaj urzędnika, by przypisać nową zmianę
+        search_officer_text: Szukaj urzędnika, by przydzielić nową zmianę
         select_date: "Wybierz dzień"
         no_voting_days: "Dni głosowania dobiegły końca"
         select_task: "Wybierz zadanie"
@@ -794,9 +794,15 @@ pl:
       flash:
         create: "Zmiana dodana"
         destroy: "Zmiana usunięta"
+        date_missing: "Data musi być zaznaczona"
+      vote_collection: Zbierz Głosy
+      recount_scrutiny: Przeliczenie & Kontrola
     booth_assignments:
+      manage_assignments: Zarządzaj przydziałami
       manage:
+        assignments_list: "Przydziały do głosowania %{poll}"
         status:
+          assign_status: Przydział
           assigned: Przypisany
           unassigned: Nieprzypisany
         actions:
@@ -877,7 +883,14 @@ pl:
       answers:
         images:
           add_image: "Dodaj obraz"
+          save_image: "Zapisz obraz"
       show:
+        proposal: Wniosek oryginalny
+        author: Autor
+        question: Pytanie
+        edit_question: Edytuj Pytanie
+        valid_answers: Ważne odpowiedzi
+        add_answer: Dodaj odpowiedź
         video_url: Zewnętrzne video
         answers:
           title: Odpowiedź
