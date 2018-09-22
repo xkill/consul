@@ -734,20 +734,40 @@ pl:
         no_group: "Bez grupy"
     valuator_groups:
       index:
+        title: "Grupy Wyceniające"
+        new: "Utwórz grupę wyceniających"
         name: "Nazwa"
         members: "Członkowie"
+        no_groups: "Brak grup wyceniających"
+      show:
+        title: "Grupa wyceniających: %{group}"
+        no_valuators: "Ta grupa nie posiada przypisanych wyceniających"
       form:
         name: "Nazwa grupy"
+        new: "Utwórz grupę wyceniających"
+        edit: "Zapisz grupę wyceniających"
     poll_officers:
+      index:
+        title: Urzędnicy sondujący
       officer:
         add: Dodaj
+        delete: Usuń pozycję
+        name: Nazwisko
         email: E-mail
+        entry_name: urzędnik
+      search:
+        email_placeholder: Wyszukaj użytkownika według adresu e-mail
+        search: Szukaj
+        user_not_found: Nie znaleziono użytkownika
     poll_officer_assignments:
       index:
+        officers_title: "Lista urzędników"
         no_officers: "Nie ma przydzielonych dowódców do tej ankiety."
+        table_name: "Nazwisko"
         table_email: "E-mail"
       by_officer:
         date: "Data"
+        booth: "Kabina wyborcza"
     poll_shifts:
       new:
         date: "Data"
