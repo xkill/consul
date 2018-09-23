@@ -1,1 +1,12 @@
 zh-CN:
+  devise:
+    password_expired:
+      expire_password: "密码已过期"
+      change_required: "您的密码已过期"
+      change_password: "更改您的密码"
+      new_password: "新密码"
+      updated: "密码已成功更新"
+    confirmations:
+      confirmed: "您的账号已确认。"
+      send_instructions: "几分钟后，您将收到一封电子邮件，其中包含如何重设密码的说明。"
+      send_paranoid_instructions: "如果您的电子邮件地址在我们的数据库中，几分钟后，您将收到一封电子邮件，其中包含如何重设密码的说明。"
