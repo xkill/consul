@@ -1,1 +1,17 @@
 zh-CN:
+  community:
+    sidebar:
+      title: 社群
+      description:
+        proposal: 参与此提议的用户社群。
+        investment: 参与此投资的用户社群
+      button_to_access: 访问社群
+    show:
+      title:
+        proposal: 提议社群
+        investment: 预算投资社群
+      description:
+        proposal: 参与此提议的社群。活跃的社群可以帮助改善提议的内容并促进其传播以得到更多的支持。
+        investment: 参与此预算投资的社群。活跃的社群可以帮助改善预算投资的内容并促进其传播以得到更多的支持。
+      create_first_community_topic:
+        first_theme_not_logged_in: 没有收到问题，请参与创建第一个问题。
