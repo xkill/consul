@@ -75,3 +75,45 @@ zh-CN:
         support_title: 支持此项目
         confirm_group:
           other: "您只能支持%{count} 个区域的投资。如果您要继续，您就不能更改您地区的选举。是否确定？"
+        supports:
+          zero: 没有支持
+          other: "一个支持\n%{count} 个支持"
+        give_support: 支持
+      header:
+        check_ballot: 查看我的投票
+        different_heading_assigned_html: "您在另一个标题中有有效投票：%{heading_link}"
+        change_ballot: "如果您改变主意，您可以删除您在%{check_ballot} 中的投票并重新开始。"
+        check_ballot_link: "查看我的投票"
+        price: "此标题有一个预算"
+    progress_bar:
+      assigned: "您已经分配： "
+      available: "可用的预算： "
+    show:
+      group: 组
+      phase: 实际阶段
+      unfeasible_title: 不可用的投资
+      unfeasible: 查看不可用的投资
+      unselected_title: 未被选入投票阶段的投资
+      unselected: 查看未被选入投票阶段的投资
+      see_results: 查看结果
+    results:
+      link: 结果
+      page_title: "%{budget}- 结果"
+      heading: "参与性预算结果"
+      heading_selection_title: "按区域"
+      spending_proposal: 提议标题
+      ballot_lines_count: 被选的次数
+      hide_discarded_link: 隐藏放弃的
+      show_all_link: 显示所有
+      price: 价格
+      amount_available: 可用的预算
+      accepted: "已接受的支出提议： "
+      discarded: "已放弃的支出提议： "
+      incompatibles: 不兼容
+      investment_proyects: 所有投资项目的列表
+      unfeasible_investment_proyects: 所有不可行投资项目的列表
+      not_selected_investment_proyects: 所有未被选入投票的投资项目的列表
+    phases:
+      errors:
+        dates_range_invalid: "开始日期不能等于或晚于结束日期"
+        prev_phase_dates_invalid: "开始日期必须晚于上一个启用阶段（%{phase_name}）的开始日期"
