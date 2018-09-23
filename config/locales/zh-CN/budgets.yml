@@ -55,3 +55,23 @@ zh-CN:
       see_results: 查看结果
       section_footer:
         title: 参与性预算的帮助说明
+        description: 通过参与性预算，公民决定哪些项目注定会是预算的一部分。
+    investments:
+      form:
+        tag_category_label: "类别"
+        tags_instructions: "为此提议加标签。您可以从推荐的类别中选择或者自行添加"
+        tags_label: 标签
+        tags_placeholder: "输入您希望使用的标签，用逗号 (',') 分割"
+      show:
+        project_unfeasible_html: '此投资项目<strong>已经被标记为不可行</strong>，并将不会进入投票阶段。'
+        project_selected_html: '此投资项目<strong>已经被选择</strong>进入投票阶段。'
+        project_winner: '胜出的投票项目'
+        project_not_selected_html: '此投资项目<strong>未被选择</strong>进入投票阶段。'
+      wrong_price_format: 仅限整数
+      investment:
+        add: 投票
+        already_added: 您已经添加此投票项目
+        already_supported: 您已经支持此投票项目。请进行分享！
+        support_title: 支持此项目
+        confirm_group:
+          other: "您只能支持%{count} 个区域的投资。如果您要继续，您就不能更改您地区的选举。是否确定？"
