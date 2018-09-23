@@ -1,1 +1,9 @@
 zh-CN:
+  budgets:
+    ballots:
+      show:
+        title: 您的选票
+        amount_spent: 支出金额
+        remaining: "您仍然有<span>%{amount}</span>可以投资。"
+        no_balloted_group_yet: "您还没有投票给这个组，去投票吧！"
+        remove: 删除投票
