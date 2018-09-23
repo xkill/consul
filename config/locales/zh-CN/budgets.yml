@@ -62,6 +62,20 @@ zh-CN:
         tags_instructions: "为此提议加标签。您可以从推荐的类别中选择或者自行添加"
         tags_label: 标签
         tags_placeholder: "输入您希望使用的标签，用逗号 (',') 分割"
+        map_location: "地图位置"
+        map_location_instructions: "将地图导航到该位置并放置标记。"
+        map_remove_marker: "删除地图标记"
+        location: "位置附加信息"
+        map_skip_checkbox: "此投资没有具体的位置或者我并不知道。"
+      index:
+        title: 参与性预算编制
+        unfeasible: 不可行的投资项目
+        unfeasible_text: "投资必须符合若干标准（合法性，具体性，是城市的责任，不超出预算限制）才可以被宣布为可行并进入最终投票阶段。所有不符合这些标准的投资都被标记为不可行，并将连同其不可行报告一起发布在以下列表中。"
+        by_heading: "具有范围的投资项目：%{heading}"
+        search_form:
+          button: 搜索
+          placeholder: 搜索投资项目...
+          title: 搜索
       show:
         project_unfeasible_html: '此投资项目<strong>已经被标记为不可行</strong>，并将不会进入投票阶段。'
         project_selected_html: '此投资项目<strong>已经被选择</strong>进入投票阶段。'
@@ -117,3 +131,4 @@ zh-CN:
       errors:
         dates_range_invalid: "开始日期不能等于或晚于结束日期"
         prev_phase_dates_invalid: "开始日期必须晚于上一个启用阶段（%{phase_name}）的开始日期"
+        next_phase_dates_invalid: "结束日期必须早于下个启用阶段 (%{phase_name}) 的结束日期"
