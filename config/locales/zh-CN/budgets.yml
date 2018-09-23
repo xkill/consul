@@ -24,3 +24,34 @@ zh-CN:
       show:
         title: 选择选项
         unfeasible_title: 不可行的投资
+        unfeasible: 查看不可行的投资
+        unselected_title: 未被选入投票阶段的投资
+        unselected: 查看未被选入投票阶段的投资
+    phase:
+      drafting: 草稿（公共不可见）
+      informing: 信息
+      accepting: 正在接受项目
+      reviewing: 正在审阅项目
+      selecting: 正在选择项目
+      valuating: 正在评估项目
+      publishing_prices: 正在发布项目价格
+      balloting: 正在投票项目
+      reviewing_ballots: 正在审核投票
+      finished: 已完成的预算
+    index:
+      title: 参与性预算
+      empty_budgets: 没有预算。
+      section_header:
+        icon_alt: 参与性预算图标
+        title: 参与性预算
+        help: 参与性预算的帮助说明
+        all_phases: 查看所有阶段
+      all_phases: 预算投资的阶段
+      map: 预算投资提议的地理位置
+      investment_proyects: 所有投资项目的列表
+      unfeasible_investment_proyects: 所有不可行投资项目的列表
+      not_selected_investment_proyects: 所有未选入投票的投资项目的列表
+      finished_budgets: 已完成的参与性预算
+      see_results: 查看结果
+      section_footer:
+        title: 参与性预算的帮助说明
