@@ -53,3 +53,7 @@ zh-CN:
         recommendations_title: 创建主题的建议
         recommendation_one: 请不要用大写字母写主题标题或整个句子。在因特网上这被当作是在喊叫。没有人喜欢被吆喝。
         recommendation_two: 任何暗示非法行为，以及那些意图破坏主题空间的主题或评论都将被消除，其他的都是被允许的。
+        recommendation_three: 享受这个空间，以及其中充满的声音，它也是您的。
+  topics:
+    show:
+      login_to_comment: 您必须%{signin} 或者%{signup} 才能留下评论。
