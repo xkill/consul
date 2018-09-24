@@ -1139,7 +1139,29 @@ pl:
         assigned_valuators: Wyceniający
         submit_button: Zaktualizuj
         tags: Znaczniki
+        tags_placeholder: "Wypisz pożądane tagi, oddzielone przecinkami (,)"
+        undefined: Niezdefiniowany
+      summary:
+        title: Podsumowanie dla projektów inwestycyjnych
+        title_proposals_with_supports: Podsumowanie dla projektów inwestycyjnych z poparciami
+        geozone_name: Zakres
+        finished_and_feasible_count: Zakończone i wykonalne
+        finished_and_unfeasible_count: Zakończone i niewykonalne
+        finished_count: Zakończony
+        in_evaluation_count: W ocenie
+        total_count: Łączny
+        cost_for_geozone: Koszt
     geozones:
+      index:
+        title: Geostrefa
+        create: Stwórz geostrefę
+        edit: Edytuj
+        delete: Usuń
+      geozone:
+        name: Nazwisko
+        external_code: Kod zewnętrzny
+        census_code: Kod spisu ludności
+        coordinates: Współrzędne
       errors:
         form:
           error:
@@ -1284,8 +1306,16 @@ pl:
           names:
             top_links: Najważniejsze Łącza
             footer: Stopka
+            subnavigation_left: Główna Nawigacja w Lewo
+            subnavigation_right: Główna Nawigacja w Prawo
       images:
+        index:
+          title: Niestandardowe obrazy
+          update: Zaktualizuj
+          delete: Usuń
+          image: Obraz
         update:
+          notice: Strona pomyślnie zaktualizowana
           error: Nie można zaktualizować obrazu
         destroy:
           notice: Obraz został pomyślnie usunięty
