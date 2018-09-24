@@ -14,8 +14,8 @@ es:
         one: "hito"
         other: "hitos"
       budget/investment/status:
-        one: "Estado de la inversión"
-        other: "Estados de las inversiones"
+        one: "Estado de proyecto"
+        other: "Estados de proyecto"
       comment:
         one: "Comentario"
         other: "Comentarios"
@@ -105,7 +105,7 @@ es:
         other: "Votaciones"
       proposal_notification:
         one: "Notificación de propuesta"
-        other: "Notificaciónes de propuesta"
+        other: "Notificaciones de propuestas"
     attributes:
       budget:
         name: "Nombre"
@@ -129,9 +129,9 @@ es:
         image: "Imagen descriptiva de la propuesta de inversión"
         image_title: "Título de la imagen"
       budget/investment/milestone:
-        status_id: "Estado actual de la inversión (opcional)"
+        status_id: "Estado actual del proyecto (opcional)"
         title: "Título"
-        description: "Descripción (opcional si hay una condición asignada)"
+        description: "Descripción (opcional si se ha asignado un estado de proyecto)"
         publication_date: "Fecha de publicación"
       budget/investment/status:
         name: "Nombre"
@@ -286,7 +286,7 @@ es:
         admin_notification:
           attributes:
             segment_recipient:
-              invalid: "El usuario del destinatario es inválido"
+              invalid: "El segmento de usuarios es inválido"
         map_location:
           attributes:
             map:
