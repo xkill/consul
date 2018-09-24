@@ -59,4 +59,6 @@ pl:
       community_description: "Włącza sekcję społeczności we wnioskach oraz projektach inwestycyjnych Budżetów Partycypacyjnych"
       map: "Wnioski i geolokalizacja budżetów inwestycyjnych"
       map_description: "Umożliwia geolokalizację wniosków i projektów inwestycyjnych"
-      allow_images: "Umożliw przesłanie i wyświetl obrazy"
+      allow_images: "Zezwalaj przesył i wyświetl obrazy"
+      allow_images_description: "Zezwalaj użytkownikom przesyłanie zdjęć podczas tworzenia wniosków i projektów inwestycyjnych z Budżetu Partycypacyjnego"
+      allow_attached_documents: "Zezwalaj na przesyłanie i wyświetlanie załączonych dokumentów"
