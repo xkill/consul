@@ -700,6 +700,50 @@ it:
     manage:
       all: "Non hai l’autorizzazione per eseguire l’azione '%{action}' su %{subject}."
   users:
+    direct_messages:
+      new:
+        body_label: Messaggio
+        direct_messages_bloqued: "Questo utente ha deciso di non ricevere messaggi diretti"
+        submit_button: Invia messaggio
+        title: Invia un messaggio privato a %{receiver}
+        title_label: Titolo
+        verified_only: Per inviare un messaggio privato %{verify_account}
+        verify_account: verifica il tuo account
+        authenticate: È necessario %{signin} o %{signup} per continuare.
+        signin: accedere
+        signup: registrarsi
+      show:
+        receiver: Messaggio inviato a %{receiver}
+    show:
+      deleted: Eliminato
+      deleted_debate: Questo dibattito è stato eliminato
+      deleted_proposal: Questa proposta è stata eliminata
+      deleted_budget_investment: Questo progetto di investimento è stato eliminato
+      proposals: Proposte
+      debates: Dibattiti
+      budget_investments: Investimenti di bilancio
+      comments: Commenti
+      actions: Azioni
+      filters:
+        comments:
+          one: 1 Commento
+          other: "%{count} Commenti"
+        debates:
+          one: 1 Dibattito
+          other: "%{count} Dibattiti"
+        proposals:
+          one: 1 Proposta
+          other: "%{count} Proposte"
+        budget_investments:
+          one: 1 Investimento
+          other: "%{count} Investimenti"
+        follows:
+          one: 1 Follower
+          other: "%{count} Follower"
+      no_activity: L’utente non ha alcuna attività pubblica
+      no_private_messages: "Questo utente non accetta messaggi privati."
+      private_activity: Questo utente ha deciso di mantenere l'elenco di attività privato.
+      send_private_message: "Invia messaggio privato"
     proposals:
       retire: "Ritira"
       retired: "Ritira proposta"
