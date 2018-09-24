@@ -11,3 +11,6 @@ pl:
       new_button: Chcę stworzyć inwestycję budżetową
     proposal:
       title: "Wniosek obywatelski"
+      feature_1_html: "Pomysły na temat wszelkich działań, które mogą zostać podjęte przez Radę Miasta"
+      feature_3_html: "Aktywuj w dowolnym momencie, masz <strong> rok</strong>, aby uzyskać poparcie"
+      feature_4_html: "Jeśli zatwierdzone w głosowaniu, Rada Miasta akceptuje wniosek"
