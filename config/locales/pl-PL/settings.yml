@@ -45,4 +45,13 @@ pl:
     map_zoom_description: "Powiększ, aby pokazać położenie mapy"
     mailer_from_name: "Nazwa e-maila nadawcy"
     mailer_from_name_description: "Ta nazwa pojawi się w wiadomościach e-mail wysłanych z aplikacji"
+    mailer_from_address: "Adres e-mail nadawcy"
+    mailer_from_address_description: "Ten adres e-mail pojawi się w wiadomościach e-mail wysłanych z aplikacji"
+    meta_title: "Tytuł strony (SEO)"
+    meta_title_description: "Tytuł strony <title>, stosowany do poprawy SEO"
+    meta_description: "Opis strony (SEO)"
+    meta_description_description: 'Opis strony <meta name="description">, stosowany w celu poprawy SEO'
+    meta_keywords: "Słowa kluczowe (SEO)"
+    meta_keywords_description: 'Słowa kluczowe <meta name="keywords">, stosowane w celu poprawy SEO'
+    min_age_to_participate: Minimalny wiek wymagany do wzięcia udziału
     min_age_to_participate_description: "Użytkownicy powyżej tego wieku mogą uczestniczyć we wszystkich procesach"
