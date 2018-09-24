@@ -62,3 +62,8 @@ pl:
       allow_images: "Zezwalaj przesył i wyświetl obrazy"
       allow_images_description: "Zezwalaj użytkownikom przesyłanie zdjęć podczas tworzenia wniosków i projektów inwestycyjnych z Budżetu Partycypacyjnego"
       allow_attached_documents: "Zezwalaj na przesyłanie i wyświetlanie załączonych dokumentów"
+      allow_attached_documents_description: "Zezwalaj użytkownikom przesyłanie dokumentów podczas tworzenia wniosków i projektów inwestycyjnych z Budżetu Partycypacyjnego"
+      guides: "Przewodniki do tworzenia wniosków lub projektów inwestycyjnych"
+      guides_description: "Wyświetla przewodnik po różnicach między wnioskami i projektami inwestycyjnymi, jeśli istnieje aktywny budżet partycypacyjny"
+      public_stats: "Publiczne statystyki"
+      public_stats_description: "Wyświetl publiczne statystyki w panelu administracyjnym"
