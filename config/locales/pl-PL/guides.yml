@@ -1,1 +1,13 @@
 pl:
+  guides:
+    title: "Czy masz pomysł na %{org}?"
+    subtitle: "Wybierz, co chcesz utworzyć"
+    budget_investment:
+      title: "Projekt inwestycyjny"
+      feature_1_html: "Pomysły na to, jak wydać część <strong>budżetu gminy</strong>"
+      feature_2_html: "Projekty inwestycyjne są akceptowane <strong>pomiędzy styczniem a marcem</strong>"
+      feature_3_html: "Jeśli otrzyma poparcie, jest wykonalny i zakresie kompetencji gminnych, przechodzi do etapu głosowania"
+      feature_4_html: "Jeśli obywatele zatwierdzą projekty, te zostają urzeczywistnione"
+      new_button: Chcę stworzyć inwestycję budżetową
+    proposal:
+      title: "Wniosek obywatelski"
