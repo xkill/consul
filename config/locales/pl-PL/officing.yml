@@ -1,1 +1,23 @@
 pl:
+  officing:
+    header:
+      title: Ankieta
+    dashboard:
+      index:
+        title: Uoficialnianie głosowania
+        info: Tutaj możesz uprawomocniać dokumenty użytkownika i przechowaywać wyniki głosowania
+        no_shifts: Nie masz dziś uoficjalniajacych zmian.
+    menu:
+      voters: Uprawomocnij dokument
+      total_recounts: Łączne przeliczenia i wyniki
+    polls:
+      final:
+        title: Ankiety gotowe do ostatecznego przeliczenia
+        no_polls: Nie uoficjalniasz ostatecznych rozliczeń w żadnej aktywnej ankiecie
+        select_poll: Wybierz ankietę
+        add_results: Dodaj wyniki
+    results:
+      flash:
+        create: "Wyniki zapisane"
+        error_create: "Wyniki NIE zapisane. Błąd w danych."
+        error_wrong_booth: "Złe stanowisko. Wyniki NIE zapisane."
