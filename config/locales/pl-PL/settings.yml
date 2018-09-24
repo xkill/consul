@@ -41,4 +41,8 @@ pl:
     map_latitude_description: "Szerokość geograficzna, aby pokazać położenie mapy"
     map_longitude: "Długość geograficzna"
     map_longitude_description: "Długość geograficzna, aby pokazać położenie mapy"
+    map_zoom: "Powiększ"
+    map_zoom_description: "Powiększ, aby pokazać położenie mapy"
+    mailer_from_name: "Nazwa e-maila nadawcy"
+    mailer_from_name_description: "Ta nazwa pojawi się w wiadomościach e-mail wysłanych z aplikacji"
     min_age_to_participate_description: "Użytkownicy powyżej tego wieku mogą uczestniczyć we wszystkich procesach"
