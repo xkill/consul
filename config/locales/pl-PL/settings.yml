@@ -36,4 +36,5 @@ pl:
     org_name_description: "Nazwa Twojej organizacji"
     place_name: "Miejsce"
     place_name_description: "Nazwa twojego miasta"
+    related_content_score_threshold_description: "Ukrywa zawartość oznaczoną przez użytkowników jako niepowiązaną"
     min_age_to_participate_description: "Użytkownicy powyżej tego wieku mogą uczestniczyć we wszystkich procesach"
