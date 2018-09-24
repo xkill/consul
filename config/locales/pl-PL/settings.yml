@@ -37,4 +37,8 @@ pl:
     place_name: "Miejsce"
     place_name_description: "Nazwa twojego miasta"
     related_content_score_threshold_description: "Ukrywa zawartość oznaczoną przez użytkowników jako niepowiązaną"
+    map_latitude: "Szerokość geograficzna"
+    map_latitude_description: "Szerokość geograficzna, aby pokazać położenie mapy"
+    map_longitude: "Długość geograficzna"
+    map_longitude_description: "Długość geograficzna, aby pokazać położenie mapy"
     min_age_to_participate_description: "Użytkownicy powyżej tego wieku mogą uczestniczyć we wszystkich procesach"
