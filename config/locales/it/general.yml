@@ -1,24 +1,24 @@
 it:
   account:
     show:
-      change_credentials_link: Modificare le mie credenziali
+      change_credentials_link: Modifica le mie credenziali
       email_on_comment_label: Avvisami via email quando qualcuno commenta le mie proposte o dibattiti
       email_on_comment_reply_label: Avvisami via email quando qualcuno risponde ai miei commenti
-      erase_account_link: Cancellare il mio account
+      erase_account_link: Cancella il mio account
       finish_verification: Completa la verifica
       notifications: Notifiche
       organization_name_label: Nome dell'organizzazione
-      organization_responsible_name_placeholder: Rappresentante dell'organizzazione o collettivo
+      organization_responsible_name_placeholder: Rappresentante dell'organizzazione/associazione
       personal: Dettagli personali
       phone_number_label: Numero di telefono
-      public_activity_label: Mantenere pubbliche la mia lista delle attività
-      public_interests_label: Mantenere pubblica le etichette degli elementi che seguo
-      public_interests_my_title_list: Tag di elementi che segui
-      public_interests_user_title_list: Tag degli elementi che segue questo utente
-      save_changes_submit: Salvare le modifiche
-      subscription_to_website_newsletter_label: Ricevere per e-mail informazioni interessanti pubblicate sul sito
-      email_on_direct_message_label: Ricevere e-mail con i messaggi privati
-      email_digest_label: Ricevere un riepilogo delle notifiche di proposta
+      public_activity_label: Mantieni pubblica la mia lista delle attività
+      public_interests_label: Mantieni pubbliche le etichette degli elementi che seguo
+      public_interests_my_title_list: Etichette di elementi che segui
+      public_interests_user_title_list: Etichette degli elementi che segue questo utente
+      save_changes_submit: Salva modifiche
+      subscription_to_website_newsletter_label: Ricevi per email informazioni interessanti riguardanti il sito
+      email_on_direct_message_label: Ricevi email riguardanti i messaggi privati
+      email_digest_label: Ricevi un riepilogo delle notifiche di proposta
       official_position_badge_label: Visualizza l'etichetta (badge) del tipo di utente
       recommendations: Raccomandazioni
       show_debates_recommendations: Visualizza le raccomandazioni per i dibattiti
@@ -81,6 +81,8 @@ it:
     debate:
       comments:
         zero: Non ci sono commenti
+        one: 1 commento
+        other: "%{count} commenti"
       votes:
         zero: Nessun voto
         one: 1 voto
@@ -744,7 +746,44 @@ it:
       no_private_messages: "Questo utente non accetta messaggi privati."
       private_activity: Questo utente ha deciso di mantenere l'elenco di attività privato.
       send_private_message: "Invia messaggio privato"
+      delete_alert: "Sei sicuro di voler eliminare il tuo progetto di investimento? Questa azione non può essere annullata"
     proposals:
+      send_notification: "Invia notifica"
       retire: "Ritira"
       retired: "Ritira proposta"
       see: "Visualizza proposta"
+  votes:
+    agree: Sono d'accordo
+    anonymous: Troppi voti anonimi per ammettere il voto %{verify_account}.
+    comment_unauthenticated: È necessario %{signin} o %{signup} per votare.
+    disagree: Non sono d'accordo
+    organizations: Alle organizzazioni non è permesso votare
+    signin: Accedi
+    signup: Registrati
+    supports: Sostegni
+    unauthenticated: È necessario %{signin} o %{signup} per continuare.
+    verified_only: Solo gli utenti verificati possono votare le proposte; %{verify_account}.
+    verify_account: verifica il tuo account
+    spending_proposals:
+      not_logged_in: È necessario %{signin} o %{signup} per continuare.
+      not_verified: Solo gli utenti verificati possono votare le proposte; %{verify_account}.
+      organization: Alle organizzazioni non è permesso votare
+      unfeasible: I progetti di investimento irrealizzabili non possono essere sostenuti
+      not_voting_allowed: La fase di votazione è chiusa
+    budget_investments:
+      not_logged_in: È necessario %{signin} o %{signup} per continuare.
+      not_verified: Solo gli utenti verificati possono votare i progetti di investimento; %{verify_account}.
+      organization: Alle organizzazioni non è permesso votare
+  related_content:
+    content_title:
+      budget_investment: "Investimento di bilancio"
+  admin/widget:
+    header:
+      title: Amministrazione
+  annotator:
+    help:
+      alt: Seleziona il testo che vuoi commentare e premi il pulsante con la matita.
+      text: Per commentare questo documento è necessario %{sign_in} o %{sign_up}. Quindi seleziona il testo che desideri commentare e premi il pulsante con la matita.
+      text_sign_in: login
+      text_sign_up: registrarsi
+      title: Come posso commentare questo documento?
