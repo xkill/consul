@@ -55,3 +55,8 @@ pl:
     meta_keywords_description: 'Słowa kluczowe <meta name="keywords">, stosowane w celu poprawy SEO'
     min_age_to_participate: Minimalny wiek wymagany do wzięcia udziału
     min_age_to_participate_description: "Użytkownicy powyżej tego wieku mogą uczestniczyć we wszystkich procesach"
+    feature:
+      community_description: "Włącza sekcję społeczności we wnioskach oraz projektach inwestycyjnych Budżetów Partycypacyjnych"
+      map: "Wnioski i geolokalizacja budżetów inwestycyjnych"
+      map_description: "Umożliwia geolokalizację wniosków i projektów inwestycyjnych"
+      allow_images: "Umożliw przesłanie i wyświetl obrazy"
