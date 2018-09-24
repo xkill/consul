@@ -20,4 +20,28 @@ pl:
       flash:
         create: "Wyniki zapisane"
         error_create: "Wyniki NIE zapisane. Błąd w danych."
-        error_wrong_booth: "Złe stanowisko. Wyniki NIE zapisane."
+        error_wrong_booth: "Zła kabina wyborcza. Wyniki NIE zapisane."
+      new:
+        title: "%{poll} - Dodaj wyniki"
+        not_allowed: "Możesz dodać wyniki dla tej ankiety"
+        booth: "Kabina wyborcza"
+        date: "Data"
+        select_booth: "Wybierz kabinę wyborczą"
+        ballots_white: "Całkowicie puste karty do głosowania"
+        ballots_null: "Nieprawidłowe karty do głosowania"
+        ballots_total: "Całkowita liczba kart do głosowania"
+        submit: "Zapisz"
+        results_list: "Twoje wyniki"
+        see_results: "Zobacz wyniki"
+      index:
+        no_results: "Brak wyników"
+        results: Wyniki
+        table_answer: Odpowiedź
+        table_votes: Głosy
+        table_whites: "Całkowicie puste karty do głosowania"
+        table_nulls: "Nieprawidłowe karty do głosowania"
+        table_total: "Całkowita liczba kart do głosowania"
+    residence:
+      flash:
+        create: "Dokument zweryfikowany ze Spisem Powszechnym"
+        not_allowed: "Nie masz dziś uoficjalniających zmian"
