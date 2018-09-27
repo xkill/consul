@@ -36,6 +36,8 @@ he:
           my_ballot: ההצבעה שלי
           voted_info: ניתן לשנות את ההצבעה בכל זמן עד סגירת השלב
           zero: לא נעשתה הצבעה עבור פרויקט השקעה.
+          one: לא נעשתה הצבעה עבור פרויקט השקעה.
+          other: לא נעשתה הצבעה עבור פרויקט השקעה.
           verified_only: "ליצירת פרויקט השקעה חדש %{verify}."
           verify_account: "אמתו את חשבונכם"
           not_logged_in: "חובה נדרשת ליצירת תקציב, השקעה של%{sign_in} או%{sign_up}."
@@ -65,6 +67,8 @@ he:
         support_title: תמיכה בפרויקט הזה
         supports:
           zero: אין תומכים
+          one: אין תומכים
+          other: אין תומכים
         give_support: תמיכה
       header:
         check_ballot: בדוק את מצב ההצבעות

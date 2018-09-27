@@ -40,9 +40,13 @@ he:
       moderator: מנחה דיון
       responses:
         zero: אין תגובות
+        one: אין תגובות
+        other: אין תגובות
       user_deleted: משתמש/ת זה/זו נמחק/ה
       votes:
         zero: אין הצבעות
+        one: אין הצבעות
+        other: אין הצבעות
     form:
       comment_as_admin: הגב/י כמנהל/ת
       comment_as_moderator: הגב/י כמנה/ת הדיון
@@ -110,6 +114,8 @@ he:
       author_deleted: המשתמש/ת נמחק/ה
       comments:
         zero: אין תגובות
+        one: אין תגובות
+        other: אין תגובות
       comments_title: תגובות
       edit_debate_link: עריכה
       flag: דיון זה סומן כבלתי-ראוי על ידי מספר משתמשים
@@ -177,7 +183,6 @@ he:
       poll_questions: הצבעות
       budgets: מימון השתתפותי
       spending_proposals: הצעות להוצאת כספים
-  locale: עברית
   notifications:
     index:
       empty_notifications: אין לך תגובות חדשות
@@ -300,6 +305,8 @@ he:
       code: 'קוד ההצעה:'
       comments:
         zero: אין תגובות
+        one: אין תגובות
+        other: אין תגובות
       comments_tab: תגובות
       edit_proposal_link: עריכה
       flag: הצעה זו סומנה כבלתי-ראויה בידי מספר משתמשים
@@ -460,6 +467,8 @@ he:
       support_title: תמיכה בפרויקט זה
       supports:
         zero: אין תומכים עדיין
+        one: אין תומכים עדיין
+        other: אין תומכים עדיין
   stats:
     index:
       visits: ביקורים
