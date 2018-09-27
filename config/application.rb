@@ -20,7 +20,54 @@ module Consul
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     config.i18n.default_locale = :en
-    config.i18n.available_locales = [:en, :es, :fr, :nl, 'pt-BR']
+    available_locales = [
+        "ar",
+        "ast",
+        "ca",
+        "de-DE",
+        "en",
+        "en-GB",
+        "en-US",
+        "es",
+        "es-AR",
+        "es-BO",
+        "es-CL",
+        "es-CO",
+        "es-CR",
+        "es-DO",
+        "es-EC",
+        "es-SV",
+        "es-GT",
+        "es-HN",
+        "es-MX",
+        "es-NI",
+        "es-PA",
+        "es-PY",
+        "es-PE",
+        "es-PR",
+        "es-UY",
+        "es-VE",
+        "fa-IR",
+        "fr",
+        "gl",
+        "he",
+        "id-ID",
+        "it",
+        "nl",
+        "pap-PAP",
+        "pl-PL",
+        "pt-BR",
+        "ru",
+        "sl-SI",
+        "so-SO",
+        "sq-AL",
+        "sv-FI",
+        "sv-SE",
+        "tr-TR",
+        "val",
+        "zh-CN",
+        "zh-TW"]
+    config.i18n.available_locales = available_locales
     config.i18n.fallbacks = {'fr' => 'es', 'pt-br' => 'es', 'nl' => 'en'}
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', 'custom', '**', '*.{rb,yml}')]
