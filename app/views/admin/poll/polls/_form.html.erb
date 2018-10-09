@@ -1,8 +1,6 @@
-<%= render "admin/shared/globalize_locales", resource: @poll %>
-
-<%= translatable_form_for [:admin, @poll] do |f| %>
+<%= form_for [:admin, @poll] do |f| %>
   <div class="small-12 medium-6 column">
-    <%= f.translatable_text_field :name %>
+    <%= f.text_field :name %>
   </div>
 
   <div class="clear">
@@ -20,11 +18,11 @@
   </div>
 
   <div class="small-12 column">
-    <%=f.translatable_text_area :summary, rows: 4%>
+    <%=f.text_area :summary, rows: 4%>
   </div>
 
   <div class="small-12 column">
-    <%=f.translatable_text_area :description, rows: 8%>
+    <%=f.text_area :description, rows: 8%>
   </div>
 
   <div class="small-12 column">

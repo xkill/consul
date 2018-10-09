@@ -12,7 +12,6 @@ feature "Admin custom pages" do
     visit admin_site_customization_pages_path
 
     expect(page).to have_content(custom_page.title)
-    expect(page).to have_content(custom_page.slug)
   end
 
   context "Create" do
@@ -24,25 +23,24 @@ feature "Admin custom pages" do
       end
 
       expect(page).not_to have_content "An example custom page"
-      expect(page).not_to have_content "example-page"
 
       click_link "Create new page"
 
-      fill_in "site_customization_page_title_en", with: "An example custom page"
-      fill_in "site_customization_page_subtitle_en", with: "Page subtitle"
+      fill_in "site_customization_page_title", with: "An example custom page"
+      fill_in "site_customization_page_subtitle", with: "Page subtitle"
       fill_in "site_customization_page_slug", with: "example-page"
-      fill_in "site_customization_page_content_en", with: "This page is about..."
+      fill_in "site_customization_page_content", with: "This page is about..."
+      select 'English', from:"site_customization_page_locale"
 
       click_button "Create Custom page"
 
       expect(page).to have_content "An example custom page"
-      expect(page).to have_content "example-page"
     end
   end
 
   context "Update" do
     scenario "Valid custom page" do
-      create(:site_customization_page, title: "An example custom page", slug: "custom-example-page")
+      create(:site_customization_page, title: "An example custom page")
       visit admin_root_path
 
       within("#side_menu") do
@@ -52,15 +50,12 @@ feature "Admin custom pages" do
       click_link "An example custom page"
 
       expect(page).to have_selector("h2", text: "An example custom page")
-      expect(page).to have_selector("input[value='custom-example-page']")
 
-      fill_in "site_customization_page_title_en", with: "Another example custom page"
-      fill_in "site_customization_page_slug", with: "another-custom-example-page"
+      fill_in "site_customization_page_title", with: "Another example custom page"
       click_button "Update Custom page"
 
       expect(page).to have_content "Page updated successfully"
       expect(page).to have_content "Another example custom page"
-      expect(page).to have_content "another-custom-example-page"
     end
   end
 
@@ -70,7 +65,6 @@ feature "Admin custom pages" do
 
     click_link "Delete page"
 
-    expect(page).not_to have_content "An example custom page"
-    expect(page).not_to have_content "example-page"
+    expect(page).not_to have_content("An example custom page")
   end
 end

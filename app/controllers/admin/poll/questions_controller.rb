@@ -1,6 +1,5 @@
 class Admin::Poll::QuestionsController < Admin::Poll::BaseController
   include CommentableActions
-  include Translatable
 
   load_and_authorize_resource :poll
   load_and_authorize_resource :question, class: 'Poll::Question'
@@ -56,15 +55,11 @@ class Admin::Poll::QuestionsController < Admin::Poll::BaseController
   private
 
     def question_params
-      attributes = [:poll_id, :title, :question, :proposal_id]
-      params.require(:poll_question).permit(*attributes, *translation_params(Poll::Question))
+      params.require(:poll_question).permit(:poll_id, :title, :question, :proposal_id)
     end
 
     def search_params
       params.permit(:poll_id, :search)
     end
 
-    def resource
-      @poll_question ||= Poll::Question.find(params[:id])
-    end
 end

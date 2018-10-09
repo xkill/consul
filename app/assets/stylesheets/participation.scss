@@ -685,8 +685,7 @@
 }
 
 .budget-investments-list .budget-investment,
-.proposals-list .proposal,
-.legislation-proposals .proposal {
+.proposals-list .proposal {
 
   @include breakpoint(medium) {
 
@@ -884,13 +883,6 @@
     .against {
       margin-left: $line-height / 4;
     }
-  }
-}
-
-.legislation-proposals {
-
-  .votes {
-    min-height: $line-height * 8;
   }
 }
 

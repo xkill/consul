@@ -1,8 +1,5 @@
 class PagesController < ApplicationController
-  include FeatureFlags
   skip_authorization_check
-
-  feature_flag :help_page, if: lambda { params[:id] == "help/index" }
 
   def show
     @custom_page = SiteCustomization::Page.published.find_by(slug: params[:id])

@@ -10,9 +10,7 @@ class Poll::PartialResult < ActiveRecord::Base
   validates :question, presence: true
   validates :author, presence: true
   validates :answer, presence: true
-  validates :answer, inclusion: { in: ->(a) { a.question.question_answers
-                                                        .joins(:translations)
-                                                        .pluck("poll_question_answer_translations.title") }},
+  validates :answer, inclusion: { in: ->(a) { a.question.question_answers.pluck(:title) }},
                      unless: ->(a) { a.question.blank? }
   validates :origin, inclusion: { in: VALID_ORIGINS }
 

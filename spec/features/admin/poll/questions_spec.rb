@@ -6,11 +6,6 @@ feature 'Admin poll questions' do
     login_as(create(:administrator).user)
   end
 
-  it_behaves_like "translatable",
-                  "poll_question",
-                  "edit_admin_question_path",
-                  %w[title]
-
   scenario 'Index' do
     question1 = create(:poll_question)
     question2 = create(:poll_question)
@@ -46,7 +41,7 @@ feature 'Admin poll questions' do
     click_link "Create question"
 
     select 'Movies', from: 'poll_question_poll_id'
-    fill_in 'poll_question_title_en', with: title
+    fill_in 'poll_question_title', with: title
 
     click_button 'Save'
 
@@ -61,7 +56,7 @@ feature 'Admin poll questions' do
     click_link "Create question"
 
     expect(page).to have_current_path(new_admin_question_path, ignore_query: true)
-    expect(page).to have_field('poll_question_title_en', with: proposal.title)
+    expect(page).to have_field('poll_question_title', with: proposal.title)
 
     select 'Proposals', from: 'poll_question_poll_id'
 
@@ -84,7 +79,7 @@ feature 'Admin poll questions' do
 
     old_title = question1.title
     new_title = "Potatoes are great and everyone should have one"
-    fill_in 'poll_question_title_en', with: new_title
+    fill_in 'poll_question_title', with: new_title
 
     click_button 'Save'
 
@@ -113,41 +108,4 @@ feature 'Admin poll questions' do
 
   pending "Mark all city by default when creating a poll question from a successful proposal"
 
-  context "Poll select box" do
-
-    let(:poll) { create(:poll, name_en: "Name in English",
-                               name_es: "Nombre en Español",
-                               summary_en: "Summary in English",
-                               summary_es: "Resumen en Español",
-                               description_en: "Description in English",
-                               description_es: "Descripción en Español") }
-
-    let(:question) { create(:poll_question, poll: poll,
-                                            title_en: "Question in English",
-                                            title_es: "Pregunta en Español") }
-
-    before do
-      @edit_question_url = edit_admin_question_path(question)
-    end
-
-    scenario "translates the poll name in options", :js do
-      visit @edit_question_url
-
-      expect(page).to have_select('poll_question_poll_id', options: [poll.name_en])
-
-      select('Español', from: 'locale-switcher')
-
-      expect(page).to have_select('poll_question_poll_id', options: [poll.name_es])
-    end
-
-    scenario "uses fallback if name is not translated to current locale", :js do
-      visit @edit_question_url
-
-      expect(page).to have_select('poll_question_poll_id', options: [poll.name_en])
-
-      select('Français', from: 'locale-switcher')
-
-      expect(page).to have_select('poll_question_poll_id', options: [poll.name_es])
-    end
-  end
 end

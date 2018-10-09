@@ -35,10 +35,6 @@ module TranslatableFormHelper
       translatable_field(:text_area, method, options)
     end
 
-    def translatable_cktext_area(method, options = {})
-      translatable_field(:cktext_area, method, options)
-    end
-
     private
 
       def translatable_field(field_type, method, options = {})
@@ -51,14 +47,7 @@ module TranslatableFormHelper
               final_options = @template.merge_translatable_field_options(options, locale)
                                        .reverse_merge(label: label_without_locale)
 
-              if field_type == :cktext_area
-                @template.concat content_tag :div, send(field_type, localized_attr_name, final_options),
-                                             class: "js-globalize-attribute",
-                                             style: @template.display_translation?(locale),
-                                             data: { locale: locale }
-              else
-                @template.concat send(field_type, localized_attr_name, final_options)
-              end
+              @template.concat send(field_type, localized_attr_name, final_options)
             end
           end
         end
