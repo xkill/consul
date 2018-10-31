@@ -12,6 +12,6 @@ GitHubChangelogGenerator::RakeTask.new :changelog do |config|
   config.since_tag = 'v0.14'
   config.future_release = 'v0.15'
   config.base = "#{Rails.root}/CHANGELOG.md"
-  config.token = "e85e3e31f40e5cfa596507265429a06ffddd63a6"
+  config.token = Rails.application.secrets.github_changelog_token
   config.max_issues = 1
 end
