@@ -3,7 +3,7 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
-## [v0.18](https://github.com/consul/consul/compare/v0.17...v0.18) (2018-12-21)
+## [0.18.0](https://github.com/consul/consul/compare/v0.17...v0.18) (2018-12-27)
 
 ### Added
 
@@ -40,7 +40,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - **Translations:** Maintain translations for other languages after updatin main language [\#3046](https://github.com/consul/consul/pull/3046)
 - **Translations:** New Crowdin translations [\#3005](https://github.com/consul/consul/pull/3005)
 - **Translations:** Update i18n from Crowdin  [\#2998](https://github.com/consul/consul/pull/2998)
-
 
 ### Changed
 
