@@ -3,10 +3,11 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
-## [v0.18.1](https://github.com/consul/consul/tree/v0.18.1) (2019-01-16)
+## [0.18.1](https://github.com/consul/consul/tree/v0.18.1) (2019-01-17)
 
 ### Added
 
+- **Legislation:** Legislation process homepage phase [\#3188](https://github.com/consul/consul/pull/3188)
 - **Legislation:** Show documents on processes proposals phase [\#3136](https://github.com/consul/consul/pull/3136)
 - **Maintenance-Refactorings:** Remove semicolons from controllers [\#3160](https://github.com/consul/consul/pull/3160)
 - **Maintenance-Refactorings:** Remove before action not used [\#3167](https://github.com/consul/consul/pull/3167)
